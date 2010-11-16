@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!--
+
+    Licensed to the Apache Software Foundation (ASF) under one or more
+    contributor license agreements.  See the NOTICE file distributed with
+    this work for additional information regarding copyright ownership.
+    The ASF licenses this file to You under the Apache License, Version 2.0
+    (the "License"); you may not use this file except in compliance with
+    the License.  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+<html>
+    <head>
+       <META name="description" content="Apache Community Development"/>
+       <META name="keywords" content="apache, apache community, community development, opensource"/>
+
+		
+	   <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+   	   <LINK rel="stylesheet" href="style/compressed.css" type="text/css" media="screen, projection">
+       <LINK rel="stylesheet" href="style/style.css" type="text/css" media="screen, projection">
+	   <style type="text/css">
+.code {
+	border: 1px dashed #3c78b5;
+	font-size: 11px;
+	font-family: Courier;
+	margin: 10px;
+	margin-left: 0px;
+	line-height: 13px;
+}
+.codeHeader {
+	background-color: #f0f0f0;
+	border-bottom: 1px dashed #3c78b5;
+	padding: 3px;
+	text-align: center;
+}
+.codeContent {
+	text-align: left;
+	background-color: #f0f0f0;
+	padding: 3px;
+}
+
+.preformatted {
+	border: 1px dashed #3c78b5;
+	font-size: 11px;
+	font-family: Courier;
+	margin: 10px;
+	line-height: 13px;
+}
+.preformattedHeader {
+	background-color: #f0f0f0;
+	border-bottom: 1px dashed #3c78b5;
+	padding: 3px;
+	text-align: center;
+}
+.preformattedContent {
+	background-color: #f0f0f0;
+	padding: 3px;
+}
+        </style>
+
+        <LINK rel="SHORTCUT ICON" href="$images/favicon.ico">   
+        <TITLE>Apache Community Development - {% block title %}{{ headers.title }}{% endblock %}</TITLE>
+    </head>
+
+    <body onload="init()">
+    	<div class="container">
+    	<HR class="space col">
+    	<DIV class="block">
+    		<DIV class="column span-24">
+            <DIV id="header">
+                <h1>The Apache Software Foundation<BR />
+                <SPAN class="alt"><small>Meritocracy in Action.</small></SPAN></h1>
+             </DIV>
+          </DIV>
+    	</DIV>
+    	<HR/>
+
+
+        <TABLE border="0" cellpadding="2" cellspacing="0" width="100%">
+            <TR class="topBar">
+                <td align="left" valign="middle" class="topBarDiv" nowrap="true" width="100%">
+                    &nbsp;{{ breadcrumbs }}
+                </td>
+                <td align="right" valign="middle" class="topBarDiv" align="left" nowrap="true">
+                    <A href="http://community.apache.org">Apache Community Development</A> | <A href="http://mail-archives.apache.org/mod_mbox/community-dev/">Mailling List</A>
+                </td>
+            </TR>
+        </TABLE>
+
+        <TABLE border="0" cellpadding="0" width="100%">
+            <TR>
+                <td align="left" valign="top">
+                  <DIV id="PageContent">        
+                     <DIV class="pagecontent">
+                         <DIV class="wiki-content">
+                          {% block content %}{{ content|markdown }}{% endblock %}
+                         </DIV>
+                     </DIV>
+                  </DIV>
+                </td>
+            </TR>
+        </TABLE>
+
+        <DIV class="footer">
+            Copyright © 2003-2009, The Apache Software Foundation&nbsp;&nbsp;
+        </DIV>
+
+    </BODY>
+</HTML>
