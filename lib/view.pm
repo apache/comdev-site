@@ -27,7 +27,6 @@ sub normal_page {
     my %args = @_;
     my $file = "content$args{path}";
     $args{path} =~ s/\.mdtext$/\.html/;
-    $args{breadcrumbs} = breadcrumbs($args{path});
 
     my $template = $file;
     if($args{template}) {
@@ -35,6 +34,7 @@ sub normal_page {
     }
 
     read_text_file $file, \%args;
+    $args{breadcrumbs} = breadcrumbs($args{path}, $args{headers});
 
     my $page_path = $file;
     $page_path =~ s/\.[^.]+$/.page/;
@@ -51,8 +51,15 @@ sub normal_page {
 
 # Generates cwiki-style breadcrumbs
 sub breadcrumbs {
-    my @path = split m!/!, shift;
-    pop @path;
+    my ($fullpath, $headerref) = @_;
+    my @path = split m!/!, $fullpath;
+    if($path[scalar@path-1] =~ /^index/) { 
+      pop @path; 
+    } else {
+      if($headerref && $headerref->{title}) {
+         $path[scalar@path-1] = $headerref->{title};
+      }
+    }
     my @rv;
     my $relpath = "";
     for (@path) {
