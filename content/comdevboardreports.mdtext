@@ -1,0 +1,217 @@
+Title: ComDevBoardReports
+This page contains records of the Apache Community Development Project board reports. The official record of these reports is the minutes of the appropriate board meeting, they are provided here for convenience.
+
+# Draft report for next meeting
+
+The following report is *incomplete* and *draft* only. It is being prepared for the next submission to the board. Submitted reports can be found further down the page.
+
+{panel:title=DRAFT February 2011|borderStyle=solid|titleBGColor=#F7D6C1|bgColor=#FFFFCE}
+
+Status report for the Apache Community Development Project
+
+Project Status
+--------------
+
+The Community Development is progressing well, although a little more slowly than some whould have hoped.
+
+No issues require board attention at this time.
+
+Community
+---------
+
+
+
+Objectives for next period
+--------------------------
+
+
+{panel}
+
+# Submitted Reports
+
+{panel:title=November 2010|borderStyle=solid|titleBGColor=#F7D6C1|bgColor=#FFFFCE}
+
+Status report for the Apache Community Development Project
+
+Project Status
+--------------
+
+The Community Development is progressing well, although a little more slowly than some whould have hoped.
+
+The planned mentoring project has still not been formally launched. Largely due to the loss of the labels module in JIRA which was previously used by projects to indicate issues appropriate for mentoring. An alernative will be put into place very soon.
+
+Work on a project to provide hosting for Apache related software projects is progressing. Legal documents have all been signed, draft usage guidelines and a FAQ are available and PMCs have been ocntacted to reserve projects names.
+
+We have taken ownership of party@ mailing list (no changes in usage are proposed)
+
+Google Summer of Code completed - thanks to all involved. It is noticable that once again we have failed to generate any press (we never produced a press release for press@)
+
+We applied for the Google Code-In (Google&#39;s contest to introduce pre-university students to the many kinds of contributions that make open source software development possible) but were, unfortunately, unsuccessful.
+
+Ross Gardler has spoken at a reasonably large number of events around Europe addressing two key themes - The Apache Way and Innovation at the ASF.
+
+No issues require board attention at this time.
+
+Community
+---------
+
+An increasing number of volunteers are becoming engaged with Community Development PMC and contact from external participants is increasing (although still low).
+
+
+Objectives for next period
+--------------------------
+
+- Gain support from at least 5 PMCs for the mentoring programme
+- Formally launch mentoring programme
+- Launch hosting facilities for apache related projects
+
+{panel}
+
+{panel:title=August 2010|borderStyle=solid|titleBGColor=#F7D6C1|bgColor=#FFFFCE}
+
+Status report for the Apache Community Development Project
+
+Project Status
+--------------
+
+The Community Development Project is starting to ramp up again after the Google Summer of Code efforts. We have merged the 
+women@a.o list into the dev@community.a.o and are commencing work on rolling out the mentoring program.
+
+No issues require board attention at this time.
+
+Community
+---------
+
+The women@a.o mailing list has been closed and an autoresponder inviting people to post to dev@community.a.o has been set up. The vote to merge the women@a.o list was passed unaminously. One, previously unknown, community member voted -1 (non-binding). However, the owners of the women@.a.o list reassured the ComDev PMC that the list had been largely unsuccesful in meeting the  defined objectives and welcomed the opportunity to work with the ComDev PMC in ensuring that the successes of women in the ASF are duly recognised. 
+
+The local mentors program and local speakers program both continue to grow. We now have 53 local mentors, and 27 local speakers. If discussions on them on foundation-wide lists is anything to go by, they continue to be of use!
+
+Interest is growing in the mentoring programme with a number of enquiries to the development list. Ross Gardler reports that there will be between 10 and 40 students approaching the ASF for mentoring as part of their formal education in September. The draft process is already [defined](http://community.apache.org/mentoringprogramme.html) and will be refined during August in consulation with interested PMCs.
+
+There was one appeal from a GSoC student that failed in the mid-term evaluation. This was examined by both Google and the ASF admins. It was felt the mentors decision was fair and that our selection process was not at fault. A minor tweak relating to the communication of our expectations to the students has been implemented. Full details can be reviewed at http://markmail.org/thread/dsn6v2dagrm5nv7q
+
+Objectives for next period
+--------------------------
+
+* Gain support from at least 5 PMCs for the mentoring programme
+* Launch the mentoring programme in September (no press at this stage)
+{panel}
+
+{panel:title=June 2010|borderStyle=solid|titleBGColor=#F7D6C1|bgColor=#FFFFCE}
+Status report for the Apache Community Development Project
+
+No issues require board attention at this time.
+
+Apologies for not submitting last month.
+
+Website
+-------
+
+Documentation about mentoring has been moved from the wiki to the comdev
+website
+
+A beta site for finding local mentors and speakers has been set up at
+http://community.zones.apache.org/ This is reasonably well populated via
+members@ and we expect to start pushing it to the wider community@ soon.
+
+Google Summer of Code
+---------------------
+
+44 Students accepted, this will generate income of $22,000
+
+For the first time there were no major complaints about the selection
+process.
+
+Student work is underway.
+
+Mentoring Programme
+-------------------
+
+We had planned to roll out the mentoring programme after the GSoC
+selection process. However, this has not yet happened. Documentation is in
+place and a pilot is being run with a single student. However, we have not
+yet rolled it out across the ASF.
+
+A lack of volunteer time is the real block here, this is expected to be
+resolved in coming months (a day job project for one of the ComDev team
+relating to this activity commences in July)
+
+The Apache Way
+--------------
+
+Prompted by various discussions on members@ we started a community dev
+blog (http://blogs.apache.org/comdev/)
+
+This will be used to post useful pointers to existing resources and
+expertise.
+
+We are considering which activities discussed in the members@ threads can
+and should be implemented by comdev
+{panel}
+
+{panel:title=February 2010|borderStyle=solid|titleBGColor=#F7D6C1|bgColor=#FFFFCE}
+Status report for the Apache Community Development Project
+
+The community development project aims to help newcomers to The Apache
+Software Foundation take their first steps on their way to being a part of
+our community.
+
+Issues for board attention
+--------------------------
+
+GSoC invoicing process
+
+The ComDev PMC would like the board to evaluate the process for making
+claims for GSoC payments from Google. For the board&#39;s convenience, the
+process is currently:
+
+a) GSoC admin informs Google of total amount owing
+b) Google issue a PO
+c) GSoC admin liaises with ASF treasurer
+d) ASF issues an Invoice
+e) Google pays invoice
+
+At present the processes seems to get stuck at c). The GSoC admin is unaware
+of the issuing of an invoice for 2009 and we suspect other years may have
+been missed as well.
+
+This not only impacts ASF income but increases our costs since travel to the
+mentor summit is reimbursed through the same invoice.
+
+Main items to report
+--------------------
+
+- addition of Isabel Drost, Nick Birch, Noel J. Bergman and Kathey Marsden
+  to the Community Development PMC
+
+- documentation of proposed mentoring programme [1](1.html)
+
+- commencement of our first mentored participant [2](2.html)
+
+- two press interviews in response to word of mouth discovery of the project
+
+- GSoC has been officially announced and will be run this year with Noirin
+  Shirley as admin, Ross Gardler and Luciano Resende as co-admins
+
+- creation of a &quot;people near you&quot; webapp populated with people available for
+  presenting or meeting those interested in the ASF - this is not yet public
+  as we are awaiting the creation of a zone on which to host it
+
+Main items for next period
+--------------------------
+
+- Move documentation of GSoC from wiki.apache.org to community.apache.org
+
+- Launch of the &quot;people near you&quot; webapp
+
+- Launch of the ASF GSoC engagement
+
+- Preparation for the official launch of the ASF mentoring programme (which
+  will occur after GSoC has commenced)
+
+  [1](1.html) http://community.apache.org/mentoringprogramme.html
+  [2](2.html) https://issues.apache.org/jira/browse/COMDEV-11
+{panel}
+
+
+        

@@ -1,0 +1,323 @@
+Title: NewCommitter
+Identifying potential new commiters, calling a vote for their recognition as a committer and processing the relevant documents is something that the whole community can contribute to.
+
+Each project has different approches to managing new committers, this page describes a common process found in many Apache projects. It also provides drafts for the various communications that are necessary.
+
+# Guidelines for assessing new candidates for committership
+
+When voting, all PMC members need to make up your own mind, perhaps search mailing lists and Jira, etc. The following are some tips that we developed. Also consider the Apache Forrest [committer fuidelines](http://forrest.apache.org/committed.html)
+
+## Ability to work co-operatively with peers. 
+How do we evaluate?  By the interactions they have through mail. By how they respond to criticism. By how they participate in decision-making process.
+
+## Ability to be a mentor.
+How do we evaluate?  By the interactions they have through mail. By how clear they are and how willing they are to point at appropriate background materials (or event create them).
+
+## Community
+How do we evaluate?  By the interactions they have through mail.
+
+## Committment
+How do we evaluate?  By time, by sticking through tough issues, by helping on not-so-fun tasks as well.
+
+## Personal skill/ability
+# How do we evaluate?  A solid general understanding of the project.  Quality of discussion in mail.  Patches easy to apply with only
+a cursory review.
+
+# New Committer Process
+
+This section describes a typical Apache projects process for handling the voting of a new committer. Templates mentioned in the process appear at later in this document.
+
+## Summary
+
+# Call a vote: templates/committerVote.txt
+# Invite the new committer: templates/committerInvite.txt
+
+If they accept, then do:
+
+# Accept the committer - note this assumes the committer is also to be a PMC member (templates/committerAccept.txt)
+# wait until we see that receipt of CLA is recorded
+# Create the committer account (template/committerCreate.txt)
+## now wait until root says it is done
+## chair to enable their svn access
+## add committer to the appropriate groups in Jira and CWiki
+# Notify the committer of completion (template/committerDone.txt)
+# chair send email to board@ asking for acknowledgement of new PMC member (templates/email-member-ack.txt)
+# Announce the new committer (template/committerAnnounce.txt)
+
+## Discussion
+
+We do the vote on the private mailing list to enable a frank discussion.
+
+Start a separate Vote thread for each new person. This makes it much easier to review the mail archives.
+
+In most cases, we will be inviting people to go straight from developer to PMC member. However, there may be extraordinary cases where we want
+limited work-related commit access. This will be resolved during the vote discussion. 
+
+We need to be sure that they are committed people that we can work with. They will be our peers. We will have already observed that they are
+committed to the project and graceful toward users and other developers.
+
+Don&#39;t wait too long before proposing and don&#39;t be too hasty. There is a trade-off and something about timeliness. A point is reached where it
+becomes obvious that we should invite them. This encourages them and keeps them enthusiastic. If we leave it too long, then we risk them becoming disillusioned.
+
+On the PMC list we can each say exactly what we feel about each person, with no holds barred. Keep the discussion concise. The praise part can
+be done later in public.
+
+See the end of this document for some guidelines to help you to assess a candidate.
+
+Let the Vote thread run for one week.
+
+A positive result is achieved by Consensus Approval i.e. at least 3 +1 votes and no vetoes.
+
+Any veto must be accompanied by reasoning and be prepared to defend it. Other members can attempt to encourage them to change.
+
+New PMC members can be either quiet or active as they choose. If we find that certain people lapse and don&#39;t ever contribute, then we can take steps to retire them.
+
+After a positive result, we give them a chance to decline in private. They can post a reply to the PMC mailing list.
+
+After we reach a decision on the PMC list, and after the steps above, we will announce it on the dev list. We can then each follow up with
+our praise in public.
+
+Other notes about the process are available on the main [Apache site](http://www.apache.org/dev/pmc.html#newcommitter)
+
+# Email Templates
+
+<DIV class="code panel" style="border-style: solid;border-width: 1px;"><DIV class="codeHeader panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;"><B>Committer Vote Template|borderStyle=solid</B></DIV><DIV class="codeContent panelContent">
+    This is the email to commence a vote for a new PMC member.
+    We do this on the [PROJECT] Private mailing list, so as to enable
+    a frank discussion.
+    
+    ------------------------------------------------------------
+    To: private@[PROJECT].a.o
+    Subject: [Vote] new PMC member: Joe Bloggs
+    
+     [ add the reasons behind your nomination here ]
+    
+    Voting ends one week from today, i.e. midnight UTC on YYYY-MM-DD
+    http://www.timeanddate.com/counters/customcounter.html?year=YYYY&amp;month=MM&amp;day=DD
+    
+    See voting guidelines at
+    https://svn.apache.org/repos/private/pmc/forrest/pmc-member-vote.txt
+    (yes, this links to the Apache Forrest Guidelines, we don&#39;t have our own yet)
+    
+    ------------------------------------------------------------
+
+
+<DIV class="code panel" style="border-style: solid;border-width: 1px;"><DIV class="codeHeader panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;"><B>Committer Invite Template|borderStyle=solid</B></DIV><DIV class="codeContent panelContent">
+    This is the invitation email, sent after a positive result 
+    from the vote for a new committer.
+    
+    ------------------------------------------------------------
+    To: JoeBloggs@foo.net
+    Cc: private@[PROJECT].a.o
+    Subject: invitation to become [PROJECT] committer: Joe Bloggs #####
+    
+    Hello #####, the Apache [PROJECT] Project Management Committee
+    would like to invite you to become a [PROJECT] committer and member
+    of the PMC. We value your contributions and are aware that
+    you are committed to the project.
+    
+    Being a committer enables you to more easily make changes and so
+    not need to go via the patch submission process. This should
+    enable you to be more productive. Being also a PMC member enables
+    you to guide the direction of the project.
+    
+    While this does not mean that you need to participate any more
+    than you already do, it does tend to make one even more committed.
+    Hence you will probably find that you spend more time here.
+    
+    Of course, you can decline and instead remain as a developer,
+    contributing as you do now.
+    
+    This personal email is also providing a chance for you to decline
+    in private. Either way, please let us know in reply only to the
+    private@[PROJECT].a.o list. If you agree, then we will announce
+    on the dev@[PROJECT].a.o list after the account is established.
+    
+    Yours,
+    The Apache [PROJECT] PMC
+    
+    ------------------------------------------------------------------------
+
+
+<DIV class="code panel" style="border-style: solid;border-width: 1px;"><DIV class="codeHeader panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;"><B>Committer Accept Template|borderStyle=solid</B></DIV><DIV class="codeContent panelContent">
+    This is the followup email after they have accepted.
+    
+    ------------------------------------------------------------------------
+    To: JoeBloggs@foo.net
+    Cc: private@[PROJECT].a.o
+    Subject: Re: invitation to become [PROJECT] committer
+    
+    Welcome. Here are the next steps. After that we will make
+    an announcement to the [PROJECT]-dev list.
+    
+    You need to send a Contributor License Agreement to the ASF.
+    Normally you would send an Individual CLA. If you also make
+    contributions done in work time or using work resources then
+    see the Corporate CLA. Ask us if you have any issues.
+    http://www.apache.org/licenses/#clas
+    
+    You need to choose a preferred ASF user name and alternatives.
+    In order to ensure it is available you can view a list of taken ids at
+    http://www.apache.org/~jim/committers.html
+    
+    Please notify us when you have submitted the CLA and by what means 
+    you did so. This will enable us to monitor its progress.
+    
+    We will arrange for your Apache user account when the CLA has 
+    been recorded.
+    
+    After that is done, please make followup replies to the [PROJECT]-dev list.
+    We generally discuss everything there and keep this private@[PROJECT].a.o list
+    for occasional matters which must be private.
+    
+    The developer section of the website describes the roles
+    and provides other resources:
+    http://www.apache.org/foundation/how-it-works.html
+    http://www.apache.org/dev/
+    
+    The incubator also has some useful information for new committers
+    in incubating projects:
+    http://incubator.apache.org/guides/committer.html
+    http://incubator.apache.org/guides/ppmc.html
+    
+    In the absence of our own guidelines document we are currently 
+    using those developed at Apache Forrest:
+    http://forrest.apache.org/guidelines.html
+    
+    Yours,
+    The Apache [PROJECT] PMC
+    
+    ------------------------------------------------------------------------
+
+
+<DIV class="code panel" style="border-style: solid;border-width: 1px;"><DIV class="codeHeader panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;"><B>Committer Create Template|borderStyle=solid</B></DIV><DIV class="codeContent panelContent">
+    Account creation email for new committers.
+    
+    Follow the instructions at:
+    http://www.apache.org/dev/pmc.html#newcommitter
+    
+    Email is to be sent to root *after* the CLA is registered.
+    The PMC needs to monitor iclas.txt to be sure that the CLA
+    is properly received before sending this email. See above.
+    
+    Don&#39;t forget to add their name/email in the email headers
+    and add the date/Message-Id of the PMC vote summary.
+    
+    If the new member is already a committer, then just need
+    to ask root to add them to the UNIX groups.
+    
+    ------------------------ snip ------------------------------
+    To: root@apache.org
+    Cc: private@[PROJECT].a.o, ###JoeBloggs@foo.net
+    Subject: account request: ###Joe Bloggs
+    
+    Full name:                ...
+    Preferred userid:         ... [please provide acceptable alternates!]
+    Forwarding email address: ...
+    
+    Requested UNIX groups: [PROJECT]
+    
+    The receipt of the ICLA was recorded yesterday.
+    
+    The vote was conducted on the private@[PROJECT].a.o list
+    around YYYY-MM-DD ###
+    Message-Id: ###
+
+
+
+<DIV class="code panel" style="border-style: solid;border-width: 1px;"><DIV class="codeHeader panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;"><B>Committer Announce Template|borderStyle=solid</B></DIV><DIV class="codeContent panelContent">
+    This is the email to announce to [PROJECT]-dev after the
+    followup acceptance.
+    
+    Replace the Joe Blogs in the subject, the ### in the body.
+    
+    ------------------------------------------------------------
+    To: dev@[PROJECT].a.o
+    Subject: new committer and PMC member: ###Joe Bloggs
+    
+    The Project Management Committee (PMC) for Apache [PROJECT]
+    has asked #### ####### to become a committer and
+    member of the PMC, and we are pleased to announce that
+    they have accepted.
+    
+    ### add specific details here ###
+    
+    Being a committer enables easier contribution to the
+    project since there is no need to go via the patch
+    submission process. This should enable better productivity.
+    Being a PMC member enables assistance with the management
+    and to guide the direction of the project.
+
+
+<DIV class="code panel" style="border-style: solid;border-width: 1px;"><DIV class="codeHeader panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;"><B>Board Template|borderStyle=solid</B></DIV><DIV class="codeContent panelContent">
+    This is the email to end a vote for a new PMC member.
+    We do this on the [PROJECT] Private mailing list as that 
+    is where the vote is held..
+    
+    ------------------------------------------------------------
+    To: private@[PROJECT].a.o
+    Subject: [RESULT] [Vote] new PMC member: Joe Bloggs
+    
+    The vote has now closed. The results are:
+    
+    Binding Votes:
+    
+    +1 [TOTAL BINDING +1 VOTES]
+     0 [TOTAL BINDING +0/-0 VOTES]
+    -1 [TOTAL BINDING -1 VOTES]
+    
+    
+    [If three binding +1 and no binding -1]
+    
+    The vote passes, we now need lazy consensus approval from the IPMC. This email
+    calls for that consensus.
+    
+    Consensus period ends 72 hours from now, i.e. XYZ UTC on YYYY-MM-DD
+    http://www.timeanddate.com/counters/customcounter.html?year=YYYY&amp;month=MM&amp;day=DD&amp;hour=0&amp;min=0&amp;sec=0&amp;p0=0
+    
+    ------------------------------------------------------------
+
+
+<DIV class="code panel" style="border-style: solid;border-width: 1px;"><DIV class="codeHeader panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;"><B>Committer Done Template|borderStyle=solid</B></DIV><DIV class="codeContent panelContent">
+    After the committer account is established.
+    
+    ------------------------------------------------------------
+    To: private@[PROJECT].a.o, ###JoeBloggs@foo.net
+    Subject: account request: ###Joe Bloggs
+    
+    ####, as you know, the ASF Infrastructure has set up your
+    committer account as the username &#39;####&#39;.
+    
+    Please follow the instructions to set up your SSH,
+    svn password, svn configuration, mail forwarding, etc.
+    http://www.apache.org/dev/#committers
+    
+    Please subscribe to the [PROJECT] Project Management 
+    Committee mailing list private@[PROJECT].apache.org.
+    
+    You have commit access to specific sections of the
+    ASF repository, as follows:
+    
+      [PROJECT] has various resources at:
+      https://svn.apache.org/repos/asf/[PROJECT]
+    
+      The general &quot;committers&quot; at:
+      https://svn.apache.org/repos/private/committers
+    
+    As per the documentation mentioned above, you need
+    to &#39;svn switch&quot; previous checkouts to now use https.
+    
+    If you have any questions during this phase, then please
+    see the following resources:
+    
+    Apache developer&#39;s pages: http://www.apache.org/dev/
+    
+    Naturally, if you don&#39;t understand anything be sure to 
+    ask us on the [PROJECT] dev mailing list. Documentation is 
+    maintained by volunteers and hence can be out-of-date and 
+    incomplete.
+    
+    One of us will announce you to the dev list soon.
+
+
+        

@@ -3,7 +3,7 @@ package path;
 # All our pages use the same view function
 our @patterns = (
     [qr!^/.*\.html$!,   normal_page => {} ],
-    [qr!^/.*\.mdtext$!, normal_page => { template=>"standard.html" } ],
+    [qr!^/.*\.mdtext$!, normal_page => { template=>"standard_markdown.html" } ],
 );
 
 # for specifying interdependencies between files

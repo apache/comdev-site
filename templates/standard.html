@@ -67,7 +67,7 @@
         </style>
 
         <LINK rel="SHORTCUT ICON" href="$images/favicon.ico">   
-        <TITLE>Apache Community Development - {% block title %}{{ headers.title }}{% endblock %}</TITLE>
+        <TITLE>Apache Community Development - {% block title %}{% endblock %}</TITLE>
     </head>
 
     <body onload="init()">
@@ -101,7 +101,7 @@
                   <DIV id="PageContent">        
                      <DIV class="pagecontent">
                          <DIV class="wiki-content">
-                          {% block content %}{{ content|markdown }}{% endblock %}
+                          {% block content %}{% endblock %}
                          </DIV>
                      </DIV>
                   </DIV>

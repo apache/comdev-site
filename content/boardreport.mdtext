@@ -1,0 +1,55 @@
+Title: BoardReport
+All projects report to the board once a quarter. The ASF Board meets on the third Wednesday of every month and thus projects due 
+to report need to have their reports ready no later than the second Wednesday of that month. This allows the board to pre-approve 
+reports where possible, thus making for a much shorter board meeting.
+
+Reports need not be exhaustive, unless you are asking for assistance. Neither do they need any technical information since the 
+board are only interested in project health. At the end of this page there is a template for board reports. First we&#39;ll describe 
+how some projects manage their board report during the quarter, however, like most things in the ASF projects are free to manage 
+this process in any way they desire.
+
+ * Create a template of the report in project SVN or Wiki space (see below for draft template)
+ * Record relevant details on the report as they occur
+ * Review objectives for the community and act upon them
+ * Recieve reminder from &quot;marvin&quot; that the board report is due (usually on the first of the month)
+ * Update board report ready for submission
+ * Post mail to developer list asking for a review of the draft report
+ * Incorporate feedback from community
+ * PMC chair submits board report via board.at.apache.org with subject of &quot;\[REPORT\](report\.html) project name&quot; (copy to project private or dev list as appropriate)
+
+<DIV class="code panel" style="border-style: solid;border-width: 1px;"><DIV class="codeHeader panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;"><B>Board Report Template|borderStyle=solid</B></DIV><DIV class="codeContent panelContent">
+    Status report for the Apache FOO project - MONTH YEAR
+    
+    Project Status
+    --------------
+    
+    A sentence or two describing the current status of the project. Most importantly, highlight any issues that require board 
+    attention. This is the projects opportunity to ask for assistance from the board should there be any sticky issues that need 
+    addressing.
+    
+    Community
+    ---------
+    
+    A slightly more detailed look at the project community. It should still be brief, issues to think about include:
+    
+    * Is the project community active? 
+    * Is the user community growing/shrinking? 
+    * Are there any legal, infrastructure, cross-project or personal issues that need to be addressed?
+    * Are issues on the user/developer list being addressed?
+    * Have any new committers been voted in? Any changes in the PMC?
+    
+    Community Objectives
+    --------------------
+    
+    This section indicates what the community considers to be its highest priorities for the coming quarter. This is only intended 
+    as a record of likley actions to address any issues the community may have. The project should not feel limited to (or by) 
+    these objectives.
+    
+    * What are the projects main plans and expectations for the community in the next period?
+    
+    Releases
+    --------
+    
+    Have there been any releases from the project in the last quarter? If not when is the next one likely to be made?
+
+        
