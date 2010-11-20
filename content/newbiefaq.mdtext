@@ -32,18 +32,16 @@ mailto:dev-subscribe@community.apache.org first).
 There are a great many projects in The Apache Software Foundation. We have
 four classes of project:
 
- *
-[Top Level Projects](http://www.apache.org) - these are projects with
-healthy communities and active development
- *
-[Incubating Projects](http://incubator.apache.org) - these are projects that
-have still to build a sustianble community, but have active development
- *
-[Labs](http://labs.apache.org) - these are experiments being carried out by
-existing committers
- *
-[Attic](http://attic.apache.org) - these are end-of-life projects that are
-no longer receiving active development, but may still be useful
+ * [Top Level Projects](http://www.apache.org)
+ - these are projects with healthy communities and active development
+ * [Incubating Projects](http://incubator.apache.org)
+ - these are projects that have still to build a sustianble community, but
+have active development
+ * [Labs](http://labs.apache.org)
+ - these are experiments being carried out by existing committers
+ * [Attic](http://attic.apache.org)
+ - these are end-of-life projects that are no longer receiving active
+development, but may still be useful
 
 <a name="NewbieFAQ-HowareprojectsmanagedinTheApacheSoftwareFoundation"></a>
 ## How are projects managed in The Apache Software Foundation
@@ -69,18 +67,17 @@ project.
 In summary, Apache Projects work because people like you participate
 constructively within them. 
 
-To learn more about "The Apache Way" see the foundations
-[How It Works](http://apache.org/foundation/how-it-works.html) pages.
+To learn more about "The Apache Way" see the foundations [How It Works](http://apache.org/foundation/how-it-works.html)
+ pages.
 
 <a name="NewbieFAQ-HowdoIlearnaboutthewayApacheProjectsWork?"></a>
 ## How do I learn about the way Apache Projects Work?
 
-You should consider applying to the
-[Apache Mentor Programme](mentoringprogramme.html). We will help you find a
-mentor within the project of your choice. They will take you through a
-semi-formal mentoring programme] that will ensure you quickly find your
-feet. There is no cost other than a promise to commit some of your time to
-the goals you agree with your mentor.
+You should consider applying to the [Apache Mentor Programme](mentoringprogramme.html)
+. We will help you find a mentor within the project of your choice. They
+will take you through a semi-formal mentoring programme] that will ensure
+you quickly find your feet. There is no cost other than a promise to commit
+some of your time to the goals you agree with your mentor.
 
 <a name="NewbieFAQ-HowdoIaskaquestionabouttheASFingeneral?"></a>
 ## How do I ask a question about the ASF in general?
@@ -144,11 +141,11 @@ technology or you might simply want to do somethiung fun in your free time.
 The key is that you must *want* to get involved. It is also important that
 you have appropriate skills to be able to help the project.
 
-Our
-[projects](http://projects.apache.org/) provides a useful index of projects
-which allows you to view projects alphabetically, by category or by
-language. When you view a projects detail page in this list you will find
-details of their mailing lists, issue tracker and other resoutrces.
+Our [projects](http://projects.apache.org/)
+ provides a useful index of projects which allows you to view projects
+alphabetically, by category or by language. When you view a projects detail
+page in this list you will find details of their mailing lists, issue
+tracker and other resoutrces.
 
 In the projects issue tracker you will find details of bugs and feature
 requests the project would like to work with, this should give you some
@@ -169,18 +166,16 @@ and be willing to research the rest.
 
 Our mentoring programme, see below, is designed to help you understand how
 to get guidance with respect to how to take your first steps in an open
-source project. You will also find our
-[get involved](http://apache.org/foundation/getinvolved.html) page a uaseful
-starting point.
+source project. You will also find our [get involved](http://apache.org/foundation/getinvolved.html)
+ page a uaseful starting point.
 
 <a name="NewbieFAQ-IsthereaCodeofConductforApacheprojects?"></a>
 ## Is there a Code of Conduct for Apache projects?
 
 Here at Apache projects are free to define their own code of conduct.
 However, it is common for new projects to learn from the lessons of the
-older projects. The Apache Incubator project has a wiki page for collecting
-[common elements of Apache project Codes of
-Conduct|http://incubator.apache.org/guides/community.html].
+older projects. The Apache Incubator project has a wiki page for collecting [common elements of Apache project Codes of Conduct](http://incubator.apache.org/guides/community.html)
+.
 
 The Incubator document has some really useful for both the newbie and the
 old hands (we all fall into bad habits occasionally). The section on ASF
@@ -205,20 +200,19 @@ structure. The Mentor Programme of the The Apache Software Foundation
 provides additional support and structure for people looking to make an
 initial contribution to an ASF project.
 
-For more information see our
-[mentoring page](mentoringprogramme.html).
+For more information see our [mentoring page](mentoringprogramme.html)
+.
 
 <a name="NewbieFAQ-HowdoIApplytotheMentorProgramme?"></a>
 ### How do I Apply to the Mentor Programme?
 
-Take a look at our
-[mentoring page](mentoringprogramme.html). If you are planning on working on an
-Apache project as part of your formal education you should also read
-[mentoring in formal education|mentorProgrammeFormalEducation].
+Take a look at our [mentoring page](mentoringprogramme.html)
+. If you are planning on working on an Apache project as part of your
+formal education you should also read [mentoring in formal education|mentorProgrammeFormalEducation]
+.
 
-From the
-[mentoring page](mentoringprogramme.html) you will see that you need to complete
-an
-[application|mentorProgrammeapplication]. This gives us enough background
-information to enable us to approach your chosen project community and for
-you to work with prospective mentors in defining your mentored activity.
+From the [mentoring page](mentoringprogramme.html)
+ you will see that you need to complete an [application|mentorProgrammeapplication]
+. This gives us enough background information to enable us to approach your
+chosen project community and for you to work with prospective mentors in
+defining your mentored activity.

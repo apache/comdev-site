@@ -14,8 +14,8 @@ Here's an example of what your first most might look like:
     
     Hi, I'm new to the Wookie project but I'd like to tackle the "Skinnable
 widgets" 
-    issue (WOOKIE-131, see
-[1]). Before I launch into implementing this I'd like to 
+    issue (WOOKIE-131, see [1]
+). Before I launch into implementing this I'd like to 
     run my ideas past you to make sure I'm not missing something important.
     
     If I understand the issue correctly we need to define the structure of a
@@ -60,7 +60,8 @@ drop down
     
     Am I on the right track? Are there any important points I'm missing?
     
-    [1] https://issues.apache.org/jira/browse/WOOKIE-131
+    [1]
+ https://issues.apache.org/jira/browse/WOOKIE-131
     
 
 

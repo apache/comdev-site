@@ -4,9 +4,8 @@ Title: guide to being a mentor
 
 All ASF projects are invited to submit their ideas for consideration in the
 ASF mentoring programme. Any Apache member and experienced committers can
-submit ideas via JIRA (if your project does not use JIRA you can
-[use the Comdev Issue Tracker For GSoC Tasks](use-the-comdev-issue-tracker-for-gsoc-tasks.html). We are looking for as many
-interesting projects as we can come up with. 
+submit ideas via JIRA (if your project does not use JIRA you can [use the Comdev Issue Tracker For GSoC Tasks](use-the-comdev-issue-tracker-for-gsoc-tasks.html)
+. We are looking for as many interesting projects as we can come up with. 
 
 <a name="guidetobeingamentor-Summary"></a>
 ## Summary
@@ -36,16 +35,10 @@ When in doubt about all this, contact code-awards@apache.org.
 
 For more information about what it means to be a mentor and on how to write
 a proposal see:
-*
-[GSoC Mentoring Guide](http://en.flossmanuals.net/GSoCMentoringGuide)
-*
-[GSoC Advice For
-Mentors|http://code.google.com/p/google-summer-of-code/wiki/AdviceforMentors] *
-[Gnome HowTo on
-mentoring|http://www.gnome.org/~federico/docs/summer-of-code-mentoring-howto/]
-*
-[How to be a lazy but successful Google SoC
-mentor|http://ploum.net/post/221-how-to-be-a-lazy-but-successful-googlesoc-mentor]
+* [GSoC Mentoring Guide](http://en.flossmanuals.net/GSoCMentoringGuide)
+* [GSoC Advice For Mentors](http://code.google.com/p/google-summer-of-code/wiki/AdviceforMentors)
+* [Gnome HowTo on mentoring](http://www.gnome.org/~federico/docs/summer-of-code-mentoring-howto/)
+* [How to be a lazy but successful Google SoC mentor](http://ploum.net/post/221-how-to-be-a-lazy-but-successful-googlesoc-mentor)
 
 Note that interest, even by a qualified student, does not mean that any of
 those project will automatically go ahead. Depending on the number of
@@ -55,10 +48,8 @@ probably have to make a smaller selection.
 <a name="guidetobeingamentor-Publicisingyourmentoredissues"></a>
 ### Publicising your mentored issues
 
-You can link to the
-[ASF wide list of issues
-|https://issues.apache.org/jira/secure/IssueNavigator.jspa?mode=hide&requestId=12314021]
-or you can create your own lists and feeds within your own website.
+You can link to the [ASF wide list of issues ](https://issues.apache.org/jira/secure/IssueNavigator.jspa?mode=hide&requestId=12314021)
+ or you can create your own lists and feeds within your own website.
 
 Since your mentored issues are recorded alongside your normal issues you
 can create and use filters to help people find them. You can provide RSS
@@ -71,15 +62,9 @@ share them with other projects (mail dev@community.apache.org)
 <a name="guidetobeingamentor-Examples"></a>
 ## Examples
 
-*
-[Wookie GSoC
-Issues|https://issues.apache.org/jira/secure/IssueNavigator.jspa?mode=hide&requestId=12314106]
-*
-[Wookie RSS GSoC
-feed|https://issues.apache.org/jira/sr/jira.issueviews:searchrequest-rss/12314106/SearchRequest-12314106.xml?tempMax=1000]
-*
-[Wookie XML GSoC
-feed|https://issues.apache.org/jira/sr/jira.issueviews:searchrequest-xml/12314106/SearchRequest-12314106.xml?tempMax=1000]
+* [Wookie GSoC Issues](https://issues.apache.org/jira/secure/IssueNavigator.jspa?mode=hide&requestId=12314106)
+* [Wookie RSS GSoC feed](https://issues.apache.org/jira/sr/jira.issueviews:searchrequest-rss/12314106/SearchRequest-12314106.xml?tempMax=1000)
+* [Wookie XML GSoC feed](https://issues.apache.org/jira/sr/jira.issueviews:searchrequest-xml/12314106/SearchRequest-12314106.xml?tempMax=1000)
 
 <a name="guidetobeingamentor-Stayingintouch"></a>
 # Staying in touch
@@ -97,8 +82,8 @@ If you are interested in the mentor programme administration please also
 subscribe to dev@community.apache.org.
 
 If you are planning on mentoring as part of the GSoC programme you also
-need to register with Google, see our
-[GSoC](gsoc.html) page for more information.
+need to register with Google, see our [GSoC](gsoc.html)
+ page for more information.
 
 <a name="guidetobeingamentor-Howmucheffortisinvolvedwithbeingamentor"></a>
 ## How much effort is involved with being a mentor
@@ -112,9 +97,8 @@ project is supportive in this way then you may be able to get away with
 less time. However, as mentor _you_ are responsible for evaluating the
 student and helping them deliver on their commitments.
 
-The
-[GSoC Mentoring Guide](http://en.flossmanuals.net/GSoCMentoringGuide) has
-plenty of useful materials for mentors.
+The [GSoC Mentoring Guide](http://en.flossmanuals.net/GSoCMentoringGuide)
+ has plenty of useful materials for mentors.
 
 <a name="guidetobeingamentor-Anoteabouteligibility"></a>
 ## A note about eligibility

@@ -1,29 +1,21 @@
 Title: GSoC
-Google is sponsoring the
-[2010 Summer of Code](http://socghop.appspot.com/), the
-[The Apache Software Foundation|http://www.apache.org/] (ASF) is planning
-to participate again this year (mentoring organisations have not yet been
-accepted). This page is your entry point to the ASF GSoC programme.
+Google is sponsoring the [2010 Summer of Code](http://socghop.appspot.com/)
+, the [The Apache Software Foundation|http://www.apache.org/]
+ (ASF) is planning to participate again this year (mentoring organisations
+have not yet been accepted). This page is your entry point to the ASF GSoC
+programme.
 
 <a name="GSoC-Students:readthis"></a>
 # Students: read this
 
-* Learn
-[about
-GSoC|http://socghop.appspot.com/document/show/gsoc_program/google/gsoc2010/faqs#about_gsoc]
-* Decide if you are
-[eligible](http://socghop.appspot.com/document/show/gsoc_program/google/gsoc2010/faqs#eligibility)
-for GSoC?
-* Review
-[Advice for
-Students|http://code.google.com/p/google-summer-of-code/wiki/AdviceforStudents]
-to make sure you really want to apply to GSoC.
-* Watch Philip Johnson's
-[GSoC video presentation](http://www.youtube.com/watch?v=vBRRR0BQyz0) for
-students.
-* Examine the list of
-[available ASF GSoC
-projects|https://issues.apache.org/jira/secure/IssueNavigator.jspa?mode=hide&requestId=12314021]
+* Learn [about GSoC](http://socghop.appspot.com/document/show/gsoc_program/google/gsoc2010/faqs#about_gsoc)
+* Decide if you are [eligible](http://socghop.appspot.com/document/show/gsoc_program/google/gsoc2010/faqs#eligibility)
+ for GSoC?
+* Review [Advice for Students](http://code.google.com/p/google-summer-of-code/wiki/AdviceforStudents)
+ to make sure you really want to apply to GSoC.
+* Watch Philip Johnson's [GSoC video presentation](http://www.youtube.com/watch?v=vBRRR0BQyz0)
+ for students.
+* Examine the list of [available ASF GSoC projects](https://issues.apache.org/jira/secure/IssueNavigator.jspa?mode=hide&requestId=12314021)
 ** Note that you can search the issue tracker for GSoC projects by
 filtering using the "gsoc" label, this allows you to narrow down the list
 to the projects you are interested in.
@@ -46,8 +38,7 @@ community. One of our evaluation criteria is that you have already engaged
 with the community to ensure that you understand the needs of the project
 and the commitment you need to make to your mentors.
 
-Once open applications are made through the
-[GSoC site](http://socghop.appspot.com/)
+Once open applications are made through the [GSoC site](http://socghop.appspot.com/)
 
 <a name="GSoC-ContactingtheASF"></a>
 ## Contacting the ASF
@@ -65,8 +56,8 @@ engage with that project community.
 # Prospective ASF mentors: read this
 
 We are looking for as many interesting projects as we can come up with. For
-more info about mentoring, please read our
-[guide to being a mentor](guide-to-being-a-mentor.html).
+more info about mentoring, please read our [guide to being a mentor](guide-to-being-a-mentor.html)
+.
 
 Prospective mentors should join the code-awards@apache.org mailng list,
 this is where mentor specific issues are dealt with, and where
@@ -102,17 +93,17 @@ date indicated.
 mentoring organizations.|
 |March 29 19:00 UTC|Student application period opens.|
 |April 9 19:00 UTC|Student application deadline.|
-|April 10th|internal
-[ranking](mentee-ranking-process.html) starts|
+|April 10th|internal [ranking](mentee-ranking-process.html)
+ starts|
 |April 13th|All mentors must be signed up and must have indicated students
-they want to be considered as mentees (see the pre-selection phase of the
-[ranking process](mentee-ranking-process.html) for details)|
+they want to be considered as mentees (see the pre-selection phase of the [ranking process](mentee-ranking-process.html)
+ for details)|
 |April 17th|All mentors must have fully evaluated pre-selected student
-proposals (see the selectoin phase of the 
-[ranking process](mentee-ranking-process.html) for details)|
+proposals (see the selectoin phase of the  [ranking process](mentee-ranking-process.html)
+ for details)|
 |April 21st|Administrators must have completed the internal ranking process
-(see the re-evaluation phase of the
-[ranking](mentee-ranking-process.html) process)|
+(see the re-evaluation phase of the [ranking](mentee-ranking-process.html)
+ process)|
 |TBD|IRC admin meeting to resolve any outstanding duplicate accepted
 students - timing TBD, will be announced well in advance|
 |April 26 19:00 UTC|Accepted student proposals announced on the Google
@@ -161,14 +152,8 @@ better, have fun and make new friends.|
 <a name="GSoC-UsefulLinks"></a>
 # Useful Links
 
- *
-[Summer of Code home](http://socghop.appspot.com/)
- *
-[2009 FAQs](http://code.google.com/opensource/gsoc/2009/faqs.html)
- *
-[GS0C discussion
-list|http://groups.google.com/group/google-summer-of-code-discuss]
- *
-[Python notes on
-expectations|http://wiki.python.org/moin/SummerOfCode/Expectations]
+ * [Summer of Code home](http://socghop.appspot.com/)
+ * [2009 FAQs](http://code.google.com/opensource/gsoc/2009/faqs.html)
+ * [GS0C discussion list](http://groups.google.com/group/google-summer-of-code-discuss)
+ * [Python notes on expectations](http://wiki.python.org/moin/SummerOfCode/Expectations)
  * #gsoc on Freenode

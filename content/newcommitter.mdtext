@@ -12,8 +12,7 @@ drafts for the various communications that are necessary.
 
 When voting, all PMC members need to make up your own mind, perhaps search
 mailing lists and Jira, etc. The following are some tips that we developed.
-Also consider the Apache Forrest
-[committer fuidelines](http://forrest.apache.org/committed.html)
+Also consider the Apache Forrest [committer fuidelines](http://forrest.apache.org/committed.html)
 
 <a name="NewCommitter-Abilitytoworkco-operativelywithpeers."></a>
 ## Ability to work co-operatively with peers. 
@@ -118,25 +117,24 @@ After we reach a decision on the PMC list, and after the steps above, we
 will announce it on the dev list. We can then each follow up with
 our praise in public.
 
-Other notes about the process are available on the main
-[Apache site](http://www.apache.org/dev/pmc.html#newcommitter)
+Other notes about the process are available on the main [Apache site](http://www.apache.org/dev/pmc.html#newcommitter)
 
 <a name="NewCommitter-EmailTemplates"></a>
 # Email Templates
 
 <DIV class="code panel" style="border-style: solid;border-width: 1px;"><DIV class="codeHeader panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;"><B>Committer Vote Template|borderStyle=solid</B></DIV><DIV class="codeContent panelContent">
     This is the email to commence a vote for a new PMC member.
-    We do this on the
-[PROJECT] Private mailing list, so as to enable
+    We do this on the [PROJECT]
+ Private mailing list, so as to enable
     a frank discussion.
     
     ------------------------------------------------------------
-    To: private@[PROJECT].a.o
-    Subject:
-[Vote] new PMC member: Joe Bloggs
+    To: private@[PROJECT]
+.a.o
+    Subject: [Vote]
+ new PMC member: Joe Bloggs
     
-    
-[ add the reasons behind your nomination here ]
+     [ add the reasons behind your nomination here ]
     
     Voting ends one week from today, i.e. midnight UTC on YYYY-MM-DD
     http://www.timeanddate.com/counters/customcounter.html?year=YYYY&month=MM&day=DD
@@ -155,14 +153,15 @@ yet)
     
     ------------------------------------------------------------
     To: JoeBloggs@foo.net
-    Cc: private@[PROJECT].a.o
-    Subject: invitation to become
-[PROJECT] committer: Joe Bloggs #####
+    Cc: private@[PROJECT]
+.a.o
+    Subject: invitation to become [PROJECT]
+ committer: Joe Bloggs #####
     
-    Hello #####, the Apache
-[PROJECT] Project Management Committee
-    would like to invite you to become a
-[PROJECT] committer and member
+    Hello #####, the Apache [PROJECT]
+ Project Management Committee
+    would like to invite you to become a [PROJECT]
+ committer and member
     of the PMC. We value your contributions and are aware that
     you are committed to the project.
     
@@ -180,12 +179,14 @@ yet)
     
     This personal email is also providing a chance for you to decline
     in private. Either way, please let us know in reply only to the
-    private@[PROJECT].a.o list. If you agree, then we will announce
-    on the dev@[PROJECT].a.o list after the account is established.
+    private@[PROJECT]
+.a.o list. If you agree, then we will announce
+    on the dev@[PROJECT]
+.a.o list after the account is established.
     
     Yours,
-    The Apache
-[PROJECT] PMC
+    The Apache [PROJECT]
+ PMC
     
     ------------------------------------------------------------------------
 
@@ -195,13 +196,14 @@ yet)
     
     ------------------------------------------------------------------------
     To: JoeBloggs@foo.net
-    Cc: private@[PROJECT].a.o
-    Subject: Re: invitation to become
-[PROJECT] committer
+    Cc: private@[PROJECT]
+.a.o
+    Subject: Re: invitation to become [PROJECT]
+ committer
     
     Welcome. Here are the next steps. After that we will make
-    an announcement to the
-[PROJECT]-dev list.
+    an announcement to the [PROJECT]
+-dev list.
     
     You need to send a Contributor License Agreement to the ASF.
     Normally you would send an Individual CLA. If you also make
@@ -219,10 +221,10 @@ yet)
     We will arrange for your Apache user account when the CLA has 
     been recorded.
     
-    After that is done, please make followup replies to the
-[PROJECT]-dev list.
-    We generally discuss everything there and keep this private@[PROJECT].a.o
-list
+    After that is done, please make followup replies to the [PROJECT]
+-dev list.
+    We generally discuss everything there and keep this private@[PROJECT]
+.a.o list
     for occasional matters which must be private.
     
     The developer section of the website describes the roles
@@ -240,8 +242,8 @@ list
     http://forrest.apache.org/guidelines.html
     
     Yours,
-    The Apache
-[PROJECT] PMC
+    The Apache [PROJECT]
+ PMC
     
     ------------------------------------------------------------------------
 
@@ -264,38 +266,38 @@ list
     
     ------------------------ snip ------------------------------
     To: root@apache.org
-    Cc: private@[PROJECT].a.o, ###JoeBloggs@foo.net
+    Cc: private@[PROJECT]
+.a.o, ###JoeBloggs@foo.net
     Subject: account request: ###Joe Bloggs
     
     Full name:		  ...
-    Preferred userid:	  ...
-[please provide acceptable alternates!]
+    Preferred userid:	  ... [please provide acceptable alternates!]
     Forwarding email address: ...
     
-    Requested UNIX groups:
-[PROJECT]
+    Requested UNIX groups: [PROJECT]
     
     The receipt of the ICLA was recorded yesterday.
     
-    The vote was conducted on the private@[PROJECT].a.o list
+    The vote was conducted on the private@[PROJECT]
+.a.o list
     around YYYY-MM-DD ###
     Message-Id: ###
 
 
 
 <DIV class="code panel" style="border-style: solid;border-width: 1px;"><DIV class="codeHeader panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;"><B>Committer Announce Template|borderStyle=solid</B></DIV><DIV class="codeContent panelContent">
-    This is the email to announce to
-[PROJECT]-dev after the
+    This is the email to announce to [PROJECT]
+-dev after the
     followup acceptance.
     
     Replace the Joe Blogs in the subject, the ### in the body.
     
     ------------------------------------------------------------
-    To: dev@[PROJECT].a.o
+    To: dev@[PROJECT]
+.a.o
     Subject: new committer and PMC member: ###Joe Bloggs
     
-    The Project Management Committee (PMC) for Apache
-[PROJECT]
+    The Project Management Committee (PMC) for Apache [PROJECT]
     has asked #### ####### to become a committer and
     member of the PMC, and we are pleased to announce that
     they have accepted.
@@ -311,26 +313,24 @@ list
 
 <DIV class="code panel" style="border-style: solid;border-width: 1px;"><DIV class="codeHeader panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;"><B>Board Template|borderStyle=solid</B></DIV><DIV class="codeContent panelContent">
     This is the email to end a vote for a new PMC member.
-    We do this on the
-[PROJECT] Private mailing list as that 
+    We do this on the [PROJECT]
+ Private mailing list as that 
     is where the vote is held..
     
     ------------------------------------------------------------
-    To: private@[PROJECT].a.o
-    Subject:
-[RESULT]
-[Vote] new PMC member: Joe Bloggs
+    To: private@[PROJECT]
+.a.o
+    Subject: [RESULT]
+ [Vote]
+ new PMC member: Joe Bloggs
     
     The vote has now closed. The results are:
     
     Binding Votes:
     
-    +1
-[TOTAL BINDING +1 VOTES]
-     0
-[TOTAL BINDING +0/-0 VOTES]
-    -1
-[TOTAL BINDING -1 VOTES]
+    +1 [TOTAL BINDING +1 VOTES]
+     0 [TOTAL BINDING +0/-0 VOTES]
+    -1 [TOTAL BINDING -1 VOTES]
     
     
     [If three binding +1 and no binding -1]
@@ -349,7 +349,8 @@ email
     After the committer account is established.
     
     ------------------------------------------------------------
-    To: private@[PROJECT].a.o, ###JoeBloggs@foo.net
+    To: private@[PROJECT]
+.a.o, ###JoeBloggs@foo.net
     Subject: account request: ###Joe Bloggs
     
     ####, as you know, the ASF Infrastructure has set up your
@@ -359,15 +360,16 @@ email
     svn password, svn configuration, mail forwarding, etc.
     http://www.apache.org/dev/#committers
     
-    Please subscribe to the
-[PROJECT] Project Management 
-    Committee mailing list private@[PROJECT].apache.org.
+    Please subscribe to the [PROJECT]
+ Project Management 
+    Committee mailing list private@[PROJECT]
+.apache.org.
     
     You have commit access to specific sections of the
     ASF repository, as follows:
     
-     
-[PROJECT] has various resources at:
+     [PROJECT]
+ has various resources at:
       https://svn.apache.org/repos/asf/[PROJECT]
     
       The general "committers" at:
@@ -382,8 +384,8 @@ email
     Apache developer's pages: http://www.apache.org/dev/
     
     Naturally, if you don't understand anything be sure to 
-    ask us on the
-[PROJECT] dev mailing list. Documentation is 
+    ask us on the [PROJECT]
+ dev mailing list. Documentation is 
     maintained by volunteers and hence can be out-of-date and 
     incomplete.
     

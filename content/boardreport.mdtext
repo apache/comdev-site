@@ -5,6 +5,9 @@ to report need to have their reports ready no later than the second
 Wednesday of that month. This allows the board to pre-approve 
 reports where possible, thus making for a much shorter board meeting.
 
+_This guide should be read in conjunction with [http://apache.org/foundation/board/reporting](http://apache.org/foundation/board/reporting)
+_
+
 Reports need not be exhaustive, unless you are asking for assistance.
 Neither do they need any technical information since the 
 board are only interested in project health. At the end of this page there
@@ -22,9 +25,8 @@ the first of the month)
  * Update board report ready for submission
  * Post mail to developer list asking for a review of the draft report
  * Incorporate feedback from community
- * PMC chair submits board report via board.at.apache.org with subject of
-"\[REPORT\](report\.html) project name" (copy to project private or dev list as
-appropriate)
+ * PMC chair submits board report via board.at.apache.org with subject of "\[REPORT\](report\.html)
+ project name" (copy to project private or dev list as appropriate)
 
 <DIV class="code panel" style="border-style: solid;border-width: 1px;"><DIV class="codeHeader panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;"><B>Board Report Template|borderStyle=solid</B></DIV><DIV class="codeContent panelContent">
     Status report for the Apache FOO project - MONTH YEAR

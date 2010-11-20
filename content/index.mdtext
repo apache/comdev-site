@@ -18,8 +18,8 @@ assistance on our mailing list at mailto:dev@community.apache.org (first
 subscribe by sending a mail to mailto:dev-subscribe@community.apache.org).
 
 If you need to contact the ASF for to address an official matter you'll
-find a list of useful addresses in our
-[Contact Points](contactpoints.html) page.
+find a list of useful addresses in our [Contact Points](contactpoints.html)
+ page.
 
 <a name="Index-Startingpoints"></a>
 ## Starting points
@@ -29,18 +29,12 @@ mentioned above we don't have many starting points for you, but here's a
 list of what we are creating - please have a look at what there is and feel
 free to ask questions so we know what parts to flesh out first.
 
-*
-[Google Summer of Code](gsoc.html)
-*
-[Mentoring Programme](mentoringprogramme.html)
-*
-[Mentoring in formal education](mentorprogrammeformaleducation.html)
-*
-[Local Mentors Programme](localmentors.html)
-*
-[Being a Mentor](guide-to-being-a-mentor.html)
-*
-[Newbie FAQ](newbiefaq.html)
+* [Google Summer of Code](gsoc.html)
+* [Mentoring Programme](mentoringprogramme.html)
+* [Mentoring in formal education](mentorprogrammeformaleducation.html)
+* [Local Mentors Programme](localmentors.html)
+* [Being a Mentor](guide-to-being-a-mentor.html)
+* [Newbie FAQ](newbiefaq.html)
 
 <a name="Index-FirstContributions"></a>
 # First Contributions
@@ -67,10 +61,8 @@ project. This section describes some of the activities that you can help
 with. In most cases you will need to be a committer to carry out these
 activities, although non-committers can often act in supporting roles.
 
- *
-[Board Reports](boardreport.html)
- *
-[New Committer Handling](newcommitter.html)
+ * [Board Reports](boardreport.html)
+ * [New Committer Handling](newcommitter.html)
 
 <a name="Index-ManagingtheCommunityDevelopmentproject"></a>
 # Managing the Community Development project
@@ -78,8 +70,6 @@ activities, although non-committers can often act in supporting roles.
 This sections simply links to documents important to the Apache Community
 Development project.
 
- *
-[Original board resolution](comdevboardresolution.html) creating the ComDev
-project
- *
-[Board Reports](comdevboardreports.html)
+ * [Original board resolution](comdevboardresolution.html)
+ creating the ComDev project
+ * [Board Reports](comdevboardreports.html)
