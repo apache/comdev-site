@@ -1,90 +1,174 @@
 Title: GSoC
-Google is sponsoring the [2010 Summer of Code](http://socghop.appspot.com/), the [The Apache Software Foundation|http://www.apache.org/] (ASF) is planning to participate again this year (mentoring organisations have not yet been accepted). This page is your entry point to the ASF GSoC programme.
+Google is sponsoring the
+[2010 Summer of Code](http://socghop.appspot.com/), the
+[The Apache Software Foundation|http://www.apache.org/] (ASF) is planning
+to participate again this year (mentoring organisations have not yet been
+accepted). This page is your entry point to the ASF GSoC programme.
 
+<a name="GSoC-Students:readthis"></a>
 # Students: read this
 
-* Learn [about GSoC](http://socghop.appspot.com/document/show/gsoc_program/google/gsoc2010/faqs#about_gsoc)
-* Decide if you are [eligible](http://socghop.appspot.com/document/show/gsoc_program/google/gsoc2010/faqs#eligibility) for GSoC?
-* Review [Advice for Students](http://code.google.com/p/google-summer-of-code/wiki/AdviceforStudents) to make sure you really want to apply to GSoC.
-* Watch Philip Johnson&#39;s [GSoC video presentation](http://www.youtube.com/watch?v=vBRRR0BQyz0) for students.
-* Examine the list of [available ASF GSoC projects](https://issues.apache.org/jira/secure/IssueNavigator.jspa?mode=hide&amp;requestId=12314021)
-** Note that you can search the issue tracker for GSoC projects by filtering using the &quot;gsoc&quot; label, this allows you to narrow down the list to the projects you are interested in.
+* Learn
+[about
+GSoC|http://socghop.appspot.com/document/show/gsoc_program/google/gsoc2010/faqs#about_gsoc]
+* Decide if you are
+[eligible](http://socghop.appspot.com/document/show/gsoc_program/google/gsoc2010/faqs#eligibility)
+for GSoC?
+* Review
+[Advice for
+Students|http://code.google.com/p/google-summer-of-code/wiki/AdviceforStudents]
+to make sure you really want to apply to GSoC.
+* Watch Philip Johnson's
+[GSoC video presentation](http://www.youtube.com/watch?v=vBRRR0BQyz0) for
+students.
+* Examine the list of
+[available ASF GSoC
+projects|https://issues.apache.org/jira/secure/IssueNavigator.jspa?mode=hide&requestId=12314021]
+** Note that you can search the issue tracker for GSoC projects by
+filtering using the "gsoc" label, this allows you to narrow down the list
+to the projects you are interested in.
 
+<a name="GSoC-ApplyingforGSoC"></a>
 ### Applying for GSoC
 
-Student applications start on March 29th, 2010. However we encourage you to discuss you application with the project community before this date.
+Student applications start on March 29th, 2010. However we encourage you to
+discuss you application with the project community before this date.
 
-In order to apply we ask that you create a list of deliverables, quantifiable results for the Apache community, a detailed description / design document, an approach, an approximate schedule and something of a background text. We also need you to let us know what other commitments you have for the period of GSoC, for example, do you have any exams or a part time job? In other words - sell yourselves, as if this was an actual job. 
+In order to apply we ask that you create a list of deliverables,
+quantifiable results for the Apache community, a detailed description /
+design document, an approach, an approximate schedule and something of a
+background text. We also need you to let us know what other commitments you
+have for the period of GSoC, for example, do you have any exams or a part
+time job? In other words - sell yourselves, as if this was an actual job. 
 
-In drawing up your proposal you should work with your chosen projects community. One of our evaluation criteria is that you have already engaged with the community to ensure that you understand the needs of the project and the commitment you need to make to your mentors.
+In drawing up your proposal you should work with your chosen projects
+community. One of our evaluation criteria is that you have already engaged
+with the community to ensure that you understand the needs of the project
+and the commitment you need to make to your mentors.
 
-Once open applications are made through the [GSoC site](http://socghop.appspot.com/)
+Once open applications are made through the
+[GSoC site](http://socghop.appspot.com/)
 
+<a name="GSoC-ContactingtheASF"></a>
 ## Contacting the ASF
 
-The ASF is not just one project, it is a federation of projects, see the lists at http://apache.org/ and http://incubator.apache.org/. Each of our projects has its own community of users, contributors and committers. GSoC students will usually be interacting with just one of these communities. 
+The ASF is not just one project, it is a federation of projects, see the
+lists at http://apache.org/ and http://incubator.apache.org/. Each of our
+projects has its own community of users, contributors and committers. GSoC
+students will usually be interacting with just one of these communities. 
 
-Each of the proposed subjects (link to be provided if we are confirmed as a mentoring organisation) applies to a single ASF project. You will need to engage with that project community.
+Each of the proposed subjects (link to be provided if we are confirmed as a
+mentoring organisation) applies to a single ASF project. You will need to
+engage with that project community.
 
+<a name="GSoC-ProspectiveASFmentors:readthis"></a>
 # Prospective ASF mentors: read this
 
-We are looking for as many interesting projects as we can come up with. For more info about mentoring, please read our [guide to being a mentor](guide to being a mentor.html).
+We are looking for as many interesting projects as we can come up with. For
+more info about mentoring, please read our
+[guide to being a mentor](guide-to-being-a-mentor.html).
 
-Prospective mentors should join the code-awards@apache.org mailng list, this is where mentor specific issues are dealt with, and where announcements will be made. If you want to track the programme administration you should subscribe to dev@community.apache.org.
+Prospective mentors should join the code-awards@apache.org mailng list,
+this is where mentor specific issues are dealt with, and where
+announcements will be made. If you want to track the programme
+administration you should subscribe to dev@community.apache.org.
 
-Once the ASF is confirmed as a mentoring organisation mentors must register with the GSoC webapp, and request to become a mentor for the ASF organization. Make sure that the email address you use for that (it&#39;s often your @gmail.com address by default) is &#39;&#39;&#39;registered in committers/MailAlias.txt&#39;&#39;&#39; so that we can match it to your ASF account. You should also register your &#39;&#39;&#39;GSoC Link Id to committers/GSoCLinkId.txt&#39;&#39;&#39;.
+Once the ASF is confirmed as a mentoring organisation mentors must register
+with the GSoC webapp, and request to become a mentor for the ASF
+organization. Make sure that the email address you use for that (it's often
+your @gmail.com address by default) is '''registered in
+committers/MailAlias.txt''' so that we can match it to your ASF account.
+You should also register your '''GSoC Link Id to
+committers/GSoCLinkId.txt'''.
 
-All ASF projects are invited to submit their ideas to their issue tracker, please be sure to add the labels &quot;gsoc&quot; and &quot;mentor&quot; so that we can automatically include them in our list of subjects. If your project does not use JIRA please contact dev@community.apache.org.  
+All ASF projects are invited to submit their ideas to their issue tracker,
+please be sure to add the labels "gsoc" and "mentor" so that we can
+automatically include them in our list of subjects. If your project does
+not use JIRA please contact dev@community.apache.org.  
 
+<a name="GSoC-ASFGSoCTimeline"></a>
 # ASF GSoC Timeline
 
-Below is a timeline of events for The Apache Software Foundations involvement in GSoC. Unless otherwise stated deadlines are 11:59 UTC on the date indicated.
+Below is a timeline of events for The Apache Software Foundations
+involvement in GSoC. Unless otherwise stated deadlines are 11:59 UTC on the
+date indicated.
 
+<a name="GSoC-StudentApplicationandSelection"></a>
 ## Student Application and Selection
 
 ||Date||Activity||
 |February 8|Program announced. Life is good.|
-|March 18-29|Would-be student participants discuss application ideas with mentoring organizations.|
+|March 18-29|Would-be student participants discuss application ideas with
+mentoring organizations.|
 |March 29 19:00 UTC|Student application period opens.|
 |April 9 19:00 UTC|Student application deadline.|
-|April 10th|internal [ranking](mentee ranking process.html) starts|
-|April 13th|All mentors must be signed up and must have indicated students they want to be considered as mentees (see the pre-selection phase of the [ranking process](mentee ranking process.html) for details)|
-|April 17th|All mentors must have fully evaluated pre-selected student proposals (see the selectoin phase of the  [ranking process](mentee ranking process.html) for details)|
-|April 21st|Administrators must have completed the internal ranking process (see the re-evaluation phase of the [ranking](mentee ranking process.html) process)|
-|TBD|IRC admin meeting to resolve any outstanding duplicate accepted students - timing TBD, will be announced well in advance|
-|April 26 19:00 UTC|Accepted student proposals announced on the Google Summer of Code 2010 site.
+|April 10th|internal
+[ranking](mentee-ranking-process.html) starts|
+|April 13th|All mentors must be signed up and must have indicated students
+they want to be considered as mentees (see the pre-selection phase of the
+[ranking process](mentee-ranking-process.html) for details)|
+|April 17th|All mentors must have fully evaluated pre-selected student
+proposals (see the selectoin phase of the 
+[ranking process](mentee-ranking-process.html) for details)|
+|April 21st|Administrators must have completed the internal ranking process
+(see the re-evaluation phase of the
+[ranking](mentee-ranking-process.html) process)|
+|TBD|IRC admin meeting to resolve any outstanding duplicate accepted
+students - timing TBD, will be announced well in advance|
+|April 26 19:00 UTC|Accepted student proposals announced on the Google
+Summer of Code 2010 site.
 |circa. April 26th|ASF press release|
 
+<a name="GSoC-GSocisunderway"></a>
 ## GSoc is underway
 
-|Community Bonding Period|Students get to know mentors, read documentation, get up to speed to begin working on their projects.|
+|Community Bonding Period|Students get to know mentors, read documentation,
+get up to speed to begin working on their projects.|
 |May 23rd|ASF press release|
 |May 24|Students begin coding for their GSoC projects;
-Google begins issuing initial student payments provided tax forms are on file and students are in good standing with their communities.|
-|Interim Period:|Mentors give students a helping hand and guidance on their projects|
-|July 12 19:00 UTC|Mentors and students can begin submitting mid-term evaluations.|
+Google begins issuing initial student payments provided tax forms are on
+file and students are in good standing with their communities.|
+|Interim Period:|Mentors give students a helping hand and guidance on their
+projects|
+|July 12 19:00 UTC|Mentors and students can begin submitting mid-term
+evaluations.|
 |July 16 19:00 UTC|Mid-term evaluations deadline;
-Google begins issuing mid-term student payments provided passing student survey is on file.|
-|Interim Period|Mentors give students a helping hand and guidance on their projects.|
-|August 9|Suggested &#39;pencils down&#39; date. Take a week to scrub code, write tests, improve documentation, etc.|
-|August 16 19:00 UTC|Firm &#39;pencils down&#39; date. Mentors, students and organization administrators can begin submitting final evaluations to Google.|
+Google begins issuing mid-term student payments provided passing student
+survey is on file.|
+|Interim Period|Mentors give students a helping hand and guidance on their
+projects.|
+|August 9|Suggested 'pencils down' date. Take a week to scrub code, write
+tests, improve documentation, etc.|
+|August 16 19:00 UTC|Firm 'pencils down' date. Mentors, students and
+organization administrators can begin submitting final evaluations to
+Google.|
 |August 20 19:00 UTC|Final evaluation deadline
-Google begins issuing student and mentoring organization payments provided forms and evaluations are on file.|
+Google begins issuing student and mentoring organization payments provided
+forms and evaluations are on file.|
 
+<a name="GSoC-Winddown"></a>
 ## Wind down
 
 |August 23|Final results of GSoC 2010 announced|
 |August 30|Students can begin submitting required code samples to Google|
 |circa. September 3rd|ASF press release|
-|October (date TBD)|Mentor Summit at Google: Representatives from each successfully participating organization are invited to Google to greet, collaborate and code. Our mission for the weekend: make the program even better, have fun and make new friends.|
+|October (date TBD)|Mentor Summit at Google: Representatives from each
+successfully participating organization are invited to Google to greet,
+collaborate and code. Our mission for the weekend: make the program even
+better, have fun and make new friends.|
 
 
+<a name="GSoC-UsefulLinks"></a>
 # Useful Links
 
- * [Summer of Code home](http://socghop.appspot.com/)
- * [2009 FAQs](http://code.google.com/opensource/gsoc/2009/faqs.html)
- * [GS0C discussion list](http://groups.google.com/group/google-summer-of-code-discuss)
- * [Python notes on expectations](http://wiki.python.org/moin/SummerOfCode/Expectations)
+ *
+[Summer of Code home](http://socghop.appspot.com/)
+ *
+[2009 FAQs](http://code.google.com/opensource/gsoc/2009/faqs.html)
+ *
+[GS0C discussion
+list|http://groups.google.com/group/google-summer-of-code-discuss]
+ *
+[Python notes on
+expectations|http://wiki.python.org/moin/SummerOfCode/Expectations]
  * #gsoc on Freenode
-
-        

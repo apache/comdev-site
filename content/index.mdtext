@@ -1,40 +1,85 @@
 Title: Index
-Welcome to the Community Development project site. Our aim here is to *help newcomers* to The Apache Software Foundation take their first steps on their way to being a *part of our community*. We do not focus on any specific projects here, we focus on the common structures and processes you will find in the majority of ASF projects. Our goal is to help you *understand how the ASF works* and give you the confidence to participate more directly.
+Welcome to the Community Development project site. Our aim here is to *help
+newcomers* to The Apache Software Foundation take their first steps on
+their way to being a *part of our community*. We do not focus on any
+specific projects here, we focus on the common structures and processes you
+will find in the majority of ASF projects. Our goal is to help you
+*understand how the ASF works* and give you the confidence to participate
+more directly.
 
+<a name="Index-Seekingassistance"></a>
 # Seeking assistance
 
-The first rule of engaging with an open source project, not just those here in the ASF, is to _research first, ask questions second_. Therefore, please review the materials we have on this site (which admittedly are thin on the ground at this early stage). If you don&#39;t find what you need then ask for assistance on our mailing list at mailto:dev@community.apache.org (first subscribe by sending a mail to mailto:dev-subscribe@community.apache.org).
+The first rule of engaging with an open source project, not just those here
+in the ASF, is to _research first, ask questions second_. Therefore, please
+review the materials we have on this site (which admittedly are thin on the
+ground at this early stage). If you don't find what you need then ask for
+assistance on our mailing list at mailto:dev@community.apache.org (first
+subscribe by sending a mail to mailto:dev-subscribe@community.apache.org).
 
-If you need to contact the ASF for to address an official matter you&#39;ll find a list of useful addresses in our [Contact Points](contactpoints.html) page.
+If you need to contact the ASF for to address an official matter you'll
+find a list of useful addresses in our
+[Contact Points](contactpoints.html) page.
 
+<a name="Index-Startingpoints"></a>
 ## Starting points
 
-This project is at a very early stage, other than the mailing list mentioned above we don&#39;t have many starting points for you, but here&#39;s a list of what we are creating - please have a look at what there is and feel free to ask questions so we know what parts to flesh out first.
+This project is at a very early stage, other than the mailing list
+mentioned above we don't have many starting points for you, but here's a
+list of what we are creating - please have a look at what there is and feel
+free to ask questions so we know what parts to flesh out first.
 
-* [Google Summer of Code](gsoc.html)
-* [Mentoring Programme](mentoringprogramme.html)
-* [Mentoring in formal education](mentorprogrammeformaleducation.html)
-* [Local Mentors Programme](localmentors.html)
-* [Being a Mentor](guide to being a mentor.html)
-* [Newbie FAQ](newbiefaq.html)
+*
+[Google Summer of Code](gsoc.html)
+*
+[Mentoring Programme](mentoringprogramme.html)
+*
+[Mentoring in formal education](mentorprogrammeformaleducation.html)
+*
+[Local Mentors Programme](localmentors.html)
+*
+[Being a Mentor](guide-to-being-a-mentor.html)
+*
+[Newbie FAQ](newbiefaq.html)
 
+<a name="Index-FirstContributions"></a>
 # First Contributions
 
-The second rule of engaging with open source projects, especially those in the ASF, is that *the more you give the more you get*. Most people assume that newcomers are unable to contribute, however, you will be surprised at how much you can help. Since we aim to be a place for newcomers to learn about the ASF as a whole and you are (probably) a newcomer *any feedback you can give or unanswered questions you can ask* will help us improve what we offer to those who come afterwards. 
+The second rule of engaging with open source projects, especially those in
+the ASF, is that *the more you give the more you get*. Most people assume
+that newcomers are unable to contribute, however, you will be surprised at
+how much you can help. Since we aim to be a place for newcomers to learn
+about the ASF as a whole and you are (probably) a newcomer *any feedback
+you can give or unanswered questions you can ask* will help us improve what
+we offer to those who come afterwards. 
 
-Feedback can be provided via the mailing list mailto:dev@community.apache.org (subscribe first with an email to mailto:dev-subscribe@community.apache.org)
+Feedback can be provided via the mailing list
+mailto:dev@community.apache.org (subscribe first with an email to
+mailto:dev-subscribe@community.apache.org)
 
+<a name="Index-Assistingwithprojectmanagement"></a>
 # Assisting with project management
 
-There are many visible contributions of value in an Apache projects (documentation, testing, coding user support, design etc.), but there are also plenty of &quot;back office&quot; tasks that are necessary to maintain a healthy project. This section describes some of the activities that you can help with. In most cases you will need to be a committer to carry out these activities, although non-committers can often act in supporting roles.
+There are many visible contributions of value in an Apache projects
+(documentation, testing, coding user support, design etc.), but there are
+also plenty of "back office" tasks that are necessary to maintain a healthy
+project. This section describes some of the activities that you can help
+with. In most cases you will need to be a committer to carry out these
+activities, although non-committers can often act in supporting roles.
 
- * [Board Reports](boardreport.html)
- * [New Committer Handling](newcommitter.html)
+ *
+[Board Reports](boardreport.html)
+ *
+[New Committer Handling](newcommitter.html)
 
+<a name="Index-ManagingtheCommunityDevelopmentproject"></a>
 # Managing the Community Development project
 
-This sections simply links to documents important to the Apache Community Development project.
+This sections simply links to documents important to the Apache Community
+Development project.
 
- * [Original board resolution](comdevboardresolution.html) creating the ComDev project
- * [Board Reports](comdevboardreports.html)
-        
+ *
+[Original board resolution](comdevboardresolution.html) creating the ComDev
+project
+ *
+[Board Reports](comdevboardreports.html)
