@@ -1,7 +1,7 @@
 Title: GSoC
-Google is sponsoring the [2010 Summer of Code](http://socghop.appspot.com/)
-, the [The Apache Software Foundation|http://www.apache.org/]
- (ASF) is planning to participate again this year (mentoring organisations
+Google is sponsoring the [2010 Summer of Code](http://socghop.appspot.com/), 
+the [The Apache Software Foundation](http://www.apache.org/) (ASF) is 
+planning to participate again this year (mentoring organisations
 have not yet been accepted). This page is your entry point to the ASF GSoC
 programme.
 
@@ -120,29 +120,29 @@ Summer of Code 2010 site.
 <tr><td>Community Bonding Period</td><td>Students get to know mentors, read documentation,
 get up to speed to begin working on their projects.</td></tr>
 <tr><td>May 23rd</td><td>ASF press release</td></tr>
-<tr><td>May 24</td><td>Students begin coding for their GSoC projects;
-</tr>
+<tr><td>May 24</td><td>Students begin coding for their GSoC projects;  
+<br />
 Google begins issuing initial student payments provided tax forms are on
-file and students are in good standing with their communities.|
-<tr><td>Interim Period:</td><td>Mentors give students a helping hand and guidance on their
-projects</td></tr>
-<tr><td>July 12 19:00 UTC</td><td>Mentors and students can begin submitting mid-term
-evaluations.</td></tr>
-<tr><td>July 16 19:00 UTC</td><td>Mid-term evaluations deadline;
-</tr>
+file and students are in good standing with their communities.</td></tr>
+<tr><td>Interim Period:</td><td>Mentors give students a helping hand and 
+guidance on their projects</td></tr>
+<tr><td>July 12 19:00 UTC</td><td>Mentors and students can begin submitting 
+mid-term evaluations.</td></tr>
+<tr><td>July 16 19:00 UTC</td><td>Mid-term evaluations deadline;  
+<br />
 Google begins issuing mid-term student payments provided passing student
-survey is on file.|
-<tr><td>Interim Period</td><td>Mentors give students a helping hand and guidance on their
-projects.</td></tr>
+survey is on file.</td></tr>
+<tr><td>Interim Period</td><td>Mentors give students a helping hand and 
+guidance on their projects.</td></tr>
 <tr><td>August 9</td><td>Suggested 'pencils down' date. Take a week to scrub code, write
 tests, improve documentation, etc.</td></tr>
 <tr><td>August 16 19:00 UTC</td><td>Firm 'pencils down' date. Mentors, students and
 organization administrators can begin submitting final evaluations to
 Google.</td></tr>
-<tr><td>August 20 19:00 UTC</td><td>Final evaluation deadline
-</tr>
+<tr><td>August 20 19:00 UTC</td><td>Final evaluation deadline  
+<br />
 Google begins issuing student and mentoring organization payments provided
-forms and evaluations are on file.|
+forms and evaluations are on file.</td></tr>
 </table>
 
 <a name="GSoC-Winddown"></a>
