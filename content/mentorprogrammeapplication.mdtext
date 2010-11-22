@@ -8,15 +8,15 @@ you through the steps:
 <a name="MentorProgrammeApplication-Creatingaproposalandfindingamentor"></a>
 ## Creating a proposal and finding a mentor
 
- # Find the project you are interested in (see our [FAQ](newbiefaq.html)
+1. Find the project you are interested in (see our [FAQ](newbiefaq.html)
  for some guidance on how to do this)
- # Examine the projects issue tracker to find bugs that need fixing or
+1. Examine the projects issue tracker to find bugs that need fixing or
 features that need implementing that you feel you can tackle
- # Join the projects mailing list and post an introduction mail (something
+1. Join the projects mailing list and post an introduction mail (something
 like this [mentor request mail](mentor-request-mail.html)
  will do nicely). 
- # Liaise with the project mailing list to refine your proposal
- # Write up your project proposal (see next section) and submit it to the
+1. Liaise with the project mailing list to refine your proposal
+1. Write up your project proposal (see next section) and submit it to the
 project mailing list asking for someone to be your mentor.
 
 <a name="MentorProgrammeApplication-Projectproposal"></a>
@@ -71,13 +71,13 @@ We are here to help with issues that are not project specific.
 To make us aware of your work in the ASF we request that you formally
 become a part of the mentoring programme. To do so all you need to do is:
 
- # Join the Community development mailing list at dev@community.apache.org
+1. Join the Community development mailing list at dev@community.apache.org
 mailing list by sending a mail to [mailto:dev-subscribe@community.apache.org](mailto:dev-subscribe@community.apache.org.html)
  (this is where we coordinate all mentoring efforts)
- # Submit your project proposal (see above) to the community development [issue tracker](https://issues.apache.org/jira/browse/COMDEV)
- # Have your mentor "sign off" the proposal (i.e. indicate in a comment
+1. Submit your project proposal (see above) to the community development [issue tracker](https://issues.apache.org/jira/browse/COMDEV)
+1. Have your mentor "sign off" the proposal (i.e. indicate in a comment
 that they are willing to mentor the proposal)
- # That's it, you are ready to go. Start work under the guidance of your
+1. That's it, you are ready to go. Start work under the guidance of your
 mentor.
 
 If you have any problems during the application process or during the
