@@ -37,7 +37,7 @@ on not-so-fun tasks as well.
 
 <a name="NewCommitter-Personalskill/ability"></a>
 ## Personal skill/ability
-# How do we evaluate?  A solid general understanding of the project. 
+1. How do we evaluate?  A solid general understanding of the project. 
 Quality of discussion in mail.	Patches easy to apply with only
 a cursory review.
 
@@ -51,22 +51,22 @@ later in this document.
 <a name="NewCommitter-Summary"></a>
 ## Summary
 
-# Call a vote: templates/committerVote.txt
-# Invite the new committer: templates/committerInvite.txt
+1. Call a vote: templates/committerVote.txt
+1. Invite the new committer: templates/committerInvite.txt
 
 If they accept, then do:
 
-# Accept the committer - note this assumes the committer is also to be a
+1. Accept the committer - note this assumes the committer is also to be a
 PMC member (templates/committerAccept.txt)
-# wait until we see that receipt of CLA is recorded
-# Create the committer account (template/committerCreate.txt)
-## now wait until root says it is done
-## chair to enable their svn access
-## add committer to the appropriate groups in Jira and CWiki
-# Notify the committer of completion (template/committerDone.txt)
-# chair send email to board@ asking for acknowledgement of new PMC member
+1. wait until we see that receipt of CLA is recorded
+1. Create the committer account (template/committerCreate.txt)
+   1. now wait until root says it is done
+   1. chair to enable their svn access
+   1. add committer to the appropriate groups in Jira and CWiki
+1. Notify the committer of completion (template/committerDone.txt)
+1. chair send email to board@ asking for acknowledgement of new PMC member
 (templates/email-member-ack.txt)
-# Announce the new committer (template/committerAnnounce.txt)
+1. Announce the new committer (template/committerAnnounce.txt)
 
 <a name="NewCommitter-Discussion"></a>
 ## Discussion

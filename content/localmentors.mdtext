@@ -38,8 +38,8 @@ know the rest\!
 First up, make sure a local mentor's the right thing for you. The Local
 Mentoring project has different aims to the [Formal Mentoring Program](mentoringprogramme.html)
 . If you're after someone who knows your project, or someone who's
-available over a prolonged period of time, then the [Formal Mentoring Program|MentoringProgramme]
- is a better fit.
+available over a prolonged period of time, then the 
+[Formal Mentoring Program](mentoringprogramme.html) is a better fit.
 
 However, if you'd like to meet up with someone to put a friendly face on
 the ASF, and discuss open source and Apache from where you are, hopefully
@@ -92,11 +92,10 @@ helper. If your FOAF file is in svn and showing up on people.apache.org,
 add in:
 
      <helper>
-       <foaf:Person rdf:resource="urn:org:apache:[your username]
-.rdf" />
+       <foaf:Person rdf:resource="urn:org:apache:[your username].rdf" />
      </helper>
 
-If you have your FOAF file externally hosted, then the * rdf:resource *
+If you have your FOAF file externally hosted, then the **rdf:resource**
 should point to the URL of the file.
 
 For an apache committer with username "foo", your entry would be one of:

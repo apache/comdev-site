@@ -2,8 +2,7 @@ Title: ComDevBoardResolution
 The Apache Community Development Project was created in November 2009.
 
 
-{code:title=Board Resolution Creating the Apache Community Development
-Project|borderStyle=solid}
+<DIV class="code panel" style="border-style: solid;border-width: 1px;"><DIV class="codeHeader panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;"><B>Board Resolution Creating the Apache Community Development Project</B></DIV><DIV class="codeContent panelContent">
        Establish the Apache Community Development Project
 
        WHEREAS, the Board of Directors deems it to be in the best
@@ -33,12 +32,12 @@ Project|borderStyle=solid}
        hereby are appointed to serve as the initial members of the
        Apache Community Development Project PMC:
 
-	* Ross Gardler <rgardler@apache.org>
-	* Luciano Resende <lresende@apache.org>
-	* Santiago Gala <sgala@apache.org>
-	* Bertrand Delacretaz <bdelacretaz@apache.org>
-	* Ted Dunning <tdunning@apache.org>
-	* Noirin Shirley <noirin@apache.org>
+       * Ross Gardler <rgardler@apache.org>
+       * Luciano Resende <lresende@apache.org>
+       * Santiago Gala <sgala@apache.org>
+       * Bertrand Delacretaz <bdelacretaz@apache.org>
+       * Ted Dunning <tdunning@apache.org>
+       * Noirin Shirley <noirin@apache.org>
 
        NOW, THEREFORE, BE IT FURTHER RESOLVED, that Ross Gardler
        be appointed to the office of Vice President, Apache Community
@@ -58,6 +57,5 @@ Project,
        was approved by Unanimous Vote of the directors present.
 
        Furthermore, the board requested that this PMC take over the
-stewardship
-       of the community@ and women@ mailing lists.
-{code}
+       stewardship of the community@ and women@ mailing lists.
+

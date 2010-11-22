@@ -10,9 +10,7 @@ The following report is *incomplete* and *draft* only. It is being prepared
 for the next submission to the board. Submitted reports can be found
 further down the page.
 
-{panel:title=DRAFT February
-2011|borderStyle=solid|titleBGColor=#F7D6C1|bgColor=#FFFFCE}
-
+<div class="panel" style="background-color: #FFFFCE;border-style: solid;border-width: 1px;"><div class="panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;background-color: #F7D6C1;"><B>DRAFT February 2011</B></div><div class="panelContent" style="background-color: #FFFFCE;"><pre>
 Status report for the Apache Community Development Project
 
 Project Status
@@ -30,18 +28,15 @@ Community
 
 Objectives for next period
 --------------------------
-
-
-{panel}
+</pre></div>
+</div>
 
 <a name="ComDevBoardReports-SubmittedReports"></a>
 # Submitted Reports
 
-{panel:title=November
-2010|borderStyle=solid|titleBGColor=#F7D6C1|bgColor=#FFFFCE}
-
+<div class="panel" style="background-color: #FFFFCE;border-style: solid;border-width: 1px;"><div class="panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;background-color: #F7D6C1;"><B>November 2010</B></div><div class="panelContent" style="background-color: #FFFFCE;"><pre>
 Status report for the Apache Community Development Project
-
+    
 Project Status
 --------------
 
@@ -90,12 +85,12 @@ Objectives for next period
 - Gain support from at least 5 PMCs for the mentoring programme
 - Formally launch mentoring programme
 - Launch hosting facilities for apache related projects
+</pre></div>
+</div>
 
-{panel}
+  
 
-{panel:title=August
-2010|borderStyle=solid|titleBGColor=#F7D6C1|bgColor=#FFFFCE}
-
+<div class="panel" style="background-color: #FFFFCE;border-style: solid;border-width: 1px;"><div class="panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;background-color: #F7D6C1;"><B>August 2010</B></div><div class="panelContent" style="background-color: #FFFFCE;"><pre>
 Status report for the Apache Community Development Project
 
 Project Status
@@ -142,10 +137,12 @@ Objectives for next period
 
 * Gain support from at least 5 PMCs for the mentoring programme
 * Launch the mentoring programme in September (no press at this stage)
-{panel}
+</pre></div>
+</div>
 
-{panel:title=June
-2010|borderStyle=solid|titleBGColor=#F7D6C1|bgColor=#FFFFCE}
+  
+
+<div class="panel" style="background-color: #FFFFCE;border-style: solid;border-width: 1px;"><div class="panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;background-color: #F7D6C1;"><B>June 2010</B></div><div class="panelContent" style="background-color: #FFFFCE;"><pre>
 Status report for the Apache Community Development Project
 
 No issues require board attention at this time.
@@ -195,10 +192,12 @@ expertise.
 
 We are considering which activities discussed in the members@ threads can
 and should be implemented by comdev
-{panel}
+</pre></div>
+</div>
 
-{panel:title=February
-2010|borderStyle=solid|titleBGColor=#F7D6C1|bgColor=#FFFFCE}
+  
+
+<div class="panel" style="background-color: #FFFFCE;border-style: solid;border-width: 1px;"><div class="panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;background-color: #F7D6C1;"><B>February 2010</B></div><div class="panelContent" style="background-color: #FFFFCE;"><pre>
 Status report for the Apache Community Development Project
 
 The community development project aims to help newcomers to The Apache
@@ -267,5 +266,6 @@ Main items for next period
  http://community.apache.org/mentoringprogramme.html
  [2](2.html)
  https://issues.apache.org/jira/browse/COMDEV-11
-{panel}
+</pre></div>
+</div>
 
