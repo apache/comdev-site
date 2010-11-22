@@ -52,20 +52,26 @@ sub normal_page {
 # Generates cwiki-style breadcrumbs
 sub breadcrumbs {
     my ($fullpath, $headerref) = @_;
-    my @path = split m!/!, $fullpath;
-    if($path[scalar@path-1] =~ /^index/) { 
-      pop @path; 
+    my @titles = split m!/!, $fullpath;
+    my @paths = split m!/!, $fullpath;
+
+    if($paths[scalar@paths-1] =~ /^index/) { 
+      pop @titles; 
+      pop @paths; 
     } else {
       if($headerref && $headerref->{title}) {
-         $path[scalar@path-1] = $headerref->{title};
+         $titles[scalar@titles-1] = $headerref->{title};
       }
     }
+    $titles[0] = "Home";
+
     my @rv;
-    my $relpath = "";
-    for (@path) {
-        $relpath .= "$_/";
-        $_ ||= "Home";
-        push @rv, qq(<a href="$relpath">\u$_</a>);
+    my $relpath = "/";
+    for(my $i=0; $i<scalar @paths; $i++) {
+        my $title = $titles[$i];
+        $relpath .= $paths[$i];
+        push @rv, qq(<a href="$relpath">\u$title</a>);
+        unless($relpath eq "/") { $relpath .= "/"; }
     }
     return join "&nbsp;&raquo&nbsp;", @rv;
 }
