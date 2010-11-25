@@ -11,9 +11,7 @@ use strict;
 use warnings;
 use Dotiac::DTL qw/Template/;
 use Dotiac::DTL::Addon::markup;
-use ASF::Util qw/read_text_file shuffle/;
-use File::Temp qw/tempfile/;
-use LWP::Simple;
+use ASF::Util qw/read_text_file/;
 
 push @Dotiac::DTL::TEMPLATE_DIRS, "templates";
 
