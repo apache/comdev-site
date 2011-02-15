@@ -1,4 +1,5 @@
 Title: ComDevBoardReports
+
 This page contains records of the Apache Community Development Project
 board reports. The official record of these reports is the minutes of the
 appropriate board meeting, they are provided here for convenience.
@@ -10,7 +11,7 @@ The following report is *incomplete* and *draft* only. It is being prepared
 for the next submission to the board. Submitted reports can be found
 further down the page.
 
-<div class="panel" style="background-color: #FFFFCE;border-style: solid;border-width: 1px;"><div class="panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;background-color: #F7D6C1;"><B>DRAFT February 2011</B></div><div class="panelContent" style="background-color: #FFFFCE;"><pre>
+<div class="panel" style="background-color: #FFFFCE;border-style: solid;border-width: 1px;"><div class="panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;background-color: #F7D6C1;"><B>DRAFT June 2011</B></div><div class="panelContent" style="background-color: #FFFFCE;"><pre>
 Status report for the Apache Community Development Project
 
 Project Status
@@ -25,14 +26,59 @@ Community
 ---------
 
 
-
 Objectives for next period
 --------------------------
+
+
 </pre></div>
 </div>
 
+
 <a name="ComDevBoardReports-SubmittedReports"></a>
 # Submitted Reports
+
+<div class="panel" style="background-color: #FFFFCE;border-style: solid;border-width: 1px;"><div class="panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;background-color: #F7D6C1;"><B>February 2011</B></div><div class="panelContent" style="background-color: #FFFFCE;"><pre>
+Status report for the Apache Community Development Project
+
+Project Status
+--------------
+
+The Community Development is progressing well, although a little more
+slowly than some whould have hoped.
+
+No issues require board attention at this time.
+
+Community
+---------
+
+Google Summer of Code 2011 is in preparation stages. For the first time we 
+have more admin volunteers than we need - which is great.
+
+The EU project (OpenSE) that planned to bring students to our mentoring programme is 
+about to commence its second pilot run. In the first run we had a number of 
+interested enquiries but nobody actually started work as a mentee. On the one 
+hand this is a dissapointment, on the othe it is good to know that our ASF 
+volunteers are not wasting time on the initial phases of engaging mentees that, 
+ultimately, bring nothing to the project. 
+The OpenSE team believes the main barrier is the high expectations we have of 
+students - we make it clear that they must be self-motivated and results 
+oriented. This coupled with the reputaton of the ASF appears to be intimidating
+potential mentees. In the next pilot the learning assitants are focussing on the 
+career advantages experience with ASF projects can bring and are introducing a
+"community game" which will introduce students to the idea of engaging in public.
+
+Apache-extras.org was launched. As agreed the committee is hands off on the 
+management of this site. There are currently 89 projects listed.
+
+
+Objectives for next period
+--------------------------
+
+ - Coordinate Google Summer of Code
+ - Analyse use of apache-extras.org
+
+</pre></div>
+</div>
 
 <div class="panel" style="background-color: #FFFFCE;border-style: solid;border-width: 1px;"><div class="panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;background-color: #F7D6C1;"><B>November 2010</B></div><div class="panelContent" style="background-color: #FFFFCE;"><pre>
 Status report for the Apache Community Development Project
