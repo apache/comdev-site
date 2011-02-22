@@ -1,5 +1,6 @@
 Title: GSoC
-Google is sponsoring the [2010 Summer of Code](http://socghop.appspot.com/), 
+
+Google is sponsoring the [2011 Summer of Code](http://socghop.appspot.com/), 
 the [The Apache Software Foundation](http://www.apache.org/) (ASF) is 
 planning to participate again this year (mentoring organisations
 have not yet been accepted). This page is your entry point to the ASF GSoC
@@ -23,8 +24,8 @@ to the projects you are interested in.
 <a name="GSoC-ApplyingforGSoC"></a>
 ### Applying for GSoC
 
-Student applications start on March 29th, 2010. However we encourage you to
-discuss you application with the project community before this date.
+Details will be announced in the next few weeks. However we encourage you to
+already discuss you application with the project community.
 
 In order to apply we ask that you create a list of deliverables,
 quantifiable results for the Apache community, a detailed description /
@@ -78,18 +79,20 @@ automatically include them in our list of subjects. If your project does
 not use JIRA please contact dev@community.apache.org.  
 
 <a name="GSoC-ASFGSoCTimeline"></a>
-# ASF GSoC Timeline
+# ASF GSoC 2010 Timeline
 
 Below is a timeline of events for The Apache Software Foundations
 involvement in GSoC. Unless otherwise stated deadlines are 11:59 UTC on the
 date indicated.
+
+Note that this is the **2010 timeline**, we'll update it once we have to 2011 info.
 
 <a name="GSoC-StudentApplicationandSelection"></a>
 ## Student Application and Selection
 
 <table>
 <tr><th>Date</th><th>Activity</th></tr>
-<tr><td>February 8</td><td>Program announced. Life is good.</td></tr>
+<tr><td>February 8, 2010</td><td>Program announced. Life is good.</td></tr>
 <tr><td>March 18-29</td><td>Would-be student participants discuss application ideas with
 mentoring organizations.</td></tr>
 <tr><td>March 29 19:00 UTC</td><td>Student application period opens.</td></tr>
