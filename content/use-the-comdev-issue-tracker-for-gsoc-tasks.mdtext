@@ -1,15 +1,14 @@
 Title: use the Comdev Issue Tracker For GSoC Tasks
+
 If you project does not use the ASFs JIRA for issue tracking you can use
 the Community Development project to record your GSoC tasks. 
 
 * Add tasks to the [Comdev project](https://issues.apache.org/jira/browse/COMDEV)
-* Ensure you add the labels "*gsoc*" and "*mentor*"
+* Ensure you add the labels "*gsoc2011*" and "*mentor*"
 * Ensure your title has "PROJECT_NAME:" at the start (you'll see why in a
 moment)
-* Your issues will then appear in the [list of projects](https://issues.apache.org/jira/secure/IssueNavigator.jspa?mode=hide&requestId=12314021)
+* Your issues will then appear in the [list of projects](http://s.apache.org/gsoc2011tasks)
 * To create a list of just your projects make a copy of the filter at the
-above URL, narrow down to the comdev project and filter for "PROJECT_NAME:"
-(e.g. [Subversion tasks](https://issues.apache.org/jira/secure/IssueNavigator.jspa?mode=hide&requestId=12314115)
-)
+above URL, narrow down to the comdev project and filter for "PROJECT_NAME:".
 
 You can then link to this from your own site and access XML, RSS feeds.
