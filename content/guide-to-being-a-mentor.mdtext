@@ -1,20 +1,20 @@
 Title: guide to being a mentor
+
 <a name="guidetobeingamentor-Submittingideastothementoringprogramme"></a>
 # Submitting ideas to the mentoring programme
 
 All ASF projects are invited to submit their ideas for consideration in the
 ASF mentoring programme. Any Apache member and experienced committers can
-submit ideas via JIRA (if your project does not use JIRA you can [use the Comdev Issue Tracker For GSoC Tasks](use-the-comdev-issue-tracker-for-gsoc-tasks.html)
-. We are looking for as many interesting projects as we can come up with. 
+submit ideas via JIRA (if your project does not use JIRA you can [use the Comdev Issue Tracker For GSoC Tasks](use-the-comdev-issue-tracker-for-gsoc-tasks.html). We are looking for as many interesting projects as we can come up with. 
 
 <a name="guidetobeingamentor-Summary"></a>
 ## Summary
 
-* Add an issue to JIRA (if your project doesn't use JIRA contact
+  - Add an issue to JIRA (if your project doesn't use JIRA contact
 dev@community.apache.org)
-** use sub-tasks if necessary
-* Label the main issue with "mentor"
-* Label the main issue with "gsoc" if appropriate
+    - use sub-tasks if necessary
+  - Label the main issue with "mentor"
+  - Label the main issue with "gsoc2011" if appropriate
 
 <a name="guidetobeingamentor-Detail"></a>
 ## Detail
@@ -35,10 +35,11 @@ When in doubt about all this, contact code-awards@apache.org.
 
 For more information about what it means to be a mentor and on how to write
 a proposal see:
-* [GSoC Mentoring Guide](http://en.flossmanuals.net/GSoCMentoringGuide)
-* [GSoC Advice For Mentors](http://code.google.com/p/google-summer-of-code/wiki/AdviceforMentors)
-* [Gnome HowTo on mentoring](http://www.gnome.org/~federico/docs/summer-of-code-mentoring-howto/)
-* [How to be a lazy but successful Google SoC mentor](http://ploum.net/post/221-how-to-be-a-lazy-but-successful-googlesoc-mentor)
+
+  - [GSoC Mentoring Guide](http://en.flossmanuals.net/GSoCMentoringGuide)
+  - [GSoC Advice For Mentors](http://code.google.com/p/google-summer-of-code/wiki/AdviceforMentors)
+  - [Gnome HowTo on mentoring](http://www.gnome.org/~federico/docs/summer-of-code-mentoring-howto/)
+  - [How to be a lazy but successful Google SoC mentor](http://ploum.net/post/221-how-to-be-a-lazy-but-successful-googlesoc-mentor)
 
 Note that interest, even by a qualified student, does not mean that any of
 those project will automatically go ahead. Depending on the number of
@@ -56,15 +57,15 @@ can create and use filters to help people find them. You can provide RSS
 feeds, JSON exports and many more goodies for helping to get the message
 out.
 
-If you have any cool ideas for using this data pleas elet us know so we can
+If you have any cool ideas for using this data please let us know so we can
 share them with other projects (mail dev@community.apache.org)
 
 <a name="guidetobeingamentor-Examples"></a>
 ## Examples
 
-* [Wookie GSoC Issues](https://issues.apache.org/jira/secure/IssueNavigator.jspa?mode=hide&requestId=12314106)
-* [Wookie RSS GSoC feed](https://issues.apache.org/jira/sr/jira.issueviews:searchrequest-rss/12314106/SearchRequest-12314106.xml?tempMax=1000)
-* [Wookie XML GSoC feed](https://issues.apache.org/jira/sr/jira.issueviews:searchrequest-xml/12314106/SearchRequest-12314106.xml?tempMax=1000)
+  - [Wookie GSoC Issues](https://issues.apache.org/jira/secure/IssueNavigator.jspa?requestId=12315360)
+  - [Wookie RSS GSoC feed](https://issues.apache.org/jira/sr/jira.issueviews:searchrequest-rss/12315360/SearchRequest-12315360.xml?tempMax=1000)
+  - [Wookie XML GSoC feed](https://issues.apache.org/jira/sr/jira.issueviews:searchrequest-xml/12315360/SearchRequest-12315360.xml?tempMax=1000)
 
 <a name="guidetobeingamentor-Stayingintouch"></a>
 # Staying in touch
