@@ -11,9 +11,9 @@ submit ideas via JIRA (if your project does not use JIRA you can [use the Comdev
 ## Summary
 
 * Add an issue to JIRA (if your project doesn't use JIRA contact dev@community.apache.org)
- * use sub-tasks if necessary
-* Label the main issue with "mentor"
-* Label the main issue with "gsoc2011" if appropriate
+  * use sub-tasks if necessary
+* Label the main issue with "mentor" (these will show up at the [ASF wide list of issues](https://issues.apache.org/jira/secure/IssueNavigator.jspa?requestId=12315361))
+* Label the main issue with "gsoc2011" if appropriate (these will show up at <http://s.apache.org/gsoc2011tasks>)
 
 <a name="guidetobeingamentor-Detail"></a>
 ## Detail
