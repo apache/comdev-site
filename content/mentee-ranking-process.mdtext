@@ -1,4 +1,5 @@
 Title: Mentee Ranking Process
+
 This page describes the ranking process used by The Apache Software
 Foundation to evaluate mentee proposals.
 
@@ -26,8 +27,7 @@ given proposal
 
 * if the proposal is for a project you will be mentoring and you feel the
 proposal looks good enough for you to commit your time to it then click the
-"I am willing to Mentor" button. You should also add a "+4" score the
-project (see below).
+"I am willing to Mentor" button.
 
 Please only offer to mentor a single project unless discussed on
 code-awards@a.o first.
@@ -37,14 +37,12 @@ However, unless you intend to mentor a project please do not add a score to
 the proposal. In the re-evaluation phase (see below) admins will use
 comments provided by mentors and community members.
 
-At the end of the pre-selection phase proposals should have a score of +4
-or zero. Thus admins can quickly scan the pre-selected projects for errors
-and correct them with adjustment scores.
-
 *Selection Phase* : done by mentor during ranking time
 
-In this phase mentors evaluate the proposal. Mentors are asked to add a
-comment for each score added using the criteria below, this helps admins in
+All scoring is done in the spreadsheet at <url here>. DO NOT ADD SCORES IN MELANGE!
+
+In this phase mentors evaluate the proposal. Mentors are asked to add an
+explanation for each score added using the criteria below, this helps admins in
 the later stages of evaluation.
 
 _Please do not add scores outside these criteria_
@@ -71,17 +69,13 @@ could conflict with the project (holidays, etc.)? And are we happy with
 this commitment? (0-2 points)
 * Did student respond quickly to mentor inquiries? (0-2 points)
 
-*NOTE:* The GSoC application only allow scores from -4 to +4 for each
-comment, so mentors will have to enter one comment with appropriate score
-for each of the selection criteria above.
 
-Other community members are free to comment on proposals as they see fit.
-However, unless you intend to mentor a project please do not add a score to
-the proposal. In the re-evaluation phase (see below) admins will use
+Other community members are free to comment on proposals inside Melange as they see fit.
+However, DO NOT ADD A SCORE TO THE PROPOSAL. In the re-evaluation phase (see below) admins will use
 comments provided by mentors and community members.
 
 At the end of the selection phase proposals to be considered for support
-will have a score of between +4 and +23, and should only have scores from
+will have a score of between 0 and +23, and should only have scores from
 the assigned mentor and admins (at this stage admin scores are only
 corrections). The admins will check in during the selection phase
 periodically to look for problems by scanning the scores (i.e. anything
@@ -109,6 +103,8 @@ points)
 community members to mark a proposal up or down (-4 to +4)
 * Admin discretionary points (-10 to +10 points, only used to break
 "deadlocks" across cut-off point, see below)
+
+The admins will transfer the scores to melange.
 
 At the end of this phase there is a short window for the community to
 verify the admins work before the final selection is made.
