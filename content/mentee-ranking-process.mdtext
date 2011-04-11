@@ -30,16 +30,18 @@ proposal looks good enough for you to commit your time to it then click the
 "I am willing to Mentor" button.
 
 Please only offer to mentor a single project unless discussed on
-code-awards@a.o first.
+code-awards@a.o first. Please also make sure that each proposal has
+exactly one mentor willing to mentor the proposal. If multiple community
+members wish to mentor a proposal please agree on only one who will be the
+"official" mentor.
 
 Other community members are free to comment on proposals as they see fit.
-However, unless you intend to mentor a project please do not add a score to
-the proposal. In the re-evaluation phase (see below) admins will use
+In the re-evaluation phase (see below) admins will use
 comments provided by mentors and community members.
 
 *Selection Phase* : done by mentor during ranking time
 
-All scoring is done in the spreadsheet at <https://svn.apache.org/repos/private/committers/gsoc/GSoC-2011-scoring.csv>. DO NOT ADD SCORES IN MELANGE!
+All scoring is done in the spreadsheet at <https://svn.apache.org/repos/private/committers/gsoc/GSoC-2011-scoring.csv>. DO NOT ADD SCORES IN MELANGE! Use integer number only!
 
 In this phase mentors evaluate the proposal. Mentors are asked to add an
 explanation for each score added using the criteria below, this helps admins in
