@@ -22,12 +22,12 @@ of Code application.
 
 Projects are ranked using a scoring system as follows:
 
-*Pre-Selection Phase* : done by mentor when accepting to be mentor of a
-given proposal
+##*Pre-Selection Phase* : done by mentor when accepting to be mentor of a given proposal
 
 * if the proposal is for a project you will be mentoring and you feel the
 proposal looks good enough for you to commit your time to it then click the
-"I am willing to Mentor" button.
+"I am willing to Mentor" button and add the proposal URL, title and your Melange link_id to
+<https://svn.apache.org/repos/private/committers/gsoc/GSoC-2011-scoring.csv>.
 
 Please only offer to mentor a single project unless discussed on
 code-awards@a.o first. Please also make sure that each proposal has
@@ -39,7 +39,7 @@ Other community members are free to comment on proposals as they see fit.
 In the re-evaluation phase (see below) admins will use
 comments provided by mentors and community members.
 
-*Selection Phase* : done by mentor during ranking time
+##*Selection Phase* : done by mentor during ranking time
 
 All scoring is done in the spreadsheet at <https://svn.apache.org/repos/private/committers/gsoc/GSoC-2011-scoring.csv>. DO NOT ADD SCORES IN MELANGE! Use integer number only!
 
@@ -90,7 +90,7 @@ phase). Before progressing to the next phase admins will read all proposals
 either above or near the minimum score and ensure that there are no errors
 in this phase of ranking.
 
-*Re-Evaluation* : done by admins during or after selection phase
+##*Re-Evaluation* : done by admins during or after selection phase
 
 In this phase admins evaluate all proposals above the required score and
 others that are just below it. We check those just below the required score
