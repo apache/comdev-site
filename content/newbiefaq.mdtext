@@ -1,4 +1,5 @@
 Title: NewbieFAQ
+
 This set of Frequently Asked Questions are intended to help newcomers to
 The Apache Software Foundation understand how we work.
 
@@ -33,14 +34,14 @@ There are a great many projects in The Apache Software Foundation. We have
 four classes of project:
 
  * [Top Level Projects](http://www.apache.org)
- - these are projects with healthy communities and active development
+   * these are projects with healthy communities and active development
  * [Incubating Projects](http://incubator.apache.org)
- - these are projects that have still to build a sustianble community, but
+   * these are projects that have still to build a sustianble community, but
 have active development
  * [Labs](http://labs.apache.org)
- - these are experiments being carried out by existing committers
+   * these are experiments being carried out by existing committers
  * [Attic](http://attic.apache.org)
- - these are end-of-life projects that are no longer receiving active
+   * these are end-of-life projects that are no longer receiving active
 development, but may still be useful
 
 <a name="NewbieFAQ-HowareprojectsmanagedinTheApacheSoftwareFoundation"></a>
