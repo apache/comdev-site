@@ -5,19 +5,21 @@ The Apache Software Foundation understand how we work.
 
 *Index of Questions*
 
-* [About The Apache Software Foundation](#NewbieFAQ-AboutTheApacheSoftwareFoundation)
-   * [What projects can I find in The Apache Software Foundation?](#NewbieFAQ-WhatprojectscanIfindinTheApacheSoftwareFoundation?)
-   * [How are projects managed in The Apache Software Foundation](#NewbieFAQ-HowareprojectsmanagedinTheApacheSoftwareFoundation)
-   * [How do I learn about the way Apache Projects Work?](#NewbieFAQ-HowdoIlearnaboutthewayApacheProjectsWork?)
-   * [How do I ask a question about the ASF in general?](#NewbieFAQ-HowdoIaskaquestionabouttheASFingeneral?)
-   * [How do I get user support for an ASF project?](#NewbieFAQ-HowdoIgetusersupportforanASFproject?)
-* [Getting Involved with Apache projects](#NewbieFAQ-GettingInvolvedwithApacheprojects)
-   * [How do I choose an Apache project to work on?](#NewbieFAQ-HowdoIchooseanApacheprojecttoworkon?)
-   * [How do I get involved with an Apache project?](#NewbieFAQ-HowdoIgetinvolvedwithanApacheproject?)
-   * [Is there a Code of Conduct for Apache projects?](#NewbieFAQ-IsthereaCodeofConductforApacheprojects?)
-   * [About the Apache Mentoring Programme](#NewbieFAQ-AbouttheApacheMentoringProgramme)
-      * [What is the Apache Mentoring Programme](#NewbieFAQ-WhatistheApacheMentoringProgramme)
-      * [How do I Apply to the Mentor Programme?](#NewbieFAQ-HowdoIApplytotheMentorProgramme?)
+    
+
+  - [About The Apache Software Foundation](#NewbieFAQ-AboutTheApacheSoftwareFoundation)
+      - [What projects can I find in The Apache Software Foundation?](#NewbieFAQ-WhatprojectscanIfindinTheApacheSoftwareFoundation?)
+      - [How are projects managed in The Apache Software Foundation](#NewbieFAQ-HowareprojectsmanagedinTheApacheSoftwareFoundation)
+      - [How do I learn about the way Apache Projects Work?](#NewbieFAQ-HowdoIlearnaboutthewayApacheProjectsWork?)
+      - [How do I ask a question about the ASF in general?](#NewbieFAQ-HowdoIaskaquestionabouttheASFingeneral?)
+      - [How do I get user support for an ASF project?](#NewbieFAQ-HowdoIgetusersupportforanASFproject?)
+  - [Getting Involved with Apache projects](#NewbieFAQ-GettingInvolvedwithApacheprojects)
+      - [How do I choose an Apache project to work on?](#NewbieFAQ-HowdoIchooseanApacheprojecttoworkon?)
+      - [How do I get involved with an Apache project?](#NewbieFAQ-HowdoIgetinvolvedwithanApacheproject?)
+      - [Is there a Code of Conduct for Apache projects?](#NewbieFAQ-IsthereaCodeofConductforApacheprojects?)
+  - [About the Apache Mentoring Programme](#NewbieFAQ-AbouttheApacheMentoringProgramme)
+      - [What is the Apache Mentoring Programme](#NewbieFAQ-WhatistheApacheMentoringProgramme)
+      - [How do I Apply to the Mentor Programme?](#NewbieFAQ-HowdoIApplytotheMentorProgramme?)
 
 Note, there are not too many questions and answers here right now, this is
 a very new project. Please ask any new questions on
