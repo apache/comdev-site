@@ -11,24 +11,44 @@ The following report is *incomplete* and *draft* only. It is being prepared
 for the next submission to the board. Submitted reports can be found
 further down the page.
 
-<div class="panel" style="background-color: #FFFFCE;border-style: solid;border-width: 1px;"><div class="panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;background-color: #F7D6C1;"><B>DRAFT June 2011</B></div><div class="panelContent" style="background-color: #FFFFCE;"><pre>
+<div class="panel" style="background-color: #FFFFCE;border-style: solid;border-width: 1px;">
+<div class="panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;background-color: #F7D6C1;"><B>DRAFT May 2011</B></div><div class="panelContent" style="background-color: #FFFFCE;"><pre>
 Status report for the Apache Community Development Project
 
 Project Status
 --------------
-
-The Community Development is progressing well, although a little more
-slowly than some whould have hoped.
 
 No issues require board attention at this time.
 
 Community
 ---------
 
+Google Summer of Code is underway and once again we have plenty of eager 
+students and mentors. Even more refreshing is that we have a completely 
+new team of admins to spread the load around.
+
+We are still not doing a good job of foundation level PR around our 
+mentoring opportunities.
+
+Other mentoring activities are slow, with 5 interested parties approaching
+us over the last quarter. The third pilot of the OpenSE project which keeps
+promising to bring waves of students to us is now underway, but no signs
+of significant activity yet.
+
+Use of apache-extras.org is increasing (100 projects at time of writing). 
+We are noticing a number of projects suggesting it as a home for 
+extension projects that cannot use the Apache licence as a result of 
+dependencies. 
+
+There is some work underway to formally document Apaches expectations 
+that projects will be run independently of company affiliation.
 
 Objectives for next period
 --------------------------
 
+Complete GSoC and make an appropriate press release upon completion.
+
+Improve documentation about independence of Apache projects
 
 </pre></div>
 </div>
