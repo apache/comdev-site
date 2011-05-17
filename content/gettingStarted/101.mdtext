@@ -1,0 +1,92 @@
+Title:
+Notice:    Licensed to the Apache Software Foundation (ASF) under one
+           or more contributor license agreements.  See the NOTICE file
+           distributed with this work for additional information
+           regarding copyright ownership.  The ASF licenses this file
+           to you under the Apache License, Version 2.0 (the
+           "License"); you may not use this file except in compliance
+           with the License.  You may obtain a copy of the License at
+           .
+             http://www.apache.org/licenses/LICENSE-2.0
+           .
+           Unless required by applicable law or agreed to in writing,
+           software distributed under the License is distributed on an
+           "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+           KIND, either express or implied.  See the License for the
+           specific language governing permissions and limitations
+           under the License.
+
+# Where do I start?
+
+If you have no idea where to start with your engagement with an Apache project 
+this is the page for you.
+
+### Finding the right project
+
+The key to working on projects at Apache (and any open source for that matter)
+is to have a personal reason for being involved. You might be trying to solve 
+a day job issue, you might be looking to learn a new technology or you might 
+simply want to do something fun in your free time. We don't care what your 
+motivation is we just care about you wanting to get involved.
+
+If you don't have a specific technical issue to solve you might be willing to 
+work on any project. Our [projects page][1] provides a useful index which 
+allows you to view projects alphabetically, by category or by language. When you view a projects detail page in this list you will find details of their 
+mailing lists, issue tracker and other resources.
+
+As well as our main projects you might also like to view our 
+[Incubating projects][2]. These projects work in exactly the same way as our "top
+level projects" but are still developing their initial community.
+
+Once you've found some interesting looking projects join their mailing lists and
+start "lurking". Read the mails that come through the list. Initially you will not
+understand what people are talking about, but over time you will start to
+pick up the language, objectives, strategies and working patterns of the community.
+
+#### Finding an issue to work on
+
+If you are trying to satisfy a specific technical problem then you already know
+what you want to work on, but if you are looking for something useful to do in
+order to participate in an ASF project then the projects issue/bug tracker is your 
+friend (this will be linked from the projects home page or from its entry on the
+projects page linked above).
+
+In the projects issue tracker you will find details of bugs and feature 
+requests the project would like to work with, this should give you some 
+inspiration about how you might be able to help the project community. If
+you are looking for a beginner level issue try searching JIRA for issues 
+with the label "GSoC" or "mentor", these are issues the community feel are 
+manageable for someone new to the ASF and their project. The community has
+also indicated that they are willing to help someone work on those issues
+through our [mentoring program][3].
+
+## Joining the community
+
+once you have identified an issue you would like to tackle its time to join the 
+projects mailing list (if you haven't already) and get started.
+
+Remember, community members usually happy to help, but they have to get something
+in return. The community needs to believe that you intend to contribute positively
+to their work. There is a limit to how much "hand holding" you will get so be ready
+to do some work if you expect to continue to be helped in your first foray into
+open source.
+
+At this point you might want to request that someone in the community offers to
+mentor you. See our [mentoring programme][4] for guidance on how to do this.
+
+Alternatively you can dive straight in and work with the community. Since you've 
+been lurking on the lists for a while by the time you have got to this point you
+should have a feel for how to get involved, so go for it.
+
+# Further Reading
+    * Some common questions are answered in our [FAQ][5]
+    * To learn more about "The Apache Way" of developing software see the 
+foundations [How It Works][6] pages.
+
+
+  [1]: http://projects.apache.org/
+  [2]: http://incubator.apache.org/
+  [3]: /newbiefaq.html#NewbieFAQ-AbouttheApacheMentoringProgramme
+  [4]: /mentorprogrammeapplication.html
+  [5]: /newbiefaq.html
+  [6]: http://apache.org/foundation/how-it-works.html
