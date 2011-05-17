@@ -163,9 +163,8 @@ going to spend time teaching you programming 101, technical writing or
 testing (to pick just a few skills we need). You need to know the basics
 and be willing to research the rest.
 
-Our mentoring programme, see below, is designed to help you understand how
-to get guidance with respect to how to take your first steps in an open
-source project. You will also find our [get involved](http://apache.org/foundation/getinvolved.html)
+To learn more about getting involved with an Apache Project see our [getting
+started guide][1]. You will also find our [get involved](http://apache.org/foundation/getinvolved.html)
  page a uaseful starting point.
 
 <a name="NewbieFAQ-IsthereaCodeofConductforApacheprojects?"></a>
@@ -213,3 +212,6 @@ need to complete an [application](mentorprogrammeapplication.html). This
 gives us enough background information to enable us to approach your
 chosen project community and for you to work with prospective mentors in
 defining your mentored activity.
+
+
+  [1]: /gettingStarted/101.html
