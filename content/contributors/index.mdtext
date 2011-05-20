@@ -23,9 +23,32 @@ their way around The Apache Software Foundation.
 At the time of writing we don't have much here, so we suggest you mail us
 with your questions.
 
+## Project Independence
+
+While not all aspects of the Apache Way are practiced the same way by 
+all projects at the ASF, there are a number of rules that Apache 
+projects are required to follow – things like complying with PMC 
+[release voting][1], [legal policy][2], [brand policy][3], 
+using [mailing lists][4], etc., which are [documented in various places][5]. 
+
+One of these invariant rules is that projects are managed and used
+independently of any commercial interests. The goal is to createan 
+environemnt in which all participants are equal and thus have an equal
+opportunity to contribute to and benefit from our software, regardless
+of motivation or financial objectives. This is discussed in more detail
+in our document [Project Independence][6].
+
 ## Questions and Feedback
 
 Feedback can be provided and questions asked by subscribing to our mailing
 list by sending a mail to 
 [dev-subscribe@community.apache.org](mailto:dev-subscribe@community.apache.org). Once subscribe you can send your mail to
 [dev@community.apache.org](mailto:dev@community.apache.org).
+
+
+  [1]: http://www.apache.org/dev/release.html
+  [2]: http://www.apache.org/legal/
+  [3]: http://www.apache.org/foundation/marks/
+  [4]: http://www.apache.org/dev/#mail
+  [5]: https://blogs.apache.org/comdev/entry/what_makes_apache_projects_different
+  [6]: /projectIndependence.html
