@@ -1,4 +1,5 @@
 Title: NewCommitter
+
 Identifying potential new commiters, calling a vote for their recognition
 as a committer and processing the relevant documents is something that the
 whole community can contribute to.
@@ -12,7 +13,7 @@ drafts for the various communications that are necessary.
 
 When voting, all PMC members need to make up your own mind, perhaps search
 mailing lists and Jira, etc. The following are some tips that we developed.
-Also consider the Apache Forrest [committer fuidelines](http://forrest.apache.org/committed.html)
+Also consider the Apache Forrest [committer guidelines](http://forrest.apache.org/committed.html)
 
 <a name="NewCommitter-Abilitytoworkco-operativelywithpeers."></a>
 ## Ability to work co-operatively with peers. 
