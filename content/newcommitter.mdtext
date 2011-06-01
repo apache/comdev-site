@@ -4,7 +4,7 @@ Identifying potential new commiters, calling a vote for their recognition
 as a committer and processing the relevant documents is something that the
 whole community can contribute to.
 
-Each project has different approches to managing new committers, this page
+Each project has different appraoches to managing new committers, this page
 describes a common process found in many Apache projects. It also provides
 drafts for the various communications that are necessary.
 
@@ -13,7 +13,7 @@ drafts for the various communications that are necessary.
 
 When voting, all PMC members need to make up your own mind, perhaps search
 mailing lists and Jira, etc. The following are some tips that we developed.
-Also consider the Apache Forrest [committer guidelines](http://forrest.apache.org/committed.html)
+Also consider the Apache Forrest [committer guidelines](http://forrest.apache.org/committed.html).
 
 <a name="NewCommitter-Abilitytoworkco-operativelywithpeers."></a>
 ## Ability to work co-operatively with peers. 
@@ -25,7 +25,7 @@ process.
 ## Ability to be a mentor.
 How do we evaluate?  By the interactions they have through mail. By how
 clear they are and how willing they are to point at appropriate background
-materials (or event create them).
+materials (or even create them).
 
 <a name="NewCommitter-Community"></a>
 ## Community
@@ -38,7 +38,7 @@ on not-so-fun tasks as well.
 
 <a name="NewCommitter-Personalskill/ability"></a>
 ## Personal skill/ability
-1. How do we evaluate?  A solid general understanding of the project. 
+How do we evaluate?  A solid general understanding of the project. 
 Quality of discussion in mail.	Patches easy to apply with only
 a cursory review.
 
