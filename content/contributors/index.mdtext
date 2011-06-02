@@ -86,6 +86,8 @@ cooperatively with your peers.
 Some of those users become committers in their own write. Some will test code, 
 some will write documentation, some will do bug triage and some will write code.
 
+For more details see our "[How it works][8]" document.
+
 ## Questions and Feedback
 
 Feedback can be provided and questions asked by subscribing to our mailing
@@ -101,3 +103,4 @@ list by sending a mail to
   [5]: http://www.apache.org/dev/#mail
   [6]: https://blogs.apache.org/comdev/entry/what_makes_apache_projects_different
   [7]: /projectIndependence.html
+  [8]: http://www.apache.org/foundation/how-it-works.html
