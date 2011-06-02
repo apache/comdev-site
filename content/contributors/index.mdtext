@@ -46,7 +46,7 @@ through to providing new features as patches.
 
 If you become a valuable contributor to the project you may well be invited to become
 a committer. Committer is an term used at the ASF to signify someone who is
-committed to a particular project. It brings with it the privilege of right access to
+committed to a particular project. It brings with it the privilege of write access to
 the project repository and resources. In many projects committers are also invited 
 to be part of the core group within the project that ensures the project's vitality 
 (represented by the Project Management Committee, PMC). In a few projects a only a subset of 
@@ -83,7 +83,7 @@ oriented docs and ensuring the user viewpoint is understood by all developers.
 A main idea behind being a committer is the ability to be a mentor and to work 
 cooperatively with your peers.
 
-Some of those users become committers in their own write. Some will test code, 
+Some of those users become committers in their own right. Some will test code, 
 some will write documentation, some will do bug triage and some will write code.
 
 For more details see our "[How it works][8]" document.
