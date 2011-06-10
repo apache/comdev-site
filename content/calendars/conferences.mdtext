@@ -1,0 +1,30 @@
+Title:     Apache Conferences Calendar
+Notice:    Licensed to the Apache Software Foundation (ASF) under one
+           or more contributor license agreements.  See the NOTICE file
+           distributed with this work for additional information
+           regarding copyright ownership.  The ASF licenses this file
+           to you under the Apache License, Version 2.0 (the
+           "License"); you may not use this file except in compliance
+           with the License.  You may obtain a copy of the License at
+           .
+             http://www.apache.org/licenses/LICENSE-2.0
+           .
+           Unless required by applicable law or agreed to in writing,
+           software distributed under the License is distributed on an
+           "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+           KIND, either express or implied.  See the License for the
+           specific language governing permissions and limitations
+           under the License.
+
+This Calendar is maintained by the [Apache Conferences Committee][1] (ConCom). It's used to list official Apache events, and 
+those events which have been approved to use Apache Marks under the [Third Party Event Branding Policy][2].
+
+<iframe src="https://www.google.com/calendar/embed?src=nerseigospses068jd57bk5ar8%40group.calendar.google.com&ctz=America/New_York"
+style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+
+This Calendar is also available as an [iCal feed][3]
+
+  [1]: http://www.apache.org/foundation/conferences.html
+  [2]: http://www.apache.org/foundation/marks/events.html
+  [3]: https://www.google.com/calendar/ical/nerseigospses068jd57bk5ar8%40group.calendar.google.com/public/basic.ics
