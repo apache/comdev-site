@@ -20,20 +20,38 @@ Information that is useful to Apache committers is spread across the whole ASF s
 This page is intended to be an index of useful resources. This site is editable by 
 any Apache Committer, feel free to add anything useful here.
 
-## Project Independence
+## Decision making
+
+Decisions in Apache projects are the result of:
+
+  - action
+  - consensus in the community 
+
+We have, over the years, developed a very simple and effective approach to 
+consensus building and decision making. The vast majority of decisions are made
+using [lazy consensus][1], if the "lazy" approach to consensus building is deemed
+unsuitable for a particular decision then we seek to [build consensus][2] within
+the community. Very occasionally, usually for formal reasons relating to legal 
+responsibilities, it is necessary to call a [vote][3].
+
+Each of these three approaches is described more fully on various foundation 
+and project sites. However, we've provided an initial introduction to [decision
+making][4] here on the community development site.
+
+## Project independence
 
 While not all aspects of the Apache Way are practiced the same way by 
 all projects at the ASF, there are a number of rules that Apache 
 projects are required to follow – things like complying with PMC 
-[release voting][1], [legal policy][2], [brand policy][3], 
-using [mailing lists][4], etc., which are [documented in various places][5]. 
+[release voting][5], [legal policy][6], [brand policy][7], 
+using [mailing lists][8], etc., which are [documented in various places][9]. 
 
 One of these invariant rules is that projects are managed and used
 independently of any commercial interests. The goal is to create an 
 environment in which all participants are equal and thus have an equal
 opportunity to contribute to and benefit from our software, regardless
 of motivation or financial objectives. This is discussed in more detail
-in our document [Project Independence][6].
+in our document [Project Independence][10].
 
 <a name="Index-Assistingwithprojectmanagement"></a>
 ## Assisting with project management
@@ -49,9 +67,13 @@ activities, although non-committers can often act in supporting roles.
  * [Board Reports](/boardreport.html)
 
 
-  [1]: http://www.apache.org/dev/release.html
-  [2]: http://www.apache.org/legal/
-  [3]: http://www.apache.org/foundation/marks/
-  [4]: http://www.apache.org/dev/#mail
-  [5]: https://blogs.apache.org/comdev/entry/what_makes_apache_projects_different
-  [6]: /projectIndependence.html
+  [1]: /committers/lazyConsensus.html
+  [2]: /committers/consensusBuilding.html
+  [3]: /committes/voting.html
+  [4]: /committers/decisionMaking.html
+  [5]: http://www.apache.org/dev/release.html
+  [6]: http://www.apache.org/legal/
+  [7]: http://www.apache.org/foundation/marks/
+  [8]: http://www.apache.org/dev/#mail
+  [9]: https://blogs.apache.org/comdev/entry/what_makes_apache_projects_different
+  [10]: /projectIndependence.html
