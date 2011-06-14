@@ -66,6 +66,15 @@ activities, although non-committers can often act in supporting roles.
  * [Assessing and approving new committers](/newcommitter.html)
  * [Board Reports](/boardreport.html)
 
+## Other Resources
+
+There is no shortage of useful resources for committers at Apache, 
+here are a few you might want to take a look at:
+
+  - [How the ASF works][11]
+  - [Guide for New Committers][12]
+  - [Developer resources][13]
+
 
   [1]: /committers/lazyConsensus.html
   [2]: /committers/consensusBuilding.html
@@ -77,3 +86,6 @@ activities, although non-committers can often act in supporting roles.
   [8]: http://www.apache.org/dev/#mail
   [9]: https://blogs.apache.org/comdev/entry/what_makes_apache_projects_different
   [10]: /projectIndependence.html
+  [11]: http://www.apache.org/foundation/how-it-works.html
+  [12]: http://www.apache.org/dev/new-committers-guide.html
+  [13]: http://www.apache.org/dev
