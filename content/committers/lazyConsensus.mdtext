@@ -47,9 +47,10 @@ and cares.
 ## Stating Lazy Consensus
 
 Sometimes a member of the community will believe a specific action is the correct 
-one for the community but are not sure enough to proceed with the work under the 
-lazy consensus model. In these circumstances they can state Lazy Consensus is in 
-operation.
+one for the project but are not sure that there will be consensus. In these 
+circumstances they may not wish to proceed with the work without giving the 
+community an opportunity to feedback. In these circumstances they can make the 
+proposal and state Lazy Consensus is in operation.
 
 What this means is that they make a proposal and state that they will start 
 implementing it in 72 hours unless someone objects. 72 hours is chosen because
