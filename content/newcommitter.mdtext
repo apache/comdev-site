@@ -123,7 +123,7 @@ Other notes about the process are available on the main [Apache site](http://www
 <a name="NewCommitter-EmailTemplates"></a>
 # Email Templates
 
-<DIV class="code panel" style="border-style: solid;border-width: 1px;"><DIV class="codeHeader panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;"><B>Committer Vote Template|borderStyle=solid</B></DIV><DIV class="codeContent panelContent">
+## Committer Vote Template
     This is the email to commence a vote for a new PMC member.
     We do this on the [PROJECT]
  Private mailing list, so as to enable
@@ -148,7 +148,7 @@ yet)
     ------------------------------------------------------------
 
 
-<DIV class="code panel" style="border-style: solid;border-width: 1px;"><DIV class="codeHeader panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;"><B>Committer Invite Template|borderStyle=solid</B></DIV><DIV class="codeContent panelContent">
+## Committer Invite Template
     This is the invitation email, sent after a positive result 
     from the vote for a new committer.
     
@@ -192,7 +192,7 @@ yet)
     ------------------------------------------------------------------------
 
 
-<DIV class="code panel" style="border-style: solid;border-width: 1px;"><DIV class="codeHeader panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;"><B>Committer Accept Template|borderStyle=solid</B></DIV><DIV class="codeContent panelContent">
+## Committer Accept Template
     This is the followup email after they have accepted.
     
     ------------------------------------------------------------------------
@@ -249,7 +249,7 @@ yet)
     ------------------------------------------------------------------------
 
 
-<DIV class="code panel" style="border-style: solid;border-width: 1px;"><DIV class="codeHeader panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;"><B>Committer Create Template|borderStyle=solid</B></DIV><DIV class="codeContent panelContent">
+## Committer Create Template
     Account creation email for new committers.
     
     Follow the instructions at:
@@ -286,7 +286,7 @@ yet)
 
 
 
-<DIV class="code panel" style="border-style: solid;border-width: 1px;"><DIV class="codeHeader panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;"><B>Committer Announce Template|borderStyle=solid</B></DIV><DIV class="codeContent panelContent">
+## Committer Announce Template
     This is the email to announce to [PROJECT]
 -dev after the
     followup acceptance.
@@ -312,7 +312,7 @@ yet)
     and to guide the direction of the project.
 
 
-<DIV class="code panel" style="border-style: solid;border-width: 1px;"><DIV class="codeHeader panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;"><B>Board Template|borderStyle=solid</B></DIV><DIV class="codeContent panelContent">
+## Board Template
     This is the email to end a vote for a new PMC member.
     We do this on the [PROJECT]
  Private mailing list as that 
@@ -346,7 +346,7 @@ email
     ------------------------------------------------------------
 
 
-<DIV class="code panel" style="border-style: solid;border-width: 1px;"><DIV class="codeHeader panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;"><B>Committer Done Template|borderStyle=solid</B></DIV><DIV class="codeContent panelContent">
+## Committer Done Template
     After the committer account is established.
     
     ------------------------------------------------------------
