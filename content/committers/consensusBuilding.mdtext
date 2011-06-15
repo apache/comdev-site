@@ -28,6 +28,11 @@ shorthand notation for showing support, or otherwise, for a proposal.
 
 ## Expressing support (or otherwise)
 
+First of all, it is important to understand that everyone is invited to express 
+their opinion of any given action or proposal. Apache projects are community 
+projects in which no single individual has more power than any other single 
+individual (except in a very few procedural situations).
+
 The notation used is "+1", "-1" and "0". It's also common to see "+0" and "-0".
 
 So, what do these notations mean?
