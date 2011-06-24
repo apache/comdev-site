@@ -5,8 +5,6 @@ The Apache Software Foundation understand how we work.
 
 *Index of Questions*
 
-    
-
   - [About The Apache Software Foundation](#NewbieFAQ-AboutTheApacheSoftwareFoundation)
       - [What projects can I find in The Apache Software Foundation?](#NewbieFAQ-WhatprojectscanIfindinTheApacheSoftwareFoundation?)
       - [How are projects managed in The Apache Software Foundation](#NewbieFAQ-HowareprojectsmanagedinTheApacheSoftwareFoundation)
@@ -21,10 +19,11 @@ The Apache Software Foundation understand how we work.
       - [What is the Apache Mentoring Programme](#NewbieFAQ-WhatistheApacheMentoringProgramme)
       - [How do I Apply to the Mentor Programme?](#NewbieFAQ-HowdoIApplytotheMentorProgramme?)
 
-Note, there are not too many questions and answers here right now, this is
+Note, there are not too many questions and answers here right now, as this is
 a very new project. Please ask any new questions on
-mailto:dev@community.apache.org (subscribe with
-mailto:dev-subscribe@community.apache.org first).
+[dev@community.apache.org](mailto:dev@community.apache.org) (subscribe with
+[dev-subscribe@community.apache.org](mailto:dev-subscribe@community.apache.org) first).
+
 
 <a name="NewbieFAQ-AboutTheApacheSoftwareFoundation"></a>
 # About The Apache Software Foundation
@@ -36,7 +35,7 @@ There are a great many projects in The Apache Software Foundation. We have
 four classes of project:
 
    * [Top Level Projects](http://www.apache.org): these are projects with healthy communities and active development
-   * [Incubating Projects](http://incubator.apache.org): these are projects that have still to build a sustianble community, but
+   * [Incubating Projects](http://incubator.apache.org): these are projects that have still to build a sustainable community, but
 have active development
    * [Labs](http://labs.apache.org): these are experiments being carried out by existing committers
    * [Attic](http://attic.apache.org): these are end-of-life projects that are no longer receiving active
@@ -59,7 +58,7 @@ project.
 We do have a system that we call meritocracy that allows those who have
 demonstrated commitment and understanding to the community to earn certain
 privileges, such as being able to make changes directly to documentation
-and programme code. However, these privileges simply streamline the
+and program code. However, these privileges simply streamline the
 process, they do not (in most cases) give additional powers over the
 project.
 
@@ -74,7 +73,7 @@ To learn more about "The Apache Way" see the foundations [How It Works](http://a
 
 You should consider applying to the [Apache Mentor Programme](mentoringprogramme.html)
 . We will help you find a mentor within the project of your choice. They
-will take you through a semi-formal mentoring programme] that will ensure
+will take you through a semi-formal mentoring programme that will ensure
 you quickly find your feet. There is no cost other than a promise to commit
 some of your time to the goals you agree with your mentor.
 
@@ -90,8 +89,8 @@ mailto:dev-subscribe@community.apache.org)
 ## How do I get user support for an ASF project?
 
 Everyone active in ASF projects is here as a volunteer, nobody is paid to
-provide support here. So the first thing to realise is that you need to be
-careful not to waste peoples time, so do your homework. Generally, if
+provide support here. So the first thing to realize is that you need to be
+careful not to waste people's time, so do your homework. Generally, if
 people can see that you have tried to solve your problem they are more
 likely to help. So, before asking a question do the following:
 
@@ -106,7 +105,7 @@ subscribe first). Indicate that you have read the appropriate documentation
 and explain what you have tried, what you expect to happen and what
 actually happens.
 
-Be patient waiting for a response, give it at least three working days
+Be patient waiting for a response: give it at least three working days
 before you send a second message. People are busy, they will deal with your
 request when they can. If you need urgent help it is best not to rely on
 the community support channels and find someone willing to support you for
@@ -124,8 +123,9 @@ A second way of contributing is to provide user support to others as your
 expertise grows. Again, earning merit in this way will help ensure you get
 the support you need in the future.
 
+If you are visible within the community, the community will likely reach out
+for you whenever you need too.
 
-If you are visible within the community
 
 <a name="NewbieFAQ-GettingInvolvedwithApacheprojects"></a>
 # Getting Involved with Apache projects
@@ -136,27 +136,27 @@ If you are visible within the community
 The key to working on projects at Apache (and any open source for that
 matter) is to have a personal reason for being involved. You might be
 trying to solve a day job issue, you might be looking to learn a new
-technology or you might simply want to do somethiung fun in your free time.
+technology or you might simply want to do something fun in your free time.
 The key is that you must *want* to get involved. It is also important that
 you have appropriate skills to be able to help the project.
 
-Our [projects](http://projects.apache.org/)
+Our [projects page](http://projects.apache.org/)
  provides a useful index of projects which allows you to view projects
 alphabetically, by category or by language. When you view a projects detail
 page in this list you will find details of their mailing lists, issue
-tracker and other resoutrces.
+tracker and other resources.
 
 In the projects issue tracker you will find details of bugs and feature
 requests the project would like to work with, this should give you some
 inspiration about how you might be able to help the project community. If
-you see an issue you would like to tackle its time to join the projects
+you see an issue you would like to tackle, it's time to join the projects
 mailing list and get started.
 
 <a name="NewbieFAQ-HowdoIgetinvolvedwithanApacheproject?"></a>
 ## How do I get involved with an Apache project?
 
 You can certainly improve your programming skills by watching the commit
-lists, receiving code reviews and participating in discussion. Howeverm
+lists, receiving code reviews and participating in discussion. However
 this learning opportunity is a healthy side effect of open source
 activities rather than a goal in itself. Nobody in an Apache project is
 going to spend time teaching you programming 101, technical writing or
@@ -165,7 +165,7 @@ and be willing to research the rest.
 
 To learn more about getting involved with an Apache Project see our [getting
 started guide][1]. You will also find our [get involved](http://apache.org/foundation/getinvolved.html)
- page a uaseful starting point.
+ page a useful starting point.
 
 <a name="NewbieFAQ-IsthereaCodeofConductforApacheprojects?"></a>
 ## Is there a Code of Conduct for Apache projects?
@@ -205,7 +205,7 @@ For more information see our [mentoring page](mentoringprogramme.html).
 
 Take a look at our [mentoring page](mentoringprogramme.html). If you are 
 planning on working on an Apache project as part of your formal education you 
-should also read [mentoring in formal education|mentorProgrammeFormalEducation].
+should also read [mentoring in formal education](mentorprogrammeformaleducation.html).
 
 From the [mentoring page](mentoringprogramme.html) you will see that you 
 need to complete an [application](mentorprogrammeapplication.html). This 
