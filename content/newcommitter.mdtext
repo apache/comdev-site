@@ -60,7 +60,7 @@ If they accept, then do:
 1. Accept the committer - note this assumes the committer is also to be a
 PMC member (templates/committerAccept.txt)
 1. wait until we see that receipt of CLA is recorded
-1. Create the committer account (template/committerCreate.txt)
+1. Request creation of the committer account (template/committerCreate.txt)
    1. now wait until root says it is done
    1. chair to enable their svn access
    1. add committer to the appropriate groups in Jira and CWiki
