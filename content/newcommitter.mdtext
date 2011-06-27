@@ -124,87 +124,116 @@ Other notes about the process are available on the main [Apache site](http://www
 # Email Templates
 
 ## Committer Vote Template
-    This is the email to commence a vote for a new PMC member.
-    We do this on the [PROJECT]
- Private mailing list, so as to enable
-    a frank discussion.
-    
+This is the email to commence a vote for a new committer member.
+Some projects make committers PMC members automatically, if this is the case then
+merge this with the following template (PMC Vote Template)
+      
     ------------------------------------------------------------
-    To: private@[PROJECT]
-.a.o
-    Subject: [Vote]
- new PMC member: Joe Bloggs
+    To: private@[PROJECT].apache.org
+    Subject: [Vote] new committer: Joe Bloggs
     
-     [ add the reasons behind your nomination here ]
+    [ add the reasons behind your nomination here ]
     
     Voting ends one week from today, i.e. midnight UTC on YYYY-MM-DD
     http://www.timeanddate.com/counters/customcounter.html?year=YYYY&month=MM&day=DD
     
     See voting guidelines at
     https://svn.apache.org/repos/private/pmc/forrest/pmc-member-vote.txt
-    (yes, this links to the Apache Forrest Guidelines, we don't have our own
-yet)
+    (yes, this links to the Apache Forrest Guidelines, we don't have our own yet)
     
     ------------------------------------------------------------
 
+## PMC Vote Template
+This is the email to commence a vote for a new PMC candidate. New PMC members need
+to be voted for by the existing PMC members and subsequently approved by the Board
+(or Incubator PMC for Incubating projects).
+    
+    ------------------------------------------------------------
+    To: private@[PROJECT].apache.org
+    Subject: [Vote] new PMC candidate: Joe Bloggs
+    
+    [ add the reasons behind your nomination here ]
+    
+    Voting ends one week from today, i.e. midnight UTC on YYYY-MM-DD
+    http://www.timeanddate.com/counters/customcounter.html?year=YYYY&month=MM&day=DD
+    
+    See voting guidelines at
+    https://svn.apache.org/repos/private/pmc/forrest/pmc-member-vote.txt
+    (yes, this links to the Apache Forrest Guidelines, we don't have our own yet)
+    
+## Close Vote
+    This is the email ends the vote and reports the result to the project.
+    
+    ------------------------------------------------------------
+    To: private@[PROJECT].a.o
+    Subject: [RESULT] [Vote] new PMC candidate: Joe Bloggs
+    
+    The vote has now closed. The results are:
+    
+    Binding Votes:
+    
+    +1 [TOTAL BINDING +1 VOTES]
+     0 [TOTAL BINDING +0/-0 VOTES]
+    -1 [TOTAL BINDING -1 VOTES]
+    
+    The vote is ***successful/not successful***
 
+#Board Approval of new PMC member 
+
+Assuming that a vote for a new PMC member passes it is now necessary to get 
+approval from the Board. Send the mail below to the board. This will be acknowledged
+by a bard member. 72 hours after the acknowledgement the PMC can proceed.
+
+See http://www.apache.org/dev/pmc.html#newpmc for more details
+
+
+    ------------------------------------------------------------
+    To: board@apache.org
+    Cc: private@[PROJECT].apache.org
+    Subject: Approve new PMC member for [PROJECT]: Joe Blogs
+
+    The [PROJECT] PMC has voted to invite Joe Blogs ([Apache ID]) to the PMC.
+    Please approve/acknowledge this PMC addition
+    
 ## Committer Invite Template
-    This is the invitation email, sent after a positive result 
-    from the vote for a new committer.
+This is the invitation email, sent after a positive result from the vote for a 
+new committer.
     
     ------------------------------------------------------------
     To: JoeBloggs@foo.net
-    Cc: private@[PROJECT]
-.a.o
-    Subject: invitation to become [PROJECT]
- committer: Joe Bloggs #####
+    Cc: private@[PROJECT].apache.org
+    Subject: invitation to become [PROJECT] committer: Joe Bloggs
     
-    Hello #####, the Apache [PROJECT]
- Project Management Committee
-    would like to invite you to become a [PROJECT]
- committer and member
-    of the PMC. We value your contributions and are aware that
-    you are committed to the project.
+    Hello Joe, the Apache [PROJECT] Project Management Committee would like 
+    to invite you to become a [PROJECT] committer. We value your contributions 
+    and are aware that you are committed to the project.
     
     Being a committer enables you to more easily make changes and so
     not need to go via the patch submission process. This should
-    enable you to be more productive. Being also a PMC member enables
-    you to guide the direction of the project.
-    
-    While this does not mean that you need to participate any more
-    than you already do, it does tend to make one even more committed.
-    Hence you will probably find that you spend more time here.
+    enable you to be more productive.
     
     Of course, you can decline and instead remain as a developer,
     contributing as you do now.
     
     This personal email is also providing a chance for you to decline
     in private. Either way, please let us know in reply only to the
-    private@[PROJECT]
-.a.o list. If you agree, then we will announce
-    on the dev@[PROJECT]
-.a.o list after the account is established.
+    private@[PROJECT].apache.org list. If you agree, then we will announce
+    on the dev@[PROJECT].apache.org list after the account is established.
     
     Yours,
-    The Apache [PROJECT]
- PMC
+    The Apache [PROJECT] PMC
     
-    ------------------------------------------------------------------------
-
-
+   
 ## Committer Accept Template
-    This is the followup email after they have accepted.
+This is the followup email after the new committer has accepted the invitation
     
     ------------------------------------------------------------------------
     To: JoeBloggs@foo.net
-    Cc: private@[PROJECT]
-.a.o
-    Subject: Re: invitation to become [PROJECT]
- committer
+    Cc: private@[PROJECT].apache.org
+    Subject: Re: invitation to become [PROJECT] committer
     
     Welcome. Here are the next steps. After that we will make
-    an announcement to the [PROJECT]
--dev list.
+    an announcement to the [PROJECT]-dev list.
     
     You need to send a Contributor License Agreement to the ASF.
     Normally you would send an Individual CLA. If you also make
@@ -214,7 +243,7 @@ yet)
     
     You need to choose a preferred ASF user name and alternatives.
     In order to ensure it is available you can view a list of taken ids at
-    http://www.apache.org/~jim/committers.html
+    http://people.apache.org/committer-index.html
     
     Please notify us when you have submitted the CLA and by what means 
     you did so. This will enable us to monitor its progress.
@@ -222,53 +251,44 @@ yet)
     We will arrange for your Apache user account when the CLA has 
     been recorded.
     
-    After that is done, please make followup replies to the [PROJECT]
--dev list.
-    We generally discuss everything there and keep this private@[PROJECT]
-.a.o list
-    for occasional matters which must be private.
+    After that is done, please make followup replies to the [PROJECT]-dev list.
+    We generally discuss everything there and keep the
+    private@[PROJECT].apache.org list for occasional matters which must be private.
     
-    The developer section of the website describes the roles
-    and provides other resources:
-    http://www.apache.org/foundation/how-it-works.html
-    http://www.apache.org/dev/
+    The developer section of the website describes the roles and provides other
+    resources:
+      http://www.apache.org/foundation/how-it-works.html
+      http://www.apache.org/dev/
     
     The incubator also has some useful information for new committers
     in incubating projects:
-    http://incubator.apache.org/guides/committer.html
-    http://incubator.apache.org/guides/ppmc.html
+      http://incubator.apache.org/guides/committer.html
+      http://incubator.apache.org/guides/ppmc.html
     
     In the absence of our own guidelines document we are currently 
     using those developed at Apache Forrest:
     http://forrest.apache.org/guidelines.html
     
     Yours,
-    The Apache [PROJECT]
- PMC
-    
-    ------------------------------------------------------------------------
+    The Apache [PROJECT] PMC
 
-
-## Committer Create Template
-    Account creation email for new committers.
-    
-    Follow the instructions at:
+## Committer Create Template    
+Follow the instructions at:
     http://www.apache.org/dev/pmc.html#newcommitter
     
-    Email is to be sent to root *after* the CLA is registered.
-    The PMC needs to monitor iclas.txt to be sure that the CLA
-    is properly received before sending this email. See above.
+This email is to be sent to root *after* the CLA is registered.
+The PMC needs to monitor iclas.txt to be sure that the CLA
+is properly received before sending this email. See above.
     
-    Don't forget to add their name/email in the email headers
-    and add the date/Message-Id of the PMC vote summary.
+Don't forget to add their name/email in the email headers
+and add the date/Message-Id of the PMC vote summary.
     
-    If the new member is already a committer, then just need
-    to ask root to add them to the UNIX groups.
+If the new member is already a committer, then just need
+to ask root to add them to the UNIX groups.
     
     ------------------------ snip ------------------------------
     To: root@apache.org
-    Cc: private@[PROJECT]
-.a.o, ###JoeBloggs@foo.net
+    Cc: private@[PROJECT].apache.org, ###JoeBloggs@foo.net
     Subject: account request: ###Joe Bloggs
     
     Full name:		  ...
@@ -279,29 +299,20 @@ yet)
     
     The receipt of the ICLA was recorded yesterday.
     
-    The vote was conducted on the private@[PROJECT]
-.a.o list
+    The vote was conducted on the private@[PROJECT].apache.org list
     around YYYY-MM-DD ###
     Message-Id: ###
 
-
-
 ## Committer Announce Template
-    This is the email to announce to [PROJECT]
--dev after the
-    followup acceptance.
-    
-    Replace the Joe Blogs in the subject, the ### in the body.
+This is the email to announce to [PROJECT]-dev once the account has been created.
     
     ------------------------------------------------------------
-    To: dev@[PROJECT]
-.a.o
-    Subject: new committer and PMC member: ###Joe Bloggs
+    To: dev@[PROJECT].apache.org
+    Subject: new committer: ###Joe Bloggs
     
     The Project Management Committee (PMC) for Apache [PROJECT]
-    has asked #### ####### to become a committer and
-    member of the PMC, and we are pleased to announce that
-    they have accepted.
+    has asked Joe Bloggs to become a committer and we are pleased 
+    to announce that they have accepted.
     
     ### add specific details here ###
     
@@ -310,41 +321,6 @@ yet)
     submission process. This should enable better productivity.
     Being a PMC member enables assistance with the management
     and to guide the direction of the project.
-
-
-## Board Template
-    This is the email to end a vote for a new PMC member.
-    We do this on the [PROJECT]
- Private mailing list as that 
-    is where the vote is held..
-    
-    ------------------------------------------------------------
-    To: private@[PROJECT]
-.a.o
-    Subject: [RESULT]
- [Vote]
- new PMC member: Joe Bloggs
-    
-    The vote has now closed. The results are:
-    
-    Binding Votes:
-    
-    +1 [TOTAL BINDING +1 VOTES]
-     0 [TOTAL BINDING +0/-0 VOTES]
-    -1 [TOTAL BINDING -1 VOTES]
-    
-    
-    [If three binding +1 and no binding -1]
-    
-    The vote passes, we now need lazy consensus approval from the IPMC. This
-email
-    calls for that consensus.
-    
-    Consensus period ends 72 hours from now, i.e. XYZ UTC on YYYY-MM-DD
-    http://www.timeanddate.com/counters/customcounter.html?year=YYYY&month=MM&day=DD&hour=0&min=0&sec=0&p0=0
-    
-    ------------------------------------------------------------
-
 
 ## Committer Done Template
     After the committer account is established.
