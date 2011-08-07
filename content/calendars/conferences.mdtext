@@ -19,11 +19,57 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 This Calendar is maintained by the [Apache Conferences Committee][1] (ConCom). It's used to list official Apache events, and 
 those events which have been approved to use Apache Marks under the [Third Party Event Branding Policy][2].
 
+<h2>Upcoming events</h2>
+<ul id="events">
+ <li><i>List loading</i></li>
+</ul>
+
 <iframe src="https://www.google.com/calendar/embed?src=nerseigospses068jd57bk5ar8%40group.calendar.google.com&ctz=America/New_York"
 style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
-
 This Calendar is also available as an [iCal feed][3]
+
+<script type="text/javascript">
+function handleContents(li, text) {
+   if(text == undefined || text.length == 0) {
+      return;
+   }
+   parts = text.split("\n");
+   for(var i=0; i<parts.length; i++) {
+      li.appendChild(document.createElement("br"));
+      li.appendChild(document.createTextNode(parts[i]));
+   }
+}
+function handleDates(li, when) {
+   // TODO Do this better
+   var date = when['startTime'];
+   li.appendChild(document.createTextNode(" - " + date))
+}
+
+function render(data) {
+   var ev = document.getElementById("events");
+   if(ev.hasChildNodes()) {
+      while(ev.childNodes.length >= 1) {
+         ev.removeChild(ev.firstChild);       
+      } 
+   }
+
+   var feed = data.feed;
+   for(var i=0; i<feed.entry.length; i++) {
+      var entry = feed.entry[i];
+      var title = entry.title.$t;
+      var text = entry.content.$t;
+      var when = entry['gd$when'][0];
+
+      var li = document.createElement("li");
+      li.appendChild(document.createTextNode(title));
+      handleDates(li, when);
+      handleContents(li, text);
+      ev.appendChild(li);
+   }
+}
+</script>
+<script src="http://www.google.com/calendar/feeds/nerseigospses068jd57bk5ar8@group.calendar.google.com/public/full?alt=json-in-script&callback=render&orderby=starttime&max-results=30&singleevents=true&sortorder=ascending&futureevents=true"></script>
 
   [1]: http://www.apache.org/foundation/conferences.html
   [2]: http://www.apache.org/foundation/marks/events.html
