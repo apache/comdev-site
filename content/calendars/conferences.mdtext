@@ -40,10 +40,31 @@ function handleContents(li, text) {
       li.appendChild(document.createTextNode(parts[i]));
    }
 }
+
+var dateRegExp = new RegExp("^(\\d{4})-(\\d{2})-(\\d{2})$");
 function handleDates(li, when) {
-   // TODO Do this better
-   var date = when['startTime'];
-   li.appendChild(document.createTextNode(" - " + date))
+   var from = when['startTime'];
+   var to = when['endTime'];
+   if(from.match(dateRegExp) && to.match(dateRegExp)) {
+      var fp = from.split(dateRegExp);
+      var tp = to.split(dateRegExp);
+      var fromDate = new Date(fp[1],fp[2]-1,fp[3]);
+      var toDate = new Date(tp[1],tp[2]-1,tp[3]);
+      var realToDate = new Date(toDate.getTime() - 24*60*60*1000);
+
+      var text;
+      if(fromDate.getTime() == realToDate.getTime()) {
+         // Single day
+         text = from;
+      } else {
+         // Really multi day
+         text = from + " to " + realToDate.getFullYear() + "-" + 
+                (realToDate.getMonth()+1) + "-"  + realToDate.getDate();
+      }
+      li.appendChild(document.createTextNode(" - " + text))
+   } else {
+      li.appendChild(document.createTextNode(" - " + from))
+   }
 }
 
 function render(data) {
@@ -62,7 +83,9 @@ function render(data) {
       var when = entry['gd$when'][0];
 
       var li = document.createElement("li");
-      li.appendChild(document.createTextNode(title));
+      var li_b = document.createElement("b");
+      li_b.appendChild(document.createTextNode(title));
+      li.appendChild(li_b);
       handleDates(li, when);
       handleContents(li, text);
       ev.appendChild(li);
