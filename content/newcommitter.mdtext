@@ -272,36 +272,20 @@ This is the followup email after the new committer has accepted the invitation
     Yours,
     The Apache [PROJECT] PMC
 
-## Committer Create Template    
+## Committer Account Creation
 Follow the instructions at:
     http://www.apache.org/dev/pmc.html#newcommitter
-    
-This email is to be sent to root *after* the CLA is registered.
-The PMC needs to monitor iclas.txt to be sure that the CLA
-is properly received before sending this email. See above.
-    
-Don't forget to add their name/email in the email headers
-and add the date/Message-Id of the PMC vote summary.
-    
-If the new member is already a committer, then just need
-to ask root to add them to the UNIX groups.
-    
-    ------------------------ snip ------------------------------
-    To: root@apache.org
-    Cc: private@[PROJECT].apache.org, ###JoeBloggs@foo.net
-    Subject: account request: ###Joe Bloggs
-    
-    Full name:		  ...
-    Preferred userid:	  ... [please provide acceptable alternates!]
-    Forwarding email address: ...
-    
-    Requested UNIX groups: [PROJECT]
-    
-    The receipt of the ICLA was recorded yesterday.
-    
-    The vote was conducted on the private@[PROJECT].apache.org list
-    around YYYY-MM-DD ###
-    Message-Id: ###
+
+In summary the account creation request is made by the 
+PMC Chair (or any ASF Member if the chair is unavailable)
+
+PMC chair needs to use the [ASF New Account Request][1] form to
+send a new account request. Members may use [ASF New Account 
+Request][2] page for ASF members to use.
+
+For elections held on public lists, please supply the 
+[mail-archives.apache.org][3] url. For private lists, you can 
+use the [Mail Search tool][4] to locate the apprpropriate url.    
 
 ## Committer Announce Template
 This is the email to announce to [PROJECT]-dev once the account has been created.
@@ -368,3 +352,8 @@ This is the email to announce to [PROJECT]-dev once the account has been created
     
     One of us will announce you to the dev list soon.
 
+
+  [1]: https://id.apache.org/acreq/pmc-chairs/
+  [2]: https://id.apache.org/acreq/members/
+  [3]: http://mail-archives.apache.org/
+  [4]: https://mail-search.apache.org/
