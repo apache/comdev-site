@@ -30,8 +30,9 @@ modifications to the process to prevent this happening again.
 
 FIXME: get these modifications documented in the website for next year
 
-  * Students accepted: FIXME
-  * Students who passed: FIXME
+  * Students accepted: 40
+  * Students who passed midterm: 38
+  * Students who passed final: 36
 
 Unfortunately we, once again, failed to do any press around our GSoC activities. This needs to be made an explicit responsibility of the GSoC admin (at present it is not in the Admin support materials)
 
