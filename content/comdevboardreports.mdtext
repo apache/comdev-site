@@ -12,7 +12,70 @@ for the next submission to the board. Submitted reports can be found
 further down the page.
 
 <div class="panel" style="background-color: #FFFFCE;border-style: solid;border-width: 1px;">
-<div class="panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;background-color: #F7D6C1;"><B>DRAFT May 2011</B></div><div class="panelContent" style="background-color: #FFFFCE;"><pre>
+<div class="panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;background-color: #F7D6C1;"><B>DRAFT October 2011</B></div><div class="panelContent" style="background-color: #FFFFCE;"><pre>
+Status report for the Apache Community Development Project
+
+Project Status
+--------------
+
+No issues require board attention at this time.
+
+GSoC
+----
+
+GSoC went well overall, although there was one serious issue
+regarding a mentor who was approved but is not a committer. This
+situation was resolved in consultation with Google. We have proposed
+modifications to the process to prevent this happening again.
+
+FIXME: get these modifications documented in the website for next year
+
+  * Students accepted: FIXME
+  * Students who passed: FIXME
+
+Unfortunately we, once again, failed to do any press around our GSoC activities. This needs to be made an explicit responsibility of the GSoC admin (at present it is not in the Admin support materials)
+
+Events and Speakers
+-------------------
+
+ComCom are using the ComDev web space to host an ASF events
+calendar [1], this has yet to gain significant traction. Similarly the "speaker" application is not being used by either ConCom or press@. ComDev to work with both to figure out how best to promote use of these resources.
+
+There are still many requests for standard slide decks about the ASF. We have collected a few slid-decks for reuse and intend to get these onto the websire via the speakers section.
+
+Website
+-------
+
+ComDev website is slowly growing to include very high level
+information about how ASF communities work. Rather than duplicating
+content held elsewhere on the a.o site we are seeking to provide a
+minimum fuss entry point pointing towards the appropriate detail heavy
+documents.
+
+The arrival of OpenOffice prompted the production of a fair amount of appropriate materials to help combat some of the initial confusion over what an ASF project looks like.
+
+Mentoring
+---------
+
+Mentoring activity (other than GSoC) is almost on-existent, at least when coordinated through ComDev. The EU project which was supposed to be sending people our way is currently evaluating why students did not come to us (report due before next
+board report).
+
+[1] http://community.apache.org/calendars/conferences.html
+
+Objectives for next period
+--------------------------
+
+Raise awareness of Speaker and Event support materials
+
+</pre></div>
+</div>
+
+
+<a name="ComDevBoardReports-SubmittedReports"></a>
+# Submitted Reports
+
+<div class="panel" style="background-color: #FFFFCE;border-style: solid;border-width: 1px;">
+<div class="panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;background-color: #F7D6C1;"><B>May 2011</B></div><div class="panelContent" style="background-color: #FFFFCE;"><pre>
 Status report for the Apache Community Development Project
 
 Project Status
@@ -52,10 +115,6 @@ Improve documentation about independence of Apache projects
 
 </pre></div>
 </div>
-
-
-<a name="ComDevBoardReports-SubmittedReports"></a>
-# Submitted Reports
 
 <div class="panel" style="background-color: #FFFFCE;border-style: solid;border-width: 1px;"><div class="panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;background-color: #F7D6C1;"><B>February 2011</B></div><div class="panelContent" style="background-color: #FFFFCE;"><pre>
 Status report for the Apache Community Development Project
