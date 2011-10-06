@@ -34,15 +34,22 @@ FIXME: get these modifications documented in the website for next year
   * Students who passed midterm: 38
   * Students who passed final: 36
 
-Unfortunately we, once again, failed to do any press around our GSoC activities. This needs to be made an explicit responsibility of the GSoC admin (at present it is not in the Admin support materials)
+Unfortunately we, once again, failed to do any press around our GSoC activities. 
+This needs to be made an explicit responsibility of the GSoC admin 
+(at present it is not in the Admin support materials)
 
 Events and Speakers
 -------------------
 
 ComCom are using the ComDev web space to host an ASF events
-calendar [1], this has yet to gain significant traction. Similarly the "speaker" application is not being used by either ConCom or press@. ComDev to work with both to figure out how best to promote use of these resources.
+calendar [1], this has yet to gain significant traction. Similarly the
+ "speaker" application is not being used by either ConCom or press@. 
+ComDev to work with both to figure out how best to promote use of 
+these resources.
 
-There are still many requests for standard slide decks about the ASF. We have collected a few slid-decks for reuse and intend to get these onto the websire via the speakers section.
+There are still many requests for standard slide decks about the ASF. 
+We have collected a few slide-decks for reuse and intend to get these 
+onto the website via the speakers section.
 
 Website
 -------
@@ -53,13 +60,17 @@ content held elsewhere on the a.o site we are seeking to provide a
 minimum fuss entry point pointing towards the appropriate detail heavy
 documents.
 
-The arrival of OpenOffice prompted the production of a fair amount of appropriate materials to help combat some of the initial confusion over what an ASF project looks like.
+The arrival of OpenOffice prompted the production of a fair amount of 
+appropriate materials to help combat some of the initial confusion over 
+what an ASF project looks like.
 
 Mentoring
 ---------
 
-Mentoring activity (other than GSoC) is almost on-existent, at least when coordinated through ComDev. The EU project which was supposed to be sending people our way is currently evaluating why students did not come to us (report due before next
-board report).
+Mentoring activity (other than GSoC) is almost non-existent, at least as 
+coordinated through ComDev. The EU project which was supposed to be 
+sending people our way is currently evaluating why students did not come 
+to us (report due before next board report).
 
 [1] http://community.apache.org/calendars/conferences.html
 
