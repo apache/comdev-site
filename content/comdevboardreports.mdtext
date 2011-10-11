@@ -45,11 +45,14 @@ ComCom are using the ComDev web space to host an ASF events
 calendar [1], this has yet to gain significant traction. Similarly the
  "speaker" application is not being used by either ConCom or press@. 
 ComDev to work with both to figure out how best to promote use of 
-these resources.
+these resources. Nick Birch and Ross Gardler (along with anyone else 
+who cares) will be meeting to come up with a plan for these resources at
+ApacheCon.
 
 There are still many requests for standard slide decks about the ASF. 
-We have collected a few slide-decks for reuse and intend to get these 
-onto the website via the speakers section.
+We have collected a few slide-decks for reuse and linked to them on our
+website [2]. These collections need to be extended and, possibly, linked 
+to the speaker application.
 
 Website
 -------
@@ -57,7 +60,7 @@ Website
 ComDev website is slowly growing to include very high level
 information about how ASF communities work. Rather than duplicating
 content held elsewhere on the a.o site we are seeking to provide a
-minimum fuss entry point pointing towards the appropriate detail heavy
+minimum fuss entry point leading towards the appropriate detail heavy
 documents.
 
 The arrival of OpenOffice prompted the production of a fair amount of 
@@ -72,12 +75,14 @@ coordinated through ComDev. The EU project which was supposed to be
 sending people our way is currently evaluating why students did not come 
 to us (report due before next board report).
 
-[1] http://community.apache.org/calendars/conferences.html
-
 Objectives for next period
 --------------------------
 
 Raise awareness of Speaker and Event support materials
+
+[1] http://community.apache.org/calendars/conferences.html
+[2] http://community.apache.org/speakers/slides.html
+
 
 </pre></div>
 </div>
