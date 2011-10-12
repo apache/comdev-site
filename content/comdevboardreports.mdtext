@@ -28,7 +28,16 @@ regarding a mentor who was approved but is not a committer. This
 situation was resolved in consultation with Google. We have proposed
 modifications to the process to prevent this happening again.
 
-FIXME: get these modifications documented in the website for next year
+In the future, mentors have to notify their respective PMC. The PMC
+has to acknowledge and a waiting period of 72 hours starts during
+which objections can be voiced. A notification template will be made
+available to prospective mentors.
+
+In addition, we will ask infrastructure to create a special group which
+holders of temporary accounts, i.e. GSoC students, have to be a member
+of. This group will be modifiable by pmc-chairs and comdev-pmc.
+
+Some stats:
 
   * Students accepted: 40
   * Students who passed midterm: 38
