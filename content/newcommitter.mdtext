@@ -203,27 +203,52 @@ new committer.
     To: JoeBloggs@foo.net
     Cc: private@[PROJECT].apache.org
     Subject: invitation to become [PROJECT] committer: Joe Bloggs
-    
-    Hello Joe, the Apache [PROJECT] Project Management Committee would like 
-    to invite you to become a [PROJECT] committer. We value your contributions 
-    and are aware that you are committed to the project.
-    
-    Being a committer enables you to more easily make changes and so
-    not need to go via the patch submission process. This should
-    enable you to be more productive.
-    
-    Of course, you can decline and instead remain as a developer,
-    contributing as you do now.
-    
-    This personal email is also providing a chance for you to decline
-    in private. Either way, please let us know in reply only to the
-    private@[PROJECT].apache.org list. If you agree, then we will announce
-    on the dev@[PROJECT].apache.org list after the account is established.
-    
-    Yours,
-    The Apache [PROJECT] PMC
-    
-   
+        
+    Hello [invitee name],
+
+    The [Project] Project Management Committee] (PMC) 
+    hereby offers you committer privileges to the project 
+    [as well as membership in the PMC].
+
+    Being a committer enables you to more easily make 
+    changes without needing to go through the patch 
+    submission process. [Being a PMC member enables you 
+    to guide the direction of the project.]
+
+    Being a committer does not require you to 
+    participate any more than you already do. It does 
+    tend to make one even more committed.  You will 
+    probably find that you spend more time here.
+
+    Of course, you can decline and instead remain as a 
+    contributor, participating as you do now.
+
+    A. This personal invitation is a chance for you to 
+    accept or decline in private.  Either way, please 
+    let us know in reply to the [privae@project.apache.org] 
+    address only.
+
+    B. If you are accepting, the next step is to register 
+    an iCLA with the Apache Software Foundation:
+        1. Details of the iCLA and the forms are found 
+        through this link: <http://www.apache.org/licenses/#clas>.
+
+        2. The form (text or PDF version) provides 
+        instructions for its completion and return to 
+        the Secretary of the ASF.
+
+        3. When you transmit the completed iCLA, request 
+        to notify the Apache [Project] and choose a 
+        unique Apache id. Look to see if your preferred 
+        id is already taken at 
+        http://people.apache.org/committer-index.html     
+        This will allow the Secretary to notify the PMC 
+        when your iCLA has been recorded.
+
+    When recording of your iCLA is noticed, you will 
+    receive a follow-up message with the next steps for 
+    establishing you as a committer.
+       
 ## Committer Accept Template
 This is the followup email after the new committer has accepted the invitation
     
