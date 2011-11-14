@@ -24,7 +24,7 @@ application!
 ## Finding Speakers
 
 If you are organising an event and looking for speakers, please see
-[the Apache Speakers homepage][/speakers/] for details.
+[the Apache Speakers homepage](/speakers/) for details.
 
 ## Listing yourself as a Potential Speaker
 
@@ -38,7 +38,7 @@ speaking DOAP file.
 Creating a FOAF file for yourself is very easy, assuming you don't already 
 have one available. Details on how to create a FOAF file, along with a
 handy wizard to guide you through the process, are available at
-[http://people.apache.org/foaf/][http://people.apache.org/foaf/] .
+[http://people.apache.org/foaf/](http://people.apache.org/foaf/) .
 
 When creating your FOAF file, as a potential speaker we do require you
 to include a few key bits of information. These are:
@@ -46,7 +46,7 @@ to include a few key bits of information. These are:
  * The projects you are involved in (include foundation wide ones too if you're
    happy to talk about these)
  * Your twitter ID (so we can point people at your speaking history on 
-   [Lanyrd][http://lanyrd.com/])
+   [Lanyrd](http://lanyrd.com/))
 
 
 ### Listing yourself in the Speakers DOAP file
