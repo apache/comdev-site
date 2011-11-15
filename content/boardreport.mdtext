@@ -26,12 +26,14 @@ the first of the month)
  * Update board report ready for submission
  * Post mail to developer list asking for a review of the draft report
  * Incorporate feedback from community
- * PMC chair submits board report via board.at.apache.org with subject of "\[REPORT\](report\.html)
+ * PMC chair submits board report via board.at.apache.org with subject of "\[REPORT\]
  project name" (copy to project private or dev list as appropriate)
 
 <DIV class="code panel" style="border-style: solid;border-width: 1px;"><DIV class="codeHeader panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;"><B>Board Report Template</B></DIV><DIV class="codeContent panelContent">
     Status report for the Apache <em>FOO</em> project - <em>MONTH YEAR</em>
     
+    A couple of sentences about the purpose of the project.
+
     Project Status
     --------------
     
