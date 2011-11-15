@@ -12,8 +12,11 @@ for the next submission to the board. Submitted reports can be found
 further down the page.
 
 <div class="panel" style="background-color: #FFFFCE;border-style: solid;border-width: 1px;">
-<div class="panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;background-color: #F7D6C1;"><B>DRAFT November 2011</B></div><div class="panelContent" style="background-color: #FFFFCE;"><pre>
+<div class="panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;background-color: #F7D6C1;"><B>DRAFT February 2012</B></div><div class="panelContent" style="background-color: #FFFFCE;"><pre>
 Status report for the Apache Community Development Project
+
+The Commmunity Development PMC is responsible for helping people become 
+involved with Apache projects
 
 Project Status
 --------------
@@ -23,24 +26,22 @@ No issues require board attention at this time.
 GSoC
 ----
 
-Verify that new mentor selection process is documented for GSoC
-
-Verify infro is OK with temporary accounts for GSoC
-
-Verify that press relations is documented for GSoC
+Outstanding: 
+  * Publish the GSoC Admin guidelines
+  * Verify that new mentor selection process is documented for GSoC
+  * Verify infra is OK with temporary accounts for GSoC
 
 Events and Speakers
 -------------------
 
-Update on last objective: 
-"Raise awareness of Speaker and Event support materials"
-
+Outstanding:
+  * Agree scope of ConCom and ComDev collaboration on event support
+  * Raise awareness of Speaker and Event support materials
+  * Integrate speaker app with Lanyrd (hosts all ApacheCon NA12 slidedecks)
 
 Website
 -------
 
-Mentoring
----------
 
 Objectives for next period
 --------------------------
@@ -51,6 +52,58 @@ Objectives for next period
 
 <a name="ComDevBoardReports-SubmittedReports"></a>
 # Submitted Reports
+
+<div class="panel" style="background-color: #FFFFCE;border-style: solid;border-width: 1px;">
+<div class="panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;background-color: #F7D6C1;"><B>November 2011</B></div><div class="panelContent" style="background-color: #FFFFCE;"><pre>
+Status report for the Apache Community Development Project
+
+The Commmunity Development PMC is responsible for helping people become 
+involved with Apache projects
+
+Project Status
+--------------
+
+No issues require board attention at this time.
+
+GSoC
+----
+
+Uli, our outgoing GSoC for this year has put together an admin 
+guide which should be very useful for future admins. This will include
+press relations activities, something we have not done well on in the past.
+
+Outstanding: 
+  * Verify that new mentor selection process is documented for GSoC
+  * Verify infra is OK with temporary accounts for GSoC
+
+Events and Speakers
+-------------------
+
+We made plans at ApacheCon to progress the speakers and local mentors app
+forwards. We hope to see some work integrating this, and the speaker 
+slidedecks we currently link to, with Lanyrd soon.
+
+Nick Burch and Ross Gardler VP ConCom and ComDev met to discuss further 
+collaboration on ASF event support. Proposals will be presented to each 
+PMC for discussion during the next reporting period.
+
+Outstanding:
+  * Raise awareness of Speaker and Event support materials
+
+Website
+-------
+
+No major changes this month, just a few minor tweaks to the Speakers section.
+
+Objectives for next period
+--------------------------
+
+  * propose opportunities for further collaboration between ConCom and ComDev
+    with respect to events.
+
+
+</pre></div>
+</div>
 
 <div class="panel" style="background-color: #FFFFCE;border-style: solid;border-width: 1px;">
 <div class="panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;background-color: #F7D6C1;"><B>October 2011</B></div><div class="panelContent" style="background-color: #FFFFCE;"><pre>
