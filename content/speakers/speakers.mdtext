@@ -57,7 +57,7 @@ svn:
 
     svn co https://svn.apache.org/repos/private/committers/
 
-Edit *local-outreach/LocalSpeakers.rdf* and add yourself in as a
+Edit *local-outreach/ApacheSpeakers.rdf* and add yourself in as a
 helper. If your FOAF file is in svn and showing up on people.apache.org,
 add in:
 
@@ -79,7 +79,7 @@ For an apache committer with username "foo", your entry would be one of:
 
 
 Within 24 hours of committing your addition to
-*local-outreach/LocalSpeakers.rdf*, you should appear in the web
+*local-outreach/ApacheSpeakers.rdf*, you should appear in the web
 application as a potential speaker! Head over to 
 [http://community.zones.apache.org/](http://community.zones.apache.org/)
 a day later a check you're listed properly.
