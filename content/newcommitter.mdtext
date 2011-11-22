@@ -208,7 +208,10 @@ new committer.
 
     The [Project] Project Management Committee] (PMC) 
     hereby offers you committer privileges to the project 
-    [as well as membership in the PMC].
+    [as well as membership in the PMC]. These privileges are
+    offered on the understanding that you'll use them
+    reasonably and with common sense. We like to work on trust
+    rather than unnecessary constraints. 
 
     Being a committer enables you to more easily make 
     changes without needing to go through the patch 
