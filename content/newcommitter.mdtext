@@ -364,8 +364,13 @@ This is the email to announce to [PROJECT]-dev once the account has been created
       The general "committers" at:
       https://svn.apache.org/repos/private/committers
     
-    As per the documentation mentioned above, you need
-    to 'svn switch" previous checkouts to now use https.
+    You will probably need
+    to 'svn switch" previous checkouts to now use https, 
+    for example:
+
+    svn switch --relocate http://svn.apache.org/repos\
+/asf/[PROJECT] https://svn.apache.org/repos/asf/[PROJECT] .
+    
     
     If you have any questions during this phase, then please
     see the following resources:
