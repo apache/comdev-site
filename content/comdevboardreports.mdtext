@@ -26,13 +26,30 @@ No issues require board attention at this time.
 GSoC
 ----
 
+GSoC 2012 was announced at FOSDEM on 4th February. ComDev has commenced 
+our organisation. We've already had two experienced admins step forwards, 
+with a further two newcomers expressing interest. This is very encouraging.
+
 Outstanding: 
   * Publish the GSoC Admin guidelines
   * Verify that new mentor selection process is documented for GSoC
   * Verify infra is OK with temporary accounts for GSoC
 
+New Tasks:
+  * Submit ASF to GSoC
+  * Work with projects to identify suitable GSoC tasks
+
 Events and Speakers
 -------------------
+
+Ross (ComDev chair) met face to face with Nick Burch (ConCom chair) to discuss
+a stronger relationship between ConCom and ComDev. As a result Nick has done
+a little work on the speakers application. The intention is to make a number 
+of web widgets (via the Wookie podling) available for hosting via the CMS that can be embedded in project 
+and foundation pages. Work is ongoing.
+
+Nick and Ross also discussed the potential relationship relating to events.
+Nick has shelved this work in preference to working on the RFP for producers.
 
 Outstanding:
   * Agree scope of ConCom and ComDev collaboration on event support
@@ -42,9 +59,25 @@ Outstanding:
 Website
 -------
 
+There was considerable discussion about the use of org.apache package names on 
+apache-extras. This has now been clarified in the FAQ and Guidelines.
 
-Objectives for next period
---------------------------
+In the last few days before this report there has been a great deal of 
+discussion on general@incubator.a.o It seems that reform is in the air and
+many people are suggesting that some of the key functions move to ComDev.
+However, there is no consensus in the IPMC about what the future should look
+like and thus no clarity around what ComDev is expected to pick up.
+
+Some members of ComDev are involved with the discussion, but until there is
+more clarity in the IPMC there seems little point in taking the discussion to
+ComDev lists.
+
+Tasks
+-----
+
+
+  * Work with the IPMC to clarify any future role for ComDev in the incubation 
+    process
 
 
 </pre></div>
