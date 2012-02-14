@@ -12,7 +12,50 @@ for the next submission to the board. Submitted reports can be found
 further down the page.
 
 <div class="panel" style="background-color: #FFFFCE;border-style: solid;border-width: 1px;">
-<div class="panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;background-color: #F7D6C1;"><B>DRAFT February 2012</B></div><div class="panelContent" style="background-color: #FFFFCE;"><pre>
+<div class="panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;background-color: #F7D6C1;"><B>DRAFT May 2012</B></div><div class="panelContent" style="background-color: #FFFFCE;"><pre>
+Status report for the Apache Community Development Project
+
+The Commmunity Development PMC is responsible for helping people become 
+involved with Apache projects
+
+Project Status
+--------------
+
+No issues require board attention at this time.
+
+GSoC
+----
+
+Outstanding: 
+  * Publish the GSoC Admin guidelines
+  * Verify that new mentor selection process is documented for GSoC
+  * Verify infra is OK with temporary accounts for GSoC
+  * Submit ASF to GSoC
+  * Work with projects to identify suitable GSoC tasks
+
+Events and Speakers
+-------------------
+
+Outstanding:
+  * Agree scope of ConCom and ComDev collaboration on event support
+  * Raise awareness of Speaker and Event support materials
+  * Integrate speaker app with Lanyrd (hosts all ApacheCon NA12 slidedecks)
+
+Website
+-------
+
+Outstanding:
+  * Work with the IPMC to clarify any future role for ComDev in the incubation 
+    process
+
+</pre></div>
+</div>
+
+<a name="ComDevBoardReports-SubmittedReports"></a>
+# Submitted Reports
+
+<div class="panel" style="background-color: #FFFFCE;border-style: solid;border-width: 1px;">
+<div class="panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;background-color: #F7D6C1;"><B>February 2012</B></div><div class="panelContent" style="background-color: #FFFFCE;"><pre>
 Status report for the Apache Community Development Project
 
 The Commmunity Development PMC is responsible for helping people become 
@@ -79,9 +122,6 @@ New Tasks:
 
 </pre></div>
 </div>
-
-<a name="ComDevBoardReports-SubmittedReports"></a>
-# Submitted Reports
 
 <div class="panel" style="background-color: #FFFFCE;border-style: solid;border-width: 1px;">
 <div class="panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;background-color: #F7D6C1;"><B>November 2011</B></div><div class="panelContent" style="background-color: #FFFFCE;"><pre>
@@ -541,4 +581,3 @@ Main items for next period
  https://issues.apache.org/jira/browse/COMDEV-11
 </pre></div>
 </div>
-
