@@ -338,8 +338,7 @@ This is the email to announce to [PROJECT]-dev once the account has been created
     After the committer account is established.
     
     ------------------------------------------------------------
-    To: private@[PROJECT]
-.a.o, ###JoeBloggs@foo.net
+    To: private@[PROJECT].a.o, ###JoeBloggs@foo.net
     Subject: account request: ###Joe Bloggs
     
     ####, as you know, the ASF Infrastructure has set up your
@@ -349,42 +348,34 @@ This is the email to announce to [PROJECT]-dev once the account has been created
     svn password, svn configuration, mail forwarding, etc.
     http://www.apache.org/dev/#committers
     
-    Please subscribe to the [PROJECT]
- Project Management 
-    Committee mailing list private@[PROJECT]
-.apache.org.
+    Please subscribe to the [PROJECT] Project Management 
+    Committee mailing list private@[PROJECT].apache.org.
     
     You have commit access to specific sections of the
     ASF repository, as follows:
     
-     [PROJECT]
- has various resources at:
+    [PROJECT] has various resources at:
       https://svn.apache.org/repos/asf/[PROJECT]
     
-      The general "committers" at:
-      https://svn.apache.org/repos/private/committers
+    The general "committers" at:
+    https://svn.apache.org/repos/private/committers
     
-    You will probably need
-    to 'svn switch" previous checkouts to now use https, 
+    You will probably need to 'svn switch" previous checkouts to now use https, 
     for example:
 
-    svn switch --relocate http://svn.apache.org/repos\
-/asf/[PROJECT] https://svn.apache.org/repos/asf/[PROJECT] .
-    
-    
+    svn switch --relocate http://svn.apache.org/repos/asf/[PROJECT] https://svn.apache.org/repos/asf/[PROJECT]
+        
     If you have any questions during this phase, then please
     see the following resources:
     
     Apache developer's pages: http://www.apache.org/dev/
+    Incubator committer guide: http://incubator.apache.org/guides/committer.html
     
-    Naturally, if you don't understand anything be sure to 
-    ask us on the [PROJECT]
- dev mailing list. Documentation is 
-    maintained by volunteers and hence can be out-of-date and 
-    incomplete.
+    Naturally, if you don't understand anything be sure to ask us on the [PROJECT] dev mailing list. 
+    Documentation is maintained by volunteers and hence can be out-of-date and incomplete - of course
+    you can now help fix that.
     
     One of us will announce you to the dev list soon.
-
 
   [1]: https://id.apache.org/acreq/pmc-chairs/
   [2]: https://id.apache.org/acreq/members/
