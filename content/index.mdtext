@@ -34,6 +34,9 @@ External event organisers looking for speakers or speakers looking for materials
 For a list of current events, our [calendar section][5] contains an aggregation of foundation wide calendars, along with
 the [official conferences calendar][6]
 
+## GSoC
+The Community Development project also manages the [ASF's participation in the Google Summer of Code program][7].
+
 <a name="Index-ManagingtheCommunityDevelopmentproject"></a>
 ## Managing the Community Development project
 
@@ -48,3 +51,4 @@ the [official conferences calendar][6]
   [4]: /speakers/index.html
   [5]: /calendars/index.html
   [6]: /calendars/conferences.html
+  [7]: /gsoc.html
