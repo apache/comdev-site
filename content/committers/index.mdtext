@@ -54,6 +54,26 @@ of motivation or financial objectives. This is discussed in more detail
 in our document [Project Independence][10].
 
 <a name="Index-Assistingwithprojectmanagement"></a>
+
+## Development processes
+
+Each project in Apache is free to define its own development processes as 
+long as they respect our decision making, legal and independence requirements.
+However, over the many years that the ASF has existed many best practices have 
+evolved and been documented across out projects. In this section we will try to 
+bring together some of the most popular of these practices. Most Apache projects
+operate in ways that are largely similar to these processes.
+
+  * [Crediting contributors][11] is a critical part of community building
+  * [ASF Licensing Policy][12]
+  * Releases
+    * [Releases FAQ][13]
+    * Release audit is a process each release candidate must go through to ensure IP is correctly managed
+    * [Release management][14] is the process by which releases are prepared and released
+    * [Handling cryptography][15] in an Apache Release
+    * [Source Headers and NOTICE][16] Files
+    * [Distribution best practices][17]
+
 ## Assisting with project management
 
 There are many visible contributions of value in an Apache projects
@@ -84,10 +104,10 @@ and how to sign yourself up for it, please see the
 There is no shortage of useful resources for committers at Apache, 
 here are a few you might want to take a look at:
 
-  - [How the ASF works][11]
-  - [Guide for New Committers][12]
-  - [Developer resources][13]
-  - [Apache service list][14]
+  - [How the ASF works][18]
+  - [Guide for New Committers][19]
+  - [Developer resources][20]
+  - [Apache service list][21]
 
 
   [1]: /committers/lazyConsensus.html
@@ -100,7 +120,14 @@ here are a few you might want to take a look at:
   [8]: http://www.apache.org/dev/#mail
   [9]: https://blogs.apache.org/comdev/entry/what_makes_apache_projects_different
   [10]: /projectIndependence.html
-  [11]: http://www.apache.org/foundation/how-it-works.html
-  [12]: http://www.apache.org/dev/new-committers-guide.html
-  [13]: http://www.apache.org/dev
-  [14]: http://apache.org/dev/services.html
+  [11]: http://subversion.apache.org/docs/community-guide/conventions.html#crediting
+  [12]: http://www.apache.org/legal/resolved.html
+  [13]: http://www.apache.org/dev/release.html
+  [14]: http://sling.apache.org/site/release-management.html
+  [15]: http://www.apache.org/dev/crypto.html
+  [16]: http://www.apache.org/legal/src-headers.html
+  [17]: http://incubator.apache.org/guides/releasemanagement.html#distribution-best-practice
+  [18]: http://www.apache.org/foundation/how-it-works.html
+  [19]: http://www.apache.org/dev/new-committers-guide.html
+  [20]: http://www.apache.org/dev
+  [21]: http://apache.org/dev/services.html
