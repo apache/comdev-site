@@ -75,7 +75,7 @@ operate in ways that are largely similar to these processes.
     * [Source Headers and NOTICE][17] Files
     * [Distribution best practices][18]
 
-## Assisting with project management
+## Assisting with project management and marketing
 
 There are many visible contributions of value in an Apache projects
 (documentation, testing, coding user support, design etc.), but there are
@@ -84,6 +84,7 @@ project. This section describes some of the activities that you can help
 with. In most cases you will need to be a committer to carry out these
 activities, although non-committers can often act in supporting roles.
 
+ * Write informational [blogs][19]
  * [Assessing and approving new committers](/newcommitter.html)
  * [Board Reports](/boardreport.html)
 
@@ -105,10 +106,10 @@ and how to sign yourself up for it, please see the
 There is no shortage of useful resources for committers at Apache, 
 here are a few you might want to take a look at:
 
-  - [How the ASF works][19]
-  - [Guide for New Committers][20]
-  - [Developer resources][21]
-  - [Apache service list][22]
+  - [How the ASF works][20]
+  - [Guide for New Committers][21]
+  - [Developer resources][22]
+  - [Apache service list][23]
 
 
   [1]: /committers/lazyConsensus.html
@@ -129,7 +130,8 @@ here are a few you might want to take a look at:
   [16]: http://www.apache.org/dev/crypto.html
   [17]: http://www.apache.org/legal/src-headers.html
   [18]: http://incubator.apache.org/guides/releasemanagement.html#distribution-best-practice
-  [19]: http://www.apache.org/foundation/how-it-works.html
-  [20]: http://www.apache.org/dev/new-committers-guide.html
-  [21]: http://www.apache.org/dev
-  [22]: http://apache.org/dev/services.html
+  [19]: http://www.apache.org/dev/apache-blogs.html
+  [20]: http://www.apache.org/foundation/how-it-works.html
+  [21]: http://www.apache.org/dev/new-committers-guide.html
+  [22]: http://www.apache.org/dev
+  [23]: http://apache.org/dev/services.html
