@@ -74,6 +74,7 @@ operate in ways that are largely similar to these processes.
     * [Handling cryptography][16] in an Apache Release
     * [Source Headers and NOTICE][17] Files
     * [Distribution best practices][18]
+  * [ASF Developer section sitemap][19]
 
 ## Assisting with project management and marketing
 
@@ -84,7 +85,7 @@ project. This section describes some of the activities that you can help
 with. In most cases you will need to be a committer to carry out these
 activities, although non-committers can often act in supporting roles.
 
- * Write informational [blogs][19]
+ * Write informational [blogs][20]
  * [Assessing and approving new committers](/newcommitter.html)
  * [Board Reports](/boardreport.html)
 
@@ -106,10 +107,10 @@ and how to sign yourself up for it, please see the
 There is no shortage of useful resources for committers at Apache, 
 here are a few you might want to take a look at:
 
-  - [How the ASF works][20]
-  - [Guide for New Committers][21]
-  - [Developer resources][22]
-  - [Apache service list][23]
+  - [How the ASF works][21]
+  - [Guide for New Committers][22]
+  - [Developer resources][23]
+  - [Apache service list][24]
 
 
   [1]: /committers/lazyConsensus.html
@@ -130,8 +131,9 @@ here are a few you might want to take a look at:
   [16]: http://www.apache.org/dev/crypto.html
   [17]: http://www.apache.org/legal/src-headers.html
   [18]: http://incubator.apache.org/guides/releasemanagement.html#distribution-best-practice
-  [19]: http://www.apache.org/dev/apache-blogs.html
-  [20]: http://www.apache.org/foundation/how-it-works.html
-  [21]: http://www.apache.org/dev/new-committers-guide.html
-  [22]: http://www.apache.org/dev
-  [23]: http://apache.org/dev/services.html
+  [19]:  of the ASF Developer section
+  [20]: http://www.apache.org/dev/apache-blogs.html
+  [21]: http://www.apache.org/foundation/how-it-works.html
+  [22]: http://www.apache.org/dev/new-committers-guide.html
+  [23]: http://www.apache.org/dev
+  [24]: http://apache.org/dev/services.html
