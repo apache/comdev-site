@@ -1,31 +1,29 @@
 Title: GSoC
 
-Google is sponsoring the [2011 Summer of Code](http://socghop.appspot.com/), 
+Google is sponsoring the [2012 Summer of Code](http://google-melange.appspot.com/gsoc/homepage/google/gsoc2012), 
 the [The Apache Software Foundation](http://www.apache.org/) (ASF) is 
-planning to participate again this year (mentoring organisations
-have not yet been accepted). This page is your entry point to the ASF GSoC
+planning to participate again this year and is accepted as a [mentoring organization](http://www.google-melange.com/gsoc/org/google/gsoc2012/apache). This page is your entry point to the ASF GSoC
 programme.
 
 <a name="GSoC-Students:readthis"></a>
 # Students: read this
 
-* Learn [about GSoC](http://socghop.appspot.com/document/show/gsoc_program/google/gsoc2010/faqs#about_gsoc)
-* Decide if you are [eligible](http://socghop.appspot.com/document/show/gsoc_program/google/gsoc2010/faqs#eligibility)
+* Learn [about GSoC](http://www.google-melange.com/gsoc/document/show/gsoc_program/google/gsoc2012/faqs#whatis)
+* Decide if you are [eligible](http://www.google-melange.com/gsoc/document/show/gsoc_program/google/gsoc2012/faqs#student_eligibility)
  for GSoC?
 * Review [Advice for Students](http://code.google.com/p/google-summer-of-code/wiki/AdviceforStudents)
  to make sure you really want to apply to GSoC.
 * Watch Philip Johnson's [GSoC video presentation](http://www.youtube.com/watch?v=vBRRR0BQyz0)
  for students.
-* Examine the list of [available ASF GSoC projects](http://s.apache.org/gsoc2011tasks)
+* Examine the list of [available ASF GSoC projects](http://s.apache.org/gsoc2012ideas)
 ** Note that you can search the issue tracker for GSoC projects by
-filtering using the "gsoc2011" label, this allows you to narrow down the list
+filtering using the "gsoc2012" label, this allows you to narrow down the list
 to the projects you are interested in.
 
 <a name="GSoC-ApplyingforGSoC"></a>
 ### Applying for GSoC
 
-Details will be announced in the next few weeks. However we encourage you to
-already discuss you application with the project community.
+Details are announced now and we are in the project discussion phase. We encourage you to discuss you application with the project community.
 
 In order to apply we ask that you create a list of deliverables,
 quantifiable results for the Apache community, a detailed description /
@@ -79,7 +77,7 @@ automatically include them in our list of subjects. If your project does
 not use JIRA please contact dev@community.apache.org.  
 
 <a name="GSoC-ASFGSoCTimeline"></a>
-# ASF GSoC 2011 Timeline
+# ASF GSoC 2012 Timeline
 
 Below is a timeline of events for The Apache Software Foundations
 involvement in GSoC. Unless otherwise stated deadlines are 11:59 UTC on the
@@ -90,22 +88,22 @@ date indicated.
 
 <table>
 <tr><th>Date</th><th>Activity</th></tr>
-<tr><td>January 24:</td><td>Program announced.</td></tr>
-<tr><td>February 28: 19:00 UTC</td><td>Mentoring organizations can begin submitting applications to Google.</td></tr>
-<tr><td>March 11: 23:00 UTC</td><td>Mentoring organization application deadline.</td></tr>
-<tr><td>March 14-17:</td><td>Google program administrators review organization applications.</td></tr>
-<tr><td>March 18: 19:00 UTC</td><td>List of accepted mentoring organizations published on the Google Summer of Code 2011 site.</td></tr>
-<tr><td>March 18-27:</td><td>Would-be student participants discuss application ideas with mentoring organizations.</td></tr>
-<tr><td>March 28: 19:00 UTC</td><td>Student application period opens.</td></tr>
-<tr><td>April 8: 19:00 UTC</td><td>Student application deadline.</td></tr>
+<tr><td>February 4:</td><td>Program announced.</td></tr>
+<tr><td>February 27: 19:00 UTC</td><td>Mentoring organizations can begin submitting applications to Google.</td></tr>
+<tr><td>March 9: 23:00 UTC</td><td>Mentoring organization application deadline.</td></tr>
+<tr><td>March 12-15:</td><td>Google program administrators review organization applications.</td></tr>
+<tr><td>March 16: 19:00 UTC</td><td>List of accepted mentoring organizations published on the Google Summer of Code 2011 site.</td></tr>
+<tr><td>March 17-25:</td><td>Would-be student participants discuss application ideas with mentoring organizations.</td></tr>
+<tr><td>March 26: 19:00 UTC</td><td>Student application period opens.</td></tr>
+<tr><td>April 6: 19:00 UTC</td><td>Student application deadline.</td></tr>
 <tr><td>Interim Period:</td><td>Mentoring organizations review and rank student proposals; where necessary, mentoring organizations may request further proposal detail from the student applicant.</td></tr>
-<tr><td>April 22:</td><td><ol>
+<tr><td>April 20:</td><td><ol>
 <li>All mentors must be signed up and all student proposals matched with a mentor - 07:00 UTC</li>
 <li>Student ranking/scoring deadline. Please do not add private comments with a nonzero score or mark students as ineligible (unless doing so as part of resolving duplicate accepted students) after this deadline - 17:00 UTC</li>
 <li>IRC meeting to resolve any outstanding duplicate accepted students - 19:00 UTC #gsoc</li>
 </ol></td>
 </tr>
-<tr><td>April 25: 19:00 UTC</td><td>Accepted student proposals announced on the Google Summer of Code 2011 site.</td></tr>
+<tr><td>April 23: 19:00 UTC</td><td>Accepted student proposals announced on the Google Summer of Code 2012 site.</td></tr>
 </table>
 
 <a name="GSoC-GSocisunderway"></a>
@@ -113,20 +111,20 @@ date indicated.
 
 <table>
 <tr><td>Community Bonding Period</td><td>Students get to know mentors, read documentation, get up to speed to begin working on their projects.</td></tr>
-<tr><td>May 23:</td><td><ol>
+<tr><td>May 21:</td><td><ol>
 <li>Students begin coding for their GSoC projects;</li>
 <li>Google begins issuing initial student payments provided tax forms are on file and students are in good standing with their communities.</li>
 </ol></td></tr>
 <tr><td>Interim Period:</td><td>Mentors give students a helping hand and guidance on their projects.</td></tr>
-<tr><td>July 11: 19:00 UTC</td><td>Mentors and students can begin submitting mid-term evaluations.</td></tr>
-<tr><td>July 15: 19:00 UTC</td><td><ol>
+<tr><td>July 9: 19:00 UTC</td><td>Mentors and students can begin submitting mid-term evaluations.</td></tr>
+<tr><td>July 13: 19:00 UTC</td><td><ol>
 <li>Mid-term evaluations deadline;</li>
 <li>Google begins issuing mid-term student payments provided passing student survey is on file.</li>
 </ol></td></tr>
 <tr><td>Interim Period:</td><td>Mentors give students a helping hand and guidance on their projects.</td></tr>
-<tr><td>August 15:</td><td>Suggested 'pencils down' date. Take a week to scrub code, write tests, improve documentation, etc.</td></tr>
-<tr><td>August 22: 19:00 UTC</td><td>Firm 'pencils down' date. Mentors, students and organization administrators can begin submitting final evaluations to Google.</td></tr>
-<tr><td>August 26: 19:00 UTC</td><td><ol>
+<tr><td>August 13:</td><td>Suggested 'pencils down' date. Take a week to scrub code, write tests, improve documentation, etc.</td></tr>
+<tr><td>August 20: 19:00 UTC</td><td>Firm 'pencils down' date. Mentors, students and organization administrators can begin submitting final evaluations to Google.</td></tr>
+<tr><td>August 24: 19:00 UTC</td><td><ol>
 <li>Final evaluation deadline</li>
 <li>Google begins issuing student and mentoring organization payments provided forms and evaluations are on file.</li>
 </ol></td></tr>
@@ -136,9 +134,9 @@ date indicated.
 ## Wind down
 
 <table>
-<tr><td>August 29:</td><td>Final results of GSoC 2011 announced</td></tr>
-<tr><td>August 30:</td><td>Students can begin submitting required code samples to Google</td></tr>
-<tr><td>October 22 &amp; 23:</td><td>Mentor Summit at Google: Representatives from each successfully participating organization are invited to Google to greet, collaborate and code. Our mission for the weekend: make the program even better, have fun and make new friends.</td></tr>
+<tr><td>August 27:</td><td>Final results of GSoC 2011 announced</td></tr>
+<tr><td>August 31:</td><td>Students can begin submitting required code samples to Google</td></tr>
+<tr><td>October 20 &amp; 21:</td><td>Mentor Summit at Google: Representatives from each successfully participating organization are invited to Google to greet, collaborate and code. Our mission for the weekend: make the program even better, have fun and make new friends.</td></tr>
 </table>
 
 
@@ -146,8 +144,8 @@ date indicated.
 # Useful Links
 
  * [Summer of Code home](http://socghop.appspot.com/)
- * [Official Google Summer of Code 2011 Timeline](http://www.google-melange.com/document/show/gsoc_program/google/gsoc2011/timeline)
- * [2009 FAQs](http://code.google.com/opensource/gsoc/2009/faqs.html)
+ * [Official Google Summer of Code 2012 Timeline, FAQs](http://www.google-melange.com/gsoc/events/google/gsoc2012
+ * [2012 FAQs](http://www.google-melange.com/gsoc/document/show/gsoc_program/google/gsoc2012/faqs)
  * [GS0C discussion list](http://groups.google.com/group/google-summer-of-code-discuss)
  * [Python notes on expectations](http://wiki.python.org/moin/SummerOfCode/Expectations)
  * \#gsoc on Freenode
