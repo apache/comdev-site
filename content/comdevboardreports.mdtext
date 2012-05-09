@@ -12,7 +12,7 @@ for the next submission to the board. Submitted reports can be found
 further down the page.
 
 <div class="panel" style="background-color: #FFFFCE;border-style: solid;border-width: 1px;">
-<div class="panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;background-color: #F7D6C1;"><B>DRAFT May 2012</B></div><div class="panelContent" style="background-color: #FFFFCE;"><pre>
+<div class="panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;background-color: #F7D6C1;"><B>DRAFT August 2012</B></div><div class="panelContent" style="background-color: #FFFFCE;"><pre>
 Status report for the Apache Community Development Project
 
 The Commmunity Development PMC is responsible for helping people become 
@@ -26,12 +26,6 @@ No issues require board attention at this time.
 GSoC
 ----
 
-Outstanding: 
-  * Publish the GSoC Admin guidelines
-  * Verify that new mentor selection process is documented for GSoC
-  * Verify infra is OK with temporary accounts for GSoC
-  * Submit ASF to GSoC
-  * Work with projects to identify suitable GSoC tasks
 
 Events and Speakers
 -------------------
@@ -53,6 +47,71 @@ Outstanding:
 
 <a name="ComDevBoardReports-SubmittedReports"></a>
 # Submitted Reports
+
+<div class="panel" style="background-color: #FFFFCE;border-style: solid;border-width: 1px;">
+<div class="panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;background-color: #F7D6C1;"><B>May 2012</B></div><div class="panelContent" style="background-color: #FFFFCE;"><pre>
+Status report for the Apache Community Development Project
+
+The Commmunity Development PMC is responsible for helping people become 
+involved with Apache projects
+
+Project Status
+--------------
+
+No issues require board attention at this time.
+
+GSoC
+----
+
+GSoC is underway with two experienced admins and a newcomer learning the ropes.
+
+Googles insistence on changing the process on the fly without consulting orgs continues to 
+frustrate admins who have to adapt quickly and communicate this to our 150+ projects. Our thanks go to
+this years Admins. 
+
+We have 41 projects spread across 26 projects (17 TLPs and 9 Podlings).
+
+Participating TLPS are:
+
+Xerces, Pig, OODT, Hive, James, Tapestry, Ofbiz, Gora, Synapse, Derby, Axis, POI, Whirr, Lucene,
+Velocity, Libcloud, Xalan
+
+Participating Podlings are:
+
+ODF Toolkit, Airavata, Stanbol, Photark, Wookie, OpenMeetings, Nuvem, Hama, VXQuery
+
+Completed: 
+  * Publish updates to the GSoC Admin guidelines
+  * Verify that new mentor selection process is documented for GSoC
+  * Verify infra is OK with temporary accounts for GSoC
+  * Submit ASF to GSoC
+  * Work with projects to identify suitable GSoC tasks
+
+Events and Speakers
+-------------------
+
+Very little progress here as ConCom has been busy dealing with the RFP for US and the proposal for EU. 
+A number of ComDev members are helping out in ConCom activities.
+
+Outstanding:
+  * Agree scope of ConCom and ComDev collaboration on event support
+  * Raise awareness of Speaker and Event support materials
+  * Integrate speaker app with Lanyrd (hosts all ApacheCon NA12 slidedecks)
+
+Website
+-------
+
+During the IPMC reboot discussions it was suggested that ComDev should take ownership of some aspects 
+of Incubation. This was rejected as ComDev felt that moving the problem was not solve it, however, it was
+agreed in principle that overlaps existed. Now that Jukka seems to be be settling in nicely at the IPMC it
+is time to restart these discussions.
+
+Outstanding:
+  * Work with the IPMC to clarify any future role for ComDev in the incubation 
+    process
+
+</pre></div>
+</div>
 
 <div class="panel" style="background-color: #FFFFCE;border-style: solid;border-width: 1px;">
 <div class="panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;background-color: #F7D6C1;"><B>February 2012</B></div><div class="panelContent" style="background-color: #FFFFCE;"><pre>
