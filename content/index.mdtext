@@ -1,48 +1,95 @@
-Title: Index
+Title: Apache Community Development - Welcome
+Notice:    Licensed to the Apache Software Foundation (ASF) under one
+           or more contributor license agreements.  See the NOTICE file
+           distributed with this work for additional information
+           regarding copyright ownership.  The ASF licenses this file
+           to you under the Apache License, Version 2.0 (the
+           "License"); you may not use this file except in compliance
+           with the License.  You may obtain a copy of the License at
+           .
+             http://www.apache.org/licenses/LICENSE-2.0
+           .
+           Unless required by applicable law or agreed to in writing,
+           software distributed under the License is distributed on an
+           "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+           KIND, either express or implied.  See the License for the
+           specific language governing permissions and limitations
+           under the License.
 
-Welcome to the Community Development project site. 
 
-Our aim here is to *help
-newcomers* to The Apache Software Foundation take their first steps on
-their way to being a *part of our community*. 
+# Welcome! #
+		   
+Welcome to the Apache Community Development (ComDev) project!  This website is developed 
+by volunteers to *help newcomers* to The Apache Software Foundation (ASF)
+and to our many Apache projects take their first steps towards being a *part of our community*. 
 
-We also aim to provide signposts into The Apache Software Foundation which is a large and sometimes confusing place.
+Here we provide signposts to information about both
+the ASF as an organization, as well as about the over 100 different Apache project 
+communities that provide free software for the public benefit.
 
 We do not focus on any
-specific projects here, we focus on the common structures and processes you
-will find in the majority of ASF projects. Our goal is to help you
+specific projects here, but rather on the common processes and policies 
+found in most of Apache projects. Our goal is to help you
 *understand how the ASF works* and give you the confidence to participate
-more directly.
+more directly in Apache projects that interest you.
 
+# How Can We Help You? #
 <a name="Index-Startingpoints"></a>
-## Newcomers
+## Newcomers to Apache
 
-If you are completely new to open source you should start in our [newcomers section][1].
+If you are new to open source please read our [newcomers section][1] for some 
+explanations of basic concepts, first steps to get started, and places to ask for help.
 
-## Contributors
+## Open Source Contributors
 
 If you know a little about open source and want to understand how the ASF works our [contributors section][2] is for you.
 
-## Committers
+## Apache Committers
 
-Apache Committers will find our [committers section][3] useful.
+Apache Committers will should read our [committers section][3] and see the [Developer Information site](http://www.apache.org/dev/).
 
-## Event organisers and speakers
+## How To Ask Questions
 
-External event organisers looking for speakers or speakers looking for materials will find our [speakers section][4] useful.
+All Apache projects use publicly archived mailing lists that anyone may subscribe 
+to and/or send mail to to ask about that Apache project.  Most projects have at least a 
+dev@$project.apache.org mailing list for technical discussions about the code, and a 
+user@ or users@ mailing list for questions about the product or features.
+
+The ComDev project has our own mailing list where you can ask general questions 
+about Apache at [dev@community.apache.org](http://mail-archives.apache.org/mod_mbox/community-dev/).
+
+## Event Organisers and Speakers
+
+We have a [list of speaker resources][4] for both conference organizers and speakers.
 
 For a list of current events, our [calendar section][5] contains an aggregation of foundation wide calendars, along with
-the [official conferences calendar][6]
+the [official conferences calendar][6], including ApacheCon, BarCamps, and more.
 
-## GSoC
+## Google Summer of Code program (GSoC)
 The Community Development project also manages the [ASF's participation in the Google Summer of Code program][7].
 
 <a name="Index-ManagingtheCommunityDevelopmentproject"></a>
-## Managing the Community Development project
+# Managing the Community Development project
+
+Many volunteers work together to manage this website and other tools available 
+to help you learn more about the ASF and Apache projects.
+
+## Managing This Website 
+
+Volunteers use the [Apache CMS](http://www.apache.org/dev/cmsref.html) system to manage 
+this website.  You may email us with suggestions, or [use the CMS to create a patch](http://www.apache.org/dev/cmsref.html#non-committer) for 
+our volunteers to look at and consdier applying to this site.
+
+## Community Development Governance and History
+
+This project is managed by the Apache Community Development Project Management Committee, 
+made up of volunteers who are committers at the Apache Software Foundation.
 
  * [Original board resolution](comdevboardresolution.html)
- creating the ComDev project
- * [Board Reports](comdevboardreports.html)
+ creating this Community Development (ComDev) project
+ * [Current ComDev Board Reports](comdevboardreports.html)
+ * [Other public records of the ASF](http://www.apache.org/foundation/records/)
+ * [Anootated listing of All Apache Projects](http://projects.apache.org/)
 
 
   [1]: /newcomers/index.html
