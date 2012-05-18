@@ -16,9 +16,14 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            specific language governing permissions and limitations
            under the License.
 
-This page contains links to presentations about the ASF that you might find
-useful.
+This page contains links to presentations about the ASF and how 
+Apache projects work that you may find useful.  Many of these have 
+been presented at [ApacheCon conferences](http://events.apache.org) or 
+other open source conferences in the past.
 
+These presentations are available under permissive licenses; please see
+each individual presentation for license details.  More tips and links for 
+[speakers are available](http://community.apache.org/speakers/index.html).
 
 # Isabel Drost
   - [Open Source development for students][1]
@@ -45,6 +50,9 @@ useful.
  - [Life in Open Source Communities](http://www.slideshare.net/bdelacretaz/life-in-open-source-communities-apachecon-us-2009)
  - [Open Source enables Open Innovation](http://www.slideshare.net/bdelacretaz/open-source-enables-open-innovation) 
  - [Open Source in Education](http://www.slideshare.net/bdelacretaz/open-source-in-education)
+ 
+# Shane Curcuru
+ - [About: Apache - The Foundation, The Way, The Projects](http://communityovercode.com/2012/05/camelone-2012-presentation/)
 
 
   [1]: http://isabel-drost.de/hadoop/slides/christoph.pdf
