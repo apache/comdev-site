@@ -34,18 +34,21 @@ for help (see below).
 If you're an Apache committer, and you're interested in speaking about Apache Technologies, Apache Projects or the Apache 
 Software Foundation as a whole, we'd encourage you to get involved and list yourself in our speaker application!
 
-For more details on how to list yourself as a potential speaker, see the [Apache Speakers WebApp][5] page.
+For more details on how to list yourself as a potential speaker, see the [Apache Speakers WebApp][4] page.
 
 ## Speaker Support Materials
 
+If you are creating your own slides you will find the [ASF Press Kit][5] useful. It contains logos in various formats.
+
 We aim to collect a set of slide decks about the Apache 
 Software Foundation for reuse in presentations. So far
-A few people have shared [Apache related presentations][3] 
+A few people have shared [Apache related presentations][6] 
 for you.
 
 
   [1]: concom@apache.org
   [2]: http://community.zones.apache.org/
   [3]: slides.html
-  [4]: http://markmail.org/thread/f7ojaqkz2f7noo6a
-  [5]: speakers.html
+  [4]: speakers.html
+  [5]: http://www.apache.org/foundation/press/kit/
+  [6]: slides.html
