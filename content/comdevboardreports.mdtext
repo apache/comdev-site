@@ -12,7 +12,7 @@ for the next submission to the board. Submitted reports can be found
 further down the page.
 
 <div class="panel" style="background-color: #FFFFCE;border-style: solid;border-width: 1px;">
-<div class="panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;background-color: #F7D6C1;"><B>DRAFT August 2012</B></div><div class="panelContent" style="background-color: #FFFFCE;"><pre>
+<div class="panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;background-color: #F7D6C1;"><B>DRAFT November 2012</B></div><div class="panelContent" style="background-color: #FFFFCE;"><pre>
 Status report for the Apache Community Development Project
 
 The Commmunity Development PMC is responsible for helping people become 
@@ -26,27 +26,108 @@ No issues require board attention at this time.
 GSoC
 ----
 
+Actions:
+  * Evaluate reasons for reduced interest from mentors this year
+  * provide feedback to Google relating to complications cause by last minute process changes
 
 Events and Speakers
 -------------------
 
-Outstanding:
+Actions:
   * Agree scope of ConCom and ComDev collaboration on event support
+    * two members of ComDev are co-chairing an ACEU track
+    * three members of ComDev are seeking to assist with ACEU
   * Raise awareness of Speaker and Event support materials
+    * some small progress made, needs concerted effort as part of ACEU and ACNA
   * Integrate speaker app with Lanyrd (hosts all ApacheCon NA12 slidedecks)
+    * No progress
 
 Website
 -------
 
-Outstanding:
+Some discussion about making our website "friendlier" but not work as yet.
+
+Some minor improvements to small areas of the site.
+
+Actions:
   * Work with the IPMC to clarify any future role for ComDev in the incubation 
     process
+    * No progress
 
 </pre></div>
 </div>
 
 <a name="ComDevBoardReports-SubmittedReports"></a>
 # Submitted Reports
+
+<div class="panel" style="background-color: #FFFFCE;border-style: solid;border-width: 1px;">
+<div class="panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;background-color: #F7D6C1;"><B>August 2012</B></div><div class="panelContent" style="background-color: #FFFFCE;"><pre>
+Status report for the Apache Community Development Project
+
+The Commmunity Development PMC is responsible for helping people become 
+involved with Apache projects
+
+Project Status
+--------------
+
+No issues require board attention at this time.
+
+GSoC
+----
+
+40 GSoC students passed mid-term, one failed to submit a midterm evaluation: 
+in future, we should include a request to remind their students in the 
+reminders we send out to mentors about evaluations.
+
+Feedback from admins regarding the applications process this years was that 
+there was confusion and chaos around the selection process. Many
+orgs had the same issues as the Melange webapp has changed
+significantly this year. This has been the case each year so far, yet we
+continue to be hopeful that next year will go more smoothly as a result!
+
+We haven't heard any complaints about the projects that did (or didn't)
+get selected in the end, and in fact, we ended up giving back a couple
+of slots because we didn't have the proposals to fill them out. This is
+the first time this has happened, normally we take extra slots rather than
+give them back.
+
+It is also notable that a few projects have a larger than normal number 
+of students. We need to explore whether this is a change of attitude towards
+GSoC within the ASF or a lack of outreach work on the part of the ComDev PMC.
+It is my opinion (Ross) that the annual chaos of the selection process puts
+mentors off - it's simply too much work tracking the moving goalposts.
+
+Actions:
+  * Evaluate reasons for reduced interest from mentors this year
+  * provide feedback to Google relating to complications cause by last minute process changes
+
+Events and Speakers
+-------------------
+
+Outstanding:
+  * Agree scope of ConCom and ComDev collaboration on event support
+    * two members of ComDev are co-chairing an ACEU track
+    * three members of ComDev are seeking to assist with ACEU
+  * Raise awareness of Speaker and Event support materials
+    * some small progress made, needs concerted effort as part of ACEU and ACNA
+  * Integrate speaker app with Lanyrd (hosts all ApacheCon NA12 slidedecks)
+    * No progress
+
+Website
+-------
+
+Some discussion about making our website "friendlier" but not work as yet.
+
+Some minor improvements to small areas of the site.
+
+Outstanding:
+  * Work with the IPMC to clarify any future role for ComDev in the incubation 
+    process
+    * No progress
+
+</pre></div>
+</div>
+
 
 <div class="panel" style="background-color: #FFFFCE;border-style: solid;border-width: 1px;">
 <div class="panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;background-color: #F7D6C1;"><B>May 2012</B></div><div class="panelContent" style="background-color: #FFFFCE;"><pre>
