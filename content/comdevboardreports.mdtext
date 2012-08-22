@@ -26,6 +26,8 @@ No issues require board attention at this time.
 GSoC
 ----
 
+Started collating stats on our [GSoC involvement][1]. 
+
 Actions:
   * Evaluate reasons for reduced interest from mentors this year
   * provide feedback to Google relating to complications cause by last minute process changes
@@ -721,3 +723,6 @@ Main items for next period
  https://issues.apache.org/jira/browse/COMDEV-11
 </pre></div>
 </div>
+
+
+  [1]: http://community.apache.org/mentoring/experiences.html
