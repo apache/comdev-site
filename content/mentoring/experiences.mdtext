@@ -1,0 +1,53 @@
+Title:     Apache in GSoC
+Notice:    Licensed to the Apache Software Foundation (ASF) under one
+           or more contributor license agreements.  See the NOTICE file
+           distributed with this work for additional information
+           regarding copyright ownership.  The ASF licenses this file
+           to you under the Apache License, Version 2.0 (the
+           "License"); you may not use this file except in compliance
+           with the License.  You may obtain a copy of the License at
+           .
+             http://www.apache.org/licenses/LICENSE-2.0
+           .
+           Unless required by applicable law or agreed to in writing,
+           software distributed under the License is distributed on an
+           "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+           KIND, either express or implied.  See the License for the
+           specific language governing permissions and limitations
+           under the License.
+
+This page is currently **NOT** linked from the main ComDev site. It is a place for
+collecting information about GSoC activities each year for historical tracking. It 
+was started in 2012 so is missing plenty of detail in the early years, your help 
+filling it out would be appreciated.
+
+# 2012 Overview
+
+  * Students accepted: 41
+  * Students who passed midterm: 40
+  * 26 projects mentoring (17 TLPs and 9 Podlings)
+    * Participating TLPS are: Xerces, Pig, OODT, Hive, James, Tapestry, Ofbiz, 
+Gora, Synapse, Derby, Axis, POI, Whirr, Lucene, Velocity, Libcloud, Xalan
+    * Participating Podlings are: ODF Toolkit, Airavata, Stanbol, Photark, 
+Wookie, OpenMeetings, Nuvem, Hama, VXQuery
+
+## 2012 Blogs
+
+  * [Scott Wilson: Wookie Mentor][1]
+  * [Pushpalanka: Wookie Student][2]
+  * [Mike McCandless: ucene Mentor][3]
+
+
+# 2011 Overview
+
+  * Students accepted: 40
+  * Students who passed midterm: 38
+  * Students who passed final: 36
+
+# 2010 Overview
+  
+  * Students accepted: 44
+
+  [1]: http://scottbw.wordpress.com/2012/08/22/wookie-adds-support-for-signed-widgets-thanks-to-google-summer-of-code/
+  [2]: http://pushpalankajaya.blogspot.co.uk/search/label/GSoC
+  [3]: http://blog.mikemccandless.com/2012/08/lucenes-new-blockpostingsformat-thanks.html
