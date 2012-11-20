@@ -65,7 +65,12 @@ For a list of current events, our [calendar section][5] contains an aggregation 
 the [official conferences calendar][6], including ApacheCon, BarCamps, and more.
 
 ## Google Summer of Code program (GSoC)
-The Community Development project also manages the [ASF's participation in the Google Summer of Code program][7].
+The Community Development project also manages the [ASF's participation in the 
+Google Summer of Code program][7]. Each year, since 2005, we've taken on 
+between 30 and 45 students. Many of these have gone on to be long term 
+committers and even members of the foundation. 
+
+Read about a few of our [GSoC successes][8].
 
 <a name="Index-ManagingtheCommunityDevelopmentproject"></a>
 # Managing the Community Development project
@@ -77,7 +82,7 @@ ComDev mailing list at dev@community.apache.org.
 ## Managing This Website 
 
 Volunteers use the [Apache CMS](http://www.apache.org/dev/cmsref.html) system to manage 
-this website.  The AOO project has created a great tutorial on [how to use the CMS][8].
+this website.  The AOO project has created a great tutorial on [how to use the CMS][9].
 
 You may email us with suggestions, or preferably [use the CMS to create a patch](http://www.apache.org/dev/cmsref.html#non-committer) for 
 our volunteers to look at and consdier applying to this site.
@@ -101,4 +106,5 @@ made up of volunteers who are committers at the Apache Software Foundation.
   [5]: /calendars/index.html
   [6]: /calendars/conferences.html
   [7]: /gsoc.html
-  [8]: http://www.youtube.com/watch?v=xcDZN3Lu6HA
+  [8]: /mentoring/experiences.html
+  [9]: http://www.youtube.com/watch?v=xcDZN3Lu6HA
