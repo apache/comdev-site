@@ -71,7 +71,11 @@ sub breadcrumbs {
         push @rv, qq(<a href="$relpath">\u$title</a>);
         unless($relpath eq "/") { $relpath .= "/"; }
     }
-    return join "&nbsp;&raquo&nbsp;", @rv;
+    my $breadcrumbs = qq(<ul class="breadcrumb">\n<li>);
+    $breadcrumbs .= join qq( <span class="divider">/</span></li>\n<li>), @rv;
+    $breadcrumbs .= "</li>\n</ul>";
+    return $breadcrumbs;
+#    return join "&nbsp;&raquo&nbsp;", @rv;
 }
 
 1;

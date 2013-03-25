@@ -18,103 +18,137 @@
 -->
 
 <html>
-    <head>
-       <META name="description" content="Apache Community Development"/>
-       <META name="keywords" content="apache, apache community, community development, opensource"/>
-
-    
-     <META http-equiv="Content-Type" content="text/html; charset=utf-8">
-      <LINK rel="stylesheet" href="/style/compressed.css" type="text/css" media="screen, projection">
-      <LINK rel="stylesheet" href="/style/style.css" type="text/css" media="screen, projection">
-     <style type="text/css">
-.code {
-  border: 1px dashed #3c78b5;
-  font-size: 11px;
-  font-family: Courier;
-  margin: 10px;
-  margin-left: 0px;
-  line-height: 13px;
-}
-.codeHeader {
-  background-color: #f0f0f0;
-  border-bottom: 1px dashed #3c78b5;
-  padding: 3px;
-  text-align: center;
-}
-.codeContent {
-  text-align: left;
-  background-color: #f0f0f0;
-  padding: 3px;
-}
-
-.preformatted {
-  border: 1px dashed #3c78b5;
-  font-size: 11px;
-  font-family: Courier;
-  margin: 10px;
-  line-height: 13px;
-}
-.preformattedHeader {
-  background-color: #f0f0f0;
-  border-bottom: 1px dashed #3c78b5;
-  padding: 3px;
-  text-align: center;
-}
-.preformattedContent {
-  background-color: #f0f0f0;
-  padding: 3px;
-}
-        </style>
-
-        <LINK rel="SHORTCUT ICON" href="/images/favicon.ico">   
-        <TITLE>Apache Community Development - {% block title %}{% endblock %}</TITLE>
-    </head>
-
-    <body onload="init()">
-      <div class="container">
-      <HR class="space col">
-      <DIV class="block">
-        <DIV class="column span-24">
-            <DIV id="header">
-                <h1>The Apache Software Foundation<BR />
-                <SPAN class="alt"><small>Meritocracy in Action.</small></SPAN></h1>
-             </DIV>
-          </DIV>
-      </DIV>
-      <HR/>
+<head>
+  <META name="description" content="Apache Community Development"/>
+  <META name="keywords" content="apache, apache community, community development, opensource"/>
 
 
-        <TABLE border="0" cellpadding="2" cellspacing="0" width="100%">
-            <TR class="topBar">
-                <td align="left" valign="middle" class="topBarDiv" nowrap="true" width="100%">
-                    &nbsp;{{ breadcrumbs|safe }}
-                </td>
-                <td align="right" valign="middle" class="topBarDiv" align="left" nowrap="true">
-                    <A href="http://community.apache.org">Apache Community Development</A> | <A href="http://mail-archives.apache.org/mod_mbox/community-dev/">Mailling List</A>
-                </td>
-            </TR>
-        </TABLE>
+  <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!--      <LINK rel="stylesheet" href="/style/compressed.css" type="text/css" media="screen, projection">
+      <LINK rel="stylesheet" href="/style/style.css" type="text/css" media="screen, projection"> -->
+  <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+  </style>
+  <link href="/css/bootstrap-responsive.css" rel="stylesheet">
 
-        <TABLE border="0" cellpadding="0" width="100%">
-            <TR>
-                <td align="left" valign="top">
-                  <DIV id="PageContent">        
-                     <DIV class="pagecontent">
-                         <DIV class="wiki-content">
-                          {% block content %}{% endblock %}
-                         </DIV>
-                     </DIV>
-                  </DIV>
-                </td>
-            </TR>
-        </TABLE>
+  <LINK rel="SHORTCUT ICON" href="/images/favicon.ico">   
+  <TITLE>Apache Community Development - {% block title %}{% endblock %}</TITLE>
+</head>
 
-        <DIV class="footer">
-          Copyright &copy; 2011 The Apache Software Foundation, Licensed under
-          <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a>.
-          <br />
-          Apache and the Apache feather logos are trademarks of The Apache Software Foundation.
-        </DIV>
+<body>
 
-    </BODY>
-</HTML>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- <a class="brand" href="#">Apache Community Development Project</a> -->
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="/">Home</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">GSoC <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="gsoc.html">General GSoC Information</a></li>
+                  <li><a href="mentee-ranking-process.html">Mentee Ranking Process</a></li>
+                  <li><a href="mentoring/experiences.html">Past GSoC Experiences</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Additional Resources</li>
+                  <li><a href="guide-to-being-a-mentor.html">Guide to being a Mentor</a></li>
+                  <li><a href="use-the-comdev-issue-tracker-for-gsoc-tasks.html">Using ComDev's JIRA for GSoC Ideas</a></li>
+                  <li><a href="gsoc-admin-tasks.html">Tasks of a GSoC Admin at the ASF</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">General Information <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/newbiefaq.html">Frequently Asked Questions</a></li>
+                  <li><a href="/projectIndependence.html">Project Independence</a></li>
+                  <li><a href="/contactpoints.html">Contact Points Within the ASF</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Additional Resources</li>
+                  <li><a href="/comdevboardresolution.html">ComDev Board Resolution</a></li>
+                  <li><a href="/comdevboardreports.html">ComDev Board Reports</a></li>
+                  <li><a href="/comdevboardresolution.html">ComDev Board Resolution</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">For Contributors <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/newcomers/">Newcomers</a></li>
+                  <li><a href="/gettingStarted/101.html">Getting Started</a></li>
+                  <li><a href="/contributors/">Finding Your Way Around The Apache Software Foundation</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">For Committers/PMCs <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/boardreport.html">Board Report Template</a></li>
+                  <li><a href="/newcommitter.html">Recruiting New Committers</a></li>
+                  <li><a href="/committers/">Useful Information for Committers</a></li>
+                  <li><a href="/committers/lazyConsensus.html">Lazy Consensus</a></li>
+                  <li><a href="/committers/consensusBuilding.html">Consensus Building</a></li>
+                  <li><a href="/committers/decisionMaking.html">Decision Making</a></li>
+                  <li><a href="/committers/voting.html">Voting</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mentoring <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/mentoringprogramme.html">Mentoring Program</a></li>
+                  <li><a href="/mentorprogrammeformaleducation.html">Mentoring in Formal Education</a></li>
+                  <li><a href="/mentorprogrammeapplication.html">Applying for the Mentoring Program</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Additional Resources</li>
+                  <li><a href="guide-to-being-a-mentor.html">Guide to being a Mentor</a></li>
+                  <li><a href="mentor-request-mail.html">Mentor Request Email Example</a></li>
+                  <li><a href="localmentors.html">Mentors Near You</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Speakers <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/speakers/">Speaker Information</a></li>
+                  <li><a href="/speakers/speakers.html">Finding Speakers / Listing Yourself as a Speaker</a></li>
+                  <li><a href="/speakers/slides.html">Apache-related Slides</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Calendars <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/calendars/">Calendars</a></li>
+                  <li><a href="/calendars/conferences.html">Conferences</a></li>
+                </ul>
+              </li>
+              <li><a href="http://mail-archives.apache.org/mod_mbox/community-dev/">Mailing List</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+  <div class="container">
+    <h3 class="muted">The Apache Software Foundation</h3>
+    <h4 class="muted">Meritocracy in Action.</h4>
+    {{ breadcrumbs|safe }}
+    <hr>
+    {% block content %}{% endblock %}
+    <hr>
+    <footer>
+      Copyright &copy; 2011 The Apache Software Foundation, Licensed under
+      <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a>.
+      <br>
+      Apache and the Apache feather logos are trademarks of The Apache Software Foundation.
+    </footer>
+  </div>
+  <script src="/js/jquery-1.9.1.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>

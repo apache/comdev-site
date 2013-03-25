@@ -16,21 +16,27 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            specific language governing permissions and limitations
            under the License.
 
-# Welcome! #
-		   
-Welcome to the Apache Community Development (ComDev) project!  This website is developed 
-by volunteers to *help newcomers* to The Apache Software Foundation (ASF)
-and to our many Apache projects take their first steps towards being a *part of our community*. 
+<div class="hero-unit" markdown="1">
+<h1>Welcome to the Apache Community Development (ComDev) project!</h1>
+<br>
 
+<p>This website is developed 
+by volunteers to <em>help newcomers</em> to The Apache Software Foundation (ASF)
+and to our many Apache projects take their first steps towards being a <em>part of our community</em>.
+
+<p>
 Here we provide signposts to information about both
 the ASF as an organization, as well as about the over 100 different Apache project 
 communities that provide free software for the public benefit.
 
+<p>
 We do not focus on any
 specific projects here, but rather on the common processes and policies 
 found in most of Apache projects. Our goal is to help you
-*understand how the ASF works* and give you the confidence to participate
+<em>understand how the ASF works</em> and give you the confidence to participate
 more directly in Apache projects that interest you.
+
+</div>
 
 # How Can We Help You? #
 <a name="Index-Startingpoints"></a>
@@ -96,7 +102,7 @@ made up of volunteers who are committers at the Apache Software Foundation.
  creating this Community Development (ComDev) project
  * [Current ComDev Board Reports](comdevboardreports.html)
  * [Other public records of the ASF](http://www.apache.org/foundation/records/)
- * [Anootated listing of All Apache Projects](http://projects.apache.org/)
+ * [Annotated listing of All Apache Projects](http://projects.apache.org/)
 
 
   [1]: /newcomers/index.html
