@@ -1,12 +1,14 @@
 Title: NewCommitter
 
-Identifying potential new commiters, calling a vote for their recognition
+Identifying potential new committers, calling a vote for their recognition
 as a committer and processing the relevant documents is something that the
 whole community can contribute to.
 
-Each project has different appraoches to managing new committers, this page
+Each project has different approaches to managing new committers, this page
 describes a common process found in many Apache projects. It also provides
 drafts for the various communications that are necessary.
+
+[TOC]
 
 <a name="NewCommitter-Guidelinesforassessingnewcandidatesforcommittership"></a>
 # Guidelines for assessing new candidates for committership
@@ -16,7 +18,7 @@ mailing lists and Jira, etc. The following are some tips that we developed.
 Also consider the Apache Forrest [committer guidelines](http://forrest.apache.org/committed.html).
 
 <a name="NewCommitter-Abilitytoworkco-operativelywithpeers."></a>
-## Ability to work co-operatively with peers. 
+## Ability to work cooperatively with peers. 
 How do we evaluate?  By the interactions they have through mail. By how
 they respond to criticism. By how they participate in decision-making
 process.
@@ -29,7 +31,9 @@ materials (or even create them).
 
 <a name="NewCommitter-Community"></a>
 ## Community
-How do we evaluate?  By the interactions they have through mail.
+How do we evaluate?  By the interactions they have through mail. Do they 
+help to answer questions raised on the mailing list; do they show a helpful 
+attitude and respect for other's ideas.
 
 <a name="NewCommitter-Committment"></a>
 ## Committment
@@ -181,10 +185,10 @@ to be voted for by the existing PMC members and subsequently approved by the Boa
 #Board Approval of new PMC member 
 
 Assuming that a vote for a new PMC member passes it is now necessary to get 
-approval from the Board. Send the mail below to the board. This will be acknowledged
-by a bard member. 72 hours after the acknowledgement the PMC can proceed.
+approval from the Board. The PMC chair should send the mail below to the board. This will be acknowledged
+by a board member. 72 hours after the acknowledgement the PMC can proceed.
 
-See http://www.apache.org/dev/pmc.html#newpmc for more details
+See http://www.apache.org/dev/pmc.html#newpmc for more important details on the process.
 
 
     ------------------------------------------------------------
@@ -196,8 +200,8 @@ See http://www.apache.org/dev/pmc.html#newpmc for more details
     Please approve/acknowledge this PMC addition
     
 ## Committer Invite Template
-This is the invitation email, sent after a positive result from the vote for a 
-new committer.
+This is the suggested invitation email to send to the newly elected committer, 
+sent after a positive result from the vote for a new committer.
     
     ------------------------------------------------------------
     To: JoeBloggs@foo.net
@@ -375,7 +379,7 @@ This is the email to announce to [PROJECT]-dev once the account has been created
     Documentation is maintained by volunteers and hence can be out-of-date and incomplete - of course
     you can now help fix that.
     
-    One of us will announce you to the dev list soon.
+    A PMC member will announce your election to the dev list soon.
 
   [1]: https://id.apache.org/acreq/pmc-chairs/
   [2]: https://id.apache.org/acreq/members/
