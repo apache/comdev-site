@@ -1,9 +1,8 @@
 Title: GSoC
 
-Google is sponsoring the [2013 Summer of Code](http://google-melange.appspot.com/gsoc/homepage/google/gsoc2013), 
-the [The Apache Software Foundation](http://www.apache.org/) (ASF) is 
-planning to participate again this year but is not yet accepted as a [mentoring organization](http://www.google-melange.com/gsoc/org/google/gsoc2013/apache). This page is your entry point to the ASF GSoC
-programme.
+Google is sponsoring the [2013 Summer of Code](http://google-melange.appspot.com/gsoc/homepage/google/gsoc2013) and 
+[The Apache Software Foundation](http://www.apache.org/) (ASF) has been accepted as a [mentoring organization](http://www.google-melange.com/gsoc/org/google/gsoc2013/apache). This page is your entry point to the ASF GSoC
+program.
 
 <a name="GSoC-Students:readthis"></a>
 # Students: read this
@@ -25,15 +24,22 @@ to the projects you are interested in.
 
 Details are announced now and we are in the project discussion phase. We encourage you to discuss you application with the project community.
 
-In order to apply we ask that you create a list of deliverables,
-quantifiable results for the Apache community, a detailed description /
-design document, an approach, an approximate schedule and something of a
-background text. We also need you to let us know what other commitments you
+In order to apply we ask that you create
+
+* a list of deliverables, quantifiable results for the Apache community,
+* a detailed description / design document,
+* an approach,
+* an approximate schedule and
+* something of a background text.
+
+We also need you to let us know what other commitments you
 have for the period of GSoC, for example, do you have any exams or a part
 time job? In other words - sell yourselves, as if this was an actual job. 
 
 In drawing up your proposal you should work with your chosen projects
-community. One of our evaluation criteria is that you have already engaged
+community.
+
+One of our evaluation criteria is that you have already engaged
 with the community to ensure that you understand the needs of the project
 and the commitment you need to make to your mentors.
 
@@ -43,7 +49,7 @@ Once open applications are made through the [GSoC site](http://www.google-melang
 ## Contacting the ASF
 
 The ASF is not just one project, it is a federation of projects, see the
-lists at http://apache.org/ and http://incubator.apache.org/. Each of our
+lists at [http://www.apache.org/](http://www.apache.org) and [http://incubator.apache.org/](http://incubator.apache.org/). Each of our
 projects has its own community of users, contributors and committers. GSoC
 students will usually be interacting with just one of these communities. 
 
@@ -60,7 +66,7 @@ more info about mentoring, please read our [guide to being a mentor](guide-to-be
 
 Prospective mentors should join the code-awards@apache.org mailing list,
 this is where mentor specific issues are dealt with, and where
-announcements will be made. If you want to track the programme
+announcements will be made. If you want to track the program
 administration you should subscribe to dev@community.apache.org.
 
 Once the ASF is confirmed as a mentoring organisation mentors must register
