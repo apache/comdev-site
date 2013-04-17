@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <!--
 
     Licensed to the Apache Software Foundation (ASF) under one or more
@@ -21,7 +21,6 @@
 <head>
   <META name="description" content="Apache Community Development"/>
   <META name="keywords" content="apache, apache community, community development, opensource"/>
-
 
   <META http-equiv="Content-Type" content="text/html; charset=utf-8">
 <!--      <LINK rel="stylesheet" href="/style/compressed.css" type="text/css" media="screen, projection">
@@ -135,20 +134,42 @@
     </div>
 
   <div class="container">
-    <h3 class="muted">The Apache Software Foundation</h3>
-    <h4 class="muted">Meritocracy in Action.</h4>
+    <section id="content" class="row">
+      <div class="span9">
+        <h3 class="muted">The Apache Software Foundation</h3>
+      </div>
+      <div class="span3" class="pull-right"><gcse:search></gcse:search></div>
+      <div class="span12"><h4 class="muted">Meritocracy in Action.</h4></div>
+    </section>
     {{ breadcrumbs|safe }}
-    <hr>
+   <hr>
     {% block content %}{% endblock %}
-    <hr>
-    <footer>
-      Copyright &copy; 2011 The Apache Software Foundation, Licensed under
-      <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a>.
-      <br>
-      Apache and the Apache feather logos are trademarks of The Apache Software Foundation.
-    </footer>
   </div>
+  
+  <footer class="footer" align="center">
+    <div class="container">
+      <p>
+        Copyright &copy; 2013 The Apache Software Foundation, Licensed under
+        the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a>.
+        <br />
+        Apache and the Apache feather logos are trademarks of The Apache Software Foundation.
+      </p>
+    </div>
+  </footer>
+  
   <script src="/js/jquery-1.9.1.min.js"></script>
   <script src="/js/bootstrap.min.js"></script>
+  <script>
+    (function() {
+      var cx = '012254517474945470291:vhsfv7eokdc';
+      var gcse = document.createElement('script');
+      gcse.type = 'text/javascript';
+      gcse.async = true;
+      gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+          '//www.google.com/cse/cse.js?cx=' + cx;
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(gcse, s);
+    })();
+  </script>
 </body>
 </html>
