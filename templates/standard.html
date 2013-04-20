@@ -31,6 +31,10 @@
         padding-top: 60px;
         padding-bottom: 40px;
       }
+	  /* Google Search box customizations */
+	   .gsc-search-box input.gsc-input, .gcse-search-box input.gsc-input:focus { -webkit-box-shadow:none; box-shadow:none; -moz-box-shadow:none; border-radius:0px; }
+		/* On tablets, the wrapped menu is hiding the search box, adding a margin to push down */
+		 .container { margin-top:5px; }
   </style>
   <link href="/css/bootstrap-responsive.css" rel="stylesheet">
 
@@ -138,7 +142,9 @@
       <div class="span9">
         <h3 class="muted">The Apache Software Foundation</h3>
       </div>
-      <div class="span3" class="pull-right"><gcse:search></gcse:search></div>
+      <div class="span3 pull-right">
+        <div class="gcse-search"></div>
+  	  </div>
       <div class="span12"><h4 class="muted">Meritocracy in Action.</h4></div>
     </section>
     {{ breadcrumbs|safe }}
