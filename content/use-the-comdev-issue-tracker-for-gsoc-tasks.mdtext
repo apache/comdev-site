@@ -1,6 +1,6 @@
 Title: use the Comdev Issue Tracker For GSoC Tasks
 
-If you project does not use the ASFs JIRA for issue tracking you can use
+If your project does not use the ASFs JIRA for issue tracking you can use
 the Community Development project to record your GSoC tasks. 
 
 * Add tasks to the [Comdev project](https://issues.apache.org/jira/browse/COMDEV)
