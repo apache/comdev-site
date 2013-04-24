@@ -1,0 +1,44 @@
+Title:
+Notice:    Licensed to the Apache Software Foundation (ASF) under one
+           or more contributor license agreements.  See the NOTICE file
+           distributed with this work for additional information
+           regarding copyright ownership.  The ASF licenses this file
+           to you under the Apache License, Version 2.0 (the
+           "License"); you may not use this file except in compliance
+           with the License.  You may obtain a copy of the License at
+           .
+             http://www.apache.org/licenses/LICENSE-2.0
+           .
+           Unless required by applicable law or agreed to in writing,
+           software distributed under the License is distributed on an
+           "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+           KIND, either express or implied.  See the License for the
+           specific language governing permissions and limitations
+           under the License.
+
+This is a collection of links to information that's relevant to the Apache Way and Open Source in general.
+
+Note that most of these links point to websites that are outside of the control of the Apache Software Foundation. Please contact their respective 
+authors for more information or questions. General discussion on the dev@community.a.o list is fine of course.
+
+# Books
+* [Producing Open Source Software][1] - by Karl Fogel
+
+# Blog posts
+* [Apache - the Switzerland of Open Source?][2] - by Bertrand Delacretaz
+* [Thinking Together][3] - by Phil Steitz
+
+# Slides
+* [Behind the Scenes of the Apache Software Foundation][4] - by Lars Eilebrecht (PDF)
+
+# Apache community members websites and links
+* [Shane's "the Apache Way"][5] - An Apache Way Primer by Shane Curcuru
+* [Bertrand's Open Development links][6] - a live collection of pointers to Open Development information
+
+
+  [1]: http://producingoss.com/
+  [2]: http://grep.codeconsult.ch/2009/03/30/the-asf-is-the-switzerland-of-open-source/
+  [3]: http://psteitz.blogspot.ch/2011/11/thinking-together.html
+  [4]: http://www.apachecon.com/eu2007/materials/asf-intro-slides-eilebrecht.pdf
+  [5]: http://theapacheway.com/
+  [6]: https://delicious.com/bdelacretaz/opendevelopment
