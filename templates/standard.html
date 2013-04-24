@@ -39,7 +39,7 @@
   <link href="css/bootstrap-responsive.css" rel="stylesheet">
 
   <LINK rel="SHORTCUT ICON" href="images/favicon.ico">   
-  <TITLE>Apache Community Development - {% block title %}{% endblock %}</TITLE>
+  <TITLE>Apache Community Development - {% block title %}{{ headers.title }}{% endblock %}</TITLE>
 </head>
 
 <body>
@@ -64,6 +64,7 @@
                   <li><a href="mentoring/experiences.html">Past GSoC Experiences</a></li>
                   <li class="divider"></li>
                   <li class="nav-header">Additional Resources</li>
+                  <li><a href="/links.html">Links to additional material</a></li>
                   <li><a href="guide-to-being-a-mentor.html">Guide to being a Mentor</a></li>
                   <li><a href="use-the-comdev-issue-tracker-for-gsoc-tasks.html">Using ComDev's JIRA for GSoC Ideas</a></li>
                   <li><a href="gsoc-admin-tasks.html">Tasks of a GSoC Admin at the ASF</a></li>
