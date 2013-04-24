@@ -49,9 +49,11 @@ explanations of basic concepts, first steps to get started, and places to ask fo
 
 If you know a little about open source and want to understand how the ASF works our [contributors section][2] is for you.
 
+We also have a collection of [links][3] to relevant information.
+
 ## Apache Committers
 
-Apache Committers will should read our [committers section][3] and see the [Developer Information site](http://www.apache.org/dev/).
+Apache Committers will should read our [committers section][4] and see the [Developer Information site](http://www.apache.org/dev/).
 
 ## How To Ask Questions
 
@@ -65,18 +67,18 @@ about Apache at [dev@community.apache.org](http://mail-archives.apache.org/mod_m
 
 ## Event Organisers and Speakers
 
-We have a [list of speaker resources][4] for both conference organizers and speakers.
+We have a [list of speaker resources][5] for both conference organizers and speakers.
 
-For a list of current events, our [calendar section][5] contains an aggregation of foundation wide calendars, along with
-the [official conferences calendar][6], including ApacheCon, BarCamps, and more.
+For a list of current events, our [calendar section][6] contains an aggregation of foundation wide calendars, along with
+the [official conferences calendar][7], including ApacheCon, BarCamps, and more.
 
 ## Google Summer of Code program (GSoC)
 The Community Development project also manages the [ASF's participation in the 
-Google Summer of Code program][7]. Each year, since 2005, we've taken on 
+Google Summer of Code program][8]. Each year, since 2005, we've taken on 
 between 30 and 45 students. Many of these have gone on to be long term 
 committers and even members of the foundation. 
 
-Read about a few of our [GSoC successes][8].
+Read about a few of our [GSoC successes][9].
 
 <a name="Index-ManagingtheCommunityDevelopmentproject"></a>
 # Managing the Community Development project
@@ -88,7 +90,7 @@ ComDev mailing list at dev@community.apache.org.
 ## Managing This Website 
 
 Volunteers use the [Apache CMS](http://www.apache.org/dev/cmsref.html) system to manage 
-this website.  The AOO project has created a great tutorial on [how to use the CMS][9].
+this website.  The AOO project has created a great tutorial on [how to use the CMS][10].
 
 You may email us with suggestions, or preferably [use the CMS to create a patch](http://www.apache.org/dev/cmsref.html#non-committer) for 
 our volunteers to look at and consdier applying to this site.
@@ -107,10 +109,11 @@ made up of volunteers who are committers at the Apache Software Foundation.
 
   [1]: /newcomers/index.html
   [2]: /contributors/index.html
-  [3]: /committers/index.html
-  [4]: /speakers/index.html
-  [5]: /calendars/index.html
-  [6]: /calendars/conferences.html
-  [7]: /gsoc.html
-  [8]: /mentoring/experiences.html
-  [9]: http://www.youtube.com/watch?v=xcDZN3Lu6HA
+  [3]: links.html
+  [4]: /committers/index.html
+  [5]: /speakers/index.html
+  [6]: /calendars/index.html
+  [7]: /calendars/conferences.html
+  [8]: /gsoc.html
+  [9]: /mentoring/experiences.html
+  [10]: http://www.youtube.com/watch?v=xcDZN3Lu6HA
