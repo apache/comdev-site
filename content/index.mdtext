@@ -16,104 +16,98 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            specific language governing permissions and limitations
            under the License.
 
-<div class="hero-unit" markdown="1">
-<h1>Welcome to the Apache Community Development (ComDev) project!</h1>
+<div class="hero-unit">
+<h2>Apache Community Development!</h2>
 <br>
 
 <p>This website is developed 
 by volunteers to <em>help newcomers</em> to The Apache Software Foundation (ASF)
-and to our many Apache projects take their first steps towards being a <em>part of our community</em>.
+and to our many Apache projects take their first steps towards being a <em>part of our community</em>.</p>
 
-<p>
-Here we provide signposts to information about both
+<p>Here we provide signposts to information about both
 the ASF as an organization, as well as about the over 100 different Apache project 
-communities that provide free software for the public benefit.
+communities that provide free software for the public benefit.</p>
 
-<p>
-We do not focus on any
+<p>We do not focus on any
 specific projects here, but rather on the common processes and policies 
 found in most of Apache projects. Our goal is to help you
 <em>understand how the ASF works</em> and give you the confidence to participate
-more directly in Apache projects that interest you.
-
+more directly in Apache projects that interest you.</p>
 </div>
 
-# How Can We Help You? #
 <a name="Index-Startingpoints"></a>
-## Newcomers to Apache
-
-If you are new to open source please read our [newcomers section][1] for some 
-explanations of basic concepts, first steps to get started, and places to ask for help.
-
-## Open Source Contributors
-
-If you know a little about open source and want to understand how the ASF works our [contributors section][2] is for you.
-
-We also have a collection of [links][3] to relevant information.
-
-## Apache Committers
-
-Apache Committers will should read our [committers section][4] and see the [Developer Information site](http://www.apache.org/dev/).
-
-## How To Ask Questions
-
-All Apache projects use publicly archived mailing lists that anyone may subscribe 
-to and/or send mail to to ask about that Apache project.  Most projects have at least a 
-dev@$project.apache.org mailing list for technical discussions about the code, and a 
-user@ or users@ mailing list for questions about the product or features.
-
-The ComDev project has our own mailing list where you can ask general questions 
-about Apache at [dev@community.apache.org](http://mail-archives.apache.org/mod_mbox/community-dev/).
-
-## Event Organisers and Speakers
-
-We have a [list of speaker resources][5] for both conference organizers and speakers.
-
-For a list of current events, our [calendar section][6] contains an aggregation of foundation wide calendars, along with
-the [official conferences calendar][7], including ApacheCon, BarCamps, and more.
-
-## Google Summer of Code program (GSoC)
-The Community Development project also manages the [ASF's participation in the 
-Google Summer of Code program][8]. Each year, since 2005, we've taken on 
-between 30 and 45 students. Many of these have gone on to be long term 
-committers and even members of the foundation. 
-
-Read about a few of our [GSoC successes][9].
-
-<a name="Index-ManagingtheCommunityDevelopmentproject"></a>
-# Managing the Community Development project
-
-Many volunteers work together to manage this website and other tools available 
-to help people learn more about the ASF and Apache projects. If you'd like to join in, please contact the 
-ComDev mailing list at dev@community.apache.org.
-
-## Managing This Website 
-
-Volunteers use the [Apache CMS](http://www.apache.org/dev/cmsref.html) system to manage 
-this website.  The AOO project has created a great tutorial on [how to use the CMS][10].
-
-You may email us with suggestions, or preferably [use the CMS to create a patch](http://www.apache.org/dev/cmsref.html#non-committer) for 
-our volunteers to look at and consdier applying to this site.
-
-## Community Development Governance and History
-
-This project is managed by the Apache Community Development Project Management Committee, 
-made up of volunteers who are committers at the Apache Software Foundation.
-
- * [Original board resolution](comdevboardresolution.html)
- creating this Community Development (ComDev) project
- * [Current ComDev Board Reports](comdevboardreports.html)
- * [Other public records of the ASF](http://www.apache.org/foundation/records/)
- * [Annotated listing of All Apache Projects](http://projects.apache.org/)
 
 
-  [1]: /newcomers/index.html
-  [2]: /contributors/index.html
-  [3]: links.html
-  [4]: /committers/index.html
-  [5]: /speakers/index.html
-  [6]: /calendars/index.html
-  [7]: /calendars/conferences.html
-  [8]: /gsoc.html
-  [9]: /mentoring/experiences.html
-  [10]: http://www.youtube.com/watch?v=xcDZN3Lu6HA
+<!-- Headers -->
+<div class="row">
+  <div class="span4">
+    <h3>New to Apache</h3>
+  </div>
+  <div class="span4">
+    <h3>Events & Mentoring</h3>
+  </div>
+  <div class="span4">
+    <h3>The Apache Way</h3>
+  </div>    
+</div>
+
+<!-- Row 1 -->
+<div class="row">
+    <div class="span4">
+        <h4>Newcomers to Apache</h4>
+        <p>If you are new to open source please read our <a href="http://community.apache.org/newcomers/index.html">newcomers section</a> for some explanations of basic concepts, first steps to get started, and places to ask for help.</p>
+    </div>
+    <div class="span4">
+        <h4>Event Organisers and Speakers</h4>
+        <p>We have a <a href="http://community.apache.org/speakers/index.html">list of speaker resources</a> for both conference organizers and speakers.
+        <br/><br/>
+        For a list of current events, our <a href="http://community.apache.org/calendars/index.html">calendar section</a> contains an aggregation of foundation wide calendars, along with the <a href="http://community.apache.org/calendars/conferences.html">official conferences calendar</a>, including ApacheCon, BarCamps, and more.</p>
+    </div>
+    <div class="span4">
+        <h4>The foundation</h4>
+        <p>Learn about the mission of the Apache Software Foundation (ASF), how projects are governed, etc at the <a href="http://www.apache.org/foundation/">Foundation</a> page. </p>
+    </div>    
+</div>
+
+<!-- Row 2 -->
+<div class="row">
+    <div class="span4">
+        <h4>Open Source Contributors</h4>
+        <p>If you know a little about open source and want to understand how the ASF works our <a href="http://community.apache.org/contributors/index.html">contributors section</a> is for you.</p>
+        <p>We also have a collection of relevant <a href="http://community.apache.org/links.html">links</a> to relevant information.</p>
+        <p>If you are an Apache Committer you should read our <a href="http://community.apache.org/committers/index.html">committers section</a> and see the <a href="http://www.apache.org/dev/">Developer Information site</a>.</p>        
+    </div>
+    <div class="span4">
+          <h4>Google Summer of Code program (GSoC)</h4>
+          <p>The Community Development project also manages the <a href="http://community.apache.org/gsoc.html">ASF's participation in the Google Summer of Code program</a>. Each year, since 2005, we've taken on between 30 and 45 students. Many of these have gone on to be long term committers and even members of the foundation. 
+          <br/><br/>
+          Read about a few of our <a href="http://community.apache.org/mentoring/experiences.html">GSoC successes</a>. </p>
+    </div>
+    <div class="span4">
+        <h4>How Apache works</h4>
+        <p>Interested in learning how the foundation works, the difference between membership and committership, who decides what, how elections take place, how is our infrastructure setup, what is the board, what is a PMC, what's the philosophy behind the incubator, why is the foundation moving away from project containment. Read the <a href="http://www.apache.org/foundation/how-it-works.html">how Apache works</a> works.</p>
+    </div>    
+</div>
+
+<!-- Row 3 -->
+<div class="row">
+    <div class="span4">
+        <h4>How To Ask Questions</h4>
+        <p>All Apache projects use publicly archived mailing lists that anyone may subscribe 
+           to and/or ask questions related to that Apache project.  Most projects have at least a 
+           dev@project.apache.org mailing list for technical discussions about the code, and a 
+           user@ or users@ mailing list for questions about the product or features.
+           <br/><br/>
+           The ComDev project has our own mailing list where you can ask general questions 
+           about Apache at <a href="http://mail-archives.apache.org/mod_mbox/community-dev/">dev@community.apache.org</a>.</p>
+    </div>
+    <div class="span4">
+        <h4>Project Ideas</h4>
+        <p>If you are looking for specific areas to get started contributing to open source, you could look at collection of <a href="http://s.apache.org/gsoc2013ideas">project ideas</a> created by GSoC mentors.</p>
+    </div>
+    <div class="span4">
+          <h4>FAQ</h4>
+          <p>If you still haven't found what you are looking for, try our <a href="newbiefaq.html">FAQ</a> or send us an e-mail at dev AT community DOT org.</p>
+    </div>    
+</div>
+
