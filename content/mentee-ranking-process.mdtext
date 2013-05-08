@@ -26,14 +26,10 @@ Projects are ranked using a scoring system as follows:
 
 * if the proposal is for a project you will be mentoring and you feel the
 proposal looks good enough for you to commit your time to it then click the
-"I am willing to Mentor" button and add the proposal URL, title and your Melange link_id to
-<https://svn.apache.org/repos/private/committers/gsoc/GSoC-2011-scoring.csv>.
+"I am willing to Mentor" button in Melange.
 
 Please only offer to mentor a single project unless discussed on
-code-awards@a.o first. Please also make sure that each proposal has
-exactly one mentor willing to mentor the proposal. If multiple community
-members wish to mentor a proposal please agree on only one who will be the
-"official" mentor.
+code-awards@a.o first. We encourage multiple mentors per project though.
 
 Other community members are free to comment on proposals as they see fit.
 In the re-evaluation phase (see below) admins will use
@@ -41,7 +37,9 @@ comments provided by mentors and community members.
 
 ##*Selection Phase* : done by mentor during ranking time
 
-All scoring is done in the spreadsheet at <https://svn.apache.org/repos/private/committers/gsoc/GSoC-2011-scoring.csv>. DO NOT ADD SCORES IN MELANGE! Use integer number only!
+All scoring is done in the Google Docs spreadsheet that was sent to
+code-awards@apache.org. Every Score must be followed by an explanation.
+DO NOT ADD SCORES IN MELANGE! Use integer numbers only!
 
 In this phase mentors evaluate the proposal. Mentors are asked to add an
 explanation for each score added using the criteria below, this helps admins in
@@ -54,22 +52,31 @@ Any questions can be addressed to the admins on code-awards@a.o
 * Did the student demonstrate that they have the required skills to start
 the project and learn what's needed along the way? And how happy are we
 with the results? (0-4 points)
+
 * How do we rate the quality of the student's proposal, in terms of
 technical relevance, completeness, awareness of issues, realistic planning
 (less copy and paste)? (0-4 points)
+
 * How does the mentor rate the student's chances of success, based on an
 in-person (face-to-face, video, audio, IRC,  email) interview? (0-3 points, or
 0-1 if email interview only)
+
 * How do we rate the originality of the student's contributions to the
 proposal? (0-2 points, 0 if mentor provides proposal, 1 if student builds
 proposal from suggested ideas, 2 if proposal is original idea from student)
+
 * Did student work with the project community, on our public mailing lists,
 to create the proposal? (0-2 points)
+
 * Did student explicitly indicate how much time they are going to dedicate
 to GSoC for the project's duration, and mention any other committments that
-could conflict with the project (holidays, etc.)? And are we happy with
-this commitment? (0-2 points)
+could conflict with the project (holidays, course work, etc.)? And are we happy with
+this commitment (it should be their major occupation during the summer)? (0-2 points)
+
 * Did student respond quickly to mentor inquiries? (0-2 points)
+
+* Are you or your student affiliated in any way (e.g. share(d) the same employer or will do so in the foreseeable future, are
+you his or her adviser at university, personal relationships, etc.)? (yes/no)
 
 
 Other community members are free to comment on proposals inside Melange as they see fit.
@@ -77,11 +84,11 @@ However, DO NOT ADD A SCORE TO THE PROPOSAL. In the re-evaluation phase (see bel
 comments provided by mentors and community members.
 
 At the end of the selection phase proposals to be considered for support
-will have a score of between 0 and +23, and should only have scores from
+will have a score of between 0 and +19, and should only have scores from
 the assigned mentor and admins (at this stage admin scores are only
 corrections). The admins will check in during the selection phase
 periodically to look for problems by scanning the scores (i.e. anything
-over +23 has an error). 
+over +19 has an error). 
 
 At the end of this selection phase we know the minimum score a proposal
 must have in order to be selected (i.e. if we have 30 slots, projects with
