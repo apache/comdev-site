@@ -1,0 +1,52 @@
+Title: DRAFT - Mentoring Programme Pilot with India ICFOSS - DRAFT
+
+The ASF has been participating in many mentoring initiatives, and it's now
+partening in a pilot project with India ICFOSS to provide mentoring for 
+undergraduated and graduated students that have interest in learning how
+to participate in open source communitites at ASF.
+
+The mentoring programme is not here to teach you to write documentation or
+code. It is here to help you understand how to make a valuable contribution
+to an Apache project. You can expect to be guided through our contribution
+processes. You can also expect to get technical support with respect to
+your chosen project. You cannot expect your mentor to be a "teacher", they
+will provide enough information for you to progress within the project. You
+need to bring the confidence to take their guidance and discover the detail
+for yourself.
+
+
+<a name="Schedule"></a>
+## Proposed Schedule
+
+<table>
+<th align="left">Date</th><th align="left">Description</th>
+<tr><td>June 17</td><td>Local Workshop at ICFOSS headequarters in Kerala - India</td></tr>
+<tr><td>June 24 - July 12</td><td>Would-be student participants discuss application ideas with ASF projects</td></tr>
+<tr><td>July 15</td><td>Students project proposal submission opens</td></tr>
+<tr><td>July 19</td><td>Students project proposal submission deadline</td></tr>
+<tr><td>July 22 - August 02</td><td>Mentors review and rank students project proposals</td></tr>
+<tr><td>August 05</td><td>Accepted student proposals announced</td></tr>
+<tr><td>August 05</td><td>Students start coding their project proposal with Mentor guidance</td></tr>
+<tr><td>September 09</td><td>Mentors and students can begin submitting mid-term evaluations</td></tr>
+<tr><td>September 13</td><td>Mid-term evaluation deadline</td></tr>
+<tr><td>October  21</td><td>Suggested 'DCUT' date, where students should then scrub code, enhance documentation, etc </td></tr>
+<tr><td>October 28</td><td>Mentors and students can begin submitting final evaluations</td></tr>
+<tr><td>November 1</td><td>Final evaluation deadline</td></tr>
+</table>
+
+
+<a name="MentoringProgramme-ProjectIdeas"></a>
+## Project Ideas
+
+Project ideas are jira created by possible mentors and can be viewed at the <a href="https://issues.apache.org/jira/issues/?filter=12324056">Apache Jira System</a>.
+
+
+<a name="MentoringProgramme-ApplyingfortheMentorProgramme"></a>
+## Applying for the Mentor Programme
+
+Students can propose their own ideas, or select one from the asf provided list
+Discuss how students should discuss the ideas and prepare the proposal
+Detail what a proposal should have (link sample proposals)
+Any other expectations...
+
+
