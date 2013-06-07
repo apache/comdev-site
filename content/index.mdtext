@@ -78,10 +78,10 @@ more directly in Apache projects that interest you.</p>
         <p>If you are an Apache Committer you should read our <a href="committers/index.html">committers section</a> and see the <a href="http://www.apache.org/dev/">Developer Information site</a>.</p>        
     </div>
     <div class="span4">
-          <h4>Google Summer of Code program (GSoC)</h4>
-          <p>The Community Development project also manages the <a href="gsoc.html">ASF's participation in the Google Summer of Code program</a>. Each year, since 2005, we've taken on between 30 and 45 students. Many of these have gone on to be long term committers and even members of the foundation. 
+          <h4>Pilot Mentoring Programme with India ICFOSS</h4>
+          <p>The Apache Software Foundation is now partening in a pilot project with India ICFOSS to provide mentoring for undergraduated and graduated students that have interest in learning how to participate in open source communitites at ASF.</p> 
           <br/><br/>
-          Read about a few of our <a href="mentoring/experiences.html">GSoC successes</a>. </p>
+          More information available at the <a href="mentoringprogramme-icfoss-pilot.html">Pilot Mentoring Programme</a> page.</p>
     </div>
     <div class="span4">
         <h4>How Apache works</h4>
@@ -102,8 +102,14 @@ more directly in Apache projects that interest you.</p>
            about Apache at <a href="http://mail-archives.apache.org/mod_mbox/community-dev/">dev@community.apache.org</a>.</p>
     </div>
     <div class="span4">
+          <h4>Google Summer of Code program (GSoC)</h4>
+          <p>The Community Development project also manages the <a href="gsoc.html">ASF's participation in the Google Summer of Code program</a>. Each year, since 2005, we've taken on between 30 and 45 students. Many of these have gone on to be long term committers and even members of the foundation. 
+          <br/><br/>
+          Read about a few of our <a href="mentoring/experiences.html">GSoC successes</a>. </p>    
+        <!--
         <h4>Project Ideas</h4>
         <p>If you are looking for specific areas to get started contributing to open source, you could look at collection of <a href="http://s.apache.org/gsoc2013ideas">project ideas</a> created by GSoC mentors.</p>
+        -->
     </div>
     <div class="span4">
           <h4>FAQ</h4>
