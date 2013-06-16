@@ -16,8 +16,11 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            specific language governing permissions and limitations
            under the License.
 
-This Calendar is maintained by the [Apache Conferences Committee][1] (ConCom). It's used to list official Apache events, and 
-those events which have been approved to use Apache Marks under the [Third Party Event Branding Policy][2].
+This calendar lists events relating to The Apache Software Foundation and its projects. 
+
+This Calendar is maintained by the Apache Community Development Committee (ComDev), 
+to have your event listed considered for addition please mail [dev@community.apache.org][1].
+Note that to be listed in this calendar events must conform to the [Third Party Event Branding Policy][2]. 
 
 <h2>Upcoming events</h2>
 <ul id="events">
@@ -94,6 +97,6 @@ function render(data) {
 </script>
 <script src="http://www.google.com/calendar/feeds/nerseigospses068jd57bk5ar8@group.calendar.google.com/public/full?alt=json-in-script&callback=render&orderby=starttime&max-results=30&singleevents=true&sortorder=ascending&futureevents=true"></script>
 
-  [1]: http://www.apache.org/foundation/conferences.html
+  [1]: mailto:dev@community.apache.org
   [2]: http://www.apache.org/foundation/marks/events.html
   [3]: https://www.google.com/calendar/ical/nerseigospses068jd57bk5ar8%40group.calendar.google.com/public/basic.ics
