@@ -16,14 +16,17 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            specific language governing permissions and limitations
            under the License.
 
-If you are organising an event and looking for speakers or you are a speaker looking for materials this is the place for you.
+If you are organising an event and looking for speakers or you are a speaker looking for 
+materials this is the place for you.
 
-If you are seeking to organise an Apache branded event then you need to contact the [Conference Committee][1]
+If you are seeking to organise an Apache branded event then you must ensure your activities 
+conform to the [Third Party Event Branding Policy][1]. Once you have verified you are in
+conformance please consider adding your event to the [events calendar][2].
 
 ## Finding Speakers
 
-You can use our "[Find People][2]" application to find people willing and able to 
-talk about The Apache Software Foundation and its projects. A few people have shared [Apache related presentations][3] for you.
+You can use our "[Find People][3]" application to find people willing and able to 
+talk about The Apache Software Foundation and its projects. A few people have shared [Apache related presentations][4] for you.
 
 *NOTE* This service is alpha quality right now. If you have a problem with
 it or it doesn't turn up a suitable candiate please feel free to contact us 
@@ -34,21 +37,22 @@ for help (see below).
 If you're an Apache committer, and you're interested in speaking about Apache Technologies, Apache Projects or the Apache 
 Software Foundation as a whole, we'd encourage you to get involved and list yourself in our speaker application!
 
-For more details on how to list yourself as a potential speaker, see the [Apache Speakers WebApp][4] page.
+For more details on how to list yourself as a potential speaker, see the [Apache Speakers WebApp][5] page.
 
 ## Speaker Support Materials
 
-If you are creating your own slides you will find the [ASF Press Kit][5] useful. It contains logos in various formats.
+If you are creating your own slides you will find the [ASF Press Kit][6] useful. It contains logos in various formats.
 
 We aim to collect a set of slide decks about the Apache 
 Software Foundation for reuse in presentations. So far
-A few people have shared [Apache related presentations][6] 
+A few people have shared [Apache related presentations][7] 
 for you.
 
 
-  [1]: concom@apache.org
-  [2]: http://community.zones.apache.org/
-  [3]: slides.html
-  [4]: speakers.html
-  [5]: http://www.apache.org/foundation/press/kit/
-  [6]: slides.html
+  [1]: http://community.zones.apache.org/
+  [2]: http://community.apache.org/calendars/conferences.html
+  [3]: http://community.zones.apache.org/
+  [4]: slides.html
+  [5]: speakers.html
+  [6]: http://www.apache.org/foundation/press/kit/
+  [7]: slides.html
