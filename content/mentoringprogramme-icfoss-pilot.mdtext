@@ -35,17 +35,37 @@ More information on the <a href="mentoringprogramme.html">Mentoring Programme</a
 <tr><td>November 1</td><td>Final evaluation deadline</td></tr>
 </table>
 
+<a name="MentoringProgramme-WorkshopMaterials"></a>
+## Workshop Materials
+
+The slides used for the local workshop at ICFOSS headquarters in Kerala are available for <a href="http://people.apache.org/~lresende/presentations/asf-icfoss-mentoring.pdf">download</a>.
+
 
 <a name="MentoringProgramme-ProjectIdeas"></a>
 ## Project Ideas
 
-Project ideas are jira created by possible mentors and can be viewed at the <a href="https://issues.apache.org/jira/issues/?filter=12324056">Apache Jira System</a>.
+Project ideas are jira created by possible mentors and can be viewed at:
+
+
++ [2013 ICFOSS Programme Project Ideas](http://s.apache.org/icfoss2013ideas)
++ [2013 GSoC Project Ideas](http://s.apache.org/gsoc2013ideas)
 
 
 <a name="MentoringProgramme-ApplyingfortheMentorProgramme"></a>
 ## Applying for the Mentor Programme
 
-Students can propose their own ideas, or select one from the asf provided list.
+Students can propose their own project ideas, or select one from the asf provided list. After selecting the project ideas. students should create a project prosoal following guidance from the <b>mentor</b> and the <b>project community</b>.
 
+The project proposal should have, at minimum :
 
++ <b>WHAT</b> Detailed description of the what is being implemented as part of the project.
++ <b>HOW</b> How the project is going to be implemented. Here you would describe your approach towards solving the problem, as well as technical details (which shows to the mentor that you have a clear idea of what needs to be implemented). High level system design diagrams is a plus.
++ <b>WHEN</b> A detailed schedule of what tasks you are going to implent by when.
 
+See the proposals examples below as guidance:
+
++ [Searching artifact across SCA Domains](https://cwiki.apache.org/confluence/display/TUSCANYWIKI/Searching+artifacts+across+SCA+domain)
++ [GIMPLE to GRAPHITE transformation](http://students.fim.uni-passau.de/~grosser/gcc_soc/)
++ [Nmap Scripting Engine – Infrastructure Manager](http://opendz.org/users/tixxdz/gsoc/gsoc_2010_proposal_nmap_scripting_engine_short_version.pdf)
+
+Note that the proposals below are just examples from previous GSoC programs, and each one have different strenghts. But you should always follow your mentors advice, as he is the one that is going to be judjing your proposals.
