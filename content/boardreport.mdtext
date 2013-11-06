@@ -33,7 +33,7 @@ the first of the month)
 <DIV class="code panel" style="border-style: solid;border-width: 1px;"><DIV class="codeHeader panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;"><B>Board Report Template</B></DIV><DIV class="codeContent panelContent">
     Status report for the Apache <em>FOO</em> project - <em>MONTH YEAR</em>
     
-    A couple of sentences about the purpose of the project.
+    A couple of sentences about the purpose of the project; what the primary software product actually does.
 
     Project Status
     --------------
@@ -47,11 +47,12 @@ the first of the month)
     
     A slightly more detailed look at the project community. It should still be brief, issues to think about include:
     
+    * When was the last committer voted in? [REQUIRED]
+    * When was the last PMC member added? [REQUIRED]
     * Is the project community active? 
     * Is the user community growing/shrinking? 
     * Are there any legal, infrastructure, cross-project or personal issues that need to be addressed?
     * Are issues on the user/developer list being addressed?
-    * Have any new committers been voted in? Any changes in the PMC?
     
     Community Objectives
     --------------------
@@ -65,5 +66,5 @@ the first of the month)
     Releases
     --------
     
-    Have there been any releases from the project in the last quarter? If notwhen is the next one likely to be made?
+    Have there been any releases from the project in the last quarter? [REQUIRED] If so, when? If not, when was the last release, and when is the next one likely to be made?
 
