@@ -30,8 +30,9 @@ the first of the month)
  * PMC chair submits board report via board.at.apache.org with subject of "\[REPORT\]
  project name" (copy to project private or dev list as appropriate)
 
-<DIV class="code panel" style="border-style: solid;border-width: 1px;"><DIV class="codeHeader panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;"><B>Board Report Template</B></DIV><DIV class="codeContent panelContent">
-    Status report for the Apache <em>FOO</em> project - <em>MONTH YEAR</em>
+**Board Report Template**
+
+    Status report for the Apache $FOO project - $MONTH $YEAR
     
     A couple of sentences about the purpose of the project; what the primary software product actually does.
 
@@ -47,8 +48,8 @@ the first of the month)
     
     A slightly more detailed look at the project community. It should still be brief, issues to think about include:
     
-    * When was the last committer voted in? \[REQUIRED\]
-    * When was the last PMC member added? \[REQUIRED\]
+    * When was the last committer voted in? [REQUIRED]
+    * When was the last PMC member added? [REQUIRED]
     * Is the project community active? 
     * Is the user community growing/shrinking? 
     * Are there any legal, infrastructure, cross-project or personal issues that need to be addressed?
@@ -66,6 +67,6 @@ the first of the month)
     Releases
     --------
     
-    Have there been any releases from the project in the last quarter? \[REQUIRED\] If so, when? If not, when was the last release, and when is the next one likely to be made?
-</DIV></DIV>
+    Have there been any releases from the project in the last quarter? [REQUIRED] If so, when? If not, when was the last release, and when is the next one likely to be made?
+
 
