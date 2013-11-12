@@ -24,13 +24,13 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 by volunteers to <em>help newcomers</em> to The Apache Software Foundation (ASF)
 and to our many Apache projects take their first steps towards being a <em>part of our community</em>.</p>
 
-<p>Here we provide signposts to information about both
-the ASF as an organization, as well as about the over 100 different Apache project 
+<p>Here we provide signposts to information about 
+the ASF as an organization, as well as about the over 140 different Apache project 
 communities that provide free software for the public benefit.</p>
 
 <p>We do not focus on any
 specific projects here, but rather on the common processes and policies 
-found in most of Apache projects. Our goal is to help you
+called The Apache Way found in most Apache projects. Our goal is to help you
 <em>understand how the ASF works</em> and give you the confidence to participate
 more directly in Apache projects that interest you.</p>
 </div>
@@ -58,14 +58,14 @@ more directly in Apache projects that interest you.</p>
         <p>If you are new to open source please read our <a href="newcomers/index.html">newcomers section</a> for some explanations of basic concepts, first steps to get started, and places to ask for help.</p>
     </div>
     <div class="span4">
-        <h4>Event Organisers and Speakers</h4>
+        <h4>Event Organizers and Speakers</h4>
         <p>We have a <a href="speakers/index.html">list of speaker resources</a> for both conference organizers and speakers.
         <br/><br/>
         For a list of current events, our <a href="calendars/index.html">calendar section</a> contains an aggregation of foundation wide calendars, along with the <a href="calendars/conferences.html">official conferences calendar</a>, including ApacheCon, BarCamps, and more.</p>
     </div>
     <div class="span4">
-        <h4>The foundation</h4>
-        <p>Learn about the mission of the Apache Software Foundation (ASF), how projects are governed, etc at the <a href="http://www.apache.org/foundation/">Foundation</a> page. </p>
+        <h4>The Foundation</h4>
+        <p>You can read about the <a href="http://www.apache.org/foundation/">mission of the Apache Software Foundation</a>, and how the <a href="http://www.apache.org/foundation/governance/">ASF and Apache projects are governed</a>, and how to <a href="http://www.apache.org/foundation/contributing.html">support the ASF in other ways</a>.
     </div>    
 </div>
 
@@ -79,13 +79,13 @@ more directly in Apache projects that interest you.</p>
     </div>
     <div class="span4">
           <h4>Pilot Mentoring Programme with India ICFOSS</h4>
-          <p>The Apache Software Foundation is now partening in a pilot project with India ICFOSS to provide mentoring for undergraduated and graduated students that have interest in learning how to participate in open source communitites at ASF.
+          <p>The Apache Software Foundation is now participating in a pilot project with India ICFOSS to provide mentoring for undergraduate and graduate students that have interest in learning how to participate in open source communities at ASF.
           <br/><br/>
           More information available at the <a href="mentoringprogramme-icfoss-pilot.html">Pilot Mentoring Programme</a> page.</p>
     </div>
     <div class="span4">
         <h4>How Apache works</h4>
-        <p>Interested in learning how the foundation works, the difference between membership and committership, who decides what, how elections take place, how is our infrastructure setup, what is the board, what is a PMC, what's the philosophy behind the incubator, why is the foundation moving away from project containment. Read the <a href="http://www.apache.org/foundation/how-it-works.html">how Apache works</a> works.</p>
+        <p>Interested in learning how the foundation works, the difference between membership and committership, who decides what, how elections take place, how is our infrastructure setup, what is the board, what is a PMC, what's the philosophy behind the incubator. Read the <a href="http://www.apache.org/foundation/how-it-works.html">how Apache works</a> works.</p>
     </div>    
 </div>
 
@@ -113,7 +113,6 @@ more directly in Apache projects that interest you.</p>
     </div>
     <div class="span4">
           <h4>FAQ</h4>
-          <p>If you still haven't found what you are looking for, try our <a href="newbiefaq.html">FAQ</a> or send us an e-mail at dev AT community DOT org.</p>
+          <p>If you still haven't found what you are looking for, try our <a href="newbiefaq.html">FAQ</a> or send us an e-mail at dev@community.apache.org.</p>
     </div>    
 </div>
-
