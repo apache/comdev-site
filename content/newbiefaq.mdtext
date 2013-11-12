@@ -19,8 +19,8 @@ The Apache Software Foundation understand how we work.
       - [What is the Apache Mentoring Programme](#NewbieFAQ-WhatistheApacheMentoringProgramme)
       - [How do I Apply to the Mentor Programme?](#NewbieFAQ-HowdoIApplytotheMentorProgramme?)
 
-Note, there are not too many questions and answers here right now, as this is
-a very new project. Please ask any new questions on
+We are always looking for suggestions of better ways to help newcomers to the ASF find 
+the information they're looking for.  Please ask any new questions or give us suggestions on
 [dev@community.apache.org](mailto:dev@community.apache.org) (subscribe with
 [dev-subscribe@community.apache.org](mailto:dev-subscribe@community.apache.org) first).
 
@@ -31,12 +31,12 @@ a very new project. Please ask any new questions on
 <a name="NewbieFAQ-WhatprojectscanIfindinTheApacheSoftwareFoundation?"></a>
 ## What projects can I find in The Apache Software Foundation?
 
-There are a great many projects in The Apache Software Foundation. We have
-four classes of project:
+There are over 140 separate projects hosted at The Apache Software Foundation. We have
+four classes, or types, of project (in terms of their community; not in terms of technology):
 
-   * [Top Level Projects](http://www.apache.org): these are projects with healthy communities and active development
+   * [Top Level Projects](http://www.apache.org): (TLP) these are projects with healthy communities and active development; we have an [alternate listing by technologies](http://projects.apache.org/) as well
    * [Incubating Projects](http://incubator.apache.org): these are projects that have still to build a sustainable community, but
-have active development
+have active development and are moving towards graduating to become 
    * [Labs](http://labs.apache.org): these are experiments being carried out by existing committers
    * [Attic](http://attic.apache.org): these are end-of-life projects that are no longer receiving active
 development, but may still be useful
@@ -108,8 +108,8 @@ actually happens.
 Be patient waiting for a response: give it at least three working days
 before you send a second message. People are busy, they will deal with your
 request when they can. If you need urgent help it is best not to rely on
-the community support channels and find someone willing to support you for
-a fee.
+the community support channels and find an outside organization willing to support you for
+a fee.  Remember that Apache committers are generally working as volunteers on Apache mailing lists.
 
 It is worth noting that people are more willing to help those who
 contribute back to the project in some way. If you hit a problem that was
