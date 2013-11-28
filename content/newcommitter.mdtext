@@ -192,7 +192,7 @@ sent after a positive result from the vote for a new committer.
     ------------------------------------------------------------
     To: JoeBloggs@foo.net
     Cc: private@[PROJECT].apache.org
-    Subject: invitation to become [PROJECT] committer: Joe Bloggs
+    Subject: Invitation to become [PROJECT] committer: Joe Bloggs
         
     Hello [invitee name],
 
@@ -218,7 +218,7 @@ sent after a positive result from the vote for a new committer.
 
     A. This personal invitation is a chance for you to 
     accept or decline in private.  Either way, please 
-    let us know in reply to the [privae@project.apache.org] 
+    let us know in reply to the [private@project.apache.org] 
     address only.
 
     B. If you are accepting, the next step is to register 
