@@ -51,9 +51,20 @@ software, only software released from the ASF itself is properly called "Apache 
 
 ## Apache projects are independent
 
-This is implicit in the fact that the Project Management Committee (PMC) runs the project, and the fact that PMC members are expected to contribute to the project as individuals, wearing their “PMC hat”. The concept of hats means that when a PMC member votes on project matters, they are casting their vote as an individual acting in the best interests of that PMC, and not as an employee or representative of some third party. There are also certain expectations of diversity within a PMC; the board may apply extra scrutiny to PMCs with low diversity (i.e. PMCs that are dominated by people with a common employer). Similarly, the ASF does not allow corporations to participate directly in project management, only individuals.
+Apache projects are controlled by their Project Management Committee
+(PMC).  A PMC represents the consensus view of the individual PMC 
+members by discussion and [VOTE]ing on project releases and new committers. 
+A PMC's actions within their Apache project community and management of 
+their project must be in the interest of that consensus and consistent with  
+the ASF's mission of producing software for the public good. 
 
-There are two important aspects to this independence: project management, and project use by end users.
+There are also 
+certain expectations of diversity within a PMC; the board may apply extra scrutiny to PMCs 
+with low diversity (i.e. PMCs that are dominated by individuals with a common employer). 
+Similarly, the ASF does not allow corporations to participate directly in 
+Apache project management or other governance activities at the ASF; only individuals.
+
+There are several important aspects to this independence: project management, project use by end users, and project code availability.
 
 ## Apache projects are managed independently
 
