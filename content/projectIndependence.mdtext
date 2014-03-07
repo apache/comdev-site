@@ -91,6 +91,12 @@ to share these ideas or improvements, ensuring that the actual product they are 
 is clearly branded as coming from Apache ensures that they are likely to contribute 
 those ideas and improvements back to Apache and our projects.
 
+The ASF welcomes third parties who build software that builds atop, improves, 
+plugs into, or works with our many Apache products.  However any such third party software 
+product must be clearly branded as such, and must follow our [formal trademark policy][3].
+In this way, users clearly understand the different sources for software products such as 
+Apache Foo (from the ASF) versus BigCo SuperThing, Powered By Apache Foo (from BigCo).
+
 ## Apache projects are non-commercial
 
 The ASF’s mission is to produce software for the public good. All [Apache software is always available for free][8], and solely under the Apache License. While our projects manage the technical implementation of their individual software products independently, Apache software is released from the ASF, and is always meant to serve the public good.
