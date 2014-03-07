@@ -23,7 +23,8 @@ projects are required to follow – things like complying with PMC
 using [mailing lists][4], etc., which are [documented in various places][5]. 
 
 A community is not merely a set of rules; it is also a set of behaviors 
-that are expressed by the participants there.  While the ASF is happy to host 
+that are expressed by the participants when interacting within that 
+community.  While the ASF is happy to host 
 many different styles of project communities, there are some core behaviors that 
 are expected and required of any Apache project. 
 
@@ -35,6 +36,18 @@ in that area. The [Apache project governance model][7] is explicitly based
 on a diverse community. This is different from other governance models, 
 like the “benevolent dictator” idea or the often corporate-backed model 
 that Eclipse uses.
+
+**Please Note:** These requirements apply to *Apache projects*: that is, 
+to individual committer and PMC behaviors and actions within the context 
+of collaboratively building software products *at The Apache 
+Software Foundation*.  By definition here, "Apache project" means the collaborative 
+activity of building a software release called an "Apache product" here at the ASF.
+
+The ASF and all Apache projects welcome the public to broadly re-use any released 
+Apache products for virtually any purpose. Third party use like this is governed by 
+our permissive [Apache License][6] and by our [formal trademark policy][3].  
+While many third parties create Apache licensed 
+software, only software released from the ASF itself is properly called "Apache software".
 
 ## Apache projects are independent
 
