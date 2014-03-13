@@ -28,7 +28,7 @@ The main steps are:
 
 a) Get approval from the PMCs of the projects that your event is about.
 
-b) Abide by the (http://www.apache.org/foundation/marks/events.html)[Apache branding rules].
+b) Abide by the [Apache branding rules](http://www.apache.org/foundation/marks/events.html).
 
 c) Once brand use is approved by the respective PMCs, Inform the community 
 development PMC of your event, including references to PMCs approval. 
@@ -37,4 +37,4 @@ but at least in private (private@community.apache.org).
 
 d) Once the information is public, send an announcement of your event to
 dev@community.apache.org so that it can be included in our 
-(events calendar)[../calendars.html].
+[events calendar](../calendars.html).
