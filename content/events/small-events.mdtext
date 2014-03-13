@@ -19,6 +19,8 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 The Community Development PMC is responsible for assisting with the
 organisation and promotion of all Apache events. 
 
+# Approval of small Apache-related events
+
 Organizers of Apache-related events need approval for using the
 Apache trademarks in their event brandings. 
 
@@ -26,14 +28,13 @@ The main steps are:
 
 a) Get approval from the PMCs of the projects that your event is about.
 
-b) Abide by the http://www.apache.org/foundation/marks/events.html
-branding rules.
+b) Abide by the [http://www.apache.org/foundation/marks/events.html](Apache branding rules).
 
 c) Once brand use is approved by the respective PMCs, Inform the community 
 development PMC of your event, including references to PMCs approval. 
 Ideally on our public (dev@community.apache.org) mailing list,
 but at least in private (private@community.apache.org).
 
-d) Once the information ispublic, send an announcement of your event to
+d) Once the information is public, send an announcement of your event to
 dev@community.apache.org so that it can be included in our 
 [events calendar](../calendars.html).
