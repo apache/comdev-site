@@ -170,12 +170,14 @@ started guide][1]. You will also find our [get involved](http://apache.org/found
 <a name="NewbieFAQ-IsthereaCodeofConductforApacheprojects?"></a>
 ## Is there a Code of Conduct for Apache projects?
 
-Here at Apache projects are free to define their own code of conduct.
-However, it is common for new projects to learn from the lessons of the
-older projects. The Apache Incubator project has a wiki page for collecting [common elements of Apache project Codes of Conduct](http://incubator.apache.org/guides/community.html)
-.
+Yes there is a code of conduct which may be found at 
+[http://www.apache.org/foundation/policies/conduct.html](http://www.apache.org/foundation/policies/conduct.html)
 
-The Incubator document has some really useful for both the newbie and the
+PMCs are allowed to define their own code of conduct for their individual communities
+but it is expected they also abide by the Foundation wide policy
+
+The [Incubator document](http://incubator.apache.org/guides/committer.html) also 
+has some really useful for both the newbie and the
 old hands (we all fall into bad habits occasionally). The section on ASF
 Mottos is especially useful as a reminder of the way things are in most ASF
 projects. This section includes such gems as:
