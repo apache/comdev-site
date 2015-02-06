@@ -66,6 +66,8 @@ more directly in Apache projects that interest you.</p>
     <div class="span4">
         <h4>The Foundation</h4>
         <p>You can read about the <a href="http://www.apache.org/foundation/">mission of the Apache Software Foundation</a>, and how the <a href="http://www.apache.org/foundation/governance/">ASF and Apache projects are governed</a>, and how to <a href="http://www.apache.org/foundation/contributing.html">support the ASF in other ways</a>.
+        <p>We also have a <a href="apache-way/apache-project-maturity-model.html">Maturity Model</a> for Apache projects, that can serve as an example in
+           other communities as well</p>
     </div>    
 </div>
 
