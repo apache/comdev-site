@@ -1,8 +1,154 @@
 Title: A Maturity Model for Apache Projects
 
-# Title here
+# Status
+This is the first version of this document, as of February 2015.
+
+See <a href="http://s.apache.org/apache_maturity_model"></a> for the discussions that led to this.
+
+Questions and feedback about this model are welcome on the <a href="http://mail-archives.apache.org/mod_mbox/community-dev/">comdev mailing list</a>.
+
+# Overview
+The goal of this maturity model is to describe how Apache projects operate, in a concise and high-level way.
+
+It is meant to be usable outside of Apache as well, for projects that might want to adopt some or all of these principles. Projects that envision moving to Apache at some point might start working towards this to prepare for their move.
+
+It does not describe all the details of how our projects operate, but aims to capture the invariants of Apache projects and point to additional information where needed. To keep the main model as concise as possible we use footnotes for anything that's not part of the core model.
+
+Contrary to other maturity models, we do not define staged partial compliance levels. A mature Apache project complies with all the elements of this model, and other projects are welcome to pick and choose the elements that suit their goals.
+
+Note that we try to avoid using the word "must" below. The model describes the state of a mature project, as opposed to a set of rules. 
+
+# The Apache Project Maturity Model
+
+Each item in the model has a unique ID to allow them to be easily referenced elsewhere. 
+
+## Code
 
 <dl>
-<dt>LC20</dt>
-<dd>Do definition lists work here?</dd>
+<dt>CD10</dt>
+<dd>
+The project produces Open Source software, for distribution to the public at no charge.
+<sup><a href="#fnref-a2e0cd066fd8f45af4e87bcdbf8d9abd3ad40872" id="fndef-a2e0cd066fd8f45af4e87bcdbf8d9abd3ad40872-0">1</a></sup>
+</dd>
+
+<dt>CD20</dt>
+<dd>
+The project's code is easily discoverable and publicly accessible. 
+</dd>
+
+<dt>CD30</dt>
+<dd>
+The code can be built in a reproducible way using widely available standard tools.
+</dd>
+
+<dt>CD40</dt>
+<dd>
+The full history of the project's code is available via a source code 
+control system, in a way that allows any released version to be 
+recreated. 
+</dd>
+
+<dt>CD50</dt>
+<dd>
+The provenance of each line of code is established via the source code control system, in a reliable way based on strong authentication of the 
+committer. When third-party contributions are committed, commit messages provide reliable information about the code provenance.
+<sup><a href="#fnref-1a581282a720702d3a9e11f81f8c9eeddbee55a9" id="fndef-1a581282a720702d3a9e11f81f8c9eeddbee55a9-1">2</a></sup> 
+</dd>
+
 </dl>
+
+## Licenses and Copyright
+
+<dl>
+<dt>LC10</dt>
+<dd>The code is released under the Apache License, version 2.0. 
+</dd>
+
+<dt>LC20</dt>
+<dd>
+Libraries that are mandatory dependencies of the project's code do not create more restrictions than the Apache License does.
+<sup><a href="#fnref-76d333d056757395d9b6eb1d62e91a57dad757fa" id="fndef-76d333d056757395d9b6eb1d62e91a57dad757fa-2">3</a></sup> 
+<sup><a href="#fnref-3e4d977daeeb59a808fb0c40477b2cd50e913f2e" id="fndef-3e4d977daeeb59a808fb0c40477b2cd50e913f2e-3">4</a></sup> 
+</dd>
+
+<dt>LC30</dt>
+<dd>
+The libraries mentioned in LC20 are available as Open Source software. 
+</dd>
+
+<dt>LC40</dt>
+<dd>Committers are bound by an Individual Contributor Agreement ("Apache iCLA") that 
+defines which code they are allowed to commit and how they need to 
+identify code that is not their own. 
+</dd>
+
+<dt>LC50</dt>
+<dd>
+The copyright ownership of everything that the project produces is clearly defined and documented.
+<sup><a href="#fnref-258df7a61c975c67bbef17d3cf7851bafd40b8fb" id="fndef-258df7a61c975c67bbef17d3cf7851bafd40b8fb-4">5</a></sup>  
+<span class="anchor" id="line-44"></span><span class="anchor" id="line-45"></span></p>
+</dd>
+
+</dl>
+
+## Releases
+<dl>
+
+<dt>RE10</dt>
+<dd>Releases consist of source code, distributed using standard and open archive 
+formats that are expected to stay readable in the long term.
+<sup><a href="#fnref-d2389850862fcc9bddabb3c2e23b13922d68e3fc" id="fndef-d2389850862fcc9bddabb3c2e23b13922d68e3fc-5">6</a></sup> 
+</dd>
+
+<dt>RE20</dt>
+<dd>
+Releases are approved by the project's PMC (see CS10), in order to make them an act of the Foundation. 
+</dd>
+
+<dt>RE30</dt>
+<dd>
+Releases are signed and/or distributed along with digests that can be reliably used to validate the downloaded archives. 
+</dd>
+
+<dt>RE40</dt>
+<dd>Convenience binaries can be distributed alongside source code but they are not  Apache Releases -- they are just a 
+convenience provided with no guarantee. 
+</dd>
+
+</dl>
+
+
+## Quality
+
+## Community
+
+## Consensus Building
+
+## Independence
+
+# Related efforts, inspiration
+
+    * <a href="http://oss-watch.ac.uk/resources/ssmm">http://oss-watch.ac.uk/resources/ssmm</a>
+    * <a href="http://osswatch.jiscinvolve.org/wp/2014/12/11/open-or-fauxpen-use-the-oss-watch-openness-rating-tool-to-find-out/">http://osswatch.jiscinvolve.org/wp/2014/12/11/open-or-fauxpen-use-the-oss-watch-openness-rating-tool-to-find-out/</a>
+    * <a href="https://blogs.apache.org/comdev/entry/what_makes_apache_projects_different">https://blogs.apache.org/comdev/entry/what_makes_apache_projects_different</a> 
+    * <a href="http://rfc.zeromq.org/spec:16">http://rfc.zeromq.org/spec:16</a> 
+    * <a href="http://oss-watch.ac.uk/resources/reusereadinessrating">http://oss-watch.ac.uk/resources/reusereadinessrating</a>
+    * <a href="http://en.wikipedia.org/wiki/Capability_Maturity_Model_Integration">http://en.wikipedia.org/wiki/Capability_Maturity_Model_Integration</a>
+    * <a href="https://www.apache.org/dev/project-requirements">https://www.apache.org/dev/project-requirements</a>
+
+# Footnotes
+<span class="anchor" id="line-106"></span><div class="footnotes"><ol><li><p><a id="fnref-a2e0cd066fd8f45af4e87bcdbf8d9abd3ad40872"></a><span class="anchor" id="line-1-1"></span>"For distribution to the public at no charge" is straight from the from the ASF Bylaws at <a class="http" href="http://apache.org/foundation/bylaws.html">http://apache.org/foundation/bylaws.html</a>.  (<a href="#fndef-a2e0cd066fd8f45af4e87bcdbf8d9abd3ad40872-0">1</a>)</p></li><li><p><a id="fnref-1a581282a720702d3a9e11f81f8c9eeddbee55a9"></a><span class="anchor" id="line-1-2"></span>See also LC40.  (<a href="#fndef-1a581282a720702d3a9e11f81f8c9eeddbee55a9-1">2</a>)</p></li><li><p><a id="fnref-76d333d056757395d9b6eb1d62e91a57dad757fa"></a><span class="anchor" id="line-1-3"></span>It's
+ ok for platforms (like a runtime used to execute our code) to have 
+different licenses as long as they don't impose reciprocal licensing on 
+what we are distributing.  (<a href="#fndef-76d333d056757395d9b6eb1d62e91a57dad757fa-2">3</a>)</p></li><li><p><a id="fnref-3e4d977daeeb59a808fb0c40477b2cd50e913f2e"></a><span class="anchor" id="line-1-4"></span><a class="http" href="http://apache.org/legal/resolved.html">http://apache.org/legal/resolved.html</a> has information about acceptable licenses for third-party dependencies  (<a href="#fndef-3e4d977daeeb59a808fb0c40477b2cd50e913f2e-3">4</a>)</p></li><li><p><a id="fnref-258df7a61c975c67bbef17d3cf7851bafd40b8fb"></a><span class="anchor" id="line-1-5"></span>In
+ Apache projects, the ASF owns the copyright for the collective work, 
+i.e. the project's releases. Contributors retain copyright on their 
+contributions but grant the ASF a perpetual copyright license for them. 
+ (<a href="#fndef-258df7a61c975c67bbef17d3cf7851bafd40b8fb-4">5</a>)</p></li><li><p><a id="fnref-d2389850862fcc9bddabb3c2e23b13922d68e3fc"></a><span class="anchor" id="line-1-6"></span>See <a class="http" href="http://www.apache.org/dev/release.html">http://www.apache.org/dev/release.html</a> for more info on Apache releases  (<a href="#fndef-d2389850862fcc9bddabb3c2e23b13922d68e3fc-5">6</a>)</p></li><li><p><a id="fnref-89a5257606b929cc5ced2bee207c80b43541d488"></a><span class="anchor" id="line-1-7"></span>The required level of security depends on the software's intended uses, of course. Expectations should be clearly documented.  (<a href="#fndef-89a5257606b929cc5ced2bee207c80b43541d488-6">7</a>)</p></li><li><p><a id="fnref-7c23a24b04dcf9b4b10423685fbd37f69b2b3783"></a><span class="anchor" id="line-1-8"></span>Apache projects can just point to <a class="http" href="http://www.apache.org/security/">http://www.apache.org/security/</a> or use their own security contacts page, which should also point to that.  (<a href="#fndef-7c23a24b04dcf9b4b10423685fbd37f69b2b3783-7">8</a>)</p></li><li><p><a id="fnref-08fda1a3461c11086b8542178f35e0c27a4a46c3"></a><span class="anchor" id="line-1-9"></span>In Apache projects, "consensus" means <em>widespread agreement among people who have decision power</em>. It does not necessarily mean "unanimity".  (<a href="#fndef-08fda1a3461c11086b8542178f35e0c27a4a46c3-8">9</a>)</p></li><li><p><a id="fnref-9b0cf71f04bcd81dddbf6199f1c771e27566611e"></a><span class="anchor" id="line-1-10"></span>For Apache projects, <a class="http" href="http://www.apache.org/foundation/voting.html">http://www.apache.org/foundation/voting.html</a> defines the voting rules.  (<a href="#fndef-9b0cf71f04bcd81dddbf6199f1c771e27566611e-9">10</a>)</p></li><li><p><a id="fnref-d9e7a517f046358463f038f3830fef171e69f78b"></a><span class="anchor" id="line-1-11"></span>Apache
+ projects have a private mailing list that their PMC is expected to use 
+only when really needed. The private list is typically used for 
+discussions about people, for example to discuss and to vote on PMC 
+candidates privately.  (<a href="#fndef-d9e7a517f046358463f038f3830fef171e69f78b-10">11</a>)</p></li><li><p><a id="fnref-764b2c2fd32deb4ff73ea01efa67c8556303c359"></a><span class="anchor" id="line-1-12"></span>Independence
+ can be understood as basing the project's decisions on the open 
+discussions that happen on the project's main communications channel, 
+with no hidden agendas.  (<a href="#fndef-764b2c2fd32deb4ff73ea01efa67c8556303c359-11">12</a>)</p></li></ol>
