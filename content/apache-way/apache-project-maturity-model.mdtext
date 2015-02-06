@@ -3,7 +3,7 @@ Title: A Maturity Model for Apache Projects
 # Status
 This is the first version of this document, as of February 2015.
 
-See <a href="http://s.apache.org/apache_maturity_model"></a> for the discussions that led to this.
+See <a href="http://s.apache.org/apache_maturity_model">http://s.apache.org/apache_maturity_model</a> for the discussions that led to this.
 
 Questions and feedback about this model are welcome on the <a href="http://mail-archives.apache.org/mod_mbox/community-dev/">comdev mailing list</a>.
 
@@ -77,7 +77,7 @@ The libraries mentioned in LC20 are available as Open Source software.
 </dd>
 
 <dt>LC40</dt>
-<dd>Committers are bound by an Individual Contributor Agreement ("Apache iCLA") that 
+<dd>Committers are bound by an Individual Contributor Agreement (the <a href="http://www.apache.org/licenses/icla.txt">"Apache iCLA"</a>) that 
 defines which code they are allowed to commit and how they need to 
 identify code that is not their own. 
 </dd>
