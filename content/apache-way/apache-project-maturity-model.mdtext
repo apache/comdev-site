@@ -86,7 +86,6 @@ identify code that is not their own.
 <dd>
 The copyright ownership of everything that the project produces is clearly defined and documented.
 <sup><a href="#fnref-258df7a61c975c67bbef17d3cf7851bafd40b8fb" id="fndef-258df7a61c975c67bbef17d3cf7851bafd40b8fb-4">5</a></sup>  
-<span class="anchor" id="line-44"></span><span class="anchor" id="line-45"></span></p>
 </dd>
 
 </dl>
@@ -119,36 +118,246 @@ convenience provided with no guarantee.
 
 
 ## Quality
+<dl>
+
+<dt>QU10</dt>
+<dd>The 
+project is open and honest about the quality of its code. Various levels
+ of quality and maturity for various modules are natural and acceptable 
+as long as they are clearly communicated. 
+</dd>
+
+<dt>QU20</dt>
+<dd>
+The project puts a very high priority on producing secure software.
+<sup><a href="#fnref-89a5257606b929cc5ced2bee207c80b43541d488" id="fndef-89a5257606b929cc5ced2bee207c80b43541d488-6">7</a></sup> 
+</dd>
+
+<dt>QU30</dt>
+<dd>
+The project provides a well-documented channel to report security issues, along with a documented way of responding to them.
+<sup><a href="#fnref-7c23a24b04dcf9b4b10423685fbd37f69b2b3783" id="fndef-7c23a24b04dcf9b4b10423685fbd37f69b2b3783-7">8</a></sup> 
+</dd>
+
+<dt>QU40</dt>
+<dd>The project puts a high priority on backwards compatibility and aims to document any incompatible changes and provide tools and documentation to help users transition to new features. 
+ </dd>
+ 
+ <dt>QU50</dt>
+ <dd>
+ The project strives to respond to documented bug reports in a timely manner. 
+ </dd>
+ </dl>
 
 ## Community
 
+<dl>
+
+<dt>CO10</dt>
+<dd>
+The project has a well-known homepage that points to all the information required to operate according to this maturity model. 
+</dd>
+
+<dt>CO20</dt>
+<dd>
+The community welcomes contributions from anyone who acts in good faith and
+ in a respectful manner and adds value to the project. 
+</dd>
+ 
+<dt>CO30</dt>
+<dd>
+Contributions include not only source code, but also documentation, constructive bug 
+reports, constructive discussions, marketing and generally anything that
+ adds value to the project. 
+</dd>
+ 
+<dt>CO40</dt>
+<dd>
+The community is meritocratic and over time aims to give more rights and 
+responsibilities to contributors who add value to the project. 
+</dd>
+
+<dt>CO50</dt>
+<dd>
+The way in which contributors can be granted more rights such as commit 
+access or decision power is clearly documented and is the same for all 
+contributors. 
+</dd>
+
+<dt>CO60</dt>
+<dd>
+The community operates based on consensus of its members (see CS10) who 
+have decision power. Dictators, benevolent or not, are not welcome in 
+Apache projects. 
+</dd>
+
+<dt>CO70</dt>
+<dd>
+The project strives to answer user questions in a timely manner.
+</dd>
+
+</dl>
+
 ## Consensus Building
+<dt>CS10</dt>
+<dd>The 
+project maintains a public list of its contributors who have decision 
+power -- the project's PMC (Project Management Committee) consists of 
+those contributors. 
+</dd>
+
+<dt>CS20</dt>
+<dd>
+Decisions are made by consensus among PMC members
+<sup><a href="#fnref-08fda1a3461c11086b8542178f35e0c27a4a46c3" id="fndef-08fda1a3461c11086b8542178f35e0c27a4a46c3-8">9</a></sup>
+ and are documented on the project's main communications channel. 
+Community opinions are taken into account but the PMC has the final word
+ if needed.  
+ </dd>
+ 
+ <dt>CS30</dt>
+ <dd>
+ Documented voting rules are used to build consensus when discussion is not sufficient.
+ <sup><a href="#fnref-9b0cf71f04bcd81dddbf6199f1c771e27566611e" id="fndef-9b0cf71f04bcd81dddbf6199f1c771e27566611e-9">10</a></sup> 
+ </dd>
+ 
+ <dt>CS40</dt>
+ <dd>In
+ Apache projects, vetoes are only valid for code commits and are 
+justified by a technical explanation, as per the Apache voting rules 
+defined in CS30. 
+</dd>
+
+<dt>CS50</dt>
+<dd>
+All "important" discussions happen asynchronously in written form on the 
+project's main communications channel. Offline, face-to-face or private discussions
+<sup><a href="#fnref-d9e7a517f046358463f038f3830fef171e69f78b" id="fndef-d9e7a517f046358463f038f3830fef171e69f78b-10">11</a></sup> 
+that affect the project are also documented on that channel. 
+</dd>
+
+</dl>
 
 ## Independence
 
+<dl>
+
+<dt>IN10</dt>
+<dd>
+The project is independent from any corporate or organizational influence.
+<sup><a href="#fnref-764b2c2fd32deb4ff73ea01efa67c8556303c359" id="fndef-764b2c2fd32deb4ff73ea01efa67c8556303c359-11">12</a></sup> 
+</dd>
+
+<dt>IN20</dt>
+<dd>Contributors act as themselves as opposed to representatives of a corporation or organization. 
+</dd>
+
+</dl>
+
 # Related efforts, inspiration
 
-    * <a href="http://oss-watch.ac.uk/resources/ssmm">http://oss-watch.ac.uk/resources/ssmm</a>
-    * <a href="http://osswatch.jiscinvolve.org/wp/2014/12/11/open-or-fauxpen-use-the-oss-watch-openness-rating-tool-to-find-out/">http://osswatch.jiscinvolve.org/wp/2014/12/11/open-or-fauxpen-use-the-oss-watch-openness-rating-tool-to-find-out/</a>
-    * <a href="https://blogs.apache.org/comdev/entry/what_makes_apache_projects_different">https://blogs.apache.org/comdev/entry/what_makes_apache_projects_different</a> 
-    * <a href="http://rfc.zeromq.org/spec:16">http://rfc.zeromq.org/spec:16</a> 
-    * <a href="http://oss-watch.ac.uk/resources/reusereadinessrating">http://oss-watch.ac.uk/resources/reusereadinessrating</a>
-    * <a href="http://en.wikipedia.org/wiki/Capability_Maturity_Model_Integration">http://en.wikipedia.org/wiki/Capability_Maturity_Model_Integration</a>
-    * <a href="https://www.apache.org/dev/project-requirements">https://www.apache.org/dev/project-requirements</a>
+ * <a href="http://oss-watch.ac.uk/resources/ssmm">http://oss-watch.ac.uk/resources/ssmm</a>
+ * <a href="http://osswatch.jiscinvolve.org/wp/2014/12/11/open-or-fauxpen-use-the-oss-watch-openness-rating-tool-to-find-out/">http://osswatch.jiscinvolve.org/wp/2014/12/11/open-or-fauxpen-use-the-oss-watch-openness-rating-tool-to-find-out/</a>
+ * <a href="https://blogs.apache.org/comdev/entry/what_makes_apache_projects_different">https://blogs.apache.org/comdev/entry/what_makes_apache_projects_different</a> 
+ * <a href="http://rfc.zeromq.org/spec:16">http://rfc.zeromq.org/spec:16</a> 
+ * <a href="http://oss-watch.ac.uk/resources/reusereadinessrating">http://oss-watch.ac.uk/resources/reusereadinessrating</a>
+ * <a href="http://en.wikipedia.org/wiki/Capability_Maturity_Model_Integration">http://en.wikipedia.org/wiki/Capability_Maturity_Model_Integration</a>
+ * <a href="https://www.apache.org/dev/project-requirements">https://www.apache.org/dev/project-requirements</a>
 
 # Footnotes
-<span class="anchor" id="line-106"></span><div class="footnotes"><ol><li><p><a id="fnref-a2e0cd066fd8f45af4e87bcdbf8d9abd3ad40872"></a><span class="anchor" id="line-1-1"></span>"For distribution to the public at no charge" is straight from the from the ASF Bylaws at <a class="http" href="http://apache.org/foundation/bylaws.html">http://apache.org/foundation/bylaws.html</a>.  (<a href="#fndef-a2e0cd066fd8f45af4e87bcdbf8d9abd3ad40872-0">1</a>)</p></li><li><p><a id="fnref-1a581282a720702d3a9e11f81f8c9eeddbee55a9"></a><span class="anchor" id="line-1-2"></span>See also LC40.  (<a href="#fndef-1a581282a720702d3a9e11f81f8c9eeddbee55a9-1">2</a>)</p></li><li><p><a id="fnref-76d333d056757395d9b6eb1d62e91a57dad757fa"></a><span class="anchor" id="line-1-3"></span>It's
- ok for platforms (like a runtime used to execute our code) to have 
-different licenses as long as they don't impose reciprocal licensing on 
-what we are distributing.  (<a href="#fndef-76d333d056757395d9b6eb1d62e91a57dad757fa-2">3</a>)</p></li><li><p><a id="fnref-3e4d977daeeb59a808fb0c40477b2cd50e913f2e"></a><span class="anchor" id="line-1-4"></span><a class="http" href="http://apache.org/legal/resolved.html">http://apache.org/legal/resolved.html</a> has information about acceptable licenses for third-party dependencies  (<a href="#fndef-3e4d977daeeb59a808fb0c40477b2cd50e913f2e-3">4</a>)</p></li><li><p><a id="fnref-258df7a61c975c67bbef17d3cf7851bafd40b8fb"></a><span class="anchor" id="line-1-5"></span>In
- Apache projects, the ASF owns the copyright for the collective work, 
+
+<ol>
+
+<li>
+<a id="fnref-a2e0cd066fd8f45af4e87bcdbf8d9abd3ad40872-0"></a>
+"For distribution to the public at no charge" is straight from the from the ASF Bylaws at <a class="http" href="http://apache.org/foundation/bylaws.html">http://apache.org/foundation/bylaws.html</a>.  
+
+(<a href="#fndef-a2e0cd066fd8f45af4e87bcdbf8d9abd3ad40872-0">1</a>)
+</li>
+
+<li>
+<a id="fndef-1a581282a720702d3a9e11f81f8c9eeddbee55a9-1"></a>
+See also LC40.  
+
+(<a href="#fndef-1a581282a720702d3a9e11f81f8c9eeddbee55a9-1">2</a>)
+</li>
+
+<li>
+<a id="fnref-76d333d056757395d9b6eb1d62e91a57dad757fa"></a>
+It's ok for platforms (like a runtime used to execute our code) to have  different licenses as long as they don't impose reciprocal licensing on 
+what we are distributing.  
+
+(<a href="#fndef-76d333d056757395d9b6eb1d62e91a57dad757fa-2">3</a>)
+</li>
+
+<li>
+<a id="fndef-3e4d977daeeb59a808fb0c40477b2cd50e913f2e-3"></a>
+<a class="http" href="http://apache.org/legal/resolved.html">http://apache.org/legal/resolved.html</a> has information about acceptable licenses for third-party dependencies  
+
+(<a href="#fndef-3e4d977daeeb59a808fb0c40477b2cd50e913f2e-3">4</a>)
+</li>
+
+<li>
+<a id="fnref-258df7a61c975c67bbef17d3cf7851bafd40b8fb"></a>
+In Apache projects, the ASF owns the copyright for the collective work, 
 i.e. the project's releases. Contributors retain copyright on their 
 contributions but grant the ASF a perpetual copyright license for them. 
- (<a href="#fndef-258df7a61c975c67bbef17d3cf7851bafd40b8fb-4">5</a>)</p></li><li><p><a id="fnref-d2389850862fcc9bddabb3c2e23b13922d68e3fc"></a><span class="anchor" id="line-1-6"></span>See <a class="http" href="http://www.apache.org/dev/release.html">http://www.apache.org/dev/release.html</a> for more info on Apache releases  (<a href="#fndef-d2389850862fcc9bddabb3c2e23b13922d68e3fc-5">6</a>)</p></li><li><p><a id="fnref-89a5257606b929cc5ced2bee207c80b43541d488"></a><span class="anchor" id="line-1-7"></span>The required level of security depends on the software's intended uses, of course. Expectations should be clearly documented.  (<a href="#fndef-89a5257606b929cc5ced2bee207c80b43541d488-6">7</a>)</p></li><li><p><a id="fnref-7c23a24b04dcf9b4b10423685fbd37f69b2b3783"></a><span class="anchor" id="line-1-8"></span>Apache projects can just point to <a class="http" href="http://www.apache.org/security/">http://www.apache.org/security/</a> or use their own security contacts page, which should also point to that.  (<a href="#fndef-7c23a24b04dcf9b4b10423685fbd37f69b2b3783-7">8</a>)</p></li><li><p><a id="fnref-08fda1a3461c11086b8542178f35e0c27a4a46c3"></a><span class="anchor" id="line-1-9"></span>In Apache projects, "consensus" means <em>widespread agreement among people who have decision power</em>. It does not necessarily mean "unanimity".  (<a href="#fndef-08fda1a3461c11086b8542178f35e0c27a4a46c3-8">9</a>)</p></li><li><p><a id="fnref-9b0cf71f04bcd81dddbf6199f1c771e27566611e"></a><span class="anchor" id="line-1-10"></span>For Apache projects, <a class="http" href="http://www.apache.org/foundation/voting.html">http://www.apache.org/foundation/voting.html</a> defines the voting rules.  (<a href="#fndef-9b0cf71f04bcd81dddbf6199f1c771e27566611e-9">10</a>)</p></li><li><p><a id="fnref-d9e7a517f046358463f038f3830fef171e69f78b"></a><span class="anchor" id="line-1-11"></span>Apache
- projects have a private mailing list that their PMC is expected to use 
+
+(<a href="#fndef-258df7a61c975c67bbef17d3cf7851bafd40b8fb-4">5</a>)
+</li>
+ 
+ <li>
+ <a id="fnref-d2389850862fcc9bddabb3c2e23b13922d68e3fc"></a>
+ See <a class="http" href="http://www.apache.org/dev/release.html">http://www.apache.org/dev/release.html</a> for more info on Apache releases  
+ 
+ (<a href="#fndef-d2389850862fcc9bddabb3c2e23b13922d68e3fc-5">6</a>)
+ </li>
+ 
+ <li>
+ <a id="fnref-89a5257606b929cc5ced2bee207c80b43541d488"></a>
+ The required level of security depends on the software's intended uses, of course. Expectations should be clearly documented.  
+ 
+ (<a href="#fndef-89a5257606b929cc5ced2bee207c80b43541d488-6">7</a>)
+ </li>
+ 
+ <li>
+ <a id="fnref-7c23a24b04dcf9b4b10423685fbd37f69b2b3783"></a>
+ Apache projects can just point to <a class="http" href="http://www.apache.org/security/">http://www.apache.org/security/</a> or use their own security contacts page, which should also point to that.  
+ 
+ (<a href="#fndef-7c23a24b04dcf9b4b10423685fbd37f69b2b3783-7">8</a>)
+ </li>
+ 
+ <li>
+ <a id="fnref-08fda1a3461c11086b8542178f35e0c27a4a46c3"></a>
+ In Apache projects, "consensus" means <em>widespread agreement among people who have decision power</em>. It does not necessarily mean "unanimity".  
+ 
+ (<a href="#fndef-08fda1a3461c11086b8542178f35e0c27a4a46c3-8">9</a>)
+ </li>
+ 
+ <li>
+ <a id="fnref-9b0cf71f04bcd81dddbf6199f1c771e27566611e"></a>
+ For Apache projects, <a class="http" href="http://www.apache.org/foundation/voting.html">http://www.apache.org/foundation/voting.html</a> defines the voting rules.  
+ 
+ (<a href="#fndef-9b0cf71f04bcd81dddbf6199f1c771e27566611e-9">10</a>)
+ </li>
+ 
+ <li>
+ <a id="fnref-d9e7a517f046358463f038f3830fef171e69f78b"></a>
+Apache projects have a private mailing list that their PMC is expected to use 
 only when really needed. The private list is typically used for 
 discussions about people, for example to discuss and to vote on PMC 
-candidates privately.  (<a href="#fndef-d9e7a517f046358463f038f3830fef171e69f78b-10">11</a>)</p></li><li><p><a id="fnref-764b2c2fd32deb4ff73ea01efa67c8556303c359"></a><span class="anchor" id="line-1-12"></span>Independence
- can be understood as basing the project's decisions on the open 
+candidates privately.  
+
+(<a href="#fndef-d9e7a517f046358463f038f3830fef171e69f78b-10">11</a>)
+</li>
+
+<li>
+<a id="fnref-764b2c2fd32deb4ff73ea01efa67c8556303c359"></a>
+Independence can be understood as basing the project's decisions on the open 
 discussions that happen on the project's main communications channel, 
-with no hidden agendas.  (<a href="#fndef-764b2c2fd32deb4ff73ea01efa67c8556303c359-11">12</a>)</p></li></ol>
+with no hidden agendas.
+  
+(<a href="#fndef-764b2c2fd32deb4ff73ea01efa67c8556303c359-11">12</a>)
+</li>
+
+</ol>
