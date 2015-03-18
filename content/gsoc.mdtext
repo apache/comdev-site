@@ -58,7 +58,7 @@ _What relevant experience have you got, including university, work and hobby act
 
 _What exists already? What is the identified need? What can you reuse, what needs to he replaced?_
 
-_Example: Apache Foo has already got support for HTTP client requests, but this does not work well with OAuth-based services. The main interface for requests can be reused, but this project proposes to replace the backend code with a modular approach based no Apache Bar._
+_Example: Apache Foo has already got support for HTTP client requests, but this does not work well with OAuth-based services. The main interface for requests can be reused, but this project proposes to replace the backend code with a modular approach based on Apache Bar._
 
 #### Design / description of work
 
