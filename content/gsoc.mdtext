@@ -46,6 +46,59 @@ and the commitment you need to make to your mentors.
 
 Once open applications are made through the [GSoC site](http://www.google-melange.com/)
 
+### Application template
+
+_This is just a suggested template, feel free to add and remove sections as appropriate. Be brief, don't write a large essay!_
+
+#### About me
+
+_What relevant experience have you got, including university, work and hobby activities?_
+
+#### Background
+
+_What exists already? What is the identified need? What can you reuse, what needs to he replaced?_
+
+_Example: Apache Foo has already got support for HTTP client requests, but this does not work well with OAuth-based services. The main interface for requests can be reused, but this project proposes to replace the backend code with a modular approach based no Apache Bar._
+
+#### Design / description of work
+
+_Brief list of things you will do / create, in some rough chronological order._
+
+_Show which bits are essential, and which are optional. Highlight what is new, what are modifications, and how your work fits into the existing architecture._
+
+_Example:_
+
+* _Investigate REST client libraries_
+* _Develop JavaScript functions for browsing files (optional)_
+* _Integrate with Apache Foo's request system (essential)_
+
+
+#### Results for the Apache community
+
+_Benefit of your work to Apache $Project users and developers. What will be the legacy of your work after you finish?_
+
+#### Deliverables
+
+_Including milestones, components, documentation, tests._
+
+#### Scheduling
+
+_Not too detailed, but some milestones and checkpoints. Rough estimates per work item (weeks/days). Remember to leave time for slack and bugfixing!_
+
+#### Other commitments
+
+_Exams, part time work, holidays, lectures._
+
+#### Community engagement
+
+_In particular with Apache $Project, including project mailing lists, wikis, issue trackers, test systems._
+
+_This should show a rough understanding of working with open source communities. You should be engaged with the rest of the community both before coding start (e.g. to develop this proposal) and during the project._
+
+_Include any planned user testing, prototypes, code review._
+
+
+
 <a name="GSoC-ContactingtheASF"></a>
 ## Contacting the ASF
 
