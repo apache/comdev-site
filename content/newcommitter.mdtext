@@ -105,8 +105,8 @@ candidate.
 
 Let the Vote thread run for one week.
 
-A positive result is achieved by Consensus Approval i.e. at least 3 +1
-votes and no vetoes.
+In general, committer elections are majority approval votes, as described on 
+the [Apache Voting Process](https://www.apache.org/foundation/voting.html) page.
 
 Any veto must be accompanied by reasoning and be prepared to defend it.
 Other members can attempt to encourage them to change.
