@@ -108,9 +108,6 @@ Let the Vote thread run for one week.
 In general, committer elections are majority approval votes, as described on 
 the [Apache Voting Process](https://www.apache.org/foundation/voting.html) page.
 
-Any veto must be accompanied by reasoning and be prepared to defend it.
-Other members can attempt to encourage them to change.
-
 New PMC members can be either quiet or active as they choose. If we find
 that certain people lapse and don't ever contribute, then we can take steps
 to retire them.
