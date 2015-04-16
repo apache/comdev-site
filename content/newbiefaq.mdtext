@@ -15,6 +15,7 @@ The Apache Software Foundation understand how we work.
       - [How do I choose an Apache project to work on?](#NewbieFAQ-HowdoIchooseanApacheprojecttoworkon?)
       - [How do I get involved with an Apache project?](#NewbieFAQ-HowdoIgetinvolvedwithanApacheproject?)
       - [Is there a Code of Conduct for Apache projects?](#NewbieFAQ-IsthereaCodeofConductforApacheprojects?)
+      - [How can I suggest an update to this community.apache.org website?](#comdevcms)
   - [About the Apache Mentoring Programme](#NewbieFAQ-AbouttheApacheMentoringProgramme)
       - [What is the Apache Mentoring Programme](#NewbieFAQ-WhatistheApacheMentoringProgramme)
       - [How do I Apply to the Mentor Programme?](#NewbieFAQ-HowdoIApplytotheMentorProgramme?)
@@ -187,6 +188,16 @@ projects. This section includes such gems as:
 * If it didn't happen on a mailing list, it didn't happen. 
 * Don't feed the trolls. 
 
+<a name="comdevcms"></a>
+# How can I suggest an update to this community.apache.org website?
+
+This website is managed by the ASF CMS, which allows both Apache committers 
+as well as anyone to submit patches to update this website itself.  The ASF CMS 
+both controls the source underlying the website, as well as managing patches 
+and changes to the site.
+
+The best way to start is with the [CMS user guide][2].
+
 <a name="NewbieFAQ-AbouttheApacheMentoringProgramme"></a>
 ## About the Apache Mentoring Programme
 
@@ -217,3 +228,4 @@ defining your mentored activity.
 
 
   [1]: /gettingStarted/101.html
+  [2]: https://www.apache.org/dev/cmsref.html
