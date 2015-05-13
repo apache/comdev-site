@@ -1,13 +1,13 @@
 Title: NewbieFAQ
 
 This set of Frequently Asked Questions are intended to help newcomers to
-The Apache Software Foundation understand how we work.
+The Apache Software Foundation (ASF) understand how we work.
 
 *Index of Questions*
 
   - [About The Apache Software Foundation](#NewbieFAQ-AboutTheApacheSoftwareFoundation)
-      - [What projects can I find in The Apache Software Foundation?](#NewbieFAQ-WhatprojectscanIfindinTheApacheSoftwareFoundation?)
-      - [How are projects managed in The Apache Software Foundation](#NewbieFAQ-HowareprojectsmanagedinTheApacheSoftwareFoundation)
+      - [How do I find projects at the ASF?](#NewbieFAQ-WhatprojectscanIfindinTheApacheSoftwareFoundation?)
+      - [How are projects managed at the ASF?](#NewbieFAQ-HowareprojectsmanagedinTheApacheSoftwareFoundation)
       - [How do I learn about the way Apache Projects Work?](#NewbieFAQ-HowdoIlearnaboutthewayApacheProjectsWork?)
       - [How do I ask a question about the ASF in general?](#NewbieFAQ-HowdoIaskaquestionabouttheASFingeneral?)
       - [How do I get user support for an ASF project?](#NewbieFAQ-HowdoIgetusersupportforanASFproject?)
@@ -15,10 +15,11 @@ The Apache Software Foundation understand how we work.
       - [How do I choose an Apache project to work on?](#NewbieFAQ-HowdoIchooseanApacheprojecttoworkon?)
       - [How do I get involved with an Apache project?](#NewbieFAQ-HowdoIgetinvolvedwithanApacheproject?)
       - [Is there a Code of Conduct for Apache projects?](#NewbieFAQ-IsthereaCodeofConductforApacheprojects?)
-      - [How can I suggest an update to this community.apache.org website?](#comdevcms)
   - [About the Apache Mentoring Programme](#NewbieFAQ-AbouttheApacheMentoringProgramme)
       - [What is the Apache Mentoring Programme](#NewbieFAQ-WhatistheApacheMentoringProgramme)
       - [How do I Apply to the Mentor Programme?](#NewbieFAQ-HowdoIApplytotheMentorProgramme?)
+  - [Finding Apache Speakers](#NewbieFAQ-AboutSpeakers)
+  
 
 We are always looking for suggestions of better ways to help newcomers to the ASF find 
 the information they're looking for.  Please ask any new questions or give us suggestions on
@@ -32,10 +33,10 @@ the information they're looking for.  Please ask any new questions or give us su
 <a name="NewbieFAQ-WhatprojectscanIfindinTheApacheSoftwareFoundation?"></a>
 ## What projects can I find in The Apache Software Foundation?
 
-There are over 140 separate projects hosted at The Apache Software Foundation. We have
+There are over 200 separate projects and communities hosted at The Apache Software Foundation. We have
 four classes, or types, of project (in terms of their community; not in terms of technology):
 
-   * [Top Level Projects](http://www.apache.org): (TLP) these are projects with healthy communities and active development; we have an [alternate listing by technologies](http://projects.apache.org/) as well
+   * [Top Level Projects](http://www.apache.org): (TLP) these are projects with healthy communities and active development; and a supported [listing by technologies](http://projects.apache.org/) and [experimental listing of projects](https://projects-new.apache.org/) as well
    * [Incubating Projects](http://incubator.apache.org): these are projects that have still to build a sustainable community, but
 have active development and are moving towards graduating to become 
    * [Labs](http://labs.apache.org): these are experiments being carried out by existing committers
@@ -64,10 +65,10 @@ process, they do not (in most cases) give additional powers over the
 project.
 
 In summary, Apache Projects work because people like you participate
-constructively within them. 
+constructively within them!
 
-To learn more about "The Apache Way" see the foundations [How It Works](http://apache.org/foundation/how-it-works.html)
- pages.
+To learn more about "The Apache Way" in general see the [How It Works](http://apache.org/foundation/how-it-works.html)
+ pages.  We also have [detailed overviews of how the ASF and projects are governed](https://www.apache.org/foundation/governance/).
 
 <a name="NewbieFAQ-HowdoIlearnaboutthewayApacheProjectsWork?"></a>
 ## How do I learn about the way Apache Projects Work?
@@ -95,16 +96,20 @@ careful not to waste people's time, so do your homework. Generally, if
 people can see that you have tried to solve your problem they are more
 likely to help. So, before asking a question do the following:
 
-* search the project documentation
-* search the project user lists
-* search the issue tracker for any related known issues
+* search that project's documentation
+* search that [project's user@ mailing list archives](https://mail-archives.apache.org/mod_mbox/)
+* search that issue tracker for any related known issues
 * search the web in general
 
-If you don't find a solution send a concise, but detailed, request for
-support to the appropriate user mailing list (you will usually need to
+If you don't find a solution, then send a concise, but detailed, request for
+support to the appropriate user@ mailing list (you will usually need to
 subscribe first). Indicate that you have read the appropriate documentation
 and explain what you have tried, what you expect to happen and what
-actually happens.
+actually happens.  All Apache projects should have a "Mailing List", 
+"How to Contribute" or  
+similar link on their homepage that tells you how to subscribe 
+to that project's specific lists. Mailing lists at Apache are also 
+[publicly archived][1] at the ASF and [archived elsewhere][2].
 
 Be patient waiting for a response: give it at least three working days
 before you send a second message. People are busy, they will deal with your
@@ -121,11 +126,8 @@ start to build merit in the community that will result in further help in
 the future.
 
 A second way of contributing is to provide user support to others as your
-expertise grows. Again, earning merit in this way will help ensure you get
+expertise grows. Again, earning merit in this way will help you to get
 the support you need in the future.
-
-If you are visible within the community, the community will likely reach out
-for you whenever you need too.
 
 
 <a name="NewbieFAQ-GettingInvolvedwithApacheprojects"></a>
@@ -165,7 +167,7 @@ testing (to pick just a few skills we need). You need to know the basics
 and be willing to research the rest.
 
 To learn more about getting involved with an Apache Project see our [getting
-started guide][1]. You will also find our [get involved](http://apache.org/foundation/getinvolved.html)
+started guide][3]. You will also find our [get involved](http://apache.org/foundation/getinvolved.html)
  page a useful starting point.
 
 <a name="NewbieFAQ-IsthereaCodeofConductforApacheprojects?"></a>
@@ -174,12 +176,12 @@ started guide][1]. You will also find our [get involved](http://apache.org/found
 Yes there is a code of conduct which may be found at 
 [http://www.apache.org/foundation/policies/conduct.html](http://www.apache.org/foundation/policies/conduct.html)
 
-PMCs are allowed to define their own code of conduct for their individual communities
-but it is expected they also abide by the Foundation wide policy
+PMCs are allowed to define their own additional code of conduct for their individual communities
+but all PMCs are expected to abide by the Foundation wide policy.
 
 The [Incubator document](http://incubator.apache.org/guides/committer.html) also 
 has some really useful for both the newbie and the
-old hands (we all fall into bad habits occasionally). The section on ASF
+old hands. The section on ASF
 Mottos is especially useful as a reminder of the way things are in most ASF
 projects. This section includes such gems as:
 
@@ -187,16 +189,6 @@ projects. This section includes such gems as:
 * Let they that do the work make the decisions. 
 * If it didn't happen on a mailing list, it didn't happen. 
 * Don't feed the trolls. 
-
-<a name="comdevcms"></a>
-# How can I suggest an update to this community.apache.org website?
-
-This website is managed by the ASF CMS, which allows both Apache committers 
-as well as anyone to submit patches to update this website itself.  The ASF CMS 
-both controls the source underlying the website, as well as managing patches 
-and changes to the site.
-
-The best way to start is with the [CMS user guide][2].
 
 <a name="NewbieFAQ-AbouttheApacheMentoringProgramme"></a>
 ## About the Apache Mentoring Programme
@@ -226,6 +218,15 @@ gives us enough background information to enable us to approach your
 chosen project community and for you to work with prospective mentors in
 defining your mentored activity.
 
+<a name="NewbieFAQ-AboutSpeakers"></a>
+## How can I find speakers willing to help us understand Apache?
 
-  [1]: /gettingStarted/101.html
-  [2]: https://www.apache.org/dev/cmsref.html
+The best way to start getting involved is joining the 
+[dev@community.apache.org](##NewbieFAQ-HowdoIaskaquestionabouttheASFingeneral?)
+mailing list.  We also have a [listing of volunteer speakers](https://community.apache.org/speakers/) 
+who might be willing to share slides or talks about the ASF.
+
+
+  [1]: https://mail-archives.apache.org/mod_mbox/
+  [2]: http://apache.markmail.org/
+  [3]: /gettingStarted/101.html
