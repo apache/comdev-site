@@ -7,6 +7,9 @@ See <a href="http://s.apache.org/apache_maturity_model">http://s.apache.org/apac
 
 Questions and feedback about this model are welcome on the <a href="http://mail-archives.apache.org/mod_mbox/community-dev/">comdev mailing list</a>.
 
+See the <a href="https://github.com/apache/groovy/blob/576b3c5d6a7022ac4a8df1ef118666456ce627fb/MATURITY.adoc">Groovy podling 2015 self-assessment</a> for an example of how to use this
+model to prepare a graduation from the <a href="http://incubator.apache.org">Apache Incubator</a>.
+
 # Overview
 The goal of this maturity model is to describe how Apache projects operate, in a concise and high-level way.
 
