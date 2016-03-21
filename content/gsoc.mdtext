@@ -132,12 +132,12 @@ You should also register your '''GSoC Link Id to
 committers/GSoCLinkId.txt'''.
 
 All ASF projects are invited to submit their ideas to their issue tracker,
-please be sure to add the labels "gsoc2015" and "mentor" so that we can
+please be sure to add the labels "gsoc2016" and "mentor" so that we can
 automatically include them in our list of subjects. If your project does
 not use JIRA please contact dev@community.apache.org.  
 
 <a name="GSoC-ASFGSoCTimeline"></a>
-# ASF GSoC 2015 Timeline
+# ASF GSoC 2016 Timeline
 
 Below is a timeline of events for The Apache Software Foundation's
 involvement in GSoC. Unless otherwise stated deadlines are 24:00 UTC on the
@@ -146,32 +146,32 @@ date indicated.
 <a name="GSoC-StudentApplicationandSelection"></a>
 ## Student Application and Selection
 
-  - 2015-03-16 19:00 UTC: Student applications start
-  - 2015-03-27 19:00 UTC: Student applications deadline
-  - 2015-04-12: Proposals to ASF projects must be reviewed roughly and have a potential mentor so that we know how many slots to request. Proposals that don't have a mentor at this point will be down-rated.
-  - 2015-04-20: Proposal scoring must be completed. Proposals without a score will be rejected, no exceptions.
-  - 2015-04-27 19:00 UTC: Google announces accepted projects.
+  - 2016-03-14 19:00 UTC: Student applications start
+  - 2016-03-25 19:00 UTC: Student applications deadline
+  - 2016-04-12: Proposals to ASF projects must be reviewed roughly and have a potential mentor so that we know how many slots to request. Proposals that don't have a mentor at this point will be down-rated.
+  - 2016-04-18: Proposal scoring must be completed. Proposals without a score will be rejected, no exceptions.
+  - 2016-04-22: Accepted student proposals announced on the Google Summer of Code site.
 
 <a name="GSoC-GSocisunderway"></a>
 ## GSoc is underway
 
-  - 2015-05-25: Coding starts.
-  - 2015-06-26 19:00 UTC: Midterm evaluations can be submitted
-  - 2015-07-01: ASF mentors must have completed their midterm evaluations
+  - 2016-05-23: Coding starts.
+  - 2016-06-20 19:00 UTC: Midterm evaluations can be submitted
+  - 2016-06-27: ASF mentors must have completed their midterm evaluations
 
 <a name="GSoC-Winddown"></a>
 ## Wind down
 
-  - 2015-08-17: Soft pencils down date
-  - 2015-08-21 19:00 UTC: Firm pencils down date. Final evaluations can be submitted
-  - 2015-08-26: ASF mentors must have completed their final evaluations
+  - 2016-08-15: Soft pencils down date
+  - 2016-08-21: Firm pencils down date. Final evaluations can be submitted
+  - 2016-08-29: ASF mentors must have submitted their final evaluations
 
 
 <a name="GSoC-UsefulLinks"></a>
 # Useful Links
 
- * [Summer of Code home](http://www.google-melange.com/)
- * [Official Google Summer of Code 2015 Timeline, FAQs](http://www.google-melange.com/gsoc/events/google/gsoc2015)
+ * [Summer of Code home](https://developers.google.com/open-source/gsoc/)
+ * [Official Google Summer of Code 2016 Timeline, FAQs](https://developers.google.com/open-source/gsoc/timeline)
  * [2015 FAQs](http://www.google-melange.com/gsoc/document/show/gsoc_program/google/gsoc2015/help_page)
  * [GSoC discussion list](http://groups.google.com/group/google-summer-of-code-discuss)
  * [Python notes on expectations](http://wiki.python.org/moin/SummerOfCode/Expectations)
