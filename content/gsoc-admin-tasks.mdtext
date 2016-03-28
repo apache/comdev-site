@@ -24,7 +24,7 @@ List of duties:
 program (around end of January). Projects are required to create JIRA issues for their ideas and
 label them with "gsoc&lt;year&gt;" and "mentor". If a project doesn't use JIRA, have them create the ideas in the COMDEV
 JIRA project. Create a JIRA filter for these ideas to be used in the application (see next). Have
-prospective mentors subscribe to code-awards@a.o. The following is an email sent to pmcs@a.o
+prospective mentors subscribe to mentors@community.apache.org. The following is an email sent to pmcs@a.o
 explaining the procedures to them:
 
 <pre>
@@ -38,7 +38,7 @@ If you want to participate with your project you now need to
  - understand what it means to be a mentor [1]
  - propose your project ideas. Just label your issues with gsoc2011 in JIRA and
    they will show up at [2]. See also [1].
- - subscribe to code-awards@apache.org (restricted to potential mentors, meant to be used
+ - subscribe to mentors@community.apache.org (restricted to potential mentors, meant to be used
    as a private list - general discussions on the public
    dev@community.apache.org list as much as possible please)
 
