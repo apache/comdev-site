@@ -1,0 +1,75 @@
+Title: Community Development Mailing Lists
+Notice:    Licensed to the Apache Software Foundation (ASF) under one
+           or more contributor license agreements.  See the NOTICE file
+           distributed with this work for additional information
+           regarding copyright ownership.  The ASF licenses this file
+           to you under the Apache License, Version 2.0 (the
+           "License"); you may not use this file except in compliance
+           with the License.  You may obtain a copy of the License at
+           .
+             http://www.apache.org/licenses/LICENSE-2.0
+           .
+           Unless required by applicable law or agreed to in writing,
+           software distributed under the License is distributed on an
+           "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+           KIND, either express or implied.  See the License for the
+           specific language governing permissions and limitations
+           under the License.
+
+Almost everything at Apache uses a mailing list to get work done.  People can 
+send mail to the list, many other community members get the message, and 
+someone will usually reply.  Every mailing list at Apache is archived: most lists are 
+[archived publicly][1].  That means that newcomers to a community can learn how 
+decisions on a project were made in the past, because all the discussions 
+a project had are archived from their mailing list discussions.
+
+If you have questions about anything at Apache, the first thing to do is 
+find the right mailing list - and then send your question!
+
+# Read This First
+
+[Detailed instructions][2] on how to use Apache mailing lists (subscribing, sending 
+mail, reading the archives) are posted on our main developer site.  You can email most 
+lists without subscribing, but some lists require subscription first.  Most emails 
+are moderated, so it won't show up on the list immediately, you may need to wait 
+a day, especially if you are new.
+
+Please be sure your [question is on topic for the list][3], and that you have at 
+least checked the documentation first: everyone at Apache is a volunteer, 
+and if you don't do your homework, we probably can't help you.
+
+# Find The Right List
+
+Finding the right list helps get your question in front of people who will know 
+the answer.  Every project at Apache uses their own dev@, user@, and 
+other mailing lists - so asking about Apache Tomcat on the Apache Cassandra 
+lists is likely going to be ignored.
+
+Projects should have a Mailing Lists, Community, Contact Us link on their homepage, start there.
+
+If you have **any non-technical questions**, or a general question about how 
+Apache works, then you should check our [Apache-wide mailing lists][4], or just 
+ask here on dev@community.apache.org!
+
+# Read The Archives 
+
+Almost every list at Apache is archived publicly.  This is a great way to learn about 
+how a community has done things in the past, or to learn about *why* a project 
+operates the way they do.  The ASF maintains an official archive, which is 
+guaranteed to have all emails, but is a bit clunky:
+
+ * [http://mail-archives.apache.org/mod_mbox/](http://mail-archives.apache.org/mod_mbox/)
+
+Several other organizations also archive many/most Apache mailing lists, and some 
+offer useful search or sending functionality:
+
+ * MarkMail [http://apache.markmail.org/](http://apache.markmail.org/) - natural language search
+ * MARC [https://marc.info/](https://marc.info/)
+ * The Mail Archive [https://mail-archive.com/][5]
+ * GMANE [http://gmane.org/](http://dir.gmane.org/search.php?match=apache)
+
+  [1]: http://www.apache.org/foundation/public-archives.html
+  [2]: http://www.apache.org/dev/#mail
+  [3]: http://www.apache.org/dev/contrib-email-tips
+  [4]: http://www.apache.org/foundation/mailinglists.html
+  [5]: https://mail-archive.com/search?l=all&q=apache&e=listname
