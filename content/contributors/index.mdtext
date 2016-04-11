@@ -22,7 +22,7 @@ their way around The Apache Software Foundation and our way of developing softwa
 (commonly called "The Apache Way"). For those wishing to start from
 the very beginning we have a [newcomers page][1] too.
 
-## Project Independence
+# Project Independence And Policies
 
 While not all aspects of the Apache Way are practiced the same way by 
 all projects at the ASF, there are a number of rules that Apache 
@@ -37,7 +37,7 @@ opportunity to contribute to and benefit from our software, regardless
 of motivation or financial objectives. This is discussed in more detail
 in our document [Project Independence][7].
 
-## From contributor to committer
+# Moving From Contributor to Committer
 
 Anyone can be a contributor to an Apache project. Being a contributor simply means
 that you take an interest in the project and contribute in some way, ranging from asking
@@ -53,11 +53,16 @@ to be part of the core group within the project that ensures the project's vital
 committers, who have earned even more merit, are invited to be a part of the PMC.
 
 One thing that is sometimes hard to understand when you are new to the open 
-development1 process used at the ASF, is that we value the community more than 
+development process used at the ASF, is that we value the community more than 
 the code. A strong and healthy community will be respectful and be a fun and 
-rewarding place. Strong code will evolve. 
+rewarding place. More importantly, a diverse and healthy community can 
+continue to support the code over the longer term, even as individual 
+companies come and go from the field.
 
-### Contributing to the Project - CoPDoC
+In particular, we have some [etiquette and behavior expectations][8] when 
+working with Apache communities.
+
+## Contributing A Project - CoPDoC
 
 The foundations of an Apache project and how the community contributes to it is 
 sometimes referred to by the acronym CoPDoC:
@@ -67,7 +72,7 @@ sometimes referred to by the acronym CoPDoC:
   - (Do)cumentation - without it, the stuff remains only in the minds of the authors
   - (C)ode - discussion goes nowhere without code
 
-### Becoming a Committer
+## Anyone Can Become A Committer
 
 There is nothing at The Apache Software Foundation that says you must write code 
 in order to be a committer. Anyone who is supportive of the community and works 
@@ -75,7 +80,8 @@ in any of the CoPDoC areas is a likely candidate for committership.
 
 Apache is a meritocracy. That is, once someone has contributed sufficiently to 
 any area of CoPDoC they can be voted in as a committer. Being a committer does 
-not mean you commit code, it means you are committed to the project.
+not necessarily mean you commit code, it means you are committed to the project
+and are productively contributing to its success.
 
 One of the key contributions people can make to the community is through the 
 support of a wide user base by assisting users on the user list, writing user 
@@ -86,7 +92,8 @@ cooperatively with your peers.
 Some of those users become committers in their own right. Some will test code, 
 some will write documentation, some will do bug triage and some will write code.
 
-For more details see our "[How it works][8]" document.
+For more details see our "[How it works][9]" document.  You can also make 
+[suggestions for how to update this website][10] you're reading right now!
 
 ## Questions and Feedback
 
@@ -103,4 +110,6 @@ list by sending a mail to
   [5]: http://www.apache.org/dev/#mail
   [6]: https://blogs.apache.org/comdev/entry/what_makes_apache_projects_different
   [7]: /projectIndependence.html
-  [8]: http://www.apache.org/foundation/how-it-works.html
+  [8]: http://community.apache.org/contributors/etiquette
+  [9]: http://www.apache.org/foundation/how-it-works.html
+  [10]: http://community.apache.org/newbiefaq.html#websitecms
