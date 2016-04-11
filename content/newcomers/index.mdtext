@@ -1,4 +1,4 @@
-Title: Welcome, newcomer.
+Title: Welcome, Apache newcomers!
 Notice:    Licensed to the Apache Software Foundation (ASF) under one
            or more contributor license agreements.  See the NOTICE file
            distributed with this work for additional information
@@ -17,14 +17,19 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            under the License.
 
 In this section we hope to help you take your first steps as an open source 
-developer in one of our many Apache project communities.
+developer in one of our many Apache project communities.  As an all-volunteer 
+run organization, Apache and the many Apache projects rely on people like 
+you stepping up to help out.  
 
   * [Where do I start?](/gettingStarted/101.html) - a guide to your first engagement with an Apache project
+  * [How should I behave?](http://community.apache.org/contributors/etiquette) - etiquette and codes of conduct at Apache
+  * [What can I work on?](http://helpwanted.apache.org) - suggested tasks you can start working on today 
   * [Mentoring Programme](/mentoringprogramme.html) - an introduction to our mentoring programme
       * [Mentoring in formal education](/mentorprogrammeformaleducation.html) - how to engage your students on open source
-  * [Local Mentors Programme](/localmentors.html) - Find ASF people who live near you
+      * [Local Mentors Programme](/localmentors.html) - Find ASF people who live near you
   * [Newbie FAQ](/newbiefaq.html) - some commonly asked questions (and their answers)
-  * [What can I work on?](http://helpwanted.apache.org) - suggested tasks you can start working on today
+  * [How many projects are at Apache?](https://projects.apache.org/) - we have a **LOT** of different project communities!
+  * [Just show me the code!](http://www.apache.org/dev/) - site index of technical questions (where's SVN, how to login, etc.)
 
 <a name="Index-FirstContributions"></a>
 # First Contributions
@@ -38,7 +43,8 @@ how much you can help, even now.
 Since we aim to be a place for newcomers to learn
 about the ASF as a whole and you are (probably) a newcomer *any feedback
 you can give or unanswered questions you can ask us here* will help us improve what
-we offer to those who come afterwards. 
+we offer to those who come afterwards. Our [etiquette tips](http://community.apache.org/contributors/etiquette) can help you 
+write emails that will get some answers.
 
 Feedback can be provided on this website and questions asked about anything Apache by subscribing to our mailing
 list by sending a mail to 
