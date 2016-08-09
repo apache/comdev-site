@@ -57,7 +57,8 @@ later in this document.
 ## Summary
 
 1. Call a vote: templates/committerVote.txt
-1. Invite the new committer: templates/committerInvite.txt
+1. If candidate PMC member, notify board and wait three days for lazy approval
+1. Invite the new committer/PMC member: templates/committerInvite.txt
 
 If they accept, then do:
 
@@ -69,8 +70,6 @@ PMC member (templates/committerAccept.txt)
    1. chair to enable their svn access
    1. add committer to the appropriate groups in Jira and CWiki
 1. Notify the committer of completion (template/committerDone.txt)
-1. chair send email to board@ asking for acknowledgement of new PMC member
-(templates/email-member-ack.txt)
 1. Announce the new committer (template/committerAnnounce.txt)
 
 <a name="NewCommitter-Discussion"></a>
@@ -98,7 +97,8 @@ disillusioned.
 
 On the PMC list we can each say exactly what we feel about each person,
 with no holds barred. Keep the discussion concise. The praise part can
-be done later in public.
+be done later in public. Remember that if electing a new PMC member,
+if successful they can see the discussion in the archives.
 
 See the end of this document for some guidelines to help you to assess a
 candidate.
@@ -146,7 +146,7 @@ merge this with the following template (PMC Vote Template)
 
 ## PMC Vote Template
 This is the email to commence a vote for a new PMC candidate. New PMC members need
-to be voted for by the existing PMC members and subsequently approved by the Board
+to be voted for by the existing PMC members and (lazily) approved by the Board
 (or Incubator PMC for Incubating projects).
     
     ------------------------------------------------------------
@@ -179,7 +179,7 @@ to be voted for by the existing PMC members and subsequently approved by the Boa
     
     The vote is ***successful/not successful***
 
-##Board Approval of new PMC member 
+##Board Lazy Approval of new PMC member 
 See [http://www.apache.org/dev/pmc.html#newpmc][1]
 
 ## Committer Invite Template
@@ -218,10 +218,10 @@ sent after a positive result from the vote for a new committer.
     let us know in reply to the [private@project.apache.org] 
     address only.
 
-    B. If you are accepting, the next step is to register 
+    B. If you accept, the next step is to register 
     an iCLA with the Apache Software Foundation:
         1. Details of the iCLA and the forms are found 
-        through this link: <http://www.apache.org/licenses/#clas>.
+        through this link: <http://www.apache.org/licenses/#submitting>.
 
         2. The form (text or PDF version) provides 
         instructions for its completion and return to 
