@@ -16,9 +16,13 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            specific language governing permissions and limitations
            under the License.
 
-Information that is useful to Apache committers is spread across the whole ASF site.
-This page is intended to be an index of useful resources. This site is editable by 
-any Apache Committer, feel free to add anything useful here.
+There are a number of useful Apache tools and services available for Apache projects
+ and committers.  This is a brief set of pointers or signposts to information elsewhere.
+
+## Apache Infrastructure Information
+
+The primary portal for Apache Infra questions - how Subversion/Git/Websites, etc. work
+ at the ASF - is the [http://www.apache.org/dev/][1] pages.
 
 ## Decision making
 
@@ -26,32 +30,33 @@ Decisions in Apache projects are the result of:
 
   - action
   - consensus in the community 
+  - (if needed) votes within the community
 
 We have, over the years, developed a very simple and effective approach to 
 consensus building and decision making. The vast majority of decisions are made
-using [lazy consensus][1], if the "lazy" approach to consensus building is deemed
-unsuitable for a particular decision then we seek to [build consensus][2] within
+using [lazy consensus][2], if the "lazy" approach to consensus building is deemed
+unsuitable for a particular decision then we seek to [build consensus][3] within
 the community. Very occasionally, usually for formal reasons relating to legal 
-responsibilities, it is necessary to call a [vote][3].
+responsibilities, it is necessary to call a [vote][4].
 
 Each of these three approaches is described more fully on various foundation 
 and project sites. However, we've provided an initial introduction to [decision
-making][4] here on the community development site.
+making][5] here on the community development site.
 
 ## Project independence
 
 While not all aspects of the Apache Way are practiced the same way by 
 all projects at the ASF, there are a number of rules that Apache 
 projects are required to follow – things like complying with PMC 
-[release voting][5], [legal policy][6], [brand policy][7], 
-using [mailing lists][8], etc., which are [documented in various places][9]. 
+[release voting][6], [legal policy][7], [brand policy][8], 
+using [mailing lists][9], etc., which are [documented in various places][10]. 
 
 One of these invariant rules is that projects are managed and used
 independently of any commercial interests. The goal is to create an 
 environment in which all participants are equal and thus have an equal
 opportunity to contribute to and benefit from our software, regardless
 of motivation or financial objectives. This is discussed in more detail
-in our document [Project Independence][10].
+in our document [Project Independence][11].
 
 <a name="Index-Assistingwithprojectmanagement"></a>
 
@@ -64,17 +69,17 @@ evolved and been documented across out projects. In this section we will try to
 bring together some of the most popular of these practices. Most Apache projects
 operate in ways that are largely similar to these processes.
 
-  * [Crediting contributors][11] is a critical part of community building
-  * [ASF Licensing Policy][12]
+  * [Crediting contributors][12] is a critical part of community building
+  * [ASF Licensing Policy][13]
   * Releases
-    * [Releases FAQ][13]
+    * [Releases FAQ][14]
     * Release audit is a process each release candidate must go through to ensure IP is correctly managed
-      * [RAT/Creadur][14] is a tool to assist this process
-    * [Release management][15] is the process by which releases are prepared and released
-    * [Handling cryptography][16] in an Apache Release
-    * [Source Headers and NOTICE][17] Files
-    * [Distribution best practices][18]
-  * [ASF Developer section sitemap][19]
+      * [RAT/Creadur][15] is a tool to assist this process
+    * [Release management][16] is the process by which releases are prepared and released
+    * [Handling cryptography][17] in an Apache Release
+    * [Source Headers and NOTICE][18] Files
+    * [Distribution best practices][19]
+  * [ASF Developer section sitemap][20]
 
 ## Assisting with project management and marketing
 
@@ -85,11 +90,12 @@ project. This section describes some of the activities that you can help
 with. In most cases you will need to be a committer to carry out these
 activities, although non-committers can often act in supporting roles.
 
- * Write informational [blogs][20]
+ * Write informational [blogs][21]
  * [Assessing and approving new committers](/newcommitter.html)
  * [Board Reports](/boardreport.html)
+ * [Apache Project Branding/Trademark Resources](http://www.apache.org/foundation/marks/resources)
 
-## Speaking about Apache
+## Speaking about Apache projects at Events
 
 We encourage all of our committers to speak about Apache Projects, 
 Technologies, and generally help to grow and enhance our community.
@@ -107,33 +113,34 @@ and how to sign yourself up for it, please see the
 There is no shortage of useful resources for committers at Apache, 
 here are a few you might want to take a look at:
 
-  - [How the ASF works][21]
-  - [Guide for New Committers][22]
-  - [Developer resources][23]
-  - [Apache service list][24]
+  - [How the ASF works][22]
+  - [Guide for New Committers][23]
+  - [Developer resources][24]
+  - [Apache service list][25]
 
 
-  [1]: /committers/lazyConsensus.html
-  [2]: /committers/consensusBuilding.html
-  [3]: /committes/voting.html
-  [4]: /committers/decisionMaking.html
-  [5]: http://www.apache.org/dev/release.html
-  [6]: http://www.apache.org/legal/
-  [7]: http://www.apache.org/foundation/marks/
-  [8]: http://www.apache.org/dev/#mail
-  [9]: https://blogs.apache.org/comdev/entry/what_makes_apache_projects_different
-  [10]: /projectIndependence.html
-  [11]: http://subversion.apache.org/docs/community-guide/conventions.html#crediting
-  [12]: http://www.apache.org/legal/resolved.html
-  [13]: http://www.apache.org/dev/release.html
-  [14]: http://incubator.apache.org/rat/
-  [15]: http://sling.apache.org/site/release-management.html
-  [16]: http://www.apache.org/dev/crypto.html
-  [17]: http://www.apache.org/legal/src-headers.html
-  [18]: http://incubator.apache.org/guides/releasemanagement.html#distribution-best-practice
-  [19]:  of the ASF Developer section
-  [20]: http://www.apache.org/dev/apache-blogs.html
-  [21]: http://www.apache.org/foundation/how-it-works.html
-  [22]: http://www.apache.org/dev/new-committers-guide.html
-  [23]: http://www.apache.org/dev
-  [24]: http://apache.org/dev/services.html
+  [1]: http://www.apache.org/dev/
+  [2]: /committers/lazyConsensus.html
+  [3]: /committers/consensusBuilding.html
+  [4]: /committes/voting.html
+  [5]: /committers/decisionMaking.html
+  [6]: http://www.apache.org/dev/release.html
+  [7]: http://www.apache.org/legal/
+  [8]: http://www.apache.org/foundation/marks/
+  [9]: http://www.apache.org/dev/#mail
+  [10]: https://blogs.apache.org/comdev/entry/what_makes_apache_projects_different
+  [11]: /projectIndependence.html
+  [12]: http://subversion.apache.org/docs/community-guide/conventions.html#crediting
+  [13]: http://www.apache.org/legal/resolved.html
+  [14]: http://www.apache.org/dev/release.html
+  [15]: http://incubator.apache.org/rat/
+  [16]: http://sling.apache.org/site/release-management.html
+  [17]: http://www.apache.org/dev/crypto.html
+  [18]: http://www.apache.org/legal/src-headers.html
+  [19]: http://incubator.apache.org/guides/releasemanagement.html#distribution-best-practice
+  [20]: http://www.apache.org/dev/
+  [21]: http://www.apache.org/dev/apache-blogs.html
+  [22]: http://www.apache.org/foundation/how-it-works.html
+  [23]: http://www.apache.org/dev/new-committers-guide.html
+  [24]: http://www.apache.org/dev
+  [25]: http://apache.org/dev/services.html
