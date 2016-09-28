@@ -46,13 +46,13 @@ culture of others on the list is a key start to making productive contributions.
 
 # One Member's Participation Guidelines # {#member}
 
-The ASF is run by several hundred Members, who have deep and lasting experience 
+The ASF as a corporation is run by several hundred Members, who have deep and lasting experience 
 in helping to build and run long-term successful open source projects here 
 at Apache.  This is just one member's take on how to approach 
-communicating in an Apache project.
+communicating in any particular Apache project.
 
 
-**First a few general guidelines**
+**Some General Guidelines**
 
   * Assume that the other party agrees more than disagrees with you. We
 tend to leave out agreements and focus on differences. Sometime this is
@@ -68,7 +68,7 @@ Review and try to reformulate to be as clear as possible.
 opinion, we must..." or the quite neutral "I think we should...", try to
 use "Maybe we should consider..." or "Another idea that we could..."
 
-   * If you disagree strongly with an email sent, tag it Important, then
+  * If you disagree strongly with an email sent, tag it Important, then
 put it aside. Read it half a day later again. Put it aside. Read it again
 next day, and then it is easier to write a balanced and inviting response,
 instead of the initial vitriol that flows through us when we get upset. I
@@ -82,6 +82,9 @@ above (a-d) that are failing, or that the other person prioritize some
 aspect higher than you do. Sometimes, this requires compromises, sometimes
 not and the different priorities can co-exist.
 
+  * Remember that everyone works on Apache projects as a volunteer.
+People have jobs and lives outside of their Apache projects, and may need 
+more time to even read messages on the list or respond.  Be patient.
 
 **Most communities at Apache consists of level-headed, reasonable people**, who
 have a strong vested interest in their Apache project. This interest, often
@@ -100,14 +103,17 @@ might not be needed either. Once we have a face to the words, and a general
 idea how that person is socially, we are much more capable to interact by
 email.
 
-Note that project *decisions* should always be made on mailing lists.  
+**Project decisions must always be made on mailing lists**.  
 It's great to have a synchronous online chat to work through some questions, but 
 be sure to bring the results of the chat - and any proposals for the 
 project community to consider - back to the mailing list.  People who 
 weren't able to attend the chat or call might also have ideas on the topic.
+Be sure to allow at least 72 hours for others to read the proposals and 
+comment before closing out the issue.
 
 # Other Apache Etiquette Guidelines # {#other}
 
+ - [Official Apache-wide Code of Conduct][1]
  - [Email Etiquette Guidelines - writing good emails](http://www.apache.org/dev/contrib-email-tips)
  - [How To Ask Smart Questions](http://www.catb.org/~esr/faqs/smart-questions.html)
  - [Building Consensus in a community](http://community.apache.org/committers/consensusBuilding.html)
