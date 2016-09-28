@@ -16,11 +16,14 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            specific language governing permissions and limitations
            under the License.
 
-This calendar lists events relating to The Apache Software Foundation and its projects. 
 
-This Calendar is maintained by the Apache Community Development Committee (ComDev), 
+<h2>Deprecated - See New Calendar instead</h2>
+
+This calendar is no longer maintained; please see <a href="http://community.apache.org/calendars/">http://community.apache.org/calendars/</a> instead.
+
+This Calendar is maintained by the Apache Community Development Committee (ComDev),
 to have your event listed considered for addition please mail [dev@community.apache.org][1].
-Note that to be listed in this calendar events must conform to the [Third Party Event Branding Policy][2]. 
+Note that to be listed in this calendar events must conform to the [Third Party Event Branding Policy][2].
 
 <h2>Upcoming events</h2>
 <ul id="events">
@@ -61,7 +64,7 @@ function handleDates(li, when) {
          text = from;
       } else {
          // Really multi day
-         text = from + " to " + realToDate.getFullYear() + "-" + 
+         text = from + " to " + realToDate.getFullYear() + "-" +
                 (realToDate.getMonth()+1) + "-"  + realToDate.getDate();
       }
       li.appendChild(document.createTextNode(" - " + text))
@@ -74,8 +77,8 @@ function render(data) {
    var ev = document.getElementById("events");
    if(ev.hasChildNodes()) {
       while(ev.childNodes.length >= 1) {
-         ev.removeChild(ev.firstChild);       
-      } 
+         ev.removeChild(ev.firstChild);
+      }
    }
 
    var feed = data.feed;
