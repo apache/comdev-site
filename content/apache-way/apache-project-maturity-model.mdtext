@@ -3,6 +3,8 @@ Title: A Maturity Model for Apache Projects
 # Status
 This is the first version of this document, as of February 2015.
 
+Updated October 2016 to add RE50.
+
 See <a href="http://s.apache.org/apache_maturity_model">http://s.apache.org/apache_maturity_model</a> for the discussions that led to this. And thanks to the many people who provided input!
 
 Questions and feedback about this model are welcome on the <a href="http://mail-archives.apache.org/mod_mbox/community-dev/">comdev mailing list</a>.
@@ -115,6 +117,12 @@ Releases are signed and/or distributed along with digests that can be reliably u
 <dt>RE40</dt>
 <dd>Convenience binaries can be distributed alongside source code but they are not  Apache Releases -- they are just a 
 convenience provided with no guarantee. 
+</dd>
+
+<dt>RE50</dt>
+<dd>The release process is documented and repeatable to the extent that
+someone new to the project is able to independently generate the complete
+set of artifacts required for a release.
 </dd>
 
 </dl>
