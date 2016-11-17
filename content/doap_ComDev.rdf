@@ -54,7 +54,7 @@ under the License.
     <maintainer>
       <foaf:Person>
         <foaf:name>Apache Community Development PMC</foaf:name>
-          <foaf:mbox rdf:resource="mailto:dev@maven.apache.org"/>
+          <foaf:mbox rdf:resource="mailto:dev@community.apache.org"/>
       </foaf:Person>
     </maintainer>
   </Project>
