@@ -25,7 +25,8 @@ These presentations are available under permissive licenses; please see
 each individual presentation for license details.  More tips and links for 
 [speakers are available](http://community.apache.org/speakers/index.html).
 
-Similarly, many Apache speakers post their slides to the <a href="http://www.slideshare.net/search/slideshow?searchfrom=header&q=apache+software">SlideShare website</a>.
+Similarly, many Apache speakers post their slides to the <a href="//www.slideshare.net/search/slideshow?searchfrom=header&q=apache+software">SlideShare website</a>,
+and the [FeatherCast podcast offers audio recordings](//feathercast.apache.org/) of many talks and interviews.
 
 For those who prefer videos, our many volunteers have posted 
 <a href="https://www.youtube.com/user/TheApacheFoundation/playlists">full videos of all ApacheCon NA 2013 presentations</a>, and
@@ -71,8 +72,10 @@ Older slide decks:
 # Shane Curcuru
  - [About: Apache - The Foundation, The Way, The Projects](http://communityovercode.com/2012/05/camelone-2012-presentation/)
  - [Managing Community Open Source Brands](http://communityovercode.com/2012/07/oscon-presentation/)
- - [Managing Apache Project Brands](http://communityovercode.com/2013/02/apachecon-presentation/) 
+ - [Improving Your Project's Image And Brand](http://www.slideshare.net/shanecurcuru/improving-your-apache-projects-image-and-brand) 
  - [Supporting Apache Brands While Making A Profit](http://events.linuxfoundation.org/sites/events/files/slides/SupportingApacheBrandsWhileMakingAProfit-SCurcuru-ApacheCon2014.pdf) ([video](https://www.youtube.com/watch?v=8cQMhysKeyU))
+ - [Successfully Profiting From Apache Projects](http://www.slideshare.net/shanecurcuru/successfully-profiting-from-apache-brands)
+ - [Practical Trademark Law For FOSS Projects](http://www.slideshare.net/shanecurcuru/practical-trademark-law-for-foss-projects)
 
 # Nick Burch
  - [The Apache Way (ApacheCon North America 2015 version)](http://home.apache.org/~nick/Talks/ApacheConNA15/TheApacheWay15.pdf)
@@ -90,6 +93,12 @@ Older slide decks:
 # Alan Gates
  - [Training Our Team in the Apache Way](http://www.slideshare.net/alanfgates/keynote-apache-bdeunov2016) Keynote slides from Apache Big Data EU 2016
  - [Hortonworks Engineering Apache Training](http://www.slideshare.net/alanfgates/hortonworks-apache-training) Training material described in keynote above
+
+
+## Committers - please add to this page!
+
+If you are an Apache committer and have presented slides on community topics
+around Apache, please add a link to your information here!
 
   [1]: http://isabel-drost.de/hadoop/slides/christoph.pdf
   [2]: http://www.erenkrantz.com/apachecon/TransferSummit%20-%20Open%20Innovation.pdf
