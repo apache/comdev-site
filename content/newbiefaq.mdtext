@@ -37,7 +37,7 @@ The Apache Software Foundation (ASF) and our many Apache projects understand how
   - [Finding Apache Speakers For Events Or Meetups](#NewbieFAQ-AboutSpeakers)
   - [How Do I Suggest Changes To This Website?](#websitecms)
   - [What Other Informational Websites Are There?](#comdevweb) 
-  
+  - [How Do I Report A Bug For Comdev Websites?](#comdevbug)   
 
 We are always looking for suggestions of better ways to help newcomers to the ASF find 
 the information they're looking for.  Please ask any new questions or give us suggestions on
@@ -270,6 +270,13 @@ that help you navigate the ASF.
   - [Home.apache.org][10] serves as a telephone directory of all Apache committers.  
   - Some projects [ask for Help Wanted][11] with easy-to-get-started tasks or bugs for newcomers.  You can see the [code that runs the HelpWanted site][12].
   - Apache committers can login to the [Project Reporting Tool][13], that helps PMCs create quarterly board reports; the code is also available.
+
+# How Do I Report A Bug For Comdev Websites? # {#comdevbug}
+
+The Community Development project has a JIRA Issue tracker queue, where you
+should submit any bugs with any of our services or websites as above.
+
+  - [https://issues.apache.org/jira/browse/COMDEV](https://issues.apache.org/jira/browse/COMDEV)
 
 
   [1]: https://mail-archives.apache.org/mod_mbox/
