@@ -20,17 +20,17 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 
 "Community Development" Is a very broad term, and means different things
 to different people. Here are the services that the Community
-Development (ComDev) project offers to the participants and projects of
+Development (ComDev) project offers to everyone involved in projects at
 the Apache Software Foundation.
 
 
-### Individual Mentorship
+### Mentoring For Individuals And Help Getting Around
 - [GSoC](/gsoc.html)
 - [Contributors Guide](/newcomers/)
 - [Committers Guide](/committers)
 - Project Management Committees
 
-### Project Mentorship
+### Mentoring For Projects
 - Incubator Mentors
 - TLPs and sub-projects
 - Project Community Ombudsman 
@@ -55,5 +55,23 @@ the Apache Software Foundation.
 - ApacheCon diversity scholarship (e.g., free registration, access to
   tutorials, etc.)
 
-### [TAC - Travel Assistance Committee](/travel)
+### Conference Travel Assistance
+- [TAC - Travel Assistance Committee](/travel)
+
+## About This Website
+
+<p>
+  This website is maintained by the 
+  <span itemscope itemprop='author' itemtype='http://schema.org/Organization'>
+    <span itemprop='name'><a itemprop='url' href='http://community.apache.org/'>Apache Community Development PMC</a></span> who works on the 
+    <span itemprop='email'>dev@community.apache.org</span>
+    <span itemscope itemtype='https://schema.org/ContactPage'><a itemprop='url' href='https://community.apache.org/lists.html'>archived mailing list</a></span>.
+  </span>
+</p>
+
+<p>
+  Anyone use the <a href='https://community.apache.org/newbiefaq.html#websitecms'>Apache CMS tool in your web browser</a> to suggest changes to this site.  The content is written in markdown, and is publisehd as static HTML by the CMS tool.
+  <br/>
+  The underlying sources are stored in a Subversion repository at: <code itemscope itemtype='https://schema.org/SoftwareSourceCode'><a itemprop='codeRepository' href='https://svn.apache.org/repos/asf/comdev/site/trunk/content/'>https://svn.apache.org/repos/asf/comdev/site/trunk/content/</a></code>
+</p>
 
