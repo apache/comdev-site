@@ -50,8 +50,9 @@ Most projects have a `Mailing Lists`, `Community`, or `Contact Us` link on their
 so start there if you know which project you're asking about.  If you don't know which 
 kind of list to ask on, we have a full list of all  [Apache-wide mailing lists][5].
 
-If you have **any non-technical questions** - or a question for us here in community development!
- - then you should just ask here by sending mail to **`dev@community.apache.org`**!
+If you have **any non-technical questions** - or a question for us here in community 
+development - then you should just ask here by sending mail to **`dev@community.apache.org`**!  
+You can also [read the archives of our dev@community][6] mailing list, to see what other people have asked.
 
 # Read The List Archives 
 
@@ -67,7 +68,7 @@ offer useful search or sending functionality:
 
  * MarkMail [http://apache.markmail.org/](http://apache.markmail.org/) - natural language search
  * MARC [https://marc.info/](https://marc.info/)
- * The (old) Mail Archive [https://mail-archive.com/][6]
+ * The (old) Mail Archive [https://mail-archive.com/][7]
  * GMANE [http://gmane.org/](http://dir.gmane.org/search.php?match=apache)
 
 
@@ -76,4 +77,5 @@ offer useful search or sending functionality:
   [3]: http://www.apache.org/dev/contrib-email-tips
   [4]: https://community.apache.org/contributors/etiquette
   [5]: http://www.apache.org/foundation/mailinglists.html
-  [6]: https://mail-archive.com/search?l=all&q=apache&e=listname
+  [6]: https://lists.apache.org/list.html?dev@community.apache.org:lte=12M:
+  [7]: https://mail-archive.com/search?l=all&q=apache&e=listname
