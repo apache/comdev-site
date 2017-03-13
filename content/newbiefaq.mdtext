@@ -22,11 +22,11 @@ The Apache Software Foundation (ASF) and our many Apache projects understand how
 *Index of Questions*
 
   - [About The Apache Software Foundation](#NewbieFAQ-AboutTheApacheSoftwareFoundation)
-      - [How do I find projects at the ASF?](#NewbieFAQ-WhatprojectscanIfindinTheApacheSoftwareFoundation?)
+      - [How do I find projects or technologies at the ASF?](#NewbieFAQ-WhatprojectscanIfindinTheApacheSoftwareFoundation?)
       - [How are projects managed at the ASF?](#NewbieFAQ-HowareprojectsmanagedinTheApacheSoftwareFoundation)
       - [How do I learn about the way Apache Projects Work?](#NewbieFAQ-HowdoIlearnaboutthewayApacheProjectsWork?)
       - [How do I ask a question about the ASF in general?](#NewbieFAQ-HowdoIaskaquestionabouttheASFingeneral?)
-      - [How do I get user support for an ASF project?](#NewbieFAQ-HowdoIgetusersupportforanASFproject?)
+      - [How do I get user support for an Apache project?](#NewbieFAQ-HowdoIgetusersupportforanASFproject?)
   - [Getting Involved with Apache projects](#NewbieFAQ-GettingInvolvedwithApacheprojects)
       - [How do I choose an Apache project to work on?](#NewbieFAQ-HowdoIchooseanApacheprojecttoworkon?)
       - [How do I get involved with an Apache project?](#NewbieFAQ-HowdoIgetinvolvedwithanApacheproject?)
@@ -35,9 +35,9 @@ The Apache Software Foundation (ASF) and our many Apache projects understand how
       - [What is the Apache Mentoring Programme](#NewbieFAQ-WhatistheApacheMentoringProgramme)
       - [How do I Apply to the Mentor Programme?](#NewbieFAQ-HowdoIApplytotheMentorProgramme?)
   - [Finding Apache Speakers For Events Or Meetups](#NewbieFAQ-AboutSpeakers)
-  - [How Do I Suggest Changes To This Website?](#websitecms)
+  - [How Do I Suggest or Make Changes To This Website?](#websitecms)
   - [What Other Informational Websites Are There?](#comdevweb) 
-  - [How Do I Report A Bug For Comdev Websites?](#comdevbug)   
+  - [How Do I Report A Bug For Comdev Websites Or Tools?](#comdevbug)   
 
 We are always looking for suggestions of better ways to help newcomers to the ASF find 
 the information they're looking for.  Please ask any new questions or give us suggestions on
@@ -260,16 +260,18 @@ and you can have it [email the patch to us directly][6].  Alternately,
 you can [ask us a general question on dev@community](#generalquestion)
 or read our [mailing list archives][7] for past questions and answers.
 
+For technical website details, see [About This Website][8].
 
-# What Else Does Community Development Publish? # {#comdevweb}
+
+# What Else Does Community Development Publish Or Manage? # {#comdevweb}
 
 The Community Development project maintains several other tools 
 that help you navigate the ASF.
 
-  - The [Apache Projects Directory][8] lists all our software technologies, and you can learn [how it works][9] and what JSON data feeds are available.
-  - [Home.apache.org][10] serves as a telephone directory of all Apache committers.  
-  - Some projects [ask for Help Wanted][11] with easy-to-get-started tasks or bugs for newcomers.  You can see the [code that runs the HelpWanted site][12].
-  - Apache committers can login to the [Project Reporting Tool][13], that helps PMCs create quarterly board reports; the code is also available.
+  - The [Apache Projects Directory][9] lists all our software technologies, and you can learn [how it works][10] and what JSON data feeds are available.
+  - [Home.apache.org][11] serves as a telephone directory of all individual Apache committers.  
+  - Some projects [ask for Help Wanted][12] with easy-to-get-started tasks or bugs for newcomers.  You can see the [code that runs the HelpWanted site][13].
+  - Apache committers can login to the [Project Reporting Tool][14], that helps PMCs create quarterly board reports; you can [see the code that does this][15].
 
 # How Do I Report A Bug For Comdev Websites? # {#comdevbug}
 
@@ -286,9 +288,11 @@ should submit any bugs with any of our services or websites as above.
   [5]: http://www.apache.org/dev/cms.html#usage
   [6]: http://www.apache.org/dev/cmsref.html#faq
   [7]: https://lists.apache.org/list.html?dev@community.apache.org:lte=3M:
-  [8]: https://projects.apache.org/
-  [9]: https://projects.apache.org/about.html
-  [10]: http://home.apache.org/
-  [11]: http://helpwanted.apache.org/
-  [12]: http://svn.apache.org/viewvc/comdev/helpwanted.apache.org/
-  [13]: https://reporter.apache.org/
+  [8]: https://community.apache.org/about/#about-this-website
+  [9]: https://projects.apache.org/
+  [10]: https://projects.apache.org/about.html
+  [11]: http://home.apache.org/
+  [12]: http://helpwanted.apache.org/
+  [13]: http://svn.apache.org/viewvc/comdev/helpwanted.apache.org/
+  [14]: https://reporter.apache.org/
+  [15]: https://svn.apache.org/repos/asf/comdev/projects.apache.org/
