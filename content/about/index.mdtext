@@ -70,7 +70,7 @@ the Apache Software Foundation.
 </p>
 
 <p>
-  Anyone use the <a href='https://community.apache.org/newbiefaq.html#websitecms'>Apache CMS tool in your web browser</a> to suggest changes to this site.  The content is written in markdown, and is publisehd as static HTML by the CMS tool.
+  Anyone use the <a href='https://community.apache.org/newbiefaq.html#websitecms'>Apache CMS tool in your web browser</a> to suggest changes to this site.  The content is written in markdown, and is published as static HTML by the CMS tool.  Anyone can propose changes; but a committer on comdev must "Publish Site" to push changes from staging to production.
   <br/>
   The underlying sources are stored in a Subversion repository at: <code itemscope itemtype='https://schema.org/SoftwareSourceCode'><a itemprop='codeRepository' href='https://svn.apache.org/repos/asf/comdev/site/trunk/content/'>https://svn.apache.org/repos/asf/comdev/site/trunk/content/</a></code>
 </p>
