@@ -19,10 +19,11 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 ## Community Development: What We Do
 
 "Community Development" Is a very broad term, and means different things
-to different people. Here are the services that the Community
-Development (ComDev) project offers to everyone involved in projects at
-the Apache Software Foundation.
+to different people. Here are the services or information points that the Community
+Development (ComDev) project helps with to help both newcomers, as well as
+ existing committers on all Apache projects.
 
+[TOC]
 
 ### Mentoring For Individuals And Help Getting Around
 - [GSoC](/gsoc.html)
@@ -31,20 +32,17 @@ the Apache Software Foundation.
 - Project Management Committees
 
 ### Mentoring For Projects
-- Incubator Mentors
+- [Incubator Mentors](https://incubator.apache.org/guides/mentor.html) - Many folks here are IPMC members or mentors too
 - TLPs and sub-projects
-- Project Community Ombudsman 
+- Project Community Ombudsman  - get community advice on dev@community
 
 ### Education + Outreach
 - [ApacheCon](http://apachecon.com/)
 - Partnered Industry Events (FOSDEM etc.)
-- Apache-oriented industry events (Hadoop Summit)
-- MeetUps, BarCamps, etc.
+- MeetUps, Apache BarCamps, etc.
 - Event Representatives (booth coverage, etc.)
-- Speaker Resources
-- Stock Presentations
-- Slide Templates
-- Speaker Guide
+- [Speaker Resources](https://community.apache.org/speakers/)
+- [Stock Presentations](https://community.apache.org/speakers/slides.html)
 
 ### Diversity
 - [Code of Conduct](http://www.apache.org/foundation/policies/conduct.html)
