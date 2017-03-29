@@ -36,7 +36,7 @@ The Apache Software Foundation (ASF) and our many Apache projects understand how
       - [How do I Apply to the Mentor Programme?](#NewbieFAQ-HowdoIApplytotheMentorProgramme?)
   - [Finding Apache Speakers For Events Or Meetups](#NewbieFAQ-AboutSpeakers)
   - [How Do I Suggest or Make Changes To This Website?](#websitecms)
-  - [What Other Informational Websites Are There?](#comdevweb) 
+  - [What Other Useful Websites About Apache Are There?](#comdevweb) 
   - [How Do I Report A Bug For Comdev Websites Or Tools?](#comdevbug)   
 
 We are always looking for suggestions of better ways to help newcomers to the ASF find 
@@ -261,6 +261,8 @@ you can [ask us a general question on dev@community](#generalquestion)
 or read our [mailing list archives][7] for past questions and answers.
 
 For technical website details, see [About This Website][8].
+To submit a formal bug, see our [COMDEV JIRA](#comdevbug).
+
 
 
 # What Else Does Community Development Publish Or Manage? # {#comdevweb}
@@ -272,11 +274,12 @@ that help you navigate the ASF.
   - [Home.apache.org][11] serves as a telephone directory of all individual Apache committers.  
   - Some projects [ask for Help Wanted][12] with easy-to-get-started tasks or bugs for newcomers.  You can see the [code that runs the HelpWanted site][13].
   - Apache committers can login to the [Project Reporting Tool][14], that helps PMCs create quarterly board reports; you can [see the code that does this][15].
+  - A [ComDev Wiki][wiki] is also available for scratch or experimental work, although most permanent content should be here in the CMS.
 
-# How Do I Report A Bug For Comdev Websites? # {#comdevbug}
+# How Do I Report A Bug For Comdev Websites Or Tools? # {#comdevbug}
 
 The Community Development project has a JIRA Issue tracker queue, where you
-should submit any bugs with any of our services or websites as above.
+should submit any bugs with any of our services or websites listed above.
 
   - [https://issues.apache.org/jira/browse/COMDEV](https://issues.apache.org/jira/browse/COMDEV)
 
@@ -296,3 +299,5 @@ should submit any bugs with any of our services or websites as above.
   [13]: http://svn.apache.org/viewvc/comdev/helpwanted.apache.org/
   [14]: https://reporter.apache.org/
   [15]: https://svn.apache.org/repos/asf/comdev/projects.apache.org/
+
+[wiki]: https://cwiki.apache.org/confluence/display/COMDEV/ComDev+Wiki
