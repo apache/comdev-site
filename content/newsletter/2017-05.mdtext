@@ -1,0 +1,9 @@
+Committer Resources
+
+(So that we didn't put them all in the first edition)
+
+If you blog about anything Apache related, you might want to know about http://planet.apache.org/committers/ - the Apache committer blog aggregator. It’s valuable in seeing what the rest of the Apache community is working on. To add yourself to the planet, edit the file https://svn.apache.org/repos/asf/planet/committers.ini in svn. It’s preferable if you use an ‘apache’ tag to separate out the stuff that is relevant to the community. If you have difficulty editing that file, come ask someone on the dev@community.apache.org mailing list, where we’ll be glad to help.
+
+Every week Sally Khudairi, our VP Marketing, posts an update of what’s going on across the Foundation. You can always find these at the Apache blog - https://blogs.apache.org/foundation/ - or by following our official Twitter stream, @TheASF ( http://twitter.com/theasf ). Our community Facebook page is at http://facebook.com/ApacheSoftwareFoundation and you’re encouraged to participate there by posting your news, releases, and announcements.
+
+
