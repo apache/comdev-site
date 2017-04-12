@@ -1,0 +1,91 @@
+Title:
+Notice:    Licensed to the Apache Software Foundation (ASF) under one
+           or more contributor license agreements.  See the NOTICE file
+           distributed with this work for additional information
+           regarding copyright ownership.  The ASF licenses this file
+           to you under the Apache License, Version 2.0 (the
+           "License"); you may not use this file except in compliance
+           with the License.  You may obtain a copy of the License at
+           .
+             http://www.apache.org/licenses/LICENSE-2.0
+           .
+           Unless required by applicable law or agreed to in writing,
+           software distributed under the License is distributed on an
+           "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+           KIND, either express or implied.  See the License for the
+           specific language governing permissions and limitations
+           under the License.
+
+# Apache Committer Newsletter, April 2017
+
+Dear Apache Committer,
+
+In this newsletter: committer resources you might not know about, Foundation news, and upcoming community events.
+
+Thank you for your hard work on our Apache projects. You are the reason the Foundation exists, and your work is the reason we have the reputation we enjoy.
+
+In our recent community survey, we heard from a lot of you that you want more information about what committer resources are available, how to connect with developers from other projects, and more proactive messaging about what’s going on in the Foundation at large.
+
+In this, the inaugural edition of the Apache Committers Newsletter, we’re trying to keep the committers better informed about what happens at Apache, and let you know about ways that you can become more involved with the Foundation as a whole.
+
+## Committer Resources
+
+As we grow larger, it can be harder to stay connected with the larger Apache community. We offer a number of resources that make it easier to stay in touch, and find out what’s going on. We encourage you to take advantage of these opportunities, because the Apache community is what makes Apache work.
+
+The [Apache Community website](http://community.apache.org/) - is full of
+resources for committers, from [new committer information](http://community.apache.org/committers/)
+ - to [developer and contributor information](http://www.apache.org/dev/)
+ - to [general information about the services provided by the Community
+Development PMC](http://community.apache.org/about/ ).
+
+If you’re going to be traveling somewhere, the best way to find out what 
+other Apache people are in the area is the Party mailing list - 
+[party@apache.org](https://lists.apache.org/list.html?party@apache.org).
+Tell us where you’re going to be, and if you’re interested in meeting for dinner or drinks. It’s a great way to feel at home in an unfamiliar city, and also connect with other Apache community members. Subscribe by sending a message to party-subscribe@apache.org
+
+## Board and Member Elections
+
+Apache is governed by a Board of Directors - a 9-member board that keeps the administrative side of things running, and ensures that projects operate according to the Apache Way, in sustainable, independent ways. The board doesn’t tinker in technical decisions, so it’s possible that many committers are unaware that it’s even there. The board is elected once a year by the membership.
+
+In the recent members meeting (March 28th) a new board of directors was elected, with two directors leaving the board, and two new directors being added. We thank outgoing directors Isabel Drost-Fromm and and Marvin Humphrey for their service, and welcome Phil Steitz and Ted Dunning for the new term.
+
+## Apache is 18!
+
+The Apache Software Foundation turned 18 years old last week!
+
+The Foundation was established in March of 1999, by a small group of enthusiasts that wanted to ensure a sustainable future for the projects that they were running. Since that time, we’ve had huge growth, growing from 21 members to 620, from a handful of developers to over 6,000, and from two projects to more than 300, including some of the most important software projects in the industry.
+
+Read more in our [official press release](https://blogs.apache.org/foundation/entry/the-apache-software-foundation-announces6).
+
+## Upcoming Events
+
+As you all hopefully know by now, [ApacheCon North America 2017](http://apachecon.com/)
+will be held in Miami, Florida, May 15-18. It will consist of several parallel events, which, together, make up ApacheCon.
+
+Apache: Big Data celebrates our presence in the Big Data world, with three days, four tracks of content around our various Big Data projects.
+
+Apache: IoT covers our projects in the Internet of Things space.
+
+TomcatCon will have content around the ever-popular Tomcat application server, one of the oldest projects at the ASF.
+
+CloudStack Collaboration Conference is 2 tracks of content for this popular cloud infrastructure project.
+
+The FlexJS Summit will be a developer-focused event to work on the FlexJS project, as well as user-focused sessions.
+
+And BarCampApache is our traditional unConference format event, where you can propose and lead sessions on any topic which is relevant to our community.
+
+Join us Wednesday night for the Lightning Talks - 5 minute presentations by you, about any topic of interest - sometimes funny, sometimes serious, always fun and informative. This will be followed by an offsite attendee reception where you can meet your colleagues from your project, and other ASF projects.
+
+As a committer, you have a deep discount to attend this event, since it is our event, by us and for us, and we want all of our committers to attend. Use the registration code APCOMM17 to register. (Don’t share this with your non-committer colleagues, since we check that you’re a committer when you use this code.)
+
+Learn more about ApacheCon, see the schedule, and register, at [apachecon.com](http://apachecon.com/)
+
+## Next Time …
+
+If you want your message to appear in this newsletter, come get 
+involved in writing it for next time. To get involved in the crafting of 
+this message, join the [Community Development mailing list](https://lists.apache.org/list.html?dev@community.apache.org)
+by sending email to dev-subscribe@community.apache.org where we’ll be drafting the next newsletter.
+
+Also, please let us know how we’re doing. Was this newsletter helpful? 
+Did you read all of it? Drop us a note at dev@community.apache.org to let us know.
