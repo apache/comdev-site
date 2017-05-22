@@ -19,9 +19,9 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 ## Community Development: What We Do
 
 "Community Development" Is a very broad term, and means different things
-to different people. Here are the services or information points that the Community
-Development (ComDev) project helps with to help both newcomers, as well as
- existing committers on all Apache projects.
+to different people. The Community Development (ComDev) project 
+provides a wide array of information, [FAQs](https://community.apache.org/newbiefaq.html), and help to newcomers as
+well as existing committers, and maintains a number of [helpful tools](#getcode).
 
 [TOC]
 
@@ -57,10 +57,22 @@ Development (ComDev) project helps with to help both newcomers, as well as
 ### Conference Travel Assistance
 - [TAC - Travel Assistance Committee](/travel)
 
+### Tools And Code We Maintain ### {#getcode}
+
+ComDev manages a number of helpful tools for finding your way around.
+
+  - The [Apache Projects Directory](https://projects.apache.org/) lists all our software technologies.  [See the Project Directory **code**](https://projects.apache.org/about.html) and the JSON data feeds available.
+  - [Apache Committer Phone Book](http://home.apache.org/) lists all individual Apache committers.  [See the Phonebook **code**](https://home.apache.org/phonebook-about.html).
+  - Some projects [ask for Help Wanted](http://helpwanted.apache.org/) with easy-to-get-started tasks or bugs for newcomers.  [See the HelpWanted **code**](http://svn.apache.org/viewvc/comdev/helpwanted.apache.org/).
+  - The [Project Reporting Tool](https://reporter.apache.org/) (requires login), that helps Apache PMCs create quarterly board reports.  [See the Reporter **code**](https://svn.apache.org/repos/asf/comdev/projects.apache.org/).
+  - A [ComDev Wiki](https://cwiki.apache.org/confluence/display/COMDEV/ComDev+Wiki) is also available for scratch or experimental work, although most permanent content should be here in the CMS.
+
+Each of the above tools is maintained by the ComDev PMC, so bring questions to the dev@ list.
+
 ## About This Website
 
 <p>
-  This website is maintained by the 
+  This `community.apache.org` website is maintained by the 
   <span itemscope itemprop='author' itemtype='http://schema.org/Organization'>
     <span itemprop='name'><a itemprop='url' href='http://community.apache.org/'>Apache Community Development PMC</a></span> who works on the 
     <span itemprop='email'>dev@community.apache.org</span>
@@ -69,7 +81,7 @@ Development (ComDev) project helps with to help both newcomers, as well as
 </p>
 
 <p>
-  Anyone use the <a href='https://community.apache.org/newbiefaq.html#websitecms'>Apache CMS tool in your web browser</a> to suggest changes to this site.  The content is written in markdown, and is published as static HTML by the CMS tool.  Anyone can propose changes; but a committer on comdev must "Publish Site" to push changes from staging to production.
+  You can use the <a href='https://community.apache.org/newbiefaq.html#websitecms'>Apache CMS tool in your web browser</a> to suggest changes to this webpage!  The content is written in markdown, and is published as static HTML by the CMS tool.  Anyone can propose changes and email them to our dev@ list; but a committer on comdev must "Publish Site" to push changes from staging to production.
   <br/>
   The underlying sources are stored in a Subversion repository at: <code itemscope itemtype='https://schema.org/SoftwareSourceCode'><a itemprop='codeRepository' href='https://svn.apache.org/repos/asf/comdev/site/trunk/content/'>https://svn.apache.org/repos/asf/comdev/site/trunk/content/</a></code>
 </p>
