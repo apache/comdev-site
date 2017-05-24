@@ -12,7 +12,9 @@ abstract: |
 audience: Community managers, developers, project managers involved with FOSS projects.
 slides: http://events.linuxfoundation.org/sites/events/files/slides/Commited%20to%20Apache.pdf
 video: https://www.youtube.com/watch?v=vT-kxmoLs5k&index=25&list=PLbzoR-pLrL6pLDCyPxByWQwYTL-JrF5Rp
-
+topics: 
+- community
+- contributors
 present_at:
 - http://apachecon.com/2017
 present_date: '2017-05-16'

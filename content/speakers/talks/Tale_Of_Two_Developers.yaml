@@ -24,7 +24,9 @@ abstract: |
 audience: Community managers, developers, project managers involved with FOSS projects.
 slides: 
 video: https://www.youtube.com/watch?v=ea_9qkaTeVw&index=26&list=PLbzoR-pLrL6pLDCyPxByWQwYTL-JrF5Rp
-
+topics: 
+- apacheway
+- developers
 present_at:
 - http://apachecon.com/2017
 present_date: '2017-05-16'

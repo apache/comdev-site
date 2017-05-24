@@ -5,12 +5,16 @@ submitter: sblackmon
 speakers:
 - sblackmon
 abstract: | 
-  This talk will cover the journey of Apache Streams (incubating) beyond a solution solely by and for java developers, toward a solution that can provide value for anyone, anywhere along the experience spectrum, regardless of technical preferences. We'll share feedback that served as concentrate focus on mission and usability. We'll walk through some of the improvements made to project code and tooling (maven), documentation (website, examples), and usability (command line interface, maven plugins, zeppelin support, network APIs) to move the project from dev@ to user@, and the opportunities we see to increase usability and relevance still further.
+  This talk will cover the journey of Apache Streams (incubating) beyond a solution solely by and for java developers, toward a solution that can provide value for anyone, anywhere along the experience spectrum, regardless of technical preferences.  We'll share feedback that served as concentrate focus on mission and usability. 
+  
+  We'll walk through some of the improvements made to project code and tooling (maven), documentation (website, examples), and usability (command line interface, maven plugins, zeppelin support, network APIs) to move the project from dev@ to user@, and the opportunities we see to increase usability and relevance still further.
   
 audience: Community managers, developers, project managers involved with FOSS projects.
 slides: http://events.linuxfoundation.org/sites/events/files/slides/ApacheConNA2017-Blackmon.pdf
 video: https://www.youtube.com/watch?v=E9A54x6af8o&index=27&list=PLbzoR-pLrL6pLDCyPxByWQwYTL-JrF5Rp
-
+topics: 
+- incubator
+- apacheway
 present_at:
 - http://apachecon.com/2017
 present_date: '2017-05-16'

@@ -16,7 +16,9 @@ abstract: |
 audience: Community managers, developers, project managers involved with FOSS projects.
 slides: http://shaneslides.com/apachecon/TheApacheWay-Intro-ApacheConNA2017.html
 video: https://www.youtube.com/watch?v=hpAv54KIgK8
-
+topics: 
+- apacheway
+- community
 present_at:
 - http://apachecon.com/2017
 present_date: '2017-05-16'
