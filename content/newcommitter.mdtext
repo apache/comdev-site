@@ -302,10 +302,14 @@ This is the followup email after the new committer has accepted the invitation
     The Apache [PROJECT] PMC
 
 ## Committer Account Creation
-Follow the instructions at:
-    http://www.apache.org/dev/pmc.html#newcommitter
+Follow the instructions
+    [here](http://www.apache.org/dev/pmc.html#newcommitter).
 
-In summary the account creation request is made by the 
+In summary, the account creation request is made by the 
+secretary or assistant who files the ICLA, if the ICLA identifies
+the project and a proper Apache id, and if the
+[RESULT][VOTE] message has been posted to the pmc private list.
+Otherwise, the new account request will be made by the
 PMC Chair (or any ASF Member if the chair is unavailable)
 
 PMC chair needs to use the [ASF New Account Request][2] form to
