@@ -74,6 +74,7 @@ later in this document.
 ## Summary
 
 1. Call a vote (templates/committerVote.txt)
+1. Close the vote
 1. Invite the new committer (templates/committerInvite.txt)
 
 If they accept, then do:
@@ -124,7 +125,8 @@ New committers can be either quiet or active as they choose. If we find
 that certain people lapse and don't ever contribute, then each project can take steps
 to retire them.
 
-After a positive result, we give candidates a chance to decline committership in private. They
+After a positive result, record the result on the PMC list with a [RESULT][VOTE] subject
+and then invite the candidate. We give candidates a chance to decline committership in private. They
 can post a reply to the PMC mailing list.
 
 After we reach a decision on the PMC list, and after the steps above, we
@@ -228,14 +230,13 @@ sent after a positive result from the vote for a new committer.
     let us know in reply to the [private@project.apache.org] 
     address only.
 
-    B. If you are accepting, the next step is to register 
-    an iCLA with the Apache Software Foundation:
+    B. If you accept, the next step is to register an iCLA:
         1. Details of the iCLA and the forms are found 
-        through this link: <http://www.apache.org/licenses/#clas>.
+        through this link: http://www.apache.org/licenses/#clas
 
-        2. The form (text or PDF version) provides 
-        instructions for its completion and return to 
-        the Secretary of the ASF.
+        2. Instructions for its completion and return to 
+        the Secretary of the ASF are found at
+        http://www.apache.org/licenses/#submitting
 
         3. When you transmit the completed iCLA, request 
         to notify the Apache [Project] and choose a 
