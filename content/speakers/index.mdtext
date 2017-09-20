@@ -43,6 +43,7 @@ For more details on how to list yourself as a potential speaker, see the [Apache
 ## Speaker Support Materials
 
 If you are creating your own slides you will find the [ASF Press Kit][6] useful. It contains logos in various formats.
+We also have [sample themes][8] available.
 
 We aim to collect a set of slide decks about the Apache 
 Software Foundation for reuse in presentations. So far
@@ -60,3 +61,4 @@ at Apache), then please email us and suggest we include your slides.
   [5]: speakers.html
   [6]: http://www.apache.org/foundation/press/kit/
   [7]: slides.html
+  [8]: themes
