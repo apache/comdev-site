@@ -12,7 +12,9 @@ It does not describe all the details of how our projects operate, but aims to ca
 
 Contrary to other maturity models, we do not define staged partial compliance levels. A mature Apache project complies with all the elements of this model, and other projects are welcome to pick and choose the elements that suit their goals.
 
-Note that we try to avoid using the word "must" below. The model describes the state of a mature project, as opposed to a set of rules. Newer projects in the Incubator might not fit into all the parts of this model; however part of the process of Incubation should tend to move their community behavior to fit the model.
+Note that we try to avoid using the word "must" below. The model describes the state of a mature project, as opposed to a set of rules. 
+
+Projects which incubate at Apache might not fit into all the parts of this model, however a major goal of incubation is to bring the project's community closer to it.
 
 Questions and feedback about this model are welcome on the <a href="http://mail-archives.apache.org/mod_mbox/community-dev/">comdev mailing list</a>.
 
