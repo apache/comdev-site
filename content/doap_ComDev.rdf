@@ -17,12 +17,12 @@ specific language governing permissions and limitations
 under the License.
 -->
 <rdf:RDF xml:lang="en" xmlns="http://usefulinc.com/ns/doap#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:asfext="http://projects.apache.org/ns/asfext#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
-  <Project rdf:about="http://comdev.rdf.apache.org/">
+  <Project rdf:about="http://comdev.apache.org/">
     <created>2009</created>
     <license rdf:resource="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
     <name>Apache Community Development</name>
     <homepage rdf:resource="http://community.apache.org/"/>
-    <asfext:pmc rdf:resource="http://community.apache.org/"/>
+    <asfext:pmc rdf:resource="http://comdev.apache.org/"/>
     <shortdesc>Resources to help people become involved with Apache projects</shortdesc>
     <!--description></description-->
     <bug-database rdf:resource="https://issues.apache.org/jira/browse/COMDEV"/>
