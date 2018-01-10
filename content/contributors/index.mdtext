@@ -31,8 +31,8 @@ projects are required to follow – things like complying with PMC
 using [mailing lists][5], etc., which are [documented in various places][6]. 
 
 One of these invariant rules is that projects are managed and used
-independently of any commercial interests. The goal is to createan 
-environemnt in which all participants are equal and thus have an equal
+independently of any commercial interests. The goal is to create an
+ environment in which all participants are equal and thus have an equal
 opportunity to contribute to and benefit from our software, regardless
 of motivation or financial objectives. This is discussed in more detail
 in our document [Project Independence][7].
@@ -45,11 +45,11 @@ sensible questions (which documents the project and provides feedback to develop
 through to providing new features as patches.
 
 If you become a valuable contributor to the project you may well be invited to become
-a committer. Committer is an term used at the ASF to signify someone who is
+a committer. Committer is a term used at the ASF to signify someone who is
 committed to a particular project. It brings with it the privilege of write access to
-the project repository and resources. In many projects committers are also invited 
+the project repository and resources. In many projects, committers are also invited 
 to be part of the core group within the project that ensures the project's vitality 
-(represented by the Project Management Committee, PMC). In a few projects a only a subset of 
+(represented by the Project Management Committee, PMC). In a few projects an only a subset of 
 committers, who have earned even more merit, are invited to be a part of the PMC.
 
 One thing that is sometimes hard to understand when you are new to the open 
@@ -99,7 +99,7 @@ For more details see our "[How it works][9]" document.  You can also make
 
 Feedback can be provided and questions asked by subscribing to our mailing
 list by sending a mail to 
-[dev-subscribe@community.apache.org](mailto:dev-subscribe@community.apache.org). Once subscribe you can send your mail to
+[dev-subscribe@community.apache.org](mailto:dev-subscribe@community.apache.org). Once subscribed you can send your mail to
 [dev@community.apache.org](mailto:dev@community.apache.org).
 
 
