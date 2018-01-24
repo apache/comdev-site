@@ -1,24 +1,22 @@
 Title: GSoC
 
-Google is sponsoring the [2016 Summer of Code](https://developers.google.com/open-source/gsoc/) and 
-[The Apache Software Foundation](http://www.apache.org/) (ASF) has been accepted as a mentoring organization. This page is your entry point to the ASF GSoC
-program.
-
-(See also the [2017 Summer of Code timeline](https://developers.google.com/open-source/gsoc/timeline) and watch this page for updates concerning our participating in 2017.)
+Google is sponsoring the [2018 Summer of Code](https://summerofcode.withgoogle.com/) and 
+[The Apache Software Foundation](http://www.apache.org/) (ASF) registered as a mentoring organization.
+This page is your entry point to the ASF GSoC program.
+Please watch this page for updates concerning our participating in 2018.
 
 <a name="GSoC-Students:readthis"></a>
 # Students: read this
 
-* Learn [about GSoC](https://developers.google.com/open-source/gsoc/resources/manual)
-* Decide if you are [eligible](http://www.google-melange.com/gsoc/document/show/gsoc_program/google/gsoc2015/help_page#1._Are_there_any_age_restrictions_on)
- for GSoC?
-* Review [Advice for Students](http://code.google.com/p/google-summer-of-code/wiki/AdviceforStudents)
+* Learn [about GSoC](https://summerofcode.withgoogle.com/about/)
+* Decide if you are [eligible](https://summerofcode.withgoogle.com/get-started/) for GSoC?
+* Review [Advice for Students](https://opensource.googleblog.com/2011/03/dos-and-donts-of-google-summer-of-code.html)
  to make sure you really want to apply to GSoC.
-* Watch Philip Johnson's [GSoC video presentation](http://www.youtube.com/watch?v=vBRRR0BQyz0)
+* Watch [GSoC video presentation](https://www.youtube.com/watch?v=S6IP_6HG2QE)
  for students.
-* Examine the list of [available ASF GSoC 2016 projects](http://s.apache.org/gsoc2016ideas)
+* Examine the list of [available ASF GSoC 2018 projects](http://s.apache.org/gsoc2018ideas)
 	* Note that you can search the issue tracker for GSoC projects by
-filtering using the "gsoc2016" label, this allows you to narrow down the list
+filtering using the "gsoc2018" label, this allows you to narrow down the list
 to the projects you are interested in.
 * If you do not see any interesting projects from the proposed ideas, we encourage you to contact one of the Apache Project's mailing list and propose a new idea. But these ideas have to be vetted on the project dev list. The ASF does not encourage and will not respond to your personal new open source project ideas which are unrelated to any Apache projects.
 
@@ -46,7 +44,7 @@ One of our evaluation criteria is that you have already engaged
 with the community to ensure that you understand the needs of the project
 and the commitment you need to make to your mentors.
 
-Once open applications are made through the [GSoC site](http://www.google-melange.com/)
+Once open applications are made through the [GSoC site](https://summerofcode.withgoogle.com/)
 
 ### Application template
 
@@ -139,7 +137,7 @@ automatically include them in our list of subjects. If your project does
 not use JIRA please contact dev@community.apache.org.  
 
 <a name="GSoC-ASFGSoCTimeline"></a>
-# ASF GSoC 2016 Timeline
+# ASF GSoC 2018 Timeline
 
 Below is a timeline of events for The Apache Software Foundation's
 involvement in GSoC. Unless otherwise stated deadlines are 24:00 UTC on the
@@ -176,9 +174,8 @@ The ASF currently has no policy establishing the criteria on what basis to vouch
 <a name="GSoC-UsefulLinks"></a>
 # Useful Links
 
- * [Summer of Code home](https://developers.google.com/open-source/gsoc/)
- * [Official Google Summer of Code 2016 Timeline, FAQs](https://developers.google.com/open-source/gsoc/timeline)
- * [2015 FAQs](http://www.google-melange.com/gsoc/document/show/gsoc_program/google/gsoc2015/help_page)
+ * [Summer of Code home](https://summerofcode.withgoogle.com)
+ * [Official Google Summer of Code 2018 Timeline, FAQs](https://summerofcode.withgoogle.com/how-it-works/#timeline)
  * [GSoC discussion list](http://groups.google.com/group/google-summer-of-code-discuss)
  * [Python notes on expectations](http://wiki.python.org/moin/SummerOfCode/Expectations)
  * \#gsoc on Freenode
