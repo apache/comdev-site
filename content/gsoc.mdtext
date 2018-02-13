@@ -132,7 +132,7 @@ You should also register your '''GSoC Link Id to
 committers/GSoCLinkId.txt'''.
 
 All ASF projects are invited to submit their ideas to their issue tracker,
-please be sure to add the labels "gsoc2016" and "mentor" so that we can
+please be sure to add the labels "gsoc2018" and "mentor" so that we can
 automatically include them in our list of subjects. If your project does
 not use JIRA please contact dev@community.apache.org.  
 
@@ -146,25 +146,30 @@ date indicated.
 <a name="GSoC-StudentApplicationandSelection"></a>
 ## Student Application and Selection
 
-  - 2016-03-14 19:00 UTC: Student applications start
-  - 2016-03-25 19:00 UTC: Student applications deadline
-  - 2016-04-12: Proposals to ASF projects must be reviewed roughly and have a potential mentor so that we know how many slots to request. Proposals that don't have a mentor at this point will be down-rated.
-  - 2016-04-18: Proposal scoring must be completed. Proposals without a score will be rejected, no exceptions.
-  - 2016-04-22: Accepted student proposals announced on the Google Summer of Code site.
+  - 2018-03-12: Student applications start
+  - 2018-03-27 18:00 CEST: Student applications deadline
+  - 2018-03-27: Proposals to ASF projects must be reviewed roughly and have a potential mentor so that we know how many slots to request. Proposals that don't have a mentor at this point will be down-rated.
+  - 2018-04-23: Proposal scoring must be completed. Proposals without a score will be rejected, no exceptions.
+  - 2018-04-23: Accepted student proposals announced on the Google Summer of Code site.
 
 <a name="GSoC-GSocisunderway"></a>
 ## GSoc is underway
 
-  - 2016-05-23: Coding starts.
-  - 2016-06-20 19:00 UTC: Midterm evaluations can be submitted
-  - 2016-06-27: ASF mentors must have completed their midterm evaluations
-
+  - 2018-04-23: Community bonding start
+  - 2018-05-14: Community bonding end
+  - 2018-05-14: Coding start
+  - 2018-06-11: First midterm evaluations can be submitted
+  - 2018-06-15: First midterm evaluations deadline
+  - 2018-07-09: Second midterm evaluations can be submitted
+  - 2018-07-13: Second midterm evaluations deadline
+  
 <a name="GSoC-Winddown"></a>
 ## Wind down
 
-  - 2016-08-15: Soft pencils down date
-  - 2016-08-21: Firm pencils down date. Final evaluations can be submitted
-  - 2016-08-29: ASF mentors must have submitted their final evaluations
+  - 2018-08-06: Coding deadline and final evaluations can be submitted 
+  - 2018-08-14: ASF Mentors evaluations can be submitted
+  - 2018-08-21: ASF Mentors final evaluations deadline
+  - 2018-08-22: Results announced
 
 <a name="GSoC-Vouching"></a>
 # Organization Vouching
