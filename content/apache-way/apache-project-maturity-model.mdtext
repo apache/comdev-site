@@ -262,10 +262,18 @@ The project is independent from any corporate or organizational influence.
 
 # How To Use The Apache Project Maturity Model
 
-See the <a href="https://github.com/apache/groovy/blob/576b3c5d6a7022ac4a8df1ef118666456ce627fb/MATURITY.adoc">Groovy podling 2015 self-assessment</a> for an example of how to use this
-model to prepare a graduation from the <a href="http://incubator.apache.org">Apache Incubator</a>.
-
 **Remember:** This model is a suggested guide; it is not a requirements document.  The model shows what generally good behaviors in an Apache project look like.
+
+So far, inside the ASF this model has been used mostly for self-assessment of podlings preparing their graduation 
+from the <a href="http://incubator.apache.org">Apache Incubator</a>.
+
+It might be useful for top-level ASF projects to regularly assess their maturity based on this model, but this is not a requirement at this time.
+
+Here are a few self-assessment examples:
+* <a href="https://github.com/apache/groovy/blob/576b3c5d6a7022ac4a8df1ef118666456ce627fb/MATURITY.adoc">Apache Groovy podling self-assessment, 2015</a>
+* <a href="https://cwiki.apache.org/confluence/display/TAVERNADEV/2016-03+Taverna+Graduation+Maturity+Assessment">Apache Taverna Graduation Maturity Assessment, 2016</a>
+* <a href="https://cwiki.apache.org/confluence/display/CARBONDATA/Apache+Maturity+Model+Assessment+for+CarbonData">Apache CarbonData Podling Maturity Assessment, 2017</a>
+* <a href="https://beam.apache.org/contribute/maturity-model/">Apache Maturity Model Assessment for Apache Beam, 2016</a>
 
 ## Other Open Source Project Models
 
@@ -284,6 +292,8 @@ See <a href="http://s.apache.org/apache_maturity_model">http://s.apache.org/apac
 v 1.0, February 2015, defined by consensus by Apache Community Development project.
 
 v 1.1, October 2016 added RE50.
+
+v 1.2, February 2018, reworked the "how to use" section with more links to self-assessments.
 
 See the <a href="https://svn.apache.org/viewvc/comdev/site/trunk/content/apache-way/apache-project-maturity-model.mdtext?view=log">svn revision history</a> of this document for more details and other minor changes.
 
