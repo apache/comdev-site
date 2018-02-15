@@ -270,6 +270,7 @@ from the <a href="http://incubator.apache.org">Apache Incubator</a>.
 It might be useful for top-level ASF projects to regularly assess their maturity based on this model, but this is not a requirement at this time.
 
 Here are a few self-assessment examples:
+
 * <a href="https://github.com/apache/groovy/blob/576b3c5d6a7022ac4a8df1ef118666456ce627fb/MATURITY.adoc">Apache Groovy podling self-assessment, 2015</a>
 * <a href="https://cwiki.apache.org/confluence/display/TAVERNADEV/2016-03+Taverna+Graduation+Maturity+Assessment">Apache Taverna Graduation Maturity Assessment, 2016</a>
 * <a href="https://cwiki.apache.org/confluence/display/CARBONDATA/Apache+Maturity+Model+Assessment+for+CarbonData">Apache CarbonData Podling Maturity Assessment, 2017</a>
