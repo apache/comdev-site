@@ -353,9 +353,11 @@ This is the email to announce to [PROJECT]-dev once the account has been created
     Please follow the instructions to set up your SSH,
     svn password, svn configuration, mail forwarding, etc.
     http://www.apache.org/dev/#committers
-    
+   
+    [If your project automatically adds committers to the PMC]
     Please subscribe to the [PROJECT] Project Management 
     Committee mailing list private@[PROJECT].apache.org.
+    [/If]
     
     You have commit access to specific sections of the
     ASF repository, as follows:
