@@ -20,7 +20,7 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 <h2>Apache Community Development!</h2>
 <br>
 
-<p>This website is designed to <em>help newcomers</em> to The Apache Software Foundation (ASF)
+<p>This website is designed to <em><a href="/newcomers/">help newcomers</a></em> to The Apache Software Foundation (ASF)
 and to our many Apache projects take their first steps towards being a <em>part of our community</em>.</p>
 
 <p>We provide signposts to information about
@@ -123,3 +123,6 @@ more directly in the specific Apache projects that interest you.</p>
           <p>If you still haven't found what you are looking for, try our <a href="newbiefaq.html">FAQ</a>, send us an e-mail at dev@community.apache.org, or read the <a href="https://lists.apache.org/list.html?dev@community.apache.org:lte=3M:">Community mail archives</a>.</p>
     </div>
 </div>
+
+<div style="width: 700px;" type="helpwanted" project="comdev"  description="Community Development Tasks"></div>
+<script src="https://helpwanted.apache.org/widget.js" type="text/javascript"></script>
