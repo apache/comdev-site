@@ -20,18 +20,20 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 <h2>Apache Community Development!</h2>
 <br>
 
-<p>This website is designed to <em><a href="/newcomers/">help newcomers</a></em> to The Apache Software Foundation (ASF)
-and to our many Apache projects take their first steps towards being a <em>part of our community</em>.</p>
+<p>Mission: The Community Development project creates and provides tools,
+processes, and advice, to help open source software projects improve their own
+community health.
 
-<p>We provide signposts to information about
-the ASF as an organization, as well as about the over <a href="https://projects.apache.org/">200 different Apache software project
-communities</a> that provide free software for the public benefit.</p>
+We are, of course, primarily focused on Apache Software Foundation
+projects. However, because we believe that the Apache Way is, in fact, the
+best way to manage a software project, we strive also to make these
+artifacts releasable to the open source community as a whole. </p>
 
 <p>We do not focus on
 specific projects here, but rather on the common processes and policies
 called The Apache Way found in most Apache projects. Our goal is to help you
 <em>understand how the ASF works</em> and give you the confidence to participate
-more directly in the specific Apache projects that interest you.</p>
+in the specific Apache projects that interest you.</p>
 </div>
 
 <a name="Index-Startingpoints"></a>
