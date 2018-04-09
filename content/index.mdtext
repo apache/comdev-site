@@ -126,8 +126,8 @@ in the specific Apache projects that interest you.</p>
     </div>
 </div>
 
-<a  href="https://www.apache.org/events/current-event.html">
-  <img src="https://www.apache.org/events/current-event-125x125.png"/>
-</a>
 <div style="width: 700px;" type="helpwanted" project="comdev"  description="Community Development"></div>
 <script src="https://helpwanted.apache.org/widget.js" type="text/javascript"></script>
+<a  href="https://www.apache.org/events/current-event.html">
+  <img src="https://www.apache.org/events/current-event-{size}.png"/>
+</a>
