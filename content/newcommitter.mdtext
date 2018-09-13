@@ -314,7 +314,7 @@ the account creation request is made by the
 secretary or assistant who files the ICLA.
 
 Otherwise, the new account request should be made by the
-PMC Chair (or any ASF Member if the chair is unavailable).
+PMC Chair (or any [ASF Member][6] if the chair is unavailable).
 
 The PMC chair needs to use the [ASF New Account Request][2] form to
 send a new account request. Members may use [ASF New Account 
@@ -394,3 +394,4 @@ This is the email to announce to [PROJECT]-dev once the account has been created
   [3]: https://id.apache.org/acreq/members/
   [4]: http://mail-archives.apache.org/
   [5]: https://mail-search.apache.org/
+  [6]: https://www.apache.org/foundation/glossary.html#Member
