@@ -4,7 +4,7 @@ If your project does not use the ASFs JIRA for issue tracking you can use
 the Community Development project to record your GSoC tasks. 
 
 * Add tasks to the [Comdev project](https://issues.apache.org/jira/browse/COMDEV)
-* Ensure you add the labels "*gsoc2013*" and "*mentor*"
+* Ensure you add the labels "*gsoc2019*" and "*mentor*"
 * Ensure your title has "PROJECT_NAME:" at the start (you'll see why in a
 moment)
 * Your issues will then appear in the [list of projects](http://s.apache.org/gsoc2013ideas)

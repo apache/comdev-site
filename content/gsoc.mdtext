@@ -1,9 +1,9 @@
 Title: GSoC
 
-Google is sponsoring the [2018 Summer of Code](https://summerofcode.withgoogle.com/) and 
+Google is sponsoring the [2019 Summer of Code](https://summerofcode.withgoogle.com/) and 
 [The Apache Software Foundation](http://www.apache.org/) (ASF) registered as a mentoring organization.
 This page is your entry point to the ASF GSoC program.
-Please watch this page for updates concerning our participating in 2018.
+Please watch this page for updates concerning our participating in 2019.
 
 <a name="GSoC-Students:readthis"></a>
 # Students: read this
@@ -14,9 +14,9 @@ Please watch this page for updates concerning our participating in 2018.
  to make sure you really want to apply to GSoC.
 * Watch [GSoC video presentation](https://www.youtube.com/watch?v=S6IP_6HG2QE)
  for students.
-* Examine the list of [available ASF GSoC 2018 projects](http://s.apache.org/gsoc2018ideas)
+* Examine the list of [available ASF GSoC 2019 projects](http://s.apache.org/gsoc2019ideas)
 	* Note that you can search the issue tracker for GSoC projects by
-filtering using the "gsoc2018" label, this allows you to narrow down the list
+filtering using the "gsoc2019" label, this allows you to narrow down the list
 to the projects you are interested in.
 * If you do not see any interesting projects from the proposed ideas, we encourage you to contact one of the Apache Project's mailing list and propose a new idea. But these ideas have to be vetted on the project dev list. The ASF does not encourage and will not respond to your personal new open source project ideas which are unrelated to any Apache projects.
 
@@ -132,12 +132,12 @@ You should also register your '''GSoC Link Id to
 committers/GSoCLinkId.txt'''.
 
 All ASF projects are invited to submit their ideas to their issue tracker,
-please be sure to add the labels "gsoc2018" and "mentor" so that we can
+please be sure to add the labels "gsoc2019" and "mentor" so that we can
 automatically include them in our list of subjects. If your project does
 not use JIRA please contact dev@community.apache.org.  
 
 <a name="GSoC-ASFGSoCTimeline"></a>
-# ASF GSoC 2018 Timeline
+# ASF GSoC 2019 Timeline
 
 Below is a timeline of events for The Apache Software Foundation's
 involvement in GSoC. Unless otherwise stated deadlines are 24:00 UTC on the
@@ -146,30 +146,30 @@ date indicated.
 <a name="GSoC-StudentApplicationandSelection"></a>
 ## Student Application and Selection
 
-  - 2018-03-12: Student applications start
-  - 2018-03-27 18:00 CEST: Student applications deadline
-  - 2018-03-27: Proposals to ASF projects must be reviewed roughly and have a potential mentor so that we know how many slots to request. Proposals that don't have a mentor at this point will be down-rated.
-  - 2018-04-23: Proposal scoring must be completed. Proposals without a score will be rejected, no exceptions.
-  - 2018-04-23: Accepted student proposals announced on the Google Summer of Code site.
+  - 2019-03-26: Student applications start
+  - 2019-04-09 18:00 CEST: Student applications deadline
+  - 2019-04-09: Proposals to ASF projects must be reviewed roughly and have a potential mentor so that we know how many slots to request. Proposals that don't have a mentor at this point will be down-rated.
+  - 2019-05-04: Proposal scoring must be completed. Proposals without a score will be rejected, no exceptions.
+  - 2019-05-07: Accepted student proposals announced on the Google Summer of Code site.
 
 <a name="GSoC-GSocisunderway"></a>
 ## GSoc is underway
 
-  - 2018-04-23: Community bonding start
-  - 2018-05-14: Community bonding end
-  - 2018-05-14: Coding start
-  - 2018-06-11: First midterm evaluations can be submitted
-  - 2018-06-15: First midterm evaluations deadline
-  - 2018-07-09: Second midterm evaluations can be submitted
-  - 2018-07-13: Second midterm evaluations deadline
+  - 2019-05-07: Community bonding start
+  - 2019-05-27: Community bonding end
+  - 2019-05-27: Coding start
+  - 2019-06-25: First midterm evaluations can be submitted
+  - 2019-06-29: First midterm evaluations deadline
+  - 2019-07-23: Second midterm evaluations can be submitted
+  - 2010-07-27: Second midterm evaluations deadline
   
 <a name="GSoC-Winddown"></a>
 ## Wind down
 
-  - 2018-08-06: Coding deadline and final evaluations can be submitted 
-  - 2018-08-14: ASF Mentors evaluations can be submitted
-  - 2018-08-21: ASF Mentors final evaluations deadline
-  - 2018-08-22: Results announced
+  - 2019-08-20: Coding deadline and final evaluations can be submitted 
+  - 2019-08-27: ASF Mentors evaluations can be submitted
+  - 2019-09-03: ASF Mentors final evaluations deadline
+  - 2019-09-04: Results announced
 
 <a name="GSoC-Vouching"></a>
 # Organization Vouching
@@ -180,7 +180,7 @@ The ASF currently has no policy establishing the criteria on what basis to vouch
 # Useful Links
 
  * [Summer of Code home](https://summerofcode.withgoogle.com)
- * [Official Google Summer of Code 2018 Timeline, FAQs](https://summerofcode.withgoogle.com/how-it-works/#timeline)
+ * [Official Google Summer of Code 2019 Timeline, FAQs](https://summerofcode.withgoogle.com/how-it-works/#timeline)
  * [GSoC discussion list](http://groups.google.com/group/google-summer-of-code-discuss)
  * [Python notes on expectations](http://wiki.python.org/moin/SummerOfCode/Expectations)
  * \#gsoc on Freenode
