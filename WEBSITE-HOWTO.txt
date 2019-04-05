@@ -1,0 +1,12 @@
+How to publish the community.apache.org website
+====
+
+Instructions for modifying https://community.apache.org/ , with minimal use of the Apache CMS:
+
+ * Checkout https://svn.apache.org/repos/asf/comdev/site/trunk
+ * Edit under ./content
+ * On commit, build runs at https://ci.apache.org/builders/community-site-staging , any build errors are reported there
+ * Content is staged under http://community.staging.apache.org/
+ * Use https://cms.apache.org/community/publish?diff=1 to check diffs and publish changes. Quite often, this includes changes made by others which haven't been published.
+
+Notifications are sent to (at least) https://lists.apache.org/list.html?commits@community.apache.org
