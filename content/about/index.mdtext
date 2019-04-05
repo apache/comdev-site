@@ -99,8 +99,7 @@ Each of the above tools is maintained by the ComDev PMC, so bring questions to t
 </p>
 <p>  
   The content is written in Markdown and published by the ASF's CMS tool from a Subversion repository,
-  see the 
-  [WEBSITE-HOWTO](https://svn.apache.org/repos/asf/comdev/site/trunk/WEBSITE-HOWTO.txt) for
+  see the <a href="https://svn.apache.org/repos/asf/comdev/site/trunk/WEBSITE-HOWTO.txt">WEBSITE-HOWTO</a> for
   more details.
 </p>
 
