@@ -24,7 +24,7 @@ ASF and how its projects work.
 This page gives a few examples of that.
 
 If you have any question about this, feel free to ask on our 
-[dev@community.apache.org](http://mail-archives.apache.org/mod_mbox/community-dev/) mailing list.
+[dev@community.apache.org](https://lists.apache.org/list.html?dev@community.apache.org) mailing list.
 
 ## Example disclaimer for a personal crowdfunding campaign
 
@@ -46,5 +46,6 @@ campaign.
 [Friends of Apache Groovy](https://opencollective.com/friends-of-groovy) is another good example which supports activities 
 in the Apache Groovy community.
 
-The [explanation in their about section] makes it clear that that initiative is _not_ affiliated or driven by the ASF, and
-also that any contributions, funded or not, have to go through the usual Apache Groovy acceptance process.
+The [explanation in their about section])https://opencollective.com/friends-of-groovy#about= makes it clear that that 
+initiative is _not_ affiliated or driven by the ASF, and also that any contributions, funded or not, have to go 
+through the usual Apache Groovy acceptance process.
