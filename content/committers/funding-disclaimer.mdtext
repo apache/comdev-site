@@ -21,6 +21,13 @@ Some Apache committers have successfully run funding campaigns to work on their 
 This is ok in principle but you have to make it clear that the campaign is your own thing, and avoid any confusion about the role of the 
 ASF and how its projects work.
 
+This page gives a few examples of that.
+
+If you have any question about this, feel free to ask on our 
+[dev@community.apache.org](http://mail-archives.apache.org/mod_mbox/community-dev/) mailing list.
+
+## Example disclaimer for a personal crowdfunding campaign
+
 He's a nice example disclaimer used by one of our committers:
 
         Disclaimers: This campaign is done by me, FOO, as an independent individual, not
@@ -34,5 +41,9 @@ He's a nice example disclaimer used by one of our committers:
 See also the [discussion thread](http://mail-archives.apache.org/mod_mbox/community-dev/201310.mbox/%3Cop.w4fwv6ewovlrp5%40arsmachina%3E) about this
 campaign.
 
-If you have any question about this, feel free to ask on our 
-[dev@community.apache.org](http://mail-archives.apache.org/mod_mbox/community-dev/) mailing list.
+## Friends of Apache Groovy
+
+https://opencollective.com/friends-of-groovy is another good example which supports activities in the Apache Groovy community.
+
+The [explanation in their about section] makes it clear that that initiative is _not_ affiliated or driven by the ASF, and
+also that any contributions, funded or not, have to go through the usual Apache Groovy acceptance process.
