@@ -94,8 +94,13 @@ Each of the above tools is maintained by the ComDev PMC, so bring questions to t
 </p>
 
 <p>
-  You can use the <a href='https://community.apache.org/newbiefaq.html#websitecms'>Apache CMS tool in your web browser</a> to suggest changes to this webpage!  The content is written in markdown, and is published as static HTML by the CMS tool.  Anyone can propose changes and email them to our dev@ list; but a committer on comdev must "Publish Site" to push changes from staging to production.
-  <br/>
-  The underlying sources are stored in a Subversion repository at: <code itemscope itemtype='https://schema.org/SoftwareSourceCode'><a itemprop='codeRepository' href='https://svn.apache.org/repos/asf/comdev/site/trunk/content/'>https://svn.apache.org/repos/asf/comdev/site/trunk/content/</a></code>
+  See our <a href='https://community.apache.org/newbiefaq.html#websitecms'>Newcomer FAQ</a> for how to suggest
+  changes to this website.
+</p>
+<p>  
+  The content is written in Markdown and published by the ASF's CMS tool from a Subversion repository,
+  see the 
+  [WEBSITE-HOWTO](https://svn.apache.org/repos/asf/comdev/site/trunk/WEBSITE-HOWTO.txt) for
+  more details.
 </p>
 
