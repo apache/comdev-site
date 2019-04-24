@@ -16,7 +16,7 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            specific language governing permissions and limitations
            under the License.
 
-This page contains links to presentations about the ASF and how 
+This page contains links to presentations and other key papers about the ASF and how 
 Apache projects work that you may find useful.  Many of these have 
 been presented at [ApacheCon conferences](http://events.apache.org) or 
 other open source conferences in the past.
@@ -33,6 +33,10 @@ For those who prefer videos, our many volunteers have posted
 <a href="https://www.youtube.com/playlist?list=PLU2OcwpQkYCzvGxZgVOunTs-3iEao6YJc">select ApacheCon NA 2014 presentations</a>.
 Additional slides, videos and audio recordings can also be found from the 
 <a href="https://wiki.apache.org/apachecon/Past_Conference_Resources">ApacheCon Past Conference Resources page</a>.
+
+# ASF Postings
+- [Briefing: The Apache Way](https://www.apache.org/theapacheway/index.html) (paper)
+- [The Apache Way to Sustainable Open Source Success](https://blogs.apache.org/foundation/entry/the-apache-way-to-sustainable)  (paper)
 
 # Isabel Drost
   - [Open Source development for students][1]
@@ -70,7 +74,8 @@ Older slide decks:
  - [Open Source in Education](http://www.slideshare.net/bdelacretaz/open-source-in-education)
  
 # Shane Curcuru
- - [Apache Way: Effective Open Source Project Management](shaneslides.com/apachecon/TheApacheWay-Intro-ApacheConNA2017.html) ApacheCon 2017 ([video](https://www.youtube.com/watch?v=hpAv54KIgK8))
+ - [History and Overview of Various Apache Way Presentations](http://shaneslides.com/2017/04/History-Of-The-Apache-Way/) (annotated list, pre-2017)
+ - [Apache Way: Effective Open Source Project Management](http://shaneslides.com/apachecon/TheApacheWay-Intro-ApacheConNA2017.html) ApacheCon 2017 ([video](https://www.youtube.com/watch?v=hpAv54KIgK8))
  - [About: Apache - The Foundation, The Way, The Projects](http://communityovercode.com/2012/05/camelone-2012-presentation/)
  - [Managing Community Open Source Brands](http://communityovercode.com/2012/07/oscon-presentation/)
  - [Improving Your Project's Image And Brand](http://www.slideshare.net/shanecurcuru/improving-your-apache-projects-image-and-brand) 
