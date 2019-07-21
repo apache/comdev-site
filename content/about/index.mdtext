@@ -98,8 +98,11 @@ Each of the above tools is maintained by the ComDev PMC, so bring questions to t
   changes to this website.
 </p>
 <p>  
-  The content is written in Markdown and published by the ASF's CMS tool from a Subversion repository,
-  see the <a href="https://svn.apache.org/repos/asf/comdev/site/trunk/WEBSITE-HOWTO.txt">WEBSITE-HOWTO</a> for
-  more details.
+  The content is written in Markdown and published by the ASF's CMS tool from a Subversion repository.
+Committers can either use the [Apache CMS][1] system to edit, build, and publish this site, or you can see 
+  the <a href="https://svn.apache.org/repos/asf/comdev/site/trunk/WEBSITE-HOWTO.txt">WEBSITE-HOWTO</a> for
+  more details using just command line tools.  Underlying source code: `https://svn.apache.org/repos/asf/comdev/site/trunk/`
 </p>
 
+
+  [1]: http://www.apache.org/dev/cms.html#usage
