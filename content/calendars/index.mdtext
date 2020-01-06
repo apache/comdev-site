@@ -26,10 +26,15 @@ Note that to be listed in this calendar events must <b>already</b> conform
 to the [Third Party Event Branding Policy][2] and have been approved by
 either the relevant Apache PMC or the Branding Committee.
 
-## Major Upcoming Events
+## Upcoming Events
 <ul id="events">
  <li><i>List loading</i></li>
 </ul>
+
+<em>Disclaimer: Events called 'ApacheCon' or 'Apache Roadshow' are
+official Apache Software Foundation events. Other listed events are put
+on by projects, or third-party producers, and are listed here to support
+our community, but are not official Foundation events.</em>
 
 <iframe src="https://www.google.com/calendar/embed?src=nerseigospses068jd57bk5ar8%40group.calendar.google.com&ctz=America/New_York"
 style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
