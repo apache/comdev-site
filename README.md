@@ -20,27 +20,24 @@ This is the source code for the website of [Apache Comdev](https://community.apa
 
     https://community.apache.org/
 
-## Repository structure
+## How to publish the website
 
-This repository uses 2 branches for serving the website.
-- The `master` branch, which contains all the sources for the website.
-- The `asf-site` branch, which contains the generated website being used for the actual website.
+(TODO: this is not setup yet - once it is we'll add links to the Jenkins build here)
 
-When contributing patches, apply them to the `master` branch. Jenkins will then regenerate the website
-and commit the changes to the `asf-site` branch.
+Changes to the `master` branch of these repository trigger a Jenkins build that publishes the website, 
+by committing the generated pages and files to the `asf-site` branch of this repository.
 
-## Content Management System
+The [ASF's gitpubsub mechanism](https://blogs.apache.org/infra/entry/git_based_websites_available) then synchronizes that content to [http://community.apache.org/](http://community.apache.org/), usually within a few seconds. More details about the publication process can be found in the [ASF Documentation about Project sites](https://www.apache.org/dev/project-site.html). If for some reason this process fails, you can use [the self-service page from ASF Infra](https://selfserve.apache.org/) to trigger a resync of the git repo.
 
-The website uses Hugo as static website generator. 
-See [Hugo](https://gohugo.io/) for more info and for details how to install Hugo.
+## Powered by Hugo!
 
-## Generate the website
+The website uses Hugo as static website generator, see [their website](https://gohugo.io/) for more information
+and for how to install and run it if needed.
+
+## How to test the website and changes on your own computer
 
 To generate the static website, execute `hugo` to generate and serve the website on `localhost:1313`.
 
 During development, it may be useful to run an incremental build. For this to work, execute `hugo server -D` to 
-continuously generate and serve the website on `localhost:1313`.
+continuously (re)generate and serve the website on `localhost:1313`.
 
-## Publish the website
-
-Jenkins is used for generating the website and committing the generated site to the `asf-site` branch.
