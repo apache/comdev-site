@@ -1,0 +1,37 @@
+baseURL = "https://community.apache.org"
+title = "Apache Comdev"
+languageCode = "en"
+
+contentDir = "source"
+publishDir = "target/content"
+
+disablePathToLower = true
+uglyURLs = true
+enableRobotsTXT = true
+disableBrowserError = true
+timeout = 3000
+
+disableKinds = ["taxonomy", "taxonomyTerm"]
+ignoreFiles = [ ] # No files to ignore
+
+# Highlighting config. See https://help.farbox.com/pygments.html
+pygmentsCodeFences = true
+pygmentsUseClasses = false
+pygmentsStyle = "emacs"
+
+# Enable Git variables like commit, lastmod
+enableGitInfo = true
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[blackfriday]
+# hrefTargetBlank = true # We don't want everything opened in a new window
+fractions = false
+
+[frontmatter]
+date = ["date", ":filename", "publishDate", "lastmod"]
+
+[params]
+repositoryUrl = "https://github.com/apache/comdev-site"
+repositorySourceBranch = "master"
