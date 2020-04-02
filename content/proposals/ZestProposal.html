@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+  <meta name="description" content="Apache Community Development"/>
+  <meta name="keywords" content="apache, apache community, community development, opensource"/>
+
+  <title>Apache Community Development - </title>
+  <link rel="shortcut icon" href="images/favicon.ico">
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="/css/bootstrap-responsive.css" rel="stylesheet">
+  <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+	   
+	   .gsc-search-box input.gsc-input, .gcse-search-box input.gsc-input:focus { -webkit-box-shadow:none; box-shadow:none; -moz-box-shadow:none; border-radius:0px; }
+		 
+		 .container { margin-top:5px; }
+  </style>
+</head>
+
+<body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="/">Home</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">About<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/about/">What We Do</a></li>
+                  <li><a href="/newbiefaq.html">Frequently Asked Questions</a></li>
+                  <li><a href="/projectIndependence.html">Apache Project Independence</a></li>
+                  <li><a href="/apache-way/apache-project-maturity-model.html">Apache Project Maturity Model</a></li>
+                  <li><a href="/contactpoints.html">Contact Points Within the ASF</a></li>
+                  <li><a href="/comdevboardresolution.html">ComDev Original Board Resolution</a></li>
+                  <li><a href="https://whimsy.apache.org/board/minutes/Community_Development.html">ComDev Board Reports</a></li>
+                  <li><a href="/links.html">Links to additional material</a></li>
+                  <li><a
+                  href="https://issues.apache.org/jira/projects/COMDEV">Community
+                  Development JIRA</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">For Contributors <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/newcomers/">Newcomers</a></li>
+                  <li><a href="/gettingStarted/101.html">Getting Started</a></li>
+                  <li><a href="/contributors/">Finding Your Way Around The Apache Software Foundation</a></li>
+				  <li><a href="http://www.apache.org/dev/">Technical Developer FAQs</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Google Summer of Code</li>
+                  <li><a href="/gsoc.html">Google Summer Of Code Information</a></li>
+                  <li><a href="/mentee-ranking-process.html">Mentee Ranking Process</a></li>
+                  <li><a href="/mentoring/experiences.html">Past GSoC Experiences</a></li>
+                  <li><a href="/guide-to-being-a-mentor.html">Guide to being a Mentor</a></li>
+                  <li><a href="/use-the-comdev-issue-tracker-for-gsoc-tasks.html">Using ComDev's JIRA for GSoC Ideas</a></li>
+                  <li><a href="/gsoc-admin-tasks.html">Tasks of a GSoC Admin at the ASF</a></li>
+
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">For Committers/PMCs <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/newcommitter.html">Recruiting New Committers</a></li>
+                  <li><a href="/committers/">Useful Information for Committers</a></li>
+                  <li><a href="/committers/consensusBuilding.html">Consensus Building</a></li>
+                  <li><a href="/committers/lazyConsensus.html">Lazy Consensus</a></li>					
+                  <li><a href="/committers/decisionMaking.html">Decision Making</a></li>
+                  <li><a href="/committers/voting.html">Voting</a></li>
+                  <li><a href="/committers/funding-disclaimer.html">Funding Campaign Disclaimer</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mentoring <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/mentoringprogramme.html">Mentoring Program</a></li>
+                  <li><a href="/mentorprogrammeformaleducation.html">Mentoring in Formal Education</a></li>
+                  <li><a href="/mentorprogrammeapplication.html">Applying for the Mentoring Program</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Additional Resources</li>
+                  <li><a href="/guide-to-being-a-mentor.html">Guide to being a Mentor</a></li>
+                  <li><a href="/mentor-request-mail.html">Mentor Request Email Example</a></li>
+                  
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Events <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+				  <li><a href="http://apachecon.com/">ApacheCon - The official event of the ASF</a></li>
+                  <li><a href="/calendars/">Major Apache-related Events</a></li>
+                  <li><a href="http://www.apache.org/events/meetups.html">Upcoming Apache-related meetups</a></li>
+                  <li><a href="http://www.apache.org/foundation/marks/events">Apache event branding policies</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Speakers</li>
+                  <li><a href="/speakers/">Speaker Information</a></li>
+                  <li><a href="/speakers/speakers.html">Finding Speakers / Listing Yourself as a Speaker</a></li>
+                  <li><a href="/speakers/slides.html">Apache-related Slides</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Join the Conversation<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="https://www.facebook.com/ApacheSoftwareFoundation">Facebook</a></li>
+                  <li><a href="http://twitter.com/ApacheCommunity">Twitter</a></li>
+                  <li><a href="/lists.html">Mailing List</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <div class="container">
+    <section id="content" class="row">
+      <div class="span9">
+        <h3 class="muted">The Apache Software Foundation</h3>
+      </div>
+      <div class="span3 pull-right">
+        <div class="gcse-search"></div>
+  	  </div>
+      <div class="span12"><h4 class="muted">Community &gt; Code</h4></div>
+    </section>
+    
+
+<ul class="breadcrumb">
+    <li><a href="/">Home</a> <span class="divider">/</span></li>
+    
+        
+        
+    
+        
+        
+            <li><a href='/proposals'>Proposals</a> <span class="divider">/</span></li>
+            
+        
+    
+        
+        
+            <li><a href='/proposals/ZestProposal.html'>Zest proposal</a> <span class="divider">/</span></li>
+            
+        
+    
+</ul>
+
+    <hr>
+    
+	<p>title: Zest Proposal</p>
+<h1 id="abstract">Abstract</h1>
+<pre><code>     qi4j = new Energy4Java();
+</code></pre>
+<p>That is how to create the Qi4j runtime, and it captures the essence of its spirit.
+Qi4j is a platform to develop Composite Oriented Programming applications in Java in a new, exciting and productive manner.</p>
+<h1 id="governance-of-provisional-top-level-project">Governance of Provisional Top Level Project</h1>
+<p>Provisional Top Level Project is a new idea at the ASF, and the Qi4j community is willing to try the idea, instead of simply debating it. If it doesn&rsquo;t work, Qi4j will re-enter via the Incubator.</p>
+<p>In addition of regular Top Level Projects, we are making the following self-imposed suggestions to the Governance of this Provisional TLP;</p>
+<ol>
+<li>
+<p>The initial PMC consists only of Apache Members, to ensure a solid foundation of understanding The Apache Way.</p>
+</li>
+<li>
+<p>On top of being an ASF Member, the PMC Chair is an active contributor to the project, and has a vested interest in its success.</p>
+</li>
+<li>
+<p>Raising the consensus of Releases from 3 +1 votes to 5 +1 votes.</p>
+</li>
+<li>
+<p>Disclaimer on website and releases, marked with &ldquo;Provisional&rdquo; and links to the pTLP status at the ASF.</p>
+</li>
+<li>
+<p>Maturity of project into a regular Top Level Project is decided separately by the Board, with input from PMC and ComDev.</p>
+</li>
+</ol>
+<h1 id="project-naming">Project Naming</h1>
+<p>Apache Zest is the proposed project name, as we have learned that &ldquo;4j&rdquo; in names might ultimately limit the future direction of the project.
+Additionally, Qi4j will remain as the Java implementation of the composite oriented programming platform. There is also a literal port to .NET, which may be migrated to ASF as well.</p>
+<h1 id="project-description">Project Description</h1>
+<p>Qi4j is a platform that combines Aspects, Composition, Dependency Injection, Validation, Storage/UnitOfWork handling, Indexing/Search abstraction, Architectural enforcement and much more, in a holistic top-down approach, primarily for Domain-rich applications, even explicitly supportive of Domain Driven Design.</p>
+<p>Composite oriented programming is a term coined in the early days of Qi4j, to capture the notion of using another paradigm for creating applications, than the prevalent object oriented programming one.
+It comprises of the ability to write smaller parts of code than regular classes, and compose these so called fragments into a larger &ldquo;Composite&rdquo;. It is similar to aspect-oriented programming, but we take it one step further, there is no base class. The Composite consists of fragments, but no fragment has higher significance than any other fragment. However, there are explicit types of fragments, namely Composite Types, Constraints, Mixins, Concerns and Side-effects, to clearly communicate &ldquo;Intent&rdquo;. The macro level composition takes the form of Applications has Layers which contains Modules in which the Composite Types are declared.</p>
+<p>Qi4j also evangelizes strong typing, so the equivalent of Around-Advice in AOP, which is called Concerns, can be made type-safe or like AOP be generic (using java.lang.reflect.InvocationHandler interface). Composites can either be hard coded using annotations, or assembled dynamically during the bootstrap phase.</p>
+<p>Qi4j is a whole new way to write Java applications, where focus lies on structures and interfaces, where classes are &lsquo;mere&rsquo; implementation details.</p>
+<p>Qi4j boldly challenges bad practices head-on, such as &ldquo;What is a Property?&quot;, &ldquo;Why are null arguments allowed by default?&rdquo; and &ldquo;Is the structural assembly of the application actually the same as configuration values?&rdquo;</p>
+<h1 id="background">Background</h1>
+<p>Java is NOT an object-oriented language. Neither is C# or C++. IF they were, how come an Object is DERIVED FROM a Class? A true object-oriented language should for sure have Class(es) assigned to Objects (or a similar construct), which are created &lsquo;clean&rsquo;, like stem cells can take on practically any cell&rsquo;s role of the body.</p>
+<p>Additionally, in real life, most objects have different properties and behaviors depending on the context. In front of the computer, I am primarily a &lsquo;programmer&rsquo;, but in the jungle I am primarily &lsquo;scared prey&rsquo;. Modeling this in Java (and many other languages) requires the introduction of additional Object abstractions, often resulting in many similar classes representing the same underlying entity, again reinforcing our view that Java is a Class Oriented language.</p>
+<p>Many problems in software engineering can be attributed to (lack of) cohesion and (too tight) coupling. The original promise was that we write a Class once and we can re-use it in many different applications, subsystems and modules. In reality, the Class often contains &ldquo;too much&rdquo; for the next use-case. The granularity is too coarse, causing too much coupling to other parts. This have resulted in libraries being the smallest granularity that is practical, and solutions like OSGi, Spring and others have emerged to tackle the many issues that may arise from this, from dependency injection to configuration to assembly to runtime resolution of versioning.</p>
+<p>But we often wish that we could have smaller fragments and COMPOSE objects from these fragments. This also makes it easier to replace parts of implementations, instead of fragile overloading, library extension (assuming the library author provides that) and the famous monkey patching approach.</p>
+<p>Aspect Oriented Programming is a concept to capture cross-cutting concerns in one place. Classic cases are Logging and Authentication. This is an excellent concept, but we claim that AspectJ/AspectWerkz and others fail in the implementations, as most rely on naming conventions and declarations separated from the code itself. It is therefor often difficult to know what aspects are in effect at a given point in the code. The code weaving involved sometimes interferes with debugging and/or classloading in environments like OSGi. AOP is often only used by frameworks to &ldquo;enhance&rdquo; code supplied by a third-party developer, and less often being part of the downstream developer&rsquo;s daily life.</p>
+<p>Many people have architecture/design drawings, often with layers in the application, with modules within those layers. We call this Worditecture, as those layers and modules only exist in Word documents and if the code is inspected, more often than not, it is impossible to relate the code to such drawings. In Qi4j, we set out to enforce the Application Structure. Entities, Values and Services must be declared inside one or more Modules, and Modules belong inside Layers, and Layers are stacked on top of each other. The Entities, Values and Services have Visibility of either &lsquo;within Module&rsquo;, &lsquo;within Layer&rsquo; or &lsquo;to Layer directly above&rsquo;. This leads to less configuration and inability to mess up the codebase completely.</p>
+<h1 id="history">History</h1>
+<p>The principles of composite oriented programming are the brain child of Rickard Öberg going back to ~2003. In early 2007, Niclas Hedhman convinced Rickard to start a new open source project around this, and Qi4j was born. First announced at Oredev conference in November 2007.</p>
+<p>Over the years, 28 people have contributed source to the project and many others have chimed in on mailing lists around direction, concepts and design. When Qi4j had the attention of media and others, we were not able to build long-term community around the project, and we have seen activity declined, as fewer itches to scratch and fewer people willing to make larger changes.</p>
+<h1 id="rationale-for-migrating-to-asf">Rationale for migrating to ASF</h1>
+<p>Qi4j community sees direct productivity gains from using the platform, although the initial learning curve is quite overwhelming, like learning a new language. The Qi4j community recognizes that it has not been able to communicate the benefits well enough, to achieve a large user and developer community. We are confident of Qi4j&rsquo;s technical merit, and would like to draw on ASF&rsquo;s community merit to build a larger, sustainable and successful community around this exciting technology.</p>
+<p>The technical merit stems from that Qi4j has a strong model for programming in a more strict, yet more productive environment. A platform where fragments can be leveraged, where aspects are declared on the interfaces, where null values are not allowed by default, and where persistence is integrated yet pluggable at boot time. Qi4j enforces the use of modules and layers, the infrastructure layer can not access layers above it, and presentation layers at the top can&rsquo;t bypass service layers to directly access data stores.
+All these restrictions are  there to provide more guidance to the programmer, reducing the length of the rope and the number of trees to hang oneself in.</p>
+<p>&ldquo;Common things should be quick and easy, while anything should be possible&rdquo;, has been the mantra since the inception. And thanks to this foresight, Qi4j can be deeply integrated with many (but not all) existing Java technologies, to provide for migration paths.</p>
+<p>Qi4j internally contains a lot of functional structures, and the community is currently migrating Qi4j to Java 8, reducing a chunk of the codebase in the process, and will likely discover new ways of simplicity. Many argue that Qi4j should become its own programming language, but our position has always been that the refactoring tools available in Java are so powerful and should not be under-estimated. It would take endless amount of effort to even get close to that, something that many other language platforms are still struggling with.</p>
+<h1 id="initial-goals">Initial Goals</h1>
+<p>Qi4j is already on version 2.0, and striving towards both a 2.1 release as well as a Java 8 specific 3.0 release. This will be one of the first &ldquo;Java 8&rdquo;-only projects at the ASF, and hopefully a lot of people find this in itself attractive and exciting.</p>
+<p>Qi4j&rsquo;s user base is relatively small, but we are convinced of its remarkable properties as a productivity enhancing platform, and there is still much to do to reach its full potential. There are a lot of low hanging fruit (more extensions and libraries) as well as serious design challenges, such as reloadable Modules via OSGi and Jigsaw integration in Java 9.</p>
+<p>As mentioned above, the small agreeable user base also means that Qi4j can be much more aggressive in adopting newer Java versions, and currently an effort is on the way to leverage Java 8. The Stream API and closures are implemented separately in Qi4j, and we are now converting all the internal code to those features supplied in Java 8, to reduce the total code size of Qi4j Core.</p>
+<h1 id="meritocracy">Meritocracy</h1>
+<p>Qi4j has been developed under heavy influence of ASF principles and guidelines. The barrier to entry has been at the lowest possible level. A rather aggressive Commit-then-Review process has been in place, but people have in general been encouraged to do larger changes in publicly visible feature branches. The low barrier hasn&rsquo;t created any major problems yet, as reverting mistakes are relatively cheap, and it has been much more important to capture the long-tail of contributions than to avoid occasional bad commits.</p>
+<p>Qi4j is not operated by any organization, and all licensing is directly from developer to the user. We will engage the legal committee to ensure the IP rights are in full order.</p>
+<p>Qi4j&rsquo;s release process has not been nearly as stringent as the one at ASF, and will be the biggest change to the community. We will work closely with willing &ldquo;Overseers&rdquo; (see below), change our Gradle-based build system and use available tools, such as Rat, to ensure the highest quality releases possible.</p>
+<h1 id="community">Community</h1>
+<p>The current Qi4j developer community is rather small, but passionate individuals who are all convinced of Qi4j&rsquo;s merit and potential. We also think that some of the past developers will re-join the effort, once we are at ASF and some traction is attained.</p>
+<p>Over the years there has been 28 code contributors in total, of which 8 have been considered Core Developers, i.e. allowed to make changes on the Core runtime on trunk without hand-holding. No access control was in place to enforce that, and a social contract worked very well.</p>
+<p>We are probably not the best of community builders, and would welcome members from ASF projects, who think Qi4j is promising, to assist in the community building effort needed.</p>
+<h1 id="active-developers">Active Developers</h1>
+<p>All the active developers are independent of each other. No two developers work for the same employer, and no employer pays anyone for working full-time on Qi4j. We consider the following developers &lsquo;active&rsquo; at the moment, one way or the other. It is a very diverse group;</p>
+<ul>
+<li>
+<p>Niclas Hedhman is an ASF Member, previous long-term member of the Incubator PMC and mentor of 5-10 projects. Freelancing consultant and founder of Bright Things UN Ltd</p>
+</li>
+<li>
+<p>Marcel Offermans is an ASF Member, PMC Chair of Apache ACE and on Celix, Felix and Incubator PMC, mentor of several podlings. Day time he runs Luminis Technologies in Holland.</p>
+</li>
+<li>
+<p>Rickard Oberg is one of the founders of JBoss, created Xdoclet and WebWork (now Apache Struts2). He now works at Neo Technology Inc, creators of Neo4j.</p>
+</li>
+<li>
+<p>Paul Merlin is working at his own company CodeArtisans and a volunteer stone mason of antique walls and buildings.</p>
+</li>
+<li>
+<p>Stanislav Muhametsin is working at Cometa Solutions Oy. Stan has also ported Qi4j verbatim to C# as the Qi4CS project on GitHub.</p>
+</li>
+<li>
+<p>Tibor Mlynarik works at ADLER iTech.</p>
+</li>
+<li>
+<p>Edward Yakop technical architect at ABB Malaysia.</p>
+</li>
+<li>
+<p>Marc Grue is a professional musician, but has strong interest in computer science abstractions.</p>
+</li>
+<li>
+<p>Kent Sølvsten is working with energy systems at Arosii A/S in Denmark&hellip;</p>
+</li>
+<li>
+<p>Philippe van Dyck is in the banking industry and works at BNP Paribas</p>
+</li>
+<li>
+<p>Jiri Jetmar - Independent consultant</p>
+</li>
+<li>
+<p>Jaydatt Desai - Logicom Solutions</p>
+</li>
+</ul>
+<p>Additional important contributions over the years have come from;</p>
+<ul>
+<li>Alex Schneyderman - Voalté</li>
+<li>Alin Dreghiciu - Sonatype</li>
+<li>Arvid Huss - Jayway</li>
+<li>Michael Hunger - Neo Technology Inc</li>
+<li>Tonny Kohar - independent Apache Batik and SVG consultant</li>
+</ul>
+<h1 id="alignment">Alignment</h1>
+<p>Apache is a natural option for any Java project, as ASF has an overwhelming percentage of Java projects.
+But for Qi4j, we think that our choice to challenge every notion, not based on popularity but on technical merit, should be inspiring to existing ASF projects at large. And by doing so, we hope symbiotic relationships can be established with a variety of other projects at ASF.</p>
+<p>Qi4j is not &ldquo;finished&rdquo; and a lot of work in the Big Data space is still needed. We would like to see HBase and Cassandra use-cases to be &ldquo;Tackled Qi4j Style&rdquo; and practical conventions to emerge. There are several other ASF projects which Qi4j could support &lsquo;better&rsquo;, if we get a little help from those communities, incl Struts, Camel, ActiveMQ, Cayenne, Karaf and others.</p>
+<h1 id="known-risks">Known Risks</h1>
+<h2 id="orphaned-products">Orphaned products</h2>
+<p>Qi4j is not a company product and never was. It was started by two individuals who have a long and strong community involvement dating back to 1998, also the time when they first learned to know each other.</p>
+<p>If the community can&rsquo;t be built at ASF, then we think that there must be something about Qi4j that is inherently alien to developers, and Qi4j has no broader appeal, beyond those who have both seen the advantages as well as gotten the opportunity to work with it and see for themselves the benefits. We will work hard to ensure the long-term sustainability of the project, because we think that Qi4j represents an important step towards a paradigm shift in software development.</p>
+<h2 id="inexperience-with-open-source">Inexperience with Open Source</h2>
+<p>Not only does Qi4j have a rather long running history of an independent open source project, 6 major releases, and a track record of operating well as such, but Niclas Hedhman was a long time member of the Incubator PMC, serving on the Legal Committee and have plenty of experience of what is required of Apache projects, as does Marcel Offermans. We wouldn&rsquo;t have proposed to move Qi4j to Apache, unless we thought that the larger Qi4j community will work well at the ASF, with a little bit of initial legal and community assistance from friends at ASF.</p>
+<p>All of Qi4j&rsquo;s history, except the initial 2-3 months, were done on open mailing lists and public repositories. The practice of full discourse and discussion on asynchronous mailing lists has been respected to the fullest extent possible, and at no time has other means of communication been regular.</p>
+<p>Full source code history may not exist, as we went from Subversion at OPS4J to GIT at OPS4J to finally GitHub, initially with sub-repositories (which didn&rsquo;t work well) to finally the qi4j-sdk repository at GitHub. History has probably broken at some point.</p>
+<p>Just like early Apache project&rsquo;s mailing list history, Qi4j&rsquo;s might be incomplete in public archives, but we should be able to restore that, from GMail archives and other mailboxes. We intend to restore the mail archive, as there are many worth-while nuggets in there.</p>
+<h2 id="homogenous-developers">Homogenous Developers</h2>
+<p>The only homogeneity of Qi4j is the individuals&rsquo; desire to go beyond the current status quo, to challenge things we do from habit, to criticize &lsquo;good practices&rsquo; and offer radically different solutions to so called mainstream developers and accepted practices.</p>
+<p>The contributors have a vast diversity in their backgrounds and interests, even a non-developer making large contributions.</p>
+<p>The group came together at Qi4j, drawn by its uniqueness and different way to address common concerns. We consider this to be a non-issue.</p>
+<h2 id="reliance-on-salaried-developers">Reliance on Salaried Developers</h2>
+<p>As far as we know, no one is currently paid to work on Qi4j itself. This has been a factor in the slow down of activity in the last two years, but we think that the bottom has been reached and that we will see an uptick during 2015, as some of the core members are coming back to write applications using Qi4j.</p>
+<h2 id="relationships-with-other-apache-products">Relationships with Other Apache Products</h2>
+<p>Qi4j is such a unique and radically different platform that there is no direct alignment in Qi4j Core with other Apache (or any other for that matter) projects. We have also kept the dependencies to a minimum by choice.
+But Qi4j also defines Extension mechanisms, such as storage, indexing, serialization and metrics, and we have implemented extensions for Apache Cassandra and Apache Solr. We also have libraries that integrate other technology into the Qi4j world, such as Apache Shiro, Apache Struts and Apache CXF. We expect that additional Apache projects will be used in future Extensions as well as Libraries, especially in the Big Data space, where we see great opportunities for a Qi4j approach.</p>
+<h2 id="excessive-fascination-with-the-apache-brand">Excessive Fascination with the Apache Brand</h2>
+<p>There is no doubt that the Apache brand is strong, no one can deny that. But our primary &lsquo;fascination&rsquo; is around the possibility to build a stronger community at the ASF, than we otherwise seem to be able to do. Apache is a natural water cooler, where open development people can share ideas and work together. We hope to inspire other Apache projects to do greater things after being exposed to Qi4j&rsquo;s unique approach to many technical challenges.</p>
+<h1 id="documentation">Documentation</h1>
+<pre><code>    Website; http://qi4j.org
+
+    Source Repository; http://github.com/Qi4j/qi4j-sdk
+
+    Current Mailing list; https://groups.google.com/forum/#!forum/qi4j-dev
+</code></pre>
+<h1 id="initial-source">Initial Source</h1>
+<p>As mentioned earlier, Qi4j started out at OPS4J community, and the codebase was initially on Subversion, then moved to OPS4J operated GIT repositories and finally we moved to GitHub. We tried to preserve history the best we could, with reasonable effort.
+So, <a href="https://github.com/Qi4j">https://github.com/Qi4j</a> contains the repositories that are relevant for the Incubator. In practice, only the qi4j-sdk is current. We suggest that the qi4j-core, qi4j-libraries and qi4j-extensions are imported but made read-only. qi4j-sandbox is imported. qi4j.github.com contains the current website, but the sources for that resides primarily inside the qi4j-sdk repository.</p>
+<h1 id="source-and-intellectual-property-submission-plan">Source and Intellectual Property Submission Plan</h1>
+<p>There are no issues that we know of. Source code is available openly and online. All code has originated directly from Qi4j contributors, marked as Apache Licensed contributions and to the best of our knowledge there is no encumbered IP issues.
+As Qi4j was never a legal entity, all contributions were directly licensed (Apache License 2.0) by the developer to the public. There is no problem reaching out to all of the authors of an overwhelming part (if not all) of the codebase and ask for paperwork, if this is necessary.</p>
+<h1 id="external-dependencies">External Dependencies</h1>
+<p>Qi4j has few dependencies, and all dependencies in all non-optional code is ASLv2 compatible. The required dependencies are;</p>
+<ul>
+<li>ASM</li>
+<li>SLF4J (To be revised)</li>
+<li>org.json (included in source form in the repository. To be revised)</li>
+</ul>
+<p>There are optional libraries and extensions that have dependencies on projects with other licenses.
+One very notable case, the Neo4j entity store extension, is worth mentioning here. At the time this extension was created, Neo4j was under the AGPL license. It is now under GPL, yet the Qi4j Neo4j extension is licensed under Apache License v2. Are we not violating the license requirements of Neo4j? No, we think not, as the contribution itself was made by Neo Technology under the Apache license. Neo Technology argued that they had the right to provide the extension under ALv2, yet whoever ran a Qi4j application with the Neo4j storage extension, would be subjected to the AGPL (now GPL) requirements. Further discussion with Legal committee is expected to follow.</p>
+<h1 id="cryptography">Cryptography</h1>
+<p>Qi4j optionally depends on projects that use cryptography. As Qi4j isn&rsquo;t an organization, and most developers live in Europe, we have not followed the US trade restrictions on Cryptography.
+Without an extensive check of all 100+ optional dependencies, Apache Shiro stands out. We need to get feedback from legal@ on what the exact requirements are, and conduct a full review.</p>
+<h1 id="required-resources">Required Resources</h1>
+<h2 id="mailing-lists">Mailing lists</h2>
+<pre><code>    private@zest.apache.org
+    dev@zest.apache.org
+    commits@zest.apache.org
+</code></pre>
+<h2 id="git-repositories">Git Repositories</h2>
+<p>We understand that Apache operates its own Git repositories, as well as having a large number of read-only mirrors at GitHub under Apache organization.</p>
+<pre><code>    https://git-wip-us.apache.org/repos/asf/qi4j.git
+    https://git-wip-us.apache.org/repos/asf/qi4j-legacy-core.git
+    https://git-wip-us.apache.org/repos/asf/qi4j-legacy-libraries.git
+    https://git-wip-us.apache.org/repos/asf/qi4j-legacy-extensions.git
+    https://git-wip-us.apache.org/repos/asf/qi4j-sandbox.git
+</code></pre>
+<h2 id="issue-tracking">Issue Tracking</h2>
+<p>We also have Jira issues we wish to import from Atlassian operated <a href="https://ops4j1.jira.com/browse/QI,">https://ops4j1.jira.com/browse/QI,</a> if possible, to</p>
+<pre><code>    https://issues.apache.org/jira/browse/ZEST
+</code></pre>
+<h1 id="initial-pmc">Initial PMC</h1>
+<ul>
+<li>Alex Karasulu - <a href="mailto:akarasulu@apache.org">akarasulu@apache.org</a></li>
+<li>James Carman - <a href="mailto:jcarman@apache.org">jcarman@apache.org</a></li>
+<li>Jeff Genender - <a href="mailto:jgenender@apache.org">jgenender@apache.org</a></li>
+<li>Marcel Offermans - <a href="mailto:marrs@apache.org">marrs@apache.org</a></li>
+<li>Chris Mattmann - <a href="mailto:mattmann@apache.org">mattmann@apache.org</a></li>
+<li>Niclas Hedhman - <a href="mailto:niclas@apache.org">niclas@apache.org</a></li>
+<li>Roman Shaposhnik - <a href="mailto:rvs@apache.org">rvs@apache.org</a></li>
+</ul>
+<h1 id="committers">Committers</h1>
+<ul>
+<li>Edward Yakop - <a href="mailto:efy@apache.org">efy@apache.org</a></li>
+<li>Jaydatt Desai - <a href="mailto:jaydattdesai@gmail.com">jaydattdesai@gmail.com</a></li>
+<li>Jiri Jetmar - <a href="mailto:juergen.jetmar@gmail.com">juergen.jetmar@gmail.com</a></li>
+<li>Kent Sølvsten - <a href="mailto:kent.soelvsten@gmail.com">kent.soelvsten@gmail.com</a></li>
+<li>Marc Grue - <a href="mailto:marcgrue@gmail.com">marcgrue@gmail.com</a></li>
+<li>Paul Merlin - <a href="mailto:paul@nosphere.org">paul@nosphere.org</a></li>
+<li>Phillipe van Dyck - <a href="mailto:pvdyck@gmail.com">pvdyck@gmail.com</a></li>
+<li>Rickard Öberg - <a href="mailto:rickardoberg@gmail.com">rickardoberg@gmail.com</a></li>
+<li>Stanislav Muhametsin - <a href="mailto:stanislav.muhametsin@cometasolutions.fi">stanislav.muhametsin@cometasolutions.fi</a></li>
+<li>Tibor Mlynarik - <a href="mailto:tibor.mlynarik@gmail.com">tibor.mlynarik@gmail.com</a></li>
+</ul>
+<h1 id="affiliations">Affiliations</h1>
+<ul>
+<li>Edward Yakop - ABB Malaysia</li>
+<li>Jaydatt Desai - Logicom Solutions</li>
+<li>Jiri Jetmar - Independent consultant</li>
+<li>Kent Sølvsten - Arosii A/S</li>
+<li>Marc Grue - Musician</li>
+<li>Marcel Offermanns - Luminis Technologies</li>
+<li>Niclas Hedhman - Bright Things UN Ltd</li>
+<li>Paul Merlin - CodeArtisans</li>
+<li>Phillipe van Dyck - BNP Paribas</li>
+<li>Rickard Öberg - Neo Technology AB</li>
+<li>Stanislav Muhametsin - Cometa Solutions Oy</li>
+<li>Tibor Mlynarik - ADLER iTech s.r.o.</li>
+</ul>
+
+
+  </div>
+  
+  <footer class="footer" align="center">
+    <div class="container">
+      <p>
+		Copyright &copy; 2020, the Apache Software Foundation. Licensed under the
+        <a rel="license" href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a>
+        <br/>
+		Apache&reg;, the names of Apache projects, and the multicolor feather logo are
+        <a href="https://www.apache.org/foundation/marks/list/">registered trademarks or trademarks</a> of the Apache
+        Software Foundation in the United States and/or other countries.
+      </p>
+    </div>
+  </footer>
+  
+  <script src="/js/jquery-1.9.1.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script>
+    (function() {
+      var cx = '012254517474945470291:vhsfv7eokdc';
+      var gcse = document.createElement('script');
+      gcse.type = 'text/javascript';
+      gcse.async = true;
+      gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+          '//www.google.com/cse/cse.js?cx=' + cx;
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(gcse, s);
+    })();
+  </script>
+</body>
+</html>

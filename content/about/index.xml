@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on Apache Comdev</title>
+    <link>https://community.apache.org/about.html</link>
+    <description>Recent content in Abouts on Apache Comdev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	<atom:link href="https://community.apache.org/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Community Development: What we do</title>
+      <link>https://community.apache.org/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/about/</guid>
+      <description>Community Development: What We Do &amp;ldquo;Community Development&amp;rdquo; Is a very broad term, and means different things to different people. The Community Development (ComDev) project provides a wide array of information, FAQs, and help to newcomers as well as existing committers, and maintains a number of helpful tools.
+ Community Development: What We Do  Mentoring For Individuals And Help Getting Around Mentoring For Projects Education + Outreach Diversity Conference Travel Assistance Tools And Code We Maintain Physical artifacts Book/Documentation Sprints   About This Website   Mentoring For Individuals And Help Getting Around  GSoC Contributors Guide Committers Guide Project Management Committees  Mentoring For Projects  Incubator Mentors - Many folks here are IPMC members or mentors too TLPs and sub-projects Project Community Ombudsman - get community advice on dev@community  Education + Outreach  ApacheCon Partnered Industry Events (FOSDEM etc.</description>
+    </item>
+    
+  </channel>
+</rss>

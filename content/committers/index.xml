@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Committers on Apache Comdev</title>
+    <link>https://community.apache.org/committers.html</link>
+    <description>Recent content in Committers on Apache Comdev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	<atom:link href="https://community.apache.org/committers/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Committer resources</title>
+      <link>https://community.apache.org/committers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/committers/</guid>
+      <description>There are a number of useful Apache tools and services available for Apache projects and committers. This is a brief set of pointers or signposts to information elsewhere.
+Apache Infrastructure Information The primary portal for Apache Infra questions - how Subversion/Git/Websites, etc. work at the ASF - is the http://www.apache.org/dev/ pages.
+If you&amp;rsquo;re a committer, you can patch this very website yourself!
+Decision making Decisions in Apache projects are the result of:</description>
+    </item>
+    
+    <item>
+      <title>Consensus Building</title>
+      <link>https://community.apache.org/committers/consensusBuilding.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/committers/consensusBuilding.html</guid>
+      <description>In some cases there is no obvious path to take, or you might be a new community, or a new member of an existing community. In these cases people will often need to build consensus by making proposals and eliciting responses.
+We want to avoid unnecessary discussion and the creation of significant amounts of unnecessary mail that everyone in the community needs to read. That is not to say that we want to avoid constructive discussion.</description>
+    </item>
+    
+    <item>
+      <title>Decision Making</title>
+      <link>https://community.apache.org/committers/decisionMaking.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/committers/decisionMaking.html</guid>
+      <description>The most important thing about engaging with any Apache project is that everyone is equal. All people with an opinion are entitled to express that opinion and, where appropriate, have it considered by the community.
+To some the idea of having to establish consensus in a large and distributed team sounds inefficient and frustrating. Don&amp;rsquo;t despair though, The Apache Way has a set of simple processes to ensure things proceed at a good pace.</description>
+    </item>
+    
+    <item>
+      <title>Funding campaign disclaimer</title>
+      <link>https://community.apache.org/committers/funding-disclaimer.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/committers/funding-disclaimer.html</guid>
+      <description>Some Apache committers have successfully run funding campaigns to work on their favorite Apache projects.
+This is ok in principle but you have to make it clear that the campaign is your own thing, and avoid any confusion about the role of the ASF and how its projects work.
+This page gives a few examples of that.
+If you have any question about this, feel free to ask on our dev@community.</description>
+    </item>
+    
+    <item>
+      <title>Lazy Consensus</title>
+      <link>https://community.apache.org/committers/lazyConsensus.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/committers/lazyConsensus.html</guid>
+      <description>The concept of &amp;ldquo;Lazy Consensus&amp;rdquo; is very important in our project. Lazy Consensus means that when you are convinced that you know what the community would like to see happen you can simply assume that you already have consensus and get on with the work. You don&amp;rsquo;t have to insist people discuss and/or approve your plan, and you certainly don&amp;rsquo;t need to call a vote to get approval. You just assume you have the communities support unless someone says otherwise.</description>
+    </item>
+    
+    <item>
+      <title>Voting</title>
+      <link>https://community.apache.org/committers/voting.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/committers/voting.html</guid>
+      <description>Occasionally a &amp;ldquo;feel&amp;rdquo; for consensus is not enough. Sometimes we need to have a measurable consensus. For example, when voting in new committers or to approve a release.
+Preparing for a Vote Before calling a vote it is important to ensure that the community is given time to discuss the upcoming vote. This will be done by posting an email to the list indicating the intention to call a vote and the options available.</description>
+    </item>
+    
+  </channel>
+</rss>

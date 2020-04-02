@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Newcomers on Apache Comdev</title>
+    <link>https://community.apache.org/newcomers.html</link>
+    <description>Recent content in Newcomers on Apache Comdev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	<atom:link href="https://community.apache.org/newcomers/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Welcome, Apache newcomers!</title>
+      <link>https://community.apache.org/newcomers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/newcomers/</guid>
+      <description>In this section we hope to help you take your first steps as an open source developer in one of our many Apache project communities. As an all-volunteer run organization, Apache and the many Apache projects rely on people like you stepping up to help out.
+ Where do I start? - a guide to your first engagement with an Apache project How should I behave? - etiquette and codes of conduct at Apache What can I work on?</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+  <meta name="description" content="Apache Community Development"/>
+  <meta name="keywords" content="apache, apache community, community development, opensource"/>
+
+  <title>Apache Community Development - MentoringProgramme</title>
+  <link rel="shortcut icon" href="images/favicon.ico">
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="/css/bootstrap-responsive.css" rel="stylesheet">
+  <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+	   
+	   .gsc-search-box input.gsc-input, .gcse-search-box input.gsc-input:focus { -webkit-box-shadow:none; box-shadow:none; -moz-box-shadow:none; border-radius:0px; }
+		 
+		 .container { margin-top:5px; }
+  </style>
+</head>
+
+<body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="/">Home</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">About<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/about/">What We Do</a></li>
+                  <li><a href="/newbiefaq.html">Frequently Asked Questions</a></li>
+                  <li><a href="/projectIndependence.html">Apache Project Independence</a></li>
+                  <li><a href="/apache-way/apache-project-maturity-model.html">Apache Project Maturity Model</a></li>
+                  <li><a href="/contactpoints.html">Contact Points Within the ASF</a></li>
+                  <li><a href="/comdevboardresolution.html">ComDev Original Board Resolution</a></li>
+                  <li><a href="https://whimsy.apache.org/board/minutes/Community_Development.html">ComDev Board Reports</a></li>
+                  <li><a href="/links.html">Links to additional material</a></li>
+                  <li><a
+                  href="https://issues.apache.org/jira/projects/COMDEV">Community
+                  Development JIRA</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">For Contributors <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/newcomers/">Newcomers</a></li>
+                  <li><a href="/gettingStarted/101.html">Getting Started</a></li>
+                  <li><a href="/contributors/">Finding Your Way Around The Apache Software Foundation</a></li>
+				  <li><a href="http://www.apache.org/dev/">Technical Developer FAQs</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Google Summer of Code</li>
+                  <li><a href="/gsoc.html">Google Summer Of Code Information</a></li>
+                  <li><a href="/mentee-ranking-process.html">Mentee Ranking Process</a></li>
+                  <li><a href="/mentoring/experiences.html">Past GSoC Experiences</a></li>
+                  <li><a href="/guide-to-being-a-mentor.html">Guide to being a Mentor</a></li>
+                  <li><a href="/use-the-comdev-issue-tracker-for-gsoc-tasks.html">Using ComDev's JIRA for GSoC Ideas</a></li>
+                  <li><a href="/gsoc-admin-tasks.html">Tasks of a GSoC Admin at the ASF</a></li>
+
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">For Committers/PMCs <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/newcommitter.html">Recruiting New Committers</a></li>
+                  <li><a href="/committers/">Useful Information for Committers</a></li>
+                  <li><a href="/committers/consensusBuilding.html">Consensus Building</a></li>
+                  <li><a href="/committers/lazyConsensus.html">Lazy Consensus</a></li>					
+                  <li><a href="/committers/decisionMaking.html">Decision Making</a></li>
+                  <li><a href="/committers/voting.html">Voting</a></li>
+                  <li><a href="/committers/funding-disclaimer.html">Funding Campaign Disclaimer</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mentoring <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/mentoringprogramme.html">Mentoring Program</a></li>
+                  <li><a href="/mentorprogrammeformaleducation.html">Mentoring in Formal Education</a></li>
+                  <li><a href="/mentorprogrammeapplication.html">Applying for the Mentoring Program</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Additional Resources</li>
+                  <li><a href="/guide-to-being-a-mentor.html">Guide to being a Mentor</a></li>
+                  <li><a href="/mentor-request-mail.html">Mentor Request Email Example</a></li>
+                  
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Events <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+				  <li><a href="http://apachecon.com/">ApacheCon - The official event of the ASF</a></li>
+                  <li><a href="/calendars/">Major Apache-related Events</a></li>
+                  <li><a href="http://www.apache.org/events/meetups.html">Upcoming Apache-related meetups</a></li>
+                  <li><a href="http://www.apache.org/foundation/marks/events">Apache event branding policies</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Speakers</li>
+                  <li><a href="/speakers/">Speaker Information</a></li>
+                  <li><a href="/speakers/speakers.html">Finding Speakers / Listing Yourself as a Speaker</a></li>
+                  <li><a href="/speakers/slides.html">Apache-related Slides</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Join the Conversation<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="https://www.facebook.com/ApacheSoftwareFoundation">Facebook</a></li>
+                  <li><a href="http://twitter.com/ApacheCommunity">Twitter</a></li>
+                  <li><a href="/lists.html">Mailing List</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <div class="container">
+    <section id="content" class="row">
+      <div class="span9">
+        <h3 class="muted">The Apache Software Foundation</h3>
+      </div>
+      <div class="span3 pull-right">
+        <div class="gcse-search"></div>
+  	  </div>
+      <div class="span12"><h4 class="muted">Community &gt; Code</h4></div>
+    </section>
+    
+
+<ul class="breadcrumb">
+    <li><a href="/">Home</a> <span class="divider">/</span></li>
+    
+        
+        
+    
+        
+        
+            <li><a href='/mentoringprogramme.html'>Mentoringprogramme</a> <span class="divider">/</span></li>
+            
+        
+    
+</ul>
+
+    <hr>
+    
+	<p>Many projects in the ASF are able to provide mentors for newcomers. In
+fact, most projects are happy to assist newcomers to their projects as part
+of their normal operations. However, some people are looking for more
+structure. The Mentor Programme of the The Apache Software Foundation
+provides additional support and structure for people looking to make an
+initial contribution to an ASF project.</p>
+<p>The mentoring programme is not here to teach you to write documentation or
+code. It is here to help you understand how to make a valuable contribution
+to an Apache project. You can expect to be guided through our contribution
+processes. You can also expect to get technical support with respect to
+your chosen project. You cannot expect your mentor to be a &ldquo;teacher&rdquo;, they
+will provide enough information for you to progress within the project. You
+need to bring the confidence to take their guidance and discover the detail
+for yourself.</p>
+<p>This page is a description of the Mentoring Programme. The program is open
+for business, but, like many other things at the Foundation, it under
+constant improvement and revision. Therefore, the description below is
+marked &lsquo;draft.&rsquo;</p>
+<p><a name="MentoringProgramme-QuickDefinitions"></a></p>
+<h1 id="quick-definitions">Quick Definitions</h1>
+<p>The ASF believes that the best way for people (and, indeed, entire
+projects) to join the community is with the help of committed members of
+the community. A community member who makes a commitment to help a new
+contributor get started is a <em>mentor</em>. The new person, on the other hand,
+is a <em>mentee</em>. Believe it or not, that is the word in the dictionary for
+this role.</p>
+<p>The Foundation is organized into a series of Top Level Projects, or TLPs.
+The document uses &lsquo;TLP&rsquo; when it is referring to an ASF project. It uses the
+word &lsquo;project&rsquo; to refer to a the work a mentee does under the Mentoring
+Programme.</p>
+<p><a name="MentoringProgramme-Whocanbeamentee?"></a></p>
+<h1 id="who-can-be-a-mentee">Who can be a mentee?</h1>
+<p>The Mentor Programme is intended to assist people in becoming contributors
+to ASF projects. Thus, anyone interested in contributing effort to an ASF
+project is a potential mentee. You need to be a self starter, your mentor
+will not take responsibility for &ldquo;managing&rdquo; your work here. Everyone who
+contributes to an Apache project does so on a voluntary basis, there are no
+managers here - only helpful peers.</p>
+<p>Mentoring is a significant volunteer effort, over and above what the mentor
+is already doing for the project. Therefore, the programme asks mentees to
+make a material commitment of time to the process. There are no legally
+binding commitments involved, but a mentee must, as described below, submit
+a plan for a significant effort and show ongoing progress.</p>
+<p>It is important to reiterate that all work on ASF projects is on a
+volunteer basis. The Foundation does not pay anyone to mentor or
+contribute.</p>
+<p><a name="MentoringProgramme-ApplyingfortheMentorProgramme"></a></p>
+<h2 id="applying-for-the-mentor-programme">Applying for the Mentor Programme</h2>
+<p>There are two simple steps to apply:</p>
+<ol>
+<li>Review the content below to learn about the details of the requirements.</li>
+<li><a href="mentorprogrammeapplication.html">Fill out the application form</a></li>
+</ol>
+<p>If you are a student and wish to apply to the mentoring programme as part
+of your formal education there are some <a href="mentorprogrammeformaleducation.html">additional requirements</a>
+that you must fulfill, along with your tutor.</p>
+<p><a name="MentoringProgramme-Draft:TheASFMentoringProgramme"></a></p>
+<h1 id="draft-the-asf-mentoring-programme">Draft: The ASF Mentoring Programme</h1>
+<p>The Mentoring Programme is structured around mentee projects. Each mentee
+project is a coherent task contributing to one of the ASF&rsquo;s ongoing TLPs.</p>
+<p>The Mentoring Programme does not work on a fixed calendar. Project start as
+mentees and mentors are matched. Typically a project will last around three
+months, but mentors and mentees are free to negotiate longer or shorter
+periods of work.</p>
+<p>The work of a mentee project can be code or documentation, so long as it
+contributes to an existing Foundation project. Individual research or
+prototyping projects are not acceptable &ndash; working with an ASF project
+community is an essential part of the process.</p>
+<p><a name="MentoringProgramme-SettingupaMentoringProject"></a></p>
+<h2 id="setting-up-a-mentoring-project">Setting up a Mentoring Project</h2>
+<p>The first step is for a potential mentee to make contact with the Mentoring
+Programme. Several of the following steps call for interactions with
+potential mentors and target projects, and the Mentoring Programme mailing
+list is the appropriate forum.</p>
+<p>Next, a potential mentee should identify a Foundation TLP that he or she
+would like to contribute to, and seek out a suitable project. The mentee
+can propose an idea for a project, or ask the community for suggestions, or
+ask the mentors for suggestions.</p>
+<p>Given a target project and a rough idea for a task, the proposed mentee
+must create a written proposal for the task, send it to the project&rsquo;s
+development list for review, to ask for a sponsoring mentor. The sponsoring
+mentor will be a member of the TLP.</p>
+<p>This will lead to some negotiations with the project and a potential
+mentor. If these negotiations succeed, the mentor and mentee agree to a
+schedule and time commitment.</p>
+<p>The plan must include a mid-project checkpoint as described below.</p>
+<p>The mentor submits the agreed plan to the Programme, gets an acknowledgment
+from the Apache Mentoring Programme admin,
+and adds the project to the Mentoring Wiki as an &ldquo;In Progress&rdquo; Project.</p>
+<p>The mentee sets up a wiki page for the project on the development Wiki,
+linked from the Mentoring page.</p>
+<p>The mentee joins the development community of the TLP and sets to work.</p>
+<p><a name="MentoringProgramme-WorkingontheProject"></a></p>
+<h2 id="working-on-the-project">Working on the Project</h2>
+<p>During the course of the project, the mentee is a member of the TLP
+community. This has implications for both the mentee and the
+TLP.</p>
+<p>All Apache Software Foundation TLPs share some basic rules and conventions
+for their operations. Each TLP has its own specific
+conventions. The details of the ASF&rsquo;s conventions are beyond the scope of
+this document, but a few principles bear repeating:</p>
+<ul>
+<li>Polite, respectful discourse.</li>
+<li>Open, transparent, discussions and decision-making.</li>
+<li>Open Source!</li>
+</ul>
+<p>During the course of the work, the mentor is responsible for helping the
+mentee navigate the process. If the mentee has questions, the
+mentor answers or helps extract an answer from the community. If the mentee
+has any problem in working with the community, the
+mentor is available via email for private consultation. On the other hand,
+The mentor is not intended to replace mentee background work.
+Mentees must still read code, read email archive, and do any other work
+needed.</p>
+<p>Mentees have one additional responsibility over and above the usual work of
+a contributor to a TLP: to give back to the Mentor Programme.
+Mentees must document their work and experiences on the Mentor Programme
+wiki, to help the programme improve the process.</p>
+<p>In particular, mentees should document their code changes for possible
+review. This can come in the form of subversion revision numbers or JIRAs.
+For projects that are set up with FishEye, the Mentor Programme may set up
+a JIRA project, and open a JIRA for each mentee. The
+mentee can then ask committers to include their JIRA in commit comments and
+thus set up automatic tracking.</p>
+<p><a name="MentoringProgramme-TheMid-ProjectReview"></a></p>
+<h2 id="the-mid-project-review">The Mid-Project Review</h2>
+<p>The Mentoring Programme reviews all projects at the half-way point. The
+input to the programme review is a pair of reports: one  from the mentor
+and from the mentee. These are public documents.</p>
+<p>The mentor&rsquo;s report must summarize progress and make a recommendation for
+the
+disposition of the project: continue to completion, or stop. The report
+must also describe any changes to the project&rsquo;s scope.</p>
+<p><a name="MentoringProgramme-ScopeandScheduleChanges"></a></p>
+<h2 id="scope-and-schedule-changes">Scope and Schedule Changes</h2>
+<p>Inevitably, ugly facts will conflict with plans and intentions. Mentors and
+mentees can agree to change the scope of a project and document the change
+on the wiki and, as appropriate, on reports. The programme does not
+encourage scope changes as a solution if the mentee is
+unwilling to put in the time and effort to carry out the project. In such a
+case, it is preferable to terminate the project. However,
+nothing is completely black and white.</p>
+<p>Similiarly, the programme prefers that projects end on their original
+schedule, rather than drag out indefinitely.
+If a mentee has made good progress on a substantial project over several
+months, all while participating in the TLP community,
+it is very likely that they are ready to continue without the help of a
+mentor. Their Mentor Programme project can end in good
+order even though coding continues.</p>
+<p><a name="MentoringProgramme-FinishuptheProject"></a></p>
+<h2 id="finish-up-the-project">Finish up the Project</h2>
+<p>Every project ends, either when the work is done. or when the agree time
+period is over. At the end, the mentee updates the Wiki page with a final
+summary of their work.</p>
+<p>The mentor submits a final progress report and determination of whether the
+project should be marked complete or incomplete.
+The admin acks the review and moves the project to completed or incomplete
+as appropriate on the Mentoring Wiki.</p>
+<p>Relevant certification is issued to both the mentor and mentee by the admin
+team.</p>
+<p><a name="MentoringProgramme-RolesandExpectations"></a></p>
+<h2 id="roles-and-expectations">Roles and Expectations</h2>
+<p><a name="MentoringProgramme-Mentee"></a></p>
+<h3 id="mentee">Mentee</h3>
+<ul>
+<li>The mentee is any individual interested in getting involved in open
+source.</li>
+<li>The mentee is expected to dedicate a pre-agreed amount of time each week
+to the project. Failure to
+commit the agreed time is likely to result in failure on the programme,</li>
+<li>The mentee is expected to complete the project as described in the
+proposal or make necessary scope adjustments with their mentor.</li>
+<li>The mentee is expected to maintain a Wiki page recording their progress,
+which upon completion will present a final summary of their work with links
+to code changes.</li>
+<li>The mentee is responsible for submitting progress reports at the half way
+and completion points of the programme.</li>
+</ul>
+<p><a name="MentoringProgramme-Mentor"></a></p>
+<h3 id="mentor">Mentor</h3>
+<ul>
+<li>The mentor must be a committer on the project accepting the mentees
+contributions.</li>
+<li>The mentor is expected to dedicate at least 1/4 of the mentee time per
+week to support.</li>
+<li>The mentor is expected to process supplied patches within reasonable
+timeframes.</li>
+<li>The mentor is expected to ensure appropriate assitance is available from
+the project community.</li>
+<li>The mentor is responsible for submitting progress reports at the half way
+and completion points of the programme.</li>
+</ul>
+<p><a name="MentoringProgramme-Admin"></a></p>
+<h3 id="admin">Admin</h3>
+<ul>
+<li>The Apache Mentoring Program admin(s) will liaise with ASF projects to
+maintain a JIRA list of projects that are available and in progress.</li>
+<li>The admin(s) will assist with matching mentees with mentors</li>
+<li>The admin(s) will approve proposals and progress reports, but generally
+won&rsquo;t do an in depth technical review but will rely on the mentor&rsquo;s
+assessment.</li>
+<li>The admin(s) will mediate any dispute between mentee and mentor regarding
+assessments/etc if the project community is unable to reach a resolution</li>
+</ul>
+
+
+  </div>
+  
+  <footer class="footer" align="center">
+    <div class="container">
+      <p>
+		Copyright &copy; 2020, the Apache Software Foundation. Licensed under the
+        <a rel="license" href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a>
+        <br/>
+		Apache&reg;, the names of Apache projects, and the multicolor feather logo are
+        <a href="https://www.apache.org/foundation/marks/list/">registered trademarks or trademarks</a> of the Apache
+        Software Foundation in the United States and/or other countries.
+      </p>
+    </div>
+  </footer>
+  
+  <script src="/js/jquery-1.9.1.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script>
+    (function() {
+      var cx = '012254517474945470291:vhsfv7eokdc';
+      var gcse = document.createElement('script');
+      gcse.type = 'text/javascript';
+      gcse.async = true;
+      gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+          '//www.google.com/cse/cse.js?cx=' + cx;
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(gcse, s);
+    })();
+  </script>
+</body>
+</html>

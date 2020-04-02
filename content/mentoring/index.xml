@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mentorings on Apache Comdev</title>
+    <link>https://community.apache.org/mentoring.html</link>
+    <description>Recent content in Mentorings on Apache Comdev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	<atom:link href="https://community.apache.org/mentoring/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Apache in GSoC</title>
+      <link>https://community.apache.org/mentoring/experiences.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/mentoring/experiences.html</guid>
+      <description>This page a place for collecting information about GSoC activities each year for historical tracking. It was started in 2012 so is missing plenty of detail in the early years, your help filling it out would be appreciated.
+2018 Overview  Students accepted: ? Students who passed final: 29  2017 Overview  Students accepted: ? Students who passed final: 27  2016 Overview  Students accepted: 49 Students who passed final: 35  2015 Overview  Students accepted: 56 Students who passed final: 47  2014 Overview  Students accepted: 42 Students who passed final: 35  2013 Overview  Students accepted: 51 Students who passed final: 44  2012 Overview  Students accepted: 41 Students who passed midterm: 40 26 projects mentoring (17 TLPs and 9 Podlings)  Participating TLPS are: Xerces, Pig, OODT, Hive, James, Tapestry, Ofbiz, Gora, Synapse, Derby, Axis, POI, Whirr, Lucene, Velocity, Libcloud, Xalan Participating Podlings are: ODF Toolkit, Airavata, Stanbol, Photark, Wookie, OpenMeetings, Nuvem, Hama, VXQuery    2012 Blogs  Scott Wilson: Wookie Mentor Pushpalanka: Wookie Student Mike McCandless: Lucene Mentor Bhathiya Jayasekara: Airavata Student OpenMeetings Mentors: Sebastian Wagner, Alexei Fedotov, Maxim Solodovnik - Students: Ankur Ankan, German Grekhov, Dmitry Zamula, Josh Dolitsky   2011 Overview  Students accepted: 40 Students who passed midterm: 38 Students who passed final: 36  2010 Overview  Students accepted: 44 Students who passed final: 39  2005 First year Apache participated</description>
+    </item>
+    
+    <item>
+      <title>Mentoring</title>
+      <link>https://community.apache.org/mentoring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/mentoring/</guid>
+      <description>Mentoring A major job of Community Development is mentoring. Mentoring is the process of actively bringing someone along in a discipline - investing your time into influencing the future. Time spent mentoring today will pay off for years to come.
+Anyone can be a mentor. You just have to take a moment to encourage someone else to participate.
+Here&amp;rsquo;s some concrete ways you can provide mentoring to other members of your community.</description>
+    </item>
+    
+    <item>
+      <title>Mentoring a new committer</title>
+      <link>https://community.apache.org/mentoring/committer.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/mentoring/committer.html</guid>
+      <description>Mentoring a new committer So I&amp;rsquo;m a committer now. What&amp;rsquo;s next? What rights do I have now that I didn&amp;rsquo;t have before? What are the social conventions around making a commit?
+These things vary from one project to another, so clearly documenting them for your particular project is critical.
+Here&amp;rsquo;s the basics that are true across (almost) all Apache projects.
+TODO</description>
+    </item>
+    
+    <item>
+      <title>Mentoring a new PMC member</title>
+      <link>https://community.apache.org/mentoring/pmc.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/mentoring/pmc.html</guid>
+      <description>Mentoring a new PMC member So I&amp;rsquo;m a PMC member now. What does this mean? What rights do I have now that I didn&amp;rsquo;t have before? What conversations belong on the private list, as opposed to the public list.
+These things vary a little from one project to another, so clearly documenting them for your particular project is critical. And specifically assigning a PMC mentor to new PMC members can greatly help that new member get up to speed, and prevent problems in the future.</description>
+    </item>
+    
+    <item>
+      <title>Mentoring Mentors</title>
+      <link>https://community.apache.org/mentoring/mentor.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/mentoring/mentor.html</guid>
+      <description>Mentoring Mentors The job of a mentor is to reproduce - spread the work load. Once you&amp;rsquo;ve mentored someone, you need to encourage them to become a mentor themselves. Here&amp;rsquo;s some ways you can do that.
+ Point out people that need a little help Encourage them to answer a question rather than answering it yourself &amp;hellip;  TODO</description>
+    </item>
+    
+    <item>
+      <title>Mentoring: First Patch</title>
+      <link>https://community.apache.org/mentoring/firstpatch.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/mentoring/firstpatch.html</guid>
+      <description>Mentoring: First Patch A beginner&amp;rsquo;s first patch on a project can be an intimidating and frustrating experience. Clearly documenting the entire process from checkout to accepted patch greatly lowers the barrier for a new contributor, and makes it more likely that they&amp;rsquo;ll come back for their second patch.
+Here&amp;rsquo;s some tips on how to do that.</description>
+    </item>
+    
+  </channel>
+</rss>

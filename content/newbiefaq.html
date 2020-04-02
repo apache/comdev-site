@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+  <meta name="description" content="Apache Community Development"/>
+  <meta name="keywords" content="apache, apache community, community development, opensource"/>
+
+  <title>Apache Community Development - Apache Newcomer FAQs</title>
+  <link rel="shortcut icon" href="images/favicon.ico">
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="/css/bootstrap-responsive.css" rel="stylesheet">
+  <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+	   
+	   .gsc-search-box input.gsc-input, .gcse-search-box input.gsc-input:focus { -webkit-box-shadow:none; box-shadow:none; -moz-box-shadow:none; border-radius:0px; }
+		 
+		 .container { margin-top:5px; }
+  </style>
+</head>
+
+<body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="/">Home</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">About<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/about/">What We Do</a></li>
+                  <li><a href="/newbiefaq.html">Frequently Asked Questions</a></li>
+                  <li><a href="/projectIndependence.html">Apache Project Independence</a></li>
+                  <li><a href="/apache-way/apache-project-maturity-model.html">Apache Project Maturity Model</a></li>
+                  <li><a href="/contactpoints.html">Contact Points Within the ASF</a></li>
+                  <li><a href="/comdevboardresolution.html">ComDev Original Board Resolution</a></li>
+                  <li><a href="https://whimsy.apache.org/board/minutes/Community_Development.html">ComDev Board Reports</a></li>
+                  <li><a href="/links.html">Links to additional material</a></li>
+                  <li><a
+                  href="https://issues.apache.org/jira/projects/COMDEV">Community
+                  Development JIRA</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">For Contributors <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/newcomers/">Newcomers</a></li>
+                  <li><a href="/gettingStarted/101.html">Getting Started</a></li>
+                  <li><a href="/contributors/">Finding Your Way Around The Apache Software Foundation</a></li>
+				  <li><a href="http://www.apache.org/dev/">Technical Developer FAQs</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Google Summer of Code</li>
+                  <li><a href="/gsoc.html">Google Summer Of Code Information</a></li>
+                  <li><a href="/mentee-ranking-process.html">Mentee Ranking Process</a></li>
+                  <li><a href="/mentoring/experiences.html">Past GSoC Experiences</a></li>
+                  <li><a href="/guide-to-being-a-mentor.html">Guide to being a Mentor</a></li>
+                  <li><a href="/use-the-comdev-issue-tracker-for-gsoc-tasks.html">Using ComDev's JIRA for GSoC Ideas</a></li>
+                  <li><a href="/gsoc-admin-tasks.html">Tasks of a GSoC Admin at the ASF</a></li>
+
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">For Committers/PMCs <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/newcommitter.html">Recruiting New Committers</a></li>
+                  <li><a href="/committers/">Useful Information for Committers</a></li>
+                  <li><a href="/committers/consensusBuilding.html">Consensus Building</a></li>
+                  <li><a href="/committers/lazyConsensus.html">Lazy Consensus</a></li>					
+                  <li><a href="/committers/decisionMaking.html">Decision Making</a></li>
+                  <li><a href="/committers/voting.html">Voting</a></li>
+                  <li><a href="/committers/funding-disclaimer.html">Funding Campaign Disclaimer</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mentoring <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/mentoringprogramme.html">Mentoring Program</a></li>
+                  <li><a href="/mentorprogrammeformaleducation.html">Mentoring in Formal Education</a></li>
+                  <li><a href="/mentorprogrammeapplication.html">Applying for the Mentoring Program</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Additional Resources</li>
+                  <li><a href="/guide-to-being-a-mentor.html">Guide to being a Mentor</a></li>
+                  <li><a href="/mentor-request-mail.html">Mentor Request Email Example</a></li>
+                  
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Events <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+				  <li><a href="http://apachecon.com/">ApacheCon - The official event of the ASF</a></li>
+                  <li><a href="/calendars/">Major Apache-related Events</a></li>
+                  <li><a href="http://www.apache.org/events/meetups.html">Upcoming Apache-related meetups</a></li>
+                  <li><a href="http://www.apache.org/foundation/marks/events">Apache event branding policies</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Speakers</li>
+                  <li><a href="/speakers/">Speaker Information</a></li>
+                  <li><a href="/speakers/speakers.html">Finding Speakers / Listing Yourself as a Speaker</a></li>
+                  <li><a href="/speakers/slides.html">Apache-related Slides</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Join the Conversation<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="https://www.facebook.com/ApacheSoftwareFoundation">Facebook</a></li>
+                  <li><a href="http://twitter.com/ApacheCommunity">Twitter</a></li>
+                  <li><a href="/lists.html">Mailing List</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <div class="container">
+    <section id="content" class="row">
+      <div class="span9">
+        <h3 class="muted">The Apache Software Foundation</h3>
+      </div>
+      <div class="span3 pull-right">
+        <div class="gcse-search"></div>
+  	  </div>
+      <div class="span12"><h4 class="muted">Community &gt; Code</h4></div>
+    </section>
+    
+
+<ul class="breadcrumb">
+    <li><a href="/">Home</a> <span class="divider">/</span></li>
+    
+        
+        
+    
+        
+        
+            <li><a href='/newbiefaq.html'>Newbiefaq</a> <span class="divider">/</span></li>
+            
+        
+    
+</ul>
+
+    <hr>
+    
+	<p>This set of Frequently Asked Questions are intended to help newcomers to
+The Apache Software Foundation (ASF) and our many Apache projects understand how we work.</p>
+<p><em>Index of Questions</em></p>
+<ul>
+<li><a href="#NewbieFAQ-AboutTheApacheSoftwareFoundation">About The Apache Software Foundation</a>
+<ul>
+<li><a href="#NewbieFAQ-WhatprojectscanIfindinTheApacheSoftwareFoundation?">How do I find projects or technologies at the ASF?</a></li>
+<li><a href="#NewbieFAQ-HowareprojectsmanagedinTheApacheSoftwareFoundation">How are projects managed at the ASF?</a></li>
+<li><a href="#NewbieFAQ-HowdoIlearnaboutthewayApacheProjectsWork?">How do I learn about the way Apache Projects Work?</a></li>
+<li><a href="#NewbieFAQ-HowdoIaskaquestionabouttheASFingeneral?">How do I ask a question about the ASF in general?</a></li>
+<li><a href="#NewbieFAQ-HowdoIgetusersupportforanASFproject?">How do I get user support for an Apache project?</a></li>
+</ul>
+</li>
+<li><a href="#NewbieFAQ-GettingInvolvedwithApacheprojects">Getting Involved with Apache projects</a>
+<ul>
+<li><a href="#NewbieFAQ-HowdoIchooseanApacheprojecttoworkon?">How do I choose an Apache project to work on?</a></li>
+<li><a href="#NewbieFAQ-HowdoIgetinvolvedwithanApacheproject?">How do I get involved with an Apache project?</a></li>
+<li><a href="#NewbieFAQ-IsthereaCodeofConductforApacheprojects?">Is there a Code of Conduct for Apache projects?</a></li>
+</ul>
+</li>
+<li><a href="#NewbieFAQ-AbouttheApacheMentoringProgramme">About the Apache Mentoring Programme</a>
+<ul>
+<li><a href="#NewbieFAQ-WhatistheApacheMentoringProgramme">What is the Apache Mentoring Programme</a></li>
+<li><a href="#NewbieFAQ-HowdoIApplytotheMentorProgramme?">How do I Apply to the Mentor Programme?</a></li>
+</ul>
+</li>
+<li><a href="#NewbieFAQ-AboutSpeakers">Finding Apache Speakers For Events Or Meetups</a></li>
+<li><a href="#websitecms">How Do I Suggest or Make Changes To This Website?</a></li>
+<li><a href="#comdevweb">What Other Useful Websites About Apache Are There?</a></li>
+<li><a href="#comdevbug">How Do I Report A Bug For Comdev Websites Or Tools?</a></li>
+</ul>
+<p>We are always looking for suggestions of better ways to help newcomers to the ASF find
+the information they&rsquo;re looking for.  Please ask any new questions or give us suggestions on
+<a href="mailto:dev@community.apache.org">dev@community.apache.org</a> (subscribe with
+<a href="mailto:dev-subscribe@community.apache.org">dev-subscribe@community.apache.org</a> first).</p>
+<p><a name="NewbieFAQ-AboutTheApacheSoftwareFoundation"></a></p>
+<h1 id="about-the-apache-software-foundation">About The Apache Software Foundation</h1>
+<p><a name="NewbieFAQ-WhatprojectscanIfindinTheApacheSoftwareFoundation?"></a></p>
+<h2 id="what-projects-can-i-find-in-the-apache-software-foundation">What projects can I find in The Apache Software Foundation?</h2>
+<p>There are over 200 separate projects and communities hosted at The Apache Software Foundation. We have
+four classes, or types, of project (in terms of their community; not in terms of technology):</p>
+<ul>
+<li><a href="http://projects.apache.org">Top Level Projects</a>: (TLP) these are projects with healthy communities and active development; and a supported <a href="http://projects.apache.org/">listing by technologies</a> and <a href="https://projects-new.apache.org/">experimental listing of projects</a> as well</li>
+<li><a href="http://incubator.apache.org">Incubating Projects</a>: these are projects that have still to build a sustainable community, but
+have active development and are moving towards graduating to become</li>
+<li><a href="http://labs.apache.org">Labs</a>: these are experiments being carried out by existing committers</li>
+<li><a href="http://attic.apache.org">Attic</a>: these are end-of-life projects that are no longer receiving active
+development, but may still be useful</li>
+</ul>
+<p><a name="NewbieFAQ-HowareprojectsmanagedinTheApacheSoftwareFoundation"></a></p>
+<h2 id="how-are-projects-managed-in-the-apache-software-foundation">How are projects managed in The Apache Software Foundation</h2>
+<p>Apache projects all believe that if we look after the community then good
+code will emerge from that community. That is, when people with similar
+needs come together they will work out a way of solving their common
+problems. It is for this very reason that we created the Community
+Development project (where you are right now), the ASF has grown to be very
+large and, from the outside, can look too mature for newcomers and novices.
+However, these communities seek to be flat in structure. No single person
+in that community has more influence than the next, a newcomer with a good
+idea has just as much input and influence as the original creator of the
+project.</p>
+<p>We do have a system that we call meritocracy that allows those who have
+demonstrated commitment and understanding to the community to earn certain
+privileges, such as being able to make changes directly to documentation
+and program code. However, these privileges simply streamline the
+process, they do not (in most cases) give additional powers over the
+project.</p>
+<p>In summary, Apache Projects work because people like you participate
+constructively within them!</p>
+<p>To learn more about &ldquo;The Apache Way&rdquo; in general see the <a href="http://apache.org/foundation/how-it-works.html">How It Works</a>
+pages.  We also have <a href="https://www.apache.org/foundation/governance/">detailed overviews of how the ASF and projects are governed</a>.</p>
+<p><a name="NewbieFAQ-HowdoIlearnaboutthewayApacheProjectsWork?"></a></p>
+<h2 id="how-do-i-learn-about-the-way-apache-projects-work">How do I learn about the way Apache Projects Work?</h2>
+<p>You should consider applying to the <a href="mentoringprogramme.html">Apache Mentor Programme</a>
+. We will help you find a mentor within the project of your choice. They
+will take you through a semi-formal mentoring programme that will ensure
+you quickly find your feet. There is no cost other than a promise to commit
+some of your time to the goals you agree with your mentor.</p>
+<p><a name="NewbieFAQ-HowdoIaskaquestionabouttheASFingeneral?"></a></p>
+<h2 id="generalquestion">How do I ask a question about the ASF in general?</h2>
+<p>The Community Development Project is here for this very purpose. Check out
+the resources on this site first, if you don&rsquo;t find the answer send a mail
+to mailto:dev@community.apache.org (subscribe first by sending a mail to
+mailto:dev-subscribe@community.apache.org)</p>
+<p><a name="NewbieFAQ-HowdoIgetusersupportforanASFproject?"></a></p>
+<h2 id="how-do-i-get-user-support-for-an-asf-project">How do I get user support for an ASF project?</h2>
+<p>Everyone active in ASF projects is here as a volunteer, nobody is paid to
+provide support here. So the first thing to realize is that you need to be
+careful not to waste people&rsquo;s time, so do your homework. Generally, if
+people can see that you have tried to solve your problem they are more
+likely to help. So, before asking a question do the following:</p>
+<ul>
+<li>search that project&rsquo;s documentation</li>
+<li>search that <a href="https://mail-archives.apache.org/mod_mbox/">project&rsquo;s user@ mailing list archives</a></li>
+<li>search that issue tracker for any related known issues</li>
+<li>search the web in general</li>
+</ul>
+<p>If you don&rsquo;t find a solution, then send a concise, but detailed, request for
+support to the appropriate user@ mailing list (you will usually need to
+subscribe first). Indicate that you have read the appropriate documentation
+and explain what you have tried, what you expect to happen and what
+actually happens.  All Apache projects should have a &ldquo;Mailing List&rdquo;,
+&ldquo;How to Contribute&rdquo; or<br>
+similar link on their homepage that tells you how to subscribe
+to that project&rsquo;s specific lists. Mailing lists at Apache are also
+<a href="https://mail-archives.apache.org/mod_mbox/">publicly archived</a> at the ASF and <a href="http://apache.markmail.org/">archived elsewhere</a>.</p>
+<p>Be patient waiting for a response: give it at least three working days
+before you send a second message. People are busy, they will deal with your
+request when they can. If you need urgent help it is best not to rely on
+the community support channels and find an outside organization willing to support you for
+a fee.  Remember that Apache committers are generally working as volunteers on Apache mailing lists.</p>
+<p>It is worth noting that people are more willing to help those who
+contribute back to the project in some way. If you hit a problem that was
+not documented then it is likely others will too. A good idea is to send a
+patch to the project to improve its documentation. This means that those
+who follow in your footsteps get an answer in the first step above and you
+start to build merit in the community that will result in further help in
+the future.</p>
+<p>A second way of contributing is to provide user support to others as your
+expertise grows. Again, earning merit in this way will help you to get
+the support you need in the future.</p>
+<p><a name="NewbieFAQ-GettingInvolvedwithApacheprojects"></a></p>
+<h1 id="getting-involved-with-apache-projects">Getting Involved with Apache projects</h1>
+<p><a name="NewbieFAQ-HowdoIchooseanApacheprojecttoworkon?"></a></p>
+<h2 id="how-do-i-choose-an-apache-project-to-work-on">How do I choose an Apache project to work on?</h2>
+<p>The key to working on projects at Apache (and any open source for that
+matter) is to have a personal reason for being involved. You might be
+trying to solve a day job issue, you might be looking to learn a new
+technology or you might simply want to do something fun in your free time.
+The key is that you must <em>want</em> to get involved. It is also important that
+you have appropriate skills to be able to help the project.</p>
+<p>Our <a href="http://projects.apache.org/">projects page</a>
+provides a useful index of projects which allows you to view projects
+alphabetically, by category or by language. When you view a projects detail
+page in this list you will find details of their mailing lists, issue
+tracker and other resources.</p>
+<p>In the projects issue tracker you will find details of bugs and feature
+requests the project would like to work with, this should give you some
+inspiration about how you might be able to help the project community. If
+you see an issue you would like to tackle, it&rsquo;s time to join the projects
+mailing list and get started.</p>
+<p>Some projects also use our <a href="https://helpwanted.apache.org/">Help Wanted! system</a>.</p>
+<p><a name="NewbieFAQ-HowdoIgetinvolvedwithanApacheproject?"></a></p>
+<h2 id="how-do-i-get-involved-with-an-apache-project">How do I get involved with an Apache project?</h2>
+<p>You can certainly improve your programming skills by watching the commit
+lists, receiving code reviews and participating in discussion. However
+this learning opportunity is a healthy side effect of open source
+activities rather than a goal in itself. Nobody in an Apache project is
+going to spend time teaching you programming 101, technical writing or
+testing (to pick just a few skills we need). You need to know the basics
+and be willing to research the rest.</p>
+<p>To learn more about getting involved with an Apache Project see our <a href="/gettingStarted/101.html">getting
+started guide</a>. You will also find our <a href="http://apache.org/foundation/getinvolved.html">get involved</a>
+page a useful starting point.</p>
+<p><a name="NewbieFAQ-IsthereaCodeofConductforApacheprojects?"></a></p>
+<h2 id="is-there-a-code-of-conduct-for-apache-projects">Is there a Code of Conduct for Apache projects?</h2>
+<p>Yes there is a code of conduct which may be found at
+<a href="http://www.apache.org/foundation/policies/conduct.html">http://www.apache.org/foundation/policies/conduct.html</a>
+The ASF expects that everyone participating on an Apache project, either
+on our websites, email lists, bugtrackers, or forums hosted at <code>apache.org</code>
+will abide by our code of conduct.</p>
+<p>PMCs are allowed to define their own additional code of conduct for their individual communities
+but all PMCs are expected to abide by the Foundation wide policy.</p>
+<p>The <a href="http://incubator.apache.org/guides/committer.html">Incubator document</a> also
+has some really useful for both the newbie and the
+old hands. The section on ASF
+Mottos is especially useful as a reminder of the way things are in most ASF
+projects. This section includes such gems as:</p>
+<ul>
+<li>Put community before code.</li>
+<li>Let they that do the work make the decisions.</li>
+<li>If it didn&rsquo;t happen on a mailing list, it didn&rsquo;t happen.</li>
+<li>Don&rsquo;t feed the trolls.</li>
+</ul>
+<p><a name="NewbieFAQ-AbouttheApacheMentoringProgramme"></a></p>
+<h2 id="about-the-apache-mentoring-programme">About the Apache Mentoring Programme</h2>
+<p><a name="NewbieFAQ-WhatistheApacheMentoringProgramme"></a></p>
+<h3 id="what-is-the-apache-mentoring-programme">What is the Apache Mentoring Programme</h3>
+<p>Many projects are happy to assist newcomers learn about how to contribute
+to that specific project. However, some people are looking for more help,
+or are looking for help working across Apache projects. The Mentor Programme of the The Apache Software Foundation
+provides additional support and structure for people looking to make an
+initial contribution to an ASF project.</p>
+<p>For more information see our <a href="mentoringprogramme.html">mentoring page</a>.</p>
+<p><a name="NewbieFAQ-HowdoIApplytotheMentorProgramme?"></a></p>
+<h3 id="how-do-i-apply-to-the-mentor-programme">How do I Apply to the Mentor Programme?</h3>
+<p>Take a look at our <a href="mentoringprogramme.html">mentoring page</a>. If you are
+planning on working on an Apache project as part of your formal education you
+should also read <a href="mentorprogrammeformaleducation.html">mentoring in formal education</a>.</p>
+<p>From the <a href="mentoringprogramme.html">mentoring page</a> you will see that you
+need to complete an <a href="mentorprogrammeapplication.html">application</a>. This
+gives us enough background information to enable us to approach your
+chosen project community and for you to work with prospective mentors in
+defining your mentored activity.</p>
+<p><a name="NewbieFAQ-AboutSpeakers"></a></p>
+<h2 id="how-can-i-find-speakers-willing-to-help-us-understand-apache">How can I find speakers willing to help us understand Apache?</h2>
+<p>The best way to start getting involved is joining the
+<a href="##NewbieFAQ-HowdoIaskaquestionabouttheASFingeneral?">dev@community.apache.org</a>
+mailing list.  We also have a <a href="/speakers/">listing of volunteer speakers</a>
+who might be willing to share slides or talks about the ASF.</p>
+<h1 id="websitecms">How Do I Suggest Changes To This Website?</h1>
+<p>This <code>community.apache.org</code> website uses the Apache Content Management System (CMS)
+to manage editing and deploying the website itself.  Any Apache committer can submit
+changes by following the <a href="http://www.apache.org/dev/cms.html#usage">CMS Usage guide</a>.</p>
+<p>If you are not a committer, but have suggested updates, you can submit a
+patch yourself!  The CMS <a href="http://www.apache.org/dev/cms.html#usage">supports anonymous (non-committer) access</a>,
+and you can have it <a href="http://www.apache.org/dev/cmsref.html#faq">email the patch to us directly</a>.  Alternately,
+you can <a href="#generalquestion">ask us a general question on dev@community</a>
+or read our <a href="https://lists.apache.org/list.html?dev@community.apache.org:lte=3M:">mailing list archives</a> for past questions and answers.</p>
+<p>For technical website details, see <a href="/about/#about-this-website">About This Website</a>.
+To submit a formal bug, see our <a href="#comdevbug">COMDEV JIRA</a>.</p>
+<h1 id="comdevweb">What Else Does Community Development Publish Or Manage?</h1>
+<p>The Community Development project maintains several other tools
+that help you navigate the ASF.</p>
+<ul>
+<li>The <a href="https://projects.apache.org/">Apache Projects Directory</a> lists all our software technologies, and you can learn <a href="https://projects.apache.org/about.html">how it works</a> and what JSON data feeds are available.</li>
+<li><a href="http://home.apache.org/">Home.apache.org</a> serves as a telephone directory of all individual Apache committers.</li>
+<li>Some projects <a href="http://helpwanted.apache.org/">ask for Help Wanted</a> with easy-to-get-started tasks or bugs for newcomers.  You can see the <a href="http://svn.apache.org/viewvc/comdev/helpwanted.apache.org/">code that runs the HelpWanted site</a>.</li>
+<li>Apache committers can login to the <a href="https://reporter.apache.org/">Project Reporting Tool</a>, that helps PMCs create quarterly board reports; you can <a href="https://svn.apache.org/repos/asf/comdev/projects.apache.org/">see the code that does this</a>.</li>
+<li>A <a href="https://cwiki.apache.org/confluence/display/COMDEV/ComDev+Wiki">ComDev Wiki</a> is also available for scratch or experimental work, although most permanent content should be here in the CMS.</li>
+</ul>
+<h1 id="comdevbug">How Do I Report A Bug For Comdev Websites Or Tools?</h1>
+<p>The Community Development project has a JIRA Issue tracker queue, where you
+should submit any bugs with any of our services or websites listed above.</p>
+<ul>
+<li><a href="https://issues.apache.org/jira/browse/COMDEV">https://issues.apache.org/jira/browse/COMDEV</a></li>
+</ul>
+
+
+  </div>
+  
+  <footer class="footer" align="center">
+    <div class="container">
+      <p>
+		Copyright &copy; 2020, the Apache Software Foundation. Licensed under the
+        <a rel="license" href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a>
+        <br/>
+		Apache&reg;, the names of Apache projects, and the multicolor feather logo are
+        <a href="https://www.apache.org/foundation/marks/list/">registered trademarks or trademarks</a> of the Apache
+        Software Foundation in the United States and/or other countries.
+      </p>
+    </div>
+  </footer>
+  
+  <script src="/js/jquery-1.9.1.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script>
+    (function() {
+      var cx = '012254517474945470291:vhsfv7eokdc';
+      var gcse = document.createElement('script');
+      gcse.type = 'text/javascript';
+      gcse.async = true;
+      gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+          '//www.google.com/cse/cse.js?cx=' + cx;
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(gcse, s);
+    })();
+  </script>
+</body>
+</html>

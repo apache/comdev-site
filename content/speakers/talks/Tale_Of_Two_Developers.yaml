@@ -1,0 +1,32 @@
+---
+title: "A Tale of Two Developers: Finding Harmony Between Commercial Software Development and the Apache Way"
+teaser: Learn from the real-life lunchtime dialog between an experienced Apache committer and a new coder.
+submitter: wang
+speakers:
+- wang
+- Alex Leblang
+abstract: | 
+  Apache community members can reference tenets from the Apache Way such as “community over code” and “openness” as if it were second nature. While they may sound simple, these concepts can be foreign to developers coming to open source for the first time. Success as an Apache contributor stresses skills not emphasized in other types of software development, including reconciling the requirements of the upstream development process with the realities of running a commercial software business.
+
+  With the assistance of choreographed Socratic dialogue, our two protagonists, an experienced Apache committer and an enthusiastic young gun contributor, explore the tensions of working on an Apache project as employees of a for-profit company. The audience will learn practical advice and problem solving techniques for working effectively as part of an Apache community. By the end, our greenhorn comes to understand that the yin and yang of commercial software development and the Apache Way can exist in harmony.
+  
+  Our talk contextualizes the Apache Way for developers who are paid to work on open-source full-time, drawn from our real-world experience working at Cloudera. This is presented through a series of short vignettes accompanied by intervening discussion and review slides. Tenets of the Apache Way like meritocracy, community, and hats are introduced and referred to throughout as the backbone to building strong open-source communities. We examine the tension between corporate pressures and open-source, emphasizing the underlying value that companies gain from open-source software.
+
+  Our two main characters are:
+  * Alex, an energetic young developer who is new to open source but not to development. Excited to get stuff done on this new project.
+  * Andrew, a long-time Apache committer who takes Alex under his wing and teaches him the importance of open-source.
+
+  The outline for our skits are:
+  * Act 1: Introduction to Apache and the Apache Way, FAQs from Alex as someone getting started as a new contributor
+  * Act 2: How to build consensus when there's conflict (e.g. someone -1's your patch), public communication, demonstrating merit and the path to committership
+  * Act 3: No jerks allowed. Andrew does a heel turn and is ruling the project with an iron fist, Alex intervenes in a come-to-jesus/student-becomes-the-teacher moment. Re-emphasize the importance of community, and how dictators are bad for projects.
+
+audience: Community managers, developers, project managers involved with FOSS projects.
+slides: 
+video: https://www.youtube.com/watch?v=ea_9qkaTeVw&index=26&list=PLbzoR-pLrL6pLDCyPxByWQwYTL-JrF5Rp
+topics: 
+- apacheway
+- developers
+present_at:
+- http://apachecon.com/2017
+present_date: '2017-05-16'
