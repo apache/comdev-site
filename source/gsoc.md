@@ -149,29 +149,29 @@ date indicated.
 ## Student Application and Selection
 
   - 2020-03-17: Student applications start
-  - 2020-04-01 18:00 CEST: Student applications deadline
-  - 2020-04-03: Proposals to ASF projects must be reviewed roughly and have a potential mentor so that we know how many slots to request. Proposals that don't have a mentor at this point will be down-rated.
-  - 2020-04-26: Proposal scoring must be completed. Proposals without a score will be rejected, no exceptions.
-  - 2020-04-28: Accepted student proposals announced on the Google Summer of Code site.
+  - 2020-03-31 18:00 UTC: Student applications deadline
+  - 2020-04-19: Proposals to ASF projects must be reviewed roughly and have a potential mentor so that we know how many slots to request. Proposals that don't have a mentor at this point will be down-rated.
+  - 2020-04-29: Proposal scoring must be completed. Proposals without a score will be rejected, no exceptions.
+  - 2020-05-04: Accepted student proposals announced on the Google Summer of Code site.
 
 <a name="GSoC-GSocisunderway"></a>
 ## GSoc is underway
 
-  - 2020-04-28: Community bonding start
-  - 2020-05-19: Community bonding end
-  - 2020-05-19: Coding start
-  - 2020-06-16: First midterm evaluations can be submitted
-  - 2020-06-19: First midterm evaluations deadline
-  - 2020-07-14: Second midterm evaluations can be submitted
-  - 2020-07-17: Second midterm evaluations deadline
+  - 2020-05-04: Community bonding start
+  - 2020-05-31: Community bonding end
+  - 2020-06-01: Coding start
+  - 2020-06-29: First midterm evaluations can be submitted
+  - 2020-07-02: First midterm evaluations deadline
+  - 2020-07-27: Second midterm evaluations can be submitted
+  - 2020-07-30: Second midterm evaluations deadline
   
 <a name="GSoC-Winddown"></a>
 ## Wind down
 
-  - 2020-08-11: Coding deadline and final evaluations can be submitted 
-  - 2020-08-18: ASF Mentors evaluations can be submitted
-  - 2020-08-24: ASF Mentors final evaluations deadline
-  - 2020-08-26: Results announced
+  - 2020-08-31: Coding deadline and final evaluations can be submitted
+  - 2020-08-31: ASF Mentors evaluations can be submitted
+  - 2020-09-06: ASF Mentors final evaluations deadline
+  - 2020-09-08: Results announced
 
 <a name="GSoC-Vouching"></a>
 # Organization Vouching
