@@ -1,0 +1,8 @@
+# Hugo generated
+resources
+target
+
+# IntelliJ generated
+*.iml
+.idea
+.java-version
