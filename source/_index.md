@@ -24,8 +24,6 @@ in the specific Apache projects that interest you.</p>
 <p>Happy Birthday ASF!  Join us in <a href="https://s.apache.org/ASF20thAnniversary">celebrating the 20th anniversary of the ASF's founding</a>.</p>
 </div>
 
-<!-- DummyChangeCounter 42 -->
-
 <a name="Index-Startingpoints"></a>
 
 
