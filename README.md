@@ -22,10 +22,7 @@ This is the source code for the website of the [Apache Community Development PMC
 
 ## How to publish the website
 
-(TODO: this is not setup yet - once it is we'll add links to the Jenkins build here)
-
-Changes to the `master` branch of these repository trigger a Jenkins build that publishes the website, 
-by committing the generated pages and files to the `asf-site` branch of this repository.
+Changes to the `master` branch of these repository trigger the [comdev-site Jenkins Job](https://builds.apache.org/job/comdev-site/), which generates the website content and commits the generated static content to the `asf-site` branch of this repository.
 
 The [ASF's gitpubsub mechanism](https://blogs.apache.org/infra/entry/git_based_websites_available) then synchronizes that content to [http://community.apache.org/](http://community.apache.org/), usually within a few seconds. More details about the publication process can be found in the [ASF Documentation about Project sites](https://www.apache.org/dev/project-site.html). If for some reason this process fails, you can use [the self-service page from ASF Infra](https://selfserve.apache.org/) to trigger a resync of the git repo.
 
