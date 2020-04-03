@@ -1,0 +1,8 @@
+github:
+  description: "Website sources for the Apache Community Development Website"
+  homepage: https://community.apache.org
+  labels:
+    - apache
+    - community
+    - comdev
+    - hugo
