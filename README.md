@@ -26,7 +26,7 @@ To get in touch with that PMC please use the [dev@community.apache.org](https://
 
 > The automatic trigger **might not be working right now**, if unsure you can trigger that Jenkins job manually, the rest works.
 
-Changes to the `master` branch of these repository trigger the [comdev-site Jenkins Job](https://builds.apache.org/job/comdev-site/), which generates the website content and commits the generated static content to the `asf-site` branch of this repository. 
+Changes to the `master` branch of this repository trigger the [comdev-site Jenkins Job](https://builds.apache.org/job/comdev-site/), which generates the website content and commits it to the `asf-site` branch of this repository. 
 
 The [ASF's gitpubsub mechanism](https://blogs.apache.org/infra/entry/git_based_websites_available) then synchronizes that content to [http://community.apache.org/](http://community.apache.org/), usually within a few seconds. More details about the publication process can be found in the [ASF Documentation about Project sites](https://www.apache.org/dev/project-site.html). If for some reason this process fails, you can use [the self-service page from ASF Infra](https://selfserve.apache.org/) to trigger a resync of the git repo.
 
