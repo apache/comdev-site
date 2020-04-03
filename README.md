@@ -16,7 +16,7 @@ limitations under the License.
 -->
 # Apache Community Development website
 
-This is the source code for the website of [Apache Comdev](https://community.apache.org/), hosted at:
+This is the source code for the website of the [Apache Community Development PMC website](https://community.apache.org/), hosted at:
 
     https://community.apache.org/
 
