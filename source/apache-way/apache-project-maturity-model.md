@@ -267,29 +267,29 @@ The project is independent from any corporate or organizational influence.
 **Remember:** This model is a suggested guide; it is not a requirements document.  The model shows what generally good behaviors in an Apache project look like.
 
 So far, inside the ASF this model has been used mostly for self-assessment of podlings preparing their graduation 
-from the <a href="http://incubator.apache.org">Apache Incubator</a>.
+from the [Apache Incubator](http://incubator.apache.org).
 
 It might be useful for top-level ASF projects to regularly assess their maturity based on this model, but this is not a requirement at this time.
 
 Here are a few self-assessment examples:
 
-* <a href="https://github.com/apache/groovy/blob/576b3c5d6a7022ac4a8df1ef118666456ce627fb/MATURITY.adoc">Apache Groovy podling self-assessment, 2015</a>
-* <a href="https://cwiki.apache.org/confluence/display/TAVERNADEV/2016-03+Taverna+Graduation+Maturity+Assessment">Apache Taverna Graduation Maturity Assessment, 2016</a>
-* <a href="https://cwiki.apache.org/confluence/display/CARBONDATA/Apache+Maturity+Model+Assessment+for+CarbonData">Apache CarbonData Podling Maturity Assessment, 2017</a>
-* <a href="https://beam.apache.org/contribute/maturity-model/">Apache Maturity Model Assessment for Apache Beam, 2016</a>
-* <a href="https://cwiki.apache.org/confluence/display/SERVICECOMB/Apache+Maturity+Model+Assessment+for+ServiceComb">Apache ServiceComb Maturity Model Assessment, 2018</a>
+* [Apache Groovy podling self-assessment, 2015](https://github.com/apache/groovy/blob/576b3c5d6a7022ac4a8df1ef118666456ce627fb/MATURITY.adoc)
+* [Apache Taverna Graduation Maturity Assessment, 2016](https://cwiki.apache.org/confluence/display/TAVERNADEV/2016-03+Taverna+Graduation+Maturity+Assessment)
+* [Apache CarbonData Podling Maturity Assessment, 2017](https://cwiki.apache.org/confluence/display/CARBONDATA/Apache+Maturity+Model+Assessment+for+CarbonData)
+* [Apache Maturity Model Assessment for Apache Beam, 2016](https://beam.apache.org/contribute/maturity-model/)
+* [Apache ServiceComb Maturity Model Assessment, 2018](https://cwiki.apache.org/confluence/display/SERVICECOMB/Apache+Maturity+Model+Assessment+for+ServiceComb)
 
 ## Other Open Source Project Models
 
-See <a href="http://s.apache.org/apache_maturity_model">http://s.apache.org/apache_maturity_model</a> for the discussions that led to this. And thanks to the many people who provided input! The links below are both inspirations for our model above, and are some of the other ways that FOSS project participants have tried to quantify ways to measure open source projects.
+See [http://s.apache.org/apache_maturity_model](http://s.apache.org/apache_maturity_model) for the discussions that led to this. And thanks to the many people who provided input! The links below are both inspirations for our model above, and are some of the other ways that FOSS project participants have tried to quantify ways to measure open source projects.
 
-* <a href="http://oss-watch.ac.uk/resources/ssmm">http://oss-watch.ac.uk/resources/ssmm</a>
-* <a href="http://osswatch.jiscinvolve.org/wp/2014/12/11/open-or-fauxpen-use-the-oss-watch-openness-rating-tool-to-find-out/">http://osswatch.jiscinvolve.org/wp/2014/12/11/open-or-fauxpen-use-the-oss-watch-openness-rating-tool-to-find-out/</a>
-* <a href="https://blogs.apache.org/comdev/entry/what_makes_apache_projects_different">https://blogs.apache.org/comdev/entry/what_makes_apache_projects_different</a> 
-* <a href="http://rfc.zeromq.org/spec:16">http://rfc.zeromq.org/spec:16</a> 
-* <a href="http://oss-watch.ac.uk/resources/reusereadinessrating">http://oss-watch.ac.uk/resources/reusereadinessrating</a>
-* <a href="http://en.wikipedia.org/wiki/Capability_Maturity_Model_Integration">http://en.wikipedia.org/wiki/Capability_Maturity_Model_Integration</a>
-* <a href="https://www.apache.org/dev/project-requirements">https://www.apache.org/dev/project-requirements</a>
+* [http://oss-watch.ac.uk/resources/ssmm](http://oss-watch.ac.uk/resources/ssmm)
+* [http://osswatch.jiscinvolve.org/wp/2014/12/11/open-or-fauxpen-use-the-oss-watch-openness-rating-tool-to-find-out/](http://osswatch.jiscinvolve.org/wp/2014/12/11/open-or-fauxpen-use-the-oss-watch-openness-rating-tool-to-find-out/)
+* [https://blogs.apache.org/comdev/entry/what_makes_apache_projects_different](https://blogs.apache.org/comdev/entry/what_makes_apache_projects_different)
+* [http://rfc.zeromq.org/spec:16](http://rfc.zeromq.org/spec:16)
+* [http://oss-watch.ac.uk/resources/reusereadinessrating](http://oss-watch.ac.uk/resources/reusereadinessrating)
+* [http://en.wikipedia.org/wiki/Capability_Maturity_Model_Integration](http://en.wikipedia.org/wiki/Capability_Maturity_Model_Integration)
+* [https://www.apache.org/dev/project-requirements](https://www.apache.org/dev/project-requirements)
 
 ## Status / Document Version
 

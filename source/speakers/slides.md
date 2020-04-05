@@ -11,14 +11,14 @@ These presentations are available under permissive licenses; please see
 each individual presentation for license details.  More tips and links for
 [speakers are available](/speakers/index.html).
 
-Similarly, many Apache speakers post their slides to the <a href="//www.slideshare.net/search/slideshow?searchfrom=header&q=apache+software">SlideShare website</a>,
+Similarly, many Apache speakers post their slides to the [SlideShare website](//www.slideshare.net/search/slideshow?searchfrom=header&q=apache+software),
 and the [FeatherCast podcast offers audio recordings](//feathercast.apache.org/) of many talks and interviews.
 
 For those who prefer videos, our many volunteers have posted
-<a href="https://www.youtube.com/user/TheApacheFoundation/playlists">full videos of all ApacheCon NA 2013 presentations</a>, and
-<a href="https://www.youtube.com/playlist?list=PLU2OcwpQkYCzvGxZgVOunTs-3iEao6YJc">select ApacheCon NA 2014 presentations</a>.
+[full videos of all ApacheCon NA 2013 presentations](https://www.youtube.com/user/TheApacheFoundation/playlists), and
+[select ApacheCon NA 2014 presentations](https://www.youtube.com/playlist?list=PLU2OcwpQkYCzvGxZgVOunTs-3iEao6YJc).
 Additional slides, videos and audio recordings can also be found from the
-<a href="https://wiki.apache.org/apachecon/Past_Conference_Resources">ApacheCon Past Conference Resources page</a>.
+[ApacheCon Past Conference Resources page](https://wiki.apache.org/apachecon/Past_Conference_Resources).
 
 # ASF Postings
 - [Briefing: The Apache Way](https://www.apache.org/theapacheway/index.html) (paper)

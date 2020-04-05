@@ -236,20 +236,20 @@ who might be willing to share slides or talks about the ASF.
 
 # How Do I Suggest Changes To This Website? # {#websitecms}
 
-This `community.apache.org` website uses the Apache Content Management System (CMS) 
-to manage editing and deploying the website itself.  Any Apache committer can submit 
-changes by following the [CMS Usage guide][4].
+The content for the `community.apache.org` website is written in Markdown
+and published automatically using a [Jenkins job](https://builds.apache.org/job/comdev-site/).
+Any contributor is able to submit changes via pull requests. Comdev committers are able to merge
+proposed changes.
 
-If you are not a committer, but have suggested updates, you can submit a 
-patch yourself!  The CMS [supports anonymous (non-committer) access][5], 
-and you can have it [email the patch to us directly][6].  Alternately, 
-you can [ask us a general question on dev@community](#generalquestion)
+Website sources are available via:
+- GitHub: https://github.com/apache/comdev-site
+- Gitbox: https://gitbox.apache.org/repos/asf/comdev-site.git
+
+For general questions you can [ask us on dev@community](#generalquestion)
 or read our [mailing list archives][7] for past questions and answers.
 
 For technical website details, see [About This Website][8].
 To submit a formal bug, see our [COMDEV JIRA](#comdevbug).
-
-
 
 # What Else Does Community Development Publish Or Manage? # {#comdevweb}
 
@@ -273,9 +273,6 @@ should submit any bugs with any of our services or websites listed above.
   [1]: https://mail-archives.apache.org/mod_mbox/
   [2]: http://apache.markmail.org/
   [3]: /gettingStarted/101.html
-  [4]: http://www.apache.org/dev/cms.html#usage
-  [5]: http://www.apache.org/dev/cms.html#usage
-  [6]: http://www.apache.org/dev/cmsref.html#faq
   [7]: https://lists.apache.org/list.html?dev@community.apache.org:lte=3M:
   [8]: /about/#about-this-website
   [9]: https://projects.apache.org/

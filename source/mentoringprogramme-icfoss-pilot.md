@@ -16,31 +16,30 @@ will provide enough information for you to progress within the project. You
 need to bring the confidence to take their guidance and discover the detail
 for yourself.
 
-More information on the <a href="mentoringprogramme.html">Mentoring Programme</a> page.
+More information on the [Mentoring Programme](mentoringprogramme.html) page.
 
 <a name="Schedule"></a>
 ## Proposed Schedule
 
-<table>
-<th align="left">Date</th><th align="left">Description</th>
-<tr><td>June 20</td><td>Local Workshop at ICFOSS headequarters in Kerala - India</td></tr>
-<tr><td>June 24 - July 12</td><td>Would-be student participants discuss application ideas with ASF projects</td></tr>
-<tr><td>July 15</td><td>Students project proposal submission opens</td></tr>
-<tr><td>July 19</td><td>Students project proposal submission deadline</td></tr>
-<tr><td>July 22 - August 02</td><td>Mentors review and rank students project proposals</td></tr>
-<tr><td>August 05</td><td>Accepted student proposals announced</td></tr>
-<tr><td>August 05</td><td>Students start coding their project proposal with Mentor guidance</td></tr>
-<tr><td>September 09</td><td>Mentors and students can begin submitting mid-term evaluations</td></tr>
-<tr><td>September 13</td><td>Mid-term evaluation deadline</td></tr>
-<tr><td>October  21</td><td>Suggested 'DCUT' date, where students should then scrub code, enhance documentation, etc </td></tr>
-<tr><td>October 28</td><td>Mentors and students can begin submitting final evaluations</td></tr>
-<tr><td>November 1</td><td>Final evaluation deadline</td></tr>
-</table>
+| Date | Description |
+| :--- | :--- |
+| June 20 | Local Workshop at ICFOSS headequarters in Kerala - India |
+| June 24 - July 12 | Would-be student participants discuss application ideas with ASF projects |
+| July 15 | Students project proposal submission opens |
+| July 19 | Students project proposal submission deadline |
+| July 22 - August 02 | Mentors review and rank students project proposals |
+| August 05 | Accepted student proposals announced |
+| August 05 | Students start coding their project proposal with Mentor guidance |
+| September 09 | Mentors and students can begin submitting mid-term evaluations |
+| September 13 | Mid-term evaluation deadline |
+| October  21 | Suggested 'DCUT' date, where students should then scrub code, enhance documentation, etc  |
+| October 28 | Mentors and students can begin submitting final evaluations |
+| November 1 | Final evaluation deadline |
 
 <a name="MentoringProgramme-WorkshopMaterials"></a>
 ## Workshop Materials
 
-The slides used for the local workshop at ICFOSS headquarters in Kerala are available for <a href="http://people.apache.org/~lresende/presentations/asf-icfoss-mentoring.pdf">download</a>.
+The slides used for the local workshop at ICFOSS headquarters in Kerala are available for [download](http://people.apache.org/~lresende/presentations/asf-icfoss-mentoring.pdf).
 
 
 <a name="MentoringProgramme-ProjectIdeas"></a>
@@ -56,13 +55,13 @@ Project ideas are jira created by possible mentors and can be viewed at:
 <a name="MentoringProgramme-ApplyingfortheMentorProgramme"></a>
 ## Applying for the Mentor Programme
 
-Students can propose their own project ideas, or select one from the asf provided list. After selecting the project ideas. students should create a project prosoal following guidance from the <b>mentor</b> and the <b>project community</b>.
+Students can propose their own project ideas, or select one from the asf provided list. After selecting the project ideas. students should create a project proposal following guidance from the **mentor** and the **project community**.
 
 The project proposal should have, at minimum :
 
-+ <b>WHAT</b> Detailed description of the what is being implemented as part of the project.
-+ <b>HOW</b> How the project is going to be implemented. Here you would describe your approach towards solving the problem, as well as technical details (which shows to the mentor that you have a clear idea of what needs to be implemented). High level system design diagrams is a plus.
-+ <b>WHEN</b> A detailed schedule of what tasks you are going to implent by when.
++ **WHAT** Detailed description of the what is being implemented as part of the project.
++ **HOW** How the project is going to be implemented. Here you would describe your approach towards solving the problem, as well as technical details (which shows to the mentor that you have a clear idea of what needs to be implemented). High level system design diagrams is a plus.
++ **WHEN** A detailed schedule of what tasks you are going to implement by when.
 
 See the proposals examples below as guidance:
 
@@ -70,4 +69,4 @@ See the proposals examples below as guidance:
 + [GIMPLE to GRAPHITE transformation](http://students.fim.uni-passau.de/~grosser/gcc_soc/)
 + [Nmap Scripting Engine – Infrastructure Manager](http://opendz.org/users/tixxdz/gsoc/gsoc_2010_proposal_nmap_scripting_engine_short_version.pdf)
 
-Note that the proposals below are just examples from previous GSoC programs, and each one have different strenghts. But you should always follow your mentors advice, as he is the one that is going to be judjing your proposals.
+Note that the proposals below are just examples from previous GSoC programs, and each one have different strenghts. But you should always follow your mentors advice, as he is the one that is going to be judging your proposals.
