@@ -71,25 +71,12 @@ Each of the above tools is maintained by the ComDev PMC, so bring questions to t
 
 ## About This Website
 
-<p>
-  This `community.apache.org` website is maintained by the 
-  <span itemscope itemprop='author' itemtype='http://schema.org/Organization'>
-    <span itemprop='name'><a itemprop='url' href='/'>Apache Community Development PMC</a></span> who works on the 
-    <span itemprop='email'>dev@community.apache.org</span>
-    <span itemscope itemtype='https://schema.org/ContactPage'><a itemprop='url' href='/lists.html'>archived mailing list</a></span>.
-  </span>
-</p>
+This `community.apache.org` website is maintained by the [Apache Community Development PMC](/) who works on the 
+dev@community.apache.org [archived mailing list](/lists.html).
 
-<p>
-  See our <a href='/newbiefaq.html#websitecms'>Newcomer FAQ</a> for how to suggest
-  changes to this website.
-</p>
-<p>  
-  The content is written in Markdown and published by the ASF's CMS tool from a Subversion repository.
-Committers can either use the [Apache CMS][1] system to edit, build, and publish this site, or you can see 
-  the <a href="https://svn.apache.org/repos/asf/comdev/site/trunk/WEBSITE-HOWTO.txt">WEBSITE-HOWTO</a> for
-  more details using just command line tools.  Underlying source code: `https://svn.apache.org/repos/asf/comdev/site/trunk/`
-</p>
+See our [Newcomer FAQ](/newbiefaq.html#websitecms) for how to suggest changes to this website.
 
+The content is written in Markdown and published automatically via a Jenkins job.
+Source code is hosted in a Git repository.
 
-  [1]: http://www.apache.org/dev/cms.html#usage
+See the [README.md](https://github.com/apache/comdev-site/blob/master/README.md) for more info.
