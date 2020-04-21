@@ -6,3 +6,8 @@ github:
     - community
     - comdev
     - hugo
+
+notifications:
+  commits:      commits@community.apache.org
+  issues:       dev@community.apache.org
+  pullrequests: dev@community.apache.org
