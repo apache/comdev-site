@@ -89,7 +89,7 @@ And more at his [slideshare profile](https://www.slideshare.net/PiergiorgioLucid
 ## Committers - please add to this page!
 
 If you are an Apache committer and have presented slides on community topics
-around Apache, please add a link to your information here!
+around Apache, please add a link to your information here! 
 
 # Slide templates
 
