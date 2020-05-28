@@ -80,11 +80,20 @@ Slides and talk recordings are linked from my [Pressbook](https://pinboard.in/u:
 
 # Ismaël Mejía
  - [Construyendo software y comunidades a la manera de Apache (spanish)](https://iemejia.github.io/slides/201806-Construyendo%20software%20y%20comunidades%20a%20la%20manera%20de%20Apache.pdf)
+ 
+# Piergiorgio Lucidi
+ - [The Journey of Apache ManifoldCF: Learning from ASF's Successes (Open Source Summit 2017)](https://www.slideshare.net/PiergiorgioLucidi/the-journey-of-apache-manifoldcf-learning-from-asfs-successes-81289363)
+
+And more at his [slideshare profile](https://www.slideshare.net/PiergiorgioLucidi)
 
 ## Committers - please add to this page!
 
 If you are an Apache committer and have presented slides on community topics
 around Apache, please add a link to your information here!
+
+# Slide templates
+
+If you want to prepare a new presentation about any Apache project, feel free to start using [Apache slide templates](https://svn.apache.org/repos/asf/comdev/slide-templates/).
 
   [1]: http://isabel-drost.de/hadoop/slides/christoph.pdf
   [2]: http://www.erenkrantz.com/apachecon/TransferSummit%20-%20Open%20Innovation.pdf
