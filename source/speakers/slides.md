@@ -91,7 +91,7 @@ And more at his [slideshare profile](https://www.slideshare.net/PiergiorgioLucid
 If you are an Apache committer and have presented slides on community topics
 around Apache, please add a link to your information here! 
 
-# Slide templates
+### Slide templates
 
 If you want to prepare a new presentation about any Apache project, feel free to start using [Apache slide templates](https://svn.apache.org/repos/asf/comdev/slide-templates/).
 
