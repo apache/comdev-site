@@ -2,6 +2,14 @@
 title: GSoC
 ---
 
+<p class="lead">
+    <strong class="text-error">Currently happening</strong>
+    <div>
+        <span class=""> First Evaluation should be completed before </span><strong class="text-warning">July 2, 2020 18:00 UTC</strong>
+        <div class="text-error"> One day before official deadline </div>
+    </div>
+</p>
+
 Google is sponsoring the [2020 Summer of Code](https://summerofcode.withgoogle.com/) and 
 [The Apache Software Foundation](http://www.apache.org/) (ASF) registered as a mentoring organization.
 This page is your entry point to the ASF GSoC program.
