@@ -5,8 +5,7 @@ title: GSoC
 <p class="lead">
     <strong class="text-error">Currently happening</strong>
     <div>
-        <span class=""> First Evaluation should be completed before </span><strong class="text-warning">July 2, 2020 18:00 UTC</strong>
-        <div class="text-error"> One day before official deadline </div>
+        <span class=""> Second Work Period </span>
     </div>
 </p>
 
