@@ -34,6 +34,6 @@ campaign.
 [Friends of Apache Groovy](https://opencollective.com/friends-of-groovy) is another good example which supports activities 
 in the Apache Groovy community.
 
-The [explanation in their about section])https://opencollective.com/friends-of-groovy#about= makes it clear that that 
+The [explanation in their about section](https://opencollective.com/friends-of-groovy#section-about) makes it clear that that 
 initiative is _not_ affiliated or driven by the ASF, and also that any contributions, funded or not, have to go 
 through the usual Apache Groovy acceptance process.
