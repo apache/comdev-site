@@ -8,8 +8,7 @@ There are a number of useful Apache tools and services available for Apache proj
 
 ## Apache Infrastructure Information
 
-The primary portal for Apache Infra questions - how Subversion/Git/Websites, etc. work
- at the ASF - is the [http://www.apache.org/dev/][1] pages.
+The primary portals for Apache Infra questions - how Subversion/Git/Websites, etc. work at the ASF - are pages at <a href="https://www.apache.org/dev/" target="_blank">apache.org/dev</a> and <a href="https://www.infra.apache.org" target="_blank">infra.apache.org</a>.
 
 If you're a committer, you can [patch this very website yourself][2]!
 
