@@ -28,10 +28,10 @@ under the License.
     <bug-database rdf:resource="https://issues.apache.org/jira/browse/COMDEV"/>
     <mailing-list rdf:resource="https://community.apache.org/lists.html"/>
     <repository>
-      <SVNRepository>
-        <location rdf:resource="https://svn.apache.org/repos/asf/comdev/site/trunk/"/>
-        <browse rdf:resource="https://svn.apache.org/viewvc/comdev/site/trunk/"/>
-      </SVNRepository>
+      <GitRepository>
+        <location rdf:resource="https://gitbox.apache.org/repos/asf/comdev-site.git"/>
+        <browse rdf:resource="https://github.com/apache/comdev-site"/>
+      </GitRepository>
     </repository>
     <repository>
       <SVNRepository>
