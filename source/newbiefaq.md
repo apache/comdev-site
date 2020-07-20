@@ -259,15 +259,15 @@ can submit bug reports related to any of our services or websites.
 
 
   [1]: https://mail-archives.apache.org/mod_mbox/
-  [2]: http://apache.markmail.org/
+  [2]: https://apache.markmail.org/
   [3]: /gettingStarted/101.html
   [7]: https://lists.apache.org/list.html?dev@community.apache.org:lte=3M:
   [8]: /about/#about-this-website
   [9]: https://projects.apache.org/
   [10]: https://projects.apache.org/about.html
-  [11]: http://home.apache.org/
-  [12]: http://helpwanted.apache.org/
-  [13]: http://svn.apache.org/viewvc/comdev/helpwanted.apache.org/
+  [11]: https://home.apache.org/
+  [12]: https://helpwanted.apache.org/
+  [13]: https://svn.apache.org/viewvc/comdev/helpwanted.apache.org/
   [14]: https://reporter.apache.org/
   [15]: https://svn.apache.org/repos/asf/comdev/projects.apache.org/
 

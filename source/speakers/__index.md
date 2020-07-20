@@ -41,11 +41,11 @@ that talks about Apache communities, best practices, or the like
 at Apache), then please email us and suggest we include your slides.
 
 
-  [1]: http://community.zones.apache.org/
+  [1]: https://community.zones.apache.org/
   [2]: /calendars/conferences.html
-  [3]: http://community.zones.apache.org/
+  [3]: https://community.zones.apache.org/
   [4]: slides.html
   [5]: speakers.html
-  [6]: http://www.apache.org/foundation/press/kit/
+  [6]: https://www.apache.org/foundation/press/kit/
   [7]: slides.html
   [8]: themes

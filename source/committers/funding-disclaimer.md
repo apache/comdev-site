@@ -26,7 +26,7 @@ He's a nice example disclaimer used by one of our committers:
     in the BAR project in the same way as before.
 ```
 
-See also the [discussion thread](http://mail-archives.apache.org/mod_mbox/community-dev/201310.mbox/%3Cop.w4fwv6ewovlrp5%40arsmachina%3E) about this
+See also the [discussion thread](https://mail-archives.apache.org/mod_mbox/community-dev/201310.mbox/%3Cop.w4fwv6ewovlrp5%40arsmachina%3E) about this
 campaign.
 
 ## Friends of Apache Groovy

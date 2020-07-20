@@ -24,7 +24,7 @@ well as existing committers, and maintains a number of [helpful tools](#getcode)
 - Project Community Ombudsman  - get community advice on dev@community
 
 ### Education + Outreach
-- [ApacheCon](http://apachecon.com/)
+- [ApacheCon](https://apachecon.com/)
 - Partnered Industry Events (FOSDEM etc.)
 - MeetUps, Apache BarCamps, etc.
 - Event Representatives (booth coverage, etc.)
@@ -33,7 +33,7 @@ well as existing committers, and maintains a number of [helpful tools](#getcode)
 - Apache Ambassadors
 
 ### Diversity
-- [Code of Conduct](http://www.apache.org/foundation/policies/conduct.html)
+- [Code of Conduct](https://www.apache.org/foundation/policies/conduct.html)
 - Surveys
 - Women in Apache events (e.g., ApacheCon Luncheon, etc.)
 - ApacheCon family activities (e.g., kids programming challenge,
@@ -49,8 +49,8 @@ well as existing committers, and maintains a number of [helpful tools](#getcode)
 ComDev manages a number of helpful tools for finding your way around.
 
   - The [Apache Projects Directory](https://projects.apache.org/) lists all our software technologies.  [See the Project Directory **code**](https://projects.apache.org/about.html) and the JSON data feeds available.
-  - [Apache Committer Phone Book](http://home.apache.org/) lists all individual Apache committers.  [See the Phonebook **code**](https://home.apache.org/phonebook-about.html).
-  - Some projects [ask for Help Wanted](http://helpwanted.apache.org/) with easy-to-get-started tasks or bugs for newcomers.  [See the HelpWanted **code**](http://svn.apache.org/viewvc/comdev/helpwanted.apache.org/).
+  - [Apache Committer Phone Book](https://home.apache.org/) lists all individual Apache committers.  [See the Phonebook **code**](https://home.apache.org/phonebook-about.html).
+  - Some projects [ask for Help Wanted](https://helpwanted.apache.org/) with easy-to-get-started tasks or bugs for newcomers.  [See the HelpWanted **code**](https://svn.apache.org/viewvc/comdev/helpwanted.apache.org/).
   - The [Project Reporting Tool](https://reporter.apache.org/) (requires login), that helps Apache PMCs create quarterly board reports.  [See the Reporter **code**](https://svn.apache.org/repos/asf/comdev/projects.apache.org/).
   - A [ComDev Wiki](https://cwiki.apache.org/confluence/display/COMDEV/ComDev+Wiki) is also available for scratch or experimental work, although most permanent content should be here in the CMS.
 

@@ -587,7 +587,7 @@ evaluation. This was examined by both Google and the ASF admins. It was
 felt the mentors decision was fair and that our selection process was not
 at fault. A minor tweak relating to the communication of our expectations
 to the students has been implemented. Full details can be reviewed at
-http://markmail.org/thread/dsn6v2dagrm5nv7q
+https://markmail.org/thread/dsn6v2dagrm5nv7q
 
 Objectives for next period
 --------------------------
@@ -613,7 +613,7 @@ Documentation about mentoring has been moved from the wiki to the comdev
 website
 
 A beta site for finding local mentors and speakers has been set up at
-http://community.zones.apache.org/ This is reasonably well populated via
+https://community.zones.apache.org/ This is reasonably well populated via
 members@ and we expect to start pushing it to the wider community@ soon.
 
 Google Summer of Code
@@ -642,7 +642,7 @@ The Apache Way
 --------------
 
 Prompted by various discussions on members@ we started a community dev
-blog (http://blogs.apache.org/comdev/)
+blog (https://blogs.apache.org/comdev/)
 
 This will be used to post useful pointers to existing resources and
 expertise.
@@ -720,7 +720,7 @@ Main items for next period
   will occur after GSoC has commenced)
 
  [1](1.html)
- http://community.apache.org/mentoringprogramme.html
+ https://community.apache.org/mentoringprogramme.html
  [2](2.html)
  https://issues.apache.org/jira/browse/COMDEV-11
 </pre></div>

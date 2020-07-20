@@ -17,8 +17,8 @@ Here's some concrete ways you can provide mentoring to other members of
 your community.
 
 - [GSoC](/gsoc.html)
-- [Participate in the incubator](http://incubator.apache.org/) 
-- [Walk a beginner through their first patch](/mentoring/firstpatch.html) 
+- [Participate in the incubator](https://incubator.apache.org/)
+- [Walk a beginner through their first patch](/mentoring/firstpatch.html)
 - [Coach a new committer](/mentoring/committer.html)
 - [Take a new PMC member under your wing](/mentoring/pmc.html)
 - [Encourage someone to mentor someone else](/mentoring/mentor.html)

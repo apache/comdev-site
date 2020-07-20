@@ -22,9 +22,9 @@ authors for more information or questions. General discussion on the dev@communi
 * [Bertrand's Open Development links][6] - a live collection of pointers to Open Development information
 
 
-  [1]: http://producingoss.com/
-  [2]: http://grep.codeconsult.ch/2009/03/30/the-asf-is-the-switzerland-of-open-source/
-  [3]: http://psteitz.blogspot.ch/2011/11/thinking-together.html
-  [4]: http://www.apachecon.com/eu2007/materials/asf-intro-slides-eilebrecht.pdf
+  [1]: https://producingoss.com/
+  [2]: https://grep.codeconsult.ch/2009/03/30/the-asf-is-the-switzerland-of-open-source/
+  [3]: https://psteitz.blogspot.ch/2011/11/thinking-together.html
+  [4]: https://www.apachecon.com/eu2007/materials/asf-intro-slides-eilebrecht.pdf
   [5]: http://theapacheway.com/
   [6]: https://delicious.com/bdelacretaz/opendevelopment

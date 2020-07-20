@@ -81,7 +81,7 @@ activities, although non-committers can often act in supporting roles.
  * Write informational [blogs][22]
  * [Assessing and approving new committers](/newcommitter.html)
  * [Board Reports](/boardreport.html)
- * [Apache Project Branding/Trademark Resources](http://www.apache.org/foundation/marks/resources)
+ * [Apache Project Branding/Trademark Resources](https://www.apache.org/foundation/marks/resources)
 
 ## Speaking about Apache projects at Events
 
@@ -107,29 +107,29 @@ here are a few you might want to take a look at:
   - [Apache service list][26]
 
 
-  [1]: http://www.apache.org/dev/
+  [1]: https://www.apache.org/dev/
   [2]: /newbiefaq.html#websitecms
   [3]: /committers/lazyConsensus.html
   [4]: /committers/consensusBuilding.html
   [5]: /committes/voting.html
   [6]: /committers/decisionMaking.html
-  [7]: http://www.apache.org/dev/release.html
-  [8]: http://www.apache.org/legal/
-  [9]: http://www.apache.org/foundation/marks/
-  [10]: http://www.apache.org/dev/#mail
+  [7]: https://www.apache.org/legal/release-policy.html
+  [8]: https://www.apache.org/legal/
+  [9]: https://www.apache.org/foundation/marks/
+  [10]: https://www.apache.org/dev/#mail
   [11]: https://blogs.apache.org/comdev/entry/what_makes_apache_projects_different
   [12]: /projectIndependence.html
-  [13]: http://subversion.apache.org/docs/community-guide/conventions.html#crediting
-  [14]: http://www.apache.org/legal/resolved.html
-  [15]: http://www.apache.org/dev/release.html
-  [16]: http://incubator.apache.org/rat/
-  [17]: http://sling.apache.org/site/release-management.html
-  [18]: http://www.apache.org/dev/crypto.html
-  [19]: http://www.apache.org/legal/src-headers.html
-  [20]: http://incubator.apache.org/guides/releasemanagement.html#distribution-best-practice
-  [21]: http://www.apache.org/dev/
-  [22]: http://www.apache.org/dev/apache-blogs.html
-  [23]: http://www.apache.org/foundation/how-it-works.html
-  [24]: http://www.apache.org/dev/new-committers-guide.html
-  [25]: http://www.apache.org/dev
-  [26]: http://apache.org/dev/services.html
+  [13]: https://subversion.apache.org/docs/community-guide/conventions.html#crediting
+  [14]: https://www.apache.org/legal/resolved.html
+  [15]: https://www.apache.org/legal/release-policy.html
+  [16]: https://incubator.apache.org/rat/
+  [17]: https://sling.apache.org/site/release-management.html
+  [18]: https://infra.apache.org/crypto.html
+  [19]: https://www.apache.org/legal/src-headers.html
+  [20]: https://incubator.apache.org/guides/releasemanagement.html#distribution-best-practice
+  [21]: https://www.apache.org/dev/
+  [22]: https://infra.apache.org/project-blogs
+  [23]: https://www.apache.org/foundation/how-it-works.html
+  [24]: https://infra.apache.org/new-committers-guide.html
+  [25]: https://www.apache.org/dev
+  [26]: https://infra.apache.org/services.html

@@ -15,7 +15,7 @@ submit ideas via JIRA (if your project does not use JIRA you can [use the Comdev
 * Add an issue to JIRA (if your project doesn't use JIRA contact dev@community.apache.org)
   * use sub-tasks if necessary
 * Label the main issue with "mentor" (these will show up at the [ASF wide list of issues](https://issues.apache.org/jira/secure/IssueNavigator.jspa?requestId=12315361))
-* Label the main issue with "gsoc2020" if appropriate (these will show up at <http://s.apache.org/gsoc2020ideas>)
+* Label the main issue with "gsoc2020" if appropriate (these will show up at <https://s.apache.org/gsoc2020ideas>)
 
 <a name="guidetobeingamentor-Detail"></a>
 ## Detail
@@ -38,8 +38,8 @@ For more information about what it means to be a mentor and on how to write
 a proposal see:
 
   - [GSoC Mentoring Guide](https://developers.google.com/open-source/gsoc/resources/guide#mentor_guide)
-  - [Gnome HowTo on mentoring](http://www.gnome.org/~federico/docs/summer-of-code-mentoring-howto/)
-  - [How to be a lazy but successful Google SoC mentor](http://ploum.net/post/221-how-to-be-a-lazy-but-successful-googlesoc-mentor)
+  - [Gnome HowTo on mentoring](https://people.gnome.org/~federico/docs/summer-of-code-mentoring-howto/)
+  - [How to be a lazy but successful Google SoC mentor](https://ploum.net/221-how-to-be-a-lazy-but-successful-googlesoc-mentor/)
 
 Note that interest, even by a qualified student, does not mean that any of
 those project will automatically go ahead. Depending on the number of

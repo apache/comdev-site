@@ -9,7 +9,7 @@ third Wednesday of every month, and projects need to report well in advance of t
 reviewed before the meeting.
 
 *This page provides a simple template for board reports and should be read in conjunction with 
-[http://apache.org/foundation/board/reporting](http://apache.org/foundation/board/reporting) which 
+[https://apache.org/foundation/board/reporting](https://apache.org/foundation/board/reporting) which 
 contains additional information.*
 
 Reports need not be exhaustive, unless you are asking for assistance.

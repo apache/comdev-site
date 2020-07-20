@@ -51,12 +51,12 @@ in your own language, then this might be the right thing for you.
   
   
 
-To find a local mentor, please visit [http://community.zones.apache.org/](http://community.zones.apache.org/)
+To find a local mentor, please visit [https://community.zones.apache.org/](https://community.zones.apache.org/)
 
   
   
 
-Using [http://community.zones.apache.org/](http://community.zones.apache.org/)
+Using [https://community.zones.apache.org/](https://community.zones.apache.org/)
 , you simply need to enter your location, and search for Apache committers
 willing to act as local mentors near you. Drop them an email to introduce
 yourself. However, please remember that they will be giving up their time
@@ -79,7 +79,7 @@ mentoring relationship (see the [Formal Mentoring Program](mentoringprogramme.ht
  if you're interested in that though) Just every so often, helping out
 someone who lives near you.
 
-Firstly, you'll need a FOAF entry on people.apache.org. Take a look at [http://people.apache.org/foaf/](http://people.apache.org/foaf/)
+Firstly, you'll need a FOAF entry on people.apache.org. Take a look at [https://people.apache.org/foaf/](https://people.apache.org/foaf/)
  for instructions on setting this up if you haven't already done so. Next,
 ensure that you have listed your location - we need that to be able to let
 people search for you.
@@ -107,11 +107,11 @@ For an apache committer with username "foo", your entry would be one of:
        <foaf:Person rdf:resource="urn:org:apache:foo.rdf" />
      </helper>
      <helper>
-       <foaf:Person rdf:resource="http://www.example.com/foaf/foo.rdf" />
+       <foaf:Person rdf:resource="https://www.example.com/foaf/foo.rdf" />
      </helper>
 
 
 Within 24 hours of committing your addition to
 *local-outreach/CommunityDevelopment.rdf*, you should appear in the web
-application\! Head over to [http://community.zones.apache.org/](http://community.zones.apache.org/)
+application\! Head over to [https://community.zones.apache.org/](https://community.zones.apache.org/)
  a day later a check you're listed properly

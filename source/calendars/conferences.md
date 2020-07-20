@@ -4,7 +4,7 @@ title: Apache Conferences Calendar
 
 ## Deprecated - See New Calendar instead
 
-This calendar is no longer maintained; please see [http://community.apache.org/calendars/](/calendars/) instead.
+This calendar is no longer maintained; please see [this page](/calendars/) instead.
 
 This Calendar is maintained by the Apache Community Development Committee (ComDev),
 to have your event listed considered for addition please mail [dev@community.apache.org][1].
@@ -82,8 +82,8 @@ function render(data) {
    }
 }
 </script>
-<script src="http://www.google.com/calendar/feeds/nerseigospses068jd57bk5ar8@group.calendar.google.com/public/full?alt=json-in-script&callback=render&orderby=starttime&max-results=30&singleevents=true&sortorder=ascending&futureevents=true"></script>
+<script src="https://www.google.com/calendar/feeds/nerseigospses068jd57bk5ar8@group.calendar.google.com/public/full?alt=json-in-script&callback=render&orderby=starttime&max-results=30&singleevents=true&sortorder=ascending&futureevents=true"></script>
 
   [1]: mailto:dev@community.apache.org
-  [2]: http://www.apache.org/foundation/marks/events.html
+  [2]: https://www.apache.org/foundation/marks/events.html
   [3]: https://www.google.com/calendar/ical/nerseigospses068jd57bk5ar8%40group.calendar.google.com/public/basic.ics

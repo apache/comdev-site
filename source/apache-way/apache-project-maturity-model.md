@@ -18,7 +18,7 @@ Note that we try to avoid using the word "must" below. The model describes the s
 
 Projects which incubate at Apache might not fit into all the parts of this model, however a major goal of incubation is to bring the project's community closer to it.
 
-Questions and feedback about this model are welcome on the <a href="http://mail-archives.apache.org/mod_mbox/community-dev/">comdev mailing list</a>.
+Questions and feedback about this model are welcome on the <a href="https://lists.apache.org/list.html?dev@community.apache.org">comdev mailing list</a>.
 
 # The Apache Project Maturity Model
 
@@ -79,7 +79,7 @@ The libraries mentioned in LC20 are available as Open Source software.
 </dd>
 
 <dt id="LC40">LC40</dt>
-<dd>Committers are bound by an Individual Contributor Agreement (the <a href="http://www.apache.org/licenses/icla.txt">"Apache iCLA"</a>) that 
+<dd>Committers are bound by an Individual Contributor Agreement (the <a href="https://www.apache.org/licenses/icla.txt">"Apache iCLA"</a>) that 
 defines which code they are allowed to commit and how they need to 
 identify code that is not their own. 
 </dd>
@@ -267,7 +267,7 @@ The project is independent from any corporate or organizational influence.
 **Remember:** This model is a suggested guide; it is not a requirements document.  The model shows what generally good behaviors in an Apache project look like.
 
 So far, inside the ASF this model has been used mostly for self-assessment of podlings preparing their graduation 
-from the [Apache Incubator](http://incubator.apache.org).
+from the [Apache Incubator](https://incubator.apache.org).
 
 It might be useful for top-level ASF projects to regularly assess their maturity based on this model, but this is not a requirement at this time.
 
@@ -281,14 +281,14 @@ Here are a few self-assessment examples:
 
 ## Other Open Source Project Models
 
-See [http://s.apache.org/apache_maturity_model](http://s.apache.org/apache_maturity_model) for the discussions that led to this. And thanks to the many people who provided input! The links below are both inspirations for our model above, and are some of the other ways that FOSS project participants have tried to quantify ways to measure open source projects.
+See [https://s.apache.org/apache_maturity_model](https://s.apache.org/apache_maturity_model) for the discussions that led to this. And thanks to the many people who provided input! The links below are both inspirations for our model above, and are some of the other ways that FOSS project participants have tried to quantify ways to measure open source projects.
 
 * [http://oss-watch.ac.uk/resources/ssmm](http://oss-watch.ac.uk/resources/ssmm)
-* [http://osswatch.jiscinvolve.org/wp/2014/12/11/open-or-fauxpen-use-the-oss-watch-openness-rating-tool-to-find-out/](http://osswatch.jiscinvolve.org/wp/2014/12/11/open-or-fauxpen-use-the-oss-watch-openness-rating-tool-to-find-out/)
+* [https://osswatch.jiscinvolve.org/wp/2014/12/11/open-or-fauxpen-use-the-oss-watch-openness-rating-tool-to-find-out/](https://osswatch.jiscinvolve.org/wp/2014/12/11/open-or-fauxpen-use-the-oss-watch-openness-rating-tool-to-find-out/)
 * [https://blogs.apache.org/comdev/entry/what_makes_apache_projects_different](https://blogs.apache.org/comdev/entry/what_makes_apache_projects_different)
-* [http://rfc.zeromq.org/spec:16](http://rfc.zeromq.org/spec:16)
+* [https://rfc.zeromq.org/spec:16](https://rfc.zeromq.org/spec:16)
 * [http://oss-watch.ac.uk/resources/reusereadinessrating](http://oss-watch.ac.uk/resources/reusereadinessrating)
-* [http://en.wikipedia.org/wiki/Capability_Maturity_Model_Integration](http://en.wikipedia.org/wiki/Capability_Maturity_Model_Integration)
+* [https://en.wikipedia.org/wiki/Capability_Maturity_Model_Integration](https://en.wikipedia.org/wiki/Capability_Maturity_Model_Integration)
 * [https://www.apache.org/dev/project-requirements](https://www.apache.org/dev/project-requirements)
 
 ## Status / Document Version
@@ -307,7 +307,7 @@ See the <a href="https://svn.apache.org/viewvc/comdev/site/trunk/content/apache-
 
 <li>
 <a id="fnref-a2e0cd066fd8f45af4e87bcdbf8d9abd3ad40872"></a>
-"For distribution to the public at no charge" is straight from the from the ASF Bylaws at <a class="http" href="http://apache.org/foundation/bylaws.html">http://apache.org/foundation/bylaws.html</a>.  
+"For distribution to the public at no charge" is straight from the from the ASF Bylaws at <a class="http" href="https://apache.org/foundation/bylaws.html">https://apache.org/foundation/bylaws.html</a>.  
 
 (<a href="#fndef-a2e0cd066fd8f45af4e87bcdbf8d9abd3ad40872-0">1</a>)
 </li>
@@ -329,7 +329,7 @@ what we are distributing.
 
 <li>
 <a id="fnref-3e4d977daeeb59a808fb0c40477b2cd50e913f2e"></a>
-<a class="http" href="http://apache.org/legal/resolved.html">http://apache.org/legal/resolved.html</a> has information about acceptable licenses for third-party dependencies  
+<a class="http" href="https://apache.org/legal/resolved.html">https://apache.org/legal/resolved.html</a> has information about acceptable licenses for third-party dependencies  
 
 (<a href="#fndef-3e4d977daeeb59a808fb0c40477b2cd50e913f2e-3">4</a>)
 </li>
@@ -345,7 +345,7 @@ contributions but grant the ASF a perpetual copyright license for them.
  
  <li>
  <a id="fnref-d2389850862fcc9bddabb3c2e23b13922d68e3fc"></a>
- See <a class="http" href="http://www.apache.org/dev/release.html">http://www.apache.org/dev/release.html</a> for more info on Apache releases  
+ See <a class="http" href="https://www.apache.org/legal/release-policy.html">https://www.apache.org/legal/release-policy.html</a> for more info on Apache releases  
  
  (<a href="#fndef-d2389850862fcc9bddabb3c2e23b13922d68e3fc-5">6</a>)
  </li>
@@ -359,7 +359,7 @@ contributions but grant the ASF a perpetual copyright license for them.
  
  <li>
  <a id="fnref-7c23a24b04dcf9b4b10423685fbd37f69b2b3783"></a>
- Apache projects can just point to <a class="http" href="http://www.apache.org/security/">http://www.apache.org/security/</a> or use their own security contacts page, which should also point to that.  
+ Apache projects can just point to <a class="http" href="https://www.apache.org/security/">https://www.apache.org/security/</a> or use their own security contacts page, which should also point to that.  
  
  (<a href="#fndef-7c23a24b04dcf9b4b10423685fbd37f69b2b3783-7">8</a>)
  </li>
@@ -373,7 +373,7 @@ contributions but grant the ASF a perpetual copyright license for them.
  
  <li>
  <a id="fnref-9b0cf71f04bcd81dddbf6199f1c771e27566611e"></a>
- For Apache projects, <a class="http" href="http://www.apache.org/foundation/voting.html">http://www.apache.org/foundation/voting.html</a> defines the voting rules.  
+ For Apache projects, <a class="http" href="https://www.apache.org/foundation/voting.html">https://www.apache.org/foundation/voting.html</a> defines the voting rules.  
  
  (<a href="#fndef-9b0cf71f04bcd81dddbf6199f1c771e27566611e-9">10</a>)
  </li>

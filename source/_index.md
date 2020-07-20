@@ -42,19 +42,19 @@ in the specific Apache projects that interest you.
     <div class="span4">
         <h4>Newcomers to Apache</h4>
         <p>If you are new to open source, our <a href="newcomers/index.html"><b>newcomers section</b></a> explains basic concepts, first steps to get started, and where to ask for help.</p>
-        <p>To get our software, see our <a href="https://projects.apache.org/projects.html?category" target="_blank">categorized listing of all Apache projects</a>, which are <a href="http://www.apache.org/free/"><b>always free</b> to download and use</a>.</p>
+        <p>To get our software, see our <a href="https://projects.apache.org/projects.html?category" target="_blank">categorized listing of all Apache projects</a>, which are <a href="https://www.apache.org/free/"><b>always free</b> to download and use</a>.</p>
         <p>The ASF is a large organization made up of many separate projects: each community may have different ways of working, while still following the basic Apache Way process.</p>
     </div>
     <div class="span4">
         <h4>Event Organizers and Speakers</h4>
         <p>We have a <a href="speakers/index.html">list of speaker resources</a> for conference organizers and speakers, including some useful Apache slides.</p>
-        <p>Producers should read our <a href="http://www.apache.org/foundation/marks/events">Event Branding Policy</a> for ticketed events, and we have some <a href="events/small-events.html">tips for organizing small community events</a> about Apache projects.</p>
+        <p>Producers should read our <a href="https://www.apache.org/foundation/marks/events">Event Branding Policy</a> for ticketed events, and we have some <a href="events/small-events.html">tips for organizing small community events</a> about Apache projects.</p>
         <p>The <a href="https://events.apache.org/event/calendar.html">master event calendar</a> contains an aggregation of many different Apache-related events, including ApacheCon and BarCamps.</p>
     </div>
     <div class="span4">
         <h4>The Foundation</h4>
-        <p>The Apache Software Foundation (ASF) is a <a href="http://www.apache.org/foundation/">US 501(c)3 non-profit public charity</a>. The Foundation is <a href="http://www.apache.org/foundation/governance/">governed by a Board of Directors</a>, elected by our Membership, and we publish our <a href="http://www.apache.org/foundation/board/calendar.html">monthly board meeting minutes</a>.</p>
-        <p>Our mission is to create software for the public good that we <a href="http://www.apache.org/free/">give away for free</a>. You can read how <a href="https://www.apache.org/foundation/governance/" target="_blank">ASF and Apache projects are governed</a>. We <a href="https://www.apache.org/foundation/contributing.html" target="_blank">welcome your support to Apache in other ways</a>.</p>
+        <p>The Apache Software Foundation (ASF) is a <a href="https://www.apache.org/foundation/">US 501(c)3 non-profit public charity</a>. The Foundation is <a href="https://www.apache.org/foundation/governance/">governed by a Board of Directors</a>, elected by our Membership, and we publish our <a href="https://www.apache.org/foundation/board/calendar.html">monthly board meeting minutes</a>.</p>
+        <p>Our mission is to create software for the public good that we <a href="https://www.apache.org/free/">give away for free</a>. You can read how <a href="https://www.apache.org/foundation/governance/" target="_blank">ASF and Apache projects are governed</a>. We <a href="https://www.apache.org/foundation/contributing.html" target="_blank">welcome your support to Apache in other ways</a>.</p>
     </div>
 </div>
 
@@ -64,7 +64,7 @@ in the specific Apache projects that interest you.
         <h4>Open Source Contributors</h4>
         <p>If you know a little about open source and want to understand how the ASF works, our <a href="contributors/index.html">contributors' section</a> is for you.</p>
         <p>We also have a collection of <a href="links.html">links</a> to relevant information.</p>
-        <p>Apache Committers should read our <a href="committers/index.html">committers' section</a> and see the <a href="http://www.apache.org/dev/">Developer Information site</a>.</p>
+        <p>Apache Committers should read our <a href="committers/index.html">committers' section</a> and see the <a href="https://www.apache.org/dev/">Developer Information site</a>.</p>
     </div>
     <div class="span4">
           <h4>Pilot Mentoring Programme with India ICFOSS</h4>
@@ -100,7 +100,7 @@ in the specific Apache projects that interest you.
           Read about a few of our <a href="mentoring/experiences.html">GSoC successes</a>. </p>
         <!--
         <h4>Project Ideas</h4>
-        <p>If you are looking for specific areas to get started contributing to open source, see our <a href="https://helpwanted.apache.org">Help Wanted site</a>, or the collection of <a href="http://s.apache.org/gsoc2013ideas">project ideas</a> created by GSoC mentors.</p>
+        <p>If you are looking for specific areas to get started contributing to open source, see our <a href="https://helpwanted.apache.org">Help Wanted site</a>, or the collection of <a href="https://s.apache.org/gsoc2013ideas">project ideas</a> created by GSoC mentors.</p>
         -->
     </div>
     <div class="span4">

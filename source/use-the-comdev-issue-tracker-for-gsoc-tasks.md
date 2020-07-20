@@ -9,7 +9,7 @@ the Community Development project to record your GSoC tasks.
 * Ensure you add the labels "*gsoc2020*" and "*mentor*"
 * Ensure your title has "PROJECT_NAME:" at the start (you'll see why in a
 moment)
-* Your issues will then appear in the [list of projects](http://s.apache.org/gsoc2020ideas)
+* Your issues will then appear in the [list of projects](https://s.apache.org/gsoc2020ideas)
 * To create a list of just your projects make a copy of the filter at the
 above URL, narrow down to the comdev project and filter for "PROJECT_NAME:".
 

@@ -4,7 +4,7 @@ title: Apache-related slides, videos and presentations
 
 This page contains links to presentations and other key papers about the ASF and how
 Apache projects work that you may find useful.  Many of these have
-been presented at [ApacheCon conferences](http://events.apache.org) or
+been presented at [ApacheCon conferences](https://events.apache.org) or
 other open source conferences in the past.
 
 These presentations are available under permissive licenses; please see
@@ -51,29 +51,29 @@ Slides and talk recordings are linked from my [Pressbook](https://pinboard.in/u:
 # Shane Curcuru
  - [History and Overview of Various Apache Way Presentations](http://shaneslides.com/2017/04/History-Of-The-Apache-Way/) (annotated list, pre-2017)
  - [Apache Way: Effective Open Source Project Management](http://shaneslides.com/apachecon/TheApacheWay-Intro-ApacheConNA2017.html) ApacheCon 2017 ([video](https://www.youtube.com/watch?v=hpAv54KIgK8))
- - [About: Apache - The Foundation, The Way, The Projects](http://communityovercode.com/2012/05/camelone-2012-presentation/)
- - [Managing Community Open Source Brands](http://communityovercode.com/2012/07/oscon-presentation/)
- - [Improving Your Project's Image And Brand](http://www.slideshare.net/shanecurcuru/improving-your-apache-projects-image-and-brand)
- - [Supporting Apache Brands While Making A Profit](http://events.linuxfoundation.org/sites/events/files/slides/SupportingApacheBrandsWhileMakingAProfit-SCurcuru-ApacheCon2014.pdf) ([video](https://www.youtube.com/watch?v=8cQMhysKeyU))
- - [Successfully Profiting From Apache Projects](http://www.slideshare.net/shanecurcuru/successfully-profiting-from-apache-brands)
- - [Practical Trademark Law For FOSS Projects](http://www.slideshare.net/shanecurcuru/practical-trademark-law-for-foss-projects)
+ - [About: Apache - The Foundation, The Way, The Projects](https://communityovercode.com/2012/05/camelone-2012-presentation/)
+ - [Managing Community Open Source Brands](https://communityovercode.com/2012/07/oscon-presentation/)
+ - [Improving Your Project's Image And Brand](https://www.slideshare.net/shanecurcuru/improving-your-apache-projects-image-and-brand)
+ - [Supporting Apache Brands While Making A Profit](https://events.linuxfoundation.org/sites/events/files/slides/SupportingApacheBrandsWhileMakingAProfit-SCurcuru-ApacheCon2014.pdf) ([video](https://www.youtube.com/watch?v=8cQMhysKeyU))
+ - [Successfully Profiting From Apache Projects](https://www.slideshare.net/shanecurcuru/successfully-profiting-from-apache-brands)
+ - [Practical Trademark Law For FOSS Projects](https://www.slideshare.net/shanecurcuru/practical-trademark-law-for-foss-projects)
 
 # Nick Burch
- - [The Apache Way (ApacheCon North America 2015 version)](http://home.apache.org/~nick/Talks/ApacheConNA15/TheApacheWay15.pdf)
- - [But we're already open source? Why would we want to bring our project to the ASF?](http://home.apache.org/~nick/Talks/ApacheConNA16/ButWereAlreadyOpen.pdf)
+ - [The Apache Way (ApacheCon North America 2015 version)](https://home.apache.org/~nick/Talks/ApacheConNA15/TheApacheWay15.pdf)
+ - [But we're already open source? Why would we want to bring our project to the ASF?](https://home.apache.org/~nick/Talks/ApacheConNA16/ButWereAlreadyOpen.pdf)
 
 # Andrea Pescetti
- - [Bending the rules: Community over Code over Policy](http://www.slideshare.net/pescetti/bending-the-rules-community-over-code-over-policy-apachecon-2014)
+ - [Bending the rules: Community over Code over Policy](https://www.slideshare.net/pescetti/bending-the-rules-community-over-code-over-policy-apachecon-2014)
 
 # Daniel Ruggeri
- - [The Apache Way - amalgamation of many other decks](http://people.apache.org/~druggeri/presentations/TheApacheWay.odp) - presented at University of Missouri 2015. Attempt to get everything in one deck.
+ - [The Apache Way - amalgamation of many other decks](https://people.apache.org/~druggeri/presentations/TheApacheWay.odp) - presented at University of Missouri 2015. Attempt to get everything in one deck.
 
 # J Aaron Farr
- - [Several older Apache Way and related slide decks](http://www.slideshare.net/jaaronfarr/presentations)
+ - [Several older Apache Way and related slide decks](https://www.slideshare.net/jaaronfarr/presentations)
 
 # Alan Gates
- - [Training Our Team in the Apache Way](http://www.slideshare.net/alanfgates/keynote-apache-bdeunov2016) Keynote slides from Apache Big Data EU 2016
- - [Hortonworks Engineering Apache Training](http://www.slideshare.net/alanfgates/hortonworks-apache-training) Training material described in keynote above
+ - [Training Our Team in the Apache Way](https://www.slideshare.net/alanfgates/keynote-apache-bdeunov2016) Keynote slides from Apache Big Data EU 2016
+ - [Hortonworks Engineering Apache Training](https://www.slideshare.net/alanfgates/hortonworks-apache-training) Training material described in keynote above
 
 # Brett Porter
  - [The Apache Way - based on J Aaron Farr's earlier versions](https://www.slideshare.net/brettporter/the-apache-way-dataworks-summit-2017)
@@ -96,14 +96,14 @@ around Apache, please add a link to your information here!
 If you want to prepare a new presentation about any Apache project, feel free to start using [Apache slide templates](https://svn.apache.org/repos/asf/comdev/slide-templates/).
 
   [1]: http://isabel-drost.de/hadoop/slides/christoph.pdf
-  [2]: http://www.erenkrantz.com/apachecon/TransferSummit%20-%20Open%20Innovation.pdf
-  [3]: http://www.erenkrantz.com/apachecon/OSBC%20-%20No%20Jerks%20Allowed.pdf
-  [4]: http://www.erenkrantz.com/apachecon/JASIG%20-%20No%20Jerks%20Allowed.pdf
-  [5]: http://www.erenkrantz.com/apachecon/Apache%20Roadshow%20Asia%202009.pdf
-  [6]: http://www.erenkrantz.com/apachecon/SAP%20Apache%20Intro.pdf
-  [7]: http://www.slideshare.net/bosc2010/gardler-bosc2010-communitydevelopmentattheasf
-  [8]: http://www.slideshare.net/rgardler/the-apache-way-and-openofficeorg
-  [9]: http://people.apache.org/~jim/presos/IOOS2011/Creating_Community.pdf
-  [10]: http://people.apache.org/~jim/presos/OR2011/Open_Source_NotJust.pdf
-  [11]: http://people.apache.org/~jim/presos/
-  [12]: http://www.slideshare.net/jimjag/
+  [2]: https://www.erenkrantz.com/apachecon/TransferSummit%20-%20Open%20Innovation.pdf
+  [3]: https://www.erenkrantz.com/apachecon/OSBC%20-%20No%20Jerks%20Allowed.pdf
+  [4]: https://www.erenkrantz.com/apachecon/JASIG%20-%20No%20Jerks%20Allowed.pdf
+  [5]: https://www.erenkrantz.com/apachecon/Apache%20Roadshow%20Asia%202009.pdf
+  [6]: https://www.erenkrantz.com/apachecon/SAP%20Apache%20Intro.pdf
+  [7]: https://www.slideshare.net/bosc2010/gardler-bosc2010-communitydevelopmentattheasf
+  [8]: https://www.slideshare.net/rgardler/the-apache-way-and-openofficeorg
+  [9]: https://people.apache.org/~jim/presos/IOOS2011/Creating_Community.pdf
+  [10]: https://people.apache.org/~jim/presos/OR2011/Open_Source_NotJust.pdf
+  [11]: https://people.apache.org/~jim/presos/
+  [12]: https://www.slideshare.net/jimjag/

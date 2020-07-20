@@ -187,7 +187,7 @@ There is no doubt that the Apache brand is strong, no one can deny that. But our
 
         Website; http://qi4j.org
 
-        Source Repository; http://github.com/Qi4j/qi4j-sdk
+        Source Repository; https://github.com/Qi4j/qi4j-sdk
 
         Current Mailing list; https://groups.google.com/forum/#!forum/qi4j-dev
 

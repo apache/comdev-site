@@ -10,7 +10,7 @@ title: GSoC
 </p>
 
 Google is sponsoring the [2020 Summer of Code](https://summerofcode.withgoogle.com/) and 
-[The Apache Software Foundation](http://www.apache.org/) (ASF) registered as a mentoring organization.
+[The Apache Software Foundation](https://www.apache.org/) (ASF) registered as a mentoring organization.
 This page is your entry point to the ASF GSoC program.
 Please watch this page for updates concerning our participating in 2020.
 
@@ -23,7 +23,7 @@ Please watch this page for updates concerning our participating in 2020.
  to make sure you really want to apply to GSoC.
 * Watch [GSoC video presentation](https://www.youtube.com/watch?v=S6IP_6HG2QE)
  for students.
-* Examine the list of [available ASF GSoC 2020 projects](http://s.apache.org/gsoc2020ideas)
+* Examine the list of [available ASF GSoC 2020 projects](https://s.apache.org/gsoc2020ideas)
 	* Note that you can search the issue tracker for GSoC projects by
 filtering using the "gsoc2020" label, this allows you to narrow down the list
 to the projects you are interested in.
@@ -112,7 +112,7 @@ _Include any planned user testing, prototypes, code review._
 ## Contacting the ASF
 
 The ASF is not just one project, it is a federation of projects, see the
-lists at [http://www.apache.org/](http://www.apache.org) and [http://incubator.apache.org/](http://incubator.apache.org/). Each of our
+lists at [https://www.apache.org/](https://www.apache.org) and [https://incubator.apache.org/](https://incubator.apache.org/). Each of our
 projects has its own community of users, contributors and committers. GSoC
 students will usually be interacting with just one of these communities. 
 
@@ -136,7 +136,7 @@ administration you should subscribe to dev@community.apache.org.
 Once the ASF is confirmed as a mentoring organisation mentors must register
 with the GSoC webapp, and request to become a mentor for the ASF
 organization. Make sure that the email address you use for that (it's often
-your @gmail.com address by default) is '''registered as a mail alias for your Apache account at (http://id.apache.org)''' so that we can match it to your ASF account.
+your @gmail.com address by default) is '''registered as a mail alias for your Apache account at (https://id.apache.org)''' so that we can match it to your ASF account.
 You should also register your '''GSoC Link Id to
 committers/GSoCLinkId.txt'''.
 
@@ -190,6 +190,6 @@ The ASF currently has no policy establishing the criteria on what basis to vouch
 
  * [Summer of Code home](https://summerofcode.withgoogle.com)
  * [Official Google Summer of Code 2020 Timeline, FAQs](https://summerofcode.withgoogle.com/how-it-works/#timeline)
- * [GSoC discussion list](http://groups.google.com/group/google-summer-of-code-discuss)
- * [Python notes on expectations](http://wiki.python.org/moin/SummerOfCode/Expectations)
+ * [GSoC discussion list](https://groups.google.com/group/google-summer-of-code-discuss)
+ * [Python notes on expectations](https://wiki.python.org/moin/SummerOfCode/Expectations)
  * \#gsoc on Freenode

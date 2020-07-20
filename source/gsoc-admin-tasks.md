@@ -40,13 +40,13 @@ On behalf of the GSoC 2011 admins,
 
 Uli
 
-[1] http://community.apache.org/guide-to-being-a-mentor.html
-[2] http://s.apache.org/gsoc2011tasks
-[3] http://community.apache.org/gsoc.html
+[1] https://community.apache.org/guide-to-being-a-mentor.html
+[2] https://s.apache.org/gsoc2011tasks
+[3] https://community.apache.org/gsoc.html
 </pre>
 
-1. Update our GSoC pages at [http://community.apache.org/gsoc.html](/gsoc.html) with the
-current year's timeline and at [http://community.apache.org/guide-to-being-a-mentor.html](/guide-to-being-a-mentor.html).
+1. Update our GSoC pages at [https://community.apache.org/gsoc.html](/gsoc.html) with the
+current year's timeline and at [https://community.apache.org/guide-to-being-a-mentor.html](/guide-to-being-a-mentor.html).
 
 1. Apply for the ASF to be a mentoring organization for Google Summer of Code.
 I faintly remember that they wanted to know some stats like how often we have
@@ -61,7 +61,7 @@ written and add it here.
 
 1. Check with Google whether they changed the ranking process -- again. Find out
 what needs to be changed to our internal ranking process in order to be compatible
-with melange and update [http://community.apache.org/mentee-ranking-process.html](/mentee-ranking-process.html)
+with melange and update the [mentee ranking process](/mentee-ranking-process.html) page
 accordingly. In 2011 we used a Google Docs spreadsheet and did our ranking there. The
 org admin (and only the org admin) then transferred the rankings to Melange.
 
@@ -156,6 +156,6 @@ Uli
 [3] https://svn.apache.org/repos/private/financials/Bills/approved/Noirin-GSoC/Noirin-GSoC-Delta.pdf
 [4] https://svn.apache.org/repos/private/financials/Bills/received/Uli-GSOC-flights.txt
 [5]
-http://www.oanda.com/currency/historical-rates-classic?date_fmt=us&date=08/09/11&date1=08/09/11&exch=EUR&exch2=EUR&expr=USD&margin_fixed=0&format=HTML&redirected=1
+https://www.oanda.com/currency/historical-rates-classic?date_fmt=us&date=08/09/11&date1=08/09/11&exch=EUR&exch2=EUR&expr=USD&margin_fixed=0&format=HTML&redirected=1
 </pre>
 

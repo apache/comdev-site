@@ -100,11 +100,8 @@ comment before closing out the issue.
 # Other Apache Etiquette Guidelines # {#other}
 
  - [Official Apache-wide Code of Conduct][1]
- - [Email Etiquette Guidelines - writing good emails](http://www.apache.org/dev/contrib-email-tips)
+ - [Email Etiquette Guidelines - writing good emails](https://www.apache.org/dev/contrib-email-tips)
  - [How To Ask Smart Questions](http://www.catb.org/~esr/faqs/smart-questions.html)
  - [Building Consensus in a community](/committers/consensusBuilding.html)
 
-
-
-
-  [1]: http://www.apache.org/foundation/policies/conduct.html
+  [1]: https://www.apache.org/foundation/policies/conduct.html

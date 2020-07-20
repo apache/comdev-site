@@ -91,12 +91,12 @@ list by sending a mail to
 
 
   [1]: /newcomers/index.html
-  [2]: http://www.apache.org/dev/release.html
-  [3]: http://www.apache.org/legal/
-  [4]: http://www.apache.org/foundation/marks/
-  [5]: http://www.apache.org/dev/#mail
+  [2]: https://www.apache.org/legal/release-policy.html
+  [3]: https://www.apache.org/legal/
+  [4]: https://www.apache.org/foundation/marks/
+  [5]: https://www.apache.org/dev/#mail
   [6]: https://blogs.apache.org/comdev/entry/what_makes_apache_projects_different
   [7]: /projectIndependence.html
   [8]: /contributors/etiquette
-  [9]: http://www.apache.org/foundation/how-it-works.html
+  [9]: https://www.apache.org/foundation/how-it-works.html
   [10]: /newbiefaq.html#websitecms

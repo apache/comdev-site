@@ -90,11 +90,11 @@ The ASF’s mission is to produce software for the public good. All [Apache soft
 We’re happy to have third parties, including for-profit corporations, take our software and use it for their own purposes – even when in some cases it may technically compete with Apache software. However it is important in these cases to ensure that the brand and reputation of the Apache project is not misused by third parties for their own purposes. It is important for the longevity and community health of our projects that they get the appropriate credit for producing our freely available software.
 
 
-  [1]: http://www.apache.org/dev/release.html
-  [2]: http://www.apache.org/legal/
-  [3]: http://www.apache.org/foundation/marks/
-  [4]: http://www.apache.org/dev/#mail
+  [1]: https://www.apache.org/legal/release-policy.html
+  [2]: https://www.apache.org/legal/
+  [3]: https://www.apache.org/foundation/marks/
+  [4]: https://www.apache.org/dev/#mail
   [5]: https://blogs.apache.org/comdev/entry/what_makes_apache_projects_different
-  [6]: http://www.apache.org/licenses/LICENSE-2.0.html
-  [7]: http://www.apache.org/foundation/governance/
-  [8]: http://www.apache.org/free/
+  [6]: https://www.apache.org/licenses/LICENSE-2.0.html
+  [7]: https://www.apache.org/foundation/governance/
+  [8]: https://www.apache.org/free/

@@ -39,7 +39,7 @@ More information on the [Mentoring Programme](mentoringprogramme.html) page.
 <a name="MentoringProgramme-WorkshopMaterials"></a>
 ## Workshop Materials
 
-The slides used for the local workshop at ICFOSS headquarters in Kerala are available for [download](http://people.apache.org/~lresende/presentations/asf-icfoss-mentoring.pdf).
+The slides used for the local workshop at ICFOSS headquarters in Kerala are available for [download](https://people.apache.org/~lresende/presentations/asf-icfoss-mentoring.pdf).
 
 
 <a name="MentoringProgramme-ProjectIdeas"></a>
@@ -48,8 +48,8 @@ The slides used for the local workshop at ICFOSS headquarters in Kerala are avai
 Project ideas are jira created by possible mentors and can be viewed at:
 
 
-+ [2013 ICFOSS Programme Project Ideas](http://s.apache.org/icfoss2013ideas)
-+ [2013 GSoC Project Ideas](http://s.apache.org/gsoc2013ideas)
++ [2013 ICFOSS Programme Project Ideas](https://s.apache.org/icfoss2013ideas)
++ [2013 GSoC Project Ideas](https://s.apache.org/gsoc2013ideas)
 
 
 <a name="MentoringProgramme-ApplyingfortheMentorProgramme"></a>

@@ -24,7 +24,7 @@ speaking DOAP file.
 Creating a FOAF file for yourself is very easy, assuming you don't already 
 have one available. Details on how to create a FOAF file, along with a
 handy wizard to guide you through the process, are available at
-[http://people.apache.org/foaf/](http://people.apache.org/foaf/) .
+[https://people.apache.org/foaf/](https://people.apache.org/foaf/) .
 
 When creating your FOAF file, as a potential speaker we do require you
 to include a few key bits of information. These are:
@@ -60,12 +60,12 @@ For an apache committer with username "foo", your entry would be one of:
        <foaf:Person rdf:resource="urn:org:apache:foo.rdf" />
      </helper>
      <helper>
-       <foaf:Person rdf:resource="http://www.example.com/foaf/foo.rdf" />
+       <foaf:Person rdf:resource="https://www.example.com/foaf/foo.rdf" />
      </helper>
 
 
 Within 24 hours of committing your addition to
 *local-outreach/ApacheSpeakers.rdf*, you should appear in the web
 application as a potential speaker! Head over to 
-[http://community.zones.apache.org/](http://community.zones.apache.org/)
+[https://community.zones.apache.org/](https://community.zones.apache.org/)
 a day later a check you're listed properly.

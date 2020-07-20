@@ -10,13 +10,13 @@ you stepping up to help out.
 
   * [Where do I start?](/gettingStarted/101.html) - a guide to your first engagement with an Apache project
   * [How should I behave?](/contributors/etiquette) - etiquette and codes of conduct at Apache
-  * [What can I work on?](http://helpwanted.apache.org) - suggested tasks you can start working on today 
+  * [What can I work on?](https://helpwanted.apache.org) - suggested tasks you can start working on today 
   * [Mentoring Programme](/mentoringprogramme.html) - an introduction to our mentoring programme
       * [Mentoring in formal education](/mentorprogrammeformaleducation.html) - how to engage your students on open source
       * [Local Mentors Programme](/localmentors.html) - Find ASF people who live near you
   * [Newbie FAQ](/newbiefaq.html) - some commonly asked questions (and their answers)
   * [How many projects are at Apache?](https://projects.apache.org/) - we have a **LOT** of different project communities!
-  * [Just show me the code!](http://www.apache.org/dev/) - site index of technical questions (where's SVN, how to login, etc.)
+  * [Just show me the code!](https://www.apache.org/dev/) - site index of technical questions (where's SVN, how to login, etc.)
 
 <a name="Index-FirstContributions"></a>
 # First Contributions

@@ -71,8 +71,8 @@ Wookie, OpenMeetings, Nuvem, Hama, VXQuery
 
 First year Apache participated 
 
-  [1]: http://scottbw.wordpress.com/2012/08/22/wookie-adds-support-for-signed-widgets-thanks-to-google-summer-of-code/
-  [2]: http://pushpalankajaya.blogspot.co.uk/search/label/GSoC
+  [1]: https://scottbw.wordpress.com/2012/08/22/wookie-adds-support-for-signed-widgets-thanks-to-google-summer-of-code/
+  [2]: https://pushpalankajaya.blogspot.com/search/label/GSoC
   [3]: http://blog.mikemccandless.com/2012/08/lucenes-new-blockpostingsformat-thanks.html
-  [4]: http://summerwithairavata.blogspot.com/
+  [4]: https://summerwithairavata.blogspot.com/
   [5]: https://blogs.apache.org/openmeetings/entry/google_summer_of_code_2012

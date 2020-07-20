@@ -21,7 +21,7 @@ how the candidate interacts.
 
 All new committers **must** adhere to the [Apache Code of Conduct](https://www.apache.org/foundation/policies/conduct.html).
 
-Each PMC may want to create their own supplemental committer guidelines; here are the [Apache Forrest committer guidelines](http://forrest.apache.org/committed.html).
+Each PMC may want to create their own supplemental committer guidelines; here are the [Apache Forrest committer guidelines](https://forrest.apache.org/committed.html).
 
 The following are some points to consider when assessing a candidate's qualifications for committership.
 
@@ -135,7 +135,7 @@ After we reach a decision on the PMC list, and after the steps above, we
 will announce it on the dev list. We can then each follow up with
 our praise in public.
 
-Other notes about the process are available on the main [Apache site](http://www.apache.org/dev/pmc.html#newcommitter)
+Other notes about the process are available on the main [Apache site](https://www.apache.org/dev/pmc.html#newcommitter)
 
 <a name="NewCommitter-EmailTemplates"></a>
 ## Email Templates
@@ -152,7 +152,7 @@ merge this with the following template (PMC Vote Template)
     [ add the reasons behind your nomination here ]
     
     Voting ends one week from today, i.e. midnight UTC on YYYY-MM-DD
-    http://www.timeanddate.com/counters/customcounter.html?year=YYYY&month=MM&day=DD
+    https://www.timeanddate.com/counters/customcounter.html?year=YYYY&month=MM&day=DD
     
     See voting guidelines at
     https://community.apache.org/newcommitter.html
@@ -171,7 +171,7 @@ to be voted for by the existing PMC members and subsequently approved by the Boa
     [ add the reasons behind your nomination here ]
     
     Voting ends one week from today, i.e. midnight UTC on YYYY-MM-DD
-    http://www.timeanddate.com/counters/customcounter.html?year=YYYY&month=MM&day=DD
+    https://www.timeanddate.com/counters/customcounter.html?year=YYYY&month=MM&day=DD
     
     See voting guidelines at
     https://community.apache.org/newcommitter.html
@@ -194,7 +194,7 @@ to be voted for by the existing PMC members and subsequently approved by the Boa
     The vote is ***successful/not successful***
 
 ### Board Approval of new PMC member 
-See [http://www.apache.org/dev/pmc.html#newpmc][1]
+See [https://www.apache.org/dev/pmc.html#newpmc][1]
 
 ### Committer Invite Template
 This is the suggested invitation email to send to the newly elected committer, 
@@ -234,17 +234,17 @@ sent after a positive result from the vote for a new committer.
 
     B. If you accept, the next step is to register an iCLA:
         1. Details of the iCLA and the forms are found 
-        through this link: http://www.apache.org/licenses/#clas
+        through this link: https://www.apache.org/licenses/#clas
 
         2. Instructions for its completion and return to 
         the Secretary of the ASF are found at
-        http://www.apache.org/licenses/#submitting
+        https://www.apache.org/licenses/#submitting
 
         3. When you transmit the completed iCLA, request 
         to notify the Apache [Project] and choose a 
         unique Apache id. Look to see if your preferred 
         id is already taken at 
-        http://people.apache.org/committer-index.html     
+        https://people.apache.org/committer-index.html     
         This will allow the Secretary to notify the PMC 
         when your iCLA has been recorded.
 
@@ -267,11 +267,11 @@ This is the followup email after the new committer has accepted the invitation
     Normally you would send an Individual CLA. If you also make
     contributions done in work time or using work resources then
     see the Corporate CLA. Ask us if you have any issues.
-    http://www.apache.org/licenses/#clas
+    https://www.apache.org/licenses/#clas
     
     You need to choose a preferred ASF user name and alternatives.
     In order to ensure it is available you can view a list of taken ids at
-    http://people.apache.org/committer-index.html
+    https://people.apache.org/committer-index.html
     
     Please notify us when you have submitted the CLA and by what means 
     you did so. This will enable us to monitor its progress.
@@ -285,13 +285,13 @@ This is the followup email after the new committer has accepted the invitation
     
     The developer section of the website describes the roles and provides other
     resources:
-      http://www.apache.org/foundation/how-it-works.html
-      http://www.apache.org/dev/
+      https://www.apache.org/foundation/how-it-works.html
+      https://www.apache.org/dev/
     
     The incubator also has some useful information for new committers
     in incubating projects:
-      http://incubator.apache.org/guides/committer.html
-      http://incubator.apache.org/guides/ppmc.html
+      https://incubator.apache.org/guides/committer.html
+      https://incubator.apache.org/guides/ppmc.html
 
     Just as before you became a committer, participation in any ASF community
     requires adherence to the ASF Code of Conduct:
@@ -299,14 +299,14 @@ This is the followup email after the new committer has accepted the invitation
     
     [PROJECT should insert its own guidelines here; if none are available,
      the Apache Forrest guidelines are available as a template.]
-      http://forrest.apache.org/guidelines.html
+      https://forrest.apache.org/guidelines.html
     
     Yours,
     The Apache [PROJECT] PMC
 
 ### Committer Account Creation
 Follow the instructions
-    [here](http://www.apache.org/dev/pmc.html#newcommitter).
+    [here](https://www.apache.org/dev/pmc.html#newcommitter).
 
 In summary:
 
@@ -357,7 +357,7 @@ This is the email to announce to [PROJECT]-dev once the account has been created
     
     Please follow the instructions to set up your SSH,
     svn password, svn configuration, mail forwarding, etc.
-    http://www.apache.org/dev/#committers
+    https://www.apache.org/dev/#committers
    
     [If your project automatically adds committers to the PMC]
     Please subscribe to the [PROJECT] Project Management 
@@ -376,13 +376,13 @@ This is the email to announce to [PROJECT]-dev once the account has been created
     You will probably need to 'svn switch" previous checkouts to now use https, 
     for example:
 
-    svn switch --relocate http://svn.apache.org/repos/asf/[PROJECT] https://svn.apache.org/repos/asf/[PROJECT]
+    svn switch --relocate https://svn.apache.org/repos/asf/[PROJECT] https://svn.apache.org/repos/asf/[PROJECT]
         
     If you have any questions during this phase, then please
     see the following resources:
     
-    Apache developer's pages: http://www.apache.org/dev/
-    Incubator committer guide: http://incubator.apache.org/guides/committer.html
+    Apache developer's pages: https://www.apache.org/dev/
+    Incubator committer guide: https://incubator.apache.org/guides/committer.html
     
     Naturally, if you don't understand anything be sure to ask us on the [PROJECT] dev mailing list. 
     Documentation is maintained by volunteers and hence can be out-of-date and incomplete - of course
@@ -391,9 +391,9 @@ This is the email to announce to [PROJECT]-dev once the account has been created
     A PMC member will announce your election to the dev list soon.
 
 
-  [1]: http://www.apache.org/dev/pmc.html#newpmc
+  [1]: https://www.apache.org/dev/pmc.html#newpmc
   [2]: https://id.apache.org/acreq/pmc-chairs/
   [3]: https://id.apache.org/acreq/members/
-  [4]: http://mail-archives.apache.org/
+  [4]: https://mail-archives.apache.org/
   [5]: https://mail-search.apache.org/
   [6]: https://www.apache.org/foundation/glossary.html#Member

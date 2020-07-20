@@ -59,5 +59,5 @@ Please read our [Legal FAQs](https://www.apache.org/legal/#user-links) first.
 <a name="ContactPoints-Other"></a>
 ### Other
 
-For more information on these and other foundation lists see the [Mailing Lists](http://www.apache.org/foundation/mailinglists.html)
+For more information on these and other foundation lists see the [Mailing Lists](https://www.apache.org/foundation/mailinglists.html)
  page.
