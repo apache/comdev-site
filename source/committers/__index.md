@@ -124,12 +124,12 @@ here are a few you might want to take a look at:
   [15]: http://www.apache.org/dev/release.html
   [16]: http://incubator.apache.org/rat/
   [17]: http://sling.apache.org/site/release-management.html
-  [18]: http://www.apache.org/dev/crypto.html
+  [18]: https://infra.apache.org/crypto.html
   [19]: http://www.apache.org/legal/src-headers.html
   [20]: http://incubator.apache.org/guides/releasemanagement.html#distribution-best-practice
   [21]: http://www.apache.org/dev/
-  [22]: http://www.apache.org/dev/apache-blogs.html
+  [22]: https://infra.apache.org/project-blogs.html
   [23]: http://www.apache.org/foundation/how-it-works.html
-  [24]: http://www.apache.org/dev/new-committers-guide.html
+  [24]: https://infra.apache.org/new-committers-guide.html
   [25]: http://www.apache.org/dev
-  [26]: http://apache.org/dev/services.html
+  [26]: https://infra.apache.org/services.html
