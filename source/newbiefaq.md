@@ -1,5 +1,5 @@
 ---
-Title: Apache Newcomer FAQs
+title: Apache Newcomer FAQs
 ---
 
 This set of frequently asked questions is intended to help newcomers to
@@ -54,7 +54,7 @@ Apache project participants all believe that if we look after the community then
 code will emerge from that community. That is, when people with similar
 needs come together they will work out a way of solving their common
 problems. For this reason we created the Community
-Development project (where you are right now)d. The ASF has grown to be very
+Development project (where you are right now). The ASF has grown to be very
 large and, from the outside, can look too mature for newcomers and novices.
 However, these communities seek to be flat in structure. No single person
 in any community has more influence than the next; a newcomer with a good
@@ -144,7 +144,7 @@ technology or you might simply want to do something fun in your free time.
 The key is that you must *want* to get involved. It is also important that
 you have appropriate skills to be able to help the project.
 
-Our [projects page](https://projects.apache.org/) provides a of projects that you can sort alphabetically, by category or by language. When you view a project's details
+Our [projects page](https://projects.apache.org/) provides a list of projects that you can sort alphabetically, by category or by language. When you view a project's details
 page you can find out about its mailing lists, issue tracker and other resources.
 
 In the project's issue tracker you will find details of bugs and feature
@@ -202,7 +202,7 @@ initial contribution to an ASF project.
 For more information see our [mentoring page](mentoringprogramme.html).
 
 <a name="NewbieFAQ-HowdoIApplytotheMentorProgramme?"></a>
-### How do I apply to the Mentor Programme?
+### How do I apply to the Mentoring Programme?
 
 Take a look at our [mentoring page](mentoringprogramme.html). If you are 
 planning on working on an Apache project as part of your formal education, you 
