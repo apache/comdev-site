@@ -22,11 +22,6 @@ pipeline {
         label 'git-websites'
     }
    
-    triggers {
-        // TODO: this can be removed once gitbox webhooks are re-enabled
-        pollSCM 'H/5 * * * *'
-    }
-
     environment {
         HUGO_VERSION = '0.63.2'
         DEPLOY_BRANCH = 'asf-site'
