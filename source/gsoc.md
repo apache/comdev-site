@@ -5,7 +5,7 @@ title: GSoC
 <p class="lead">
     <strong class="text-error">Currently happening</strong>
     <div>
-        <span class=""> Second Work Period </span>
+        <span class="">Second Evaluation, please submit before Jul 30, 18:00 UTC </span>
     </div>
 </p>
 
