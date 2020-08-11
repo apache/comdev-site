@@ -34,6 +34,12 @@ under the License.
       </GitRepository>
     </repository>
     <repository>
+      <GitRepository>
+        <location rdf:resource="https://gitbox.apache.org/repos/asf/comdev-events-site.git"/>
+        <browse rdf:resource="https://github.com/apache/comdev-events-site"/>
+      </GitRepository>
+    </repository>
+    <repository>
       <SVNRepository>
         <location rdf:resource="https://svn.apache.org/repos/asf/comdev/projects.apache.org/"/>
         <browse rdf:resource="https://svn.apache.org/viewvc/comdev/site/projects.apache.org/"/>
