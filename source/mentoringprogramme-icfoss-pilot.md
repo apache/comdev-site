@@ -2,6 +2,9 @@
 title: Pilot Mentoring Programme with India ICFOSS
 ---
 
+> Note that this information is about a pilot program that
+> happened back in 2013.
+
 The ASF has been participating in many mentoring initiatives, and it's now
 partening in a pilot project with India ICFOSS to provide mentoring for 
 undergraduated and graduated students that have interest in learning how
