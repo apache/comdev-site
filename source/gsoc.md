@@ -2,12 +2,14 @@
 title: GSoC
 ---
 
-<p class="lead">
-    <strong class="text-error">Currently happening</strong>
-    <div>
-        <span class="">Second Evaluation, please submit before Jul 30, 18:00 UTC </span>
-    </div>
-</p>
+<div class="card mb-3">
+  <div class="card-header">
+    Currently happening
+  </div>
+  <div class="card-body">
+    <h5 class="card-title text-info">Final evaluations are being submitted by mentors</h5>
+  </div>
+</div>
 
 Google is sponsoring the [2020 Summer of Code](https://summerofcode.withgoogle.com/) and 
 [The Apache Software Foundation](https://www.apache.org/) (ASF) registered as a mentoring organization.
