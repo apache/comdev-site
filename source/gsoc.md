@@ -7,7 +7,7 @@ title: GSoC
     Currently happening
   </div>
   <div class="card-body">
-    <h5 class="card-title text-info">Final evaluations are being submitted by mentors</h5>
+    <h5 class="card-title text-info">GSOC 2020 is over, get ready for the GSOC 2021 :)</h5>
   </div>
 </div>
 
