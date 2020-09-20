@@ -1,4 +1,22 @@
-.feather {
-	background-image:url('http://www.apache.org/images/feather-small.gif');
-	background-repeat:no-repeat;
+main.cd-main {
+  padding-top: 3.5rem;
 }
+
+footer.page-footer {
+  bottom: 0;
+  color: #fff;
+}
+
+footer.page-footer a {
+  color: #000000;
+}
+footer.page-footer a:hover {
+  color: #000000;
+}
+
+footer.page-footer .footer-copyright {
+  overflow: hidden;
+  color: rgba(255,255,255,0.6);
+  background-color: rgba(0,0,0,0.2);
+}
+
