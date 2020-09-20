@@ -250,7 +250,7 @@ that help you navigate the ASF.
   - Apache committers can log in to the [Project Reporting Tool][14] that helps PMCs create quarterly board reports; you can [see the code that does this][15].
   - A [ComDev Wiki][wiki] is also available for scratch or experimental work, although most permanent content should be here in the CMS.
 
-# How do I report a bug For Comdev websites or tools? # {#comdevbug}
+# How do I report a bug for Comdev websites or tools? # {#comdevbug}
 
 The Community Development project has a Jira issue tracker queue where you
 can submit bug reports related to any of our services or websites.
@@ -269,6 +269,6 @@ can submit bug reports related to any of our services or websites.
   [12]: https://helpwanted.apache.org/
   [13]: https://svn.apache.org/viewvc/comdev/helpwanted.apache.org/
   [14]: https://reporter.apache.org/
-  [15]: https://svn.apache.org/repos/asf/comdev/projects.apache.org/
+  [15]: https://svn.apache.org/repos/asf/comdev/reporter.apache.org/
 
 [wiki]: https://cwiki.apache.org/confluence/display/COMDEV/ComDev+Wiki
