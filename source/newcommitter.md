@@ -324,7 +324,7 @@ Request][3] page for ASF members to use.
 
 For elections held on public lists, please supply the 
 [mail-archives.apache.org][4] url. For private lists, you can 
-use the [Mail Search tool][5] to locate the apprpropriate url.    
+use the [Mail Search tool][5] to locate the appropriate url.
 
 ### Committer Announce Template
 This is the email to announce to [PROJECT]-dev once the account has been created.

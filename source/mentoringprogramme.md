@@ -179,7 +179,7 @@ unwilling to put in the time and effort to carry out the project. In such a
 case, it is preferable to terminate the project. However,
 nothing is completely black and white.
 
-Similiarly, the programme prefers that projects end on their original
+Similarly, the programme prefers that projects end on their original
 schedule, rather than drag out indefinitely. 
 If a mentee has made good progress on a substantial project over several
 months, all while participating in the TLP community, 
@@ -230,7 +230,7 @@ contributions.
 week to support.
 * The mentor is expected to process supplied patches within reasonable
 timeframes.
-* The mentor is expected to ensure appropriate assitance is available from
+* The mentor is expected to ensure appropriate assistance is available from
 the project community.
 * The mentor is responsible for submitting progress reports at the half way
 and completion points of the programme.
