@@ -7,7 +7,7 @@ title: Pilot Mentoring Programme with India ICFOSS
 
 The ASF has been participating in many mentoring initiatives, and it's now
 partnering in a pilot project with India ICFOSS to provide mentoring for
-undergraduate and graduated students that have interest in learning how
+undergraduate and graduate students that have interest in learning how
 to participate in open source communities at ASF.
 
 The mentoring programme is not here to teach you to write documentation or
