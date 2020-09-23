@@ -17,7 +17,7 @@ further down the page.
 <div class="panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;background-color: #F7D6C1;"><B>DRAFT November 2012</B></div><div class="panelContent" style="background-color: #FFFFCE;"><pre>
 Status report for the Apache Community Development Project
 
-The Commmunity Development PMC is responsible for helping people become 
+The Community Development PMC is responsible for helping people become
 involved with Apache projects
 
 Project Status
@@ -68,7 +68,7 @@ Actions:
 <div class="panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;background-color: #F7D6C1;"><B>August 2012</B></div><div class="panelContent" style="background-color: #FFFFCE;"><pre>
 Status report for the Apache Community Development Project
 
-The Commmunity Development PMC is responsible for helping people become 
+The Community Development PMC is responsible for helping people become
 involved with Apache projects
 
 Project Status
@@ -137,7 +137,7 @@ Outstanding:
 <div class="panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;background-color: #F7D6C1;"><B>May 2012</B></div><div class="panelContent" style="background-color: #FFFFCE;"><pre>
 Status report for the Apache Community Development Project
 
-The Commmunity Development PMC is responsible for helping people become 
+The Community Development PMC is responsible for helping people become
 involved with Apache projects
 
 Project Status
@@ -202,7 +202,7 @@ Outstanding:
 <div class="panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;background-color: #F7D6C1;"><B>February 2012</B></div><div class="panelContent" style="background-color: #FFFFCE;"><pre>
 Status report for the Apache Community Development Project
 
-The Commmunity Development PMC is responsible for helping people become 
+The Community Development PMC is responsible for helping people become
 involved with Apache projects
 
 Project Status
@@ -271,7 +271,7 @@ New Tasks:
 <div class="panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;background-color: #F7D6C1;"><B>November 2011</B></div><div class="panelContent" style="background-color: #FFFFCE;"><pre>
 Status report for the Apache Community Development Project
 
-The Commmunity Development PMC is responsible for helping people become 
+The Community Development PMC is responsible for helping people become
 involved with Apache projects
 
 Project Status
@@ -455,7 +455,7 @@ Project Status
 --------------
 
 The Community Development is progressing well, although a little more
-slowly than some whould have hoped.
+slowly than some would have hoped.
 
 No issues require board attention at this time.
 
@@ -468,13 +468,13 @@ have more admin volunteers than we need - which is great.
 The EU project (OpenSE) that planned to bring students to our mentoring programme is 
 about to commence its second pilot run. In the first run we had a number of 
 interested enquiries but nobody actually started work as a mentee. On the one 
-hand this is a dissapointment, on the othe it is good to know that our ASF 
+hand this is a disappointment, on the other it is good to know that our ASF
 volunteers are not wasting time on the initial phases of engaging mentees that, 
 ultimately, bring nothing to the project. 
 The OpenSE team believes the main barrier is the high expectations we have of 
 students - we make it clear that they must be self-motivated and results 
-oriented. This coupled with the reputaton of the ASF appears to be intimidating
-potential mentees. In the next pilot the learning assitants are focussing on the 
+oriented. This coupled with the reputation of the ASF appears to be intimidating
+potential mentees. In the next pilot the learning assistants are focusing on the
 career advantages experience with ASF projects can bring and are introducing a
 "community game" which will introduce students to the idea of engaging in public.
 
@@ -498,22 +498,22 @@ Project Status
 --------------
 
 The Community Development is progressing well, although a little more
-slowly than some whould have hoped.
+slowly than some would have hoped.
 
 The planned mentoring project has still not been formally launched. Largely
 due to the loss of the labels module in JIRA which was previously used by
-projects to indicate issues appropriate for mentoring. An alernative will
+projects to indicate issues appropriate for mentoring. An alternative will
 be put into place very soon.
 
 Work on a project to provide hosting for Apache related software projects
 is progressing. Legal documents have all been signed, draft usage
-guidelines and a FAQ are available and PMCs have been ocntacted to reserve
+guidelines and a FAQ are available and PMCs have been contacted to reserve
 projects names.
 
 We have taken ownership of party@ mailing list (no changes in usage are
 proposed)
 
-Google Summer of Code completed - thanks to all involved. It is noticable
+Google Summer of Code completed - thanks to all involved. It is noticeable
 that once again we have failed to generate any press (we never produced a
 press release for press@)
 
@@ -565,9 +565,9 @@ Community
 
 The women@a.o mailing list has been closed and an autoresponder inviting
 people to post to dev@community.a.o has been set up. The vote to merge the
-women@a.o list was passed unaminously. One, previously unknown, community
+women@a.o list was passed unanimously. One, previously unknown, community
 member voted -1 (non-binding). However, the owners of the women@.a.o list
-reassured the ComDev PMC that the list had been largely unsuccesful in
+reassured the ComDev PMC that the list had been largely unsuccessful in
 meeting the  defined objectives and welcomed the opportunity to work with
 the ComDev PMC in ensuring that the successes of women in the ASF are duly
 recognised. 
@@ -580,7 +580,7 @@ Interest is growing in the mentoring programme with a number of enquiries
 to the development list. Ross Gardler reports that there will be between 10
 and 40 students approaching the ASF for mentoring as part of their formal
 education in September. The draft process is already [defined](/mentoringprogramme.html)
- and will be refined during August in consulation with interested PMCs.
+ and will be refined during August in consultation with interested PMCs.
 
 There was one appeal from a GSoC student that failed in the mid-term
 evaluation. This was examined by both Google and the ASF admins. It was

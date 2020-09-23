@@ -6,9 +6,9 @@ title: Pilot Mentoring Programme with India ICFOSS
 > happened back in 2013.
 
 The ASF has been participating in many mentoring initiatives, and it's now
-partening in a pilot project with India ICFOSS to provide mentoring for 
-undergraduated and graduated students that have interest in learning how
-to participate in open source communitites at ASF.
+partnering in a pilot project with India ICFOSS to provide mentoring for
+undergraduate and graduate students that have interest in learning how
+to participate in open source communities at ASF.
 
 The mentoring programme is not here to teach you to write documentation or
 code. It is here to help you understand how to make a valuable contribution
@@ -26,7 +26,7 @@ More information on the [Mentoring Programme](mentoringprogramme.html) page.
 
 | Date | Description |
 | :--- | :--- |
-| June 20 | Local Workshop at ICFOSS headequarters in Kerala - India |
+| June 20 | Local Workshop at ICFOSS headquarters in Kerala - India |
 | June 24 - July 12 | Would-be student participants discuss application ideas with ASF projects |
 | July 15 | Students project proposal submission opens |
 | July 19 | Students project proposal submission deadline |
@@ -58,7 +58,7 @@ Project ideas are jira created by possible mentors and can be viewed at:
 <a name="MentoringProgramme-ApplyingfortheMentorProgramme"></a>
 ## Applying for the Mentor Programme
 
-Students can propose their own project ideas, or select one from the asf provided list. After selecting the project ideas. students should create a project proposal following guidance from the **mentor** and the **project community**.
+Students can propose their own project ideas, or select one from the ASF provided list. After selecting the project ideas. students should create a project proposal following guidance from the **mentor** and the **project community**.
 
 The project proposal should have, at minimum :
 
@@ -72,4 +72,4 @@ See the proposals examples below as guidance:
 + [GIMPLE to GRAPHITE transformation](http://students.fim.uni-passau.de/~grosser/gcc_soc/)
 + [Nmap Scripting Engine – Infrastructure Manager](http://opendz.org/users/tixxdz/gsoc/gsoc_2010_proposal_nmap_scripting_engine_short_version.pdf)
 
-Note that the proposals below are just examples from previous GSoC programs, and each one have different strenghts. But you should always follow your mentors advice, as he is the one that is going to be judging your proposals.
+Note that the proposals below are just examples from previous GSoC programs, and each one have different strengths. But you should always follow your mentors advice, as he is the one that is going to be judging your proposals.

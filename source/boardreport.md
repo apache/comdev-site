@@ -24,7 +24,7 @@ this process in any way they desire.
 for draft template)
  * Record relevant details on the report as they occur
  * Review objectives for the community and act upon them
- * Recieve reminder from "marvin" that the board report is due (usually on
+ * Receive reminder from "marvin" that the board report is due (usually on
 the first of the month)
  * Update board report ready for submission
  * Post mail to developer list asking for a review of the draft report
@@ -61,7 +61,7 @@ the first of the month)
     --------------------
     
     This section indicates what the community considers to be its highest priorities for the coming quarter. This is only intended 
-    as a record of likley actions to address any issues the community may have. The project should not feel limited to (or by) 
+    as a record of likely actions to address any issues the community may have. The project should not feel limited to (or by)
     these objectives.
     
     * What are the projects main plans and expectations for the community in the next period?

@@ -179,7 +179,7 @@ The ASF expects that everyone participating on an Apache project, whether it be 
 PMCs are allowed to define their own additional codes of conduct for their individual communities, but all PMCs are expected to abide by the Foundation wide policy.
 
 The [Incubator document](https://incubator.apache.org/guides/committer.html) also 
-has some really useful informatiion for both the newbie and the
+has some really useful information for both the newbie and the
 old hands. The section on **ASF Mottos** is especially useful as a reminder of the way things are in most ASF
 projects. This section includes such gems as:
 
