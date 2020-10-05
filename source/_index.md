@@ -110,6 +110,23 @@ in the specific Apache projects that interest you.
     </div>
 </div>
 
+<!-- Row 4 -->
+<div class="row">
+    <div class="col-md-4">
+        <h4>Apache Local Community (ALC)</h4>
+        <p>The <a href="https://s.apache.org/alc">Apache Local Community</a> comprises local groups of Apache (Open Source) enthusiasts, called an 'ALC Chapter'. There will be a single ALC chapter per town/city.
+        </p>
+        <p>Roles and Responsibilities:
+            <ul>
+                <li>Spread awareness on Apache in local communities.</li>
+                <li>Host various events for local open source enthusiasts that include students, developers, and the business community.</li>
+                <li>Share information about ASF, The Apache Way, and various Apache  projects.</li>
+                <li>Bring together project users and developers.</li>
+            </ul>
+        </p>
+    </div>
+</div>
+
 <div class="container" type="helpwanted" project="comdev" description="Community Development"></div>
 <script src="https://helpwanted.apache.org/widget.js" type="text/javascript"></script>
 <!-- dummy change (42) to test asf-site commit -->
