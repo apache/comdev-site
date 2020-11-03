@@ -7,14 +7,14 @@ title: GSoC
     Currently happening
   </div>
   <div class="card-body">
-    <h5 class="card-title text-info">GSOC 2020 is over, get ready for the GSOC 2021 :)</h5>
+    <h5 class="card-title text-info">We are now collecting ideas for GSoC 2021</h5>
   </div>
 </div>
 
-Google is sponsoring the [2020 Summer of Code](https://summerofcode.withgoogle.com/) and 
-[The Apache Software Foundation](https://www.apache.org/) (ASF) registered as a mentoring organization.
+Google is sponsoring the [2021 Summer of Code](https://summerofcode.withgoogle.com/) and 
+[The Apache Software Foundation](https://www.apache.org/) (ASF) [not yet] registered as a mentoring organization.
 This page is your entry point to the ASF GSoC program.
-Please watch this page for updates concerning our participating in 2020.
+Please watch this page for updates concerning our participating in 2021.
 
 <a name="GSoC-Students:readthis"></a>
 # Students: read this
@@ -25,9 +25,9 @@ Please watch this page for updates concerning our participating in 2020.
  to make sure you really want to apply to GSoC.
 * Watch [GSoC video presentation](https://www.youtube.com/watch?v=S6IP_6HG2QE)
  for students.
-* Examine the list of [available ASF GSoC 2020 projects](https://s.apache.org/gsoc2020ideas)
+* Examine the list of [available ASF GSoC 2021 projects](https://s.apache.org/gsoc2021ideas)
 	* Note that you can search the issue tracker for GSoC projects by
-filtering using the "gsoc2020" label, this allows you to narrow down the list
+filtering using the "gsoc2021" label, this allows you to narrow down the list
 to the projects you are interested in.
 * If you do not see any interesting projects from the proposed ideas, we encourage you to contact one of the Apache Project's mailing list and propose a new idea. But these ideas have to be vetted on the project dev list. The ASF does not encourage and will not respond to your personal new open source project ideas which are unrelated to any Apache projects.
 
@@ -143,12 +143,12 @@ You should also register your '''GSoC Link Id to
 committers/GSoCLinkId.txt'''.
 
 All ASF projects are invited to submit their ideas to their issue tracker,
-please be sure to add the labels "gsoc2020" and "mentor" so that we can
+please be sure to add the labels "gsoc2021" and "mentor" so that we can
 automatically include them in our list of subjects. If your project does
 not use JIRA please contact dev@community.apache.org.
 
 <a name="GSoC-ASFGSoCTimeline"></a>
-# ASF GSoC 2020 Timeline
+# ASF GSoC 2021 Timeline
 
 Below is a timeline of events for The Apache Software Foundation's
 involvement in GSoC. Unless otherwise stated deadlines are 24:00 UTC on the
@@ -157,30 +157,28 @@ date indicated.
 <a name="GSoC-StudentApplicationandSelection"></a>
 ## Student Application and Selection
 
-  - 2020-03-17: Student applications start
-  - 2020-03-31 18:00 UTC: Student applications deadline
-  - 2020-04-19: Proposals to ASF projects must be reviewed roughly and have a potential mentor so that we know how many slots to request. Proposals that don't have a mentor at this point will be down-rated.
-  - 2020-04-29: Proposal scoring must be completed. Proposals without a score will be rejected, no exceptions.
-  - 2020-05-04: Accepted student proposals announced on the Google Summer of Code site.
+  - 2021-03-30: Student applications start
+  - 2021-04-13 18:00 UTC: Student applications deadline
+  - 2021-04-01: Proposals to ASF projects must be reviewed roughly and have a potential mentor so that we know how many slots to request. Proposals that don't have a mentor at this point will be down-rated.
+  - 2021-05-05: Proposal scoring must be completed. Proposals without a score will be rejected, no exceptions.
+  - 2021-05-18: Accepted student proposals announced on the Google Summer of Code site.
 
 <a name="GSoC-GSocisunderway"></a>
 ## GSoc is underway
 
-  - 2020-05-04: Community bonding start
-  - 2020-05-31: Community bonding end
-  - 2020-06-01: Coding start
-  - 2020-06-29: First midterm evaluations can be submitted
-  - 2020-07-02: First midterm evaluations deadline
-  - 2020-07-27: Second midterm evaluations can be submitted
-  - 2020-07-30: Second midterm evaluations deadline
+  - 2021-05-18: Community bonding start
+  - 2021-06-08: Community bonding end
+  - 2021-06-08: Coding start
+  - 2021-07-13: Midterm evaluations can be submitted
+  - 2021-07-16: Midterm evaluations deadline
   
 <a name="GSoC-Winddown"></a>
 ## Wind down
 
-  - 2020-08-31: Coding deadline and final evaluations can be submitted
-  - 2020-08-31: ASF Mentors evaluations can be submitted
-  - 2020-09-06: ASF Mentors final evaluations deadline
-  - 2020-09-08: Results announced
+  - 2021-08-17: Coding deadline and final evaluations can be submitted
+  - 2021-08-24: ASF Mentors evaluations can be submitted
+  - 2021-08-30: ASF Mentors final evaluations deadline
+  - 2021-09-01: Results announced
 
 <a name="GSoC-Vouching"></a>
 # Organization Vouching
@@ -191,7 +189,7 @@ The ASF currently has no policy establishing the criteria on what basis to vouch
 # Useful Links
 
  * [Summer of Code home](https://summerofcode.withgoogle.com)
- * [Official Google Summer of Code 2020 Timeline, FAQs](https://summerofcode.withgoogle.com/how-it-works/#timeline)
+ * [Official Google Summer of Code 2021 Timeline, FAQs](https://summerofcode.withgoogle.com/how-it-works/#timeline)
  * [GSoC discussion list](https://groups.google.com/group/google-summer-of-code-discuss)
  * [Python notes on expectations](https://wiki.python.org/moin/SummerOfCode/Expectations)
  * \#gsoc on Freenode
