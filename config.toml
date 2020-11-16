@@ -33,5 +33,15 @@ fractions = false
 date = ["date", ":filename", "publishDate", "lastmod"]
 
 [params]
+# Source Code repository section
 repositoryUrl = "https://github.com/apache/comdev-site"
 repositorySourceBranch = "master"
+
+# Open Graph section
+title = "Apache Community Development"
+description = "The Community Development project creates and provides tools, processes, and advice to help open-source software projects improve their own community health."
+images = ["images/aceu19_1.jpg", "images/aceu19_2.jpg"] # Open graph images are placed in `static/images`
+tags = ["OpenSource", "Community", "Apache Software Foundation"]
+
+[social]
+twitter = "ApacheCommunity"
