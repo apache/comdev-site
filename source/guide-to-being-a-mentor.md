@@ -15,7 +15,7 @@ submit ideas via JIRA (if your project does not use JIRA you can [use the Comdev
 * Add an issue to JIRA (if your project doesn't use JIRA contact dev@community.apache.org)
   * use sub-tasks if necessary
 * Label the main issue with "mentor" (these will show up at the [ASF wide list of issues](https://issues.apache.org/jira/secure/IssueNavigator.jspa?requestId=12315361))
-* Label the main issue with "gsoc2020" if appropriate (these will show up at <https://s.apache.org/gsoc2020ideas>)
+* Label the main issue with "gsoc2021" if appropriate (these will show up at <https://s.apache.org/gsoc2021ideas>)
 
 <a name="guidetobeingamentor-Detail"></a>
 ## Detail
