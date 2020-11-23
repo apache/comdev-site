@@ -26,9 +26,10 @@ Please watch this page for updates concerning our participating in 2021.
 * Watch [GSoC video presentation](https://www.youtube.com/watch?v=S6IP_6HG2QE)
  for students.
 * Examine the list of [available ASF GSoC 2021 projects](https://s.apache.org/gsoc2021ideas)
-	* <span class="bg-info">NOTE that you can search the issue tracker for GSoC projects by
+	* <span class="text-primary">**NOTE**</span> that you can search the issue tracker for GSoC projects by
 filtering using the "gsoc2021" label, this allows you to narrow down the list
-to the projects you are interested in. https://issues.apache.org/jira/issues/?jql=labels+%3D+gsoc2021</span>
+to the projects you are interested in.<br/>
+Or simply use this link https://issues.apache.org/jira/issues/?jql=labels+%3D+gsoc2021
 * If you do not see any interesting projects from the proposed ideas, we encourage you to contact one of the Apache Project's mailing list and propose a new idea. But these ideas have to be vetted on the project dev list. The ASF does not encourage and will not respond to your personal new open source project ideas which are unrelated to any Apache projects.
 * Please NOTE `Ideas list` is manually updated, please ping mentors (at) community.apache.org if the page is not being updated .. :))
 
