@@ -26,10 +26,12 @@ Please watch this page for updates concerning our participating in 2021.
 * Watch [GSoC video presentation](https://www.youtube.com/watch?v=S6IP_6HG2QE)
  for students.
 * Examine the list of [available ASF GSoC 2021 projects](https://s.apache.org/gsoc2021ideas)
-	* Note that you can search the issue tracker for GSoC projects by
-filtering using the "gsoc2021" label, this allows you to narrow down the list
-to the projects you are interested in.
+	* <span class="text-primary">**NOTE**</span> that you can search the issue tracker for GSoC projects by
+filtering using the "*gsoc2021*" label, this allows you to narrow down the list
+to the projects you are interested in.<br/>
+Or simply use this link https://issues.apache.org/jira/issues/?jql=labels+%3D+gsoc2021
 * If you do not see any interesting projects from the proposed ideas, we encourage you to contact one of the Apache Project's mailing list and propose a new idea. But these ideas have to be vetted on the project dev list. The ASF does not encourage and will not respond to your personal new open source project ideas which are unrelated to any Apache projects.
+* Please NOTE `Ideas list` is manually updated, please ping mentors (at) community.apache.org if the page is not being updated .. :))
 
 <a name="GSoC-ApplyingforGSoC"></a>
 ### Applying for GSoC
@@ -139,11 +141,9 @@ Once the ASF is confirmed as a mentoring organisation mentors must register
 with the GSoC webapp, and request to become a mentor for the ASF
 organization. Make sure that the email address you use for that (it's often
 your @gmail.com address by default) is '''registered as a mail alias for your Apache account at (https://id.apache.org)''' so that we can match it to your ASF account.
-You should also register your '''GSoC Link Id to
-committers/GSoCLinkId.txt'''.
 
 All ASF projects are invited to submit their ideas to their issue tracker,
-please be sure to add the labels "gsoc2021" and "mentor" so that we can
+please be sure to add the labels "*gsoc2021*" and "*mentor*" so that we can
 automatically include them in our list of subjects. If your project does
 not use JIRA please contact dev@community.apache.org.
 
