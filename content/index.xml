@@ -265,7 +265,7 @@ List of duties:
       <guid>https://community.apache.org/guide-to-being-a-mentor.html</guid>
       <description>Submitting ideas to the mentoring programme All ASF projects are invited to submit their ideas for consideration in the ASF mentoring programme. Any Apache member and experienced committers can submit ideas via JIRA (if your project does not use JIRA you can use the Comdev Issue Tracker For GSoC Tasks. We are looking for as many interesting projects as we can come up with.
 
-Summary  Add an issue to JIRA (if your project doesn&amp;rsquo;t use JIRA contact dev@community.</description>
+Summary  Add an issue to JIRA (if your project does not use JIRA you can use the Comdev Issue Tracker For GSoC Tasks  use sub-tasks if necessary   Label the main issue with &amp;ldquo;mentor&amp;rdquo; (these will show up at the ASF wide list of issues) Label the main issue with &amp;ldquo;gsoc2021&amp;rdquo; if appropriate (these will show up at https://s.</description>
     </item>
     
     <item>
@@ -501,7 +501,7 @@ Finding Speakers You can use our &amp;ldquo;Find People&amp;rdquo; application t
       
       <guid>https://community.apache.org/use-the-comdev-issue-tracker-for-gsoc-tasks.html</guid>
       <description>If your project does not use the ASFs JIRA for issue tracking you can use the Community Development project to record your GSoC tasks.
- Add tasks to the Comdev project Ensure you add the labels &amp;ldquo;gsoc2020&amp;rdquo; and &amp;ldquo;mentor&amp;rdquo; Ensure your title has &amp;ldquo;PROJECT_NAME:&amp;rdquo; at the start (you&amp;rsquo;ll see why in a moment) Your issues will then appear in the list of projects To create a list of just your projects make a copy of the filter at the above URL, narrow down to the comdev project and filter for &amp;ldquo;PROJECT_NAME:&amp;quot;.</description>
+ Add tasks to the Comdev project Ensure you add the labels &amp;ldquo;gsoc2021&amp;quot;, &amp;ldquo;mentor&amp;rdquo; and &amp;ldquo;YOUR_PROJECT_NAME&amp;rdquo; Your issues will then appear in the list of projects Label &amp;ldquo;YOUR_PROJECT_NAME&amp;rdquo; will be used to map COMDEV issues to the real project while creating ideas list  Please contact dev@community.</description>
     </item>
     
     <item>
