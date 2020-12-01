@@ -4,7 +4,7 @@ slug: index
 ---
 
 There are a number of useful Apache tools and services available for Apache projects
- and committers.  This is a brief set of pointers or signposts to information elsewhere.
+ and committers.  This is a brief set of pointers or signposts to that information.
 
 ## Apache Infrastructure Information
 
@@ -14,36 +14,35 @@ If you're a committer, you can [patch this very website yourself][2]!
 
 ## Decision making
 
-Decisions in Apache projects are the result of:
+Decisions in Apache projects result from:
 
   - action
   - consensus in the community 
   - (if needed) votes within the community
 
 We have, over the years, developed a very simple and effective approach to 
-consensus building and decision making. The vast majority of decisions are made
-using [lazy consensus][3], if the "lazy" approach to consensus building is deemed
-unsuitable for a particular decision then we seek to [build consensus][4] within
+consensus building and decision making. Projects, and the ASF generally, make the vast majority of decisions
+using [lazy consensus][3]. If the "lazy" approach to consensus building seems
+unsuitable for a particular decision, we seek to [build consensus][4] within
 the community. Very occasionally, usually for formal reasons relating to legal 
 responsibilities, it is necessary to call a [vote][5].
 
-Each of these three approaches is described more fully on various foundation 
+Full descriptions of each of these approaches are available on various foundation 
 and project sites. However, we've provided an initial introduction to [decision
 making][6] here on the community development site.
 
 ## Project independence
 
-While not all aspects of the Apache Way are practiced the same way by 
-all projects at the ASF, there are a number of rules that Apache 
-projects are required to follow – things like complying with PMC 
+While not all ASF projects practice all aspects of the Apache Way in the same way, there are a number of rules that Apache 
+projects must follow – things like complying with PMC 
 [release voting][7], [legal policy][8], [brand policy][9], 
-using [mailing lists][10], etc., which are [documented in various places][11]. 
+using [mailing lists][10], etc., which [various sites document][11]. 
 
-One of these invariant rules is that projects are managed and used
+One of these invariant rules is that PMCs manage projects
 independently of any commercial interests. The goal is to create an 
 environment in which all participants are equal and thus have an equal
 opportunity to contribute to and benefit from our software, regardless
-of motivation or financial objectives. This is discussed in more detail
+of motivation or financial objectives. There is more discussion of this principle
 in our document [Project Independence][12].
 
 <a name="Index-Assistingwithprojectmanagement"></a>
@@ -51,9 +50,8 @@ in our document [Project Independence][12].
 ## Development processes
 
 Each project in Apache is free to define its own development processes as 
-long as they respect our decision making, legal and independence requirements.
-However, over the many years that the ASF has existed many best practices have 
-evolved and been documented across out projects. In this section we will try to 
+long as it respects our decision-making, legal and independence requirements.
+However, over the many years that the ASF has existed, our projects have evolved and documented many best practices. In this section we 
 bring together some of the most popular of these practices. Most Apache projects
 operate in ways that are largely similar to these processes.
 
@@ -61,9 +59,9 @@ operate in ways that are largely similar to these processes.
   * [ASF Licensing Policy][14]
   * Releases
     * [Releases FAQ][15]
-    * Release audit is a process each release candidate must go through to ensure IP is correctly managed
+    * Release audit is a process each release candidate must go through to ensure it is managing intellectual property (IP) correctly
       * [RAT/Creadur][16] is a tool to assist this process
-    * [Release management][17] is the process by which releases are prepared and released
+    * [Release management][17] is how the project prepares and publishes its releases
     * [Handling cryptography][18] in an Apache Release
     * [Source Headers and NOTICE][19] Files
     * [Distribution best practices][20]
@@ -83,23 +81,22 @@ activities, although non-committers can often act in supporting roles.
  * [Board Reports](/boardreport.html)
  * [Apache Project Branding/Trademark Resources](https://www.apache.org/foundation/marks/resources)
 
-## Speaking about Apache projects at Events
+## Speaking about Apache projects at events
 
-We encourage all of our committers to speak about Apache Projects, 
-Technologies, and generally help to grow and enhance our community.
-For more information on getting started, see our 
+We encourage all of our committers to speak about Apache projects and 
+technologies, and generally to help to grow and enhance our community.
+For more information, see our 
 [Speakers section](/speakers/).
 
-In addition, we also encourage all committers to list themselves as
-["Local Mentors"](/localmentors.html), and thus help out new committers
-and would be committers. For more information on what this program involves,
-and how to sign yourself up for it, please see the 
+In addition, we encourage all committers to list themselves as
+"Local Mentors", and thus help new committers
+and would-be committers. For more information on what this program involves,
+and how to sign yourself up for it, see the 
 [Local Mentors](/localmentors.html) page.
 
 ## Other Resources
 
-There is no shortage of useful resources for committers at Apache, 
-here are a few you might want to take a look at:
+There is no shortage of useful resources for committers at Apache. Here are a few you might want to take a look at:
 
   - [How the ASF works][23]
   - [Guide for New Committers][24]
