@@ -199,8 +199,8 @@ Technical Questions If you have a technical question about this website, or one 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://community.apache.org/contributors/</guid>
-      <description>This page is intended for those people who are reasonably comfortable with open source development models but need a helping hand finding their way around The Apache Software Foundation and our way of developing software (commonly called &amp;ldquo;The Apache Way&amp;rdquo;). For those wishing to start from the very beginning we have a newcomers page too.
-Project Independence And Policies While not all aspects of the Apache Way are practiced the same way by all projects at the ASF, there are a number of rules that Apache projects are required to follow – things like complying with PMC release voting, legal policy, brand policy, using mailing lists, etc.</description>
+      <description>This page is for people who are reasonably comfortable with open source development models but need a helping hand finding their way around the Apache Software Foundation and our way of developing software (commonly called &amp;ldquo;The Apache Way&amp;rdquo;). For those wishing to start from the very beginning, we have a newcomers page.
+Project Independence And Policies While not all ASF projects practice all aspects of the Apache Way in the same way, there are a number of rules that Apache projects must follow – things like complying with PMC release voting, legal policy, brand policy, using mailing lists, etc.</description>
     </item>
     
     <item>
