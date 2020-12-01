@@ -3,23 +3,22 @@ title: Contributing to the Apache Software Foundation
 slug: index
 ---
 
-This page is intended for those people who are reasonably 
+This page is for people who are reasonably 
 comfortable with open source development models but need a helping hand finding 
-their way around The Apache Software Foundation and our way of developing software
+their way around the Apache Software Foundation and our way of developing software
 (commonly called "The Apache Way"). For those wishing to start from
-the very beginning we have a [newcomers page][1] too.
+the very beginning, we have a [newcomers page][1].
 
 # Project Independence And Policies
 
-While not all aspects of the Apache Way are practiced the same way by 
-all projects at the ASF, there are a number of rules that Apache 
-projects are required to follow – things like complying with PMC 
+While not all ASF projects practice all aspects of the Apache Way in the same way, there are a number of rules that Apache 
+projects must follow – things like complying with PMC 
 [release voting][2], [legal policy][3], [brand policy][4], 
 using [mailing lists][5], etc., which are [documented in various places][6]. 
 
-One of these invariant rules is that projects are managed and used
+One of these invariant rules is that projects are managed
 independently of any commercial interests. The goal is to create an
- environment in which all participants are equal and thus have an equal
+environment in which all participants are equal and thus have an equal
 opportunity to contribute to and benefit from our software, regardless
 of motivation or financial objectives. This is discussed in more detail
 in our document [Project Independence][7].
@@ -28,30 +27,29 @@ in our document [Project Independence][7].
 
 Anyone can be a contributor to an Apache project. Being a contributor simply means
 that you take an interest in the project and contribute in some way, ranging from asking
-sensible questions (which documents the project and provides feedback to developers)
-through to providing new features as patches.
+sensible questions (which document the project and provide feedback to developers)
+through to providing new features as code patches.
 
-If you become a valuable contributor to the project you may well be invited to become
-a committer. Committer is a term used at the ASF to signify someone who is
+If you become a valuable contributor to the project, the Project Management Committee (PMC) may invite you to become
+a _committer_. At the ASF, a committer is someone who is
 committed to a particular project. It brings with it the privilege of write access to
-the project repository and resources. In many projects, committers are also invited 
-to be part of the core group within the project that ensures the project's vitality 
-(represented by the Project Management Committee, PMC). In a few projects an only a subset of 
-committers, who have earned even more merit, are invited to be a part of the PMC.
+the project repository and resources. In many projects, committers may also be invited 
+to be part of the core group within the project that ensures the project's vitality, the PMC. 
+In a few projects an only a subset of committers who have earned even more merit are invited to be a part of the PMC.
 
-One thing that is sometimes hard to understand when you are new to the open 
+One thing that is sometimes hard to understand, when you are new to the open 
 development process used at the ASF, is that we value the community more than 
 the code. A strong and healthy community will be respectful and be a fun and 
 rewarding place. More importantly, a diverse and healthy community can 
 continue to support the code over the longer term, even as individual 
-companies come and go from the field.
+contributors come and go from the field.
 
 In particular, we have some [etiquette and behavior expectations][8] when 
-working with Apache communities.
+you work with Apache communities.
 
 ## Contributing A Project - CoPDoC
 
-The foundations of an Apache project and how the community contributes to it is 
+The foundations of an Apache project and how the community contributes to it are 
 sometimes referred to by the acronym CoPDoC:
 
   - (Co)mmunity - one must interact with others, and share vision and knowledge
@@ -61,32 +59,31 @@ sometimes referred to by the acronym CoPDoC:
 
 ## Anyone Can Become A Committer
 
-There is nothing at The Apache Software Foundation that says you must write code 
+There is nothing at the Apache Software Foundation that says you must write code 
 in order to be a committer. Anyone who is supportive of the community and works 
 in any of the CoPDoC areas is a likely candidate for committership.
 
 Apache strives to be meritocratic. That is, once someone has contributed sufficiently to 
 any area of CoPDoC they can be voted in as a committer. Being a committer does 
-not necessarily mean you commit code, it means you are committed to the project
+not necessarily mean you commit code; it means you are committed to the project
 and are productively contributing to its success.
 
 One of the key contributions people can make to the community is through the 
-support of a wide user base by assisting users on the user list, writing user 
-oriented docs and ensuring the user viewpoint is understood by all developers. 
+support of a wide user base by assisting users on the user list, writing user-oriented docs and ensuring the developers understand the user viewpoint. 
 A main idea behind being a committer is the ability to be a mentor and to work 
 cooperatively with your peers.
 
-Some of those users become committers in their own right. Some will test code, 
+Some users of a project's software become committers in their own right. Some will test code, 
 some will write documentation, some will do bug triage and some will write code.
 
-For more details see our "[How it works][9]" document.  You can also make 
+For more details see "[How it works][9]".  You can also make 
 [suggestions for how to update this website][10] you're reading right now!
 
 ## Questions and Feedback
 
-Feedback can be provided and questions asked by subscribing to our mailing
-list by sending a mail to 
-[dev-subscribe@community.apache.org](mailto:dev-subscribe@community.apache.org). Once subscribed you can send your mail to
+You can provide feedback and ask questions by subscribing to our mailing
+list: send an email to 
+[dev-subscribe@community.apache.org](mailto:dev-subscribe@community.apache.org). Once subscribed, you can send your mail to
 [dev@community.apache.org](mailto:dev@community.apache.org).
 
 
