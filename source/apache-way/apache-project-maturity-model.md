@@ -18,7 +18,7 @@ Note that we try to avoid using the word "must" below. The model describes the s
 
 Projects which incubate at Apache might not fit into all the parts of this model; however a major goal of incubation is to bring the project's community closer to it.
 
-We welcome qQuestions and feedback about this model on the <a href="https://lists.apache.org/list.html?dev@community.apache.org" target="_blank">comdev mailing list</a>.
+We welcome Questions and feedback about this model on the <a href="https://lists.apache.org/list.html?dev@community.apache.org" target="_blank">comdev mailing list</a>.
 
 # The Apache Project Maturity Model
 
