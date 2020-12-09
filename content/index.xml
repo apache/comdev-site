@@ -495,13 +495,13 @@ Finding Speakers You can use our &amp;ldquo;Find People&amp;rdquo; application t
     </item>
     
     <item>
-      <title>use the Comdev Issue Tracker For GSoC Tasks</title>
+      <title>Use the Comdev Issue Tracker For GSoC Tasks</title>
       <link>https://community.apache.org/use-the-comdev-issue-tracker-for-gsoc-tasks.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://community.apache.org/use-the-comdev-issue-tracker-for-gsoc-tasks.html</guid>
-      <description>If your project does not use the ASF&amp;rsquo;s JIRA for issue tracking, you can use the Community Development project to record your GSoC tasks.
- Add tasks to the Comdev project Ensure you add the labels gsoc2021, mentor and _YOUR_PROJECT_NAME_ Your issues will then appear in the list of projects We use the label _YOUR_PROJECT_NAME_ to map COMDEV issues to the real project when we create the ideas list  Please contact dev@community.</description>
+      <description>If your project does not use the ASF Jira for issue tracking, you can use the Community Development Jira project to record your GSoC tasks.
+ Add tasks to the Comdev project Ensure you add the labels gsoc2021, mentor and _YOUR_PROJECT_NAME_ Your issues will appear in the list of projects We use the label _YOUR_PROJECT_NAME_ to map COMDEV issues to the real project when we create the ideas list  Please contact dev@community.</description>
     </item>
     
     <item>
