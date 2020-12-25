@@ -11,7 +11,7 @@ A community is not merely a set of rules; it is also a set of behaviors
 that the participants express when interacting within that 
 community.  While the ASF is happy to host 
 many different styles of project communities, there are some core behaviors that 
-we expect and requir of any Apache project. 
+we expect and require of any Apache project. 
 
 A primary purpose of the basic requirements the ASF places on its 
 projects is to help ensure long-lived and stable projects by having 
