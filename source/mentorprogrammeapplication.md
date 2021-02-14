@@ -1,5 +1,5 @@
 ---
-title: MentorProgrammeApplication
+title: MentorProgrammeApplicationhowever mentors are not their to teach you 
 ---
 
 <a name="MentorProgrammeApplication-MentoringProgrammeApplicationProcedure"></a>
@@ -43,7 +43,7 @@ hope to gain from it and the mentor programme
  * A brief CV of your skills
 
 Note, we do not expect people to come to our mentor programme with a full
-armoury of skills, however mentors are not their to teach you only to guide
+armoury of skills, however mentors are not here to teach you, but only to guide
 you. You must be willing and able to put in the effort to learn any new
 skills needed. This programme is designed to help people engage with Apache
 projects. However, we do expect people to have sufficient technical skills
