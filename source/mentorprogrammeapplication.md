@@ -1,5 +1,5 @@
 ---
-title: MentorProgrammeApplicationhowever mentors are not their to teach you 
+title: Mentor Programme Application
 ---
 
 <a name="MentorProgrammeApplication-MentoringProgrammeApplicationProcedure"></a>
@@ -88,4 +88,3 @@ mentoring programme simply ask for advice on the project mailing list
 first, if that doesn't solve your problem then ask on the
 dev@community.apache.org list (note project specific issues should be kept
 to the project list).
-
