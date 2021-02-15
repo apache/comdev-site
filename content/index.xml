@@ -343,6 +343,17 @@ Remember, mentoring is all about the mentee and open source as a whole. It is no
     </item>
     
     <item>
+      <title>Mentor Programme Application</title>
+      <link>https://community.apache.org/mentorprogrammeapplication.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/mentorprogrammeapplication.html</guid>
+      <description>Mentoring Programme Application Procedure Applying for the Apache Mentoring Programme is simple. This page will take you through the steps:
+
+Creating a proposal and finding a mentor  Find the project you are interested in (see our FAQ for some guidance on how to do this) Examine the projects issue tracker to find bugs that need fixing or features that need implementing that you feel you can tackle Join the projects mailing list and post an introduction mail (something like this mentor request mail will do nicely).</description>
+    </item>
+    
+    <item>
       <title>Mentoring</title>
       <link>https://community.apache.org/mentoring/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -403,17 +414,6 @@ Here&amp;rsquo;s some tips on how to do that.</description>
       <guid>https://community.apache.org/mentoringprogramme.html</guid>
       <description>Many projects in the ASF are able to provide mentors for newcomers. In fact, most projects are happy to assist newcomers to their projects as part of their normal operations. However, some people are looking for more structure. The Mentor Programme of the The Apache Software Foundation provides additional support and structure for people looking to make an initial contribution to an ASF project.
 The mentoring programme is not here to teach you to write documentation or code.</description>
-    </item>
-    
-    <item>
-      <title>MentorProgrammeApplication</title>
-      <link>https://community.apache.org/mentorprogrammeapplication.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://community.apache.org/mentorprogrammeapplication.html</guid>
-      <description>Mentoring Programme Application Procedure Applying for the Apache Mentoring Programme is simple. This page will take you through the steps:
-
-Creating a proposal and finding a mentor  Find the project you are interested in (see our FAQ for some guidance on how to do this) Examine the projects issue tracker to find bugs that need fixing or features that need implementing that you feel you can tackle Join the projects mailing list and post an introduction mail (something like this mentor request mail will do nicely).</description>
     </item>
     
     <item>
