@@ -7,7 +7,7 @@ title: GSoC
     Currently happening
   </div>
   <div class="card-body">
-    <h5 class="card-title text-info">We are now collecting ideas for GSoC 2021</h5>
+    <h5 class="card-title text-info">ASF is accepted as mentoring organisation for GSoC 2021!</h5>
   </div>
 </div>
 
