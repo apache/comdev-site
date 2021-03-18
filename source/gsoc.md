@@ -12,52 +12,51 @@ title: GSoC
 </div>
 
 Google is sponsoring the [2021 Summer of Code](https://summerofcode.withgoogle.com/) and 
-[The Apache Software Foundation](https://www.apache.org/) (ASF) [not yet] registered as a mentoring organization.
+[The Apache Software Foundation](https://www.apache.org/) (ASF) will soon be registered as a mentoring organization.
 This page is your entry point to the ASF GSoC program.
-Please watch this page for updates concerning our participating in 2021.
+Please watch this page for updates concerning our participation in GSoC 2021.
 
 <a name="GSoC-Students:readthis"></a>
 # Students: read this
 
-* Learn [about GSoC](https://summerofcode.withgoogle.com/about/)
-* Decide if you are [eligible](https://summerofcode.withgoogle.com/get-started/) for GSoC?
+* Learn [about GSoC](https://summerofcode.withgoogle.com/about/).
+* Decide if you are [eligible](https://summerofcode.withgoogle.com/get-started/) for GSoC.
 * Review [Advice for Students](https://opensource.googleblog.com/2011/03/dos-and-donts-of-google-summer-of-code.html)
  to make sure you really want to apply to GSoC.
 * Watch [GSoC video presentation](https://www.youtube.com/watch?v=S6IP_6HG2QE)
  for students.
-* Examine the list of [available ASF GSoC 2021 projects](https://s.apache.org/gsoc2021ideas)
+* Examine the list of [available ASF GSoC 2021 projects](https://s.apache.org/gsoc2021ideas).
 	* <span class="text-primary">**NOTE**</span> that you can search the issue tracker for GSoC projects by
-filtering using the "*gsoc2021*" label, this allows you to narrow down the list
-to the projects you are interested in.<br/>
-Or simply use this link https://issues.apache.org/jira/issues/?jql=labels+%3D+gsoc2021
-* If you do not see any interesting projects from the proposed ideas, we encourage you to contact one of the Apache Project's mailing list and propose a new idea. But these ideas have to be vetted on the project dev list. The ASF does not encourage and will not respond to your personal new open source project ideas which are unrelated to any Apache projects.
-* Please NOTE `Ideas list` is manually updated, please ping mentors (at) community.apache.org if the page is not being updated .. :))
+filtering using the "*gsoc2021*" label to narrow down the list to the projects you are interested in.<br/>
+Or use this link https://issues.apache.org/jira/issues/?jql=labels+%3D+gsoc2021
+* If you do not see any interesting projects from the proposed ideas, we encourage you to contact one an Apache Project that interests you (email the `dev@` mailing list for the project) and propose a project idea. The project community will review the proposal. The ASF does not encourage and will not respond to your personal open source project ideas which are unrelated to any Apache projects.
+* Please NOTE that `Ideas list` requires a manual update. Ping `mentors (at) community.apache.org` if your idea does not appear in within a reasonable time.
 
 <a name="GSoC-ApplyingforGSoC"></a>
 ### Applying for GSoC
 
-Details are announced now and we are in the project discussion phase. We encourage you to discuss you application with the project community.
+Details are available now and we are in the project discussion phase. We encourage you to discuss your application with the community of the project that interests you.
 
-In order to apply we ask that you create
+To apply, please provide
 
-* a list of deliverables, quantifiable results for the Apache community,
-* a detailed description / design document,
-* an approach,
-* an approximate schedule and
-* something of a background text.
+* a list of deliverables, quantifiable results for the Apache community.
+* a detailed description / design document.
+* an approach.
+* an approximate schedule.
+* some background about yourself, the proposal in general, and how it relates to one or more Apache projects.
 
 We also need you to let us know what other commitments you
-have for the period of GSoC, for example, do you have any exams or a part
-time job? In other words - sell yourselves, as if this was an actual job. 
+have for the period of GSoC. For example, do you have any exams or a part
+time job that would limit your availability? In other words - sell yourself, as if this was an actual job. 
 
-In drawing up your proposal you should work with your chosen projects
+In drawing up your proposal you should work with your chosen project's
 community.
 
 One of our evaluation criteria is that you have already engaged
 with the community to ensure that you understand the needs of the project
 and the commitment you need to make to your mentors.
 
-Once open applications are made through the [GSoC site](https://summerofcode.withgoogle.com/)
+Once the application period starts, submit your application through the [GSoC site](https://summerofcode.withgoogle.com/).
 
 ### Application template
 
@@ -65,7 +64,7 @@ _This is just a suggested template, feel free to add and remove sections as appr
 
 #### About me
 
-_What relevant experience have you got, including university, work and hobby activities?_
+_What relevant experience you have, including university studies, work and hobby activities._
 
 #### Background
 
@@ -92,7 +91,7 @@ _Benefit of your work to Apache $Project users and developers. What will be the 
 
 #### Deliverables
 
-_Including milestones, components, documentation, tests._
+_Include milestones, components, documentation, tests._
 
 #### Scheduling
 
@@ -106,7 +105,7 @@ _Exams, part time work, holidays, lectures._
 
 _In particular with Apache $Project, including project mailing lists, wikis, issue trackers, test systems._
 
-_This should show a rough understanding of working with open source communities. You should be engaged with the rest of the community both before coding start (e.g. to develop this proposal) and during the project._
+_This should show a rough understanding of working with open source communities. You should be engaged with the rest of the community both before coding starts (e.g. to develop this proposal) and during the project._
 
 _Include any planned user testing, prototypes, code review._
 
@@ -115,10 +114,9 @@ _Include any planned user testing, prototypes, code review._
 <a name="GSoC-ContactingtheASF"></a>
 ## Contacting the ASF
 
-The ASF is not just one project, it is a federation of projects, see the
-lists at [https://www.apache.org/](https://www.apache.org) and [https://incubator.apache.org/](https://incubator.apache.org/). Each of our
-projects has its own community of users, contributors and committers. GSoC
-students will usually be interacting with just one of these communities. 
+The ASF is not just one project, it is a federation of projects; see the
+lists at [https://www.apache.org/](https://www.apache.org) and [https://incubator.apache.org/](https://incubator.apache.org/). Each project has its own community of users, contributors and committers. GSoC
+students usually interact with just one of these communities. 
 
 Each of the proposed subjects (link to be provided if we are confirmed as a
 mentoring organisation) applies to a single ASF project. You will need to
@@ -133,18 +131,17 @@ more info about mentoring, please read our [guide to being a mentor](guide-to-be
 .
 
 Prospective mentors must join the mentors@community.apache.org mailing list,
-this is where mentor specific issues are dealt with, and where
-announcements will be made. If you want to track the program
-administration you should subscribe to dev@community.apache.org.
+this is where mentor specific-issues are dealt with, and where
+announcements appear. If you want to track program
+administration, subscribe to dev@community.apache.org.
 
-Once the ASF is confirmed as a mentoring organisation mentors must register
+Once the ASF is confirmed as a mentoring organisation, mentors must register
 with the GSoC webapp, and request to become a mentor for the ASF
 organization. Make sure that the email address you use for that (it's often
 your @gmail.com address by default) is '''registered as a mail alias for your Apache account at (https://id.apache.org)''' so that we can match it to your ASF account.
 
-All ASF projects are invited to submit their ideas to their issue tracker,
-please be sure to add the labels "*gsoc2021*" and "*mentor*" so that we can
-automatically include them in our list of subjects. If your project does
+We invite all ASF projects to submit their ideas to their issue tracker. Be sure to add the labels "*gsoc2021*" and "*mentor*" so that we can
+automatically include the submissions in our list of subjects. If your project does
 not use JIRA please contact dev@community.apache.org.
 
 <a name="GSoC-ASFGSoCTimeline"></a>
@@ -160,7 +157,7 @@ date indicated.
   - 2021-03-30: Student applications start
   - 2021-04-13 18:00 UTC: Student applications deadline
   - 2021-04-01: Proposals to ASF projects must be reviewed roughly and have a potential mentor so that we know how many slots to request. Proposals that don't have a mentor at this point will be down-rated.
-  - 2021-05-05: Proposal scoring must be completed. Proposals without a score will be rejected, no exceptions.
+  - 2021-05-05: Proposal scoring must be completed. Proposals without a score will be rejected: no exceptions.
   - 2021-05-18: Accepted student proposals announced on the Google Summer of Code site.
 
 <a name="GSoC-GSocisunderway"></a>
@@ -183,7 +180,7 @@ date indicated.
 <a name="GSoC-Vouching"></a>
 # Organization Vouching
 
-The ASF currently has no policy establishing the criteria on what basis to vouch for another organization. Until one is established the ASF therefore doesn't vouch for any organization.
+The ASF currently has no policy establishing the criteria for vouching for another organization. Until one is established the ASF therefore doesn't vouch for any organization.
 
 <a name="GSoC-UsefulLinks"></a>
 # Useful Links
