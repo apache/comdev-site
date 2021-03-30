@@ -7,7 +7,7 @@ title: GSoC
     Currently happening
   </div>
   <div class="card-body">
-    <h5 class="card-title text-info">ASF is accepted as mentoring organisation for GSoC 2021!</h5>
+    <h5 class="card-title text-info">Students Apply!</h5>
   </div>
 </div>
 
@@ -159,7 +159,7 @@ date indicated.
 
   - 2021-03-30: Student applications start
   - 2021-04-13 18:00 UTC: Student applications deadline
-  - 2021-04-01: Proposals to ASF projects must be reviewed roughly and have a potential mentor so that we know how many slots to request. Proposals that don't have a mentor at this point will be down-rated.
+  - 2021-05-01: Proposals to ASF projects must be reviewed roughly and have a potential mentor so that we know how many slots to request. Proposals that don't have a mentor at this point will be down-rated.
   - 2021-05-05: Proposal scoring must be completed. Proposals without a score will be rejected, no exceptions.
   - 2021-05-18: Accepted student proposals announced on the Google Summer of Code site.
 
