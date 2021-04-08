@@ -35,7 +35,7 @@ a _committer_. At the ASF, a committer is someone who is
 committed to a particular project. It brings with it the privilege of write access to
 the project repository and resources. In many projects, committers may also be invited 
 to be part of the core group within the project that ensures the project's vitality, the PMC. 
-In a few projects an only a subset of committers who have earned even more merit are invited to be a part of the PMC.
+In a few projects only a subset of committers who have earned even more merit are invited to be a part of the PMC.
 
 One thing that is sometimes hard to understand, when you are new to the open 
 development process used at the ASF, is that we value the community more than 
