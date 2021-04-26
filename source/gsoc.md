@@ -7,7 +7,7 @@ title: GSoC
     Currently happening
   </div>
   <div class="card-body">
-    <h5 class="card-title text-info">Students Apply!</h5>
+    <h5 class="card-title text-info">Proposal ranking phase 1</h5>
   </div>
 </div>
 
