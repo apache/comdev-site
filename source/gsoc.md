@@ -164,7 +164,7 @@ date indicated.
   - 2021-05-18: Accepted student proposals announced on the Google Summer of Code site.
 
 <a name="GSoC-GSocisunderway"></a>
-## GSoc is underway
+## GSoC is underway
 
   - 2021-05-18: Community bonding start
   - 2021-06-08: Community bonding end
