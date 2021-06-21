@@ -2,13 +2,13 @@
 title: A Maturity Model for Apache Projects
 ---
 
-The **Apache Project Maturity Model** provides a suggested framework for evaluating the overall maturity of an Apache project community and the codebase that it maintains.  While this model is specific to Apache projects (i.e. hosted at the ASF) many of these factors are important for any open source project.
+The **Apache Project Maturity Model** provides a suggested framework for evaluating the overall maturity of an Apache project community and the codebase that it maintains.  While this model is specific to projects of the Apache Software Foundation (ASF), many of these factors apply to any open source project.
 
 # Overview
 
 The goals of this maturity model are to describe how Apache projects operate in a concise and high-level way, and to provide a basic framework that projects may choose to use to evaluate themselves.
 
-It is usable outside of Apache as well, for projects that might want to adopt some or all of these principles. Projects that envision moving to Apache at some point might start working towards this to prepare for their move.
+It is usable outside of the ASF as well, for projects that might want to adopt some or all of these principles. Projects that envision moving to the ASF at some point might start working towards this to prepare for their move.
 
 It does not describe all the details of how our projects operate, but aims to capture the invariants of Apache projects and point to additional information where needed. To be as concise as possible we use footnotes for anything that's not part of the core model.
 
@@ -16,9 +16,9 @@ Contrary to other maturity models, we do not define staged partial compliance le
 
 Note that we try to avoid using the word "must" below. The model describes the state of a mature project, as opposed to a set of rules. 
 
-Projects which incubate at Apache might not fit into all the parts of this model; however a major goal of incubation is to bring the project's community closer to it.
+Projects which incubate at the ASF might not fit into all the parts of this model; however a major goal of incubation is to bring the project's community closer to it.
 
-We welcome Questions and feedback about this model on the <a href="https://lists.apache.org/list.html?dev@community.apache.org" target="_blank">comdev mailing list</a>.
+We welcome questions and feedback about this model on the <a href="https://lists.apache.org/list.html?dev@community.apache.org" target="_blank">comdev mailing list</a>.
 
 # The Apache Project Maturity Model
 
@@ -40,7 +40,7 @@ Anyone can easily discover and access the project's code.
 
 <dt id="CD30">CD30</dt>
 <dd>
-Anyone using standard, widely-available tools, can built the code can be built in a reproducible way.
+Anyone using standard, widely-available tools, can build the code in a reproducible way.
 </dd>
 
 <dt id="CD40">CD40</dt>
@@ -52,7 +52,7 @@ control system, in a way that allows anyone to recreate any released version.
 <dt id="CD50">CD50</dt>
 <dd>
 The source code control system establishes the provenance of each line of code in a reliable way, based on strong authentication of the 
-committer. When thirdparties contribute code, commit messages provide reliable information about the code provenance.
+committer. When third parties contribute code, commit messages provide reliable information about the code provenance.
 <sup><a href="#fnref-1a581282a720702d3a9e11f81f8c9eeddbee55a9" id="fndef-1a581282a720702d3a9e11f81f8c9eeddbee55a9-1">2</a></sup> 
 </dd>
 
@@ -62,7 +62,7 @@ committer. When thirdparties contribute code, commit messages provide reliable i
 
 <dl>
 <dt id="LC10">LC10</dt>
-<dd>The Apache License, verison 2.0, covers the released code. 
+<dd>The Apache License, version 2.0, covers the released code.
 </dd>
 
 <dt id="LC20">LC20</dt>
@@ -102,16 +102,16 @@ formats that are expected to stay readable in the long term.
 
 <dt id="RE20">RE20</dt>
 <dd>
-The project's Project Management Committee (PMC) (see CS10) approves each software release in order to make the release an act of the Foundation. 
+The project's PMC (Project Management Committee, see CS10) approves each software release in order to make the release an act of the Foundation.
 </dd>
 
 <dt id="RE30">RE30</dt>
 <dd>
-Releases are signed and/or distributed along with digests that anyone can be reliably use to validate the downloaded archives. 
+Releases are signed and/or distributed along with digests that anyone can reliably use to validate the downloaded archives.
 </dd>
 
 <dt id="RE40">RE40</dt>
-<dd>The project can distribute convenience binaries alongside source code, but they are not Apache Releases -- they are provided with no guarantee. 
+<dd>The project can distribute convenience binaries alongside source code, but they are not Apache Releases, they are provided with no guarantee.
 </dd>
 
 <dt id="RE50">RE50</dt>
@@ -184,8 +184,8 @@ responsibilities to contributors who, over time, add value to the project.
 
 <dt id="CO50">CO50</dt>
 <dd>
-The project documents, and applies consistently, how contributors can earn more rights such as commit 
-access or decision power. 
+The project documents how contributors can earn more rights such as commit
+access or decision power, and applies these principles consistently.
 </dd>
 
 <dt id="CO60">CO60</dt>
@@ -206,16 +206,16 @@ The project strives to answer user questions in a timely manner.
 <dt id="CS10">CS10</dt>
 <dd>The 
 project maintains a public list of its contributors who have decision 
-power -- the project's PMC (Project Management Committee) consists of 
+power. The project's PMC (Project Management Committee) consists of
 those contributors. 
 </dd>
 
 <dt id="CS20">CS20</dt>
 <dd>
-Decisions reqyuire a consensus among PMC members
+Decisions require a consensus among PMC members
 <sup><a href="#fnref-08fda1a3461c11086b8542178f35e0c27a4a46c3" id="fndef-08fda1a3461c11086b8542178f35e0c27a4a46c3-8">9</a></sup>
  and are documented on the project's main communications channel. 
-The PMC takes into account community opinions, but the PMC has the final word.  
+The PMC takes community opinions into account, but the PMC has the final word.
  </dd>
  
  <dt id="CS30">CS30</dt>
@@ -225,7 +225,7 @@ The PMC takes into account community opinions, but the PMC has the final word.
  </dd>
  
  <dt id="CS40">CS40</dt>
- <dd>In Apache projects, vetoes are only valid for code commits. The person exercising the veto mush justify it with a technical explanation, as per the Apache voting rules 
+ <dd>In Apache projects, vetoes are only valid for code commits. The person exercising the veto must justify it with a technical explanation, as per the Apache voting rules
 defined in CS30. 
 </dd>
 
@@ -250,7 +250,7 @@ The project is independent from any corporate or organizational influence.
 </dd>
 
 <dt id="IN20">IN20</dt>
-<dd>Contributors act as themselves, not as representatives of a corporation or organization. 
+<dd>Contributors act as themselves, not as representatives of a corporation or organization.
 </dd>
 
 </dl>
@@ -269,7 +269,6 @@ Here are a few self-assessment examples:
 * [Apache Groovy podling self-assessment, 2015](https://github.com/apache/groovy/blob/576b3c5d6a7022ac4a8df1ef118666456ce627fb/MATURITY.adoc)
 * [Apache Taverna Graduation Maturity Assessment, 2016](https://cwiki.apache.org/confluence/display/TAVERNADEV/2016-03+Taverna+Graduation+Maturity+Assessment)
 * [Apache CarbonData Podling Maturity Assessment, 2017](https://cwiki.apache.org/confluence/display/CARBONDATA/Apache+Maturity+Model+Assessment+for+CarbonData)
-* [Apache Maturity Model Assessment for Apache Beam, 2016](https://beam.apache.org/contribute/maturity-model/)
 * [Apache ServiceComb Maturity Model Assessment, 2018](https://cwiki.apache.org/confluence/display/SERVICECOMB/Apache+Maturity+Model+Assessment+for+ServiceComb)
 
 ## Other Open Source Project Models
@@ -292,7 +291,10 @@ v 1.1, October 2016 added RE50.
 
 v 1.2, February 2018, reworked the "how to use" section with more links to self-assessments.
 
-See the <a href="https://svn.apache.org/viewvc/comdev/site/trunk/content/apache-way/apache-project-maturity-model.mdtext?view=log" target="_blank">svn revision history</a> of this document for more details and other minor changes.
+v 1.3, June 2021, improve readability and simplify the language where possible.
+
+See the <a href="https://svn.apache.org/viewvc/comdev/site/trunk/content/apache-way/apache-project-maturity-model.mdtext?view=log" target="_blank">svn revision history</a> (for older
+versions) and <a href="https://github.com/apache/comdev-site/commits/master/source/apache-way/apache-project-maturity-model.md">GitHub history</a> (since March 2020) of this document for more details and other minor changes.
 
 ### Footnotes
 
@@ -376,7 +378,7 @@ contributions but grant the ASF a perpetual copyright license for them.
 Each Apache project has a private mailing list that its PMC is expected to use 
 only when really needed. The private list is typically used for 
 discussions about people, for example to discuss and to vote on PMC 
-candidates.  
+and committer candidates.
 
 (<a href="#fndef-d9e7a517f046358463f038f3830fef171e69f78b-10">11</a>)
 </li>
