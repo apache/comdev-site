@@ -2,15 +2,15 @@
 title: GSoC admins 
 ---
 
-A comprehensive guide to being the GSoC admins for the ASF
+A comprehensive guide to being a GSoC admin for the ASF
 
 List of duties:
 
 1. Make sure the ASF has an extensive list of project ideas ready shortly after Google announces the
-program (around end of January). Projects are required to create JIRA issues for their ideas and
-label them with "gsoc&lt;year&gt;" and "mentor". If a project doesn't use JIRA, have them create the ideas in the COMDEV
-JIRA project. Create a JIRA filter for these ideas to be used in the application (see next). Have
-prospective mentors subscribe to mentors@community.apache.org. The following is an email sent to pmcs@a.o
+program (around the end of January). Projects must create JIRA issues for their ideas and
+label them with `gsoc<year>;` and `mentor`. If a project doesn't use JIRA, have them create the ideas in the COMDEV
+JIRA project. Create a JIRA filter for these ideas to use in the application (see next). Have
+prospective mentors subscribe to `mentors@community.apache.org`. The following is an email sent to `pmcs@a.o`
 explaining the procedures to them:
 
 <pre>
@@ -22,21 +22,21 @@ contributors to your projects.
 If you want to participate with your project you now need to
 
  - understand what it means to be a mentor [1]
- - propose your project ideas. Just label your issues with gsoc2011 in JIRA and
+ - propose your project ideas. Just label your issues with gsoc20XX in JIRA and
    they will show up at [2]. See also [1].
  - subscribe to mentors@community.apache.org (restricted to potential mentors, meant to be used
    as a private list - general discussions on the public
-   dev@community.apache.org list as much as possible please)
+   dev@community.apache.org list as much as possible, please)
 
-The ASF has applied as a participating organization with GSoC, your project
+The ASF has applied as a participating organization with GSoC, so your project
 doesn't need to do that. See [3] for more information. Note that the ASF isn't
-accepted yet, nevertheless you *really* should start recording your ideas now.
+accepted yet; nevertheless you *really* should start recording your ideas now.
 
-Last year we had 39 students completing GSoC successfully, some of which are
+Last year we had XX students complete GSoC successfully, some of whom are
 now active contributors to the projects they worked on. Let's make this a
 success again this year!
 
-On behalf of the GSoC 2011 admins,
+On behalf of the GSoC 20XX admins,
 
 Uli
 
@@ -51,42 +51,33 @@ current year's timeline and at [https://community.apache.org/guide-to-being-a-me
 1. Apply for the ASF to be a mentoring organization for Google Summer of Code.
 I faintly remember that they wanted to know some stats like how often we have
 already participated and what the number of students was last year. I believe
-the ASF has participated sine GSoC's inception in 2005. In 2011 we had students
-accepted: 40; students who passed midterm: 38; students who passed final: 36.
+the ASF has participated since GSoC's inception in 2005. Consult [participation statistics](http://community.apache.org/mentoring/experiences.html), although the page may not be up to date.
 
 1. Once our application is accepted, write a press release and
-request press@ to send it out. We don't have a template yet but work
-with th dev@community.apache.org and press@apache.org lists to get one
+request press@ to send it out. We don't have a template yet, so work
+with th `dev@community.apache.org` and `press@apache.org` lists to get one
 written and add it here.
 
 1. Check with Google whether they changed the ranking process -- again. Find out
-what needs to be changed to our internal ranking process in order to be compatible
-with melange and update the [mentee ranking process](/mentee-ranking-process.html) page
+what we need to be change to our internal ranking process in order to be compatible
+with melange (the system Google uses to administer GSOC) and update the [mentee ranking process](/mentee-ranking-process.html) page
 accordingly. In 2011 we used a Google Docs spreadsheet and did our ranking there. The
 org admin (and only the org admin) then transferred the rankings to Melange.
 
 1. Once the application phase starts, make sure that mentors rank the proposals. They
-should be done at least one week before Google's official deadline in order to have
+should complete this at least one week before Google's official deadline in order to have
 some time for changes that might become necessary. Send reminders.
 
-1. Once Google has assigned our slots and we know who is accepted
-mail each mentee with details of dev@community.apache.org list which
-can be used for general assistance with the ASF, project specific
-assistance should be sought on the project list. We don't have a
+1. Once Google has assigned our slots and we know who is accepted,
+mail each mentee with details of the `dev@community.apache.org` list, which they can
+use for general assistance with the ASF. They should seek project-specific
+assistance on the project's `dev` list. We don't have a
 template for this yet. Please add it here when one is written.
 
-
-1. Once GSoC is under way, make sure that deadlines for midterm and final evaluations
-are met. Make it clear to the mentors that we'd like to see their evaluation way before
+1. Once GSoC is under way, make sure we meet deadlines for midterm and final evaluations. Make it clear to the mentors that we'd like to see their evaluation way before
 the end of the deadline. If a mentor still hasn't submitted their evaluation three days
-before the end of the deadline, mail the respective PMC and ask them whether they know of
+before the end of the deadline period, mail their PMC and ask them whether they know of
 any reason why the mentor might not be able to do the evaluation.
-
-1. Issue a press release congratulating those who have passed and
-thanking our wonderful mentors. We should invite everyone to come and
-contribute to ASF projects. We don't have a template yet but work with
-th dev@community.apache.org and press@apache.org lists to get one
-written and add it here.
 
 1. Once GSoC is done, get a PO# from Google to invoice against. Supplier name is The
 Apache Software Foundation, 1901 Munsey Drive, Forest Hill, MD 21050-2747. Our vendor ID
@@ -96,13 +87,13 @@ with Google is 13039.
 thanking our wonderful mentors. We should invite everyone to come and
 contribute to ASF projects. We should include some stats such as the
 number of full committers resulting from GSoC, the number of issues
-closed etc. We don't have a template yet but work with th
-dev@community.apache.org and press@apache.org lists to get one written
+closed etc. We don't have a template yet but work with the
+`dev@community.apache.org` and `press@apache.org` lists to get one written
 and add it here.
 
-1. Decide on who is going to the mentor summit. If you are going, book your flight and
+1. Decide who is going to the mentor summit. If you are going, book your flight (or arrange the details for attending virtually) and
 nag the comdev PMC chair to submit your travel expenses to financials/Bills/received (if
-you don't have access yourself) and move them to financials/Bills/approved.
+you don't have access yourself) and move them to `financials/Bills/approved`.
 
 1. Ask treasurer to invoice Google. The amount is number of students * USD 500 (at time
 of writing) + actual travel expenses up to USD 2,000. Attach PO document (you'll get that
@@ -157,5 +148,5 @@ Uli
 [4] https://svn.apache.org/repos/private/financials/Bills/received/Uli-GSOC-flights.txt
 [5]
 https://www.oanda.com/currency/historical-rates-classic?date_fmt=us&date=08/09/11&date1=08/09/11&exch=EUR&exch2=EUR&expr=USD&margin_fixed=0&format=HTML&redirected=1
-</pre>
 
+</pre>
