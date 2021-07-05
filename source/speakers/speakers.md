@@ -37,7 +37,7 @@ to include a few key bits of information in the FOAF file. These are:
 
 ### Listing yourself in the Speakers DOAP file
 
-If you haven't already done so, check out the committers' directory from
+If you haven't already done so, check out the committers directory from
 svn:
 
     `svn co https://svn.apache.org/repos/private/committers/`
