@@ -110,7 +110,7 @@ becomes obvious that we should invite them. This encourages them and keeps
 them enthusiastic. If we leave it too long, then we risk them becoming
 disillusioned.
 
-On the `@private` list we can each say exactly what we feel about each person,
+On the `private@` list we can each say exactly what we feel about each person,
 with no holds barred. Keep the discussion concise. The praise part can
 be done later in public. Keep in mind, however, that if the member becomes
 a PMC member later, they will have access to this discussion.
@@ -131,7 +131,7 @@ After a positive result, record the result on the PMC list with a [RESULT][VOTE]
 and then invite the candidate. We give candidates a chance to decline committership in private. They
 can post a reply to the PMC mailing list.
 
-After we reach a decision on the `@private` list, and after the steps above, we
+After we reach a decision on the `private@` list, and after the steps above, we
 announce the new committer on the `dev` list. We can then each follow up with
 our praise in public.
 
@@ -295,7 +295,7 @@ This is the followup email after the new committer has accepted the invitation.
 
     Just as before you became a committer, participation in any ASF community
     requires adherence to the ASF Code of Conduct:
-      https://www.apache.org/foundation/policies/conduct.html.
+      https://www.apache.org/foundation/policies/conduct.html
     
     [PROJECT should insert its own guidelines here; if none are available,
      the Apache Forrest guidelines are available as a template.
