@@ -298,8 +298,8 @@ This is the followup email after the new committer has accepted the invitation.
       https://www.apache.org/foundation/policies/conduct.html
     
     [PROJECT should insert its own guidelines here; if none are available,
-     the Apache Forrest guidelines are available as a template.
-      https://forrest.apache.org/guidelines.html.]
+     the Apache Forrest guidelines are available as a template.]
+      https://forrest.apache.org/guidelines.html
     
     Yours,
     The Apache [PROJECT] PMC
