@@ -244,7 +244,7 @@ sent after a positive result from the vote for a new committer.
         to notify the Apache [Project] and choose a 
         unique Apache ID. Look to see if your preferred 
         ID is already taken at 
-        https://people.apache.org/committer-index.html.     
+        https://people.apache.org/committer-index.html
         This will allow the Secretary to notify the PMC 
         when your iCLA has been recorded.
 
