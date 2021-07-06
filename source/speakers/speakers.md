@@ -41,31 +41,36 @@ to include a few key bits of information. These are:
 Now, if you haven't already done so, checkout the committers directory from
 svn:
 
-    svn co https://svn.apache.org/repos/private/committers/
+```
+svn co https://svn.apache.org/repos/private/committers/
+```
 
 Edit *local-outreach/ApacheSpeakers.rdf* and add yourself in as a
 helper. If your FOAF file is in svn and showing up on people.apache.org,
 add in:
 
-     <helper>
-       <foaf:Person rdf:resource="urn:org:apache:[your username].rdf" />
-     </helper>
+```
+<helper>
+  <foaf:Person rdf:resource="urn:org:apache:[your username].rdf" />
+</helper>
+```
 
 If you have your FOAF file externally hosted, then the **rdf:resource**
 should point to the URL of the file.
 
 For an apache committer with username "foo", your entry would be one of:
 
-     <helper>
-       <foaf:Person rdf:resource="urn:org:apache:foo.rdf" />
-     </helper>
-     <helper>
-       <foaf:Person rdf:resource="https://www.example.com/foaf/foo.rdf" />
-     </helper>
+```
+<helper>
+   <foaf:Person rdf:resource="urn:org:apache:foo.rdf" />
+</helper>
+<helper>
+   <foaf:Person rdf:resource="https://www.example.com/foaf/foo.rdf" />
+</helper>
 
 
 Within 24 hours of committing your addition to
 *local-outreach/ApacheSpeakers.rdf*, you should appear in the web
 application as a potential speaker! Head over to 
 [https://community.zones.apache.org/](https://community.zones.apache.org/)
-a day later a check you're listed properly.
+a day later and check you're listed properly.
