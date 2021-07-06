@@ -10,7 +10,7 @@ ASF and how its projects work.
 This page gives a few examples of that.
 
 If you have any question about this, feel free to ask on our 
-[dev@community.apache.org](https://lists.apache.org/list.html?dev@community.apache.org) email list.
+[dev@community.apache.org](https://lists.apache.org/list.html?dev@community.apache.org) mailing list.
 
 ## Example disclaimer for a personal crowdfunding campaign
 
