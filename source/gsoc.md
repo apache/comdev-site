@@ -7,7 +7,7 @@ title: GSoC
     Currently happening
   </div>
   <div class="card-body">
-    <h5 class="card-title text-info">Projects are announced! Get ready for the work! :))</h5>
+    <h5 class="card-title text-info">GSOC 2021 is over</h5>
   </div>
 </div>
 
