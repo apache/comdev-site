@@ -39,7 +39,7 @@ A Project Management Committee
 (PMC) controls each Apache project. A PMC represents the consensus view of the individual PMC 
 members by discussing and [VOTE]ing on project releases and adding new committers. 
 A PMC's actions within their Apache project community and management of 
-their project must be in the interest of that consensus and consistent with  
+their project must be in the interest of that consensus and consistent with 
 the ASF's mission of producing software for the public good. 
 
 There are also certain expectations of diversity within a PMC; the board may apply extra scrutiny to PMCs 
@@ -51,7 +51,7 @@ There are several important aspects to this independence: project management, pr
 
 ## Apache projects are managed independently
 
-Apache projects must be managed independently, and PMCs must ensure that they are acting in the best interests of the project as a whole. It is similarly important that the PMC clearly show this independence within their project community. The perception that the PMC is run independently and without favoring any specific third parties over others is important to help new contributors feel comfortable both joining the community and contributing their work. A community that obviously favors one specific vendor in some exclusive way will often discourage new contributors from competing vendors, and this would be issue for the long-term health of the project.
+Apache projects must be managed independently, and PMCs must ensure that they are acting in the best interests of the project as a whole. It is similarly important that the PMC clearly show this independence within their project community. The perception that the PMC is run independently and without favoring any specific third parties over others is important to help new contributors feel comfortable both joining the community and contributing their work. A community that obviously favors one specific vendor in some exclusive way will often discourage new contributors from competing vendors, and this would be an issue for the long-term health of the project.
 
 ## Apache products may be used independently
 
