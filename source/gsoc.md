@@ -7,14 +7,14 @@ title: GSoC
     Currently happening
   </div>
   <div class="card-body">
-    <h5 class="card-title text-info">GSOC 2021 is over</h5>
+    <h5 class="card-title text-info">Get ready for GSOC 2022! Prepare your ideas!</h5>
   </div>
 </div>
 
-Google is sponsoring the [2021 Summer of Code](https://summerofcode.withgoogle.com/) and 
+Google is sponsoring the [2022 Summer of Code](https://summerofcode.withgoogle.com/) and 
 [The Apache Software Foundation](https://www.apache.org/) (ASF) [not yet] registered as a mentoring organization.
 This page is your entry point to the ASF GSoC program.
-Please watch this page for updates concerning our participating in 2021.
+Please watch this page for updates concerning our participating in 2022.
 
 <a name="GSoC-Students:readthis"></a>
 # Students: read this
@@ -25,11 +25,11 @@ Please watch this page for updates concerning our participating in 2021.
  to make sure you really want to apply to GSoC.
 * Watch [GSoC video presentation](https://www.youtube.com/watch?v=S6IP_6HG2QE)
  for students.
-* Examine the list of [available ASF GSoC 2021 projects](https://s.apache.org/gsoc2021ideas)
+* Examine the list of [available ASF GSoC 2022 projects](https://s.apache.org/gsoc2022ideas)
 	* <span class="text-primary">**NOTE**</span> that you can search the issue tracker for GSoC projects by
-filtering using the "*gsoc2021*" label, this allows you to narrow down the list
+filtering using the "*gsoc2022*" label, this allows you to narrow down the list
 to the projects you are interested in.<br/>
-Or simply use this link https://issues.apache.org/jira/issues/?jql=labels+%3D+gsoc2021
+Or simply use this link https://issues.apache.org/jira/issues/?jql=labels+%3D+gsoc2022
 * If you do not see any interesting projects from the proposed ideas, we encourage you to contact one of the Apache Project's mailing list and propose a new idea. But these ideas have to be vetted on the project dev list. The ASF does not encourage and will not respond to your personal new open source project ideas which are unrelated to any Apache projects.
 * Please NOTE `Ideas list` is manually updated, please ping mentors (at) community.apache.org if the page is not being updated .. :))
 
@@ -143,12 +143,12 @@ organization. Make sure that the email address you use for that (it's often
 your @gmail.com address by default) is '''registered as a mail alias for your Apache account at (https://id.apache.org)''' so that we can match it to your ASF account.
 
 All ASF projects are invited to submit their ideas to their issue tracker,
-please be sure to add the labels "*gsoc2021*" and "*mentor*" so that we can
+please be sure to add the labels "*gsoc2022*" and "*mentor*" so that we can
 automatically include them in our list of subjects. If your project does
 not use JIRA please contact dev@community.apache.org.
 
 <a name="GSoC-ASFGSoCTimeline"></a>
-# ASF GSoC 2021 Timeline
+# ASF GSoC 2022 Timeline
 
 Below is a timeline of events for The Apache Software Foundation's
 involvement in GSoC. Unless otherwise stated deadlines are 24:00 UTC on the
@@ -157,28 +157,28 @@ date indicated.
 <a name="GSoC-StudentApplicationandSelection"></a>
 ## Student Application and Selection
 
-  - 2021-03-30: Student applications start
-  - 2021-04-13 18:00 UTC: Student applications deadline
-  - 2021-05-01: Proposals to ASF projects must be reviewed roughly and have a potential mentor so that we know how many slots to request. Proposals that don't have a mentor at this point will be down-rated.
-  - 2021-05-05: Proposal scoring must be completed. Proposals without a score will be rejected, no exceptions.
-  - 2021-05-18: Accepted student proposals announced on the Google Summer of Code site.
+  - 2022-04-04: GSoC contributor application period begins
+  - 2022-04-19: GSoC contributor application deadline
+  - 2022-05-05: Proposals to ASF projects must be reviewed roughly and have a potential mentor so that we know how many slots to request. Proposals that don't have a mentor at this point will be down-rated.
+  - 2022-05-11: Proposal scoring must be completed. Proposals without a score will be rejected, no exceptions.
+  - 2022-05-20: Accepted student proposals announced on the Google Summer of Code site.
 
 <a name="GSoC-GSocisunderway"></a>
 ## GSoC is underway
 
-  - 2021-05-18: Community bonding start
-  - 2021-06-08: Community bonding end
-  - 2021-06-08: Coding start
-  - 2021-07-13: Midterm evaluations can be submitted
-  - 2021-07-16: Midterm evaluations deadline
+  - 2022-05-20: Community bonding start
+  - 2022-06-12: Community bonding end
+  - 2022-06-13: Coding start
+  - 2022-07-25: Mentors and GSoC contributors can begin submitting Phase 1 evaluations
+  - 2022-07-28: Phase 1 Evaluation deadline (standard coding period)
   
 <a name="GSoC-Winddown"></a>
 ## Wind down
 
-  - 2021-08-17: Coding deadline and final evaluations can be submitted
-  - 2021-08-24: ASF Mentors evaluations can be submitted
-  - 2021-08-30: ASF Mentors final evaluations deadline
-  - 2021-09-01: Results announced
+  - 2022-09-12: GSoC contributors submit their final work product and their final mentor evaluation (standard coding period)
+  - 2022-09-12: ASF Mentors evaluations can be submitted
+  - 2022-09-18: ASF Mentors final evaluations deadline
+  - 2022-09-20: Results announced
 
 <a name="GSoC-Vouching"></a>
 # Organization Vouching
@@ -189,7 +189,7 @@ The ASF currently has no policy establishing the criteria on what basis to vouch
 # Useful Links
 
  * [Summer of Code home](https://summerofcode.withgoogle.com)
- * [Official Google Summer of Code 2021 Timeline, FAQs](https://summerofcode.withgoogle.com/how-it-works/#timeline)
+ * [Official Google Summer of Code 2022 Timeline, FAQs](https://summerofcode.withgoogle.com/how-it-works/#timeline)
  * [GSoC discussion list](https://groups.google.com/group/google-summer-of-code-discuss)
  * [Python notes on expectations](https://wiki.python.org/moin/SummerOfCode/Expectations)
  * \#gsoc on Freenode

@@ -14,8 +14,8 @@ submit ideas via JIRA (if your project does not use JIRA you can [use the Comdev
 
 * Add an issue to JIRA (if your project does not use JIRA you can [use the Comdev Issue Tracker For GSoC Tasks](use-the-comdev-issue-tracker-for-gsoc-tasks.html)
   * Add sub-tasks if necessary
-* Label the main issue with "*mentor*" (these will show up at the [ASF-wide list of issues](https://issues.apache.org/jira/issues?jql=labels%20in%20(gsoc2021)%20AND%20labels%20in%20(mentor,%20Mentor)))
-* Label the main issue with "*gsoc2021*" if appropriate (these will show up at <https://s.apache.org/gsoc2021ideas>)
+* Label the main issue with "*mentor*" (these will show up at the [ASF-wide list of issues](https://issues.apache.org/jira/issues?jql=labels%20in%20(gsoc2022)%20AND%20labels%20in%20(mentor,%20Mentor)))
+* Label the main issue with "*gsoc2022*" if appropriate (these will show up at <https://s.apache.org/gsoc2022ideas>)
 
 <a name="guidetobeingamentor-Detail"></a>
 ## Details

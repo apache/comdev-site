@@ -6,8 +6,8 @@ If your project does not use the ASF Jira for issue tracking, you can use
 the Community Development Jira project to record your GSoC tasks. 
 
 * Add tasks to the [Comdev project](https://issues.apache.org/jira/browse/COMDEV)
-* Ensure you add the labels `gsoc2021`, `mentor` and `_YOUR_PROJECT_NAME_`
-* Your issues will appear in the [list of projects](https://s.apache.org/gsoc2021ideas)
+* Ensure you add the labels `gsoc2022`, `mentor` and `_YOUR_PROJECT_NAME_`
+* Your issues will appear in the [list of projects](https://s.apache.org/gsoc2022ideas)
 * We use the label `_YOUR_PROJECT_NAME_` to map COMDEV issues to the real project when we create the ideas list
 
 Please contact dev@community.apache.org if you have questions/difficulties.
