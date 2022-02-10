@@ -241,9 +241,9 @@ Finding the right project The key to working on projects at Apache (and on any o
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://community.apache.org/gsoc.html</guid>
-      <description>Currently happening  GSOC 2021 is over   Google is sponsoring the 2021 Summer of Code and The Apache Software Foundation (ASF) [not yet] registered as a mentoring organization. This page is your entry point to the ASF GSoC program. Please watch this page for updates concerning our participating in 2021.
+      <description>Currently happening  Get ready for GSOC 2022! Prepare your ideas!   Google is sponsoring the 2022 Summer of Code and The Apache Software Foundation (ASF) [not yet] registered as a mentoring organization. This page is your entry point to the ASF GSoC program. Please watch this page for updates concerning our participating in 2022.
 
-Students: read this  Learn about GSoC Decide if you are eligible for GSoC? Review Advice for Students to make sure you really want to apply to GSoC.</description>
+Students: read this  Learn about GSoC Decide if you are eligible for GSoC?</description>
     </item>
     
     <item>
@@ -265,7 +265,7 @@ List of duties:
       <guid>https://community.apache.org/guide-to-being-a-mentor.html</guid>
       <description>Submitting ideas to the mentoring programme We invite all ASF projects to submit their ideas for consideration in the ASF mentoring programme. Any Apache member and experienced committers can submit ideas via JIRA (if your project does not use JIRA you can use the Comdev Issue Tracker For GSoC Tasks. We are looking for as many interesting projects as we can come up with.
 
-Summary  Add an issue to JIRA (if your project does not use JIRA you can use the Comdev Issue Tracker For GSoC Tasks  Add sub-tasks if necessary   Label the main issue with &amp;ldquo;mentor&amp;rdquo; (these will show up at the ASF-wide list of issues) Label the main issue with &amp;ldquo;gsoc2021&amp;rdquo; if appropriate (these will show up at https://s.</description>
+Summary  Add an issue to JIRA (if your project does not use JIRA you can use the Comdev Issue Tracker For GSoC Tasks  Add sub-tasks if necessary   Label the main issue with &amp;ldquo;mentor&amp;rdquo; (these will show up at the ASF-wide list of issues) Label the main issue with &amp;ldquo;gsoc2022&amp;rdquo; if appropriate (these will show up at https://s.</description>
     </item>
     
     <item>
@@ -501,7 +501,7 @@ Finding speakers You can use our &amp;ldquo;Find People&amp;rdquo; application t
       
       <guid>https://community.apache.org/use-the-comdev-issue-tracker-for-gsoc-tasks.html</guid>
       <description>If your project does not use the ASF Jira for issue tracking, you can use the Community Development Jira project to record your GSoC tasks.
- Add tasks to the Comdev project Ensure you add the labels gsoc2021, mentor and _YOUR_PROJECT_NAME_ Your issues will appear in the list of projects We use the label _YOUR_PROJECT_NAME_ to map COMDEV issues to the real project when we create the ideas list  Please contact dev@community.</description>
+ Add tasks to the Comdev project Ensure you add the labels gsoc2022, mentor and _YOUR_PROJECT_NAME_ Your issues will appear in the list of projects We use the label _YOUR_PROJECT_NAME_ to map COMDEV issues to the real project when we create the ideas list  Please contact dev@community.</description>
     </item>
     
     <item>
