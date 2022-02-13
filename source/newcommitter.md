@@ -207,7 +207,7 @@ sent after a positive result from the vote for a new committer.
         
     Hello [invitee name],
 
-    The [Project] Project Management Committee] (PMC) 
+    The [Project] Project Management Committee (PMC) 
     hereby offers you committer privileges to the project 
     [as well as membership in the PMC]. These privileges are
     offered on the understanding that you'll use them
