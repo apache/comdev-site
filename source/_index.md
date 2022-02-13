@@ -30,7 +30,7 @@ in the specific Apache projects that interest you.
         <h4>Newcomers to Apache</h4>
         <p>If you are new to open source, our <a href="newcomers/index.html"><b>newcomers section</b></a> explains basic concepts, first steps to get started, and where to ask for help.</p>
         <p>To get our software, see our <a href="https://projects.apache.org/projects.html?category" target="_blank">categorized listing of all Apache projects</a>, which are <a href="https://www.apache.org/free/"><b>always free</b> to download and use</a>.</p>
-        <p>The ASF is a large organization made up of many separate projects: each project community may have different ways of working, while still following the basic Apache Way process.</p>
+        <p>The ASF is a large organization made up of many separate projects: each project community may have its own ways of working, while still following the basic Apache Way process.</p>
     </div>
     <div class="col-md-4">
         <h4>Event Organizers and Speakers</h4>
@@ -41,7 +41,7 @@ in the specific Apache projects that interest you.
     <div class="col-md-4">
         <h4>The Foundation</h4>
         <p>The Apache Software Foundation (ASF) is a <a href="https://www.apache.org/foundation/">US 501(c)3 non-profit public charity</a>. The Foundation is <a href="https://www.apache.org/foundation/governance/">governed by a Board of Directors</a>, elected by our Membership, and we publish our <a href="https://www.apache.org/foundation/board/calendar.html">monthly board meeting minutes</a>.</p>
-        <p>Our mission is to create software for the public good that we <a href="https://www.apache.org/free/">give away for free</a>. You can read how <a href="https://www.apache.org/foundation/governance/" target="_blank">ASF and Apache projects are governed</a>. We <a href="https://www.apache.org/foundation/contributing.html" target="_blank">welcome your support to Apache in other ways</a>.</p>
+        <p>Our mission is to create software for the public good that we <a href="https://www.apache.org/free/">give away for free</a>. You can read how <a href="https://www.apache.org/foundation/governance/" target="_blank">ASF and Apache projects are governed</a>. We <a href="https://www.apache.org/foundation/contributing.html" target="_blank">welcome your support of Apache</a>.</p>
     </div>
 </div>
 
@@ -56,9 +56,9 @@ in the specific Apache projects that interest you.
     <div class="col-md-4">
         <h4>How Apache works</h4>
         <p>Our <a href="apache-way/apache-project-maturity-model.html">Apache Project Maturity Model</a> defines a structure for evaluating our projects (communities & technology) that can serve as an example for other communities.</p>
-        <p>Our <a href="https://www.apache.org/foundation/how-it-works.html" target="_blank"> how Apache works</a> guide describes key ASF
+        <p>Our <a href="https://www.apache.org/foundation/how-it-works.html" target="_blank">how Apache works</a> guide describes key ASF
         concepts such as the difference between ASF Members and project committers, how decisions are made (voting), how elections take place, 
-        the ASF's structure and organization and more.</p>
+        and the ASF's structure and organization.</p>
     </div>
     <div class="col-md-4">
           <h4>FAQ & Code of Conduct</h4>
@@ -72,7 +72,7 @@ in the specific Apache projects that interest you.
     <div class="col-md-4">
         <h4>Diversity and Inclusion</h4>
         <p>The <a href="http://diversity.apache.org/">Apache Diversity</a> website has more information
-        on that project, dedicated to understanding and promoting the diversity and inclusion Apache Software Foundation communities.
+        on that project, dedicated to understanding and promoting diversity and inclusion in Apache Software Foundation communities.
         </p>
     </div>
     <div class="col-md-4">
@@ -91,7 +91,7 @@ in the specific Apache projects that interest you.
 </div>
 
 <div>
-    <h4>How To Ask Questions</h4>
+    <h4>How to ask questions</h4>
     <p>All Apache projects use <a href="https://lists.apache.org/">publicly-archived mailing lists</a> that anyone may subscribe
         to. There you can ask questions related to that Apache project and gain a sense of its current activities and focus.  Most projects have a
         <code>dev@project.apache.org</code> mailing list for technical discussions about the code, and a
