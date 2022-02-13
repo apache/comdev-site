@@ -33,4 +33,4 @@ If you object you must support your objection and provide an alternative course
 of action that you are willing and able to implement (where appropriate).
 
 
-  [1]: /committers/consensusBuilding.mdtext
+  [1]: /committers/consensusBuilding.html
