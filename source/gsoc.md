@@ -31,7 +31,7 @@ filtering using the "*gsoc2022*" label, this allows you to narrow down the list
 to the projects you are interested in.<br/>
 Or simply use this link https://issues.apache.org/jira/issues/?jql=labels+%3D+gsoc2022
 * If you do not see any interesting projects from the proposed ideas, we encourage you to contact one of the Apache Project's mailing list and propose a new idea. But these ideas have to be vetted on the project dev list. The ASF does not encourage and will not respond to your personal new open source project ideas which are unrelated to any Apache projects.
-* Please NOTE `Ideas list` is manually updated, please ping mentors (at) community.apache.org if the page is not being updated .. :))
+* Please NOTE `Ideas list` is manually updated by GSoC admins, please ping mentors (at) community.apache.org if the page is not being updated .. :))
 
 <a name="GSoC-ApplyingforGSoC"></a>
 ### Applying for GSoC
@@ -146,6 +146,13 @@ All ASF projects are invited to submit their ideas to their issue tracker,
 please be sure to add the labels "*gsoc2022*" and "*mentor*" so that we can
 automatically include them in our list of subjects. If your project does
 not use JIRA please contact dev@community.apache.org.
+
+<div class="card border-success mb-3">
+  <div class="card-header">Size of project</div>
+  <div class="card-body text-success">
+    <p class="card-text">Starting this year there are 2 types of projects available.<br> Please put "<em>full-time</em>" label for ~350 hours project and<br> "<em>part-time</em>" label for ~175 hours project</p>
+  </div>
+</div>
 
 <a name="GSoC-ASFGSoCTimeline"></a>
 # ASF GSoC 2022 Timeline

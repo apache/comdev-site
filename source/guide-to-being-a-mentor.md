@@ -16,6 +16,12 @@ submit ideas via JIRA (if your project does not use JIRA you can [use the Comdev
   * Add sub-tasks if necessary
 * Label the main issue with "*mentor*" (these will show up at the [ASF-wide list of issues](https://issues.apache.org/jira/issues?jql=labels%20in%20(gsoc2022)%20AND%20labels%20in%20(mentor,%20Mentor)))
 * Label the main issue with "*gsoc2022*" if appropriate (these will show up at <https://s.apache.org/gsoc2022ideas>)
+* <div class="card border-success mb-3">
+  <div class="card-header">Size of project</div>
+  <div class="card-body text-success">
+    <p class="card-text">Starting this year there are 2 types of projects available.<br> Please put "<em>full-time</em>" label for ~350 hours project and<br> "<em>part-time</em>" label for ~175 hours project</p>
+  </div>
+</div>
 
 <a name="guidetobeingamentor-Detail"></a>
 ## Details
