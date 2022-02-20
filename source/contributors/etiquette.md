@@ -22,7 +22,7 @@ Apache projects are made up of communities of volunteers from around the
 world.  When you are sending email to an Apache project mailing list, there may 
 be software developers in this country, marketing managers in that country, and 
 homemakers in another country reading your email.  They will be reading your 
-mail at all hours of the day, and both at work, at home, and on the go.  If you 
+mail at all hours of the day, at work, at home, and on the go.  If you 
 want a response to your questions or suggestions, be sure to be polite and 
 sensible when writing.
 
@@ -33,7 +33,7 @@ culture of others on the list is a key start to making productive contributions.
 # One Member's Participation Guidelines # {#member}
 
 The ASF as a corporation is run by several hundred Members, who have deep and lasting experience 
-in helping to build and run long-term successful open source projects here 
+in helping to build and run long-term, successful open source projects here 
 at Apache.  This is just one member's take on how to approach 
 communicating in any particular Apache project.
 
@@ -70,22 +70,22 @@ not and the different priorities can co-exist.
 
   * Remember that everyone works on Apache projects as a volunteer.
 People have jobs and lives outside of their Apache projects, and may need 
-more time to even read messages on the list or respond.  Be patient.
+extra time to even read messages on the list before they are ready to respond.  Be patient.
 
-**Most communities at Apache consists of level-headed, reasonable people**, who
+**Most communities at Apache consists of level-headed, reasonable people** who
 have a strong vested interest in their Apache project. This interest, often
-passion, is both the source of tension, but it is also what unites the
+passion, can be a source of tension, but it is also what unites the
 people within the community. It is easy to forget the vast amount of
 agreement that exists, and get upset over relatively small disagreements.
-Ability to put that aside, or downplay the importance, will ensure a
+Ability to put aside or downplay the importance of minor disagreements will ensure a
 harmonious project.
 
 **Face-to-Face** is excellent way to eliminate disagreements, but that is often
-not practical. Consider Skype or Google Hangout, just for the social aspect
+not practical. Consider a conversation via Skype, Google Hangouts or a Slack channel, just for the social aspect
 of being part of this community. It should not be formal, and the
-invitation should go out to everyone, perhaps someone want to make a short
-presentation of what he/she is doing, to have some "structure", but that
-might not be needed either. Once we have a face to the words, and a general
+invitation should go out to everyone. Someone may want to make a short
+presentation of what they are doing, to have some "structure", but that
+might not be needed either. Once we have a face to add to the words, and a general
 idea how that person is socially, we are much more capable to interact by
 email.
 
