@@ -5,7 +5,7 @@ title: Lazy Consensus
 The concept of "lazy consensus" is very important in your project. Lazy
 consensus means that when you are convinced that you know what the community
 would like to see happen, you can assume that you have consensus in favor of the proposed work and
-and get on with it. You don't have to insist people discuss and/or
+can get on with it. You don't have to insist people discuss and/or
 approve your plan, and you certainly don't need to call a vote to get approval.
 You just assume you have the community's support unless someone says otherwise.
 
@@ -17,7 +17,7 @@ any work should someone raise a valid objection.
 
 ## Avoiding unnecessary discussion
 
-The key thing about lazy consensus is that it's easier for people to agree,
+The key thing about lazy consensus is that it's easier for people to agree
 by doing nothing, than it is to object, which requires them to propose an alternative. This has two effects: first, people are less 
 likely to object for the sake of objecting and, second, it cuts down on the amount 
 of unnecessary email traffic and discussion.
