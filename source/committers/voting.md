@@ -8,7 +8,7 @@ to approve a release.
 
 ## Preparing for a Vote
 
-Before calling a vote it is important to ensure that the community has time to
+It is important to ensure that the community has time to
 discuss the issue before voting. To do this, post an email to the list
 indicating the intention to call a vote and the options available. By the time
 a vote takes place there usually is [consensus in the community][1] on what path to take. The vote 
@@ -29,7 +29,7 @@ The notation used in voting is:
   -  0 I have no strong opinion 
   - -1 I object on the following grounds
 
-If you object you must support your objection and provide an alternative course 
+If you object you **must** support your objection and provide an alternative course 
 of action that you are willing and able to implement (where appropriate).
 
 
