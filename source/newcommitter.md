@@ -229,7 +229,7 @@ sent after a positive result from the vote for a new committer.
 
     A. This personal invitation is a chance for you to 
     accept or decline in private.  Either way, please 
-    let us know in reply to the [private@project.apache.org] 
+    let us know in reply to the private@[PROJECT].apache.org 
     address only.
 
     B. If you accept, the next step is to register an iCLA:
@@ -241,7 +241,7 @@ sent after a positive result from the vote for a new committer.
         https://www.apache.org/licenses/#submitting
 
         3. When you transmit the completed iCLA, request 
-        to notify the Apache [Project] and choose a 
+        to notify the Apache [Project] project and choose a 
         unique Apache ID. Look to see if your preferred 
         ID is already taken at 
         https://people.apache.org/committer-index.html
