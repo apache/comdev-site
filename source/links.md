@@ -25,6 +25,6 @@ authors for more information or questions. General discussion on the dev@communi
   [1]: https://producingoss.com/
   [2]: https://grep.codeconsult.ch/2009/03/30/the-asf-is-the-switzerland-of-open-source/
   [3]: https://psteitz.blogspot.ch/2011/11/thinking-together.html
-  [4]: https://www.apachecon.com/eu2007/materials/asf-intro-slides-eilebrecht.pdf
+  [4]: http://archive.apachecon.com/eu2007/materials/asf-intro-slides-eilebrecht.pdf
   [5]: http://theapacheway.com/
   [6]: https://delicious.com/bdelacretaz/opendevelopment
