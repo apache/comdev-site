@@ -232,13 +232,26 @@ sent after a positive result from the vote for a new committer.
     let us know in reply to the private@[PROJECT].apache.org 
     address only.
 
-    B. If you accept, the next step is to register an iCLA:
+    If you already have an Apache account, let us know your id and we
+    will grant you privileges on the project repositories.
+
+    If you have previously sent an iCLA, let us know the email address
+    and public name used on the iCLA and your preferred Apache id, and
+    we will request your account. Look to see if your preferred ID is already
+    taken at 
+    https://people.apache.org/committer-index.html
+
+    B. Otherwise, you need to register an iCLA:
         1. Details of the iCLA and the forms are found 
         through this link: https://www.apache.org/licenses/#clas
 
         2. Instructions for its completion and return to 
         the Secretary of the ASF are found at
         https://www.apache.org/licenses/#submitting
+
+        Do not copy the project or any other individual on your message
+        to Secretary, as the form contains Personally Identifiable Information
+        that should be kept private.
 
         3. When you transmit the completed iCLA, request 
         to notify the Apache [Project] project and choose a 
@@ -251,7 +264,7 @@ sent after a positive result from the vote for a new committer.
     When recording of your iCLA is noted, you will 
     receive a follow-up message with the next steps for 
     establishing you as a committer.
-       
+   
 ### Committer Accept Template
 This is the followup email after the new committer has accepted the invitation.
     
