@@ -82,7 +82,7 @@ later in this document.
 If they accept, then:
 
 1. Accept the committer (templates/committerAccept.txt)
-1. Wait until we see that receipt of CLA is recorded
+1. If they already have an Apache id, grant appropriate commit privileges.
 1. Request creation of the committer account (template/committerCreate.txt)
    1. Wait until root says it is done
    1. PMC Chair enables svn and other access
@@ -228,17 +228,22 @@ sent after a positive result from the vote for a new committer.
     contributor, participating as you do now.
 
     A. This personal invitation is a chance for you to 
-    accept or decline in private.  Either way, please 
-    let us know in reply to the private@[PROJECT].apache.org 
+    accept or decline in private.
+    If you decline, please let us know in reply to the private@[PROJECT].apache.org 
     address only.
-
+    
+    If you accept, you will need an Apache account with privileges. Please follow
+    these instructions.
+    
     If you already have an Apache account, let us know your id and we
     will grant you privileges on the project repositories.
 
     If you have previously sent an iCLA, let us know the email address
     and public name used on the iCLA and your preferred Apache id, and
-    we will request your account. Look to see if your preferred ID is already
-    taken at 
+    we will request your account. If the email address on the iCLA is not
+    valid, continue to step B below and also let us know your preferred
+    Apache id.
+    Look to see if your preferred ID is already taken at 
     https://people.apache.org/committer-index.html
 
     B. Otherwise, you need to register an iCLA:
