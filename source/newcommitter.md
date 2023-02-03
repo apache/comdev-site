@@ -75,17 +75,18 @@ later in this document.
 <a name="NewCommitter-Summary"></a>
 ### Summary
 
-1. Call a vote (templates/committerVote.txt)
-1. Close the vote
+1. Discuss the proposed committer/PMC member. If positive, call a vote (templates/committerVote.txt)
+1. Close the vote (templates/closeVote.txt)
 1. If the result is positive, invite the new committer (templates/committerInvite.txt)
 
 If they accept, then:
 
-1. Accept the committer (templates/committerAccept.txt)
 1. If they already have an Apache id, grant appropriate commit privileges.
-1. Request creation of the committer account (template/committerCreate.txt)
+1. If they have already filed an ICLA, request creation of the committer account.
+   If they need to change anything in a previously filed ICLA, wait until the new ICLA is filed,
+   then request the account.
    1. Wait until root says it is done
-   1. PMC Chair enables svn and other access
+   1. PMC Chair enables svn, github, and other access
    1. Add committer to the appropriate groups in JIRA and CWiki
 1. Notify the committer of completion (template/committerDone.txt)
 1. If committer is also to be a PMC member, PMC Chair sends email to board@ asking for acknowledgement of new PMC member
