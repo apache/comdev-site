@@ -235,22 +235,25 @@ sent after a positive result from the vote for a new committer.
     Of course, you can decline and instead remain as a 
     contributor, participating as you do now.
 
-    A. This personal invitation is a chance for you to 
+    This personal invitation is a chance for you to 
     accept or decline in private.
     If you decline, please let us know in reply to the private@[PROJECT].apache.org 
     address only.
     
-    If you accept, you will need an Apache account with privileges. Please follow
+    A. If you accept, you will need an Apache account (id) with privileges. Please follow
     these instructions.
     
-    If you already have an Apache account, let us know your id and we
+        1. If you already have an Apache account, let us know your id and we
     will grant you privileges on the project repositories.
 
-    If you have previously sent an iCLA, let us know the email address
+        2. If you have previously sent an iCLA, let us know the email address
     and public name used on the iCLA and your preferred Apache id, and
-    we will request your account. If the email address on the iCLA is not
-    valid, continue to step B below and also let us know your preferred
-    Apache id.
+    we will request your account. 
+
+        3. If the email address on the previously submitted iCLA is no longer
+    valid, let us know the email address and public name used on the new iCLA,
+    and your preferred Apache id. Continue to step B below and file your new iCLA.
+    
     Look to see if your preferred ID is already taken at 
     https://people.apache.org/committer-index.html
 
@@ -260,14 +263,14 @@ sent after a positive result from the vote for a new committer.
 
         2. Instructions for its completion and return to 
         the Secretary of the ASF are found at
-        https://www.apache.org/licenses/#submitting
+        https://www.apache.org/licenses/contributor-agreements.html#submitting
 
         Do not copy the project or any other individual on your message
         to Secretary, as the form contains Personally Identifiable Information
         that should be kept private.
 
-        3. When you transmit the completed iCLA, request 
-        to notify the Apache [Project] project and choose a 
+        3. When you fill the iCLA form, include in the form
+        the Apache [Project] project and choose a 
         unique Apache ID. Look to see if your preferred 
         ID is already taken at 
         https://people.apache.org/committer-index.html
@@ -278,58 +281,6 @@ sent after a positive result from the vote for a new committer.
     receive a follow-up message with the next steps for 
     establishing you as a committer.
    
-### Committer Accept Template
-This is the followup email after the new committer has accepted the invitation.
-    
-    ------------------------------------------------------------------------
-    To: JoBloggs@foo.net
-    Cc: private@[PROJECT].apache.org
-    Subject: Re: invitation to become [PROJECT] committer
-    
-    Welcome. Here are the next steps in becoming a project committer. After that we will make
-    an announcement to the [PROJECT]-dev list.
-    
-    You need to send a Contributor License Agreement to the ASF.
-    Normally you would send an Individual CLA. If you also make
-    contributions done in work time or using work resources,
-    see the Corporate CLA. Ask us if you have any issues.
-    https://www.apache.org/licenses/#clas.
-    
-    You need to choose a preferred ASF user name and alternatives.
-    In order to ensure it is available you can view a list of taken IDs at
-    https://people.apache.org/committer-index.html
-    
-    Please notify us when you have submitted the CLA and by what means 
-    you did so. This will enable us to monitor its progress.
-    
-    We will arrange for your Apache user account when the CLA has 
-    been recorded.
-    
-    After that is done, please make followup replies to the [PROJECT]-dev list.
-    We generally discuss everything there and keep the
-    private@[PROJECT].apache.org list for occasional matters which must be private.
-    
-    The developer section of the website describes roles within the ASF and provides other
-    resources:
-      https://www.apache.org/foundation/how-it-works.html
-      https://www.apache.org/dev/
-    
-    The incubator also has some useful information for new committers
-    in incubating projects:
-      https://incubator.apache.org/guides/committer.html
-      https://incubator.apache.org/guides/ppmc.html
-
-    Just as before you became a committer, participation in any ASF community
-    requires adherence to the ASF Code of Conduct:
-      https://www.apache.org/foundation/policies/conduct.html
-    
-    [PROJECT should insert its own guidelines here; if none are available,
-     the Apache Forrest guidelines are available as a template.]
-      https://forrest.apache.org/guidelines.html
-    
-    Yours,
-    The Apache [PROJECT] PMC
-
 ### Committer Account Creation
 Follow the instructions
     [here](https://www.apache.org/dev/pmc.html#newcommitter).
@@ -394,15 +345,34 @@ This is the email to announce the new committer to `[PROJECT]-dev` once the acco
     
     [PROJECT] has various resources at:
       https://svn.apache.org/repos/asf/[PROJECT]
+      https://github.com/apache/[PROJECT-REPOSITORY]
     
     The general "committers" at:
     https://svn.apache.org/repos/private/committers
     
-    You will probably need to 'svn switch" previous checkouts to now use https, 
+    If using svn, you will probably need to 'svn switch" previous checkouts to now use https, 
     for example:
 
     svn switch --relocate https://svn.apache.org/repos/asf/[PROJECT] https://svn.apache.org/repos/asf/[PROJECT]
         
+    The developer section of the website describes roles within the ASF and provides other
+    resources:
+      https://www.apache.org/foundation/how-it-works.html
+      https://www.apache.org/dev/
+    
+    The incubator also has some useful information for new committers
+    in incubating projects:
+      https://incubator.apache.org/guides/committer.html
+      https://incubator.apache.org/guides/ppmc.html
+
+    Just as before you became a committer, participation in any ASF community
+    requires adherence to the ASF Code of Conduct:
+      https://www.apache.org/foundation/policies/conduct.html
+    
+    [PROJECT should insert its own guidelines here; if none are available,
+     the Apache Forrest guidelines are available as a template.]
+      https://forrest.apache.org/guidelines.html
+
     If you have any questions during this phase, then please
     see the following resources:
     
