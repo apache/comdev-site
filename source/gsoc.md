@@ -11,10 +11,10 @@ title: GSoC
   </div>
 </div>
 
-Google is sponsoring the [2022 Summer of Code](https://summerofcode.withgoogle.com/) and 
+Google is sponsoring the [2023 Summer of Code](https://summerofcode.withgoogle.com/) and
 [The Apache Software Foundation](https://www.apache.org/) (ASF) [not yet] registered as a mentoring organization.
 This page is your entry point to the ASF GSoC program.
-Please watch this page for updates concerning our participating in 2022.
+Please watch this page for updates concerning our participating in 2023.
 
 <a name="GSoC-Students:readthis"></a>
 # Students: read this
@@ -143,19 +143,19 @@ organization. Make sure that the email address you use for that (it's often
 your @gmail.com address by default) is '''registered as a mail alias for your Apache account at (https://id.apache.org)''' so that we can match it to your ASF account.
 
 All ASF projects are invited to submit their ideas to their issue tracker,
-please be sure to add the labels "*gsoc2022*" and "*mentor*" so that we can
+please be sure to add the labels "*gsoc2023*" and "*mentor*" so that we can
 automatically include them in our list of subjects. If your project does
 not use JIRA please contact dev@community.apache.org.
 
 <div class="card border-success mb-3">
   <div class="card-header">Size of project</div>
   <div class="card-body text-success">
-    <p class="card-text">Starting this year there are 2 types of projects available.<br> Please put "<em>full-time</em>" label for ~350 hours project and<br> "<em>part-time</em>" label for ~175 hours project</p>
+    <p class="card-text">There are 2 types of projects available.<br> Please put "<em>full-time</em>" label for ~350 hours project and<br> "<em>part-time</em>" label for ~175 hours project</p>
   </div>
 </div>
 
 <a name="GSoC-ASFGSoCTimeline"></a>
-# ASF GSoC 2022 Timeline
+# ASF GSoC 2023 Timeline
 
 Below is a timeline of events for The Apache Software Foundation's
 involvement in GSoC. Unless otherwise stated deadlines are 24:00 UTC on the
@@ -163,29 +163,30 @@ date indicated.
 
 <a name="GSoC-StudentApplicationandSelection"></a>
 ## Student Application and Selection
-
-  - 2022-04-04: GSoC contributor application period begins
-  - 2022-04-19: GSoC contributor application deadline
-  - 2022-05-05: Proposals to ASF projects must be reviewed roughly and have a potential mentor so that we know how many slots to request. Proposals that don't have a mentor at this point will be down-rated.
-  - 2022-05-11: Proposal scoring must be completed. Proposals without a score will be rejected, no exceptions.
-  - 2022-05-20: Accepted student proposals announced on the Google Summer of Code site.
+  - 2023-02-22: GSoC contributors application ideas discussions start
+  - 2023-03-19: GSoC contributors application ideas discussions end
+  - 2023-03-20: GSoC contributor application period begins
+  - 2023-04-04: GSoC contributor application deadline
+  - 2023-04-15: Proposals to ASF projects must be reviewed roughly and have a potential mentor so that we know how many slots to request. Proposals that don't have a mentor at this point will be down-rated.
+  - 2023-04-25: Proposal scoring must be completed. Proposals without a score will be rejected, no exceptions.
+  - 2023-05-04: Accepted student proposals announced on the Google Summer of Code site.
 
 <a name="GSoC-GSocisunderway"></a>
 ## GSoC is underway
 
-  - 2022-05-20: Community bonding start
-  - 2022-06-12: Community bonding end
-  - 2022-06-13: Coding start
-  - 2022-07-25: Mentors and GSoC contributors can begin submitting Phase 1 evaluations
-  - 2022-07-28: Phase 1 Evaluation deadline (standard coding period)
+  - 2023-05-04: Community bonding start
+  - 2023-05-28: Community bonding end
+  - 2023-05-29: Coding start
+  - 2023-07-10: Mentors and GSoC contributors can begin submitting Phase 1 evaluations
+  - 2023-07-14: Phase 1 Evaluation deadline (standard coding period)
   
 <a name="GSoC-Winddown"></a>
 ## Wind down
 
-  - 2022-09-12: GSoC contributors submit their final work product and their final mentor evaluation (standard coding period)
-  - 2022-09-12: ASF Mentors evaluations can be submitted
-  - 2022-09-18: ASF Mentors final evaluations deadline
-  - 2022-09-20: Results announced
+  - 2023-08-21: GSoC contributors submit their final work product and their final mentor evaluation (standard coding period)
+  - 2023-08-28: ASF Mentors evaluations can be submitted
+  - 2023-09-04: ASF Mentors final evaluations deadline
+  - 2023-09-05: Results announced
 
 <a name="GSoC-Vouching"></a>
 # Organization Vouching
@@ -196,7 +197,7 @@ The ASF currently has no policy establishing the criteria on what basis to vouch
 # Useful Links
 
  * [Summer of Code home](https://summerofcode.withgoogle.com)
- * [Official Google Summer of Code 2022 Timeline, FAQs](https://summerofcode.withgoogle.com/how-it-works/#timeline)
+ * [Official Google Summer of Code 2023 Timeline, FAQs](https://summerofcode.withgoogle.com/how-it-works/#timeline)
  * [GSoC discussion list](https://groups.google.com/group/google-summer-of-code-discuss)
  * [Python notes on expectations](https://wiki.python.org/moin/SummerOfCode/Expectations)
  * \#gsoc on Freenode
