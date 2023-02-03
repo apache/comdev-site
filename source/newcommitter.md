@@ -98,6 +98,13 @@ If they accept, then:
 
 We do the vote on the `private@` mailing list to enable a frank discussion.
 
+We invite people to join as committers/PMC members, not github ids. It is
+fine to refer to the candidate's github id for context, but the person should
+be referred to by their name. It is not necessary to have their full legal
+name (that will be kept private) but it is important to use their name, as
+they refer to themselves in email. If a person is known only by their github
+id, it is ok to ask them for their real name prior to holding a VOTE.
+
 Start a separate [VOTE] thread for each new person. This makes it much easier
 to review the email archives.
 
