@@ -193,7 +193,7 @@ This email ends the vote and reports the result to the project.
     
     The vote is ***successful/not successful***
 
-### Board Approval of new PMC member 
+### Notify Board of new PMC member 
 See [https://www.apache.org/dev/pmc.html#newpmc][1]
 
 ### Committer Invite Template
