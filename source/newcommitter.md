@@ -147,7 +147,7 @@ merge this template with the following one (PMC Vote Template).
       
     ------------------------------------------------------------
     To: private@[PROJECT].apache.org
-    Subject: [VOTE] New committer: Joe Bloggs
+    Subject: [VOTE] New committer: Jo Bloggs
     
     [ add the reasons behind your nomination here ]
     
@@ -166,7 +166,7 @@ to be voted for by the existing PMC members and subsequently approved by the Boa
     
     ------------------------------------------------------------
     To: private@[PROJECT].apache.org
-    Subject: [VOTE] New PMC candidate: Joe Bloggs
+    Subject: [VOTE] New PMC candidate: Jo Bloggs
     
     [ add the reasons behind your nomination here ]
     
@@ -181,7 +181,7 @@ This email ends the vote and reports the result to the project.
     
     ------------------------------------------------------------
     To: private@[PROJECT].a.o
-    Subject: [RESULT] [VOTE] New committer (or PMC candidate): Joe Bloggs
+    Subject: [RESULT] [VOTE] New committer (or PMC candidate): Jo Bloggs
     
     The vote has now closed. The results are:
     
@@ -201,9 +201,9 @@ This is the suggested invitation email to send to the newly elected committer,
 sent after a positive result from the vote for a new committer.
     
     ------------------------------------------------------------
-    To: JoeBloggs@foo.net
+    To: JoBloggs@foo.net
     Cc: private@[PROJECT].apache.org
-    Subject: Invitation to become [PROJECT] committer: Joe Bloggs
+    Subject: Invitation to become [PROJECT] committer: Jo Bloggs
         
     Hello [invitee name],
 
@@ -229,7 +229,7 @@ sent after a positive result from the vote for a new committer.
 
     A. This personal invitation is a chance for you to 
     accept or decline in private.  Either way, please 
-    let us know in reply to the [private@project.apache.org] 
+    let us know in reply to the private@[PROJECT].apache.org 
     address only.
 
     B. If you accept, the next step is to register an iCLA:
@@ -241,7 +241,7 @@ sent after a positive result from the vote for a new committer.
         https://www.apache.org/licenses/#submitting
 
         3. When you transmit the completed iCLA, request 
-        to notify the Apache [Project] and choose a 
+        to notify the Apache [Project] project and choose a 
         unique Apache ID. Look to see if your preferred 
         ID is already taken at 
         https://people.apache.org/committer-index.html
@@ -256,7 +256,7 @@ sent after a positive result from the vote for a new committer.
 This is the followup email after the new committer has accepted the invitation.
     
     ------------------------------------------------------------------------
-    To: JoeBloggs@foo.net
+    To: JoBloggs@foo.net
     Cc: private@[PROJECT].apache.org
     Subject: Re: invitation to become [PROJECT] committer
     
@@ -331,11 +331,11 @@ This is the email to announce the new committer to `[PROJECT]-dev` once the acco
     
     ------------------------------------------------------------
     To: dev@[PROJECT].apache.org
-    Subject: new committer: ###Joe Bloggs
+    Subject: new committer: ###Jo Bloggs
     
     The Project Management Committee (PMC) for Apache [PROJECT]
-    has invited Joe Bloggs to become a committer and we are pleased 
-    to announce that he has accepted.
+    has invited Jo Bloggs to become a committer and we are pleased 
+    to announce that they have accepted.
     
     ### add specific details here ###
     
@@ -348,8 +348,8 @@ This is the email to announce the new committer to `[PROJECT]-dev` once the acco
     After the committer account is established.
     
     ------------------------------------------------------------
-    To: private@[PROJECT].a.o, ###JoeBloggs@foo.net
-    Subject: account request: ###Joe Bloggs
+    To: private@[PROJECT].a.o, ###JoBloggs@foo.net
+    Subject: account request: ###Jo Bloggs
     
     ####, as you know, the ASF Infrastructure has set up your
     committer account with the username '####'.
