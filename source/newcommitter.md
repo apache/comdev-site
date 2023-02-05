@@ -86,7 +86,8 @@ If they accept, then:
    If they need to change anything in a previously filed ICLA, wait until the new ICLA is filed,
    then request the account.
    1. Wait until root says it is done
-   1. PMC Chair enables svn, github, and other access
+   1. PMC Chair updates LDAP group membership which enables svn, gitbox and other access.
+If the committer uses GitHub, they are responsible for linking it to their ASF account.
    1. Add committer to the appropriate groups in JIRA and CWiki
 1. Notify the committer of completion (template/committerDone.txt)
 1. If committer is also to be a PMC member, PMC Chair sends email to board@ asking for acknowledgement of new PMC member
@@ -96,7 +97,7 @@ If they accept, then:
 <a name="NewCommitter-Discussion"></a>
 ### Discussion
 
-We do the vote on the `private@` mailing list to enable a frank discussion.
+We do the discussion and vote on the `private@` mailing list to enable a frank discussion.
 
 We invite people to join as committers/PMC members, not github ids. It is
 fine to refer to the candidate's github id for context, but the person should
@@ -240,8 +241,9 @@ sent after a positive result from the vote for a new committer.
     If you decline, please let us know in reply to the private@[PROJECT].apache.org 
     address only.
     
-    A. If you accept, you will need an Apache account (id) with privileges. Please follow
-    these instructions.
+    A. If you accept, reply to this message with your acceptance.
+    You will need an Apache account (id) with privileges.
+    Please follow these instructions.
     
         1. If you already have an Apache account, let us know your id and we
     will grant you privileges on the project repositories.
@@ -269,7 +271,7 @@ sent after a positive result from the vote for a new committer.
         to Secretary, as the form contains Personally Identifiable Information
         that should be kept private.
 
-        3. When you fill the iCLA form, include in the form
+        3. When you complete the iCLA form, be sure to include in the form
         the Apache [Project] project and choose a 
         unique Apache ID. Look to see if your preferred 
         ID is already taken at 
@@ -345,7 +347,7 @@ This is the email to announce the new committer to `[PROJECT]-dev` once the acco
     
     [PROJECT] has various resources at:
       https://svn.apache.org/repos/asf/[PROJECT]
-      https://github.com/apache/[PROJECT-REPOSITORY]
+      https://gitbox.apache.org
     
     The general "committers" at:
     https://svn.apache.org/repos/private/committers
