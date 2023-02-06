@@ -236,13 +236,10 @@ sent after a positive result from the vote for a new committer.
     Of course, you can decline and instead remain as a 
     contributor, participating as you do now.
 
-    This personal invitation is a chance for you to 
-    accept or decline in private.
-    If you decline, please let us know in reply to the private@[PROJECT].apache.org 
-    address only.
+    This personal invitation is a chance for you to accept or decline in private.
+    Please let us know in reply to this message whether you accept or decline.
     
-    A. If you accept, reply to this message with your acceptance.
-    You will need an Apache account (id) with privileges.
+    A. If you accept, you will need an Apache account (id) with privileges.
     Please follow these instructions.
     
         1. If you already have an Apache account, let us know your id and we
@@ -259,7 +256,7 @@ sent after a positive result from the vote for a new committer.
     Look to see if your preferred ID is already taken at 
     https://people.apache.org/committer-index.html
 
-    B. Otherwise, you need to register an iCLA:
+    B. If there is not already an iCLA on file, you need to submit an iCLA:
         1. Details of the iCLA and the forms are found 
         through this link: https://www.apache.org/licenses/#clas
 
