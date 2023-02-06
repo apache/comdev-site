@@ -22,7 +22,7 @@ contributors to your projects.
 If you want to participate with your project you now need to
 
  - understand what it means to be a mentor [1]
- - propose your project ideas. Just label your issues with gsoc2022 in JIRA and
+ - propose your project ideas. Just label your issues with gsoc2023 in JIRA and
    they will show up at [2]. See also [1].
  - subscribe to mentors@community.apache.org (restricted to potential mentors, meant to be used
    as a private list - general discussions on the public
