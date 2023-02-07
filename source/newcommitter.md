@@ -82,6 +82,7 @@ later in this document.
 If they accept, then:
 
 1. If they already have an Apache id, grant appropriate commit privileges.
+Use the Whimsy tool to update the roster via https://whimsy.apache.org/roster/committee/ or https://whimsy.apache.org/roster/ppmc/
 1. If they have already filed an ICLA, request creation of the committer account.
    If they need to change anything in a previously filed ICLA, wait until the new ICLA is filed,
    then request the account.
@@ -245,19 +246,19 @@ sent after a positive result from the vote for a new committer.
         1. If you already have an Apache account, let us know your id and we
     will grant you privileges on the project repositories.
 
-        2. If you have previously sent an iCLA, let us know the email address
-    and public name used on the iCLA and your preferred Apache id, and
+        2. If you have previously sent an ICLA, let us know the email address
+    and public name used on the ICLA and your preferred Apache id, and
     we will request your account. 
 
-        3. If the email address on the previously submitted iCLA is no longer
-    valid, let us know the email address and public name used on the new iCLA,
-    and your preferred Apache id. Continue to step B below and file your new iCLA.
+        3. If the email address on the previously submitted ICLA is no longer
+    valid, let us know the email address and public name used on the new ICLA,
+    and your preferred Apache id. Continue to step B below and file your new ICLA.
     
     Look to see if your preferred ID is already taken at 
     https://people.apache.org/committer-index.html
 
-    B. If there is not already an iCLA on file, you need to submit an iCLA:
-        1. Details of the iCLA and the forms are found 
+    B. If there is not already an ICLA on file, you need to submit an ICLA:
+        1. Details of the ICLA and the forms are found 
         through this link: https://www.apache.org/licenses/#clas
 
         2. Instructions for its completion and return to 
@@ -268,15 +269,15 @@ sent after a positive result from the vote for a new committer.
         to Secretary, as the form contains Personally Identifiable Information
         that should be kept private.
 
-        3. When you complete the iCLA form, be sure to include in the form
+        3. When you complete the ICLA form, be sure to include in the form
         the Apache [Project] project and choose a 
         unique Apache ID. Look to see if your preferred 
         ID is already taken at 
         https://people.apache.org/committer-index.html
         This will allow the Secretary to notify the PMC 
-        when your iCLA has been recorded.
+        when your ICLA has been recorded.
 
-    When recording of your iCLA is noted, you will 
+    When recording of your ICLA is noted, you will 
     receive a follow-up message with the next steps for 
     establishing you as a committer.
    
