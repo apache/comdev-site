@@ -240,9 +240,11 @@ sent after a positive result from the vote for a new committer.
     This personal invitation is a chance for you to accept or decline in private.
     Please let us know in reply to this message whether you accept or decline.
     
-    A. If you accept, you will need an Apache account (id) with privileges.
+    If you accept, you will need an Apache account (id) with privileges.
     Please follow these instructions.
     
+    A. If you already have an ICLA on file:
+
         1. If you already have an Apache account, let us know your id and we
     will grant you privileges on the project repositories.
 
@@ -258,6 +260,7 @@ sent after a positive result from the vote for a new committer.
     https://people.apache.org/committer-index.html
 
     B. If there is not already an ICLA on file, you need to submit an ICLA:
+    
         1. Details of the ICLA and the forms are found 
         through this link: https://www.apache.org/licenses/#clas
 
