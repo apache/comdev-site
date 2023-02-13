@@ -3,7 +3,7 @@ title: Apache Community Etiquette Guidelines
 ---
 
 The Apache Software Foundation (ASF) and our many Apache projects welcome all 
-participants.  Before you begin, it is important to review an respect our community guidelines.   There are 
+participants.  Before you begin, it is important to review and respect our community guidelines.   There are 
 many behavior or etiquette guides for online communities out there; we have a few 
 Apache-specific tips below.
 
