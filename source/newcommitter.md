@@ -75,17 +75,20 @@ later in this document.
 <a name="NewCommitter-Summary"></a>
 ### Summary
 
-1. Call a vote (templates/committerVote.txt)
-1. Close the vote
+1. Discuss the proposed committer/PMC member. If positive, call a vote (templates/committerVote.txt)
+1. Close the vote (templates/closeVote.txt)
 1. If the result is positive, invite the new committer (templates/committerInvite.txt)
 
 If they accept, then:
 
-1. Accept the committer (templates/committerAccept.txt)
-1. Wait until we see that receipt of CLA is recorded
-1. Request creation of the committer account (template/committerCreate.txt)
+1. If they already have an Apache id, grant appropriate commit privileges.
+Use the Whimsy tool to update the roster via https://whimsy.apache.org/roster/committee/ or https://whimsy.apache.org/roster/ppmc/
+1. If they have already filed an ICLA, request creation of the committer account.
+   If they need to change anything in a previously filed ICLA, wait until the new ICLA is filed,
+   then request the account.
    1. Wait until root says it is done
-   1. PMC Chair enables svn and other access
+   1. PMC Chair updates LDAP group membership which enables svn, gitbox and other access.
+If the committer uses GitHub, they are responsible for linking it to their ASF account.
    1. Add committer to the appropriate groups in JIRA and CWiki
 1. Notify the committer of completion (template/committerDone.txt)
 1. If committer is also to be a PMC member, PMC Chair sends email to board@ asking for acknowledgement of new PMC member
@@ -95,7 +98,14 @@ If they accept, then:
 <a name="NewCommitter-Discussion"></a>
 ### Discussion
 
-We do the vote on the `private@` mailing list to enable a frank discussion.
+We do the discussion and vote on the `private@` mailing list to enable a frank discussion.
+
+We invite people to join as committers/PMC members, not github ids. It is
+fine to refer to the candidate's github id for context, but the person should
+be referred to by their name. It is not necessary to have their full legal
+name (that will be kept private) but it is important to use their name, as
+they refer to themselves in email. If a person is known only by their github
+id, it is ok to ask them for their real name prior to holding a VOTE.
 
 Start a separate [VOTE] thread for each new person. This makes it much easier
 to review the email archives.
@@ -193,7 +203,7 @@ This email ends the vote and reports the result to the project.
     
     The vote is ***successful/not successful***
 
-### Board Approval of new PMC member 
+### Notify Board of new PMC member 
 See [https://www.apache.org/dev/pmc.html#newpmc][1]
 
 ### Committer Invite Template
@@ -227,83 +237,53 @@ sent after a positive result from the vote for a new committer.
     Of course, you can decline and instead remain as a 
     contributor, participating as you do now.
 
-    A. This personal invitation is a chance for you to 
-    accept or decline in private.  Either way, please 
-    let us know in reply to the private@[PROJECT].apache.org 
-    address only.
+    This personal invitation is a chance for you to accept or decline in private.
+    Please let us know in reply to this message whether you accept or decline.
+    
+    If you accept, you will need an Apache account (id) with privileges.
+    Please follow these instructions.
+    
+    A. If you already have an ICLA on file:
 
-    B. If you accept, the next step is to register an iCLA:
-        1. Details of the iCLA and the forms are found 
+        1. If you already have an Apache account, let us know your id and we
+    will grant you privileges on the project repositories.
+
+        2. If you have previously sent an ICLA, let us know the email address
+    and public name used on the ICLA and your preferred Apache id, and
+    we will request your account. 
+
+        3. If the email address on the previously submitted ICLA is no longer
+    valid, let us know the email address and public name used on the new ICLA,
+    and your preferred Apache id. Continue to step B below and file your new ICLA.
+    
+    Look to see if your preferred ID is already taken at 
+    https://people.apache.org/committer-index.html
+
+    B. If there is not already an ICLA on file, you need to submit an ICLA:
+    
+        1. Details of the ICLA and the forms are found 
         through this link: https://www.apache.org/licenses/#clas
 
         2. Instructions for its completion and return to 
         the Secretary of the ASF are found at
-        https://www.apache.org/licenses/#submitting
+        https://www.apache.org/licenses/contributor-agreements.html#submitting
 
-        3. When you transmit the completed iCLA, request 
-        to notify the Apache [Project] project and choose a 
+        Do not copy the project or any other individual on your message
+        to Secretary, as the form contains Personally Identifiable Information
+        that should be kept private.
+
+        3. When you complete the ICLA form, be sure to include in the form
+        the Apache [Project] project and choose a 
         unique Apache ID. Look to see if your preferred 
         ID is already taken at 
         https://people.apache.org/committer-index.html
         This will allow the Secretary to notify the PMC 
-        when your iCLA has been recorded.
+        when your ICLA has been recorded.
 
-    When recording of your iCLA is noted, you will 
+    When recording of your ICLA is noted, you will 
     receive a follow-up message with the next steps for 
     establishing you as a committer.
-       
-### Committer Accept Template
-This is the followup email after the new committer has accepted the invitation.
-    
-    ------------------------------------------------------------------------
-    To: JoBloggs@foo.net
-    Cc: private@[PROJECT].apache.org
-    Subject: Re: invitation to become [PROJECT] committer
-    
-    Welcome. Here are the next steps in becoming a project committer. After that we will make
-    an announcement to the [PROJECT]-dev list.
-    
-    You need to send a Contributor License Agreement to the ASF.
-    Normally you would send an Individual CLA. If you also make
-    contributions done in work time or using work resources,
-    see the Corporate CLA. Ask us if you have any issues.
-    https://www.apache.org/licenses/#clas.
-    
-    You need to choose a preferred ASF user name and alternatives.
-    In order to ensure it is available you can view a list of taken IDs at
-    https://people.apache.org/committer-index.html
-    
-    Please notify us when you have submitted the CLA and by what means 
-    you did so. This will enable us to monitor its progress.
-    
-    We will arrange for your Apache user account when the CLA has 
-    been recorded.
-    
-    After that is done, please make followup replies to the [PROJECT]-dev list.
-    We generally discuss everything there and keep the
-    private@[PROJECT].apache.org list for occasional matters which must be private.
-    
-    The developer section of the website describes roles within the ASF and provides other
-    resources:
-      https://www.apache.org/foundation/how-it-works.html
-      https://www.apache.org/dev/
-    
-    The incubator also has some useful information for new committers
-    in incubating projects:
-      https://incubator.apache.org/guides/committer.html
-      https://incubator.apache.org/guides/ppmc.html
-
-    Just as before you became a committer, participation in any ASF community
-    requires adherence to the ASF Code of Conduct:
-      https://www.apache.org/foundation/policies/conduct.html
-    
-    [PROJECT should insert its own guidelines here; if none are available,
-     the Apache Forrest guidelines are available as a template.]
-      https://forrest.apache.org/guidelines.html
-    
-    Yours,
-    The Apache [PROJECT] PMC
-
+   
 ### Committer Account Creation
 Follow the instructions
     [here](https://www.apache.org/dev/pmc.html#newcommitter).
@@ -368,15 +348,34 @@ This is the email to announce the new committer to `[PROJECT]-dev` once the acco
     
     [PROJECT] has various resources at:
       https://svn.apache.org/repos/asf/[PROJECT]
+      https://gitbox.apache.org
     
     The general "committers" at:
     https://svn.apache.org/repos/private/committers
     
-    You will probably need to 'svn switch" previous checkouts to now use https, 
+    If using svn, you will probably need to 'svn switch" previous checkouts to now use https, 
     for example:
 
     svn switch --relocate https://svn.apache.org/repos/asf/[PROJECT] https://svn.apache.org/repos/asf/[PROJECT]
         
+    The developer section of the website describes roles within the ASF and provides other
+    resources:
+      https://www.apache.org/foundation/how-it-works.html
+      https://www.apache.org/dev/
+    
+    The incubator also has some useful information for new committers
+    in incubating projects:
+      https://incubator.apache.org/guides/committer.html
+      https://incubator.apache.org/guides/ppmc.html
+
+    Just as before you became a committer, participation in any ASF community
+    requires adherence to the ASF Code of Conduct:
+      https://www.apache.org/foundation/policies/conduct.html
+    
+    [PROJECT should insert its own guidelines here; if none are available,
+     the Apache Forrest guidelines are available as a template.]
+      https://forrest.apache.org/guidelines.html
+
     If you have any questions during this phase, then please
     see the following resources:
     
