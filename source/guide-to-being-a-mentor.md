@@ -16,6 +16,7 @@ submit ideas via JIRA (if your project does not use JIRA you can [use the Comdev
   * Add sub-tasks if necessary
 * Label the main issue with "*mentor*" (these will show up at the [ASF-wide list of issues](https://issues.apache.org/jira/issues?jql=labels%20in%20(gsoc2023)%20AND%20labels%20in%20(mentor,%20Mentor)))
 * Label the main issue with "*gsoc2023*" if appropriate (these will show up at [GSoC 2023 Ideas](https://s.apache.org/gsoc2023ideas))
+* Please NOTE Ideas list is manually updated by GSoC admins, please ping mentors (at) community.apache.org if the page is not being updated .. :))
 
 <div class="card border-success mb-3">
   <div class="card-header">Size of project</div>
