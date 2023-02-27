@@ -10,13 +10,12 @@ ASF mentoring programme. Any Apache member and experienced committers can
 submit ideas via JIRA (if your project does not use JIRA you can [use the Comdev Issue Tracker For GSoC Tasks](use-the-comdev-issue-tracker-for-gsoc-tasks.html). We are looking for as many interesting projects as we can come up with. 
 
 <a name="guidetobeingamentor-Summary"></a>
-## Summary
+## Important Steps
 
 * Add an issue to JIRA (if your project does not use JIRA you can [use the Comdev Issue Tracker For GSoC Tasks](use-the-comdev-issue-tracker-for-gsoc-tasks.html)
   * Add sub-tasks if necessary
 * Label the main issue with "*mentor*" (these will show up at the [ASF-wide list of issues](https://issues.apache.org/jira/issues?jql=labels%20in%20(gsoc2023)%20AND%20labels%20in%20(mentor,%20Mentor)))
 * Label the main issue with "*gsoc2023*" if appropriate (these will show up at [GSoC 2023 Ideas](https://s.apache.org/gsoc2023ideas))
-* Please NOTE Ideas list is manually updated by GSoC admins, please ping mentors (at) community.apache.org if the page is not being updated .. :))
 
 <div class="card border-success mb-3">
   <div class="card-header">Size of project</div>
@@ -24,6 +23,8 @@ submit ideas via JIRA (if your project does not use JIRA you can [use the Comdev
     <p class="card-text">Starting this year there are 2 types of projects available.<br> Please put "<em>full-time</em>" label for ~350 hours project and<br> "<em>part-time</em>" label for ~175 hours project</p>
   </div>
 </div>
+
+Please NOTE Ideas list is manually updated by GSoC admins, please ping mentors (at) community.apache.org if the page is not being updated .. :))
 
 <a name="guidetobeingamentor-Detail"></a>
 ## Details
