@@ -7,12 +7,12 @@ title: GSoC
     Currently happening
   </div>
   <div class="card-body">
-    <h5 class="card-title text-info">Application is filed, fingers crossed :)</h5>
+    <h5 class="card-title text-info">ASF is accepted as mentoring organisation! collect your ideas, answer participant's emails :)</h5>
   </div>
 </div>
 
 Google is sponsoring the [2023 Summer of Code](https://summerofcode.withgoogle.com/) and 
-[The Apache Software Foundation](https://www.apache.org/) (ASF) [not yet] registered as a mentoring organization.
+[The Apache Software Foundation](https://www.apache.org/) (ASF) registered as a mentoring organization.
 This page is your entry point to the ASF GSoC program.
 Please watch this page for updates concerning our participating in 2023.
 
