@@ -48,7 +48,6 @@ ComDev manages a number of helpful tools for finding your way around.
 
   - The [Apache Projects Directory](https://projects.apache.org/) lists all our software projects.  [See the Project Directory **code**](https://projects.apache.org/about.html) and the JSON data feeds available.
   - [Apache Committers Phone Book](https://home.apache.org/) lists all individual Apache committers.  [See the Phonebook **code**](https://home.apache.org/phonebook-about.html).
-  - Some projects [ask for help](https://helpwanted.apache.org/) with easy-to-get-started tasks or bug fixes for newcomers.  [See the HelpWanted **code**](https://svn.apache.org/viewvc/comdev/helpwanted.apache.org/).
   - The [Project Reporting Tool](https://reporter.apache.org/) (requires login) helps Apache PMCs create quarterly board reports.  [See the Reporter **code**](https://svn.apache.org/repos/asf/comdev/projects.apache.org/).
   - The [ComDev Wiki](https://cwiki.apache.org/confluence/display/COMDEV/ComDev+Wiki) is also available for scratch or experimental work, although most permanent content should be here in the website.
 
