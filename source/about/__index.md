@@ -75,6 +75,6 @@ dev@community.apache.org [archived mailing list](/lists.html).
 See our [Newcomer FAQ](/newbiefaq.html#websitecms) for how to suggest changes to this website.
 
 The content is written in Markdown and published automatically via a Jenkins job.
-Source code is hosted in a Git repository.
+Source code is hosted in a [Git repository](https://github.com/apache/comdev-site).
 
 See the [README.md](https://github.com/apache/comdev-site/blob/master/README.md) for more info.
