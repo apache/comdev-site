@@ -103,6 +103,4 @@ in the specific Apache projects that interest you.
         about Apache at <a href="https://lists.apache.org/list.html?dev@community.apache.org:lte=3M:">dev@community.apache.org</a>.</p>
 </div>
 
-<div class="container" type="helpwanted" project="comdev" description="Community Development"></div>
-<script src="https://helpwanted.apache.org/widget.js" type="text/javascript"></script>
-<!-- dummy change (42) to test asf-site commit -->
+

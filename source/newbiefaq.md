@@ -152,8 +152,6 @@ inspiration about how you might be able to help the project community. If
 you see an issue you would like to tackle, it's time to join the project's
 mailing list and get started.
 
-Some projects also use our [Help Wanted! system](https://helpwanted.apache.org/).
-
 <a name="NewbieFAQ-HowdoIgetinvolvedwithanApacheproject?"></a>
 ## How do I get involved with an Apache project?
 
@@ -245,7 +243,6 @@ that help you navigate the ASF.
 
   - The [Apache Projects Directory][9] lists all our software technologies, and you can learn [how it works][10] and what JSON data feeds are available.
   - [Home.apache.org][11] serves as a telephone directory of all Apache committers.  
-  - Some projects [ask for help][12] with easy-to-get-started tasks or bug fixes for newcomers. You can see the [code that runs the HelpWanted site][13].
   - Apache committers can log in to the [Project Reporting Tool][14] that helps PMCs create quarterly board reports; you can [see the code that does this][15].
   - A [ComDev Wiki][wiki] is also available for scratch or experimental work, although most permanent content should be here in the website.
 
@@ -265,8 +262,6 @@ can submit bug reports related to any of our services or websites.
   [9]: https://projects.apache.org/
   [10]: https://projects.apache.org/about.html
   [11]: https://home.apache.org/
-  [12]: https://helpwanted.apache.org/
-  [13]: https://svn.apache.org/viewvc/comdev/helpwanted.apache.org/
   [14]: https://reporter.apache.org/
   [15]: https://svn.apache.org/repos/asf/comdev/reporter.apache.org/
 
