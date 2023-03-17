@@ -69,7 +69,7 @@ Propose talks to conferences about the project, and about how your employer’s 
 
 Proposing "Introduction to Apache Woobly" talks has many benefits. It is a great way to get the word out about the project. It’s good for establishing yourself as an expert in the field. It educates users (and potential customers) about operating the software. And it will help you identify what’s actually important about the software, how people use it, and what kinds of questions real users are asking about the software.
 
-ApacheCon is the obvious place to give these talks, but also look for conferences about the general technology space around the project you’re contributing to.
+Community Over Code (formerly called ApacheCon) is the obvious place to give these talks, but also look for conferences about the general technology space around the project you’re contributing to.
 
 # Once you’re a committer …
 If and when you achieve your goal of becoming a committer, don’t consider your journey done.
