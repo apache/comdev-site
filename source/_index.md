@@ -7,15 +7,14 @@ title: Apache Community Development - Welcome
 <h2>Apache Community Development!</h2>
 
 Mission: The Community Development project creates and provides tools,
-processes, and advice to help open-source software projects improve their own
-community health. We are, of course, primarily focused on Apache Software Foundation (ASF)
-projects. However, because we believe that the Apache Way is, in fact, the
+processes, and advice to help open-source projects improve their own
+community health. We are primarily focused on Apache Software Foundation (ASF)
+projects; however, because we believe that the Apache Way is the
 best way to manage a software project, we strive also to make these
-artifacts releasable to the open source community as a whole.
+artifacts releasable to the open-source community as a whole.
 
-We do not focus on
-specific projects here, but rather on the common processes and policies
-called The Apache Way found in most Apache projects. Our goal is to help you
+Here, we focus on the common processes and policies
+(called The Apache Way) found in most ASF projects. Our goal is to help you
 <em>understand how the ASF works</em> and give you the confidence to participate
 in the specific Apache projects that interest you.
 
@@ -27,10 +26,10 @@ in the specific Apache projects that interest you.
 <!-- Row 1 -->
 <div class="row">
     <div class="col-md-4">
-        <h4>Newcomers to Apache</h4>
+        <h4>Newcomers to the ASF</h4>
         <p>If you are new to open source, our <a href="newcomers/index.html"><b>newcomers section</b></a> explains basic concepts, first steps to get started, and where to ask for help.</p>
         <p>To get our software, see our <a href="https://projects.apache.org/projects.html?category" target="_blank">categorized listing of all Apache projects</a>, which are <a href="https://www.apache.org/free/"><b>always free</b> to download and use</a>.</p>
-        <p>The ASF is a large organization made up of many separate projects: each project community may have its own ways of working, while still following the basic Apache Way process.</p>
+        <p>The ASF is a large organization made up of many separate projects. Each project community may have its own ways of working, while still following the basic Apache Way process.</p>
     </div>
     <div class="col-md-4">
         <h4>Events</h4>
@@ -48,7 +47,7 @@ in the specific Apache projects that interest you.
 <div class="row">
     <div class="col-md-4">
         <h4>Open Source Contributors</h4>
-        <p>If you know a little about open source and want to understand how the ASF works, our <a href="contributors/index.html">contributors' section</a> is for you.</p>
+        <p>If you know a little about open source, and want to understand how the ASF works, our <a href="contributors/index.html">contributors' section</a> is for you.</p>
         <p>We also have a collection of <a href="links.html">links</a> to relevant information.</p>
         <p>Apache Committers should read our <a href="committers/index.html">committers' section</a> and see the <a href="https://www.apache.org/dev/">Developer Information site</a>.</p>
     </div>
@@ -56,12 +55,12 @@ in the specific Apache projects that interest you.
         <h4>How Apache works</h4>
         <p>Our <a href="apache-way/apache-project-maturity-model.html">Apache Project Maturity Model</a> defines a structure for evaluating our projects (communities & technology) that can serve as an example for other communities.</p>
         <p>Our <a href="https://www.apache.org/foundation/how-it-works.html" target="_blank">how Apache works</a> guide describes key ASF
-        concepts such as the difference between ASF Members and project committers, how decisions are made (voting), how elections take place, 
+        concepts, such as the difference between ASF Members and project committers, how decisions are made (voting), how elections take place, 
         and the ASF's structure and organization.</p>
     </div>
     <div class="col-md-4">
           <h4>FAQ & Code of Conduct</h4>
-          <p>Please be nice! The ASF has a <a href="https://www.apache.org/foundation/policies/conduct">Code of Conduct</a> that we expect participants in our mailing lists and projects to abide by.</p>
+          <p>Please be nice! The ASF has a <a href="https://www.apache.org/foundation/policies/conduct">Code of Conduct</a> that we expect participants to abide by.</p>
           <p>If you still haven't found what you are looking for, try our <a href="newbiefaq.html">FAQ</a>, send us an e-mail at <code>dev@community.apache.org</code>, or read the <a href="https://lists.apache.org/list.html?dev@community.apache.org:lte=3M:" target="_blank">Community mail archives</a>.</p>
     </div>
 </div>
@@ -71,12 +70,12 @@ in the specific Apache projects that interest you.
     <div class="col-md-4">
         <h4>Diversity and Inclusion</h4>
         <p>The <a href="http://diversity.apache.org/">Apache Diversity</a> website has more information
-        on that project, dedicated to understanding and promoting diversity and inclusion in Apache Software Foundation communities.
+        on that project, dedicated to understanding and promoting diversity and inclusion in ASF communities.
         </p>
     </div>
     <div class="col-md-4">
           <h4>Google Summer of Code program (GSoC)</h4>
-          <p>The Community Development project also manages the <a href="gsoc.html">ASF's participation in the Google Summer of Code program</a>. Each year since 2005, we've taken on between 30 and 45 students. Many of these have gone on to become long-term committers to projects and even Members of the Foundation.
+          <p>The Community Development project also manages the <a href="gsoc.html">ASF's participation in the Google Summer of Code program</a>. Each year since 2005, we've taken on between 30 and 45 students. Many have gone on to become long-term committers to projects, and even Members of the Foundation.
           <br/><br/>
           Read about a few of our <a href="mentoring/experiences.html">GSoC successes</a>. </p>
     </div>
@@ -84,7 +83,7 @@ in the specific Apache projects that interest you.
         <h4>Apache Local Community (ALC)</h4>
         <p>The <a href="https://s.apache.org/alc">Apache Local Community</a> comprises local groups of Apache (Open Source) enthusiasts, called an 'ALC Chapter'. There will be a single ALC chapter per town/city.
         </p>
-        <p>The ALC Chapters spread awareness on Apache in local communities, host local events to share information about ASF, The Apache Way, and various Apache  projects and bring together project users and developers.
+        <p>The ALC Chapters spread awareness of the ASF in local communities, hosting local events to share information about the ASF, The Apache Way, and various Apache projects by bringing together project users and developers.
         </p>
     </div>
 </div>
@@ -92,7 +91,7 @@ in the specific Apache projects that interest you.
 <div>
     <h4>How to ask questions</h4>
     <p>All Apache projects use <a href="https://lists.apache.org/">publicly-archived mailing lists</a> that anyone may subscribe
-        to. There you can ask questions related to that Apache project and gain a sense of its current activities and focus.  Most projects have a
+        to. There you can ask questions related to that specific project and gain a sense of its current activities and focus.  Most projects have a
         <code>dev@project.apache.org</code> mailing list for technical discussions about the code, and a
         <code>user@</code> or <code>users@</code> mailing list for questions about the product or features.
         <br/><br/>
