@@ -5,19 +5,20 @@ title: Apache-related slides, videos and presentations
 This page contains links to presentations and other key papers about the ASF and how
 Apache projects work that you may find useful.  Many of these have
 been presented at [ApacheCon conferences](https://events.apache.org) or
-other open source conferences in the past.
+other open source conferences.
 
 These presentations are available under permissive licenses; please see
-each individual presentation for license details.  More tips and links for
-[speakers are available](/speakers/index.html).
+each individual presentation for license details.
 
-Similarly, many Apache speakers post their slides to the [SlideShare website](//www.slideshare.net/search/slideshow?searchfrom=header&q=apache+software),
+Many Apache speakers post their slides to the [SlideShare website](//www.slideshare.net/search/slideshow?searchfrom=header&q=apache+software),
 and the [FeatherCast podcast offers audio recordings](//feathercast.apache.org/) of many talks and interviews.
 
 For those who prefer videos, our many volunteers have posted
-[full videos of all ApacheCon NA 2013 presentations](https://www.youtube.com/user/TheApacheFoundation/playlists), and
-[select ApacheCon NA 2014 presentations](https://www.youtube.com/playlist?list=PLU2OcwpQkYCzvGxZgVOunTs-3iEao6YJc).
-Additional slides, videos and audio recordings can also be found from the
+  - [full videos of all ApacheCon NA 2013 presentations](https://www.youtube.com/user/TheApacheFoundation/playlists), and
+  - [select ApacheCon NA 2014 presentations](https://www.youtube.com/playlist?list=PLU2OcwpQkYCzvGxZgVOunTs-3iEao6YJc).
+  - [Sessions from ApacheCon 2019 and 2020](https://www.youtube.com/channel/UCLDJ_V9KUOdOFSbDvPfGBxw)
+
+Additional slides, videos and audio recordings can also be found through the
 [ApacheCon Past Conference Resources page](https://wiki.apache.org/apachecon/Past_Conference_Resources).
 
 # ASF Postings

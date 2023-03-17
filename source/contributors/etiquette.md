@@ -1,107 +1,73 @@
 ---
-title: Apache Community Etiquette Guidelines
+title: ASF Community Etiquette Guidelines
 ---
 
-The Apache Software Foundation (ASF) and our many Apache projects welcome all 
-participants who are willing to respect our community guidelines.  There are 
-many behavior or etiquette guides for online communities out there; we have a few 
-Apache-specific tips below.
+The ASF and our many projects welcome all 
+participants.  Before you begin, it is important to review and respect our community guidelines. We have a few 
+ASF-specific tips below.
 
 # Code of Conduct # {#coc}
 
 The ASF has adopted a [Code of Conduct][1] which covers interactions in 
-all the online spaces that Apache projects use - email, issue trackers, wikis, 
-websites, IRC, and the like.  Apache projects are made up of volunteers, and 
-we work to ensure that all productive contributions are welcomed.  Every 
-Apache PMC is expected to ensure their project's lists show 
+all the online spaces that ASF projects use - email, issue trackers, wikis, 
+websites, IRC, and the like.  ASF projects are made up of volunteers, and 
+we work to ensure that all productive contributions are welcomed.  Every PMC is expected to ensure their project's lists show 
 proper behavior.
 
-# Distributed, Archived, Worldwide Online Communities # {#worldwide}
 
-Apache projects are made up of communities of volunteers from around the 
-world.  When you are sending email to an Apache project mailing list, there may 
-be software developers in this country, marketing managers in that country, and 
-homemakers in another country reading your email.  They will be reading your 
-mail at all hours of the day, and both at work, at home, and on the go.  If you 
-want a response to your questions or suggestions, be sure to be polite and 
-sensible when writing.
+# Guidelines for Conduct and Etiquette # {#member}
 
-There are many amazing people helping out on Apache project mailing 
-lists - but they are all volunteers.  Being respectful of the time and 
-culture of others on the list is a key start to making productive contributions.
-
-# One Member's Participation Guidelines # {#member}
-
-The ASF as a corporation is run by several hundred Members, who have deep and lasting experience 
-in helping to build and run long-term successful open source projects here 
-at Apache.  This is just one member's take on how to approach 
-communicating in any particular Apache project.
+The ASF as a corporation is run by several hundred members, who have deep and lasting experience 
+in helping to build and run long-term, successful open source projects.  Below are some guidelines to help you communicate with other volunteers, and get the most out of your communication experience.   
 
 
-**Some General Guidelines**
+**General Communication Guidelines**
 
-  * Assume that the other party agrees more than disagrees with you. We
-tend to leave out agreements and focus on differences. Sometime this is
-forgotten and escalation becomes absurd for no rational reason.
+  * Use a thoughtful, respectful tone to communicate your thoughts. Remember, text is difficult to interpret.  There are no body language or voice tones to help interpret the messenger's intent. Remember that the person on the other side of your communication is also a human deserving of understanding and 
+respect.  
+  
+  *  If you agree with someone, let them know. If you disagree, let them know as well.  Positive and negative feedback are both necessary.  Positive 
+feedback will help others feel more confident in their ideas, as well as ensure they know they're on the right track.  Negative feedback, given in a 
+respectable tone, will help to guide the messenger toward a more productive solution.  
 
-  * When in doubt, assume that you are interpreting the message wrongly
-and kindly ask for verification that you understood a particular topic well.
+  * Avoid idiomatic and metaphoric language. At the ASF, we have thousands of volunteers that speak different languages.  To avoid miscommunication, it 
+is best to avoid this type of language in favor of clear, direct statements.  
 
-  * When writing, assume that every sentence will be misinterpreted.
-Review and try to reformulate to be as clear as possible.
+  * Be patient when waiting for responses.  Because the ASF is an international community, there may be some delays in response time.  We call these 
+"asynchronous responders."  We understand that it can be difficult and frustrating to wait, but please give these asynchronous responders time to read 
+and address your message.  The ASF strives to respond to all messages (email, slack, etc.) in a timely manner.  
 
-  * Use a submissive tone in all writing. Instead of the strong "In my
-opinion, we must..." or the quite neutral "I think we should...", try to
-use "Maybe we should consider..." or "Another idea that we could..."
+  * Dealing with conflict and miscommunication:  Here at the ASF, we strive to make everyone feel welcome and wanted in their roles.  With that said, we 
+also understand that miscommunications happen, especially in text.  If you are sent a message that you don't understand, or feel uncomfortable with, a 
+good first step would be to ask for clarification. Don't be afraid to ask specific questions.  Chances are, the person you're communicating with has been
+in your position before, and will understand.  
 
-  * If you disagree strongly with an email sent, tag it Important, then
-put it aside. Read it half a day later again. Put it aside. Read it again
-next day, and then it is easier to write a balanced and inviting response,
-instead of the initial vitriol that flows through us when we get upset. I
-found that sometimes a response wouldn't be necessary, as the importance
-was actually much lower than originally perceived, and I would be able to
-work "with", instead of "against", a given change.
+  * Be forgiving and accept different priorities:  Everyone that works on ASF projects is passsionate about their work, and we love and welcome that 
+passion and hope you will bring your own passion to your projects. Please remember, the ASF currently has over 300 projects, each with their own project 
+priorities. If your priorities seem at odds with others, remember that compromise is essential to progress.  Work with the other person to come up with a
+compromise that takes all project priorities into account.  
 
-  * Be forgiving and accept different priorities. The other person is not
-out to get you or attack your work. More often than not, it is one of the
-above (a-d) that are failing, or that the other person prioritize some
-aspect higher than you do. Sometimes, this requires compromises, sometimes
-not and the different priorities can co-exist.
+  * Note:  Foul, derogatory, or divisive language in any form, up to and including threats, harassment, and discriminatory language, is strongly 
+prohibited.   
 
-  * Remember that everyone works on Apache projects as a volunteer.
-People have jobs and lives outside of their Apache projects, and may need 
-more time to even read messages on the list or respond.  Be patient.
-
-**Most communities at Apache consists of level-headed, reasonable people**, who
-have a strong vested interest in their Apache project. This interest, often
-passion, is both the source of tension, but it is also what unites the
-people within the community. It is easy to forget the vast amount of
-agreement that exists, and get upset over relatively small disagreements.
-Ability to put that aside, or downplay the importance, will ensure a
-harmonious project.
 
 **Face-to-Face** is excellent way to eliminate disagreements, but that is often
-not practical. Consider Skype or Google Hangout, just for the social aspect
-of being part of this community. It should not be formal, and the
-invitation should go out to everyone, perhaps someone want to make a short
-presentation of what he/she is doing, to have some "structure", but that
-might not be needed either. Once we have a face to the words, and a general
-idea how that person is socially, we are much more capable to interact by
-email.
+not practical. Consider a conversation via Skype, Google Hangouts or a Slack channel, just for the social aspect
+of being part of this community. It does not need to be a formal meeting.  Once we have a face to add to the words, and a general
+idea how that person is socially, we are much more capable to interact via text.
 
 **Project decisions must always be made on mailing lists**.  
 It's great to have a synchronous online chat to work through some questions, but 
-be sure to bring the results of the chat - and any proposals for the 
-project community to consider - back to the mailing list.  People who 
+be sure to bring the results of the chat (and any proposals for the 
+project community to consider)  back to the mailing list.  People who 
 weren't able to attend the chat or call might also have ideas on the topic.
 Be sure to allow at least 72 hours for others to read the proposals and 
 comment before closing out the issue.
 
-# Other Apache Etiquette Guidelines # {#other}
+# Other Etiquette Guidelines # {#other}
 
  - [Official Apache-wide Code of Conduct][1]
  - [Email Etiquette Guidelines - writing good emails](https://www.apache.org/dev/contrib-email-tips)
- - [How To Ask Smart Questions](http://www.catb.org/~esr/faqs/smart-questions.html)
  - [Building Consensus in a community](/committers/consensusBuilding.html)
 
   [1]: https://www.apache.org/foundation/policies/conduct.html

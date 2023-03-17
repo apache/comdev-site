@@ -16,6 +16,7 @@ If you have any question about this, feel free to ask on our
 
 Here's a nice example, based on a disclaimer one committer has used:
 
+
 ```text
     Disclaimers: This campaign is done by me, FOO, as an independent individual, not
     by the Apache Software Foundation nor the Apache BAR project. I'm not representing

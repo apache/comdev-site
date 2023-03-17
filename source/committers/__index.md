@@ -85,14 +85,6 @@ activities, although non-committers can often act in supporting roles.
 
 We encourage all of our committers to speak about Apache projects and 
 technologies, and generally to help to grow and enhance our community.
-For more information, see our 
-[Speakers section](/speakers/).
-
-In addition, we encourage all committers to list themselves as
-"Local Mentors", and thus help new committers
-and would-be committers. For more information on what this program involves,
-and how to sign yourself up for it, see the 
-[Local Mentors](/localmentors.html) page.
 
 ## Other Resources
 
