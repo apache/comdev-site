@@ -29,12 +29,12 @@
   
   <url>
     <loc>https://community.apache.org/mentoring/experiences.html</loc>
-    <lastmod>2020-12-07T09:47:52-04:00</lastmod>
+    <lastmod>2023-03-17T12:26:02-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://community.apache.org/newbiefaq.html</loc>
-    <lastmod>2023-03-17T09:35:59-04:00</lastmod>
+    <lastmod>2023-03-17T12:26:02-04:00</lastmod>
   </url>
   
   <url>
@@ -78,18 +78,18 @@
   </url>
   
   <url>
-    <loc>https://community.apache.org/comdevboardresolution.html</loc>
-    <lastmod>2020-03-24T15:03:46+01:00</lastmod>
+    <loc>https://community.apache.org/history/boardresolution.html</loc>
+    <lastmod>2023-03-17T12:26:02-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://community.apache.org/committers/</loc>
-    <lastmod>2023-03-17T09:35:59-04:00</lastmod>
+    <lastmod>2023-03-17T12:26:02-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://community.apache.org/committers.html</loc>
-    <lastmod>2023-03-17T09:35:59-04:00</lastmod>
+    <lastmod>2023-03-17T12:26:02-04:00</lastmod>
   </url>
   
   <url>
@@ -124,7 +124,7 @@
   
   <url>
     <loc>https://community.apache.org/committers/decisionMaking.html</loc>
-    <lastmod>2020-12-02T11:27:28-04:00</lastmod>
+    <lastmod>2021-01-15T09:22:16-04:00</lastmod>
   </url>
   
   <url>
@@ -139,12 +139,12 @@
   
   <url>
     <loc>https://community.apache.org/gettingStarted/101.html</loc>
-    <lastmod>2022-02-21T08:46:37-04:00</lastmod>
+    <lastmod>2023-03-17T12:26:02-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://community.apache.org/gettingStarted.html</loc>
-    <lastmod>2022-02-21T08:46:37-04:00</lastmod>
+    <lastmod>2023-03-17T12:26:02-04:00</lastmod>
   </url>
   
   <url>
@@ -159,7 +159,12 @@
   
   <url>
     <loc>https://community.apache.org/guide-to-being-a-mentor.html</loc>
-    <lastmod>2023-02-27T12:47:39+05:30</lastmod>
+    <lastmod>2023-03-17T12:26:02-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://community.apache.org/history.html</loc>
+    <lastmod>2023-03-17T12:26:02-04:00</lastmod>
   </url>
   
   <url>
@@ -183,11 +188,6 @@
   </url>
   
   <url>
-    <loc>https://community.apache.org/localmentors.html</loc>
-    <lastmod>2020-07-20T20:22:04+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://community.apache.org/newsletter/2017-05.html</loc>
     <lastmod>2020-07-20T20:22:04+02:00</lastmod>
   </url>
@@ -198,23 +198,18 @@
   </url>
   
   <url>
-    <loc>https://community.apache.org/mentorprogrammeapplication.html</loc>
-    <lastmod>2021-02-14T15:36:48+04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://community.apache.org/mentoring/</loc>
-    <lastmod>2020-07-20T20:22:04+02:00</lastmod>
+    <lastmod>2023-03-17T12:26:02-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://community.apache.org/mentoring/committer.html</loc>
-    <lastmod>2020-03-24T15:03:46+01:00</lastmod>
+    <lastmod>2023-03-17T12:26:02-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://community.apache.org/mentoring/pmc.html</loc>
-    <lastmod>2020-03-24T15:03:46+01:00</lastmod>
+    <lastmod>2023-03-17T12:26:02-04:00</lastmod>
   </url>
   
   <url>
@@ -224,22 +219,12 @@
   
   <url>
     <loc>https://community.apache.org/mentoring/firstpatch.html</loc>
-    <lastmod>2020-03-24T15:03:46+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://community.apache.org/mentoringprogramme.html</loc>
-    <lastmod>2020-09-23T00:32:47+02:00</lastmod>
+    <lastmod>2023-03-17T12:26:02-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://community.apache.org/mentoring.html</loc>
-    <lastmod>2020-12-07T09:47:52-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://community.apache.org/mentorprogrammeformaleducation.html</loc>
-    <lastmod>2020-12-11T09:53:54-04:00</lastmod>
+    <lastmod>2023-03-17T12:26:02-04:00</lastmod>
   </url>
   
   <url>
@@ -249,7 +234,7 @@
   
   <url>
     <loc>https://community.apache.org/newcomers.html</loc>
-    <lastmod>2023-03-16T11:05:50-04:00</lastmod>
+    <lastmod>2023-03-17T12:26:02-04:00</lastmod>
   </url>
   
   <url>
@@ -263,8 +248,8 @@
   </url>
   
   <url>
-    <loc>https://community.apache.org/mentoringprogramme-icfoss-pilot.html</loc>
-    <lastmod>2020-09-23T03:12:58+02:00</lastmod>
+    <loc>https://community.apache.org/history/mentoringprogramme-icfoss-pilot.html</loc>
+    <lastmod>2023-03-17T12:26:02-04:00</lastmod>
   </url>
   
   <url>
@@ -303,7 +288,7 @@
   
   <url>
     <loc>https://community.apache.org/newcomers/</loc>
-    <lastmod>2023-03-16T11:05:50-04:00</lastmod>
+    <lastmod>2023-03-17T12:26:02-04:00</lastmod>
   </url>
   
 </urlset>

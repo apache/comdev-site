@@ -48,7 +48,8 @@ Upcoming events  List loading   This Calendar is also available as an iCal feed<
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://community.apache.org/mentoring/experiences.html</guid>
-      <description>This is a place for collecting information about GSoC activities each year for historical tracking. It was started in 2012 so is missing plenty of detail in the early years. Your help filling it out would be appreciated.
+      <description>This should be in the GSoC directory
+This is a place for collecting information about GSoC activities each year for historical tracking. It was started in 2012 so is missing plenty of detail in the early years. Your help filling it out would be appreciated.
 2018 Overview  Students accepted: ? Students who passed final: 29  2017 Overview  Students accepted: ? Students who passed final: 27  2016 Overview  Students accepted: 49 Students who passed final: 35  2015 Overview  Students accepted: 56 Students who passed final: 47  2014 Overview  Students accepted: 42 Students who passed final: 35  2013 Overview  Students accepted: 51 Students who passed final: 44  2012 Overview  Students accepted: 41 Students who passed midterm: 40 26 projects mentoring (17 TLPs and 9 Podlings)  Participating TLPS are: Xerces, Pig, OODT, Hive, James, Tapestry, Ofbiz, Gora, Synapse, Derby, Axis, POI, Whirr, Lucene, Velocity, Libcloud, Xalan Participating Podlings are: ODF Toolkit, Airavata, Stanbol, Photark, Wookie, OpenMeetings, Nuvem, Hama, VXQuery    2012 Blogs  Scott Wilson: Wookie Mentor Pushpalanka: Wookie Student Mike McCandless: Lucene Mentor Bhathiya Jayasekara: Airavata Student OpenMeetings Mentors: Sebastian Wagner, Alexei Fedotov, Maxim Solodovnik - Students: Ankur Ankan, German Grekhov, Dmitry Zamula, Josh Dolitsky   2011 Overview  Students accepted: 40 Students who passed midterm: 38 Students who passed final: 36  2010 Overview  Students accepted: 44 Students who passed final: 39  2005 First year Apache participated</description>
     </item>
     
@@ -60,7 +61,7 @@ Upcoming events  List loading   This Calendar is also available as an iCal feed<
       <guid>https://community.apache.org/newbiefaq.html</guid>
       <description>These answers to frequently asked questions may help newcomers to The Apache Software Foundation (ASF) and our many Apache projects understand how we work.
 Index of Questions
- About The Apache Software Foundation  How do I find projects or technologies at the ASF? How are projects managed at the ASF? How do I learn about the way Apache Projects work? How do I ask a question about the ASF in general?</description>
+ About The Apache Software Foundation  How do I find projects or technologies at the ASF? How are projects managed at the ASF? How do I ask a question about the ASF in general? How do I get user support for an Apache project?</description>
     </item>
     
     <item>
@@ -132,10 +133,10 @@ DRAFT November 2012 Status report for the Apache Community Development Project T
     
     <item>
       <title>ComDevBoardResolution</title>
-      <link>https://community.apache.org/comdevboardresolution.html</link>
+      <link>https://community.apache.org/history/boardresolution.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://community.apache.org/comdevboardresolution.html</guid>
+      <guid>https://community.apache.org/history/boardresolution.html</guid>
       <description>The Apache Community Development Project was created in November 2009.
 Board Resolution Creating the Apache Community Development ProjectEstablish the Apache Community Development Project  WHEREAS, the Board of Directors deems it to be in the best interests of the Foundation and consistent with the Foundation&#39;s purpose to establish a Project Management Committee charged with coordinating community development efforts. NOW, THEREFORE, BE IT RESOLVED, that a Project Management Committee (PMC), to be known as the &amp;quot;Apache Community Development Project&amp;quot;, be and hereby is established pursuant to Bylaws of the Foundation; and be it further RESOLVED, that the Apache Community Development Project be and hereby is responsible for helping people become involved with Apache projects; and be it further RESOLVED, that the office of Vice President, Apache Community Development Project, be and hereby is created, the person holding such office to serve at the direction of the Board of Directors as the chair of the Community Development PMC, and to have primary responsibility for management of the projects within the scope of the Apache Community Development project; and be it further RESOLVED, that the persons listed immediately below be and hereby are appointed to serve as the initial members of the Apache Community Development Project PMC: * Ross Gardler &amp;lt;rgardler@apache.</description>
     </item>
@@ -219,9 +220,9 @@ To some, the idea of having to establish consensus in a large and distributed te
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://community.apache.org/committers/funding-disclaimer.html</guid>
-      <description>Some Apache committers have successfully run funding campaigns to support work on their favorite Apache projects.
-This is ok in principle, but you have to make clear that the campaign is your own thing, and avoid any confusion about the role of the ASF and how its projects work.
-This page gives a few examples of that.
+      <description>Some Apache committers have successfully run funding campaigns to support their work on their favorite Apache projects.
+This is ok in principle, but you have to make it clear that the campaign is your own thing, and avoid any confusion about the role of the ASF and how its projects work.
+This page gives a few examples of how to do that.
 If you have any question about this, feel free to ask on our dev@community.</description>
     </item>
     
@@ -310,17 +311,6 @@ Listing yourself as a potential speaker To list yourself as someone interested i
     </item>
     
     <item>
-      <title>LocalMentors</title>
-      <link>https://community.apache.org/localmentors.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://community.apache.org/localmentors.html</guid>
-      <description>The Local Mentors project aims to allow people getting started in Apache (both within the Formal Mentoring Program , and everyone else) to meet up with existing Apache developers in their area.
-
-Why? When you&amp;rsquo;re getting involved in a new open source project, it can be a little daunting. You engage in the mailing lists with people from all around the world. You solve bugs with people in different time zones.</description>
-    </item>
-    
-    <item>
       <title>May 2017 Community Newsletter</title>
       <link>https://community.apache.org/newsletter/2017-05.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -343,17 +333,6 @@ Remember, mentoring is all about the mentee and open source as a whole. It is no
     </item>
     
     <item>
-      <title>Mentor Programme Application</title>
-      <link>https://community.apache.org/mentorprogrammeapplication.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://community.apache.org/mentorprogrammeapplication.html</guid>
-      <description>Mentoring Programme Application Procedure Applying for the Apache Mentoring Programme is simple. This page will take you through the steps:
-
-Creating a proposal and finding a mentor  Find the project you are interested in (see our FAQ for some guidance on how to do this) Examine the projects issue tracker to find bugs that need fixing or features that need implementing that you feel you can tackle Join the projects mailing list and post an introduction mail (something like this mentor request mail will do nicely).</description>
-    </item>
-    
-    <item>
       <title>Mentoring</title>
       <link>https://community.apache.org/mentoring/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -373,7 +352,9 @@ Here&amp;rsquo;s some concrete ways you can provide mentoring to other members o
       <description>Mentoring a new committer So I&amp;rsquo;m a committer now. What&amp;rsquo;s next? What rights do I have now that I didn&amp;rsquo;t have before? What are the social conventions around making a commit?
 These things vary from one project to another, so clearly documenting them for your particular project is critical.
 Here&amp;rsquo;s the basics that are true across (almost) all Apache projects.
-TODO</description>
+TODO
+Outline:
+ Encouraging other contributors Good commit messages Becoming a PMC member  </description>
     </item>
     
     <item>
@@ -403,28 +384,9 @@ These things vary a little from one project to another, so clearly documenting t
       
       <guid>https://community.apache.org/mentoring/firstpatch.html</guid>
       <description>Mentoring: First Patch A beginner&amp;rsquo;s first patch on a project can be an intimidating and frustrating experience. Clearly documenting the entire process from checkout to accepted patch greatly lowers the barrier for a new contributor, and makes it more likely that they&amp;rsquo;ll come back for their second patch.
-Here&amp;rsquo;s some tips on how to do that.</description>
-    </item>
-    
-    <item>
-      <title>MentoringProgramme</title>
-      <link>https://community.apache.org/mentoringprogramme.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://community.apache.org/mentoringprogramme.html</guid>
-      <description>Many projects in the ASF are able to provide mentors for newcomers. In fact, most projects are happy to assist newcomers to their projects as part of their normal operations. However, some people are looking for more structure. The Mentor Programme of the The Apache Software Foundation provides additional support and structure for people looking to make an initial contribution to an ASF project.
-The mentoring programme is not here to teach you to write documentation or code.</description>
-    </item>
-    
-    <item>
-      <title>MentorProgrammeFormalEducation</title>
-      <link>https://community.apache.org/mentorprogrammeformaleducation.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://community.apache.org/mentorprogrammeformaleducation.html</guid>
-      <description>Mentoring in Formal Education Some mentees will wish to participate in the Mentoring Programme as part of a formal education course. In these cases there will be additional requirements and process steps to ensure that the mentees can be evaluated by their tutor. This section describes these additional requirements and process.
-
-Overview Projects are defined by the students tutor in consultation with the TLP community/mentors and the student. They will need to be isolated enough from other ongoing work to ensure that success/failure to deliver is not dependent on someone else.</description>
+Here&amp;rsquo;s some tips on how to do that.
+Outline:
+ Talk to the project first  Make sure it&amp;rsquo;s wanted/welcome See if there&amp;rsquo;s already work in progress, or suggestions Find someone to be your advocate   Finding the source Writing a good commit message Following up on your pull request Learning from your struggle: Improving the documentation  </description>
     </item>
     
     <item>
@@ -450,10 +412,10 @@ Each project has a different approach to managing new committers. This page desc
     
     <item>
       <title>Pilot Mentoring Programme with India ICFOSS</title>
-      <link>https://community.apache.org/mentoringprogramme-icfoss-pilot.html</link>
+      <link>https://community.apache.org/history/mentoringprogramme-icfoss-pilot.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://community.apache.org/mentoringprogramme-icfoss-pilot.html</guid>
+      <guid>https://community.apache.org/history/mentoringprogramme-icfoss-pilot.html</guid>
       <description>Note that this information is about a pilot program that happened back in 2013.
  The ASF has been participating in many mentoring initiatives, and it&amp;rsquo;s now partnering in a pilot project with India ICFOSS to provide mentoring for undergraduate and graduate students that have interest in learning how to participate in open source communities at ASF.
 The mentoring programme is not here to teach you to write documentation or code.</description>
@@ -521,7 +483,7 @@ Preparing for a Vote It is important to ensure that the community has time to di
       
       <guid>https://community.apache.org/newcomers/</guid>
       <description>In this section we&amp;rsquo;ll help you take your first steps as an open source developer in one of our many Apache project communities. As an all-volunteer run organization, Apache and the many Apache projects rely on people like you stepping up to help out.
- Where do I start? - a guide to your first engagement with an Apache project How should I behave? - etiquette and codes of conduct at Apache Mentoring Programme - an introduction to our mentoring programme  Mentoring in formal education - how to engage your students in open source Local Mentors Programme - Find ASF people who live near you   Newbie FAQ - some commonly asked questions (and their answers) How many projects are at Apache?</description>
+ Where do I start? - a guide to your first engagement with an Apache project How should I behave? - etiquette and codes of conduct at Apache Newbie FAQ - some commonly asked questions (and their answers) How many projects are at Apache?</description>
     </item>
     
   </channel>
