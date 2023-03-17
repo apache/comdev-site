@@ -23,11 +23,6 @@
   </url>
   
   <url>
-    <loc>https://community.apache.org/contributors/etiquette.html</loc>
-    <lastmod>2023-02-13T12:54:55-06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://community.apache.org/calendars/conferences.html</loc>
     <lastmod>2020-07-20T20:22:04+02:00</lastmod>
   </url>
@@ -60,6 +55,11 @@
   <url>
     <loc>https://community.apache.org/newsletter/2017-04.html</loc>
     <lastmod>2020-07-20T20:22:04+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://community.apache.org/contributors/etiquette.html</loc>
+    <lastmod>2023-03-17T10:20:59-05:00</lastmod>
   </url>
   
   <url>
@@ -119,7 +119,7 @@
   
   <url>
     <loc>https://community.apache.org/contributors.html</loc>
-    <lastmod>2023-02-13T12:54:55-06:00</lastmod>
+    <lastmod>2023-03-17T10:20:59-05:00</lastmod>
   </url>
   
   <url>

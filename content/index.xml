@@ -32,16 +32,6 @@ Overview The goals of this maturity model are to describe how Apache projects op
     </item>
     
     <item>
-      <title>Apache Community Etiquette Guidelines</title>
-      <link>https://community.apache.org/contributors/etiquette.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://community.apache.org/contributors/etiquette.html</guid>
-      <description>The Apache Software Foundation (ASF) and our many Apache projects welcome all participants. Before you begin, it is important to review and respect our community guidelines. There are many behavior or etiquette guides for online communities out there; we have a few Apache-specific tips below.
-Code of Conduct The ASF has adopted a Code of Conduct which covers interactions in all the online spaces that Apache projects use - email, issue trackers, wikis, websites, IRC, and the like.</description>
-    </item>
-    
-    <item>
       <title>Apache Conferences Calendar</title>
       <link>https://community.apache.org/calendars/conferences.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -104,6 +94,16 @@ Many Apache speakers post their slides to the SlideShare website, and the Feathe
 In this newsletter: committer resources you might not know about, Foundation news, and upcoming community events.
 Thank you for your hard work on our Apache projects. You are the reason the Foundation exists, and your work is the reason we have the reputation we enjoy.
 In our recent community survey, we heard from a lot of you that you want more information about what committer resources are available, how to connect with developers from other projects, and more information about what’s going on in the Foundation at large.</description>
+    </item>
+    
+    <item>
+      <title>ASF Community Etiquette Guidelines</title>
+      <link>https://community.apache.org/contributors/etiquette.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/contributors/etiquette.html</guid>
+      <description>The ASF and our many projects welcome all participants. Before you begin, it is important to review and respect our community guidelines. We have a few ASF-specific tips below.
+Code of Conduct The ASF has adopted a Code of Conduct which covers interactions in all the online spaces that ASF projects use - email, issue trackers, wikis, websites, IRC, and the like. ASF projects are made up of volunteers, and we work to ensure that all productive contributions are welcomed.</description>
     </item>
     
     <item>
