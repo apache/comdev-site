@@ -1,17 +1,17 @@
 ---
-title: Decision Making
+title: Decision-Making
 ---
 
 The most important thing about engaging with any Apache project is that everyone
-is equal. All people with an opinion are entitled to express that opinion and, when 
-appropriate, have it considered by the community.
+is equal. All project participants with an opinion can express that opinion and, where 
+appropriate, have the community consider it.
 
-To some the idea of having to establish consensus in a large and distributed team 
+To some, the idea of having to establish consensus in a large and distributed team 
 sounds inefficient and frustrating. Don't despair, though: The Apache Way has a
 set of simple processes to ensure things proceed at a good pace.
 
 In ASF projects we don't like to vote. We reserve that for the few things that need 
-official approval for legal or process reasons (e.g. approving a release or a new committer). 
+official approval for legal or process reasons (e.g. approving a release or adding a new committer). 
 Most of the time we work with the consensus-building techniques documented below.
 
 ## Lazy Consensus
@@ -25,9 +25,9 @@ approval to proceed, but you need to be prepared to listen if someone objects.
 Sometimes lazy consensus is not appropriate. In such cases it is necessary to
 make a proposal to the email list and discuss options. There are mechanisms
 for quickly showing your support or otherwise for a proposal and 
-[building consensus][11] amongst the community.
+[building consensus][11] within the community.
 
-Once there is a consensus, people can proceed with the work under the [lazy 
+Once there is consensus to approve a proposal, people can proceed with the work under the [lazy 
 consensus][12] model.
 
 ## Voting

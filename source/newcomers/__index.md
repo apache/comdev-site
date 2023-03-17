@@ -10,10 +10,6 @@ you stepping up to help out.
 
   * [Where do I start?](/gettingStarted/101.html) - a guide to your first engagement with an Apache project
   * [How should I behave?](/contributors/etiquette) - etiquette and codes of conduct at Apache
-  * [What can I work on?](https://helpwanted.apache.org) - suggested tasks you can start working on today 
-  * [Mentoring Programme](/mentoringprogramme.html) - an introduction to our mentoring programme
-      * [Mentoring in formal education](/mentorprogrammeformaleducation.html) - how to engage your students in open source
-      * [Local Mentors Programme](/localmentors.html) - Find ASF people who live near you
   * [Newbie FAQ](/newbiefaq.html) - some commonly asked questions (and their answers)
   * [How many projects are at Apache?](https://projects.apache.org/) - we have a **LOT** of different project communities!
   * [Just show me the code!](https://www.apache.org/dev/) - site index of technical questions (where's SVN, how to log in, etc.)
@@ -38,5 +34,4 @@ list. Send an email to
 [dev-subscribe@community.apache.org](mailto:dev-subscribe@community.apache.org). Once subscribed you can send your questions or feedback to
 [dev@community.apache.org](mailto:dev@community.apache.org).
 
-<div style="width: 700px;" type="helpwanted" project="comdev"  description="Community Development"></div>
-<script src="https://helpwanted.apache.org/widget.js" type="text/javascript"></script>
+

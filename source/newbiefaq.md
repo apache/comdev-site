@@ -10,17 +10,12 @@ The Apache Software Foundation (ASF) and our many Apache projects understand how
   - [About The Apache Software Foundation](#NewbieFAQ-AboutTheApacheSoftwareFoundation)
       - [How do I find projects or technologies at the ASF?](#NewbieFAQ-WhatprojectscanIfindinTheApacheSoftwareFoundation?)
       - [How are projects managed at the ASF?](#NewbieFAQ-HowareprojectsmanagedinTheApacheSoftwareFoundation)
-      - [How do I learn about the way Apache Projects work?](#NewbieFAQ-HowdoIlearnaboutthewayApacheProjectsWork?)
       - [How do I ask a question about the ASF in general?](#NewbieFAQ-HowdoIaskaquestionabouttheASFingeneral?)
       - [How do I get user support for an Apache project?](#NewbieFAQ-HowdoIgetusersupportforanASFproject?)
   - [Getting involved with Apache projects](#NewbieFAQ-GettingInvolvedwithApacheprojects)
       - [How do I choose an Apache project to work on?](#NewbieFAQ-HowdoIchooseanApacheprojecttoworkon?)
       - [How do I get involved with an Apache project?](#NewbieFAQ-HowdoIgetinvolvedwithanApacheproject?)
       - [Is there a Code of Conduct for Apache projects?](#NewbieFAQ-IsthereaCodeofConductforApacheprojects?)
-  - [About the Apache Mentoring Programme](#NewbieFAQ-AbouttheApacheMentoringProgramme)
-      - [What is the Apache Mentoring Programme?](#NewbieFAQ-WhatistheApacheMentoringProgramme)
-      - [How do I apply to the Mentor Programme?](#NewbieFAQ-HowdoIApplytotheMentorProgramme?)
-  - [Finding Apache speakers for events or meetups](#NewbieFAQ-AboutSpeakers)
   - [How do I suggest or make changes to this website?](#websitecms)
   - [What other useful websites about Apache are there?](#comdevweb) 
   - [How do I report a bug for Comdev websites or tools?](#comdevbug)   
@@ -72,14 +67,6 @@ constructively within them!
 
 To learn more about "The Apache Way" in general, see the [How it Works](https://apache.org/foundation/how-it-works.html)
  pages. We also have [detailed overviews of how the ASF and projects are governed](https://www.apache.org/foundation/governance/).
-
-<a name="NewbieFAQ-HowdoIlearnaboutthewayApacheProjectsWork?"></a>
-## How do I learn about the way Apache projects work?
-
-Consider applying to the [Apache Mentor Programme](mentoringprogramme.html). We will help you find a mentor within the project of your choice. They
-will take you through a semi-formal mentoring programme that will ensure
-you quickly find your feet. There is no cost other than a promise to commit
-some of your time to the goals you set with your mentor.
 
 <a name="NewbieFAQ-HowdoIaskaquestionabouttheASFingeneral?"></a>
 ## How do I ask a question about the ASF in general? ## {#generalquestion}
@@ -152,8 +139,6 @@ inspiration about how you might be able to help the project community. If
 you see an issue you would like to tackle, it's time to join the project's
 mailing list and get started.
 
-Some projects also use our [Help Wanted! system](https://helpwanted.apache.org/).
-
 <a name="NewbieFAQ-HowdoIgetinvolvedwithanApacheproject?"></a>
 ## How do I get involved with an Apache project?
 
@@ -187,40 +172,6 @@ projects. This section includes such gems as:
 * If it didn't happen on a mailing list, it didn't happen. 
 * Don't feed the trolls. 
 
-<a name="NewbieFAQ-AbouttheApacheMentoringProgramme"></a>
-## About the Apache Mentoring Programme
-
-<a name="NewbieFAQ-WhatistheApacheMentoringProgramme"></a>
-### What is the Apache Mentoring Programme?
-
-Many projects are happy to assist newcomers learn about how to contribute
-to their specific project. However, some people are looking for more help, 
-or are looking for help working across Apache projects. The ASF Mentor Programme provides additional support and structure for people looking to make an
-initial contribution to an ASF project.
-
-For more information see our [mentoring page](mentoringprogramme.html).
-
-<a name="NewbieFAQ-HowdoIApplytotheMentorProgramme?"></a>
-### How do I apply to the Mentoring Programme?
-
-Take a look at our [mentoring page](mentoringprogramme.html). If you are 
-planning on working on an Apache project as part of your formal education, you 
-should also read [mentoring in formal education](mentorprogrammeformaleducation.html).
-
-From the [mentoring page](mentoringprogramme.html) you will see that you 
-need to complete an [application](mentorprogrammeapplication.html). This 
-gives us enough background information to enable us to approach your
-chosen project community and for you to work with prospective mentors in
-defining your mentored activity.
-
-<a name="NewbieFAQ-AboutSpeakers"></a>
-## How can I find speakers willing to help us understand Apache?
-
-The best way to start getting involved is to join the 
-[dev@community.apache.org](##NewbieFAQ-HowdoIaskaquestionabouttheASFingeneral?)
-mailing list. We also have a [listing of volunteer speakers](/speakers/) 
-who might be willing to share slides or talks about the ASF.
-
 # How do I suggest changes to this website? # {#websitecms}
 
 The content for the `community.apache.org` website is written in Markdown
@@ -245,7 +196,6 @@ that help you navigate the ASF.
 
   - The [Apache Projects Directory][9] lists all our software technologies, and you can learn [how it works][10] and what JSON data feeds are available.
   - [Home.apache.org][11] serves as a telephone directory of all Apache committers.  
-  - Some projects [ask for help][12] with easy-to-get-started tasks or bug fixes for newcomers. You can see the [code that runs the HelpWanted site][13].
   - Apache committers can log in to the [Project Reporting Tool][14] that helps PMCs create quarterly board reports; you can [see the code that does this][15].
   - A [ComDev Wiki][wiki] is also available for scratch or experimental work, although most permanent content should be here in the website.
 
@@ -265,8 +215,6 @@ can submit bug reports related to any of our services or websites.
   [9]: https://projects.apache.org/
   [10]: https://projects.apache.org/about.html
   [11]: https://home.apache.org/
-  [12]: https://helpwanted.apache.org/
-  [13]: https://svn.apache.org/viewvc/comdev/helpwanted.apache.org/
   [14]: https://reporter.apache.org/
   [15]: https://svn.apache.org/repos/asf/comdev/reporter.apache.org/
 

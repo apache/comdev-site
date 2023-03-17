@@ -24,7 +24,7 @@ of Code application.
 
 We rank projects using this scoring system:
 
-##*Pre-Selection Phase* : a mentor does this when accepting to be mentor of a given proposal
+## *Pre-Selection Phase* : a mentor does this when accepting to be mentor of a given proposal
 
 * if the proposal is for a project you will be mentoring and you feel the
 proposal looks good enough for you to commit your time to it, click the
@@ -95,7 +95,7 @@ phase). Before progressing to the next phase, admins read all proposals
 above or near the minimum score and ensure that there are no errors
 in this phase of ranking.
 
-##*Re-Evaluation* : admins do this during or after selection phase
+## *Re-Evaluation* : admins do this during or after selection phase
 
 In this phase admins evaluate all proposals above the required score and
 those that are just below it. We check those just below the required score

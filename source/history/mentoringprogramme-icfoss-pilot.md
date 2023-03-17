@@ -19,8 +19,6 @@ will provide enough information for you to progress within the project. You
 need to bring the confidence to take their guidance and discover the detail
 for yourself.
 
-More information on the [Mentoring Programme](mentoringprogramme.html) page.
-
 <a name="Schedule"></a>
 ## Proposed Schedule
 
