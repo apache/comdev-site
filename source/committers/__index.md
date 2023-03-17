@@ -85,8 +85,6 @@ activities, although non-committers can often act in supporting roles.
 
 We encourage all of our committers to speak about Apache projects and 
 technologies, and generally to help to grow and enhance our community.
-For more information, see our 
-[Speakers section](/speakers/).
 
 ## Other Resources
 

@@ -25,8 +25,7 @@ provides a wide array of information, [FAQs](/newbiefaq.html), and help to newco
 - Partnered Industry Events (FOSDEM etc.)
 - MeetUps, Apache BarCamps, etc.
 - Event Representatives (booth coverage, etc.)
-- [Speaker Resources](/speakers/)
-- [Stock Presentations](/speakers/slides.html)
+- [Sample Presentations](/speakers/slides.html)
 
 ### Diversity
 - [Code of Conduct](https://www.apache.org/foundation/policies/conduct.html)
