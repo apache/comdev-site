@@ -39,6 +39,8 @@ Improving the documentation is one of the most effective things that one can do 
 
 Take criticism of the documentation as a challenge, rather than a personal criticism.
 
+As you learn about the project, consider yourself a tester of the documentation. If anything is unclear, propose a patch.
+
 # Review PRs and tickets
 Dig into unmerged PRs and outstanding tickets. Figure out how to navigate the process to get an old ticket resolved, or a PR merged.
 
