@@ -57,7 +57,20 @@ Start conversations around topics you’re passionate about, and volunteer to be
 
 Do not, however, just talk to be seen. Nobody is fooled by that.
 
-# Vote on releases (non-binding)
+# Test, and vote on releases (non-binding)
+
+Testing releases, and then reporting problems or suggesting
+improvements, is one of the most important functions of users, and is an
+important way to contribute to a project. It also familiarizes you with
+the function of the software, which will lead you to be a better
+contributor.
+
+Many projects use CI to continuously test proposed patches and PRs. Each
+platform needs to be individually set up for testing, and often the
+projects do not have enough people familiar with the specific
+environments that might benefit from testing. You can propose additional
+platforms to test on.
+
 Vote on release candidates and releases (non-binding).
 
 Note that a vote should always mean that you’ve actually tested, so testing releases is implied here, too. Indicate what platform(s) you’ve tested on, and what was the nature of the tests that you performed. Testing releases on a variety of platforms and configurations is a very valuable piece of information for projects with limited testing infrastructure.
