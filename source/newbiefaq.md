@@ -20,7 +20,6 @@ The Apache Software Foundation (ASF) and our many Apache projects understand how
   - [About the Apache Mentoring Programme](#NewbieFAQ-AbouttheApacheMentoringProgramme)
       - [What is the Apache Mentoring Programme?](#NewbieFAQ-WhatistheApacheMentoringProgramme)
       - [How do I apply to the Mentor Programme?](#NewbieFAQ-HowdoIApplytotheMentorProgramme?)
-  - [Finding Apache speakers for events or meetups](#NewbieFAQ-AboutSpeakers)
   - [How do I suggest or make changes to this website?](#websitecms)
   - [What other useful websites about Apache are there?](#comdevweb) 
   - [How do I report a bug for Comdev websites or tools?](#comdevbug)   
@@ -210,14 +209,6 @@ need to complete an [application](mentorprogrammeapplication.html). This
 gives us enough background information to enable us to approach your
 chosen project community and for you to work with prospective mentors in
 defining your mentored activity.
-
-<a name="NewbieFAQ-AboutSpeakers"></a>
-## How can I find speakers willing to help us understand Apache?
-
-The best way to start getting involved is to join the 
-[dev@community.apache.org](##NewbieFAQ-HowdoIaskaquestionabouttheASFingeneral?)
-mailing list. We also have a [listing of volunteer speakers](/speakers/) 
-who might be willing to share slides or talks about the ASF.
 
 # How do I suggest changes to this website? # {#websitecms}
 

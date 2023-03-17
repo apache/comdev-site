@@ -32,10 +32,9 @@ in the specific Apache projects that interest you.
         <p>The ASF is a large organization made up of many separate projects. Each project community may have its own ways of working, while still following the basic Apache Way process.</p>
     </div>
     <div class="col-md-4">
-        <h4>Event Organizers and Speakers</h4>
-        <p>We have a <a href="speakers/index.html">list of speaker resources</a> for conference organizers and speakers, including some useful slides.</p>
+        <h4>Events</h4>
         <p>Producers should read our <a href="https://www.apache.org/foundation/marks/events">Event Branding Policy</a> for ticketed events, and we have some <a href="events/small-events.html">tips for organizing small community events</a> about Apache projects.</p>
-        <p>The <a href="https://events.apache.org/event/calendar.html">master event calendar</a> contains an aggregation of many different Apache-related events, including ApacheCon and BarCamps.</p>
+        <p>The <a href="https://events.apache.org/event/calendar.html">event calendar</a> lists approved Apache-related events, including Community Over Code (formerly ApacheCon) and project summits.</p>
     </div>
     <div class="col-md-4">
         <h4>The Foundation</h4>
