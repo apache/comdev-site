@@ -10,16 +10,12 @@ The Apache Software Foundation (ASF) and our many Apache projects understand how
   - [About The Apache Software Foundation](#NewbieFAQ-AboutTheApacheSoftwareFoundation)
       - [How do I find projects or technologies at the ASF?](#NewbieFAQ-WhatprojectscanIfindinTheApacheSoftwareFoundation?)
       - [How are projects managed at the ASF?](#NewbieFAQ-HowareprojectsmanagedinTheApacheSoftwareFoundation)
-      - [How do I learn about the way Apache Projects work?](#NewbieFAQ-HowdoIlearnaboutthewayApacheProjectsWork?)
       - [How do I ask a question about the ASF in general?](#NewbieFAQ-HowdoIaskaquestionabouttheASFingeneral?)
       - [How do I get user support for an Apache project?](#NewbieFAQ-HowdoIgetusersupportforanASFproject?)
   - [Getting involved with Apache projects](#NewbieFAQ-GettingInvolvedwithApacheprojects)
       - [How do I choose an Apache project to work on?](#NewbieFAQ-HowdoIchooseanApacheprojecttoworkon?)
       - [How do I get involved with an Apache project?](#NewbieFAQ-HowdoIgetinvolvedwithanApacheproject?)
       - [Is there a Code of Conduct for Apache projects?](#NewbieFAQ-IsthereaCodeofConductforApacheprojects?)
-  - [About the Apache Mentoring Programme](#NewbieFAQ-AbouttheApacheMentoringProgramme)
-      - [What is the Apache Mentoring Programme?](#NewbieFAQ-WhatistheApacheMentoringProgramme)
-      - [How do I apply to the Mentor Programme?](#NewbieFAQ-HowdoIApplytotheMentorProgramme?)
   - [How do I suggest or make changes to this website?](#websitecms)
   - [What other useful websites about Apache are there?](#comdevweb) 
   - [How do I report a bug for Comdev websites or tools?](#comdevbug)   
@@ -71,14 +67,6 @@ constructively within them!
 
 To learn more about "The Apache Way" in general, see the [How it Works](https://apache.org/foundation/how-it-works.html)
  pages. We also have [detailed overviews of how the ASF and projects are governed](https://www.apache.org/foundation/governance/).
-
-<a name="NewbieFAQ-HowdoIlearnaboutthewayApacheProjectsWork?"></a>
-## How do I learn about the way Apache projects work?
-
-Consider applying to the [Apache Mentor Programme](mentoringprogramme.html). We will help you find a mentor within the project of your choice. They
-will take you through a semi-formal mentoring programme that will ensure
-you quickly find your feet. There is no cost other than a promise to commit
-some of your time to the goals you set with your mentor.
 
 <a name="NewbieFAQ-HowdoIaskaquestionabouttheASFingeneral?"></a>
 ## How do I ask a question about the ASF in general? ## {#generalquestion}
@@ -183,32 +171,6 @@ projects. This section includes such gems as:
 * Let them who do the work make the decisions. 
 * If it didn't happen on a mailing list, it didn't happen. 
 * Don't feed the trolls. 
-
-<a name="NewbieFAQ-AbouttheApacheMentoringProgramme"></a>
-## About the Apache Mentoring Programme
-
-<a name="NewbieFAQ-WhatistheApacheMentoringProgramme"></a>
-### What is the Apache Mentoring Programme?
-
-Many projects are happy to assist newcomers learn about how to contribute
-to their specific project. However, some people are looking for more help, 
-or are looking for help working across Apache projects. The ASF Mentor Programme provides additional support and structure for people looking to make an
-initial contribution to an ASF project.
-
-For more information see our [mentoring page](mentoringprogramme.html).
-
-<a name="NewbieFAQ-HowdoIApplytotheMentorProgramme?"></a>
-### How do I apply to the Mentoring Programme?
-
-Take a look at our [mentoring page](mentoringprogramme.html). If you are 
-planning on working on an Apache project as part of your formal education, you 
-should also read [mentoring in formal education](mentorprogrammeformaleducation.html).
-
-From the [mentoring page](mentoringprogramme.html) you will see that you 
-need to complete an [application](mentorprogrammeapplication.html). This 
-gives us enough background information to enable us to approach your
-chosen project community and for you to work with prospective mentors in
-defining your mentored activity.
 
 # How do I suggest changes to this website? # {#websitecms}
 

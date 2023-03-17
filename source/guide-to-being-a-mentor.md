@@ -2,6 +2,10 @@
 title: guide to being a mentor
 ---
 
+<!--
+Note: This document is bout GSoC, not about a generic Mentoring Program.
+-->
+
 <a name="guidetobeingamentor-Submittingideastothementoringprogramme"></a>
 # Submitting ideas to the mentoring programme
 
