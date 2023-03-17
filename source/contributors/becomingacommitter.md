@@ -44,7 +44,7 @@ Dig into unmerged PRs and outstanding tickets. Figure out how to navigate the pr
 
 This is an investment in the project in two ways.
 
-The obvious improvement is getting an issue fixed or a PR merges, thus enhancing the project. The less obvious way is that ancient tickets, and unmerged PRs, communicate that the project is not actively maintained, and that user issues are being ignored. This undermines project trust. Thus, addressing these things builds community trust, and increases your personal value to the project.
+The obvious improvement is getting an issue fixed or a PR merged, thus enhancing the project. The less obvious way is that ancient tickets, and unmerged PRs, communicate that the project is not actively maintained, and that user issues are being ignored. This undermines project trust. Thus, addressing these things builds community trust, and increases your personal value to the project.
 
 # Be visible
 Participate meaningfully in discussions on the developer mailing list. Drive discussions through to action. Advocate for changes that help yourself and your employer, but also for those that improve the project as a whole.
