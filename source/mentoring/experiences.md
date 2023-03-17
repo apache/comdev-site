@@ -2,6 +2,8 @@
 title: Apache in GSoC
 ---
 
+*This should be in the GSoC directory*
+
 This is a place for
 collecting information about GSoC activities each year for historical tracking. It 
 was started in 2012 so is missing plenty of detail in the early years. Your help 

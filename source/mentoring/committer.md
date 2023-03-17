@@ -14,3 +14,10 @@ them for your particular project is critical.
 Here's the basics that are true across (almost) all Apache projects.
 
 TODO
+
+Outline:
+
+* Encouraging other contributors
+* Good commit messages
+* Becoming a PMC member
+
