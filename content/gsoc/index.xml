@@ -51,7 +51,7 @@ List of duties:
       <guid>https://community.apache.org/gsoc/guide-to-being-a-mentor.html</guid>
       <description>Submitting ideas to the mentoring programme We invite all ASF projects to submit their ideas for consideration in the ASF mentoring programme. Any Apache member and experienced committers can submit ideas via JIRA (if your project does not use JIRA you can use the Comdev Issue Tracker For GSoC Tasks. We are looking for as many interesting projects as we can come up with.
 
-Important Steps  Add an issue to JIRA (if your project does not use JIRA you can use the Comdev Issue Tracker For GSoC Tasks  Add sub-tasks if necessary   Label the main issue with &amp;ldquo;mentor&amp;rdquo; (these will show up at the ASF-wide list of issues) Label the main issue with &amp;ldquo;gsoc2023&amp;rdquo; if appropriate (these will show up at GSoC 2023 Ideas)  Size of project Starting this year there are 2 types of projects available.</description>
+Important Steps  Add an issue to JIRA (if your project does not use JIRA you can use the Comdev GSoC Issue Tracker For GSoC Tasks  Add sub-tasks if necessary   Label the main issue with &amp;ldquo;mentor&amp;rdquo; (these will show up at the ASF-wide list of issues) Label the main issue with &amp;ldquo;gsoc2023&amp;rdquo; if appropriate (these will show up at GSoC 2023 Ideas)  Size of project Starting this year there are 2 types of projects available.</description>
     </item>
     
     <item>
@@ -67,12 +67,12 @@ Remember, mentoring is all about the mentee and open source as a whole. It is no
     
     <item>
       <title>Use the Comdev Issue Tracker For GSoC Tasks</title>
-      <link>https://community.apache.org/gsoc/use-the-comdev-issue-tracker-for-gsoc-tasks.html</link>
+      <link>https://community.apache.org/gsoc/use-the-comdev-gsoc-issue-tracker-for-gsoc-tasks.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://community.apache.org/gsoc/use-the-comdev-issue-tracker-for-gsoc-tasks.html</guid>
-      <description>If your project does not use the ASF Jira for issue tracking, you can use the Community Development Jira project to record your GSoC tasks.
- Add tasks to the Comdev project Ensure you add the labels gsoc2023, mentor and _YOUR_PROJECT_NAME_ Your issues will appear in the list of projects We use the label _YOUR_PROJECT_NAME_ to map COMDEV issues to the real project when we create the ideas list  Please contact dev@community.</description>
+      <guid>https://community.apache.org/gsoc/use-the-comdev-gsoc-issue-tracker-for-gsoc-tasks.html</guid>
+      <description>If your project does not use the ASF Jira for issue tracking, you can use the ComDev GSoC Jira project to record your GSoC tasks.
+ Add tasks to the GSOC project Ensure you add the labels gsoc2023, mentor and _YOUR_PROJECT_NAME_ Your issues will appear in the list of projects We use the label _YOUR_PROJECT_NAME_ to map COMDEV issues to the real project when we create the ideas list  Please contact dev@community.</description>
     </item>
     
   </channel>
