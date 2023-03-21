@@ -14,12 +14,12 @@
   
   <url>
     <loc>https://community.apache.org/about.html</loc>
-    <lastmod>2023-03-17T09:35:59-04:00</lastmod>
+    <lastmod>2023-03-21T10:25:42+07:00</lastmod>
   </url>
   
   <url>
     <loc>https://community.apache.org/</loc>
-    <lastmod>2023-03-17T11:26:10-05:00</lastmod>
+    <lastmod>2023-03-21T10:25:42+07:00</lastmod>
   </url>
   
   <url>
@@ -28,8 +28,8 @@
   </url>
   
   <url>
-    <loc>https://community.apache.org/mentoring/experiences.html</loc>
-    <lastmod>2023-03-17T12:26:02-04:00</lastmod>
+    <loc>https://community.apache.org/gsoc/experiences.html</loc>
+    <lastmod>2023-03-21T10:25:42+07:00</lastmod>
   </url>
   
   <url>
@@ -74,7 +74,7 @@
   
   <url>
     <loc>https://community.apache.org/comdevboardreports.html</loc>
-    <lastmod>2020-09-23T00:32:47+02:00</lastmod>
+    <lastmod>2023-03-21T10:25:42+07:00</lastmod>
   </url>
   
   <url>
@@ -99,7 +99,7 @@
   
   <url>
     <loc>https://community.apache.org/about/</loc>
-    <lastmod>2023-03-17T09:35:59-04:00</lastmod>
+    <lastmod>2023-03-21T10:25:42+07:00</lastmod>
   </url>
   
   <url>
@@ -148,18 +148,23 @@
   </url>
   
   <url>
+    <loc>https://community.apache.org/gsoc/</loc>
+    <lastmod>2023-03-21T10:25:42+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://community.apache.org/gsoc/gsoc-admin-tasks.html</loc>
+    <lastmod>2023-03-21T10:25:42+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://community.apache.org/gsoc.html</loc>
-    <lastmod>2023-02-28T10:12:44+07:00</lastmod>
+    <lastmod>2023-03-21T10:25:42+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://community.apache.org/gsoc-admin-tasks.html</loc>
-    <lastmod>2023-02-06T10:23:15+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://community.apache.org/guide-to-being-a-mentor.html</loc>
-    <lastmod>2023-03-17T12:26:02-04:00</lastmod>
+    <loc>https://community.apache.org/gsoc/guide-to-being-a-mentor.html</loc>
+    <lastmod>2023-03-21T10:25:42+07:00</lastmod>
   </url>
   
   <url>
@@ -193,13 +198,13 @@
   </url>
   
   <url>
-    <loc>https://community.apache.org/mentee-ranking-process.html</loc>
-    <lastmod>2021-04-30T09:36:56-07:00</lastmod>
+    <loc>https://community.apache.org/gsoc/mentee-ranking-process.html</loc>
+    <lastmod>2023-03-21T10:25:42+07:00</lastmod>
   </url>
   
   <url>
     <loc>https://community.apache.org/mentoring/</loc>
-    <lastmod>2023-03-17T12:26:02-04:00</lastmod>
+    <lastmod>2023-03-21T10:25:42+07:00</lastmod>
   </url>
   
   <url>
@@ -224,7 +229,7 @@
   
   <url>
     <loc>https://community.apache.org/mentoring.html</loc>
-    <lastmod>2023-03-17T12:26:02-04:00</lastmod>
+    <lastmod>2023-03-21T10:25:42+07:00</lastmod>
   </url>
   
   <url>
@@ -277,8 +282,8 @@
   </url>
   
   <url>
-    <loc>https://community.apache.org/use-the-comdev-issue-tracker-for-gsoc-tasks.html</loc>
-    <lastmod>2023-02-06T10:23:15+07:00</lastmod>
+    <loc>https://community.apache.org/gsoc/use-the-comdev-issue-tracker-for-gsoc-tasks.html</loc>
+    <lastmod>2023-03-21T10:25:42+07:00</lastmod>
   </url>
   
   <url>
