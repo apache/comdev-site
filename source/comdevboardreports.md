@@ -727,4 +727,4 @@ Main items for next period
 </div>
 
 
-  [1]: /mentoring/experiences.html
+  [1]: /gsoc/experiences.html

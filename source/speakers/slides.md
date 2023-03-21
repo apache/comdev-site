@@ -8,8 +8,7 @@ been presented at [ApacheCon conferences](https://events.apache.org) or
 other open source conferences.
 
 These presentations are available under permissive licenses; please see
-each individual presentation for license details.  More tips and links for
-[speakers](/speakers/index.html) are available.
+each individual presentation for license details.
 
 Many Apache speakers post their slides to the [SlideShare website](//www.slideshare.net/search/slideshow?searchfrom=header&q=apache+software),
 and the [FeatherCast podcast offers audio recordings](//feathercast.apache.org/) of many talks and interviews.

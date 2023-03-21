@@ -23,7 +23,7 @@ approval to proceed, but you need to be prepared to listen if someone objects.
 ## Consensus Building
 
 Sometimes lazy consensus is not appropriate. In such cases it is necessary to
-make a proposal to the mailing list and discuss options. There are mechanisms
+make a proposal to the email list and discuss options. There are mechanisms
 for quickly showing your support or otherwise for a proposal and 
 [building consensus][11] within the community.
 
@@ -33,8 +33,8 @@ consensus][12] model.
 ## Voting
 
 Occasionally a "feel" for consensus is not enough. Sometimes we need to 
-have a measurable vote, as when we [voted][13] in new committers or 
-approve a release. 
+have a measurable consensus, for example, when [voting][13] to add committers or 
+to approve a release.
 
   [10]: /committers/lazyConsensus.html
   [11]: /committers/consensusBuilding.html

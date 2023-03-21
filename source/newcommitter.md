@@ -75,7 +75,7 @@ later in this document.
 <a name="NewCommitter-Summary"></a>
 ### Summary
 
-1. Discuss the proposed committer/PMC member. If positive, call a vote (templates/committerVote.txt)
+1. Discuss the proposed committer or PMC member. If the discussion seems to be going positively, call a vote (templates/committerVote.txt)
 1. Close the vote (templates/closeVote.txt)
 1. If the result is positive, invite the new committer (templates/committerInvite.txt)
 
@@ -98,7 +98,10 @@ If the committer uses GitHub, they are responsible for linking it to their ASF a
 <a name="NewCommitter-Discussion"></a>
 ### Discussion
 
-We do the discussion and vote on the `private@` mailing list to enable a frank discussion.
+We do the discussion and vote on the `private@` mailing list to enable a frank
+discussion. Any PMC member may propose a potential committer or PMC
+member. This is **not** the sole responsibility or right of the PMC
+chair.
 
 We invite people to join as committers/PMC members, not github ids. It is
 fine to refer to the candidate's github id for context, but the person should
