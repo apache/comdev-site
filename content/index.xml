@@ -108,15 +108,23 @@ Code of Conduct The ASF has adopted a Code of Conduct which covers interactions 
     </item>
     
     <item>
+      <title>Becoming a committer</title>
+      <link>https://community.apache.org/contributors/becomingacommitter.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/contributors/becomingacommitter.html</guid>
+      <description>Disclaimer Nothing in this post should be construed as a guarantee. You can do everything listed here, for years, and still not become a committer. This is because the decision is made by individuals on the project PMC, who do things for their own reasons.
+On the contrary, this document discusses how things should work, and sometimes do work, in some Apache Software Foundation (ASF) projects, but might not on the one you’re interested in.</description>
+    </item>
+    
+    <item>
       <title>BoardReport</title>
       <link>https://community.apache.org/boardreport.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://community.apache.org/boardreport.html</guid>
-      <description>Top-level projects report to the board once a quarter, Incubator podlings usually monthly.
-The ASF Board currently meets on the third Wednesday of every month, and projects need to report well in advance of that, as reports are reviewed before the meeting.
-This page provides a simple template for board reports and should be read in conjunction with https://apache.org/foundation/board/reporting which contains additional information.
-Reports need not be exhaustive, unless you are asking for assistance.</description>
+      <description>For complete details about what should be in ASF project board reports, including instructions on using the handy Reporter tool, please see:
+https://apache.org/foundation/board/reporting</description>
     </item>
     
     <item>
@@ -125,10 +133,8 @@ Reports need not be exhaustive, unless you are asking for assistance.</descripti
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://community.apache.org/comdevboardreports.html</guid>
-      <description>This page contains records of the Apache Community Development Project board reports. The official record of these reports is the minutes of the appropriate board meeting, they are provided here for convenience.
-
-Draft report for next meeting The following report is incomplete and draft only. It is being prepared for the next submission to the board. Submitted reports can be found further down the page.
-DRAFT November 2012 Status report for the Apache Community Development Project The Community Development PMC is responsible for helping people become involved with Apache projects</description>
+      <description>Like every other ASF project, the ComDev PMC sends a quarterly report to the board. These reports are read by the board, and sometimes directors will ask the PMC for clarification or to make suggestions for the project.
+You can read the complete list of Apache Community Development board reports. A chronological view of all minutes from ASF Board meetings is also public.</description>
     </item>
     
     <item>
