@@ -47,6 +47,8 @@ contributors come and go from the field.
 In particular, we have some [etiquette and behavior expectations][8] when 
 you work with Apache communities.
 
+See also this [detailed advice for how to become a committer](/contributors/becomingacommitter.html)
+
 ## Contributing A Project - CoPDoC
 
 The foundations of an Apache project and how the community contributes to it are 
