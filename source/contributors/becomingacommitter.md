@@ -1,7 +1,7 @@
 ---
 title: Becoming a committer
 slug: becomingacommitter
---
+---
 
 # Disclaimer
 Nothing in this post should be construed as a guarantee. You can do everything listed here, for years, and still not become a committer. This is because the decision is made by individuals on the project PMC, who do things for their own reasons.
