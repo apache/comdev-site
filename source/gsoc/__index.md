@@ -124,6 +124,8 @@ Each of the proposed subjects (link to be provided if we are confirmed as a
 mentoring organisation) applies to a single ASF project. You will need to
 engage with that project community.
 
+Please contact dev@community.apache.org if you have questions/difficulties.
+
 <a name="GSoC-ASFGSoCTimeline"></a>
 # ASF GSoC 2023 Timeline
 
