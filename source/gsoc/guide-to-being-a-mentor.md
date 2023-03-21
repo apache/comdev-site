@@ -103,7 +103,7 @@ If you are interested in mentor programme administration please also
 subscribe to `dev@community.apache.org`.
 
 If you are planning on mentoring as part of the GSoC programme you also
-need to register with Google. See our [GSoC](gsoc.html) page for more information.
+need to register with Google. See our [GSoC](/gsoc/) page for more information.
 
 <a name="guidetobeingamentor-Howmucheffortisinvolvedwithbeingamentor"></a>
 ## How much effort is involved with being a mentor?

@@ -11,7 +11,7 @@ provides a wide array of information, [FAQs](/newbiefaq.html), and help to newco
 {{% toc %}}
 
 ### Mentoring for Individuals and Help Getting Around
-- [GSoC](/gsoc.html)
+- [GSoC](/gsoc/)
 - [Contributors Guide](/newcomers/)
 - [Committers Guide](/committers)
 - Project Management Committees

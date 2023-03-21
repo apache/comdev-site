@@ -1,5 +1,6 @@
 ---
 title: GSoC
+slug: index
 ---
 
 <div class="card mb-3">

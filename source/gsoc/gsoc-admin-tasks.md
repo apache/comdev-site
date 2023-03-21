@@ -40,18 +40,18 @@ On behalf of the GSoC 20XX admins,
 
 Uli
 
-[1] https://community.apache.org/guide-to-being-a-mentor.html
+[1] https://community.apache.org/gsoc/guide-to-being-a-mentor.html
 [2] https://s.apache.org/gsoc2011tasks
-[3] https://community.apache.org/gsoc.html
+[3] https://community.apache.org/gsoc/
 </pre>
 
-1. Update our GSoC pages at [https://community.apache.org/gsoc.html](/gsoc.html) with the
-current year's timeline and at [https://community.apache.org/guide-to-being-a-mentor.html](/guide-to-being-a-mentor.html).
+1. Update our GSoC pages at [https://community.apache.org/gsoc/](/gsoc/) with the
+current year's timeline and at [https://community.apache.org/gsoc/guide-to-being-a-mentor.html](guide-to-being-a-mentor.html).
 
 1. Apply for the ASF to be a mentoring organization for Google Summer of Code.
 I faintly remember that they wanted to know some stats like how often we have
 already participated and what the number of students was last year. I believe
-the ASF has participated since GSoC's inception in 2005. Consult [participation statistics](http://community.apache.org/mentoring/experiences.html), although the page may not be up to date.
+the ASF has participated since GSoC's inception in 2005. Consult [participation statistics](http://community.apache.org/gsoc/experiences.html), although the page may not be up to date.
 
 1. Once our application is accepted, write a press release and
 request press@ to send it out. We don't have a template yet, so work
@@ -60,7 +60,7 @@ written and add it here.
 
 1. Check with Google whether they changed the ranking process -- again. Find out
 what we need to be change to our internal ranking process in order to be compatible
-with melange (the system Google uses to administer GSOC) and update the [mentee ranking process](/mentee-ranking-process.html) page
+with melange (the system Google uses to administer GSOC) and update the [mentee ranking process](mentee-ranking-process.html) page
 accordingly. In 2011 we used a Google Docs spreadsheet and did our ranking there. The
 org admin (and only the org admin) then transferred the rankings to Melange.
 

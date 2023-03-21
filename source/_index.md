@@ -75,9 +75,9 @@ in the specific Apache projects that interest you.
     </div>
     <div class="col-md-4">
           <h4>Google Summer of Code program (GSoC)</h4>
-          <p>The Community Development project also manages the <a href="gsoc.html">ASF's participation in the Google Summer of Code program</a>. Each year since 2005, we've taken on between 30 and 45 students. Many have gone on to become long-term committers to projects, and even Members of the Foundation.
+          <p>The Community Development project also manages the <a href="/gsoc/">ASF's participation in the Google Summer of Code program</a>. Each year since 2005, we've taken on between 30 and 45 students. Many have gone on to become long-term committers to projects, and even Members of the Foundation.
           <br/><br/>
-          Read about a few of our <a href="mentoring/experiences.html">GSoC successes</a>. </p>
+          Read about a few of our <a href="/gsoc/experiences.html">GSoC successes</a>. </p>
     </div>
     <div class="col-md-4">
         <h4>Apache Local Community (ALC)</h4>
