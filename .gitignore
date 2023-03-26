@@ -1,6 +1,7 @@
 # Hugo generated
 resources
 target
+.hugo_build.lock
 
 # IntelliJ generated
 *.iml
