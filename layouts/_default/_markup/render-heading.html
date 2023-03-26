@@ -1,4 +1,4 @@
-<h{{ .Level }} id="{{ .Anchor | safeURL }}">{{ .Text | safeHTML }}
+<h{{ .Level }}{{- range $k, $v := .Attributes -}}{{- printf " %s=%q" $k $v | safeHTMLAttr -}}{{- end }}>{{- .Text | safeHTML -}}
 {{- if and (ge .Level 1) (le .Level 4) }}{{" " -}}
 <a class="headerlink" title="Permalink" href="#{{ .Anchor | safeURL }}">&para;</a>
 {{- end -}}
