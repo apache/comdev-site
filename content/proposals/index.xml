@@ -13,8 +13,8 @@
       
       <guid>https://community.apache.org/proposals/ZestProposal.html</guid>
       <description>title: Zest Proposal
-Abstract qi4j = new Energy4Java(); That is how to create the Qi4j runtime, and it captures the essence of its spirit. Qi4j is a platform to develop Composite Oriented Programming applications in Java in a new, exciting and productive manner.
-Governance of Provisional Top Level Project Provisional Top Level Project is a new idea at the ASF, and the Qi4j community is willing to try the idea, instead of simply debating it.</description>
+Abstract &amp;para; qi4j = new Energy4Java(); That is how to create the Qi4j runtime, and it captures the essence of its spirit. Qi4j is a platform to develop Composite Oriented Programming applications in Java in a new, exciting and productive manner.
+Governance of Provisional Top Level Project &amp;para; Provisional Top Level Project is a new idea at the ASF, and the Qi4j community is willing to try the idea, instead of simply debating it.</description>
     </item>
     
   </channel>

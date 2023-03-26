@@ -13,8 +13,8 @@
       
       <guid>https://community.apache.org/proposals/ZestProposal.html</guid>
       <description>title: Zest Proposal
-Abstract qi4j = new Energy4Java(); That is how to create the Qi4j runtime, and it captures the essence of its spirit. Qi4j is a platform to develop Composite Oriented Programming applications in Java in a new, exciting and productive manner.
-Governance of Provisional Top Level Project Provisional Top Level Project is a new idea at the ASF, and the Qi4j community is willing to try the idea, instead of simply debating it.</description>
+Abstract &amp;para; qi4j = new Energy4Java(); That is how to create the Qi4j runtime, and it captures the essence of its spirit. Qi4j is a platform to develop Composite Oriented Programming applications in Java in a new, exciting and productive manner.
+Governance of Provisional Top Level Project &amp;para; Provisional Top Level Project is a new idea at the ASF, and the Qi4j community is willing to try the idea, instead of simply debating it.</description>
     </item>
     
     <item>
@@ -24,7 +24,7 @@ Governance of Provisional Top Level Project Provisional Top Level Project is a n
       
       <guid>https://community.apache.org/apache-way/apache-project-maturity-model.html</guid>
       <description>The Apache Project Maturity Model provides a suggested framework for evaluating the overall maturity of an Apache project community and the codebase that it maintains. While this model is specific to projects of the Apache Software Foundation (ASF), many of these factors apply to any open source project.
-Overview The goals of this maturity model are to describe how Apache projects operate in a concise and high-level way, and to provide a basic framework that projects may choose to use to evaluate themselves.</description>
+Overview &amp;para; The goals of this maturity model are to describe how Apache projects operate in a concise and high-level way, and to provide a basic framework that projects may choose to use to evaluate themselves.</description>
     </item>
     
     <item>
@@ -33,9 +33,9 @@ Overview The goals of this maturity model are to describe how Apache projects op
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://community.apache.org/calendars/conferences.html</guid>
-      <description>Deprecated - See New Calendar instead This calendar is no longer maintained; please see this page instead.
+      <description>Deprecated - See New Calendar instead &amp;para; This calendar is no longer maintained; please see this page instead.
 This Calendar is maintained by the Apache Community Development Committee (ComDev), to have your event listed considered for addition please mail dev@community.apache.org. Note that to be listed in this calendar events must conform to the Third Party Event Branding Policy.
-Upcoming events List loading This Calendar is also available as an iCal feed</description>
+Upcoming events &amp;para; List loading This Calendar is also available as an iCal feed</description>
     </item>
     
     <item>
@@ -46,7 +46,7 @@ Upcoming events List loading This Calendar is also available as an iCal feed</de
       <guid>https://community.apache.org/gsoc/experiences.html</guid>
       <description>This should be in the GSoC directory
 This is a place for collecting information about GSoC activities each year for historical tracking. It was started in 2012 so is missing plenty of detail in the early years. Your help filling it out would be appreciated.
-2018 Overview Students accepted: ? Students who passed final: 29 2017 Overview Students accepted: ? Students who passed final: 27 2016 Overview Students accepted: 49 Students who passed final: 35 2015 Overview Students accepted: 56 Students who passed final: 47 2014 Overview Students accepted: 42 Students who passed final: 35 2013 Overview Students accepted: 51 Students who passed final: 44 2012 Overview Students accepted: 41 Students who passed midterm: 40 26 projects mentoring (17 TLPs and 9 Podlings) Participating TLPS are: Xerces, Pig, OODT, Hive, James, Tapestry, Ofbiz, Gora, Synapse, Derby, Axis, POI, Whirr, Lucene, Velocity, Libcloud, Xalan Participating Podlings are: ODF Toolkit, Airavata, Stanbol, Photark, Wookie, OpenMeetings, Nuvem, Hama, VXQuery 2012 Blogs Scott Wilson: Wookie Mentor Pushpalanka: Wookie Student Mike McCandless: Lucene Mentor Bhathiya Jayasekara: Airavata Student OpenMeetings Mentors: Sebastian Wagner, Alexei Fedotov, Maxim Solodovnik - Students: Ankur Ankan, German Grekhov, Dmitry Zamula, Josh Dolitsky 2011 Overview Students accepted: 40 Students who passed midterm: 38 Students who passed final: 36 2010 Overview Students accepted: 44 Students who passed final: 39 2005 First year Apache participated</description>
+2018 Overview &amp;para; Students accepted: ? Students who passed final: 29 2017 Overview &amp;para; Students accepted: ? Students who passed final: 27 2016 Overview &amp;para; Students accepted: 49 Students who passed final: 35 2015 Overview &amp;para; Students accepted: 56 Students who passed final: 47 2014 Overview &amp;para; Students accepted: 42 Students who passed final: 35 2013 Overview &amp;para; Students accepted: 51 Students who passed final: 44 2012 Overview &amp;para; Students accepted: 41 Students who passed midterm: 40 26 projects mentoring (17 TLPs and 9 Podlings) Participating TLPS are: Xerces, Pig, OODT, Hive, James, Tapestry, Ofbiz, Gora, Synapse, Derby, Axis, POI, Whirr, Lucene, Velocity, Libcloud, Xalan Participating Podlings are: ODF Toolkit, Airavata, Stanbol, Photark, Wookie, OpenMeetings, Nuvem, Hama, VXQuery 2012 Blogs &amp;para; Scott Wilson: Wookie Mentor Pushpalanka: Wookie Student Mike McCandless: Lucene Mentor Bhathiya Jayasekara: Airavata Student OpenMeetings Mentors: Sebastian Wagner, Alexei Fedotov, Maxim Solodovnik - Students: Ankur Ankan, German Grekhov, Dmitry Zamula, Josh Dolitsky 2011 Overview &amp;para; Students accepted: 40 Students who passed midterm: 38 Students who passed final: 36 2010 Overview &amp;para; Students accepted: 44 Students who passed final: 39 2005 &amp;para; First year Apache participated</description>
     </item>
     
     <item>
@@ -87,7 +87,7 @@ Many Apache speakers post their slides to the SlideShare website, and the Feathe
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://community.apache.org/newsletter/2017-04.html</guid>
-      <description>Apache Committer Newsletter, April 2017 Dear Apache Committer,
+      <description>Apache Committer Newsletter, April 2017 &amp;para; Dear Apache Committer,
 In this newsletter: committer resources you might not know about, Foundation news, and upcoming community events.
 Thank you for your hard work on our Apache projects. You are the reason the Foundation exists, and your work is the reason we have the reputation we enjoy.
 In our recent community survey, we heard from a lot of you that you want more information about what committer resources are available, how to connect with developers from other projects, and more information about what’s going on in the Foundation at large.</description>
@@ -100,7 +100,7 @@ In our recent community survey, we heard from a lot of you that you want more in
       
       <guid>https://community.apache.org/contributors/etiquette.html</guid>
       <description>The ASF and our many projects welcome all participants. Before you begin, it is important to review and respect our community guidelines. We have a few ASF-specific tips below.
-Code of Conduct The ASF has adopted a Code of Conduct which covers interactions in all the online spaces that ASF projects use - email, issue trackers, wikis, websites, IRC, and the like. ASF projects are made up of volunteers, and we work to ensure that all productive contributions are welcomed.</description>
+Code of Conduct &amp;para; The ASF has adopted a Code of Conduct which covers interactions in all the online spaces that ASF projects use - email, issue trackers, wikis, websites, IRC, and the like. ASF projects are made up of volunteers, and we work to ensure that all productive contributions are welcomed.</description>
     </item>
     
     <item>
@@ -109,7 +109,7 @@ Code of Conduct The ASF has adopted a Code of Conduct which covers interactions 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://community.apache.org/contributors/becomingacommitter.html</guid>
-      <description>Disclaimer Nothing in this post should be construed as a guarantee. You can do everything listed here, for years, and still not become a committer. This is because the decision is made by individuals on the project PMC, who do things for their own reasons.
+      <description>Disclaimer &amp;para; Nothing in this post should be construed as a guarantee. You can do everything listed here, for years, and still not become a committer. This is because the decision is made by individuals on the project PMC, who do things for their own reasons.
 On the contrary, this document discusses how things should work, and sometimes do work, in some Apache Software Foundation (ASF) projects, but might not on the one you’re interested in.</description>
     </item>
     
@@ -150,9 +150,9 @@ Board Resolution Creating the Apache Community Development Project Establish the
       
       <guid>https://community.apache.org/committers/</guid>
       <description>There are a number of useful Apache tools and services available for Apache projects and committers. This is a brief set of pointers or signposts to that information.
-Apache Infrastructure Information The primary portals for Apache Infra questions - how Subversion/Git/Websites, etc. work at the ASF - are pages at apache.org/dev and infra.apache.org.
+Apache Infrastructure Information &amp;para; The primary portals for Apache Infra questions - how Subversion/Git/Websites, etc. work at the ASF - are pages at apache.org/dev and infra.apache.org.
 If you&amp;rsquo;re a committer, you can patch this very website yourself!
-Decision making Decisions in Apache projects result from:</description>
+Decision making &amp;para; Decisions in Apache projects result from:</description>
     </item>
     
     <item>
@@ -170,8 +170,8 @@ Decision making Decisions in Apache projects result from:</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://community.apache.org/about/</guid>
-      <description>Community Development: What We Do The Community Development (ComDev) project provides a wide array of information, FAQs, and help to newcomers and existing committers, and maintains a number of helpful tools.
-Community Development: What We Do Mentoring for Individuals and Help Getting Around Mentoring for Projects Education + Outreach Diversity Conference Travel Assistance Tools and Code we Maintain Physical artifacts About This Website Mentoring for Individuals and Help Getting Around GSoC Contributors Guide Committers Guide Project Management Committees Mentoring for Projects Incubator Mentors - Many folks here are IPMC members or mentors, too Get community advice on dev@community Education + Outreach ApacheCon Partnered Industry Events (FOSDEM etc.</description>
+      <description>Community Development: What We Do &amp;para; The Community Development (ComDev) project provides a wide array of information, FAQs, and help to newcomers and existing committers, and maintains a number of helpful tools.
+Community Development: What We Do Mentoring for Individuals and Help Getting Around Mentoring for Projects Education + Outreach Diversity Conference Travel Assistance Tools and Code we Maintain Physical artifacts About This Website Mentoring for Individuals and Help Getting Around &amp;para; GSoC Contributors Guide Committers Guide Project Management Committees Mentoring for Projects &amp;para; Incubator Mentors - Many folks here are IPMC members or mentors, too Get community advice on dev@community Education + Outreach &amp;para; ApacheCon Partnered Industry Events (FOSDEM etc.</description>
     </item>
     
     <item>
@@ -192,8 +192,8 @@ Constructive discussion is the lifeblood of a successful project. However, we wa
       <guid>https://community.apache.org/contactpoints.html</guid>
       <description>If you have a question about anything Apache, the ComDev project is here to help.
 To help us help you, try to direct your question to the right mailing list - our volunteer committers do all their work on mailing lists.
-Community Questions Email questions about community or issues across multiple Apache projects to dev@community.apache.org - or see our detailed Mailing List How To page.
-Technical Questions If you have a technical question about this website, or one of the tools that the ComDev project builds, email us at dev@community.</description>
+Community Questions &amp;para; Email questions about community or issues across multiple Apache projects to dev@community.apache.org - or see our detailed Mailing List How To page.
+Technical Questions &amp;para; If you have a technical question about this website, or one of the tools that the ComDev project builds, email us at dev@community.</description>
     </item>
     
     <item>
@@ -203,7 +203,7 @@ Technical Questions If you have a technical question about this website, or one 
       
       <guid>https://community.apache.org/contributors/</guid>
       <description>This page is for people who are reasonably comfortable with open source development models but need a helping hand finding their way around the Apache Software Foundation and our way of developing software (commonly called &amp;ldquo;The Apache Way&amp;rdquo;). For those wishing to start from the very beginning, we have a newcomers page.
-Project Independence And Policies While not all ASF projects practice all aspects of the Apache Way in the same way, there are a number of rules that Apache projects must follow – things like complying with PMC release voting, legal policy, brand policy, using mailing lists, etc.</description>
+Project Independence And Policies &amp;para; While not all ASF projects practice all aspects of the Apache Way in the same way, there are a number of rules that Apache projects must follow – things like complying with PMC release voting, legal policy, brand policy, using mailing lists, etc.</description>
     </item>
     
     <item>
@@ -234,8 +234,8 @@ If you have any question about this, feel free to ask on our dev@community.</des
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://community.apache.org/gettingStarted/101.html</guid>
-      <description>Where do I start? If you have no idea where to start your engagement with an Apache project, this is the page for you.
-Finding the right project The key to working on projects at Apache (and on any open source project, for that matter) is to have a personal reason for being involved. You might be trying to solve a day job issue or learn a new technology, or simply want to do something fun in your free time.</description>
+      <description>Where do I start? &amp;para; If you have no idea where to start your engagement with an Apache project, this is the page for you.
+Finding the right project &amp;para; The key to working on projects at Apache (and on any open source project, for that matter) is to have a personal reason for being involved. You might be trying to solve a day job issue or learn a new technology, or simply want to do something fun in your free time.</description>
     </item>
     
     <item>
@@ -245,7 +245,7 @@ Finding the right project The key to working on projects at Apache (and on any o
       
       <guid>https://community.apache.org/gsoc/</guid>
       <description>Currently happening ASF is accepted as mentoring organisation! collect your ideas, answer participant&#39;s emails :) Google is sponsoring the 2023 Summer of Code and The Apache Software Foundation (ASF) registered as a mentoring organization. This page is your entry point to the ASF GSoC program. Please watch this page for updates concerning our participating in 2023.
-Students: read this Learn about GSoC Decide if you are eligible for GSoC? Review Advice for Students to make sure you really want to apply to GSoC.</description>
+Students: read this &amp;para; Learn about GSoC Decide if you are eligible for GSoC?</description>
     </item>
     
     <item>
@@ -265,8 +265,8 @@ Make sure the ASF has an extensive list of project ideas ready shortly after Goo
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://community.apache.org/gsoc/guide-to-being-a-mentor.html</guid>
-      <description>Submitting ideas to the mentoring programme We invite all ASF projects to submit their ideas for consideration in the ASF mentoring programme. Any Apache member and experienced committers can submit ideas via JIRA (if your project does not use JIRA you can use the Comdev Issue Tracker For GSoC Tasks. We are looking for as many interesting projects as we can come up with.
-Important Steps Add an issue to JIRA (if your project does not use JIRA you can use the Comdev GSoC Issue Tracker For GSoC Tasks Add sub-tasks if necessary Label the main issue with &amp;ldquo;mentor&amp;rdquo; (these will show up at the ASF-wide list of issues) Label the main issue with &amp;ldquo;gsoc2023&amp;rdquo; if appropriate (these will show up at GSoC 2023 Ideas) Size of project Starting this year there are 2 types of projects available.</description>
+      <description>Submitting ideas to the mentoring programme &amp;para; We invite all ASF projects to submit their ideas for consideration in the ASF mentoring programme. Any Apache member and experienced committers can submit ideas via JIRA (if your project does not use JIRA you can use the Comdev Issue Tracker For GSoC Tasks. We are looking for as many interesting projects as we can come up with.
+Important Steps &amp;para; Add an issue to JIRA (if your project does not use JIRA you can use the Comdev GSoC Issue Tracker For GSoC Tasks Add sub-tasks if necessary Label the main issue with &amp;ldquo;mentor&amp;rdquo; (these will show up at the ASF-wide list of issues) Label the main issue with &amp;ldquo;gsoc2023&amp;rdquo; if appropriate (these will show up at GSoC 2023 Ideas) Size of project Starting this year there are 2 types of projects available.</description>
     </item>
     
     <item>
@@ -296,7 +296,7 @@ Here&amp;rsquo;s an example of what your first email might look like:</descripti
       <guid>https://community.apache.org/links.html</guid>
       <description>This is a collection of links to information that&amp;rsquo;s relevant to the Apache Way and Open Source in general.
 Note that most of these links point to websites that are outside of the control of the Apache Software Foundation. Please contact their respective authors for more information or questions. General discussion on the dev@community.a.o list is fine of course.
-Books Producing Open Source Software - by Karl Fogel Blog posts Apache - the Switzerland of Open Source?</description>
+Books &amp;para; Producing Open Source Software - by Karl Fogel Blog posts &amp;para; Apache - the Switzerland of Open Source?</description>
     </item>
     
     <item>
@@ -306,8 +306,8 @@ Books Producing Open Source Software - by Karl Fogel Blog posts Apache - the Swi
       
       <guid>https://community.apache.org/speakers/speakers.html</guid>
       <description>If you&amp;rsquo;re an Apache committer interested in speaking about Apache Technologies, Apache Projects or the Apache Software Foundation as a whole, we encourage you to get involved and list yourself in our speaker application!
-Finding Speakers If you are organising an event and looking for speakers, see the Apache Speakers homepage for details.
-Listing yourself as a potential speaker To list yourself as someone interested in being an Apache speaker, there are two steps.</description>
+Finding Speakers &amp;para; If you are organising an event and looking for speakers, see the Apache Speakers homepage for details.
+Listing yourself as a potential speaker &amp;para; To list yourself as someone interested in being an Apache speaker, there are two steps.</description>
     </item>
     
     <item>
@@ -338,7 +338,7 @@ Remember, mentoring is all about the mentee and open source as a whole. It is no
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://community.apache.org/mentoring/</guid>
-      <description>Mentoring A major job of Community Development is mentoring. Mentoring is the process of actively bringing someone along in a discipline - investing your time into influencing the future. Time spent mentoring today will pay off for years to come.
+      <description>Mentoring &amp;para; A major job of Community Development is mentoring. Mentoring is the process of actively bringing someone along in a discipline - investing your time into influencing the future. Time spent mentoring today will pay off for years to come.
 Anyone can be a mentor. You just have to take a moment to encourage someone else to participate.
 Here&amp;rsquo;s some concrete ways you can provide mentoring to other members of your community.</description>
     </item>
@@ -349,7 +349,7 @@ Here&amp;rsquo;s some concrete ways you can provide mentoring to other members o
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://community.apache.org/mentoring/committer.html</guid>
-      <description>Mentoring a new committer So I&amp;rsquo;m a committer now. What&amp;rsquo;s next? What rights do I have now that I didn&amp;rsquo;t have before? What are the social conventions around making a commit?
+      <description>Mentoring a new committer &amp;para; So I&amp;rsquo;m a committer now. What&amp;rsquo;s next? What rights do I have now that I didn&amp;rsquo;t have before? What are the social conventions around making a commit?
 These things vary from one project to another, so clearly documenting them for your particular project is critical.
 Here&amp;rsquo;s the basics that are true across (almost) all Apache projects.
 TODO
@@ -363,7 +363,7 @@ Encouraging other contributors Good commit messages Becoming a PMC member </desc
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://community.apache.org/mentoring/pmc.html</guid>
-      <description>Mentoring a new PMC member So I&amp;rsquo;m a PMC member now. What does this mean? What rights do I have now that I didn&amp;rsquo;t have before? What conversations belong on the private list, as opposed to the public list.
+      <description>Mentoring a new PMC member &amp;para; So I&amp;rsquo;m a PMC member now. What does this mean? What rights do I have now that I didn&amp;rsquo;t have before? What conversations belong on the private list, as opposed to the public list.
 These things vary a little from one project to another, so clearly documenting them for your particular project is critical. And specifically assigning a PMC mentor to new PMC members can greatly help that new member get up to speed, and prevent problems in the future.</description>
     </item>
     
@@ -373,7 +373,7 @@ These things vary a little from one project to another, so clearly documenting t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://community.apache.org/mentoring/mentor.html</guid>
-      <description>Mentoring Mentors The job of a mentor is to reproduce - spread the work load. Once you&amp;rsquo;ve mentored someone, you need to encourage them to become a mentor themselves. Here&amp;rsquo;s some ways you can do that.
+      <description>Mentoring Mentors &amp;para; The job of a mentor is to reproduce - spread the work load. Once you&amp;rsquo;ve mentored someone, you need to encourage them to become a mentor themselves. Here&amp;rsquo;s some ways you can do that.
 Point out people that need a little help Encourage them to answer a question rather than answering it yourself &amp;hellip; TODO</description>
     </item>
     
@@ -383,7 +383,7 @@ Point out people that need a little help Encourage them to answer a question rat
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://community.apache.org/mentoring/firstpatch.html</guid>
-      <description>Mentoring: First Patch A beginner&amp;rsquo;s first patch on a project can be an intimidating and frustrating experience. Clearly documenting the entire process from checkout to accepted patch greatly lowers the barrier for a new contributor, and makes it more likely that they&amp;rsquo;ll come back for their second patch.
+      <description>Mentoring: First Patch &amp;para; A beginner&amp;rsquo;s first patch on a project can be an intimidating and frustrating experience. Clearly documenting the entire process from checkout to accepted patch greatly lowers the barrier for a new contributor, and makes it more likely that they&amp;rsquo;ll come back for their second patch.
 Here&amp;rsquo;s some tips on how to do that.
 Outline:
 Talk to the project first Make sure it&amp;rsquo;s wanted/welcome See if there&amp;rsquo;s already work in progress, or suggestions Find someone to be your advocate Finding the source Writing a good commit message Following up on your pull request Learning from your struggle: Improving the documentation </description>
@@ -406,7 +406,7 @@ Guidelines for assessing new candidates for committership Ability to work cooper
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://community.apache.org/newsletter/</guid>
-      <description>Community Development Newsletter The Community Development project has started a monthly newsletter, to keep the larger Apache Community informed of what&amp;rsquo;s happening across the Foundation. If you would like to contribute content to this newsletter, please join the ComDev mailing list where this message is drafted.
+      <description>Community Development Newsletter &amp;para; The Community Development project has started a monthly newsletter, to keep the larger Apache Community informed of what&amp;rsquo;s happening across the Foundation. If you would like to contribute content to this newsletter, please join the ComDev mailing list where this message is drafted.
 April 2017 </description>
     </item>
     
@@ -437,7 +437,7 @@ A community is not merely a set of rules; it is also a set of behaviors that the
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://community.apache.org/events/small-events.html</guid>
-      <description>Approval of small Apache-related events The Community Development PMC is responsible for assisting with the organisation and promotion of all Apache events.
+      <description>Approval of small Apache-related events &amp;para; The Community Development PMC is responsible for assisting with the organisation and promotion of all Apache events.
 Organizers of Apache-related events need approval for using the Apache trademarks in their event brandings.
 The main steps are:
 a) Get approval from the PMCs of the projects that your event is about.
@@ -453,7 +453,7 @@ c) Once brand use is approved by the respective PMCs, inform the community devel
       <guid>https://community.apache.org/speakers/</guid>
       <description>If you are looking for speakers for an event, or are a speaker looking for materials, this is the place for you.
 If you are seeking to organise an Apache-branded event, you must ensure your activities conform to the Third Party Event Branding Policy. Once you have verified you are in conformance, please consider adding your event to the events calendar.
-Finding speakers You can use our &amp;ldquo;Find People&amp;rdquo; application to find speakers willing and able to talk about The Apache Software Foundation and its projects.</description>
+Finding speakers &amp;para; You can use our &amp;ldquo;Find People&amp;rdquo; application to find speakers willing and able to talk about The Apache Software Foundation and its projects.</description>
     </item>
     
     <item>
@@ -473,7 +473,7 @@ Add tasks to the GSOC project Ensure you add the labels gsoc2023, mentor and _YO
       
       <guid>https://community.apache.org/committers/voting.html</guid>
       <description>Occasionally a &amp;ldquo;feel&amp;rdquo; for consensus is not enough. Sometimes we need to have a measurable consensus, for example, when voting to invite new committers or to approve a release.
-Preparing for a Vote It is important to ensure that the community has time to discuss the issue before voting. To do this, post an email to the list indicating the intention to call a vote and the options available. By the time a vote takes place there usually is consensus in the community on what path to take.</description>
+Preparing for a Vote &amp;para; It is important to ensure that the community has time to discuss the issue before voting. To do this, post an email to the list indicating the intention to call a vote and the options available. By the time a vote takes place there usually is consensus in the community on what path to take.</description>
     </item>
     
     <item>

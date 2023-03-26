@@ -12,7 +12,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://community.apache.org/mentoring/</guid>
-      <description>Mentoring A major job of Community Development is mentoring. Mentoring is the process of actively bringing someone along in a discipline - investing your time into influencing the future. Time spent mentoring today will pay off for years to come.
+      <description>Mentoring &amp;para; A major job of Community Development is mentoring. Mentoring is the process of actively bringing someone along in a discipline - investing your time into influencing the future. Time spent mentoring today will pay off for years to come.
 Anyone can be a mentor. You just have to take a moment to encourage someone else to participate.
 Here&amp;rsquo;s some concrete ways you can provide mentoring to other members of your community.</description>
     </item>
@@ -23,7 +23,7 @@ Here&amp;rsquo;s some concrete ways you can provide mentoring to other members o
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://community.apache.org/mentoring/committer.html</guid>
-      <description>Mentoring a new committer So I&amp;rsquo;m a committer now. What&amp;rsquo;s next? What rights do I have now that I didn&amp;rsquo;t have before? What are the social conventions around making a commit?
+      <description>Mentoring a new committer &amp;para; So I&amp;rsquo;m a committer now. What&amp;rsquo;s next? What rights do I have now that I didn&amp;rsquo;t have before? What are the social conventions around making a commit?
 These things vary from one project to another, so clearly documenting them for your particular project is critical.
 Here&amp;rsquo;s the basics that are true across (almost) all Apache projects.
 TODO
@@ -37,7 +37,7 @@ Encouraging other contributors Good commit messages Becoming a PMC member </desc
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://community.apache.org/mentoring/pmc.html</guid>
-      <description>Mentoring a new PMC member So I&amp;rsquo;m a PMC member now. What does this mean? What rights do I have now that I didn&amp;rsquo;t have before? What conversations belong on the private list, as opposed to the public list.
+      <description>Mentoring a new PMC member &amp;para; So I&amp;rsquo;m a PMC member now. What does this mean? What rights do I have now that I didn&amp;rsquo;t have before? What conversations belong on the private list, as opposed to the public list.
 These things vary a little from one project to another, so clearly documenting them for your particular project is critical. And specifically assigning a PMC mentor to new PMC members can greatly help that new member get up to speed, and prevent problems in the future.</description>
     </item>
     
@@ -47,7 +47,7 @@ These things vary a little from one project to another, so clearly documenting t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://community.apache.org/mentoring/mentor.html</guid>
-      <description>Mentoring Mentors The job of a mentor is to reproduce - spread the work load. Once you&amp;rsquo;ve mentored someone, you need to encourage them to become a mentor themselves. Here&amp;rsquo;s some ways you can do that.
+      <description>Mentoring Mentors &amp;para; The job of a mentor is to reproduce - spread the work load. Once you&amp;rsquo;ve mentored someone, you need to encourage them to become a mentor themselves. Here&amp;rsquo;s some ways you can do that.
 Point out people that need a little help Encourage them to answer a question rather than answering it yourself &amp;hellip; TODO</description>
     </item>
     
@@ -57,7 +57,7 @@ Point out people that need a little help Encourage them to answer a question rat
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://community.apache.org/mentoring/firstpatch.html</guid>
-      <description>Mentoring: First Patch A beginner&amp;rsquo;s first patch on a project can be an intimidating and frustrating experience. Clearly documenting the entire process from checkout to accepted patch greatly lowers the barrier for a new contributor, and makes it more likely that they&amp;rsquo;ll come back for their second patch.
+      <description>Mentoring: First Patch &amp;para; A beginner&amp;rsquo;s first patch on a project can be an intimidating and frustrating experience. Clearly documenting the entire process from checkout to accepted patch greatly lowers the barrier for a new contributor, and makes it more likely that they&amp;rsquo;ll come back for their second patch.
 Here&amp;rsquo;s some tips on how to do that.
 Outline:
 Talk to the project first Make sure it&amp;rsquo;s wanted/welcome See if there&amp;rsquo;s already work in progress, or suggestions Find someone to be your advocate Finding the source Writing a good commit message Following up on your pull request Learning from your struggle: Improving the documentation </description>

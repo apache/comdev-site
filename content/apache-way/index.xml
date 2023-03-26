@@ -13,7 +13,7 @@
       
       <guid>https://community.apache.org/apache-way/apache-project-maturity-model.html</guid>
       <description>The Apache Project Maturity Model provides a suggested framework for evaluating the overall maturity of an Apache project community and the codebase that it maintains. While this model is specific to projects of the Apache Software Foundation (ASF), many of these factors apply to any open source project.
-Overview The goals of this maturity model are to describe how Apache projects operate in a concise and high-level way, and to provide a basic framework that projects may choose to use to evaluate themselves.</description>
+Overview &amp;para; The goals of this maturity model are to describe how Apache projects operate in a concise and high-level way, and to provide a basic framework that projects may choose to use to evaluate themselves.</description>
     </item>
     
   </channel>

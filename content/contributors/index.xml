@@ -13,7 +13,7 @@
       
       <guid>https://community.apache.org/contributors/etiquette.html</guid>
       <description>The ASF and our many projects welcome all participants. Before you begin, it is important to review and respect our community guidelines. We have a few ASF-specific tips below.
-Code of Conduct The ASF has adopted a Code of Conduct which covers interactions in all the online spaces that ASF projects use - email, issue trackers, wikis, websites, IRC, and the like. ASF projects are made up of volunteers, and we work to ensure that all productive contributions are welcomed.</description>
+Code of Conduct &amp;para; The ASF has adopted a Code of Conduct which covers interactions in all the online spaces that ASF projects use - email, issue trackers, wikis, websites, IRC, and the like. ASF projects are made up of volunteers, and we work to ensure that all productive contributions are welcomed.</description>
     </item>
     
     <item>
@@ -22,7 +22,7 @@ Code of Conduct The ASF has adopted a Code of Conduct which covers interactions 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://community.apache.org/contributors/becomingacommitter.html</guid>
-      <description>Disclaimer Nothing in this post should be construed as a guarantee. You can do everything listed here, for years, and still not become a committer. This is because the decision is made by individuals on the project PMC, who do things for their own reasons.
+      <description>Disclaimer &amp;para; Nothing in this post should be construed as a guarantee. You can do everything listed here, for years, and still not become a committer. This is because the decision is made by individuals on the project PMC, who do things for their own reasons.
 On the contrary, this document discusses how things should work, and sometimes do work, in some Apache Software Foundation (ASF) projects, but might not on the one you’re interested in.</description>
     </item>
     
@@ -33,7 +33,7 @@ On the contrary, this document discusses how things should work, and sometimes d
       
       <guid>https://community.apache.org/contributors/</guid>
       <description>This page is for people who are reasonably comfortable with open source development models but need a helping hand finding their way around the Apache Software Foundation and our way of developing software (commonly called &amp;ldquo;The Apache Way&amp;rdquo;). For those wishing to start from the very beginning, we have a newcomers page.
-Project Independence And Policies While not all ASF projects practice all aspects of the Apache Way in the same way, there are a number of rules that Apache projects must follow – things like complying with PMC release voting, legal policy, brand policy, using mailing lists, etc.</description>
+Project Independence And Policies &amp;para; While not all ASF projects practice all aspects of the Apache Way in the same way, there are a number of rules that Apache projects must follow – things like complying with PMC release voting, legal policy, brand policy, using mailing lists, etc.</description>
     </item>
     
   </channel>
