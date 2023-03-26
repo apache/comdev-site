@@ -5,11 +5,7 @@
     <link>https://community.apache.org/newsletter.html</link>
     <description>Recent content in Newsletters on Apache Comdev</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    
-	<atom:link href="https://community.apache.org/newsletter/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en</language><atom:link href="https://community.apache.org/newsletter/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>April 2017 Community Newsletter</title>
       <link>https://community.apache.org/newsletter/2017-04.html</link>
@@ -40,7 +36,7 @@ If you blog about anything Apache related, you might want to know about http://p
       
       <guid>https://community.apache.org/newsletter/</guid>
       <description>Community Development Newsletter The Community Development project has started a monthly newsletter, to keep the larger Apache Community informed of what&amp;rsquo;s happening across the Foundation. If you would like to contribute content to this newsletter, please join the ComDev mailing list where this message is drafted.
- April 2017  </description>
+April 2017 </description>
     </item>
     
   </channel>

@@ -5,11 +5,7 @@
     <link>https://community.apache.org/mentoring.html</link>
     <description>Recent content in Mentorings on Apache Comdev</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    
-	<atom:link href="https://community.apache.org/mentoring/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en</language><atom:link href="https://community.apache.org/mentoring/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mentoring</title>
       <link>https://community.apache.org/mentoring/</link>
@@ -32,7 +28,7 @@ These things vary from one project to another, so clearly documenting them for y
 Here&amp;rsquo;s the basics that are true across (almost) all Apache projects.
 TODO
 Outline:
- Encouraging other contributors Good commit messages Becoming a PMC member  </description>
+Encouraging other contributors Good commit messages Becoming a PMC member </description>
     </item>
     
     <item>
@@ -52,7 +48,7 @@ These things vary a little from one project to another, so clearly documenting t
       
       <guid>https://community.apache.org/mentoring/mentor.html</guid>
       <description>Mentoring Mentors The job of a mentor is to reproduce - spread the work load. Once you&amp;rsquo;ve mentored someone, you need to encourage them to become a mentor themselves. Here&amp;rsquo;s some ways you can do that.
- Point out people that need a little help Encourage them to answer a question rather than answering it yourself &amp;hellip;  TODO</description>
+Point out people that need a little help Encourage them to answer a question rather than answering it yourself &amp;hellip; TODO</description>
     </item>
     
     <item>
@@ -64,7 +60,7 @@ These things vary a little from one project to another, so clearly documenting t
       <description>Mentoring: First Patch A beginner&amp;rsquo;s first patch on a project can be an intimidating and frustrating experience. Clearly documenting the entire process from checkout to accepted patch greatly lowers the barrier for a new contributor, and makes it more likely that they&amp;rsquo;ll come back for their second patch.
 Here&amp;rsquo;s some tips on how to do that.
 Outline:
- Talk to the project first  Make sure it&amp;rsquo;s wanted/welcome See if there&amp;rsquo;s already work in progress, or suggestions Find someone to be your advocate   Finding the source Writing a good commit message Following up on your pull request Learning from your struggle: Improving the documentation  </description>
+Talk to the project first Make sure it&amp;rsquo;s wanted/welcome See if there&amp;rsquo;s already work in progress, or suggestions Find someone to be your advocate Finding the source Writing a good commit message Following up on your pull request Learning from your struggle: Improving the documentation </description>
     </item>
     
   </channel>

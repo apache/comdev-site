@@ -5,11 +5,7 @@
     <link>https://community.apache.org/speakers.html</link>
     <description>Recent content in Speakers on Apache Comdev</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    
-	<atom:link href="https://community.apache.org/speakers/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en</language><atom:link href="https://community.apache.org/speakers/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Apache-related slides, videos and presentations</title>
       <link>https://community.apache.org/speakers/slides.html</link>

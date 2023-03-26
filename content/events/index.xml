@@ -5,11 +5,7 @@
     <link>https://community.apache.org/events.html</link>
     <description>Recent content in Events on Apache Comdev</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    
-	<atom:link href="https://community.apache.org/events/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en</language><atom:link href="https://community.apache.org/events/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Requirements for organizers of small Apache-related events</title>
       <link>https://community.apache.org/events/small-events.html</link>

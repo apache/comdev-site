@@ -5,11 +5,7 @@
     <link>https://community.apache.org/committers.html</link>
     <description>Recent content in Committers on Apache Comdev</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    
-	<atom:link href="https://community.apache.org/committers/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en</language><atom:link href="https://community.apache.org/committers/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Committer resources</title>
       <link>https://community.apache.org/committers/</link>

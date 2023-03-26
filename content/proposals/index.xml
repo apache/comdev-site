@@ -5,11 +5,7 @@
     <link>https://community.apache.org/proposals.html</link>
     <description>Recent content in Proposals on Apache Comdev</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    
-	<atom:link href="https://community.apache.org/proposals/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en</language><atom:link href="https://community.apache.org/proposals/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://community.apache.org/proposals/ZestProposal.html</link>
@@ -17,7 +13,7 @@
       
       <guid>https://community.apache.org/proposals/ZestProposal.html</guid>
       <description>title: Zest Proposal
-Abstract  qi4j = new Energy4Java();  That is how to create the Qi4j runtime, and it captures the essence of its spirit. Qi4j is a platform to develop Composite Oriented Programming applications in Java in a new, exciting and productive manner.
+Abstract qi4j = new Energy4Java(); That is how to create the Qi4j runtime, and it captures the essence of its spirit. Qi4j is a platform to develop Composite Oriented Programming applications in Java in a new, exciting and productive manner.
 Governance of Provisional Top Level Project Provisional Top Level Project is a new idea at the ASF, and the Qi4j community is willing to try the idea, instead of simply debating it.</description>
     </item>
     
