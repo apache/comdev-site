@@ -20,3 +20,10 @@ footer.page-footer .footer-copyright {
   background-color: rgba(0,0,0,0.2);
 }
 
+.headerlink {
+  visibility: hidden;
+}
+
+dt:hover > .headerlink, p:hover > .headerlink, td:hover > .headerlink, h1:hover > .headerlink, h2:hover > .headerlink, h3:hover > .headerlink, h4:hover > .headerlink, h5:hover > .headerlink, h6:hover > .headerlink {
+  visibility: visible
+}

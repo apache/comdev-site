@@ -1,0 +1,5 @@
+<h{{ .Level }} id="{{ .Anchor | safeURL }}">{{ .Text | safeHTML }}
+{{- if and (ge .Level 1) (le .Level 4) }}{{" " -}}
+<a class="headerlink" title="Permalink" href="#{{ .Anchor | safeURL }}">&para;</a>
+{{- end -}}
+</h{{ .Level }}>
