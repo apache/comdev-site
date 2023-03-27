@@ -4,7 +4,13 @@ title: ComDevBoardResolution
 The Apache Community Development Project was created in November 2009.
 
 
-<DIV class="code panel" style="border-style: solid;border-width: 1px;"><DIV class="codeHeader panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;"><B>Board Resolution Creating the Apache Community Development Project</B></DIV><DIV class="codeContent panelContent">
+<div class="code panel" style="border-style: solid;border-width: 1px;">
+  <div class="codeHeader panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;">
+    <b>Board Resolution Creating the Apache Community Development Project</b>
+  </div>
+
+  <div class="codeContent panelContent">
+
        Establish the Apache Community Development Project
 
        WHEREAS, the Board of Directors deems it to be in the best
@@ -54,10 +60,11 @@ The Apache Community Development Project was created in November 2009.
        intended to encourage open participation in the Apache
        Community Development Project.
 
-       Special order 3A, establish the Apache Community Development
-Project,
+       Special order 3A, establish the Apache Community Development Project,
        was approved by Unanimous Vote of the directors present.
 
        Furthermore, the board requested that this PMC take over the
        stewardship of the community@ and women@ mailing lists.
 
+  </div>
+</div>
