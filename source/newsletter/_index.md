@@ -1,6 +1,6 @@
 ---
 title: Newsletter
-slug: index
+url: /newsletter/
 ---
 
 # Community Development Newsletter

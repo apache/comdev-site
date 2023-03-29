@@ -1,6 +1,6 @@
 ---
 title: "Community Development: What we do"
-slug: index
+url: /about/
 ---
 
 ## Community Development: What We Do

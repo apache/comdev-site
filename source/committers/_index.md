@@ -1,6 +1,6 @@
 ---
 title: Committer resources
-slug: index
+url: /committers/
 ---
 
 There are a number of useful Apache tools and services available for Apache projects

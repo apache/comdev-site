@@ -1,6 +1,6 @@
 ---
 title: Contributing to the Apache Software Foundation
-slug: index
+url: /contributors/
 ---
 
 This page is for people who are reasonably 

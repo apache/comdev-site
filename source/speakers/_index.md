@@ -1,6 +1,6 @@
 ---
 title: Speaking about Apache, our Projects and our Community
-slug: index
+url: /speakers/
 ---
 
 If you are looking for speakers for an event, or are a speaker looking for 

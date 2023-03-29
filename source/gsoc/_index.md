@@ -1,6 +1,6 @@
 ---
 title: GSoC
-slug: index
+url: /gsoc/
 ---
 
 <div class="card mb-3">

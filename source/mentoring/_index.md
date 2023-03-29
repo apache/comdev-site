@@ -1,6 +1,6 @@
 ---
 title: Mentoring
-slug: index
+url: /mentoring/
 ---
 
 # Mentoring

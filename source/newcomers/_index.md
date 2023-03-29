@@ -1,6 +1,6 @@
 ---
 title: Welcome, Apache newcomers!
-slug: index
+url: /newcomers/
 ---
 
 In this section we'll help you take your first steps as an open source 
