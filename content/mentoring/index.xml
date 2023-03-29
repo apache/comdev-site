@@ -1,22 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mentorings on Apache Comdev</title>
-    <link>https://community.apache.org/mentoring.html</link>
-    <description>Recent content in Mentorings on Apache Comdev</description>
+    <title>Mentoring on Apache Comdev</title>
+    <link>https://community.apache.org/mentoring/</link>
+    <description>Recent content in Mentoring on Apache Comdev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language><atom:link href="https://community.apache.org/mentoring/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Mentoring</title>
-      <link>https://community.apache.org/mentoring/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://community.apache.org/mentoring/</guid>
-      <description>Mentoring &amp;para; A major job of Community Development is mentoring. Mentoring is the process of actively bringing someone along in a discipline - investing your time into influencing the future. Time spent mentoring today will pay off for years to come.
-Anyone can be a mentor. You just have to take a moment to encourage someone else to participate.
-Here&amp;rsquo;s some concrete ways you can provide mentoring to other members of your community.</description>
-    </item>
-    
     <item>
       <title>Mentoring a new committer</title>
       <link>https://community.apache.org/mentoring/committer.html</link>

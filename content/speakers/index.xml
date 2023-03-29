@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Speakers on Apache Comdev</title>
-    <link>https://community.apache.org/speakers.html</link>
-    <description>Recent content in Speakers on Apache Comdev</description>
+    <title>Speaking about Apache, our Projects and our Community on Apache Comdev</title>
+    <link>https://community.apache.org/speakers/</link>
+    <description>Recent content in Speaking about Apache, our Projects and our Community on Apache Comdev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language><atom:link href="https://community.apache.org/speakers/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -26,17 +26,6 @@ Many Apache speakers post their slides to the SlideShare website, and the Feathe
       <description>If you&amp;rsquo;re an Apache committer interested in speaking about Apache Technologies, Apache Projects or the Apache Software Foundation as a whole, we encourage you to get involved and list yourself in our speaker application!
 Finding Speakers &amp;para; If you are organising an event and looking for speakers, see the Apache Speakers homepage for details.
 Listing yourself as a potential speaker &amp;para; To list yourself as someone interested in being an Apache speaker, there are two steps.</description>
-    </item>
-    
-    <item>
-      <title>Speaking about Apache, our Projects and our Community</title>
-      <link>https://community.apache.org/speakers/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://community.apache.org/speakers/</guid>
-      <description>If you are looking for speakers for an event, or are a speaker looking for materials, this is the place for you.
-If you are seeking to organise an Apache-branded event, you must ensure your activities conform to the Third Party Event Branding Policy. Once you have verified you are in conformance, please consider adding your event to the events calendar.
-Finding speakers &amp;para; You can use our &amp;ldquo;Find People&amp;rdquo; application to find speakers willing and able to talk about The Apache Software Foundation and its projects.</description>
     </item>
     
   </channel>
