@@ -11,12 +11,12 @@ Note: This document is bout GSoC, not about a generic Mentoring Program.
 
 We invite all ASF projects to submit their ideas for consideration in the
 ASF mentoring programme. Any Apache member and experienced committers can
-submit ideas via JIRA (if your project does not use JIRA you can [use the Comdev Issue Tracker For GSoC Tasks](use-the-comdev-issue-tracker-for-gsoc-tasks.html). We are looking for as many interesting projects as we can come up with. 
+submit ideas via Jira (if your project does not use Jira you can [use the Comdev Issue Tracker For GSoC Tasks](use-the-comdev-issue-tracker-for-gsoc-tasks.html). We are looking for as many interesting projects as we can come up with. 
 
 <a name="guidetobeingamentor-Summary"></a>
 ## Important Steps
 
-* Add an issue to JIRA (if your project does not use JIRA you can [use the Comdev GSoC Issue Tracker For GSoC Tasks](use-the-comdev-gsoc-issue-tracker-for-gsoc-tasks.html)
+* Add an issue to Jira (if your project does not use Jira you can [use the Comdev GSoC Issue Tracker For GSoC Tasks](use-the-comdev-gsoc-issue-tracker-for-gsoc-tasks.html)
   * Add sub-tasks if necessary
 * Label the main issue with "*mentor*" (these will show up at the [ASF-wide list of issues](https://issues.apache.org/jira/issues?jql=labels%20in%20(gsoc2023)%20AND%20labels%20in%20(mentor,%20Mentor)))
 * Label the main issue with "*gsoc2023*" if appropriate (these will show up at [GSoC 2023 Ideas](https://s.apache.org/gsoc2023ideas))
@@ -33,7 +33,7 @@ Please NOTE Ideas list is manually updated by GSoC admins, please ping mentors (
 <a name="guidetobeingamentor-Detail"></a>
 ## Details
 
-To ensure we include your JIRA issues in our list of mentored projects,
+To ensure we include your Jira issues in our list of mentored projects,
 please add the label "mentor" to the issue. If you want it to be included
 in the Google Summer of Code lists also add the "gsoc" label. If you want
 to include a number of issues in a single mentored project, please create a

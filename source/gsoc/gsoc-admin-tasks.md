@@ -7,9 +7,9 @@ A comprehensive guide to being a GSoC admin for the ASF
 List of duties:
 
 1. Make sure the ASF has an extensive list of project ideas ready shortly after Google announces the
-program (around the end of January). Projects must create JIRA issues for their ideas and
-label them with `gsoc<year>;` and `mentor`. If a project doesn't use JIRA, have them create the ideas in the COMDEV
-JIRA project. Create a JIRA filter for these ideas to use in the application (see next). Have
+program (around the end of January). Projects must create Jira issues for their ideas and
+label them with `gsoc<year>;` and `mentor`. If a project doesn't use Jira, have them create the ideas in the GSOC
+Jira project. Create a Jira filter for these ideas to use in the application (see next). Have
 prospective mentors subscribe to `mentors@community.apache.org`. The following is an email sent to `pmcs@a.o`
 explaining the procedures to them:
 
@@ -22,7 +22,7 @@ contributors to your projects.
 If you want to participate with your project you now need to
 
  - understand what it means to be a mentor [1]
- - propose your project ideas. Just label your issues with gsoc2023 in JIRA and
+ - propose your project ideas. Just label your issues with gsoc2023 in Jira and
    they will show up at [2]. See also [1].
  - subscribe to mentors@community.apache.org (restricted to potential mentors, meant to be used
    as a private list - general discussions on the public

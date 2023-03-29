@@ -16,7 +16,7 @@ drafts for the various communications that are necessary.
 ## Guidelines for assessing new candidates for committership
 
 When voting, all PMC members need to make up their own minds as to whether a candidate
-should be approved to become a committer. They might search mailing lists and JIRA to see
+should be approved to become a committer. They might search mailing lists and Jira to see
 how the candidate interacts with others, and the contributions (code or doc patches, suggestions, engagement in conversation) they have made.
 
 All new committers **must** adhere to the [Apache Code of Conduct](https://www.apache.org/foundation/policies/conduct.html).
@@ -89,7 +89,7 @@ Use the Whimsy tool to update the roster via https://whimsy.apache.org/roster/co
    1. Wait until root says it is done
    1. PMC Chair updates LDAP group membership which enables svn, gitbox and other access.
 If the committer uses GitHub, they are responsible for linking it to their ASF account.
-   1. Add committer to the appropriate groups in JIRA and CWiki
+   1. Add committer to the appropriate groups in Jira and CWiki
 1. Notify the committer of completion (template/committerDone.txt)
 1. If committer is also to be a PMC member, PMC Chair sends email to board@ asking for acknowledgement of new PMC member
 (templates/email-member-ack.txt)
