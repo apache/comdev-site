@@ -2,6 +2,15 @@
 title: Apache Community Development - Welcome
 ---
 
+<link href="/_pagefind/pagefind-ui.css" rel="stylesheet">
+<script src="/_pagefind/pagefind-ui.js" type="text/javascript"></script>
+<div id="search"></div>
+<script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+        new PagefindUI({ element: "#search" });
+    });
+</script>
+
 <div class="jumbotron">
 <a href="https://www.apache.org/events/current-event.html"><img src="https://www.apache.org/events/current-event-125x125.png" style="float: right;"/></a>
 

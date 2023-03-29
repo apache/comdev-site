@@ -58,6 +58,7 @@ pipeline {
                     withEnv(["PATH+HUGO=${env.HUGO_DIR}/bin"]) {
                         sh "hugo --destination ${env.OUT_DIR}"
                     }
+                    sh "npx -y pagefind --source ${env.OUT_DIR}"
                 }
             }
         }
