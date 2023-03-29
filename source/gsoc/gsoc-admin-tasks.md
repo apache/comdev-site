@@ -1,5 +1,7 @@
 ---
-title: GSoC admins 
+title: GSoC admins
+aliases:
+- /gsoc-admin-tasks.html
 ---
 
 A comprehensive guide to being a GSoC admin for the ASF

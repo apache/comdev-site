@@ -1,6 +1,8 @@
 ---
 title: GSoC
 url: /gsoc/
+aliases:
+- /gsoc.html
 ---
 
 <div class="card mb-3">

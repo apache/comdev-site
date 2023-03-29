@@ -1,5 +1,7 @@
 ---
 title: Apache in GSoC
+aliases:
+- /mentoring/experiences.html
 ---
 
 *This should be in the GSoC directory*

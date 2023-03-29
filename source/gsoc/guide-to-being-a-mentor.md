@@ -1,5 +1,7 @@
 ---
-title: guide to being a mentor
+title: Guide to being a mentor
+aliases:
+- /guide-to-being-a-mentor.html
 ---
 
 <!--

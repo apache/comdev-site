@@ -1,5 +1,7 @@
 ---
 title: Use the Comdev Issue Tracker For GSoC Tasks
+aliases:
+- /use-the-comdev-issue-tracker-for-gsoc-tasks.html
 ---
 
 If your project does not use the ASF Jira for issue tracking, you can use

@@ -1,5 +1,7 @@
 ---
 title: Mentee Ranking Process
+aliases:
+- /mentee-ranking-process.html
 ---
 
 This page describes the ranking process The Apache Software
