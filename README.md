@@ -39,8 +39,10 @@ Other Apache websites that are built with Hugo should be listed by [this GitHub 
 
 ## How to test the website and changes on your own computer
 
-To generate the static website, execute `hugo` to generate the website under `target/content`
+To generate the static website, execute `hugo` to generate the website under `target/content` and execute
+`npx -y pagefind --source target/content` to index the content for Pagefind (the search bar on the website).
 
-During development, it may be useful to run an incremental build. For this to work, execute `hugo server -D` to 
-continuously (re)generate and serve the website on `localhost:1313`. (-D means include draft pages)
-
+During development, it may be useful to run an incremental build. For this to work, execute
+`hugo server -D -d /tmp/comdev-generated-site` to continuously (re)generate and serve the website on `localhost:1313`
+(-D means include draft pages). In another terminal, execute `npx -y pagefind --source /tmp/comdev-generated-site` to
+index the site content for Pagefind (the search bar on the website).
