@@ -36,7 +36,8 @@ pipeline {
                     env.LAST_SHA = sh(script:'git log -n 1 --pretty=format:\'%H\'', returnStdout: true).trim()
 
                     // Setup Hugo
-                    // env.HUGO_DIR = sh(script:'mktemp -d', returnStdout: true).trim()
+                    env.HUGO_DIR = sh(script:'mktemp -d', returnStdout: true).trim()
+                    sh "mkdir -p ${env.HUGO_DIR}/bin"
                     // sh """
                     //     mkdir -p ${env.HUGO_DIR}/bin
                     //     cd ${env.HUGO_DIR}
@@ -48,8 +49,8 @@ pipeline {
                     // assert hugo_hash == 'b382aacb522a470455ab771d0e8296e42488d3ea4e61fe49c11c32ec7fb6ee8b'
 
                     // Setup pagefind
-                    sh "wget --no-verbose -O pagefind.tar.gz https://github.com/CloudCannon/pagefind/releases/download/v${PAGEFIND_VERSION}/pagefind-v${PAGEFIND_VERSION}-x86_64-unknown-linux-musl.tar.gz"
-                    def hash = sha256 file: 'pagefind.tar.gz'
+                    sh "wget --no-verbose -O ${env.HUGO_DIR}/pagefind.tar.gz https://github.com/CloudCannon/pagefind/releases/download/v${PAGEFIND_VERSION}/pagefind-v${PAGEFIND_VERSION}-x86_64-unknown-linux-musl.tar.gz"
+                    def hash = sha256 file: "${env.HUGO_DIR}/pagefind.tar.gz"
                     assert hash == '3e450176562b65359f855c04894ec2c07ffd30a8d08ef4d5812f8d3469d7a58f'
                     sh "tar -C ${env.HUGO_DIR}/bin -xkf pagefind.tar.gz"
 
