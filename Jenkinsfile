@@ -26,7 +26,6 @@ pipeline {
         HUGO_VERSION = '0.111.3'
         DEPLOY_BRANCH = 'asf-site'
         PAGEFIND_VERSION = '0.12.0'
-        PAGEFIND_SHA256 = '3e450176562b65359f855c04894ec2c07ffd30a8d08ef4d5812f8d3469d7a58f'
     }
 
     stages {
@@ -48,8 +47,8 @@ pipeline {
 
                     // Setup pagefind
                     sh "wget --no-verbose -O pagefind.tar.gz https://github.com/CloudCannon/pagefind/releases/download/v${PAGEFIND_VERSION}/pagefind-v${PAGEFIND_VERSION}-x86_64-unknown-linux-musl.tar.gz"
-                    def hash = sha256(file: 'pagefind.tar.gz')
-                    assert hash == ${PAGEFIND_SHA256}
+                    def hash = sha256 file: 'pagefind.tar.gz'
+                    assert hash == '3e450176562b65359f855c04894ec2c07ffd30a8d08ef4d5812f8d3469d7a58f'
                     sh "tar -C ${env.HUGO_DIR}/bin -xkf pagefind.tar.gz"
 
                     // Setup directory structure for generated content
