@@ -56,6 +56,8 @@ pipeline {
         stage('Build') {
             steps {
                 script {
+                    sh 'for i in $(which -a hugo) ; do echo $i; $i version; done'
+                    sh 'hugo version'
                     sh "hugo --destination ${env.OUT_DIR}"
                     sh "${env.PAGEFIND_DIR}/bin/pagefind --source ${env.OUT_DIR}"
                 }
