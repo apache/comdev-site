@@ -1,25 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Apache Related Event Calendars on Apache Comdev</title>
     <link>https://community.apache.org/calendars/</link>
     <description>Recent content in Apache Related Event Calendars on Apache Comdev</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Wed, 29 Mar 2023 11:49:44 +0200</lastBuildDate>
-    
-	<atom:link href="https://community.apache.org/calendars/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en</language><atom:link href="https://community.apache.org/calendars/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Apache Conferences Calendar</title>
       <link>https://community.apache.org/calendars/conferences.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://community.apache.org/calendars/conferences.html</guid>
-      <description>Deprecated - See New Calendar instead This calendar is no longer maintained; please see this page instead.
+      <description>Deprecated - See New Calendar instead &amp;para; This calendar is no longer maintained; please see this page instead.
 This Calendar is maintained by the Apache Community Development Committee (ComDev), to have your event listed considered for addition please mail dev@community.apache.org. Note that to be listed in this calendar events must conform to the Third Party Event Branding Policy.
-Upcoming events  List loading   This Calendar is also available as an iCal feed</description>
+Upcoming events &amp;para;  List loading   This Calendar is also available as an iCal feed</description>
     </item>
     
   </channel>

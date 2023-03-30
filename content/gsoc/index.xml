@@ -1,16 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>GSoC on Apache Comdev</title>
     <link>https://community.apache.org/gsoc/</link>
     <description>Recent content in GSoC on Apache Comdev</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Wed, 29 Mar 2023 11:49:44 +0200</lastBuildDate>
-    
-	<atom:link href="https://community.apache.org/gsoc/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en</language><atom:link href="https://community.apache.org/gsoc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Apache in GSoC</title>
       <link>https://community.apache.org/gsoc/experiences.html</link>
@@ -19,7 +14,7 @@
       <guid>https://community.apache.org/gsoc/experiences.html</guid>
       <description>This should be in the GSoC directory
 This is a place for collecting information about GSoC activities each year for historical tracking. It was started in 2012 so is missing plenty of detail in the early years. Your help filling it out would be appreciated.
-2018 Overview  Students accepted: ? Students who passed final: 29  2017 Overview  Students accepted: ? Students who passed final: 27  2016 Overview  Students accepted: 49 Students who passed final: 35  2015 Overview  Students accepted: 56 Students who passed final: 47  2014 Overview  Students accepted: 42 Students who passed final: 35  2013 Overview  Students accepted: 51 Students who passed final: 44  2012 Overview  Students accepted: 41 Students who passed midterm: 40 26 projects mentoring (17 TLPs and 9 Podlings)  Participating TLPS are: Xerces, Pig, OODT, Hive, James, Tapestry, Ofbiz, Gora, Synapse, Derby, Axis, POI, Whirr, Lucene, Velocity, Libcloud, Xalan Participating Podlings are: ODF Toolkit, Airavata, Stanbol, Photark, Wookie, OpenMeetings, Nuvem, Hama, VXQuery   2012 Blogs  Scott Wilson: Wookie Mentor Pushpalanka: Wookie Student Mike McCandless: Lucene Mentor Bhathiya Jayasekara: Airavata Student OpenMeetings Mentors: Sebastian Wagner, Alexei Fedotov, Maxim Solodovnik - Students: Ankur Ankan, German Grekhov, Dmitry Zamula, Josh Dolitsky   2011 Overview  Students accepted: 40 Students who passed midterm: 38 Students who passed final: 36  2010 Overview  Students accepted: 44 Students who passed final: 39  2005 First year Apache participated</description>
+2018 Overview &amp;para;  Students accepted: ? Students who passed final: 29  2017 Overview &amp;para;  Students accepted: ? Students who passed final: 27  2016 Overview &amp;para;  Students accepted: 49 Students who passed final: 35  2015 Overview &amp;para;  Students accepted: 56 Students who passed final: 47  2014 Overview &amp;para;  Students accepted: 42 Students who passed final: 35  2013 Overview &amp;para;  Students accepted: 51 Students who passed final: 44  2012 Overview &amp;para;  Students accepted: 41 Students who passed midterm: 40 26 projects mentoring (17 TLPs and 9 Podlings)  Participating TLPS are: Xerces, Pig, OODT, Hive, James, Tapestry, Ofbiz, Gora, Synapse, Derby, Axis, POI, Whirr, Lucene, Velocity, Libcloud, Xalan Participating Podlings are: ODF Toolkit, Airavata, Stanbol, Photark, Wookie, OpenMeetings, Nuvem, Hama, VXQuery    2012 Blogs &amp;para;  Scott Wilson: Wookie Mentor Pushpalanka: Wookie Student Mike McCandless: Lucene Mentor Bhathiya Jayasekara: Airavata Student OpenMeetings Mentors: Sebastian Wagner, Alexei Fedotov, Maxim Solodovnik - Students: Ankur Ankan, German Grekhov, Dmitry Zamula, Josh Dolitsky   2011 Overview &amp;para;  Students accepted: 40 Students who passed midterm: 38 Students who passed final: 36  2010 Overview &amp;para;  Students accepted: 44 Students who passed final: 39  2005 &amp;para; First year Apache participated</description>
     </item>
     
     <item>
@@ -31,6 +26,17 @@ This is a place for collecting information about GSoC activities each year for h
       <description>A comprehensive guide to being a GSoC admin for the ASF
 List of duties:
  Make sure the ASF has an extensive list of project ideas ready shortly after Google announces the program (around the end of January). Projects must create Jira issues for their ideas and label them with gsoc&amp;lt;year&amp;gt;; and mentor. If a project doesn&amp;rsquo;t use Jira, have them create the ideas in the GSOC Jira project. Create a Jira filter for these ideas to use in the application (see next).</description>
+    </item>
+    
+    <item>
+      <title>guide to being a mentor</title>
+      <link>https://community.apache.org/gsoc/guide-to-being-a-mentor.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/gsoc/guide-to-being-a-mentor.html</guid>
+      <description>Submitting ideas to the mentoring programme &amp;para; We invite all ASF projects to submit their ideas for consideration in the ASF mentoring programme. Any Apache member and experienced committers can submit ideas via Jira (if your project does not use Jira you can use the Comdev Issue Tracker For GSoC Tasks. We are looking for as many interesting projects as we can come up with.
+
+Important Steps &amp;para;  Add an issue to Jira (if your project does not use Jira you can use the Comdev GSoC Issue Tracker For GSoC Tasks  Add sub-tasks if necessary   Label the main issue with &amp;ldquo;mentor&amp;rdquo; (these will show up at the ASF-wide list of issues) Label the main issue with &amp;ldquo;gsoc2023&amp;rdquo; if appropriate (these will show up at GSoC 2023 Ideas)  Size of project Starting this year there are 2 types of projects available.</description>
     </item>
     
     <item>
@@ -52,17 +58,6 @@ Remember, mentoring is all about the mentee and open source as a whole. It is no
       <guid>https://community.apache.org/gsoc/use-the-comdev-gsoc-issue-tracker-for-gsoc-tasks.html</guid>
       <description>If your project does not use the ASF Jira for issue tracking, you can use the ComDev GSoC Jira project to record your GSoC tasks.
  Add tasks to the GSOC project Ensure you add the labels gsoc2023, mentor and _YOUR_PROJECT_NAME_ Your issues will appear in the list of projects We use the label _YOUR_PROJECT_NAME_ to map COMDEV issues to the real project when we create the ideas list  Please contact dev@community.</description>
-    </item>
-    
-    <item>
-      <title>guide to being a mentor</title>
-      <link>https://community.apache.org/gsoc/guide-to-being-a-mentor.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://community.apache.org/gsoc/guide-to-being-a-mentor.html</guid>
-      <description>Submitting ideas to the mentoring programme We invite all ASF projects to submit their ideas for consideration in the ASF mentoring programme. Any Apache member and experienced committers can submit ideas via Jira (if your project does not use Jira you can use the Comdev Issue Tracker For GSoC Tasks. We are looking for as many interesting projects as we can come up with.
-
-Important Steps  Add an issue to Jira (if your project does not use Jira you can use the Comdev GSoC Issue Tracker For GSoC Tasks  Add sub-tasks if necessary  Label the main issue with &amp;ldquo;mentor&amp;rdquo; (these will show up at the ASF-wide list of issues) Label the main issue with &amp;ldquo;gsoc2023&amp;rdquo; if appropriate (these will show up at GSoC 2023 Ideas)  Size of project Starting this year there are 2 types of projects available.</description>
     </item>
     
   </channel>
