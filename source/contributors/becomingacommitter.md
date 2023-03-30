@@ -101,7 +101,7 @@ Find your project’s [committer and PMC membership lists](https://projects.apac
 
 Read [mailing list archives](https://lists.apache.org/)
 
-Find your contribution count to date on Github, for example: [Apache hadoop contributors](https://github.com/apache/hadoop/graphs/contributors) (You can drag a date range to narrow it down to recent contributions.)
+Find your contribution count to date on Github, for example: [Apache Hadoop contributors](https://github.com/apache/hadoop/graphs/contributors) (You can drag a date range to narrow it down to recent contributions.)
 
 View [past board reports from your project](https://www.apache.org/foundation/board/calendar.html). This is a good way to judge the rate at which a given project adds committers and PMC members. It’s also a way to compare how long other individuals took to attain committer status.
 
