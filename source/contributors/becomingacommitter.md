@@ -15,40 +15,40 @@ It’s important to remember that becoming a committer is not a reward, or a rec
 
 These, therefore, are the behaviors that you should exhibit if you want to become a committer, and then a PMC member, on an ASF project. (These are not unique to ASF projects, of course, but process will differ greatly from one project to another, and are largely similar among ASF projects.)
 
-# Read the mailing list
+## Read the mailing list
 ASF projects communicate on the mailing list. If you want to be involved in the community, you must set aside time every week (preferably every day) to keep current on the community discussion.
 
 When first participating in an ASF project, you can (and should) look back several months (or as far as you have time for) to see what has been discussed recently. You can do this at [lists.apache.org](http://lists.apache.org/).
 
 A growing number of projects also have a presence on Slack, Discord, or somewhere else. Find where that is, and become a regular. A shrinking number of projects have a presence on Libera IRC – mostly the much older projects. This is where you’ll connect with the older members of the projects and learn more of the ancient project lore.
 
-# Contribute code (and other things)
+## Contribute code (and other things)
 If you want to become a committer, you should make significant contributions to the project. The most obvious thing to contribute to a software project is code. Code contributions should be diverse in terms of size and significance. That is, you should work on small issues and large. You should collaborate with others on features and fixes, and you should propose significant changes yourself. You should dig up old tickets, and work towards resolving them.
 
 In particular, you should work on code that is of benefit to all users, rather than focusing solely on features that benefit only yourself, or your employer. As a project owner, you should care about the entire health and sustainability of the project.
 
 Code contributions are not the only type of contribution that counts towards becoming a committer, it’s just the most common. Design, documentation, marketing, event management, and many other ways of contributing to the success of a project are also often considered in making someone a committer. While the term “committer” implies committing code, it can also be interpreted as someone who is committed to the project.
 
-# End user support
+## End user support
 Answering end user questions has many benefits. It’s the best way to establish expertise in aspects of the software that effect actual users, and, thus, the best way to stay in touch with user concerns. It’s also the way to establish and maintain visibility in the project community, because your name is always visible on the mailing list.
 
 Caution: Do not just jump in and answer every question with visibility as a primary goal. Ensure that your answers are actually useful, and contribute something to the conversation. Simply posting to every conversation, particularly when someone else has already offered a good answer, can be perceived as attempting to game the metrics.
 
-# Documentation
+## Documentation
 Improving the documentation is one of the most effective things that one can do to improve the user experience. If you notice many people asking similar questions, this is usually an indication that the documentation is weak on that point. Fix it. When the question is asked again, point to the improved documentation, and ask for feedback as to how it could be further improved.
 
 Take criticism of the documentation as a challenge, rather than a personal criticism.
 
 As you learn about the project, consider yourself a tester of the documentation. If anything is unclear, propose a patch.
 
-# Review PRs and tickets
+## Review PRs and tickets
 Dig into unmerged PRs and outstanding tickets. Figure out how to navigate the process to get an old ticket resolved, or a PR merged.
 
 This is an investment in the project in two ways.
 
 The obvious improvement is getting an issue fixed or a PR merged, thus enhancing the project. The less obvious way is that ancient tickets, and unmerged PRs, communicate that the project is not actively maintained, and that user issues are being ignored. This undermines project trust. Thus, addressing these things builds community trust, and increases your personal value to the project.
 
-# Be visible
+## Be visible
 Participate meaningfully in discussions on the developer mailing list. Drive discussions through to action. Advocate for changes that help yourself and your employer, but also for those that improve the project as a whole.
 
 Get to know the important characters on the project, and what their priorities are. Help them achieve those priorities in whatever way you can. Figure out who you can best collaborate with to advance your own personal interests in the project, but also the overall health of the project and community.
@@ -57,7 +57,7 @@ Start conversations around topics you’re passionate about, and volunteer to be
 
 Do not, however, just talk to be seen. Nobody is fooled by that.
 
-# Test, and vote on releases (non-binding)
+## Test, and vote on releases (non-binding)
 
 Testing releases, and then reporting problems or suggesting
 improvements, is one of the most important functions of users, and is an
@@ -77,7 +77,7 @@ Note that a vote should always mean that you’ve actually tested, so testing re
 
 While these votes don’t "count" towards making a release official, it’s both hugely beneficial for the project, and increases your visibility.
 
-# Give talks
+## Give talks
 Propose talks to conferences about the project, and about how your employer’s customers are using it.
 
 Proposing "Introduction to Apache Woobly" talks has many benefits. It is a great way to get the word out about the project. It’s good for establishing yourself as an expert in the field. It educates users (and potential customers) about operating the software. And it will help you identify what’s actually important about the software, how people use it, and what kinds of questions real users are asking about the software.
