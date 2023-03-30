@@ -1,158 +1,265 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
   <url>
     <loc>https://community.apache.org/proposals/ZestProposal.html</loc>
     <lastmod>2020-07-20T20:22:04+02:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://community.apache.org/apache-way/apache-project-maturity-model.html</loc>
     <lastmod>2021-06-21T10:25:49+02:00</lastmod>
-  </url><url>
-    <loc>https://community.apache.org/</loc>
-    <lastmod>2023-03-27T22:33:33+01:00</lastmod>
-  </url><url>
-    <loc>https://community.apache.org/calendars/conferences.html</loc>
-    <lastmod>2020-07-20T20:22:04+02:00</lastmod>
-  </url><url>
-    <loc>https://community.apache.org/gsoc/experiences.html</loc>
-    <lastmod>2023-03-21T10:25:42+07:00</lastmod>
-  </url><url>
-    <loc>https://community.apache.org/newbiefaq.html</loc>
-    <lastmod>2023-03-17T12:26:02-04:00</lastmod>
-  </url><url>
-    <loc>https://community.apache.org/calendars/</loc>
-    <lastmod>2023-03-29T11:49:44+02:00</lastmod>
-  </url><url>
-    <loc>https://community.apache.org/speakers/slides.html</loc>
-    <lastmod>2023-03-17T10:04:48-04:00</lastmod>
-  </url><url>
-    <loc>https://community.apache.org/apache-way.html</loc>
-    <lastmod>2021-06-21T10:25:49+02:00</lastmod>
-  </url><url>
-    <loc>https://community.apache.org/newsletter/2017-04.html</loc>
-    <lastmod>2020-07-20T20:22:04+02:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://community.apache.org/contributors/etiquette.html</loc>
     <lastmod>2023-03-17T12:29:24-05:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
+    <loc>https://community.apache.org/</loc>
+    <lastmod>2023-03-29T19:12:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://community.apache.org/calendars/conferences.html</loc>
+    <lastmod>2020-07-20T20:22:04+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://community.apache.org/newbiefaq.html</loc>
+    <lastmod>2023-03-17T12:26:02-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://community.apache.org/calendars/</loc>
+    <lastmod>2023-03-29T11:49:44+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://community.apache.org/gsoc/experiences.html</loc>
+    <lastmod>2023-03-21T10:25:42+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://community.apache.org/speakers/slides.html</loc>
+    <lastmod>2023-03-17T10:04:48-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://community.apache.org/apache-way.html</loc>
+    <lastmod>2021-06-21T10:25:49+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://community.apache.org/newsletter/2017-04.html</loc>
+    <lastmod>2020-07-20T20:22:04+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://community.apache.org/contributors/becomingacommitter.html</loc>
     <lastmod>2023-03-21T17:21:46-04:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://community.apache.org/boardreport.html</loc>
     <lastmod>2023-03-21T14:07:43-04:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://community.apache.org/comdevboardreports.html</loc>
     <lastmod>2023-03-21T13:34:10-04:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://community.apache.org/history/boardresolution.html</loc>
     <lastmod>2023-03-27T22:49:45+01:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://community.apache.org/committers/</loc>
     <lastmod>2023-03-29T11:49:44+02:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://community.apache.org/lists.html</loc>
     <lastmod>2020-12-15T09:34:12-04:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://community.apache.org/about/</loc>
     <lastmod>2023-03-29T11:49:44+02:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://community.apache.org/committers/consensusBuilding.html</loc>
     <lastmod>2020-12-02T09:52:19-04:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://community.apache.org/contactpoints.html</loc>
     <lastmod>2020-12-10T09:12:00-04:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://community.apache.org/contributors/</loc>
     <lastmod>2023-03-29T11:49:44+02:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://community.apache.org/committers/decisionMaking.html</loc>
     <lastmod>2021-01-15T09:22:16-04:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://community.apache.org/events.html</loc>
     <lastmod>2020-07-20T20:22:04+02:00</lastmod>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://community.apache.org/committers/funding-disclaimer.html</loc>
     <lastmod>2021-07-06T11:05:05-04:00</lastmod>
-  </url><url>
-    <loc>https://community.apache.org/gettingStarted/101.html</loc>
-    <lastmod>2023-03-29T19:28:51+01:00</lastmod>
-  </url><url>
-    <loc>https://community.apache.org/gettingstarted.html</loc>
-    <lastmod>2023-03-29T19:28:51+01:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://community.apache.org/gsoc/</loc>
     <lastmod>2023-03-29T11:49:44+02:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://community.apache.org/gsoc/gsoc-admin-tasks.html</loc>
     <lastmod>2023-03-29T19:28:51+01:00</lastmod>
-  </url><url>
-    <loc>https://community.apache.org/gsoc/guide-to-being-a-mentor.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://community.apache.org/gettingStarted/101.html</loc>
     <lastmod>2023-03-29T19:28:51+01:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
+    <loc>https://community.apache.org/gettingStarted.html</loc>
+    <lastmod>2023-03-29T19:28:51+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://community.apache.org/history.html</loc>
-    <lastmod>2023-03-27T22:49:45+01:00</lastmod>
-  </url><url>
+    <lastmod>2023-03-17T12:26:02-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://community.apache.org/mentor-request-mail.html</loc>
     <lastmod>2020-12-13T09:34:53-04:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://community.apache.org/committers/lazyConsensus.html</loc>
     <lastmod>2022-02-20T11:10:20-04:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://community.apache.org/links.html</loc>
     <lastmod>2023-03-16T12:35:40-04:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://community.apache.org/speakers/speakers.html</loc>
     <lastmod>2021-07-05T14:07:56-03:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://community.apache.org/newsletter/2017-05.html</loc>
     <lastmod>2020-07-20T20:22:04+02:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://community.apache.org/gsoc/mentee-ranking-process.html</loc>
     <lastmod>2023-03-21T10:25:42+07:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://community.apache.org/mentoring/</loc>
     <lastmod>2023-03-29T11:49:44+02:00</lastmod>
-  </url><url>
-    <loc>https://community.apache.org/mentoring/committer.html</loc>
-    <lastmod>2023-03-17T12:26:02-04:00</lastmod>
-  </url><url>
-    <loc>https://community.apache.org/mentoring/pmc.html</loc>
-    <lastmod>2023-03-17T12:26:02-04:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://community.apache.org/mentoring/mentor.html</loc>
     <lastmod>2020-03-24T15:03:46+01:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
+    <loc>https://community.apache.org/mentoring/pmc.html</loc>
+    <lastmod>2023-03-17T12:26:02-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://community.apache.org/mentoring/committer.html</loc>
+    <lastmod>2023-03-17T12:26:02-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://community.apache.org/mentoring/firstpatch.html</loc>
     <lastmod>2023-03-17T12:26:02-04:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://community.apache.org/newcommitter.html</loc>
     <lastmod>2023-03-29T19:28:51+01:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://community.apache.org/newsletter/</loc>
     <lastmod>2023-03-29T11:49:44+02:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://community.apache.org/history/mentoringprogramme-icfoss-pilot.html</loc>
     <lastmod>2023-03-17T12:26:02-04:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://community.apache.org/projectIndependence.html</loc>
     <lastmod>2022-01-07T11:22:24-08:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://community.apache.org/proposals.html</loc>
     <lastmod>2020-07-20T20:22:04+02:00</lastmod>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://community.apache.org/events/small-events.html</loc>
     <lastmod>2020-07-20T20:22:04+02:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://community.apache.org/speakers/</loc>
     <lastmod>2023-03-29T11:49:44+02:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://community.apache.org/gsoc/use-the-comdev-gsoc-issue-tracker-for-gsoc-tasks.html</loc>
     <lastmod>2023-03-21T13:35:34+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://community.apache.org/committers/voting.html</loc>
     <lastmod>2022-02-20T11:05:53-04:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://community.apache.org/newcomers/</loc>
     <lastmod>2023-03-29T11:49:44+02:00</lastmod>
   </url>
+  
+  <url>
+    <loc>https://community.apache.org/gsoc/guide-to-being-a-mentor.html</loc>
+    <lastmod>2023-03-29T19:28:51+01:00</lastmod>
+  </url>
+  
 </urlset>

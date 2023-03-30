@@ -1,10 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Community Development: What we do on Apache Comdev</title>
     <link>https://community.apache.org/about/</link>
     <description>Recent content in Community Development: What we do on Apache Comdev</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://community.apache.org/about/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Wed, 29 Mar 2023 11:49:44 +0200</lastBuildDate>
+    
+	<atom:link href="https://community.apache.org/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
   </channel>
 </rss>

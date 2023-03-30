@@ -8,12 +8,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <meta property="og:title" content="Listing yourself as a Potential Speaker" />
 <meta property="og:description" content="If you&rsquo;re an Apache committer interested in speaking about Apache Technologies, Apache Projects or the Apache Software Foundation as a whole, we encourage you to get involved and list yourself in our speaker application!
-Finding Speakers &para; If you are organising an event and looking for speakers, see the Apache Speakers homepage for details.
-Listing yourself as a potential speaker &para; To list yourself as someone interested in being an Apache speaker, there are two steps." />
+Finding Speakers If you are organising an event and looking for speakers, see the Apache Speakers homepage for details.
+Listing yourself as a potential speaker To list yourself as someone interested in being an Apache speaker, there are two steps." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://community.apache.org/speakers/speakers.html" /><meta property="og:image" content="https://community.apache.org/images/aceu19_1.jpg"/><meta property="article:section" content="speakers" />
+<meta property="og:url" content="https://community.apache.org/speakers/speakers.html" />
 
-<meta property="article:modified_time" content="2021-07-05T14:07:56-03:00" /><meta property="og:site_name" content="Apache Community Development" />
+
+
+
+<meta property="article:modified_time" content="2021-07-05T14:07:56-03:00"/>
+
+<meta property="og:site_name" content="Apache Community Development" />
+
+
+
+
+
+
+
+
+
 
 
   <title>Apache Community Development - Listing yourself as a Potential Speaker</title>
@@ -189,24 +203,34 @@ Listing yourself as a potential speaker &para; To list yourself as someone inter
 
       <hr>
       
-	<p>If you&rsquo;re an Apache committer interested in speaking about Apache
+	
+
+<p>If you&rsquo;re an Apache committer interested in speaking about Apache
 Technologies, Apache Projects or the Apache Software Foundation as a whole,
 we encourage you to get involved and list yourself in our speaker
 application!</p>
-<h2 id="finding-speakers">Finding Speakers <a class="headerlink" title="Permalink" href="#finding-speakers">&para;</a></h2>
+
+<h2 id="finding-speakers">Finding Speakers</h2>
+
 <p>If you are organising an event and looking for speakers, see
 <a href="/speakers/">the Apache Speakers homepage</a> for details.</p>
-<h2 id="listing-yourself-as-a-potential-speaker">Listing yourself as a potential speaker <a class="headerlink" title="Permalink" href="#listing-yourself-as-a-potential-speaker">&para;</a></h2>
+
+<h2 id="listing-yourself-as-a-potential-speaker">Listing yourself as a potential speaker</h2>
+
 <p>To list yourself as someone interested in being an Apache speaker, there are
 two steps. The first is to create a FOAF (&ldquo;friend of a friend&rdquo;) file for yourself that includes
 a couple of key pieces of information. The second is to list yourself in the
 speaking DOAP (&ldquo;description of a project&rdquo;) file.</p>
-<h3 id="creating-your-foaf-file">Creating your FOAF file <a class="headerlink" title="Permalink" href="#creating-your-foaf-file">&para;</a></h3>
+
+<h3 id="creating-your-foaf-file">Creating your FOAF file</h3>
+
 <p>If you do not already have a FOAF file for yourself, creating one is very easy. Details on how to create a FOAF file, along with a
 handy wizard to guide you through the process, are available at
 <a href="https://people.apache.org/foaf/">https://people.apache.org/foaf/</a>.</p>
+
 <p>Since you are a potential speaker we do require you
 to include a few key bits of information in the FOAF file. These are:</p>
+
 <ul>
 <li>Your location</li>
 <li>The projects you are involved in (include foundation-wide ones, too, if you&rsquo;re
@@ -214,26 +238,38 @@ happy to talk about these)</li>
 <li>Your Twitter ID (so we can point people at your speaking history on
 <a href="http://lanyrd.com/">Lanyrd</a>)</li>
 </ul>
-<h3 id="listing-yourself-in-the-speakers-doap-file">Listing yourself in the Speakers DOAP file <a class="headerlink" title="Permalink" href="#listing-yourself-in-the-speakers-doap-file">&para;</a></h3>
+
+<h3 id="listing-yourself-in-the-speakers-doap-file">Listing yourself in the Speakers DOAP file</h3>
+
 <p>If you haven&rsquo;t already done so, check out the committers directory from
 svn:</p>
-<pre tabindex="0"><code>svn co https://svn.apache.org/repos/private/committers/
-</code></pre><p>Edit <code>local-outreach/ApacheSpeakers.rdf</code> and add yourself in as a
+
+<pre><code>svn co https://svn.apache.org/repos/private/committers/
+</code></pre>
+
+<p>Edit <code>local-outreach/ApacheSpeakers.rdf</code> and add yourself in as a
 helper. If your FOAF file is in svn and showing up on people.apache.org,
 add in:</p>
-<pre tabindex="0"><code>&lt;helper&gt;
-  &lt;foaf:Person rdf:resource=&#34;urn:org:apache:[your username].rdf&#34; /&gt;
+
+<pre><code>&lt;helper&gt;
+  &lt;foaf:Person rdf:resource=&quot;urn:org:apache:[your username].rdf&quot; /&gt;
 &lt;/helper&gt;
-</code></pre><p>If you have your FOAF file externally hosted, the <strong>rdf:resource</strong>
+</code></pre>
+
+<p>If you have your FOAF file externally hosted, the <strong>rdf:resource</strong>
 should point to the URL of the file.</p>
+
 <p>For an apache committer with username &ldquo;foo&rdquo;, your entry would be one of:</p>
-<pre tabindex="0"><code>&lt;helper&gt;
-   &lt;foaf:Person rdf:resource=&#34;urn:org:apache:foo.rdf&#34; /&gt;
+
+<pre><code>&lt;helper&gt;
+   &lt;foaf:Person rdf:resource=&quot;urn:org:apache:foo.rdf&quot; /&gt;
 &lt;/helper&gt;
 &lt;helper&gt;
-   &lt;foaf:Person rdf:resource=&#34;https://www.example.com/foaf/foo.rdf&#34; /&gt;
+   &lt;foaf:Person rdf:resource=&quot;https://www.example.com/foaf/foo.rdf&quot; /&gt;
 &lt;/helper&gt;
-</code></pre><p>Within 24 hours of committing your addition to
+</code></pre>
+
+<p>Within 24 hours of committing your addition to
 <em>local-outreach/ApacheSpeakers.rdf</em>, you should appear in the web
 application as a potential speaker! Head over to
 <a href="https://community.zones.apache.org/">https://community.zones.apache.org/</a>

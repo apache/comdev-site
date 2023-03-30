@@ -1,18 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Newsletter on Apache Comdev</title>
     <link>https://community.apache.org/newsletter/</link>
     <description>Recent content in Newsletter on Apache Comdev</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://community.apache.org/newsletter/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Wed, 29 Mar 2023 11:49:44 +0200</lastBuildDate>
+    
+	<atom:link href="https://community.apache.org/newsletter/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>April 2017 Community Newsletter</title>
       <link>https://community.apache.org/newsletter/2017-04.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://community.apache.org/newsletter/2017-04.html</guid>
-      <description>Apache Committer Newsletter, April 2017 &amp;para; Dear Apache Committer,
+      <description>Apache Committer Newsletter, April 2017 Dear Apache Committer,
 In this newsletter: committer resources you might not know about, Foundation news, and upcoming community events.
 Thank you for your hard work on our Apache projects. You are the reason the Foundation exists, and your work is the reason we have the reputation we enjoy.
 In our recent community survey, we heard from a lot of you that you want more information about what committer resources are available, how to connect with developers from other projects, and more information about what’s going on in the Foundation at large.</description>

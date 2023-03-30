@@ -1,11 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Committer resources on Apache Comdev</title>
     <link>https://community.apache.org/committers/</link>
     <description>Recent content in Committer resources on Apache Comdev</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://community.apache.org/committers/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Wed, 29 Mar 2023 11:49:44 +0200</lastBuildDate>
+    
+	<atom:link href="https://community.apache.org/committers/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Consensus Building</title>
       <link>https://community.apache.org/committers/consensusBuilding.html</link>
@@ -13,7 +18,7 @@
       
       <guid>https://community.apache.org/committers/consensusBuilding.html</guid>
       <description>In some cases there is no obvious path to take, or you might be a new community, or a new member of an existing community. In these cases people often need to build consensus by making proposals and eliciting responses.
-Constructive discussion is the lifeblood of a successful project. However, we want to avoid unnecessary discussion and significant amounts of unnecessary mail that everyone in the community needs to read. so many ASF projects adopt a shorthand notation for showing support, or otherwise, for a proposal.</description>
+Constructive discussion is the lifeblood of a successful project. However, we want to avoid unnecessary discussion and significant amounts of unnecessary mail that everyone in the community needs to read.</description>
     </item>
     
     <item>
@@ -54,7 +59,7 @@ If you have any question about this, feel free to ask on our dev@community.</des
       
       <guid>https://community.apache.org/committers/voting.html</guid>
       <description>Occasionally a &amp;ldquo;feel&amp;rdquo; for consensus is not enough. Sometimes we need to have a measurable consensus, for example, when voting to invite new committers or to approve a release.
-Preparing for a Vote &amp;para; It is important to ensure that the community has time to discuss the issue before voting. To do this, post an email to the list indicating the intention to call a vote and the options available. By the time a vote takes place there usually is consensus in the community on what path to take.</description>
+Preparing for a Vote It is important to ensure that the community has time to discuss the issue before voting. To do this, post an email to the list indicating the intention to call a vote and the options available. By the time a vote takes place there usually is consensus in the community on what path to take.</description>
     </item>
     
   </channel>
