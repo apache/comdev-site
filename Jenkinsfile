@@ -86,10 +86,11 @@ pipeline {
                     """
                     
                     // Commit the changes to the target branch
-                    env.COMMIT_MESSAGE = "Updated ${DEPLOY_BRANCH} from ${BRANCH_NAME} at ${env.LAST_SHA} using ${BUILD_URL}"
+                    env.COMMIT_MESSAGE1 = "Updated ${DEPLOY_BRANCH} from ${BRANCH_NAME} at ${env.LAST_SHA}"
+                    env.COMMIT_MESSAGE2 = "Built from ${BUILD_URL}"
                     sh """
                         git add -A
-                        git commit -m "${env.COMMIT_MESSAGE}" | true
+                        git commit -m "${env.COMMIT_MESSAGE1}" -m "${env.COMMIT_MESSAGE2}" | true
                     """
                     
                     // Push the generated content for deployment
