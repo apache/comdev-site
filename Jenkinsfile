@@ -18,7 +18,7 @@
 
 pipeline {
     agent {
-        // https://cwiki.apache.org/confluence/display/INFRA/Jenkins+node+labels
+        // https://cwiki.apache.org/confluence/display/INFRA/ci-builds.apache.org
         label 'git-websites'
     }
    
