@@ -11,3 +11,10 @@ notifications:
   commits:      commits@community.apache.org
   issues:       dev@community.apache.org
   pullrequests: dev@community.apache.org
+
+# Test site in preview/test2; output to preview/test2-staging
+# autostage will publish the site at community-test2.staged.apache.org
+staging:
+  profile: ~
+  whoami:  asf-staging
+  autostage: preview/*
