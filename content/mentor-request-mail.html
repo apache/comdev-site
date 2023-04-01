@@ -15,7 +15,6 @@ Here&rsquo;s an example of what your first email might look like:" />
 <meta property="article:modified_time" content="2020-12-13T09:34:53-04:00" /><meta property="og:site_name" content="Apache Community Development" />
 
 
-
   <title>Apache Community Development - How To: Write A Mentor Request Email</title>
   <link rel="shortcut icon" href="images/favicon.ico">
 
@@ -189,46 +188,46 @@ plans for tackling the issue. This lets the community know you are working
 on the issue and gives the community an early opportunity to help course
 correct your proposal, if necessary (which can save you lots of time).</p>
 <p>Here&rsquo;s an example of what your first email might look like:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">SUBJECT: A proposal for Skinnable widgets (WOOKIE-131)
-
-Hi, I&#39;m new to the Wookie project but I&#39;d like to tackle the &#34;Skinnablewidgets&#34; 
-issue (WOOKIE-131, see [1]). Before I start implementing this I&#39;d like to 
-run my ideas past you to make sure I&#39;m not missing something important.
-
-If I understand the issue correctly, we need to define the structure of a minimal 
-widget. For example:
-
-&lt;div id=&#34;wookie-widget&#34;&gt;
-  &lt;div id=&#34;wookie-toolbar&#34;&gt;This is where the toolbar will be&lt;/div&gt;
-  &lt;div id=&#34;wookie-content&#34;&gt;This is where the content will be&lt;/div&gt;
-  &lt;div id=&#34;wookie-footer&#34;&gt;This is where the footer will be&lt;/div&gt;
-&lt;/div&gt;
-
-We also need to provide a default CSS for rendering this as, for example:
-
-+-----------------------+
-|TOOLBAR		|
-+-----------------------+
-|			|
-|CONTENT		|
-|			|
-+-----------------------+
-|FOOTER 		|
-+-----------------------+
-
-We need to document all this (how to use it and how to extend it) on the Wookie website, and change all widgets to conform to 
-this format.
-
-Once all this is in place I would like to start extending it to provide documented 
-CSS identifiers to use in common cases. For example, we may want to define a
-&#34;wookie-navigation&#34; style for a common navigation menu. We can then provide 
-various CSS alternatives for rending this as a vertical navigation menu, drop down 
-menu, or whatever.
-
-Am I on the right track? Are there any important points I&#39;m missing?
-
-[1]  https://issues.apache.org/jira/browse/WOOKIE-131
-</code></pre></div><p>There are two main advantages to sending a mail like this. First, you
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>SUBJECT: A proposal for Skinnable widgets (WOOKIE-131)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Hi, I&#39;m new to the Wookie project but I&#39;d like to tackle the &#34;Skinnablewidgets&#34; 
+</span></span><span style="display:flex;"><span>issue (WOOKIE-131, see [1]). Before I start implementing this I&#39;d like to 
+</span></span><span style="display:flex;"><span>run my ideas past you to make sure I&#39;m not missing something important.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>If I understand the issue correctly, we need to define the structure of a minimal 
+</span></span><span style="display:flex;"><span>widget. For example:
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>&lt;div id=&#34;wookie-widget&#34;&gt;
+</span></span><span style="display:flex;"><span>  &lt;div id=&#34;wookie-toolbar&#34;&gt;This is where the toolbar will be&lt;/div&gt;
+</span></span><span style="display:flex;"><span>  &lt;div id=&#34;wookie-content&#34;&gt;This is where the content will be&lt;/div&gt;
+</span></span><span style="display:flex;"><span>  &lt;div id=&#34;wookie-footer&#34;&gt;This is where the footer will be&lt;/div&gt;
+</span></span><span style="display:flex;"><span>&lt;/div&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>We also need to provide a default CSS for rendering this as, for example:
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>+-----------------------+
+</span></span><span style="display:flex;"><span>|TOOLBAR		|
+</span></span><span style="display:flex;"><span>+-----------------------+
+</span></span><span style="display:flex;"><span>|			|
+</span></span><span style="display:flex;"><span>|CONTENT		|
+</span></span><span style="display:flex;"><span>|			|
+</span></span><span style="display:flex;"><span>+-----------------------+
+</span></span><span style="display:flex;"><span>|FOOTER 		|
+</span></span><span style="display:flex;"><span>+-----------------------+
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>We need to document all this (how to use it and how to extend it) on the Wookie website, and change all widgets to conform to 
+</span></span><span style="display:flex;"><span>this format.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Once all this is in place I would like to start extending it to provide documented 
+</span></span><span style="display:flex;"><span>CSS identifiers to use in common cases. For example, we may want to define a
+</span></span><span style="display:flex;"><span>&#34;wookie-navigation&#34; style for a common navigation menu. We can then provide 
+</span></span><span style="display:flex;"><span>various CSS alternatives for rending this as a vertical navigation menu, drop down 
+</span></span><span style="display:flex;"><span>menu, or whatever.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Am I on the right track? Are there any important points I&#39;m missing?
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[1]  https://issues.apache.org/jira/browse/WOOKIE-131
+</span></span></code></pre></div><p>There are two main advantages to sending a mail like this. First, you
 force yourself to think carefully about what the project requires and whether you
 have the skills to do it (and thus where you will need help). Second, it lets
 people in the community provide input. For example, in the above case

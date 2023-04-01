@@ -16,7 +16,6 @@ Listing yourself as a potential speaker &para; To list yourself as someone inter
 <meta property="article:modified_time" content="2021-07-05T14:07:56-03:00" /><meta property="og:site_name" content="Apache Community Development" />
 
 
-
   <title>Apache Community Development - Listing yourself as a Potential Speaker</title>
   <link rel="shortcut icon" href="images/favicon.ico">
 
@@ -223,16 +222,16 @@ svn:</p>
 helper. If your FOAF file is in svn and showing up on people.apache.org,
 add in:</p>
 <pre tabindex="0"><code>&lt;helper&gt;
-  &lt;foaf:Person rdf:resource=&quot;urn:org:apache:[your username].rdf&quot; /&gt;
+  &lt;foaf:Person rdf:resource=&#34;urn:org:apache:[your username].rdf&#34; /&gt;
 &lt;/helper&gt;
 </code></pre><p>If you have your FOAF file externally hosted, the <strong>rdf:resource</strong>
 should point to the URL of the file.</p>
 <p>For an apache committer with username &ldquo;foo&rdquo;, your entry would be one of:</p>
 <pre tabindex="0"><code>&lt;helper&gt;
-   &lt;foaf:Person rdf:resource=&quot;urn:org:apache:foo.rdf&quot; /&gt;
+   &lt;foaf:Person rdf:resource=&#34;urn:org:apache:foo.rdf&#34; /&gt;
 &lt;/helper&gt;
 &lt;helper&gt;
-   &lt;foaf:Person rdf:resource=&quot;https://www.example.com/foaf/foo.rdf&quot; /&gt;
+   &lt;foaf:Person rdf:resource=&#34;https://www.example.com/foaf/foo.rdf&#34; /&gt;
 &lt;/helper&gt;
 </code></pre><p>Within 24 hours of committing your addition to
 <em>local-outreach/ApacheSpeakers.rdf</em>, you should appear in the web
