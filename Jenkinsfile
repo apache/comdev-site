@@ -68,13 +68,14 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    withEnv(["PATH+HUGO=${env.HUGO_DIR}/bin", "PATH+PAGEFIND=${env.PAGEFIND_DIR}/bin"]) {
-                        sh 'hugo version'
-                        sh 'pagefind --version'
+                    env.HUGO = "${env.HUGO_DIR}/bin/hugo"
+                    env.PAGEFIND = "${env.PAGEFIND_DIR}/bin/pagefind"
 
-                        sh "hugo --destination ${env.OUT_DIR}"
-                        sh "pagefind --source ${env.OUT_DIR}"
-                    }
+                    sh "${HUGO} version"
+                    sh "${PAGEFIND} --version"
+
+                    sh "${HUGO} --destination ${env.OUT_DIR}"
+                    sh "${PAGEFIND} --source ${env.OUT_DIR}"
                 }
             }
         }
