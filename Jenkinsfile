@@ -24,6 +24,8 @@ pipeline {
    
     environment {
         DEPLOY_BRANCH = 'asf-site'
+        HUGO_VERSION = '0.111.3'
+        HUGO_HASH = 'b382aacb522a470455ab771d0e8296e42488d3ea4e61fe49c11c32ec7fb6ee8b'
         PAGEFIND_VERSION = '0.12.0'
         PAGEFIND_HASH = '3e450176562b65359f855c04894ec2c07ffd30a8d08ef4d5812f8d3469d7a58f'
     }
@@ -35,14 +37,24 @@ pipeline {
                     // Capture last commit hash for final commit message
                     env.LAST_SHA = sh(script:'git log -n 1 --pretty=format:\'%H\'', returnStdout: true).trim()
 
+                    // Download Hugo
+                    env.HUGO_DIR = sh(script:'mktemp -d', returnStdout: true).trim()
+                    sh "mkdir -p ${env.HUGO_DIR}/bin"
+                    sh "wget --no-verbose -O ${env.HUGO_DIR}/hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz"
+                    // Verify the checksum
+                    def hugo_hash = sha256 file: "${env.HUGO_DIR}/hugo.tar.gz"
+                    assert hugo_hash == "${HUGO_HASH}"
+                    // Unpack Hugo
+                    sh "tar -C ${env.HUGO_DIR}/bin -xkf ${env.HUGO_DIR}/hugo.tar.gz"
+
                     // Download Pagefind
                     env.PAGEFIND_DIR = sh(script:'mktemp -d', returnStdout: true).trim()
                     sh "mkdir -p ${env.PAGEFIND_DIR}/bin"
                     sh "wget --no-verbose -O ${env.PAGEFIND_DIR}/pagefind.tar.gz https://github.com/CloudCannon/pagefind/releases/download/v${PAGEFIND_VERSION}/pagefind-v${PAGEFIND_VERSION}-x86_64-unknown-linux-musl.tar.gz"
-                    // Check the hash
-                    def hash = sha256 file: "${env.PAGEFIND_DIR}/pagefind.tar.gz"
-                    assert hash == "${PAGEFIND_HASH}"
-                    // Unpack
+                    // Verify the checksum
+                    def pagefind_hash = sha256 file: "${env.PAGEFIND_DIR}/pagefind.tar.gz"
+                    assert pagefind_hash == "${PAGEFIND_HASH}"
+                    // Unpack Pagefind
                     sh "tar -C ${env.PAGEFIND_DIR}/bin -xkf ${env.PAGEFIND_DIR}/pagefind.tar.gz"
 
                     // Setup directory structure for generated content
@@ -56,10 +68,8 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    sh 'for i in $(which -a hugo) ; do echo $i; $i version; done'
-                    sh 'hugo version'
-                    sh "hugo --destination ${env.OUT_DIR}"
-                    sh "${env.PAGEFIND_DIR}/bin/pagefind --source ${env.OUT_DIR}"
+                    sh "${HUGO_DIR}/bin/hugo --destination ${env.OUT_DIR}"
+                    sh "${PAGEFIND_DIR}/bin/pagefind --source ${env.OUT_DIR}"
                 }
             }
         }
@@ -104,6 +114,7 @@ pipeline {
         always {
             script {
                 sh """
+                    rm -rf ${env.HUGO_DIR}
                     rm -rf ${env.PAGEFIND_DIR}
                     rm -rf ${env.TMP_DIR}
                 """
@@ -112,4 +123,3 @@ pipeline {
         }
     }
 }
-
