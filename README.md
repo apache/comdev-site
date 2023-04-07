@@ -32,7 +32,7 @@ The [ASF's gitpubsub mechanism](https://blogs.apache.org/infra/entry/git_based_w
 
 ## Powered by Hugo!
 
-The website uses Hugo as static website generator, see [their website](https://gohugo.io/) for more information
+The website uses Hugo as static website generator, see the [Hugo website](https://gohugo.io/) for more information
 and for how to install and run it if needed.
 
 Other Apache websites that are built with Hugo should be listed by [this GitHub query for the 'hugo' tag](https://github.com/search?q=topic%3Ahugo+org%3Aapache&type=Repositories).
