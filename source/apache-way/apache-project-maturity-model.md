@@ -294,7 +294,7 @@ v 1.2, February 2018, reworked the "how to use" section with more links to self-
 v 1.3, June 2021, improve readability and simplify the language where possible.
 
 See the <a href="https://svn.apache.org/viewvc/comdev/site/trunk/content/apache-way/apache-project-maturity-model.mdtext?view=log" target="_blank">svn revision history</a> (for older
-versions) and <a href="https://github.com/apache/comdev-site/commits/master/source/apache-way/apache-project-maturity-model.md">GitHub history</a> (since March 2020) of this document for more details and other minor changes.
+versions) and <a href="https://github.com/apache/comdev-site/commits/main/source/apache-way/apache-project-maturity-model.md">GitHub history</a> (since March 2020) of this document for more details and other minor changes.
 
 ### Footnotes
 
