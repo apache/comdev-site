@@ -8,7 +8,7 @@ url: /gsoc/
     Currently happening
   </div>
   <div class="card-body">
-    <h5 class="card-title text-info">ASF is accepted as mentoring organisation! collect your ideas, answer participant's emails :)</h5>
+    <h5 class="card-title text-info">Proposal ranking phase 1</h5>
   </div>
 </div>
 
