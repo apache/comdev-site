@@ -13,7 +13,6 @@ to another, the rungs of the ladder look mostly the same.
 * [Committer](#committer)
 * [PMC Member](#pmc-member)
 
-
 ## User
 
 Everything that we do in an ASF project is for the user. As a user of an
@@ -49,6 +48,8 @@ project name on [lists.apache.org](https://lists.apache.org).
 Other contributions may include design, promotion, documentation
 improvements, events, and may other things.
 
+[See more about being a contributor](/contributors).
+
 As you become more involved with contributint to the project, you may
 want to work towards [becoming a
 committer](/contribotirs/becomingacommitter).
@@ -70,6 +71,8 @@ authorized to commit documentation changes without approval, while code
 changes may be submitted as a pull request, for other committers to
 review and approve before they are merged.
 
+[See more information about being a committer](/committers).
+
 ## PMC Member
 
 After being a committer for some time, you may be invited to be a member
@@ -83,5 +86,7 @@ developer mailing list(s), in the view of the entire community. A PMC
 also has a private mailing list, which is for discussion of topics such
 as the addition of new committers and PMC members, and any other
 sensitive topics.
+
+[See more information about being a PMC member](/pmc).
 
 
