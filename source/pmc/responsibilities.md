@@ -37,16 +37,52 @@ A PMC member may veto a technical decision, such as a proposed patch.
 However, they must be able to back this veto up with a technical reason,
 and be willing to discuss possible resolutions to their objection.
 
+Further discussion of voting may be found on the [Foundation
+website](https://www.apache.org/foundation/voting.html).
+
 ## Making a release
 
-* Release process (almost certainly documented elsewhere)
-* Voting on a release
+The process for releasing a official Apache software artifact may be
+found on the [Infra
+website](https://infra.apache.org/release-publishing.html). As a PMC
+member, you are expected to read and understand that process.
+
+When you vote on a release, it should be an indication that you have
+actually tested that release. In your vote email, rather than merely
+voting +1 or -1, also indicate what you tested, and on what
+platoform(s).
 
 ## Ensuring Project Health
 
-* Vendor neutrality
-* Discussion and decisions are public and accessible
-* Community conduct
+The PMC is tasked individually and collectively with ensuring that the
+project is behaving according to ASF policies and norms. In this
+responsibility, PMC members act as individuals, not as representatives
+of their employer, or other third-party interests. The reputation of the
+project, and the ASF in general, is delagated to PMC members in this
+respect.
+
+Projects should operate in a vendor neutral fashion. That is to say, any
+project participant has an equal voice, unrelated to the employer or
+lack thereof. Evidence that a project is favoring one company or
+organization over another is a serious offense. For example, if members
+of a particular organization are favored over another, for either
+addition to the committer roll, the PMC, or for acceptance of their
+patches, this is an indication that the employer is exerting undue
+influence over the direction of the project.
+
+The PMC is also expected to set the tone for conduct and interactions in
+the project. They can, and should, call out behavior that is in conflict
+with ASF norms, such as bullying, racist or sexist discussions, or other
+abusive behavior.
 
 ## Adding Community Members
+
+The PMC is also tasked with the sustainability of the project. An
+important part of this is regularly [adding new
+committers](/pmc/adding-committers) and [new PMC
+members](/pmc/adding-pmc-members). This is not the sole role of the
+chair. Rather, every PMC member can, and should, regularly look at who
+is participating in the project, and evaluate whether they should be
+invited to the next [rung of the contributor
+ladder](/contributor-ladder).
 
