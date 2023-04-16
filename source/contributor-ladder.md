@@ -98,7 +98,8 @@ invited to become a member of the Foundation. This entitles them to vote
 for the Board of Directors, to participate in the members mailing list,
 and to invite others to become Foundation members.
 
-[See more about being a Foundation member](/members)
+[See more about being a Foundation 
+member](https://apache.org/foundation/governance/members.html)
 
 ## Officers of the Foundation
 
