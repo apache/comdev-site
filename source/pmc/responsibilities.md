@@ -16,6 +16,13 @@ project, and voting on releases.
 
 * Use of the private list
 * Responding to Board queries
+* Making decisions for the project
+* Vetoes
+
+## Making a release
+
+* Release process (almost certainly documented elsewhere)
+* Voting on a release
 
 ## Ensuring Project Health
 
