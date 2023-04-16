@@ -7,11 +7,13 @@ project, from being a user, all the way up to being a maintainer of the
 project. While the specific details may look different from one project
 to another, the rungs of the ladder look mostly the same.
 
-
 * [User](#user)
 * [Contributor](#contributor)
 * [Committer](#committer)
 * [PMC Member](#pmc-member)
+* [ASF Member](#asf-member)
+* [Officers of the Foundation](#officers-of-the-foundation)
+* [Board of Directors](#board-of-directors)
 
 ## User
 
@@ -35,7 +37,7 @@ contributor.
 While most people think of open source contributors as being coders,
 there are a wider variety of ways that you can contribute to a project.
 
-Most user's first contribution will be to open a ticket on the project's
+Most users' first contribution will be to open a ticket on the project's
 issue tracker, or to answer a less experienced user's questions. These
 actions help shape the future direction of the project, and are
 important contributions.
@@ -89,4 +91,31 @@ sensitive topics.
 
 [See more information about being a PMC member](/pmc).
 
+## Foundation Member
+
+When someone has been involved at the ASF for a while, they may be
+invited to become a member of the Foundation. This entitles them to vote
+for the Board of Directors, to participate in the members mailing list,
+and to invite others to become Foundation members.
+
+[See more about being a Foundation member](/members)
+
+## Officers of the Foundation
+
+Officers of the Foundation are responsible for various aspects of the
+day-to-day operation of the Foundation. You can see how these roles are
+broken down in the [Foundation organization
+chart](https://whimsy.apache.org/foundation/orgchart/board).
+
+## Board of Directors
+
+The Board of Directors is responsible for the governance of the
+Foundation. This includes overseeing projects, to ensure they are
+behaving in accordance with ASF policies and norms.
+
+The Board also delegates much of the day-to-day operation of the
+Foundation to the President, and various officers and committees.
+
+You can see the current composition of the Board on the [Board
+website](https://apache.org/foundation/board/).
 
