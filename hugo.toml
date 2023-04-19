@@ -35,7 +35,7 @@ date = ["date", ":filename", "publishDate", "lastmod"]
 [params]
 # Source Code repository section
 repositoryUrl = "https://github.com/apache/comdev-site"
-repositorySourceBranch = "master"
+repositorySourceBranch = "main"
 
 # Open Graph section
 title = "Apache Community Development"

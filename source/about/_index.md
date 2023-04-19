@@ -60,4 +60,4 @@ See our [Newcomer FAQ](/newbiefaq.html#websitecms) for how to suggest changes to
 The content is written in Markdown and published automatically via a Jenkins job.
 Source code is hosted in a [Git repository](https://github.com/apache/comdev-site).
 
-See the [README.md](https://github.com/apache/comdev-site/blob/master/README.md) for more info.
+See the [README.md](https://github.com/apache/comdev-site/blob/main/README.md) for more info.

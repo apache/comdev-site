@@ -28,7 +28,7 @@ style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></ifra
 
 This Calendar is also available as an [iCal feed][3]
 
-<script src="/js/jquery-1.9.1.min.js"></script>
+<script src="/js/jquery.min.js"></script>
 <script src="https://events.apache.org/js/events-calendar.js"></script>
 <script src="https://apis.google.com/js/client.js"></script>
 
