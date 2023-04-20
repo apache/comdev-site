@@ -39,6 +39,9 @@ Other Apache websites that are built with Hugo should be listed by [this GitHub 
 
 ## How to test the website and changes on your own computer
 
+You need a recent version of `hugo`, to find out which one is used to deploy this site
+look at the Jenkins build output, linked above.
+
 To generate the static website, execute `hugo` to generate the website under `target/content` and execute
 `npx -y pagefind --source target/content` to index the content for Pagefind (the search bar on the website).
 
