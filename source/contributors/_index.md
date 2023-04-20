@@ -9,7 +9,7 @@ their way around the Apache Software Foundation and our way of developing softwa
 (commonly called "The Apache Way"). For those wishing to start from
 the very beginning, we have a [newcomers page][1].
 
-# Project Independence And Policies
+## Project Independence And Policies
 
 While not all ASF projects practice all aspects of the Apache Way in the same way, there are a number of rules that Apache 
 projects must follow – things like complying with PMC 
@@ -23,7 +23,17 @@ opportunity to contribute to and benefit from our software, regardless
 of motivation or financial objectives. This is discussed in more detail
 in our document [Project Independence][7].
 
-# Moving From Contributor to Committer
+## Communication on mailing lists
+
+Development at the ASF has traditionally been done on mailing lists.
+This is not merely because we've always done it this way, but is an
+intentional decision, in order to include a wider community than who
+happens to be on your Slack channel at a particular moment.
+
+This is why we say, at the ASF, [**If it didn't happen on the mailing
+list, it didn't happen**](/contributors/mailing-lists).
+
+## Moving From Contributor to Committer
 
 Anyone can be a contributor to an Apache project. Being a contributor simply means
 that you take an interest in the project and contribute in some way, ranging from asking

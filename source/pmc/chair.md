@@ -9,4 +9,6 @@ for a time, to take the role of secretary and spokesperson.
 
 * Reporting
 * Selecting a new chair
+    * When
+    * Who
 
