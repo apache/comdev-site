@@ -27,3 +27,20 @@ footer.page-footer .footer-copyright {
 dt:hover > .headerlink, p:hover > .headerlink, td:hover > .headerlink, h1:hover > .headerlink, h2:hover > .headerlink, h3:hover > .headerlink, h4:hover > .headerlink, h5:hover > .headerlink, h6:hover > .headerlink {
   visibility: visible
 }
+
+.child-pages {
+  list-style-type: none;  
+}
+.page-summary .title {
+  font-size:100%;
+}
+
+.page-summary .summary {
+  margin-left: 1em;
+  font-style: italic;
+}
+
+.published-date {
+  font-size: 80%;
+  font-style: italic;
+}
