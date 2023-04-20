@@ -1,0 +1,9 @@
+<li class="page-summary" itemscope itemtype="http://schema.org/CreativeWork">
+    <h2 class="title">
+        <a href="{{ .Permalink }}" itemprop="headline">{{ .Title }}</a>
+        <p>{{ partial "published-date" .}}</p>
+    </h2>
+    {{ if .Description }}
+    <p class="summary" itemprop="about">{{ .Description }}</p>
+    {{ end }}
+</li>
