@@ -2,7 +2,7 @@
 title: ASF Contributor Ladder
 ---
 
-Projects at the ASF offer a way to grow in your responsibilites in the
+Projects at the ASF offer a way to grow in your responsibilities in the
 project, from being a user, all the way up to being a maintainer of the
 project. While the specific details may look different from one project
 to another, the rungs of the ladder look mostly the same.
@@ -43,31 +43,31 @@ actions help shape the future direction of the project, and are
 important contributions.
 
 We encourage you to join the project's developer mailing list at this
-time, to engage with the dicussions about the direction that the project
+time, to engage with the discussions about the direction that the project
 is taking. You can find this list (or lists) by looking under the
 project name on [lists.apache.org](https://lists.apache.org).
 
 Other contributions may include design, promotion, documentation
-improvements, events, and may other things.
+improvements, events, and many other things.
 
-[See more about being a contributor](/contributors).
+[See more about being a contributor](/contributors/).
 
-As you become more involved with contributint to the project, you may
+As you become more involved with contributing to the project, you may
 want to work towards [becoming a
-committer](/contribotirs/becomingacommitter).
+committer](/contributors/becomingacommitter).
 
 ## Committer
 
-After making a number of contributions to a project, you may be invited
+After making a number of contributions to a project, its PMC may invite you
 to become a committer. Note that the criteria for inviting a contributor
 to become a committer will vary greatly from one project to another.
 
-Once you have been invited to becomg a committer, and have accepted this
-invitation, you are authorized to commit changed directly to the
+Once you have been invited to become a committer, and have accepted this
+invitation, you are authorized to commit changes directly to the
 project's source code repository. Note, however, that different projects
 may have different social norms around committing changes.
 
-Broadly referred to as CTR (Commit Then Review) and RTC (Review The
+Broadly referred to as CTR (Commit Then Review) and RTC (Review Then
 Commit), the exact mechanisms may vary. For example, you may be
 authorized to commit documentation changes without approval, while code
 changes may be submitted as a pull request, for other committers to
@@ -77,7 +77,7 @@ review and approve before they are merged.
 
 ## PMC Member
 
-After being a committer for some time, you may be invited to be a member
+After being a committer for some time, the project's PMC may invite you to become a member
 of the project's Project Management Committee. This group acts as the
 steering committee for the project, making decisions about the project's
 road map, what features will be added, and other decisions around the
@@ -94,8 +94,8 @@ sensitive topics.
 ## Foundation Member
 
 When someone has been involved at the ASF for a while, they may be
-invited to become a member of the Foundation. This entitles them to vote
-for the Board of Directors, to participate in the members mailing list,
+invited, by the membership, to become a member of the Foundation. This entitles them to vote
+for the Board of Directors, to participate in the members' mailing list,
 and to invite others to become Foundation members.
 
 [See more about being a Foundation 
@@ -109,6 +109,9 @@ broken down in the [Foundation organization
 chart](https://whimsy.apache.org/foundation/orgchart/board).
 
 ## Board of Directors
+
+The members of the ASF elect the members of the Board annually for 
+one-year terms.
 
 The Board of Directors is responsible for the governance of the
 Foundation. This includes overseeing projects, to ensure they are

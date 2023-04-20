@@ -11,11 +11,11 @@ and sustainability of our communities.
 
 Mailing lists ensure that all members of the community can participate
 on a level field, regardless of time zone or availability, whereas
-synchronous communication platforms (IRC, Slack, Discord, etc) benefit
+synchronous communication platforms (IRC, Slack, Discord, etc.) benefit
 only those who are online, and in the channel, at the time of the 
 conversation.
 
-Mailing lists also allow archival, so that decisions can be understood
+Mailing lists also allow archiving, so that decisions can be understood
 by people who were not there at the time - what was decided, why, and by
 whom - even years after the fact.
 
@@ -37,7 +37,7 @@ list, it didn't happen.**
 * Meaningful subject lines
 * Inline vs top-posting
 * HTML and "rich text" messages
-* Clear languge, use of colloqualisms and metaphor, etc (writing for a
+* Clear language, use of colloquialisms and metaphor, etc. (writing for a
   diverse audience)
 
 ## Mailing list configuration

@@ -11,8 +11,8 @@ reports quarterly to the Board of Directors.
 * [Chair](#chair)
 * [Voting](#voting)
 * [Reporting](#reporting)
-* [Adding new committers](#adding-new-committers)
-* [Adding new PMC members](#adding-new-pmc-members)
+* [Adding committers](#adding-committers)
+* [Adding PMC members](#adding-pmc-members)
 * [What to do as a new member](#what-to-do-as-a-new-member)
 
 ## PMC Responsibilities
@@ -50,15 +50,14 @@ A PMC is required to file a report to the Board of Directors every
 quarter, on a schedule determined by the Board. [Read more about what
 goes into a PMC report](/pmc/reporting).
 
-## Adding new committers
+## Adding committers
 
-The addition of new committers is essential to the long-term 
+The addition of committers is essential to the long-term 
 sustainability of an open source project. The PMC is responsible for
 determining who will be added as a committer. [Read more about how new
 committers are added to a project](/pmc/adding-committers).
 
-
-## Adding new PMC members
+## Adding PMC members
 
 The PMC members identify project participants who they want to be
 members of the PMC. [Read more about the process of adding new PMC
