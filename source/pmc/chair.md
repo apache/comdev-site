@@ -3,7 +3,7 @@ title: PMC Chair
 ---
 
 The PMC Chair acts as the voice of the project to the board, and is
-responsibile for filing a quarterly report. They are not the project
+responsible for filing a quarterly report. They are not the project
 leader, but are a peer of the other PMC members, who has been selected,
 for a time, to take the role of secretary and spokesperson.
 

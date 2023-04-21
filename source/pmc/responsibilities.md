@@ -50,7 +50,7 @@ member, you are expected to read and understand that process.
 When you vote on a release, it should be an indication that you have
 actually tested that release. In your vote email, rather than merely
 voting +1 or -1, also indicate what you tested, and on what
-platoform(s).
+platform(s).
 
 ## Ensuring Project Health
 
@@ -58,7 +58,7 @@ The PMC is tasked individually and collectively with ensuring that the
 project is behaving according to ASF policies and norms. In this
 responsibility, PMC members act as individuals, not as representatives
 of their employer, or other third-party interests. The reputation of the
-project, and the ASF in general, is delagated to PMC members in this
+project, and the ASF in general, is delegated to PMC members in this
 respect.
 
 Projects should operate in a vendor neutral fashion. That is to say, any
