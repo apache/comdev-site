@@ -11,6 +11,12 @@
     <loc>https://community.apache.org/apache-way/apache-project-maturity-model.html</loc>
     <lastmod>2023-04-07T09:01:44+01:00</lastmod>
   </url><url>
+    <loc>https://community.apache.org/pmc/adding-committers.html</loc>
+    <lastmod>2023-04-15T22:01:34-04:00</lastmod>
+  </url><url>
+    <loc>https://community.apache.org/pmc/adding-pmc-members.html</loc>
+    <lastmod>2023-04-15T22:01:34-04:00</lastmod>
+  </url><url>
     <loc>https://community.apache.org/</loc>
     <lastmod>2023-03-29T19:12:27+01:00</lastmod>
   </url><url>
@@ -37,6 +43,9 @@
   </url><url>
     <loc>https://community.apache.org/contributors/etiquette.html</loc>
     <lastmod>2023-03-17T12:29:24-05:00</lastmod>
+  </url><url>
+    <loc>https://community.apache.org/contributor-ladder.html</loc>
+    <lastmod>2023-04-20T12:01:52-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/contributors/becomingacommitter.html</loc>
     <lastmod>2023-03-30T13:02:33-04:00</lastmod>
@@ -69,7 +78,7 @@
     <lastmod>2020-12-10T09:12:00-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/contributors/</loc>
-    <lastmod>2023-03-29T11:49:44+02:00</lastmod>
+    <lastmod>2023-04-20T08:27:41-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/committers/decisionMaking.html</loc>
     <lastmod>2021-01-15T09:22:16-04:00</lastmod>
@@ -110,6 +119,9 @@
     <loc>https://community.apache.org/speakers/speakers.html</loc>
     <lastmod>2021-07-05T14:07:56-03:00</lastmod>
   </url><url>
+    <loc>https://community.apache.org/contributors/mailing-lists.html</loc>
+    <lastmod>2023-04-20T12:01:52-04:00</lastmod>
+  </url><url>
     <loc>https://community.apache.org/newsletter/2017-05.html</loc>
     <lastmod>2020-07-20T20:22:04+02:00</lastmod>
   </url><url>
@@ -134,14 +146,29 @@
     <loc>https://community.apache.org/newcommitter.html</loc>
     <lastmod>2023-03-29T19:28:51+01:00</lastmod>
   </url><url>
+    <loc>https://community.apache.org/pmc/new-member.html</loc>
+    <lastmod>2023-04-15T22:01:34-04:00</lastmod>
+  </url><url>
     <loc>https://community.apache.org/newsletter/</loc>
     <lastmod>2023-03-29T11:49:44+02:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/history/mentoringprogramme-icfoss-pilot.html</loc>
     <lastmod>2023-03-17T12:26:02-04:00</lastmod>
   </url><url>
+    <loc>https://community.apache.org/pmc/chair.html</loc>
+    <lastmod>2023-04-20T08:27:41-04:00</lastmod>
+  </url><url>
+    <loc>https://community.apache.org/pmc/reporting.html</loc>
+    <lastmod>2023-04-15T22:01:34-04:00</lastmod>
+  </url><url>
+    <loc>https://community.apache.org/pmc/responsibilities.html</loc>
+    <lastmod>2023-04-16T08:33:58-04:00</lastmod>
+  </url><url>
     <loc>https://community.apache.org/projectIndependence.html</loc>
     <lastmod>2022-01-07T11:22:24-08:00</lastmod>
+  </url><url>
+    <loc>https://community.apache.org/pmc.html</loc>
+    <lastmod>2023-04-20T12:01:52-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/proposals.html</loc>
     <lastmod>2020-07-20T20:22:04+02:00</lastmod>

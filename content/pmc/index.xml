@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project Management Committees on Apache Comdev</title>
+    <link>https://community.apache.org/pmc.html</link>
+    <description>Recent content in Project Management Committees on Apache Comdev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://community.apache.org/pmc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adding Committers</title>
+      <link>https://community.apache.org/pmc/adding-committers.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/pmc/adding-committers.html</guid>
+      <description>The addition of new committers is essential to the long-term sustainability of an open source project. The PMC is responsible for determining who will be added as a committer.
+Who should be a committer? Vote process What to do when a committer is elected </description>
+    </item>
+    
+    <item>
+      <title>Adding PMC members</title>
+      <link>https://community.apache.org/pmc/adding-pmc-members.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/pmc/adding-pmc-members.html</guid>
+      <description>The PMC is responsible for identifying individuals who should be added to the PMC. This is a critical part of the long-term health and sustainability of a project, and ensures that contributors to the project have a voice in the project&amp;rsquo;s roadmap.
+Who should be a PMC member? Nominating, discussion, and voting What to do when a new PMC member is elected </description>
+    </item>
+    
+    <item>
+      <title>New PMC Members</title>
+      <link>https://community.apache.org/pmc/new-member.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/pmc/new-member.html</guid>
+      <description>You&amp;rsquo;ve been invited to join a project PMC? Congratulations! What should you do now?
+(There&amp;rsquo;s some info here: https://svn.apache.org/repos/private/foundation/officers/advice-for-new-pmc-chairs.txt
+but it&amp;rsquo;s plain text, fairly terse, and behind a password.) </description>
+    </item>
+    
+    <item>
+      <title>PMC Chair</title>
+      <link>https://community.apache.org/pmc/chair.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/pmc/chair.html</guid>
+      <description>The PMC Chair acts as the voice of the project to the board, and is responsibile for filing a quarterly report. They are not the project leader, but are a peer of the other PMC members, who has been selected, for a time, to take the role of secretary and spokesperson.
+Reporting Selecting a new chair When Who </description>
+    </item>
+    
+    <item>
+      <title>PMC Reporting</title>
+      <link>https://community.apache.org/pmc/reporting.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/pmc/reporting.html</guid>
+      <description>A PMC is required to file a report to the Board of Directors every quarter, on a schedule determined by the Board.
+Reporting schedule What goes into a report Tools to help generation of reports </description>
+    </item>
+    
+    <item>
+      <title>PMC Responsibilities</title>
+      <link>https://community.apache.org/pmc/responsibilities.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/pmc/responsibilities.html</guid>
+      <description>The Project Management Committee (PMC) is responsible for the oversight of the project, including technical decisions, ensuring that the project is operating in accordance with ASF norms, adding new members to the project, and voting on releases.
+Conducting business Ensuring project health Adding community members Reporting Conducting Business &amp;para; The PMC is expected to conduct all of its business on the public developers mailing list, in the full view of the community.</description>
+    </item>
+    
+  </channel>
+</rss>

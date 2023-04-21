@@ -37,6 +37,26 @@ Overview &amp;para; The goals of this maturity model are to describe how Apache 
     </item>
     
     <item>
+      <title>Adding Committers</title>
+      <link>https://community.apache.org/pmc/adding-committers.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/pmc/adding-committers.html</guid>
+      <description>The addition of new committers is essential to the long-term sustainability of an open source project. The PMC is responsible for determining who will be added as a committer.
+Who should be a committer? Vote process What to do when a committer is elected </description>
+    </item>
+    
+    <item>
+      <title>Adding PMC members</title>
+      <link>https://community.apache.org/pmc/adding-pmc-members.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/pmc/adding-pmc-members.html</guid>
+      <description>The PMC is responsible for identifying individuals who should be added to the PMC. This is a critical part of the long-term health and sustainability of a project, and ensures that contributors to the project have a voice in the project&amp;rsquo;s roadmap.
+Who should be a PMC member? Nominating, discussion, and voting What to do when a new PMC member is elected </description>
+    </item>
+    
+    <item>
       <title>Apache Conferences Calendar</title>
       <link>https://community.apache.org/calendars/conferences.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -100,6 +120,16 @@ In our recent community survey, we heard from a lot of you that you want more in
       <guid>https://community.apache.org/contributors/etiquette.html</guid>
       <description>The ASF and our many projects welcome all participants. Before you begin, it is important to review and respect our community guidelines. We have a few ASF-specific tips below.
 Code of Conduct &amp;para; The ASF has adopted a Code of Conduct which covers interactions in all the online spaces that ASF projects use - email, issue trackers, wikis, websites, IRC, and the like. ASF projects are made up of volunteers, and we work to ensure that all productive contributions are welcomed.</description>
+    </item>
+    
+    <item>
+      <title>ASF Contributor Ladder</title>
+      <link>https://community.apache.org/contributor-ladder.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/contributor-ladder.html</guid>
+      <description>Projects at the ASF offer a way to grow in your responsibilities in the project, from being a user, all the way up to being a maintainer of the project. While the specific details may look different from one project to another, the rungs of the ladder look mostly the same.
+User Contributor Committer PMC Member ASF Member Officers of the Foundation Board of Directors User &amp;para; Everything that we do in an ASF project is for the user.</description>
     </item>
     
     <item>
@@ -267,6 +297,16 @@ Listing yourself as a potential speaker &amp;para; To list yourself as someone i
     </item>
     
     <item>
+      <title>Mailing lists</title>
+      <link>https://community.apache.org/contributors/mailing-lists.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/contributors/mailing-lists.html</guid>
+      <description>The ASF has a long tradition of using mailing lists as the primary communication format in projects. This is not merely because we&amp;rsquo;ve always done it that way, but is an intentional decision for the health and sustainability of our communities.
+Inclusion and transparency &amp;para; Mailing lists ensure that all members of the community can participate on a level field, regardless of time zone or availability, whereas synchronous communication platforms (IRC, Slack, Discord, etc.</description>
+    </item>
+    
+    <item>
       <title>May 2017 Community Newsletter</title>
       <link>https://community.apache.org/newsletter/2017-05.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -346,6 +386,17 @@ Guidelines for assessing new candidates for committership Ability to work cooper
     </item>
     
     <item>
+      <title>New PMC Members</title>
+      <link>https://community.apache.org/pmc/new-member.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/pmc/new-member.html</guid>
+      <description>You&amp;rsquo;ve been invited to join a project PMC? Congratulations! What should you do now?
+(There&amp;rsquo;s some info here: https://svn.apache.org/repos/private/foundation/officers/advice-for-new-pmc-chairs.txt
+but it&amp;rsquo;s plain text, fairly terse, and behind a password.) </description>
+    </item>
+    
+    <item>
       <title>Pilot Mentoring Programme with India ICFOSS</title>
       <link>https://community.apache.org/history/mentoringprogramme-icfoss-pilot.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -354,6 +405,36 @@ Guidelines for assessing new candidates for committership Ability to work cooper
       <description>Note that this information is about a pilot program that happened back in 2013.
 The ASF has been participating in many mentoring initiatives, and it&amp;rsquo;s now partnering in a pilot project with India ICFOSS to provide mentoring for undergraduate and graduate students that have interest in learning how to participate in open source communities at ASF.
 The mentoring programme is not here to teach you to write documentation or code.</description>
+    </item>
+    
+    <item>
+      <title>PMC Chair</title>
+      <link>https://community.apache.org/pmc/chair.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/pmc/chair.html</guid>
+      <description>The PMC Chair acts as the voice of the project to the board, and is responsibile for filing a quarterly report. They are not the project leader, but are a peer of the other PMC members, who has been selected, for a time, to take the role of secretary and spokesperson.
+Reporting Selecting a new chair When Who </description>
+    </item>
+    
+    <item>
+      <title>PMC Reporting</title>
+      <link>https://community.apache.org/pmc/reporting.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/pmc/reporting.html</guid>
+      <description>A PMC is required to file a report to the Board of Directors every quarter, on a schedule determined by the Board.
+Reporting schedule What goes into a report Tools to help generation of reports </description>
+    </item>
+    
+    <item>
+      <title>PMC Responsibilities</title>
+      <link>https://community.apache.org/pmc/responsibilities.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/pmc/responsibilities.html</guid>
+      <description>The Project Management Committee (PMC) is responsible for the oversight of the project, including technical decisions, ensuring that the project is operating in accordance with ASF norms, adding new members to the project, and voting on releases.
+Conducting business Ensuring project health Adding community members Reporting Conducting Business &amp;para; The PMC is expected to conduct all of its business on the public developers mailing list, in the full view of the community.</description>
     </item>
     
     <item>
