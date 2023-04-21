@@ -10,7 +10,7 @@ project, and voting on releases.
 * [Conducting business](#conducting-business)
 * [Ensuring project health](#ensuring-project-health)
 * [Adding community members](#adding-community-members)
-* [Reporting](/pmc/reporting)
+* [Reporting](/pmc/reporting.html)
 
 ## Conducting Business
 
@@ -79,10 +79,9 @@ abusive behavior.
 
 The PMC is also tasked with the sustainability of the project. An
 important part of this is regularly [adding new
-committers](/pmc/adding-committers) and [new PMC
-members](/pmc/adding-pmc-members). This is not the sole role of the
+committers](/pmc/adding-committers.html) and [new PMC
+members](/pmc/adding-pmc-members.html). This is not the sole role of the
 chair. Rather, every PMC member can, and should, regularly look at who
 is participating in the project, and evaluate whether they should be
 invited to the next [rung of the contributor
-ladder](/contributor-ladder).
-
+ladder](/contributor-ladder.html).

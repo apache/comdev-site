@@ -1,5 +1,6 @@
 ---
 title: Project Management Committees
+url: /pmc/
 ---
 
 The Project Management Committee, or PMC, is the technical steering
@@ -25,7 +26,7 @@ The PMC is also responsibile for voting on releases of their project, to
 ensure that each release is tested, and is an official ASF release
 artifact.
 
-[Read more about PMC responsibilities](/pmc/responsibilities)
+[Read more about PMC responsibilities](/pmc/responsibilities.html)
 
 
 ## Chair
@@ -35,7 +36,7 @@ responsibile for filing a quarterly report. They are not the project
 leader, but are a peer of the other PMC members, who has been selected,
 for a time, to take the role of secretary and spokesperson.
 
-[Read more about the PMC Chair](/pmc/chair)
+[Read more about the PMC Chair](/pmc/chair.html)
 
 ## Voting
 
@@ -48,24 +49,23 @@ website](https://apache.org/foundation/voting.html).
 
 A PMC is required to file a report to the Board of Directors every
 quarter, on a schedule determined by the Board. [Read more about what
-goes into a PMC report](/pmc/reporting).
+goes into a PMC report](/pmc/reporting.html).
 
 ## Adding committers
 
 The addition of committers is essential to the long-term 
 sustainability of an open source project. The PMC is responsible for
 determining who will be added as a committer. [Read more about how new
-committers are added to a project](/pmc/adding-committers).
+committers are added to a project](/pmc/adding-committers.html).
 
 ## Adding PMC members
 
 The PMC members identify project participants who they want to be
 members of the PMC. [Read more about the process of adding new PMC
-members](/pmc/adding-pmc-members).
+members](/pmc/adding-pmc-members.html).
 
 ## What to do as a new member
 
 If you've just been added as a new PMC member, there's a number of
 things that you'll need to do to be an effective part of the PMC. [Read
-more about getting started as a new PMC member](/pmc/new-member).
-
+more about getting started as a new PMC member](/pmc/new-member.html).

@@ -54,7 +54,7 @@ improvements, events, and many other things.
 
 As you become more involved with contributing to the project, you may
 want to work towards [becoming a
-committer](/contributors/becomingacommitter).
+committer](/contributors/becomingacommitter.html).
 
 ## Committer
 
@@ -73,7 +73,7 @@ authorized to commit documentation changes without approval, while code
 changes may be submitted as a pull request, for other committers to
 review and approve before they are merged.
 
-[See more information about being a committer](/committers).
+[See more information about being a committer](/committers/).
 
 ## PMC Member
 
@@ -89,7 +89,7 @@ also has a private mailing list, which is for discussion of topics such
 as the addition of new committers and PMC members, and any other
 sensitive topics.
 
-[See more information about being a PMC member](/pmc).
+[See more information about being a PMC member](/pmc/).
 
 ## Foundation Member
 
