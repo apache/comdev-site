@@ -32,10 +32,8 @@ The [ASF's gitpubsub mechanism](https://blogs.apache.org/infra/entry/git_based_w
 
 ## Staging content
 
-> TODO: currently disabled in the Jenkinsfile
-
-Branches named `preview/*` are staged automatically, a branch named `preview/demo0421` for example
-is staged at https://community-demo0421.staged.apache.org/
+Branches named `preview/*` are staged automatically, a branch named `preview/0421b` for example
+is staged at https://community-0421b.staged.apache.org/
 
 ## Powered by Hugo!
 
