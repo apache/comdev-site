@@ -51,7 +51,7 @@ current year's timeline and at [https://community.apache.org/gsoc/guide-to-being
 1. Apply for the ASF to be a mentoring organization for Google Summer of Code.
 I faintly remember that they wanted to know some stats like how often we have
 already participated and what the number of students was last year. I believe
-the ASF has participated since GSoC's inception in 2005. Consult [participation statistics](http://community.apache.org/gsoc/experiences.html), although the page may not be up to date.
+the ASF has participated since GSoC's inception in 2005. Consult [participation statistics](/gsoc/experiences.html), although the page may not be up to date.
 
 1. Once our application is accepted, write a press release and
 request press@ to send it out. We don't have a template yet, so work
