@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+  <meta name="description" content="Apache Community Development"/>
+  <meta name="keywords" content="apache, apache community, community development, opensource"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta property="og:title" content="Contributing to the Apache Software Foundation" />
+<meta property="og:description" content="The Community Development project creates and provides tools, processes, and advice to help open-source software projects improve their own community health." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://community.apache.org/contributors/" /><meta property="og:image" content="https://community.apache.org/images/aceu19_1.jpg"/><meta property="og:site_name" content="Apache Community Development" />
+
+
+  <title>Apache Community Development - Contributing to the Apache Software Foundation</title>
+  <link rel="shortcut icon" href="images/favicon.ico">
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link href="/css/main.css" rel="stylesheet" media="screen">
+  <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <style type="text/css">
+      .footer {
+          text-align:center;
+          color:grey;
+          font-size:80%;
+          border-top: solid #ddd 1px;
+          margin-top:1em;
+      }
+      .navbar-brand img {
+          height: 50px;
+      }
+  </style>
+
+  
+<script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(['disableCookies']);
+   
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.apache.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '36']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+
+</head>
+
+<body>
+  <header class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+        <img src="https://svn.apache.org/repos/asf/comdev/project-logos/originals/foundation.svg" alt="Apache Software Foundation">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <div class="container"> 
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                About
+              </a>
+              <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+                <a class="dropdown-item" href="/about/">What We Do</a>
+                <a class="dropdown-item" href="/newbiefaq.html">Frequently Asked Questions</a>
+                <a class="dropdown-item" href="/projectIndependence.html">Apache Project Independence</a>
+                <a class="dropdown-item" href="/apache-way/apache-project-maturity-model.html">Apache Project Maturity Model</a>
+                <a class="dropdown-item" href="/contactpoints.html">Contact Points Within the ASF</a>
+                <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html#2009-11-01">ComDev Original Board Resolution</a>
+                <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html">ComDev Board Reports</a>
+                <a class="dropdown-item" href="https://issues.apache.org/jira/projects/COMDEV">Community Development Jira</a>
+                <a class="dropdown-item" href="https://issues.apache.org/jira/projects/GSOC">GSoC Jira</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item text-uppercase disabled" href="#">About Apache</a>
+                <a class="dropdown-item" href="https://www.apache.org/">The Apache Software Foundation</a>
+                <a class="dropdown-item" href="https://www.apache.org/foundation/sponsorship">Sponsor Apache</a>
+                <a class="dropdown-item" href="https://www.apache.org/foundation/thanks">Thanks to our Sponsors</a>
+                <a class="dropdown-item" href="https://www.apache.org/licenses">License</a>
+                <a class="dropdown-item" href="https://www.apache.org/security">Security</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="contribDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                For Contributors
+              </a>
+              <div class="dropdown-menu" aria-labelledby="contribDropdown">
+                <a class="dropdown-item" href="/newcomers/">Newcomers</a>
+                <a class="dropdown-item" href="/gettingStarted/101.html">Getting Started</a>
+                <a class="dropdown-item" href="/contributors/">Finding Your Way Around The Apache Software Foundation</a>
+                <a class="dropdown-item" href="https://www.apache.org/dev/">Technical Developer FAQs</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item text-uppercase disabled" href="#">Google Summer of Code</a>
+                <a class="dropdown-item" href="/gsoc/">Google Summer Of Code Information</a>
+                <a class="dropdown-item" href="/gsoc/mentee-ranking-process.html">Mentee Ranking Process</a>
+                <a class="dropdown-item" href="/gsoc/experiences.html">Past GSoC Experiences</a>
+                <a class="dropdown-item" href="/gsoc/guide-to-being-a-mentor.html">Guide to being a Mentor</a>
+                <a class="dropdown-item" href="/gsoc/use-the-comdev-issue-tracker-for-gsoc-tasks.html">Using ComDev's Jira for GSoC Ideas</a>
+                <a class="dropdown-item" href="/gsoc/gsoc-admin-tasks.html">Tasks of a GSoC Admin at the ASF</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="commitDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                For Committers/PMCs
+              </a>
+              <div class="dropdown-menu" aria-labelledby="commitDropdown">
+                <a class="dropdown-item" href="/newcommitter.html">Recruiting New Committers</a>
+                <a class="dropdown-item" href="/committers/">Useful Information for Committers</a>
+                <a class="dropdown-item" href="/committers/consensusBuilding.html">Consensus Building</a>
+                <a class="dropdown-item" href="/committers/lazyConsensus.html">Lazy Consensus</a>
+                <a class="dropdown-item" href="/committers/decisionMaking.html">Decision Making</a>
+                <a class="dropdown-item" href="/committers/voting.html">Voting</a>
+                <a class="dropdown-item" href="/committers/funding-disclaimer.html">Funding Campaign Disclaimer</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="eventDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Events
+              </a>
+              <div class="dropdown-menu" aria-labelledby="eventDropdown">
+                <a class="dropdown-item" href="https://apachecon.com/">Community Over Code - (formerly ApacheCon)</a>
+                <a class="dropdown-item" href="https://events.apache.org/">Other Apache-related Events</a>
+                <a class="dropdown-item" href="https://www.apache.org/foundation/marks/events">Apache event branding policies</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item text-uppercase disabled" href="#">Conference Speakers</a>
+                <a class="dropdown-item" href="/speakers/slides.html">Sample presentations</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="conversDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Join the Conversation
+              </a>
+              <div class="dropdown-menu" aria-labelledby="conversDropdown">
+                <a class="dropdown-item" href="/blog/">Blog</a>
+                <a class="dropdown-item" href="https://www.facebook.com/ApacheSoftwareFoundation">Facebook</a>
+                <a class="dropdown-item" href="https://twitter.com/ApacheCommunity">Twitter</a>
+                <a class="dropdown-item" href="/lists.html">Mailing List</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="cd-main" id="content" role="main">
+    <div class="container">
+      <section id="content" class="row">
+        <div class="col-md-9">
+          <h3 class="mt-3 text-muted">The Apache Software Foundation</h3>
+        </div>
+        <div class="col-md-12"><h4 class="text-muted">Community &gt; Code</h4></div>
+      </section>
+      
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">Home</a></li>
+    
+        
+        
+    
+        
+        
+            <li class="breadcrumb-item"><a href='/contributors'>Contributors</a></li>
+            
+        
+    
+        
+        
+    
+  </ol>
+</nav>
+
+
+      <hr>
+      
+    <p>This page is for people who are reasonably
+comfortable with open source development models but need a helping hand finding
+their way around the Apache Software Foundation and our way of developing software
+(commonly called &ldquo;The Apache Way&rdquo;). For those wishing to start from
+the very beginning, we have a <a href="/newcomers/index.html">newcomers page</a>.</p>
+<h1 id="project-independence-and-policies">Project Independence And Policies <a class="headerlink" title="Permalink" href="#project-independence-and-policies">&para;</a></h1>
+<p>While not all ASF projects practice all aspects of the Apache Way in the same way, there are a number of rules that Apache
+projects must follow – things like complying with PMC
+<a href="https://www.apache.org/legal/release-policy.html">release voting</a>, <a href="https://www.apache.org/legal/">legal policy</a>, <a href="https://www.apache.org/foundation/marks/">brand policy</a>,
+using <a href="https://www.apache.org/dev/#mail">mailing lists</a>, etc., which are <a href="https://blogs.apache.org/comdev/entry/what_makes_apache_projects_different">documented in various places</a>.</p>
+<p>One of these invariant rules is that projects are managed
+independently of any commercial interests. The goal is to create an
+environment in which all participants are equal and thus have an equal
+opportunity to contribute to and benefit from our software, regardless
+of motivation or financial objectives. This is discussed in more detail
+in our document <a href="/projectIndependence.html">Project Independence</a>.</p>
+<h1 id="moving-from-contributor-to-committer">Moving From Contributor to Committer <a class="headerlink" title="Permalink" href="#moving-from-contributor-to-committer">&para;</a></h1>
+<p>Anyone can be a contributor to an Apache project. Being a contributor simply means
+that you take an interest in the project and contribute in some way, ranging from asking
+sensible questions (which document the project and provide feedback to developers)
+through to providing new features as code patches.</p>
+<p>If you become a valuable contributor to the project, the Project Management Committee (PMC) may invite you to become
+a <em>committer</em>. At the ASF, a committer is someone who is
+committed to a particular project. It brings with it the privilege of write access to
+the project repository and resources. In many projects, committers may also be invited
+to be part of the core group within the project that ensures the project&rsquo;s vitality, the PMC.
+In a few projects only a subset of committers who have earned even more merit are invited to be a part of the PMC.</p>
+<p>One thing that is sometimes hard to understand, when you are new to the open
+development process used at the ASF, is that we value the community more than
+the code. A strong and healthy community will be respectful and be a fun and
+rewarding place. More importantly, a diverse and healthy community can
+continue to support the code over the longer term, even as individual
+contributors come and go from the field.</p>
+<p>In particular, we have some <a href="/contributors/etiquette">etiquette and behavior expectations</a> when
+you work with Apache communities.</p>
+<p>See also this <a href="/contributors/becomingacommitter.html">detailed advice for how to become a committer</a></p>
+<h2 id="contributing-a-project---copdoc">Contributing A Project - CoPDoC <a class="headerlink" title="Permalink" href="#contributing-a-project---copdoc">&para;</a></h2>
+<p>The foundations of an Apache project and how the community contributes to it are
+sometimes referred to by the acronym CoPDoC:</p>
+<ul>
+<li>(Co)mmunity - one must interact with others, and share vision and knowledge</li>
+<li>(P)roject - a clear vision and consensus are needed</li>
+<li>(Do)cumentation - without it, the stuff remains only in the minds of the authors</li>
+<li>(C)ode - discussion goes nowhere without code</li>
+</ul>
+<h2 id="anyone-can-become-a-committer">Anyone Can Become A Committer <a class="headerlink" title="Permalink" href="#anyone-can-become-a-committer">&para;</a></h2>
+<p>There is nothing at the Apache Software Foundation that says you must write code
+in order to be a committer. Anyone who is supportive of the community and works
+in any of the CoPDoC areas is a likely candidate for committership.</p>
+<p>Apache strives to be meritocratic. That is, once someone has contributed sufficiently to
+any area of CoPDoC they can be voted in as a committer. Being a committer does
+not necessarily mean you commit code; it means you are committed to the project
+and are productively contributing to its success.</p>
+<p>One of the key contributions people can make to the community is through the
+support of a wide user base by assisting users on the user list, writing user-oriented docs and ensuring the developers understand the user viewpoint.
+A main idea behind being a committer is the ability to be a mentor and to work
+cooperatively with your peers.</p>
+<p>Some users of a project&rsquo;s software become committers in their own right. Some will test code,
+some will write documentation, some will do bug triage and some will write code.</p>
+<p>For more details see &ldquo;<a href="https://www.apache.org/foundation/how-it-works.html">How it works</a>&rdquo;.  You can also make
+<a href="/newbiefaq.html#websitecms">suggestions for how to update this website</a> you&rsquo;re reading right now!</p>
+<h2 id="questions-and-feedback">Questions and Feedback <a class="headerlink" title="Permalink" href="#questions-and-feedback">&para;</a></h2>
+<p>You can provide feedback and ask questions by subscribing to our mailing
+list: send an email to
+<a href="mailto:dev-subscribe@community.apache.org">dev-subscribe@community.apache.org</a>. Once subscribed, you can send your mail to
+<a href="mailto:dev@community.apache.org">dev@community.apache.org</a>.</p>
+
+    
+
+    </div>
+  </main>
+
+  <footer class="page-footer bg-secondary mt-4 pt-3">
+    <div class="container text-center text-md-left mb-3">
+      <div class="row">
+        <div class="col-md-6 mt-md-0 mt-3">
+          <h5 class="text-uppercase">Trademarks</h5>
+          <p>
+            Apache&reg;, the names of Apache projects, and the multicolor feather logo are
+            <a href="https://www.apache.org/foundation/marks/list/">registered trademarks or trademarks</a> of the Apache
+            Software Foundation in the United States and/or other countries.
+          </p>
+        </div>
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <div class="col-md-6 mb-md-0 mb-3">
+          <h5 class="text-uppercase">Website sources</h5>
+
+          <p>
+            This website is generated from the <a href="https://github.com/apache/comdev-site">comdev-site repository</a>.<br>
+            Patches are welcome!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright text-center py-3">
+      <em>Copyright &copy; 2023, <a href="https://www.apache.org/">the Apache Software Foundation</a>. Licensed under the
+      <a rel="license" href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></em>
+    </div>
+  </footer>
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>

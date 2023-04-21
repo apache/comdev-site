@@ -1,0 +1,20 @@
+---
+title: "Committed To The Apache Way"
+teaser: Learn how being involved in an Apache project is not just about code.
+submitter: sharan
+speakers:
+- sharan
+abstract: | 
+  'To be committed' is a strange phrase. In the past it was used to describe people who were sent to mental institutions or 'facilities'. Fast forward to today and words like committed and commitment are used throughout the Open Source world. Are we all a little crazy? - Perhaps!
+
+  In this presentation Sharan shares her thoughts and experiences about being a Committer, life at the ASF (facility) and how not being able to code is still OK.
+
+audience: Community managers, developers, project managers involved with FOSS projects.
+slides: http://events.linuxfoundation.org/sites/events/files/slides/Commited%20to%20Apache.pdf
+video: https://www.youtube.com/watch?v=vT-kxmoLs5k&index=25&list=PLbzoR-pLrL6pLDCyPxByWQwYTL-JrF5Rp
+topics: 
+- community
+- contributors
+present_at:
+- http://apachecon.com/2017
+present_date: '2017-05-16'

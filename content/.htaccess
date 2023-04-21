@@ -1,0 +1,7 @@
+Redirect /gsoc.html /gsoc/
+Redirect /gsoc-admin-tasks.html /gsoc/gsoc-admin-tasks.html
+Redirect /guide-to-being-a-mentor.html /gsoc/guide-to-being-a-mentor.html
+Redirect /mentee-ranking-process.html /gsoc/mentee-ranking-process.html
+Redirect /use-the-comdev-issue-tracker-for-gsoc-tasks.html /gsoc/use-the-comdev-issue-tracker-for-gsoc-tasks.html
+
+Redirect /mentoring/experiences.html /gsoc/experiences.html

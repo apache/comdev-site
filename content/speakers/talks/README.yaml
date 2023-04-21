@@ -1,0 +1,24 @@
+---
+# YAML format allows comments; each talk/slides gets one file.
+title: "Talk Title: Strings with colons must be quoted"
+teaser: Teaser is one sentence for use on session grids or tweets or the like (where supported).
+submitter: curcuru
+# submitter maps to basename.yaml which is normally an apacheid and lets us lookup the speaker bio, etc.
+speakers:
+- curcuru
+- Court Jester
+# Panels might have more speakers; if string doesn't lookup a basename.yaml, it's just a display name.
+abstract: | 
+  Abstracts are the full description of a talk, session, or panel that has already been presented.
+  
+  Abstracts may have line breaks, and some systems may allow **formatting** or the like.
+  
+  Using the YAML pipe "|" character for a literal multiline scalar means linebreaks are preserved in the abstract. 
+
+audience: Brief description of the expected audience for this talk.
+slides: URL.to/posted-slides
+video: URL.to/posted-video?if-any
+
+present_at:
+- URL.to/last-conference-presented-at
+present_date: '2017-05-16'
