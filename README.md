@@ -30,7 +30,7 @@ Changes to the `main` branch of this repository trigger the [comdev-site Jenkins
 
 The [ASF's gitpubsub mechanism](https://blogs.apache.org/infra/entry/git_based_websites_available) then synchronizes that content to [https://community.apache.org/](https://community.apache.org/), usually within a few seconds. More details about the publication process can be found in the [ASF Documentation about Project sites](https://infra.apache.org/project-site.html). If for some reason this process fails, you can use [the self-service page from ASF Infra](https://selfserve.apache.org/) to trigger a resync of the git repo.
 
-## Staging content
+## Staging content
 
 > TODO: currently disabled in the Jenkinsfile
 
