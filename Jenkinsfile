@@ -31,6 +31,12 @@ pipeline {
         PAGEFIND_HASH = '3e450176562b65359f855c04894ec2c07ffd30a8d08ef4d5812f8d3469d7a58f'
     }
 
+    // TODO_TRIGGER how to run the pipeline only for branches that match the below regexp?
+    // To avoid recursively building staging branches
+    // expression {
+    //   return env.BRANCH_NAME ==~ /(main|preview\/[a-zA-Z0-9_]+$)/
+    // }
+
     stages {
         stage('Prepare') {
             steps {
@@ -112,9 +118,12 @@ pipeline {
         stage('Staging') {
             // Mostly duplicated from the Deploy branch, there must be a better way...
             when {
-                not {
-                    branch 'main'
+                anyOf {
+                    branch 'TODO_DISABLED_FOR_NOW_SEE_TODO_TRIGGER_above'
                 }
+                //not {
+                //    branch 'main'
+                //}
             }
             steps {
                 script {
