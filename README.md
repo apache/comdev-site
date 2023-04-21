@@ -16,24 +16,27 @@ limitations under the License.
 -->
 # Apache Community Development website
 
-This is the source code for the website of the [Apache Community Development PMC website](https://community.apache.org/), hosted at:
+This is the source code for the ASF Community Development PMC website, hosted at
+[community.apache.org](https://community.apache.org)
 
-    https://community.apache.org/
-    
 To get in touch with that PMC please use the [dev@community.apache.org](https://lists.apache.org/list.html?dev@community.apache.org) mailing list.
 
-The repository for the [events.apache.org](https://events.apache.org/) website, which is also managed by the Community Development PMC, is at https://github.com/apache/comdev-events-site
+The [events.apache.org](https://events.apache.org/) website is also managed by the Community Development PMC
+but managed in the [comdev-events-site](https://github.com/apache/comdev-events-site) repository.
 
-## How to publish the website
+## Automated website publishing and staging
 
-Changes to the `main` branch of this repository trigger the [comdev-site Jenkins Job](https://ci-builds.apache.org/job/Community%20Development/job/site/job/main/), which generates the website content and commits it to the `asf-site` branch of this repository. There's currently (April 2020) a lag of about ten minutes for the Jenkins job to start, if you commit directly to the GitHub repository.
+Changes to the `main` or `preview/*` branches of this repository trigger the [comdev-site Jenkins Job](https://ci-builds.apache.org/job/Community%20Development/job/site/job/main/), which generates and pushes the website content.
 
-The [ASF's gitpubsub mechanism](https://blogs.apache.org/infra/entry/git_based_websites_available) then synchronizes that content to [https://community.apache.org/](https://community.apache.org/), usually within a few seconds. More details about the publication process can be found in the [ASF Documentation about Project sites](https://infra.apache.org/project-site.html). If for some reason this process fails, you can use [the self-service page from ASF Infra](https://selfserve.apache.org/) to trigger a resync of the git repo.
+There's currently (April 2020) a lag of about ten minutes for the corresponding Jenkins job to start, if you commit directly to the GitHub repository, but you can also start the job manually if you have the required Jenkins access rights.
 
-## Staging content
+For the `main` branch, the generated content is pushed to the `asf-site` branch, and 
+the [ASF's gitpubsub mechanism](https://blogs.apache.org/infra/entry/git_based_websites_available) then synchronizes that content to the live [community.apache.org](https://community.apache.org/) website, usually within a few seconds.
 
-Branches named `preview/*` are staged automatically, a branch named `preview/0421b` for example
-is staged at https://community-0421b.staged.apache.org/
+Branches named `preview/<name>` are staged automatically, a branch named `preview/0421b` for example
+is staged at https://community-0421b.staged.apache.org/ . The `<name>` must only use the characters `a-z`, `A-Z`, `0-9` and `_` (underscore).
+
+More details about the publication process can be found in the [ASF Documentation about Project sites](https://infra.apache.org/project-site.html). If for some reason this process fails, you can use [the self-service page from ASF Infra](https://selfserve.apache.org/) to trigger a resync of the git repo.
 
 ## Powered by Hugo!
 
