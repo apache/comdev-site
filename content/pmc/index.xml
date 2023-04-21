@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Project Management Committees on Apache Comdev</title>
+    <title>Pmcs on Apache Comdev</title>
     <link>https://community.apache.org/pmc.html</link>
-    <description>Recent content in Project Management Committees on Apache Comdev</description>
+    <description>Recent content in Pmcs on Apache Comdev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language><atom:link href="https://community.apache.org/pmc/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -65,6 +65,16 @@ Reporting schedule What goes into a report Tools to help generation of reports <
       <guid>https://community.apache.org/pmc/responsibilities.html</guid>
       <description>The Project Management Committee (PMC) is responsible for the oversight of the project, including technical decisions, ensuring that the project is operating in accordance with ASF norms, adding new members to the project, and voting on releases.
 Conducting business Ensuring project health Adding community members Reporting Conducting Business &amp;para; The PMC is expected to conduct all of its business on the public developers mailing list, in the full view of the community.</description>
+    </item>
+    
+    <item>
+      <title>Project Management Committees</title>
+      <link>https://community.apache.org/pmc/__index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/pmc/__index.html</guid>
+      <description>The Project Management Committee, or PMC, is the technical steering committee for a project. This group determines the roadmap for the project, decides who will be added as committers and PMC members, and reports quarterly to the Board of Directors.
+PMC Responsibilities Chair Voting Reporting Adding committers Adding PMC members What to do as a new member PMC Responsibilities &amp;para; The PMC is responsible for the management of the project. This includes both the technical decisions, and ensuring that the project is operating in community-friendly ways.</description>
     </item>
     
   </channel>
