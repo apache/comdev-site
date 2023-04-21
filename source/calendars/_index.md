@@ -45,5 +45,5 @@ Apache project related events there.
   [2]: https://www.apache.org/foundation/marks/events.html
   [3]: https://www.google.com/calendar/ical/nerseigospses068jd57bk5ar8%40group.calendar.google.com/public/basic.ics
   [4]: http://lanyrd.com/guides/apache-software-and-technologies/
-  [5]: https://www.apache.org/events/meetups.html
+  [5]: https://events.apache.org/event/index.html
   [6]: https://svn.apache.org/repos/asf/comdev/tools/get_meetups

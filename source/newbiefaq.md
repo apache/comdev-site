@@ -175,7 +175,7 @@ projects. This section includes such gems as:
 # How do I suggest changes to this website? # {#websitecms}
 
 The content for the `community.apache.org` website is written in Markdown
-and published automatically using a [Jenkins job](https://builds.apache.org/job/comdev-site/).
+and published automatically using a [Jenkins job](https://ci-builds.apache.org/job/Community%20Development/job/site/).
 Any contributor is able to submit changes via pull requests. Comdev committers are able to merge
 proposed changes.
 
