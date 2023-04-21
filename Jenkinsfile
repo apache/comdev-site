@@ -24,6 +24,7 @@ pipeline {
    
     environment {
         DEPLOY_BRANCH = 'asf-site'
+        STAGING_BRANCH = "${env.BRANCH_NAME}-staging"
         HUGO_VERSION = '0.111.3'
         HUGO_HASH = 'b382aacb522a470455ab771d0e8296e42488d3ea4e61fe49c11c32ec7fb6ee8b'
         PAGEFIND_VERSION = '0.12.0'
@@ -90,7 +91,7 @@ pipeline {
                     // Remove the content of the target branch and replace it with the content of the temp folder
                     sh """
                         rm -rf ${WORKSPACE}/content
-                        git rm -r --cached content/*
+                        git rm -r --ignore-unmatch --cached content/*
                         mkdir -p ${WORKSPACE}/content
                         cp -rT ${env.TMP_DIR}/* ${WORKSPACE}/content
                     """
@@ -105,6 +106,42 @@ pipeline {
                     
                     // Push the generated content for deployment
                     sh "git push -u origin ${DEPLOY_BRANCH}"
+                }
+            }
+        }
+        stage('Staging') {
+            // Mostly duplicated from the Deploy branch, there must be a better way...
+            when {
+                not {
+                    branch 'main'
+                }
+            }
+            steps {
+                script {
+                    // Checkout or create branch with generated content
+                    sh """
+                        git checkout ${STAGING_BRANCH} || git checkout -b ${STAGING_BRANCH}
+                        git pull origin ${STAGING_BRANCH} || echo "branch ${STAGING_BRANCH} is new"
+                    """
+
+                    // Remove the content of the target branch and replace it with the content of the temp folder
+                    sh """
+                        rm -rf ${WORKSPACE}/content
+                        git rm -r --ignore-unmatch --cached content/*
+                        mkdir -p ${WORKSPACE}/content
+                        cp -rT ${env.TMP_DIR}/* ${WORKSPACE}/content
+                    """
+
+                    // Commit the changes to the target branch
+                    env.COMMIT_MESSAGE1 = "Updated ${STAGING_BRANCH} from ${BRANCH_NAME} at ${env.LAST_SHA}"
+                    env.COMMIT_MESSAGE2 = "Built from ${BUILD_URL}"
+                    sh """
+                        git add -A
+                        git commit -m "${env.COMMIT_MESSAGE1}" -m "${env.COMMIT_MESSAGE2}" | true
+                    """
+
+                    // Push the generated content for deployment
+                    sh "git push -u origin ${STAGING_BRANCH}"
                 }
             }
         }
