@@ -11,7 +11,7 @@ Note: This document is bout GSoC, not about a generic Mentoring Program.
 
 We invite all ASF projects to submit their ideas for consideration in the
 ASF mentoring programme. Any Apache member and experienced committers can
-submit ideas via Jira (if your project does not use Jira you can [use the Comdev Issue Tracker For GSoC Tasks](use-the-comdev-issue-tracker-for-gsoc-tasks.html). We are looking for as many interesting projects as we can come up with. 
+submit ideas via Jira (if your project does not use Jira you can [use the Comdev GSoC Issue Tracker For GSoC Tasks](use-the-comdev-gsoc-issue-tracker-for-gsoc-tasks.html). We are looking for as many interesting projects as we can come up with.
 
 <a name="guidetobeingamentor-Summary"></a>
 ## Important Steps
