@@ -31,9 +31,6 @@ pipeline {
         PAGEFIND_HASH = '3e450176562b65359f855c04894ec2c07ffd30a8d08ef4d5812f8d3469d7a58f'
     }
 
-    // TODO should add a pipeline trigger that ignores branches having -staging in their
-    // name, not sure how to do that
-
     stages {
         stage('Prepare') {
             steps {
@@ -117,6 +114,7 @@ pipeline {
             when {
                 allOf {
                     // ignore branches named preview/*-staging to avoid infinite loop..
+                    // WARNING: do not allow '-' in preview source branch names or the loop will return...
                     expression { env.BRANCH_NAME ==~ /preview\/[a-zA-Z0-9_]+$/ }
                 }
             }
