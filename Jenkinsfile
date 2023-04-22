@@ -111,11 +111,14 @@ pipeline {
         }
         stage('Staging') {
             // Mostly duplicated from the Deploy branch, there must be a better way...
+            // https://www.jenkins.io/doc/book/pipeline/syntax/#built-in-conditions
+            // branch uses Ant-style patterns by default:
+            // https://ant.apache.org/manual/dirtasks.html#patterns
+            // Exclude branches ending in '-staging'
+            // This agrees with the definition of STAGING_BRANCH
             when {
-                allOf {
-                    // ignore branches named preview/*-staging to avoid infinite loop..
-                    // WARNING: do not allow '-' in preview source branch names or the loop will return...
-                    expression { env.BRANCH_NAME ==~ /preview\/[a-zA-Z0-9_]+$/ }
+                not {
+                  branch '**/*-staging'
                 }
             }
             steps {
