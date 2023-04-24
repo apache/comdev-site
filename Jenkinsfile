@@ -117,8 +117,13 @@ pipeline {
             // Exclude branches ending in '-staging'
             // This agrees with the definition of STAGING_BRANCH
             when {
-                not {
-                  branch '**/*-staging'
+                allOf {
+                    not {
+                      branch '**/*-staging'
+                    }
+                    not {
+                      branch 'main'
+                    }
                 }
             }
             steps {
