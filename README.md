@@ -34,7 +34,7 @@ For the `main` branch, the generated content is pushed to the `asf-site` branch,
 the [ASF's gitpubsub mechanism](https://blogs.apache.org/infra/entry/git_based_websites_available) then synchronizes that content to the live [community.apache.org](https://community.apache.org/) website, usually within a few seconds.
 
 Branches named `preview/<name>` are staged automatically, a branch named `preview/0421b` for example
-is staged at https://community-0421b.staged.apache.org/ . The `<name>` must only use the characters `a-z`, `A-Z`, `0-9` and `_` (underscore).
+is staged at https://community-0421b.staged.apache.org/ .
 
 More details about the publication process can be found in the [ASF Documentation about Project sites](https://infra.apache.org/project-site.html). If for some reason this process fails, you can use [the self-service page from ASF Infra](https://selfserve.apache.org/) to trigger a resync of the git repo.
 
