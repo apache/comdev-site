@@ -43,7 +43,7 @@ Overview &amp;para; The goals of this maturity model are to describe how Apache 
       
       <guid>https://community.apache.org/pmc/adding-committers.html</guid>
       <description>The addition of new committers is essential to the long-term sustainability of an open source project. The PMC is responsible for determining who will be added as a committer.
-Who should be a committer? Vote process What to do when a committer is elected </description>
+Who should be a committer? Vote process What to do when a committer is elected Note: Formal policy/process document is here: https://www.apache.org/dev/pmc.html#committer-management</description>
     </item>
     
     <item>
@@ -53,7 +53,7 @@ Who should be a committer? Vote process What to do when a committer is elected <
       
       <guid>https://community.apache.org/pmc/adding-pmc-members.html</guid>
       <description>The PMC is responsible for identifying individuals who should be added to the PMC. This is a critical part of the long-term health and sustainability of a project, and ensures that contributors to the project have a voice in the project&amp;rsquo;s roadmap.
-Who should be a PMC member? Nominating, discussion, and voting What to do when a new PMC member is elected </description>
+Who should be a PMC member? Nominating, discussion, and voting What to do when a new PMC member is elected Note: Formal policy/process doc is here: https://www.apache.org/dev/pmc.html#newpmc</description>
     </item>
     
     <item>
@@ -392,8 +392,8 @@ Guidelines for assessing new candidates for committership Ability to work cooper
       
       <guid>https://community.apache.org/pmc/new-member.html</guid>
       <description>You&amp;rsquo;ve been invited to join a project PMC? Congratulations! What should you do now?
-(There&amp;rsquo;s some info here: https://svn.apache.org/repos/private/foundation/officers/advice-for-new-pmc-chairs.txt
-but it&amp;rsquo;s plain text, fairly terse, and behind a password.) </description>
+Being part of an ASF Project Management Committee is more than just an acknowledgement of your contributions. It&amp;rsquo;s a new level of responsibility for the project&amp;rsquo;s health and sustainability. The Board of Directors is relying on you to provide oversight of the project code, and project community
+Join the conversation &amp;para; If you haven&amp;rsquo;t already, you need to subscribe to the PMC/Private mailing list.</description>
     </item>
     
     <item>
@@ -414,7 +414,7 @@ The mentoring programme is not here to teach you to write documentation or code.
       
       <guid>https://community.apache.org/pmc/chair.html</guid>
       <description>The PMC Chair acts as the voice of the project to the board, and is responsible for filing a quarterly report. They are not the project leader, but are a peer of the other PMC members, who has been selected, for a time, to take the role of secretary and spokesperson.
-Reporting Selecting a new chair When Who </description>
+The PMC Chair is not the de-facto project leader. While they are usually a senior, well-respected member of the community, they are a peer, with a few additional duties.</description>
     </item>
     
     <item>
@@ -424,7 +424,9 @@ Reporting Selecting a new chair When Who </description>
       
       <guid>https://community.apache.org/pmc/reporting.html</guid>
       <description>A PMC is required to file a report to the Board of Directors every quarter, on a schedule determined by the Board.
-Reporting schedule What goes into a report Tools to help generation of reports </description>
+You can find your project&amp;rsquo;s reporting schedule on projects.apache.org. You will also receive a reminder from the Secretary a few weeks prior to your report&amp;rsquo;s due date.
+The official record of PMC reporting schedules is the file committee-info.txt (requires password authentication).
+Writing a report &amp;para; The report to the board is expected to contain certain sections.</description>
     </item>
     
     <item>
