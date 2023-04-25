@@ -8,6 +8,9 @@ committee for a project. This group determines the roadmap for the
 project, decides who will be added as committers and PMC members, and
 reports quarterly to the Board of Directors.
 
+The Board expects all PMCs to understand and comply with [published 
+policies](https://www.apache.org/dev/pmc.html#policy).
+
 * [PMC Responsibilities](#pmc-responsibilities)
 * [Chair](#chair)
 * [Voting](#voting)
@@ -22,7 +25,7 @@ The PMC is responsible for the management of the project. This includes
 both the technical decisions, and ensuring that the project is operating
 in community-friendly ways.
 
-The PMC is also responsibile for voting on releases of their project, to
+The PMC is also responsible for voting on releases of their project, to
 ensure that each release is tested, and is an official ASF release
 artifact.
 
@@ -32,7 +35,7 @@ artifact.
 ## Chair
 
 The PMC Chair acts as the voice of the project to the board, and is
-responsibile for filing a quarterly report. They are not the project
+responsible for filing a quarterly report. They are not the project
 leader, but are a peer of the other PMC members, who has been selected,
 for a time, to take the role of secretary and spokesperson.
 
