@@ -11,4 +11,7 @@ project have a voice in the project's roadmap.
 * Nominating, discussion, and voting
 * What to do when a new PMC member is elected
 
+Note: Formal policy/process doc is here: https://www.apache.org/dev/pmc.html#newpmc
+
+
 
