@@ -96,7 +96,7 @@ pipeline {
                           git checkout --orphan ${DEPLOY_BRANCH} -f
                           git rm -rf .
                           # assume we have an asf.yaml file
-                          git checkout origin/${BRANCH_NAME} -- .asf.yaml -f
+                          git checkout origin/${BRANCH_NAME} -- .asf.yaml
                           git add .asf.yaml -f
                         fi
                     """
