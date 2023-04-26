@@ -87,18 +87,16 @@ pipeline {
                 script {
                     // Checkout branch with generated content, creating it if necessary
                     sh """
+                        git branch
                         if git checkout ${DEPLOY_BRANCH}
                         then
                           git pull origin ${DEPLOY_BRANCH}
                         else
                           echo "branch ${DEPLOY_BRANCH} is new; create basic site"
-                          git branch
                           git checkout --orphan ${DEPLOY_BRANCH} -f
                           git rm -rf .
-                          git fetch
-                          git branch
                           # assume we have an asf.yaml file
-                          git checkout ${BRANCH_NAME} -- .asf.yaml -f
+                          git checkout origin/${BRANCH_NAME} -- .asf.yaml -f
                           git add .asf.yaml -f
                         fi
                     """
