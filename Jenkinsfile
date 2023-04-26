@@ -78,15 +78,24 @@ pipeline {
         // branch uses Ant-style patterns by default:
         // https://ant.apache.org/manual/dirtasks.html#patterns
         // Exclude branches ending in '-staging'
+        // Also try to prevent deploy of top-level branches apart from main
         stage('Deploy') {
             when {
                 not {
-                  branch '**/*-staging'
+                    branch '**/*-staging'
                 }
+                anyOf {
+                    branch 'main'
+                    not {
+                      branch '*'
+                    }
+                }        
             }
+
             steps {
                 script {
                     // Checkout branch with generated content, creating it if necessary
+                    // We only want the generated content + .asf.yaml
                     sh """
                         if git checkout ${DEPLOY_BRANCH}
                         then
@@ -100,7 +109,7 @@ pipeline {
                           git add .asf.yaml -f
                         fi
                     """
-                    
+
                     // Remove the content of the target branch and replace it with the content of the temp folder
                     sh """
                         rm -rf ${WORKSPACE}/content
@@ -108,16 +117,15 @@ pipeline {
                         mkdir -p ${WORKSPACE}/content
                         cp -rT ${env.TMP_DIR}/* ${WORKSPACE}/content
                     """
-                    
+
                     // Commit the changes to the target branch
                     env.COMMIT_MESSAGE1 = "Updated ${DEPLOY_BRANCH} from ${BRANCH_NAME} at ${env.LAST_SHA}"
                     env.COMMIT_MESSAGE2 = "Built from ${BUILD_URL}"
                     sh """
-                        git status
                         git add -A
                         git commit -m "${env.COMMIT_MESSAGE1}" -m "${env.COMMIT_MESSAGE2}" | true
                     """
-                    
+
                     // Push the generated content for deployment
                     sh "git push -u origin ${DEPLOY_BRANCH}"
                 }
