@@ -85,15 +85,19 @@ pipeline {
             }
             steps {
                 script {
-                    // Checkout branch with generated content
+                    // Checkout branch with generated content, creating it if necessary
                     sh """
-                        git checkout ${DEPLOY_BRANCH} || {
+                        if git checkout ${DEPLOY_BRANCH}
+                        then
+                          git pull origin ${DEPLOY_BRANCH}
+                        else
                           echo "branch ${DEPLOY_BRANCH} is new; create basic site"
-                          git checkout --orphan ${DEPLOY_BRANCH}
+                          git checkout --orphan ${DEPLOY_BRANCH} -f
+                          rm -rf .
                           # assume we have an asf.yaml file
-                          git checkout ${BRANCH_NAME} -- .asf.yaml -f && git add .asf.yaml -f
-                        }
-                        git pull origin ${DEPLOY_BRANCH}
+                          git checkout ${BRANCH_NAME} -- .asf.yaml -f
+                          git add .asf.yaml -f
+                        fi
                     """
                     
                     // Remove the content of the target branch and replace it with the content of the temp folder
