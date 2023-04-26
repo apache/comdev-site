@@ -94,6 +94,7 @@ pipeline {
                           echo "branch ${DEPLOY_BRANCH} is new; create basic site"
                           git checkout --orphan ${DEPLOY_BRANCH} -f
                           git rm -rf .
+                          git branch
                           # assume we have an asf.yaml file
                           git checkout ${BRANCH_NAME} -- .asf.yaml -f
                           git add .asf.yaml -f
