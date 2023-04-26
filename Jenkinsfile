@@ -70,6 +70,7 @@ pipeline {
                 script {
                     sh "${HUGO_DIR}/bin/hugo --destination ${env.OUT_DIR}"
                     sh "${PAGEFIND_DIR}/bin/pagefind --source ${env.OUT_DIR}"
+                    sh "rm -f .hugo_build.lock"
                 }
             }
         }
@@ -87,7 +88,6 @@ pipeline {
                 script {
                     // Checkout branch with generated content, creating it if necessary
                     sh """
-                        git branch
                         if git checkout ${DEPLOY_BRANCH}
                         then
                           git pull origin ${DEPLOY_BRANCH}
@@ -113,6 +113,7 @@ pipeline {
                     env.COMMIT_MESSAGE1 = "Updated ${DEPLOY_BRANCH} from ${BRANCH_NAME} at ${env.LAST_SHA}"
                     env.COMMIT_MESSAGE2 = "Built from ${BUILD_URL}"
                     sh """
+                        git status
                         git add -A
                         git commit -m "${env.COMMIT_MESSAGE1}" -m "${env.COMMIT_MESSAGE2}" | true
                     """
