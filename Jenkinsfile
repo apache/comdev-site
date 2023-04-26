@@ -22,6 +22,21 @@ pipeline {
         label 'git-websites'
     }
    
+    when {
+      // Must not try to build *-staging
+      // Can build 'main' - because it deploys to asf-site
+      // Can build **/* - because git-site-role can write to **/*-staging
+      allOf {
+        not {
+          branch '**/*-staging'
+        }
+        anyOf {
+          branch 'main'
+          branch '**/*'
+        }        
+      }
+    }
+
     environment {
         DEPLOY_BRANCH = "${env.BRANCH_NAME == "main" ? "asf-site" : "${env.BRANCH_NAME}-staging"}"
         HUGO_VERSION = '0.111.3'
@@ -79,6 +94,7 @@ pipeline {
         // https://ant.apache.org/manual/dirtasks.html#patterns
         // Exclude branches ending in '-staging'
         stage('Deploy') {
+            // leave this for safety reasons!
             when {
                 not {
                   branch '**/*-staging'
