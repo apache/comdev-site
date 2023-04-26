@@ -87,8 +87,12 @@ pipeline {
                 script {
                     // Checkout branch with generated content
                     sh """
-                        git checkout ${DEPLOY_BRANCH} || git checkout -b ${DEPLOY_BRANCH}
-                        git pull origin ${DEPLOY_BRANCH} || echo "branch ${DEPLOY_BRANCH} is new"
+                        git checkout ${DEPLOY_BRANCH} || {
+                          echo "branch ${DEPLOY_BRANCH} is new"
+                          git checkout -b ${DEPLOY_BRANCH} --orphan
+                          git checkout ${BRANCH_NAME} -- .asf.yaml -f && git add .asf.yaml -f
+                        }
+                        git pull origin ${DEPLOY_BRANCH}
                     """
                     
                     // Remove the content of the target branch and replace it with the content of the temp folder
