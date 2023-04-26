@@ -95,6 +95,7 @@ pipeline {
                           git branch
                           git checkout --orphan ${DEPLOY_BRANCH} -f
                           git rm -rf .
+                          git fetch
                           git branch
                           # assume we have an asf.yaml file
                           git checkout ${BRANCH_NAME} -- .asf.yaml -f
