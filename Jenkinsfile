@@ -92,6 +92,7 @@ pipeline {
                           git pull origin ${DEPLOY_BRANCH}
                         else
                           echo "branch ${DEPLOY_BRANCH} is new; create basic site"
+                          git branch
                           git checkout --orphan ${DEPLOY_BRANCH} -f
                           git rm -rf .
                           git branch
