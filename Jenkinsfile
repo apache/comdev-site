@@ -32,19 +32,6 @@ pipeline {
 
     stages {
         stage('Prepare') {
-            when {
-                // Must not try to build *-staging
-                // Can build 'main' - because it deploys to asf-site
-                // Can build **/* - because git-site-role can write to **/*-staging
-                not {
-                    branch '**/*-staging'
-                }
-                anyOf {
-                    branch 'main'
-                    branch '**/*'
-                }        
-            }
-
             steps {
                 script {
                     // Capture last commit hash for final commit message
@@ -79,19 +66,6 @@ pipeline {
             }
         }
         stage('Build') {
-            when {
-                // Must not try to build *-staging
-                // Can build 'main' - because it deploys to asf-site
-                // Can build **/* - because git-site-role can write to **/*-staging
-                not {
-                    branch '**/*-staging'
-                }
-                anyOf {
-                    branch 'main'
-                    branch '**/*'
-                }        
-            }
-
             steps {
                 script {
                     sh "${HUGO_DIR}/bin/hugo --destination ${env.OUT_DIR}"
@@ -104,17 +78,17 @@ pipeline {
         // branch uses Ant-style patterns by default:
         // https://ant.apache.org/manual/dirtasks.html#patterns
         // Exclude branches ending in '-staging'
+        // Also try to prevent deploy of top-level branches apart from main
         stage('Deploy') {
             when {
-                // Must not try to build *-staging
-                // Can build 'main' - because it deploys to asf-site
-                // Can build **/* - because git-site-role can write to **/*-staging
                 not {
                     branch '**/*-staging'
                 }
                 anyOf {
                     branch 'main'
-                    branch '**/*'
+                    not {
+                      branch '*'
+                    }
                 }        
             }
 
