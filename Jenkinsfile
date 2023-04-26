@@ -88,8 +88,9 @@ pipeline {
                     // Checkout branch with generated content
                     sh """
                         git checkout ${DEPLOY_BRANCH} || {
-                          echo "branch ${DEPLOY_BRANCH} is new"
-                          git checkout -b ${DEPLOY_BRANCH} --orphan
+                          echo "branch ${DEPLOY_BRANCH} is new; create basic site"
+                          git checkout --orphan ${DEPLOY_BRANCH}
+                          # assume we have an asf.yaml file
                           git checkout ${BRANCH_NAME} -- .asf.yaml -f && git add .asf.yaml -f
                         }
                         git pull origin ${DEPLOY_BRANCH}
