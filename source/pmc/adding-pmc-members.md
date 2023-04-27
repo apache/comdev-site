@@ -1,5 +1,6 @@
 ---
 title: Adding PMC members
+tags: ["pmc","election"]
 ---
 
 The PMC is responsible for identifying individuals who should be added

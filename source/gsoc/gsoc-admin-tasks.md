@@ -1,5 +1,6 @@
 ---
-title: GSoC admins 
+title: GSoC admins
+tags: ["gsoc","mentoring"]
 ---
 
 A comprehensive guide to being a GSoC admin for the ASF

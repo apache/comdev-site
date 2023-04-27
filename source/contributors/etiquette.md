@@ -1,5 +1,6 @@
 ---
 title: ASF Community Etiquette Guidelines
+tags: ["etiquette","conduct"]
 ---
 
 The ASF and our many projects welcome all 

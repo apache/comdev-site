@@ -1,5 +1,6 @@
 ---
 title: Adding Committers
+tags: ["pmc","committers"]
 ---
 
 The addition of new committers is essential to the long-term 

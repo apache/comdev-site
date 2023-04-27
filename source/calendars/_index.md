@@ -1,6 +1,7 @@
 ---
 title: Apache Related Event Calendars
 url: /calendars/
+tags: ["calendars","events","conferences"]
 ---
 
 This calendar lists major events relating to The Apache Software Foundation

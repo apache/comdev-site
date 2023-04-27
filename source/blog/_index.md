@@ -2,6 +2,7 @@
 title: Community Development Blog
 url: /blog/
 list_pages: true
+tags: ["blog"]
 ---
 
 ## Community Development Blog

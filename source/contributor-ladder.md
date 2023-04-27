@@ -1,5 +1,6 @@
 ---
 title: ASF Contributor Ladder
+tags: ["pmc","roles","committers","members","officers","board"]
 ---
 
 Projects at the ASF offer a way to grow in your responsibilities in the

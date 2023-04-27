@@ -1,5 +1,6 @@
 ---
 title: New PMC Members
+tags: ["pmc","election"]
 ---
 
 You've been invited to join a project PMC? Congratulations! What should

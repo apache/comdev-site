@@ -1,5 +1,6 @@
 ---
 title: Apache-related slides, videos and presentations
+tags: ["speakers","conferences","slides","video"]
 ---
 
 This page contains links to presentations and other key papers about the ASF and how

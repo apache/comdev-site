@@ -1,5 +1,6 @@
 ---
 title: Mentoring Mentors
+tags: ["mentoring"]
 ---
 
 # Mentoring Mentors
