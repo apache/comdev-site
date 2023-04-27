@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>navigation on Apache Comdev</title>
+    <link>https://community.apache.org/tags/navigation.html</link>
+    <description>Recent content in navigation on Apache Comdev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://community.apache.org/tags/navigation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Community Development: What we do</title>
+      <link>https://community.apache.org/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/about/</guid>
+      <description>Community Development: What We Do &amp;para; The Community Development (ComDev) project provides a wide array of information, FAQs, and help to newcomers and existing committers, and maintains a number of helpful tools.
+Community Development: What We Do Mentoring for Individuals and Help Getting Around Mentoring for Projects Education + Outreach Diversity Conference Travel Assistance Tools and Code we Maintain Physical artifacts About This Website Mentoring for Individuals and Help Getting Around &amp;para; GSoC Contributors Guide Committers Guide Project Management Committees Mentoring for Projects &amp;para; Incubator Mentors - Many folks here are IPMC members or mentors, too Get community advice on dev@community Education + Outreach &amp;para; ApacheCon Partnered Industry Events (FOSDEM etc.</description>
+    </item>
+    
+    <item>
+      <title>Contributing to the Apache Software Foundation</title>
+      <link>https://community.apache.org/contributors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/contributors/</guid>
+      <description>This page is for people who are reasonably comfortable with open source development models but need a helping hand finding their way around the Apache Software Foundation and our way of developing software (commonly called &amp;ldquo;The Apache Way&amp;rdquo;). For those wishing to start from the very beginning, we have a newcomers page.
+Project Independence And Policies &amp;para; While not all ASF projects practice all aspects of the Apache Way in the same way, there are a number of rules that Apache projects must follow – things like complying with PMC release voting, legal policy, brand policy, using mailing lists, etc.</description>
+    </item>
+    
+  </channel>
+</rss>

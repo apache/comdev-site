@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pmc on Apache Comdev</title>
+    <link>https://community.apache.org/tags/pmc.html</link>
+    <description>Recent content in pmc on Apache Comdev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://community.apache.org/tags/pmc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adding Committers</title>
+      <link>https://community.apache.org/pmc/adding-committers.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/pmc/adding-committers.html</guid>
+      <description>The addition of new committers is essential to the long-term sustainability of an open source project. The PMC is responsible for determining who will be added as a committer.
+Who should be a committer? Vote process What to do when a committer is elected Note: Formal policy/process document is here: https://www.apache.org/dev/pmc.html#committer-management</description>
+    </item>
+    
+    <item>
+      <title>Adding PMC members</title>
+      <link>https://community.apache.org/pmc/adding-pmc-members.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/pmc/adding-pmc-members.html</guid>
+      <description>The PMC is responsible for identifying individuals who should be added to the PMC. This is a critical part of the long-term health and sustainability of a project, and ensures that contributors to the project have a voice in the project&amp;rsquo;s roadmap.
+Who should be a PMC member? Nominating, discussion, and voting What to do when a new PMC member is elected Note: Formal policy/process doc is here: https://www.apache.org/dev/pmc.html#newpmc</description>
+    </item>
+    
+    <item>
+      <title>ASF Contributor Ladder</title>
+      <link>https://community.apache.org/contributor-ladder.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/contributor-ladder.html</guid>
+      <description>Projects at the ASF offer a way to grow in your responsibilities in the project, from being a user, all the way up to being a maintainer of the project. While the specific details may look different from one project to another, the rungs of the ladder look mostly the same.
+User Contributor Committer PMC Member ASF Member Officers of the Foundation Board of Directors User &amp;para; Everything that we do in an ASF project is for the user.</description>
+    </item>
+    
+    <item>
+      <title>ComDevBoardReports</title>
+      <link>https://community.apache.org/comdevboardreports.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/comdevboardreports.html</guid>
+      <description>Like every other ASF project, the ComDev PMC sends a quarterly report to the board. These reports are read by the board, and sometimes directors will ask the PMC for clarification or to make suggestions for the project.
+You can read the complete list of Apache Community Development board reports. A chronological view of all minutes from ASF Board meetings is also public.</description>
+    </item>
+    
+    <item>
+      <title>Mentoring a new PMC member</title>
+      <link>https://community.apache.org/mentoring/pmc.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/mentoring/pmc.html</guid>
+      <description>Mentoring a new PMC member &amp;para; So I&amp;rsquo;m a PMC member now. What does this mean? What rights do I have now that I didn&amp;rsquo;t have before? What conversations belong on the private list, as opposed to the public list.
+These things vary a little from one project to another, so clearly documenting them for your particular project is critical. And specifically assigning a PMC mentor to new PMC members can greatly help that new member get up to speed, and prevent problems in the future.</description>
+    </item>
+    
+    <item>
+      <title>New Committer</title>
+      <link>https://community.apache.org/newcommitter.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/newcommitter.html</guid>
+      <description>Identifying potential new committers, calling a vote for their recognition as a committer and processing the relevant documents are tasks to which the whole community can contribute.
+Each project has a different approach to managing new committers. This page describes a common process found in many Apache projects. It also provides drafts for the various communications that are necessary.
+Guidelines for assessing new candidates for committership Ability to work cooperatively with peers.</description>
+    </item>
+    
+    <item>
+      <title>New PMC Members</title>
+      <link>https://community.apache.org/pmc/new-member.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/pmc/new-member.html</guid>
+      <description>You&amp;rsquo;ve been invited to join a project PMC? Congratulations! What should you do now?
+Being part of an ASF Project Management Committee is more than just an acknowledgement of your contributions. It&amp;rsquo;s a new level of responsibility for the project&amp;rsquo;s health and sustainability. The Board of Directors is relying on you to provide oversight of the project code, and project community
+Join the conversation &amp;para; If you haven&amp;rsquo;t already, you need to subscribe to the PMC/Private mailing list.</description>
+    </item>
+    
+    <item>
+      <title>PMC Chair</title>
+      <link>https://community.apache.org/pmc/chair.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/pmc/chair.html</guid>
+      <description>The PMC Chair acts as the voice of the project to the board, and is responsible for filing a quarterly report. They are not the project leader, but are a peer of the other PMC members, who has been selected, for a time, to take the role of secretary and spokesperson.
+The PMC Chair is not the de-facto project leader. While they are usually a senior, well-respected member of the community, they are a peer, with a few additional duties.</description>
+    </item>
+    
+    <item>
+      <title>PMC Reporting</title>
+      <link>https://community.apache.org/pmc/reporting.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/pmc/reporting.html</guid>
+      <description>A PMC is required to file a report to the Board of Directors every quarter, on a schedule determined by the Board.
+You can find your project&amp;rsquo;s reporting schedule on projects.apache.org. You will also receive a reminder from the Secretary a few weeks prior to your report&amp;rsquo;s due date.
+The official record of PMC reporting schedules is the file committee-info.txt (requires password authentication).
+Writing a report &amp;para; The report to the board is expected to contain certain sections.</description>
+    </item>
+    
+    <item>
+      <title>PMC Responsibilities</title>
+      <link>https://community.apache.org/pmc/responsibilities.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/pmc/responsibilities.html</guid>
+      <description>The Project Management Committee (PMC) is responsible for the oversight of the project, including technical decisions, ensuring that the project is operating in accordance with ASF norms, adding new members to the project, and voting on releases.
+Conducting business Ensuring project health Adding community members Reporting Conducting Business &amp;para; The PMC is expected to conduct all of its business on the public developers mailing list, in the full view of the community.</description>
+    </item>
+    
+    <item>
+      <title>Project Independence</title>
+      <link>https://community.apache.org/projectIndependence.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/projectIndependence.html</guid>
+      <description>While not all ASF projects practice all aspects of the Apache Way in the same way, there are a number of rules and policies that Apache projects must follow – things like complying with PMC release voting, legal policy, brand policy, using mailing lists, etc., which are documented in various places.
+A community is not merely a set of rules; it is also a set of behaviors that the participants express when interacting within that community.</description>
+    </item>
+    
+    <item>
+      <title>Project Management Committees</title>
+      <link>https://community.apache.org/pmc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/pmc/</guid>
+      <description>The Project Management Committee, or PMC, is the technical steering committee for a project. This group determines the roadmap for the project, decides who will be added as committers and PMC members, and reports quarterly to the Board of Directors.
+The Board expects all PMCs to understand and comply with published policies.
+PMC Responsibilities Chair Voting Reporting Adding committers Adding PMC members What to do as a new member PMC Responsibilities &amp;para; The PMC is responsible for the management of the project.</description>
+    </item>
+    
+    <item>
+      <title>Voting</title>
+      <link>https://community.apache.org/committers/voting.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/committers/voting.html</guid>
+      <description>Occasionally a &amp;ldquo;feel&amp;rdquo; for consensus is not enough. Sometimes we need to have a measurable consensus, for example, when voting to invite new committers or to approve a release.
+Preparing for a Vote &amp;para; It is important to ensure that the community has time to discuss the issue before voting. To do this, post an email to the list indicating the intention to call a vote and the options available. By the time a vote takes place there usually is consensus in the community on what path to take.</description>
+    </item>
+    
+  </channel>
+</rss>

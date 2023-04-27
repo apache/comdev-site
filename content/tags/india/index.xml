@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>india on Apache Comdev</title>
+    <link>https://community.apache.org/tags/india.html</link>
+    <description>Recent content in india on Apache Comdev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://community.apache.org/tags/india/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pilot Mentoring Programme with India ICFOSS</title>
+      <link>https://community.apache.org/history/mentoringprogramme-icfoss-pilot.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/history/mentoringprogramme-icfoss-pilot.html</guid>
+      <description>Note that this information is about a pilot program that happened back in 2013.
+The ASF has been participating in many mentoring initiatives, and it&amp;rsquo;s now partnering in a pilot project with India ICFOSS to provide mentoring for undergraduate and graduate students that have interest in learning how to participate in open source communities at ASF.
+The mentoring programme is not here to teach you to write documentation or code.</description>
+    </item>
+    
+  </channel>
+</rss>

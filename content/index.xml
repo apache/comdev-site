@@ -5,7 +5,8 @@
     <link>https://community.apache.org/</link>
     <description>Recent content in Apache Community Development - Welcome on Apache Comdev</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://community.apache.org/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://community.apache.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Preparing the Community Development blog move</title>
       <link>https://community.apache.org/blog/preparing-the-move/</link>
@@ -13,17 +14,6 @@
       
       <guid>https://community.apache.org/blog/preparing-the-move/</guid>
       <description>We&amp;rsquo;re in the process of moving our content here from the existing blogs.apache.org location.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://community.apache.org/proposals/ZestProposal.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://community.apache.org/proposals/ZestProposal.html</guid>
-      <description>title: Zest Proposal
-Abstract &amp;para; qi4j = new Energy4Java(); That is how to create the Qi4j runtime, and it captures the essence of its spirit. Qi4j is a platform to develop Composite Oriented Programming applications in Java in a new, exciting and productive manner.
-Governance of Provisional Top Level Project &amp;para; Provisional Top Level Project is a new idea at the ASF, and the Qi4j community is willing to try the idea, instead of simply debating it.</description>
     </item>
     
     <item>
@@ -481,6 +471,16 @@ Add tasks to the GSOC project Ensure you add the labels gsoc2023, mentor and _YO
       <guid>https://community.apache.org/committers/voting.html</guid>
       <description>Occasionally a &amp;ldquo;feel&amp;rdquo; for consensus is not enough. Sometimes we need to have a measurable consensus, for example, when voting to invite new committers or to approve a release.
 Preparing for a Vote &amp;para; It is important to ensure that the community has time to discuss the issue before voting. To do this, post an email to the list indicating the intention to call a vote and the options available. By the time a vote takes place there usually is consensus in the community on what path to take.</description>
+    </item>
+    
+    <item>
+      <title>Zest Proposal</title>
+      <link>https://community.apache.org/proposals/ZestProposal.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/proposals/ZestProposal.html</guid>
+      <description>Abstract &amp;para; qi4j = new Energy4Java(); That is how to create the Qi4j runtime, and it captures the essence of its spirit. Qi4j is a platform to develop Composite Oriented Programming applications in Java in a new, exciting and productive manner.
+Governance of Provisional Top Level Project &amp;para; Provisional Top Level Project is a new idea at the ASF, and the Qi4j community is willing to try the idea, instead of simply debating it.</description>
     </item>
     
   </channel>

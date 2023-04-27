@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>reporting on Apache Comdev</title>
+    <link>https://community.apache.org/tags/reporting.html</link>
+    <description>Recent content in reporting on Apache Comdev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://community.apache.org/tags/reporting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BoardReport</title>
+      <link>https://community.apache.org/boardreport.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/boardreport.html</guid>
+      <description>For complete details about what should be in ASF project board reports, including instructions on using the handy Reporter tool, please see:
+https://apache.org/foundation/board/reporting</description>
+    </item>
+    
+    <item>
+      <title>PMC Reporting</title>
+      <link>https://community.apache.org/pmc/reporting.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/pmc/reporting.html</guid>
+      <description>A PMC is required to file a report to the Board of Directors every quarter, on a schedule determined by the Board.
+You can find your project&amp;rsquo;s reporting schedule on projects.apache.org. You will also receive a reminder from the Secretary a few weeks prior to your report&amp;rsquo;s due date.
+The official record of PMC reporting schedules is the file committee-info.txt (requires password authentication).
+Writing a report &amp;para; The report to the board is expected to contain certain sections.</description>
+    </item>
+    
+  </channel>
+</rss>

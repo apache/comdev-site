@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gsoc on Apache Comdev</title>
+    <link>https://community.apache.org/tags/gsoc.html</link>
+    <description>Recent content in gsoc on Apache Comdev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://community.apache.org/tags/gsoc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GSoC admins</title>
+      <link>https://community.apache.org/gsoc/gsoc-admin-tasks.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/gsoc/gsoc-admin-tasks.html</guid>
+      <description>A comprehensive guide to being a GSoC admin for the ASF
+List of duties:
+Make sure the ASF has an extensive list of project ideas ready shortly after Google announces the program (around the end of January). Projects must create Jira issues for their ideas and label them with gsoc&amp;lt;year&amp;gt;; and mentor. If a project doesn&amp;rsquo;t use Jira, have them create the ideas in the GSOC Jira project. Create a Jira filter for these ideas to use in the application (see next).</description>
+    </item>
+    
+  </channel>
+</rss>
