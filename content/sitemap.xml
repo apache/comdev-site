@@ -179,10 +179,6 @@
   </url><url>
     <loc>https://community.apache.org/pmc/</loc>
   </url><url>
-    <loc>https://community.apache.org/tags/proposals.html</loc>
-  </url><url>
-    <loc>https://community.apache.org/proposals.html</loc>
-  </url><url>
     <loc>https://community.apache.org/tags/reporting.html</loc>
   </url><url>
     <loc>https://community.apache.org/events/small-events.html</loc>
@@ -206,9 +202,5 @@
     <loc>https://community.apache.org/committers/voting.html</loc>
   </url><url>
     <loc>https://community.apache.org/newcomers/</loc>
-  </url><url>
-    <loc>https://community.apache.org/tags/zest.html</loc>
-  </url><url>
-    <loc>https://community.apache.org/proposals/ZestProposal.html</loc>
   </url>
 </urlset>
