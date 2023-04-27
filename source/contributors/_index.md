@@ -1,6 +1,7 @@
 ---
 title: Contributing to the Apache Software Foundation
 url: /contributors/
+tags: ["faq","navigation","contributing"]
 ---
 
 This page is for people who are reasonably 

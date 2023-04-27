@@ -1,4 +1,7 @@
+---
 title: Zest Proposal
+tags: ["proposals","zest","history"]
+---
 
 # Abstract
 

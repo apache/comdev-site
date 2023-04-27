@@ -1,6 +1,7 @@
 ---
 title: Newsletter
 url: /newsletter/
+tags: ["newsletter"]
 ---
 
 # Community Development Newsletter

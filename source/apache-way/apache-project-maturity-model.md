@@ -1,5 +1,6 @@
 ---
 title: A Maturity Model for Apache Projects
+tags: ["governance","maturity","incubator"]
 ---
 
 The **Apache Project Maturity Model** provides a suggested framework for evaluating the overall maturity of an Apache project community and the codebase that it maintains.  While this model is specific to projects of the Apache Software Foundation (ASF), many of these factors apply to any open source project.

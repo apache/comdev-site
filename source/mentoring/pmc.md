@@ -1,5 +1,6 @@
 ---
 title: Mentoring a new PMC member
+tags: ["mentoring","pmc"]
 ---
 
 # Mentoring a new PMC member

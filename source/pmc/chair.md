@@ -1,5 +1,6 @@
 ---
 title: PMC Chair
+tags: ["pmc","chair"]
 ---
 
 The PMC Chair acts as the voice of the project to the board, and is

@@ -1,5 +1,6 @@
 ---
 title: PMC Reporting
+tags: ["pmc","reporting"]
 ---
 
 A PMC is required to file a report to the Board of Directors every

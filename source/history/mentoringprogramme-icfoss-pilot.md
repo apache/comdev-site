@@ -1,5 +1,6 @@
 ---
 title: Pilot Mentoring Programme with India ICFOSS
+tags: ["history","mentoring","india"]
 ---
 
 > Note that this information is about a pilot program that

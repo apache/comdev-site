@@ -1,5 +1,6 @@
 ---
 title: Apache Conferences Calendar
+tags: ["calendars","events","conferences"]
 ---
 
 ## Deprecated - See New Calendar instead
