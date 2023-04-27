@@ -44,3 +44,19 @@ dt:hover > .headerlink, p:hover > .headerlink, td:hover > .headerlink, h1:hover 
   font-size: 80%;
   font-style: italic;
 }
+
+ul.tags-list {
+  padding-left: 0;
+  font-size: 90%;
+  display:flex;
+  list-style-type: none;
+  flex-wrap:wrap;
+}
+
+.tags-list li {
+  margin-right:.5rem;
+  margin-top: 0.25rem;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  background-color: var(--light);
+}

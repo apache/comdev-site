@@ -11,8 +11,11 @@ enableRobotsTXT = true
 disableBrowserError = true
 timeout = 3000
 
-disableKinds = ["taxonomy", "taxonomyTerm"]
 ignoreFiles = [ ] # No files to ignore
+
+# Enable tags but not categories
+[taxonomies]
+tag = "tags"
 
 # Highlighting config. See https://help.farbox.com/pygments.html
 pygmentsCodeFences = true
