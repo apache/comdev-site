@@ -71,3 +71,10 @@ ul.tags-list {
   margin-left: 1rem;
   margin-bottom: 1rem;
 }
+
+.help-wanted {
+  padding: 1rem;
+  border-left: solid var(--gray) 1px;
+  font-size: 90%;
+  background-color: var(--light);
+}

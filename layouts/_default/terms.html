@@ -1,7 +1,7 @@
 {{ define "main" }}
 <h2>All tags</h2>
 <ul>
-    {{ range .Pages }}
+    {{ range sort .Pages }}
         <li>
             <a href="{{ .Permalink }}">{{ .Title }}</a>
         </li>
