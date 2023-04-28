@@ -168,5 +168,43 @@ pipeline {
             }
             deleteDir() /* clean up our workspace */
         }
+
+        // If the build failed, send an email to the list.
+        failure {
+            script {
+                if (env.BRANCH_NAME == 'main') {
+                    emailext(
+                        to: "dev@community.apache.org",
+                        recipientProviders: [[$class: 'DevelopersRecipientProvider']],
+                        from: "Jenkins <jenkins@ci-builds.apache.org>",
+                        subject: "Jenkins job ${env.JOB_NAME}#${env.BUILD_NUMBER} failed",
+                        body: """
+There is a build failure in ${env.JOB_NAME}.
+
+Build: ${env.BUILD_URL}
+"""
+                    )
+                }
+            }
+        }
+
+        // Send an email, if the last build was not successful and this one is.
+        fixed {
+            script {
+                if (env.BRANCH_NAME == 'main') {
+                    emailext(
+                        to: "dev@community.apache.org",
+                        recipientProviders: [[$class: 'DevelopersRecipientProvider']],
+                        from: 'Jenkins <jenkins@ci-builds.apache.org>',
+                        subject: "Jenkins job ${env.JOB_NAME}#${env.BUILD_NUMBER} back to normal",
+                        body: """
+The build for ${env.JOB_NAME} completed successfully and is back to normal.
+
+Build: ${env.BUILD_URL}
+"""
+                    )
+                }
+            }
+        }
     }
 }
