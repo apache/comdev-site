@@ -12,3 +12,8 @@ for a time, to take the role of secretary and spokesperson.
     * When
     * Who
 
+(There's some advice for new chairs here:
+https://svn.apache.org/repos/private/foundation/officers/advice-for-new-pmc-chairs.txt
+- but it's plain text, fairly terse, and behind a password.)
+
+
