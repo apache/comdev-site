@@ -1,5 +1,6 @@
 ---
 title: "How To: Write A Mentor Request Email"
+tags: ["mentoring","newcomers"]
 ---
 
 Having identified a Top Level Project (TLP) and an issue you would like to work on, it is a

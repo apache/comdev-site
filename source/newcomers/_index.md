@@ -1,7 +1,7 @@
 ---
 title: Welcome, Apache newcomers!
 url: /newcomers/
-tags: ["newcomers"]
+tags: ["newcomers","navigation"]
 ---
 
 In this section we'll help you take your first steps as an open source 

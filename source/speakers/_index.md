@@ -1,7 +1,7 @@
 ---
 title: Speaking about Apache, our Projects and our Community
 url: /speakers/
-tags: ["speakers","conferences"]
+tags: ["speakers","conferences","navigation"]
 ---
 
 If you are looking for speakers for an event, or are a speaker looking for 

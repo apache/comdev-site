@@ -1,5 +1,6 @@
 ---
 title: Links
+tags: ["links","navigation"]
 ---
 
 This is a collection of links to information that's relevant to the Apache Way and Open Source in general.

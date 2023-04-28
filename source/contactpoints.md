@@ -1,5 +1,7 @@
 ---
-title: ContactPoints
+title: Contact points
+url: /contactpoints.html
+tags: ["communication","contacts"]
 ---
 
 If you have a question about anything Apache, the ComDev project is here to help.  

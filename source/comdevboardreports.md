@@ -1,6 +1,6 @@
 ---
 title: ComDevBoardReports
-tags: ["pmc","board"]
+tags: ["pmc","board","reporting"]
 ---
 
 Like every other ASF project, the ComDev PMC sends a [quarterly report to the board](https://www.apache.org/foundation/board/reporting).  These reports are read by the board, and sometimes directors will ask the PMC for clarification or to make suggestions for the project.

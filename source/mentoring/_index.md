@@ -1,7 +1,7 @@
 ---
 title: Mentoring
 url: /mentoring/
-tags: ["mentoring"]
+tags: ["mentoring","navigation"]
 ---
 
 # Mentoring
