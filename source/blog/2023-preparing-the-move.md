@@ -1,6 +1,5 @@
 ---
 title: Preparing the Community Development blog move
-url: /blog/preparing-the-move/
 description: We're about to move our blog here
 date: 2023-04-20
 blog_post: true
