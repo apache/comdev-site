@@ -7,6 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language><atom:link href="https://community.apache.org/tags/mailing-lists/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Community Development Mailing Lists</title>
+      <link>https://community.apache.org/lists.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/lists.html</guid>
+      <description>Almost everything and everyone at Apache use email lists to get work done, including this Community Development project right here! When people send email to a list, many other community members get the message, and someone usually provides a useful reply. Every email list at Apache is archived: most lists are archived publicly. That means that newcomers to a community can learn how decisions on a project have been made in the past, because all the email discussions a project has had are archived.</description>
+    </item>
+    
+    <item>
       <title>Mailing lists</title>
       <link>https://community.apache.org/contributors/mailing-lists.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

@@ -13,16 +13,17 @@
       <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
       
       <guid>https://community.apache.org/blog/preparing-the-move/</guid>
-      <description>We&amp;rsquo;re in the process of moving our content here from the existing blogs.apache.org location.</description>
+      <description>We&amp;rsquo;re in the process of moving our content here from the existing blogs.apache.org location.
+The content has been exported to a branch of the comdev-site repository, it needs a bit of tweaking, patches welcome!</description>
     </item>
     
     <item>
-      <title>Community Development Blog</title>
+      <title>ASF Community Development Blog</title>
       <link>https://community.apache.org/blog/</link>
       <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
       
       <guid>https://community.apache.org/blog/</guid>
-      <description>Community Development Blog &amp;para; Contributions to this blog are welcome!
+      <description>ASF Community Development Blog &amp;para; Contributions to this blog are welcome!
 We are looking for posts related community building, community-related success or failure stories and related topics.
 Posts &amp;para; </description>
     </item>

@@ -5,10 +5,13 @@
     <loc>https://community.apache.org/</loc>
     <lastmod>2023-04-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://community.apache.org/blog/</loc>
+    <lastmod>2023-04-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://community.apache.org/tags/blog.html</loc>
     <lastmod>2023-04-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://community.apache.org/blog/</loc>
+    <loc>https://community.apache.org/tags/help-needed.html</loc>
     <lastmod>2023-04-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/blog/preparing-the-move/</loc>
@@ -73,6 +76,8 @@
   </url><url>
     <loc>https://community.apache.org/contactpoints.html</loc>
   </url><url>
+    <loc>https://community.apache.org/tags/contacts.html</loc>
+  </url><url>
     <loc>https://community.apache.org/tags/contributing.html</loc>
   </url><url>
     <loc>https://community.apache.org/contributors/</loc>
@@ -120,6 +125,8 @@
     <loc>https://community.apache.org/tags/india.html</loc>
   </url><url>
     <loc>https://community.apache.org/committers/lazyConsensus.html</loc>
+  </url><url>
+    <loc>https://community.apache.org/tags/links.html</loc>
   </url><url>
     <loc>https://community.apache.org/links.html</loc>
   </url><url>

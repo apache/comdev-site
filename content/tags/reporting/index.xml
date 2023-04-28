@@ -17,6 +17,16 @@ https://apache.org/foundation/board/reporting</description>
     </item>
     
     <item>
+      <title>ComDevBoardReports</title>
+      <link>https://community.apache.org/comdevboardreports.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/comdevboardreports.html</guid>
+      <description>Like every other ASF project, the ComDev PMC sends a quarterly report to the board. These reports are read by the board, and sometimes directors will ask the PMC for clarification or to make suggestions for the project.
+You can read the complete list of Apache Community Development board reports. A chronological view of all minutes from ASF Board meetings is also public.</description>
+    </item>
+    
+    <item>
       <title>PMC Reporting</title>
       <link>https://community.apache.org/pmc/reporting.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
