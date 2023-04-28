@@ -69,3 +69,8 @@ policies](https://www.apache.org/dev/pmc.html#policy) for PMCs.
 
 
 
+(There's some advice for new chairs here:
+https://svn.apache.org/repos/private/foundation/officers/advice-for-new-pmc-chairs.txt
+- but it's plain text, fairly terse, and behind a password.)
+
+
