@@ -1,5 +1,6 @@
 ---
 title: Community Development Mailing Lists
+tags: ["communication","mailing-lists","contacts"]
 ---
 
 Almost everything and everyone at Apache use email lists to get work done, including this Community Development project right here!  When people 

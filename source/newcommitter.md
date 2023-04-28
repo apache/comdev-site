@@ -1,5 +1,6 @@
 ---
 title: New Committer
+tags: ["pmc","committers","election"]
 ---
 
 Identifying potential new committers, calling a vote for their recognition

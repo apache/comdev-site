@@ -1,5 +1,6 @@
 ---
 title: ComDevBoardResolution
+tags: ["history"]
 ---
 The Apache Community Development Project was created in November 2009.
 

@@ -1,5 +1,6 @@
 ---
 title: Apache Newcomer FAQs
+tags: ["newcomers","faq"]
 ---
 
 These answers to frequently asked questions may help newcomers to

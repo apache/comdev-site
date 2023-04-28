@@ -1,5 +1,6 @@
 ---
 title: Listing yourself as a Potential Speaker
+tags: ["speakers","conferences"]
 ---
 
 If you're an Apache committer interested in speaking about Apache 
