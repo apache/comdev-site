@@ -60,3 +60,21 @@ ul.tags-list {
   padding-right: 0.25rem;
   background-color: var(--light);
 }
+
+.homepage-hero {
+  background-color: var(--light);
+  padding: 1rem;
+}
+
+.events-logo {
+  float: right;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.help-wanted {
+  padding: 1rem;
+  border-left: solid var(--gray) 1px;
+  font-size: 90%;
+  background-color: var(--light);
+}

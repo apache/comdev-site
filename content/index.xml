@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Apache Community Development - Welcome on Apache Comdev</title>
+    <title>ASF Community Development - Welcome on Apache Comdev</title>
     <link>https://community.apache.org/</link>
-    <description>Recent content in Apache Community Development - Welcome on Apache Comdev</description>
+    <description>Recent content in ASF Community Development - Welcome on Apache Comdev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 20 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://community.apache.org/index.xml" rel="self" type="application/rss+xml" />
@@ -14,7 +14,7 @@
       
       <guid>https://community.apache.org/blog/preparing-the-move/</guid>
       <description>We&amp;rsquo;re in the process of moving our content here from the existing blogs.apache.org location.
-The content has been exported to a branch of the comdev-site repository, it needs a bit of tweaking, patches welcome!</description>
+Help wanted &amp;para; The content has been exported to a branch of the comdev-site repository, it needs a bit of tweaking, patches welcome!</description>
     </item>
     
     <item>
@@ -53,9 +53,7 @@ Who should be a PMC member? Nominating, discussion, and voting What to do when a
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://community.apache.org/calendars/conferences.html</guid>
-      <description>Deprecated - See New Calendar instead &amp;para; This calendar is no longer maintained; please see this page instead.
-This Calendar is maintained by the Apache Community Development Committee (ComDev), to have your event listed considered for addition please mail dev@community.apache.org. Note that to be listed in this calendar events must conform to the Third Party Event Branding Policy.
-Upcoming events &amp;para; List loading This Calendar is also available as an iCal feed</description>
+      <description>This page is not used anymore, see /calendars instead.</description>
     </item>
     
     <item>

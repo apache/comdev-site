@@ -7,9 +7,7 @@
   <meta name="keywords" content="apache, apache community, community development, opensource"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <meta property="og:title" content="Apache Conferences Calendar" />
-<meta property="og:description" content="Deprecated - See New Calendar instead &para; This calendar is no longer maintained; please see this page instead.
-This Calendar is maintained by the Apache Community Development Committee (ComDev), to have your event listed considered for addition please mail dev@community.apache.org. Note that to be listed in this calendar events must conform to the Third Party Event Branding Policy.
-Upcoming events &para; List loading This Calendar is also available as an iCal feed" />
+<meta property="og:description" content="This page is not used anymore, see /calendars instead." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://community.apache.org/calendars/conferences.html" /><meta property="og:image" content="https://community.apache.org/images/aceu19_1.jpg"/><meta property="article:section" content="calendars" />
 
@@ -205,94 +203,17 @@ Upcoming events &para; List loading This Calendar is also available as an iCal f
        
 <ul class="tags-list">
   
-  <li>
-    <a href="https://community.apache.org/tags/calendars.html">calendars</a>
-  </li>
-  <li>
-    <a href="https://community.apache.org/tags/events.html">events</a>
-  </li>
-  <li>
-    <a href="https://community.apache.org/tags/conferences.html">conferences</a>
-  </li></ul>
+  
+  
+  </ul>
 
       
 	
-	<h2 id="deprecated---see-new-calendar-instead">Deprecated - See New Calendar instead <a class="headerlink" title="Permalink" href="#deprecated---see-new-calendar-instead">&para;</a></h2>
-<p>This calendar is no longer maintained; please see <a href="/calendars/">this page</a> instead.</p>
-<p>This Calendar is maintained by the Apache Community Development Committee (ComDev),
-to have your event listed considered for addition please mail <a href="mailto:dev@community.apache.org">dev@community.apache.org</a>.
-Note that to be listed in this calendar events must conform to the <a href="https://www.apache.org/foundation/marks/events.html">Third Party Event Branding Policy</a>.</p>
-<h2 id="upcoming-events">Upcoming events <a class="headerlink" title="Permalink" href="#upcoming-events">&para;</a></h2>
-<ul>
-<li><em>List loading</em></li>
-</ul>
-<iframe src="https://www.google.com/calendar/embed?src=nerseigospses068jd57bk5ar8%40group.calendar.google.com&ctz=America/New_York"
-style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-<p>This Calendar is also available as an <a href="https://www.google.com/calendar/ical/nerseigospses068jd57bk5ar8%40group.calendar.google.com/public/basic.ics">iCal feed</a></p>
-<script type="text/javascript">
-function handleContents(li, text) {
-   if(text == undefined || text.length == 0) {
-      return;
-   }
-   parts = text.split("\n");
-   for(var i=0; i<parts.length; i++) {
-      li.appendChild(document.createElement("br"));
-      li.appendChild(document.createTextNode(parts[i]));
-   }
-}
-
-var dateRegExp = new RegExp("^(\\d{4})-(\\d{2})-(\\d{2})$");
-function handleDates(li, when) {
-   var from = when['startTime'];
-   var to = when['endTime'];
-   if(from.match(dateRegExp) && to.match(dateRegExp)) {
-      var fp = from.split(dateRegExp);
-      var tp = to.split(dateRegExp);
-      var fromDate = new Date(fp[1],fp[2]-1,fp[3]);
-      var toDate = new Date(tp[1],tp[2]-1,tp[3]);
-      var realToDate = new Date(toDate.getTime() - 24*60*60*1000);
-
-      var text;
-      if(fromDate.getTime() == realToDate.getTime()) {
-         // Single day
-         text = from;
-      } else {
-         // Really multi day
-         text = from + " to " + realToDate.getFullYear() + "-" +
-                (realToDate.getMonth()+1) + "-"  + realToDate.getDate();
-      }
-      li.appendChild(document.createTextNode(" - " + text))
-   } else {
-      li.appendChild(document.createTextNode(" - " + from))
-   }
-}
-
-function render(data) {
-   var ev = document.getElementById("events");
-   if(ev.hasChildNodes()) {
-      while(ev.childNodes.length >= 1) {
-         ev.removeChild(ev.firstChild);
-      }
-   }
-
-   var feed = data.feed;
-   for(var i=0; i<feed.entry.length; i++) {
-      var entry = feed.entry[i];
-      var title = entry.title.$t;
-      var text = entry.content.$t;
-      var when = entry['gd$when'][0];
-
-      var li = document.createElement("li");
-      var li_b = document.createElement("b");
-      li_b.appendChild(document.createTextNode(title));
-      li.appendChild(li_b);
-      handleDates(li, when);
-      handleContents(li, text);
-      ev.appendChild(li);
-   }
-}
+	<p>This page is not used anymore, see <a href="/calendars/">/calendars</a> instead.</p>
+<script>
+    // Hugo aliases should do that, didn't get them to work so far
+    window.location.href = "/calendars/"
 </script>
-<script src="https://www.google.com/calendar/feeds/nerseigospses068jd57bk5ar8@group.calendar.google.com/public/full?alt=json-in-script&callback=render&orderby=starttime&max-results=30&singleevents=true&sortorder=ascending&futureevents=true"></script>
 
 
     </div>
