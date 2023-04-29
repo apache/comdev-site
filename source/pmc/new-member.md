@@ -6,8 +6,6 @@ tags: ["pmc","election"]
 You've been invited to join a project PMC? Congratulations! What should
 you do now?
 
-<<<<<<< HEAD
-=======
 Being part of an ASF Project Management Committee is more than just an
 acknowledgement of your contributions. It's a new level of
 responsibility for the project's health and sustainability. The Board of
