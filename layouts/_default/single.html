@@ -1,7 +1,7 @@
 {{ define "main" }}
 	{{ if .Params.blog_post }}
 		<h2>{{ .Title }}</h2>
-		{{ partial "published-date" .}}
+		{{ partial "published-info" .}}
 	{{ end }}
 	{{ .Content }}
 {{ end }}

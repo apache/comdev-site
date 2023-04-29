@@ -3,6 +3,7 @@ title: Preparing the Community Development blog move
 description: We're about to move our blog here
 date: 2023-04-20
 blog_post: true
+published_by: bdelacretaz
 tags: ["blog","help-wanted"]
 ---
 
