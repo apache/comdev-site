@@ -96,7 +96,7 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    sh "${HUGO_PATH} --destination ${env.OUT_DIR}"
+                    sh "${HUGO_PATH} --destination ${env.OUT_DIR} --cacheDir ${env.HUGO_DIR}"
                     sh "${PAGEFIND_DIR}/bin/pagefind --source ${env.OUT_DIR}"
                     sh "rm -f .hugo_build.lock"
                 }
