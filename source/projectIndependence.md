@@ -1,5 +1,6 @@
 ---
 title: Project Independence
+tags: ["pmc","governance"]
 ---
 
 While not all ASF projects practice all aspects of the Apache Way in the same way, there are a number of rules and policies that Apache 

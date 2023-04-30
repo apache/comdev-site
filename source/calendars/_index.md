@@ -1,7 +1,17 @@
 ---
 title: Apache Related Event Calendars
 url: /calendars/
+tags: ["calendars","events","conferences","help-wanted"]
 ---
+
+<div class ="help-wanted">
+
+#### Help wanted
+
+This page can probably just redirect to the [events.apache.org](https://events.apache.org) website, would anything be missing if we do that?
+</div>
+
+## Calendar
 
 This calendar lists major events relating to The Apache Software Foundation
 and our many Apache projects.  We also have an automated

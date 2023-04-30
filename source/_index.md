@@ -1,5 +1,5 @@
 ---
-title: Apache Community Development - Welcome
+title: ASF Community Development - Welcome
 ---
 
 <link href="/_pagefind/pagefind-ui.css" rel="stylesheet">
@@ -11,22 +11,22 @@ title: Apache Community Development - Welcome
     });
 </script>
 
-<div class="jumbotron">
-<a href="https://www.apache.org/events/current-event.html"><img src="https://www.apache.org/events/current-event-125x125.png" style="float: right;"/></a>
+<div class="homepage-hero">
+  <a target="_blank" href="https://www.apache.org/events/current-event.html">
+    <img class="events-logo" src="https://www.apache.org/events/current-event-125x125.png"/>
+  </a>
 
-## Apache Community Development!
 
-Mission: The Community Development project creates and provides tools,
+## ASF Community Development
+The ASF Community Development project creates and provides tools,
 processes, and advice to help open-source projects improve their own
-community health. We are primarily focused on Apache Software Foundation (ASF)
-projects; however, because we believe that the Apache Way is the
-best way to manage a software project, we strive also to make these
-artifacts releasable to the open-source community as a whole.
+community health.
 
-Here, we focus on the common processes and policies
-(called The Apache Way) found in most ASF projects. Our goal is to help you
-<em>understand how the ASF works</em> and give you the confidence to participate
-in the specific Apache projects that interest you.
+We are primarily focused on ASF projects, but we believe that our
+[governance principles](/tags/governance.html)
+and best practices apply to other projects as well.
+
+ASF [newcomers](/tags/newcomers.html) should also find relevant information here.
 
 </div>
 
@@ -37,9 +37,11 @@ in the specific Apache projects that interest you.
 <div class="row">
     <div class="col-md-4">
 
-#### Newcomers to the ASF
+#### ASF Newcomers
 
-If you are new to open source, our <a href="newcomers/index.html"><b>newcomers section</b></a> explains basic concepts, first steps to get started, and where to ask for help.
+If you are new to open source, our <a href="newcomers/index.html"><b>newcomers section</b></a>
+and [related pages](/tags/newcomers.html)
+explain basic concepts, first steps to get started, and where to ask for help.
 
 To get our software, see our <a href="https://projects.apache.org/projects.html?category" target="_blank">categorized listing of all Apache projects</a>, which are <a href="https://www.apache.org/free/"><b>always free</b> to download and use</a>.
 

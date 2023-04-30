@@ -1,6 +1,7 @@
 ---
 title: Becoming a committer
 slug: becomingacommitter
+tags: ["committers","newcomers","contributing"]
 ---
 
 {{% toc %}}

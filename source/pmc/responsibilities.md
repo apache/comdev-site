@@ -1,5 +1,6 @@
 ---
 title: PMC Responsibilities
+tags: ["pmc","governance"]
 ---
 
 The Project Management Committee (PMC) is responsible for the oversight

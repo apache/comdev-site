@@ -1,5 +1,6 @@
 ---
 title: Mentoring a new committer
+tags: ["mentoring","committers"]
 ---
 
 # Mentoring a new committer

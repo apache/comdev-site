@@ -1,5 +1,6 @@
 ---
 title: PMC Chair
+tags: ["pmc","chair"]
 ---
 
 The PMC Chair acts as the voice of the project to the board, and is
@@ -66,5 +67,10 @@ and you're encouraged to read that thoroughly. They should also be
 familiar with [published 
 policies](https://www.apache.org/dev/pmc.html#policy) for PMCs.
 
+
+
+(There's some advice for new chairs here:
+https://svn.apache.org/repos/private/foundation/officers/advice-for-new-pmc-chairs.txt
+- but it's plain text, fairly terse, and behind a password.)
 
 

@@ -1,10 +1,11 @@
 ---
-title: Community Development Blog
+title: ASF Community Development Blog
 url: /blog/
 list_pages: true
+tags: ["blog","navigation"]
 ---
 
-## Community Development Blog
+## ASF Community Development Blog
 
 Contributions to this blog are welcome!
 

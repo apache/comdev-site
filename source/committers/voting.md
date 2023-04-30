@@ -1,5 +1,6 @@
 ---
 title: Voting
+tags: ["pmc","governance","voting"]
 ---
 
 Occasionally a "feel" for consensus is not enough. Sometimes we need to 

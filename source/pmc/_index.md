@@ -1,6 +1,7 @@
 ---
 title: Project Management Committees
 url: /pmc/
+tags: ["pmc","navigation"]
 ---
 
 The Project Management Committee, or PMC, is the technical steering
@@ -47,6 +48,13 @@ While most actions of a project are decided by discussion and consensus,
 there are a number of situations in which a vote is necessary. You can
 read more about voting on the [ASF main
 website](https://apache.org/foundation/voting.html).
+
+## Infrastructure services
+
+The ASF Infrastructure team offers a wide variety of
+[services](https://infra.apache.org/services.html) to your project,
+which may be requested by PMC members. Familiarize yourself with those
+services!
 
 ## Reporting
 

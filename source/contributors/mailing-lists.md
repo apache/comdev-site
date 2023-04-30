@@ -1,5 +1,6 @@
 ---
 title: Mailing lists
+tags: ["communication","mailing-lists"]
 ---
 
 The ASF has a long tradition of using mailing lists as the primary

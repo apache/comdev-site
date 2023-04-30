@@ -1,5 +1,6 @@
 ---
 title: "Mentoring: First Patch"
+tags: ["mentoring","newcomers","patch"]
 ---
 
 # Mentoring: First Patch

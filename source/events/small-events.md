@@ -1,5 +1,6 @@
 ---
 title: Requirements for organizers of small Apache-related events
+tags: ["events"]
 ---
 
 # Approval of small Apache-related events
