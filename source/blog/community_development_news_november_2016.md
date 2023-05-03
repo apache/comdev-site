@@ -3,7 +3,7 @@ title: Community Development News - November 2016
 date: 2016-12-08
 blog_post: true
 published_by: sharan
-tags: ["blog"]
+tags: ["blog","news"]
 ---
 
 Welcome to the first in a series of monthly blog updates about what is happening in Apache Community Development. This

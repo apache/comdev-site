@@ -3,7 +3,7 @@ title: Community Development News - July 2017
 date: 2017-08-04
 blog_post: true
 published_by: sharan
-tags: ["blog"]
+tags: ["blog","news"]
 ---
 
 Welcome to our monthly blog update about what is happening in Apache Community Development (ComDev)! You may have

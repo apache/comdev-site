@@ -6,6 +6,10 @@ published_by: rgardler
 tags: ["blog"]
 ---
 
+<div class="historical">
+This is <em>historical</em> content, not relevant anymore but kept here as an archive.
+</div>
+
 Who should host their projects on [Apache Extras](http://apache-extras.org/)?
 
 Apache Extras is aimed primarily those who are unable or unwilling to licence their code under the Apache License V2,

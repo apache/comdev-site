@@ -3,7 +3,7 @@ title: How Apache Projects Use Consensus
 date: 2010-09-21
 blog_post: true
 published_by: bimargulies
-tags: ["blog"]
+tags: ["blog","collaboration"]
 ---
 
 The Apache Software Foundation exists to provide legal and technological infrastructure for open source projects. By and

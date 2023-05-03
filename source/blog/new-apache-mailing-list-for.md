@@ -3,7 +3,7 @@ title: New Apache mailing-list for inter-project communication with a focus on I
 date: 2019-07-08
 blog_post: true
 published_by: Christofer Dutz
-tags: ["blog"]
+tags: ["blog","iot"]
 ---
 
 There's a lot of magic happening in the IoT sector at the moment.

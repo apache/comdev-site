@@ -3,7 +3,7 @@ title: The Apache Community Development Team Prepares to Send Out its First Dive
 date: 2016-11-23
 blog_post: true
 published_by: sharan
-tags: ["blog"]
+tags: ["blog","survey"]
 ---
 
 Over the next few weeks the Apache Community Development team will be sending out and running its first ever Apache

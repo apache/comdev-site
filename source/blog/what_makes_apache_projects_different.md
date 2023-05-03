@@ -3,7 +3,7 @@ title: What makes Apache projects different?
 date: 2010-06-03
 blog_post: true
 published_by: bdelacretaz
-tags: ["blog"]
+tags: ["blog","collaboration"]
 ---
 
 Sharing a code repository with some other programmers might seem enough to create an open source project; the Apache

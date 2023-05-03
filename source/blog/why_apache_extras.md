@@ -6,6 +6,10 @@ published_by: rgardler
 tags: ["blog"]
 ---
 
+<div class="historical">
+This is <em>historical</em> content, not relevant anymore but kept here as an archive.
+</div>
+
 All Apache projects use the same pragmatic software license, the Apache License v2. However, we recognise that there are
 other FOSS licences out there, some of which are incompatible with the Apache License v2.
 

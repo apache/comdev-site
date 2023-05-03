@@ -3,7 +3,7 @@ title: Community Development News - January 2018
 date: 2018-02-08
 blog_post: true
 published_by: sharan
-tags: ["blog"]
+tags: ["blog","news"]
 ---
 
 Welcome to our monthly blog update about what is happening in Apache Community Development (ComDev)!
