@@ -78,3 +78,11 @@ ul.tags-list {
   font-size: 90%;
   background-color: var(--light);
 }
+
+.historical {
+  border-top: solid var(--gray) 1px;
+  border-bottom: solid var(--gray) 1px;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
