@@ -23,11 +23,11 @@ policies](https://www.apache.org/dev/pmc.html#policy).
 ## PMC Responsibilities
 
 The PMC is responsible for the management of the project. This includes
-both the technical decisions, and ensuring that the project is operating
+both the technical decisions and ensuring that the project is operating
 in community-friendly ways.
 
 The PMC is also responsible for voting on releases of their project, to
-ensure that each release is tested, and is an official ASF release
+ensure that each release is tested and is an official ASF release
 artifact.
 
 [Read more about PMC responsibilities](/pmc/responsibilities.html)
@@ -35,9 +35,9 @@ artifact.
 
 ## Chair
 
-The PMC Chair acts as the voice of the project to the board, and is
+The PMC Chair acts as the voice of the project to the Board, and is
 responsible for filing a quarterly report. They are not the project
-leader, but are a peer of the other PMC members, who has been selected,
+leader, but is a peer of the other PMC members who has been selected,
 for a time, to take the role of secretary and spokesperson.
 
 [Read more about the PMC Chair](/pmc/chair.html)
@@ -45,7 +45,7 @@ for a time, to take the role of secretary and spokesperson.
 ## Voting
 
 While most actions of a project are decided by discussion and consensus,
-there are a number of situations in which a vote is necessary. You can
+there are situations in which a vote is necessary. You can
 read more about voting on the [ASF main
 website](https://apache.org/foundation/voting.html).
 
@@ -53,7 +53,7 @@ website](https://apache.org/foundation/voting.html).
 
 The ASF Infrastructure team offers a wide variety of
 [services](https://infra.apache.org/services.html) to your project,
-which may be requested by PMC members. Familiarize yourself with those
+which PMC members may request. Familiarize yourself with those
 services!
 
 ## Reporting
@@ -71,12 +71,12 @@ committers are added to a project](/pmc/adding-committers.html).
 
 ## Adding PMC members
 
-The PMC members identify project participants who they want to be
+The PMC members identify project participants whom they want to be
 members of the PMC. [Read more about the process of adding new PMC
 members](/pmc/adding-pmc-members.html).
 
 ## What to do as a new member
 
-If you've just been added as a new PMC member, there's a number of
+If you've just joined the PMC as a new member, there's a number of
 things that you'll need to do to be an effective part of the PMC. [Read
 more about getting started as a new PMC member](/pmc/new-member.html).
