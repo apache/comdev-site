@@ -3,24 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://community.apache.org/</loc>
-    <lastmod>2023-04-20T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/blog/</loc>
-    <lastmod>2023-04-20T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/tags/blog.html</loc>
-    <lastmod>2023-04-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://community.apache.org/tags/help-wanted.html</loc>
-    <lastmod>2023-04-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://community.apache.org/blog/2023-preparing-the-move.html</loc>
-    <lastmod>2023-04-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://community.apache.org/tags.html</loc>
-    <lastmod>2023-04-20T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/blog/the-asf-helps-promote-open.html</loc>
+    <lastmod>2019-12-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://community.apache.org/tags.html</loc>
     <lastmod>2019-12-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/blog/apache-event-tsinghua-university-beijing.html</loc>
@@ -213,6 +207,8 @@
     <loc>https://community.apache.org/gsoc/gsoc-admin-tasks.html</loc>
   </url><url>
     <loc>https://community.apache.org/gsoc/guide-to-being-a-mentor.html</loc>
+  </url><url>
+    <loc>https://community.apache.org/tags/help-wanted.html</loc>
   </url><url>
     <loc>https://community.apache.org/history.html</loc>
   </url><url>

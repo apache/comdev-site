@@ -6,22 +6,13 @@
     <description>Recent content in Tags on Apache Comdev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 20 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://community.apache.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://community.apache.org/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>blog</title>
       <link>https://community.apache.org/tags/blog.html</link>
-      <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 02 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://community.apache.org/tags/blog.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>help-wanted</title>
-      <link>https://community.apache.org/tags/help-wanted.html</link>
-      <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://community.apache.org/tags/help-wanted.html</guid>
       <description></description>
     </item>
     
@@ -193,6 +184,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://community.apache.org/tags/gsoc.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>help-wanted</title>
+      <link>https://community.apache.org/tags/help-wanted.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/tags/help-wanted.html</guid>
       <description></description>
     </item>
     
