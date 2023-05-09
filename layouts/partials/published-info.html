@@ -1,0 +1,6 @@
+<span class="published-info">Published on {{ time.Format "Monday, Jan 2, 2006" .Date }}
+
+    {{ if .Params.Published_by }}
+    by {{ .Params.Published_by }}
+    {{ end }}
+</span>
