@@ -42,18 +42,6 @@ This Calendar is also available as an [iCal feed][3]
 <script src="https://events.apache.org/js/events-calendar.js"></script>
 <script src="https://apis.google.com/js/client.js"></script>
 
-## Other Related Events
-
-In addition to major conferences that have applied for approval with us, there are a wide range of other
-events which feature Apache projects and technologies. A list of upcoming
-[Apache related Meetups is available][5], powered in part by [this script][6]
-(patches welcome!). Secondly, a crowd-sourced list of related events is maintained
-as a [Lanyrd Guide][4], and we encourage people to help list
-Apache project related events there.
-
   [1]: mailto:dev@community.apache.org
   [2]: https://www.apache.org/foundation/marks/events.html
   [3]: https://www.google.com/calendar/ical/nerseigospses068jd57bk5ar8%40group.calendar.google.com/public/basic.ics
-  [4]: http://lanyrd.com/guides/apache-software-and-technologies/
-  [5]: https://events.apache.org/event/index.html
-  [6]: https://svn.apache.org/repos/asf/comdev/tools/get_meetups
