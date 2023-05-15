@@ -88,6 +88,9 @@ Slides and talk recordings are linked from my [Pressbook](https://pinboard.in/u:
 
 And more at his [slideshare profile](https://www.slideshare.net/PiergiorgioLucidi)
 
+# Giovanni Bechis
+ - [The Apache Way](https://www.slideshare.net/GiovanniBechis/the-apache-way-257836473) - presented at Merge-it 2023.
+
 ## Committers - please add to this page!
 
 If you are an Apache committer and have presented slides on community topics
