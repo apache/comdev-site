@@ -3,7 +3,7 @@ title: Adding Committers
 tags: ["pmc","committers"]
 ---
 
-The addition of new committers is essential to the long-term 
+The addition of committers is essential to the long-term 
 sustainability of an open source project. The PMC is responsible for
 determining who will be added as a committer.
 
@@ -31,7 +31,7 @@ frustrated and leave, and you'll have missed that opportunity forever.
 Setting the bar too high has been the eventual death of many projects.
 
 Think of adding committers as an investment in the future of your
-project, rather than as a reward for good behavior. Committers that you
+project, rather than as a reward for good behavior. Committers whoyou
 add today will be the backbone of your project tomorrow, or five years
 from now. New committers are the only way to ensure the long-term
 sustainability of your project. Look for contributors who seem to have
@@ -46,8 +46,8 @@ committers, and, eventually, as PMC members.
 Finally, if you have specific requirements for committers (such as a
 period of time, or number of contributions) we encourage you to document
 that on your website. People like to know what their "career path" is in
-a project, rather than feeling that it is merely at the whims of a
-secret committee. If you see someone that seems to be on the path, point
+a project, rather than feeling that it is merely at the whim of a
+secret committee. If you see someone who seems to be on the path, point
 them to this document, so that they know what to expect, and what they
 can do to become a better contributor. See also [Becoming A
 Committer](https://community.apache.org/contributors/becomingacommitter.html)
@@ -71,11 +71,11 @@ Point them to specific review processes that they are expected to abide
 by before committing or merging a change.
 
 Point new committers to [Infra's guide for new
-committers](https://infra.apache.org/new-committers-guide.html) which
+committers](https://infra.apache.org/new-committers-guide.html), which
 has general information for all ASF committers.
 
 Consider clearly documenting the development environment that a
-committers should have to be successful. This might include a
+committer needs to be successful. This might include a
 recommended IDE, how to interact with your CI/CD stack, how to build and
 test locally, and any common problems they might encounter with their
 first few commits.
