@@ -22,7 +22,9 @@ how the candidate interacts with others, and the contributions (code or doc patc
 
 All new committers **must** adhere to the [Apache Code of Conduct](https://www.apache.org/foundation/policies/conduct.html).
 
-Each PMC may want to create their own supplemental committer guidelines; here are the [Apache Forrest committer guidelines](https://forrest.apache.org/committed.html).
+Each PMC may want to create their own supplemental committer guidelines,
+such as a minimum number of contributions, or number of months active on
+the project. We encourage you to not make this bar artificially high.
 
 The following are some points to consider when assessing a candidate's qualifications for committership.
 
