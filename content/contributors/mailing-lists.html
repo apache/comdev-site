@@ -253,7 +253,100 @@ they appear as a wall of identical subject lines. This makes it hard for
 beginners to break into your project, and find out what&rsquo;s going on.</p>
 <p>Here&rsquo;s some configuration tips for your mailing lists to cut through the
 noise and make your project&rsquo;s lists more approachable and welcoming.</p>
-<p><em>To Be Written</em></p>
+<p>Infra is providing some tooling to implement the automatically sent emails.
+There are generally two important parts:</p>
+<ol>
+<li>Where should stuff be sent</li>
+<li>How should the subject lines be built up</li>
+</ol>
+<p>Both these settings are done in your repositories <code>.asf.yaml</code> file.
+The full documentation of all features are documented <a href="https://cwiki.apache.org/confluence/display/INFRA/Git+-+.asf.yaml+features">here</a></p>
+<h3 id="configuring-where-to-send-things">Configuring where to send things <a class="headerlink" title="Permalink" href="#configuring-where-to-send-things">&para;</a></h3>
+<p>In order to configure where to send emails, please add or update the
+<code>notifications</code> section in your <code>.asf.yaml</code>.</p>
+<pre tabindex="0"><code>notifications:
+  commits:      commits@foo.apache.org
+  issues:       dev@foo.apache.org
+  pullrequests: dev@foo.apache.org
+  jobs:         dev@foo.apache.org
+  discussions:  dev@foo.apache.org
+</code></pre><p>This will sort of make everything go to your <code>dev</code>-list.
+Some projects have sent some of these to other lists, as the amount
+of emails sent from GitHub was too excessive. I will explain in the
+next chapter how to make this flood of emails manageable.</p>
+<p>One thing that might be anoying, expecially for project with many
+third party dependencies, might be that dependabot will also be
+flooding your mailinglist with pretty atomic mini pull-requests.</p>
+<p>In many projects we therefore forward dependabot emails to the
+commits list.</p>
+<pre tabindex="0"><code>notifications:
+  commits:      commits@foo.apache.org
+  issues:       dev@foo.apache.org
+  pullrequests: dev@foo.apache.org
+  jobs:         dev@foo.apache.org
+  discussions:  dev@foo.apache.org
+  # Send dependabot PRs to commits@ instead
+  pullrequests_bot_dependabot: commits@foo.apache.org
+</code></pre><h3 id="configuring-the-subject-lines-of-the-emails-being-sent">Configuring the subject lines of the emails being sent <a class="headerlink" title="Permalink" href="#configuring-the-subject-lines-of-the-emails-being-sent">&para;</a></h3>
+<p>The defaults that the tooling uses seems a bit odd to me:</p>
+<pre tabindex="0"><code>github:
+  custom_subjects:
+    new_pr: &#34;Created: PR {repository}/#{pr_id}: {title}&#34;
+    close_pr: &#34;Closed: PR {repository}/#{pr_id}: {title}&#34;
+    comment_pr: &#34;Commented: PR {repository}/#{pr_id}: {title}&#34;
+    merge_pr: &#34;Merged: PR {repository}/#{pr_id}: {title}&#34;
+    new_issue: &#34;Created: Issue {repository} {title}&#34;
+    comment_issue: &#34;Commented: Issue {repository} {title}&#34;
+    close_issue: &#34;Closed: Issue {repository} {title}&#34;
+    catchall: &#34;Updated: {repository}/#{issue_id}: {title}&#34;
+    new_discussion: &#34;Created: Discussion {repository}: {title}&#34;
+    edit_discussion: &#34;Edited: Discussion {repository}: {title}&#34;
+    close_discussion: &#34;Closed: Discussion {repository}: {title}&#34;
+    close_discussion_with_comment: &#34;Closed: Discussion with comment {repository}: {title}&#34;
+    reopen_discussion: &#34;Reopened: Discussion {repository}: {title}&#34;
+    new_comment_discussion: &#34;Commented: Discussion {repository}: {title}&#34;
+    edit_comment_discussion: &#34;Edited a comment: Discussion {repository}: {title}&#34;
+    delete_comment_discussion: &#34;Deleted a comment: Discussion {repository}: {title}&#34;
+</code></pre><p>However these result in emails that no email client I have come
+across is able to group to threads and I have not come acoss even one
+email where I got to what the email is about on my phone because all I
+could see was: &ldquo;Commented: Discuss&hellip;&rdquo;.</p>
+<p>We therefore updated these in some projects to a lot shorter versions:</p>
+<pre tabindex="0"><code>github:
+  custom_subjects:
+    new_pr: &#34;[PR] {title} ({repository})&#34;
+    close_pr: &#34;Re: [PR] {title} ({repository})&#34;
+    comment_pr: &#34;Re: [PR] {title} ({repository})&#34;
+    merge_pr: &#34;Re: [PR] {title} ({repository})&#34;
+    catchall: &#34;Updated: {repository}/#{issue_id}: {title}&#34;
+    new_issue: &#34;[I] {title} ({repository})&#34;
+    comment_issue: &#34;Re: [I] {title} ({repository})&#34;
+    close_issue: &#34;Re: [I] {title} ({repository})&#34;
+    catchall: &#34;[GH] {title} ({repository})&#34;
+    new_discussion: &#34;[D] {title} ({repository})&#34;
+    edit_discussion: &#34;Re: [D] {title} ({repository})&#34;
+    close_discussion: &#34;Re: [D] {title} ({repository})&#34;
+    close_discussion_with_comment: &#34;Re: [D] {title} ({repository})&#34;
+    reopen_discussion: &#34;Re: [D] {title} ({repository})&#34;
+    new_comment_discussion: &#34;Re: [D] {title} ({repository})&#34;
+    edit_comment_discussion: &#34;Re: [D] {title} ({repository})&#34;
+    delete_comment_discussion: &#34;Re: [D] {title} ({repository})&#34;
+</code></pre><p>For some reason, the <code>repository</code> is required to be part of the pattern.
+Moving this to the end made the emails a lot more readable.</p>
+<h3 id="conclusion">Conclusion <a class="headerlink" title="Permalink" href="#conclusion">&para;</a></h3>
+<p>The custom templates help make the GitHub content readable on your
+mailinglist it will therefore not feel as overwhelming as with the
+defaults. Moving dependabot to the commits lists, helped reduce the
+content with very little information.</p>
+<p>We would strongly encourage projects to keep as much of the discussions
+on their main mailingslist. If it&rsquo;s a larger project and still the
+volumne is so high, it&rsquo;s overwhelming people, think about directing
+some of the content to other lists.</p>
+<p>Simply directing all GitHub content to dedicated mailing lists or
+lists nobody reads doesn&rsquo;t help with keeping the community knowledge
+available. Even if it&rsquo;s &ldquo;on the list&rdquo; someweere, it doesn&rsquo;t really
+serve the reasoning behind the &ldquo;If if didn&rsquo;t happen on the list,
+it didn&rsquo;t happen&rdquo;.</p>
 
 
     </div>
