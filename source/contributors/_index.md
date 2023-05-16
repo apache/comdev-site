@@ -60,16 +60,6 @@ you work with Apache communities.
 
 See also this [detailed advice for how to become a committer](/contributors/becomingacommitter.html)
 
-## Contributing A Project - CoPDoC
-
-The foundations of an Apache project and how the community contributes to it are 
-sometimes referred to by the acronym CoPDoC:
-
-  - (Co)mmunity - one must interact with others, and share vision and knowledge
-  - (P)roject - a clear vision and consensus are needed
-  - (Do)cumentation - without it, the stuff remains only in the minds of the authors
-  - (C)ode - discussion goes nowhere without code
-
 ## Anyone Can Become A Committer
 
 There is nothing at the Apache Software Foundation that says you must write code 
