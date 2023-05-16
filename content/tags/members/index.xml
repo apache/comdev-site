@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>members on Apache Comdev</title>
+    <link>https://community.apache.org/tags/members.html</link>
+    <description>Recent content in members on Apache Comdev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://community.apache.org/tags/members/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ASF Contributor Ladder</title>
+      <link>https://community.apache.org/contributor-ladder.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/contributor-ladder.html</guid>
+      <description>Projects at the ASF offer a way to grow in your responsibilities in the project, from being a user, all the way up to being a maintainer of the project. While the specific details may look different from one project to another, the rungs of the ladder look mostly the same.
+User Contributor Committer PMC Member ASF Member Officers of the Foundation Board of Directors User &amp;para; Everything that we do in an ASF project is for the user.</description>
+    </item>
+    
+  </channel>
+</rss>

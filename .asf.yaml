@@ -1,0 +1,24 @@
+github:
+  description: "Website sources for the Apache Community Development Website"
+  homepage: https://community.apache.org
+  labels:
+    - apache
+    - community
+    - comdev
+    - hugo
+
+notifications:
+  commits:      commits@community.apache.org
+  issues:       dev@community.apache.org
+  pullrequests: dev@community.apache.org
+
+# Maybe publish also needed:
+publish:
+    whoami: asf-site
+
+# Test site in preview/test2; output to preview/test2-staging
+# autostage will publish the site at community-test2.staged.apache.org
+staging:
+  profile: ~
+  whoami:  asf-staging
+  autostage: preview/*

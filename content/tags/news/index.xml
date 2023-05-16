@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>news on Apache Comdev</title>
+    <link>https://community.apache.org/tags/news.html</link>
+    <description>Recent content in news on Apache Comdev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 06 Aug 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://community.apache.org/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Community Development News - July 2018</title>
+      <link>https://community.apache.org/blog/community-development-news-july-2018.html</link>
+      <pubDate>Mon, 06 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/community-development-news-july-2018.html</guid>
+      <description>Welcome to our monthly blog update about what is happening in Apache Community Development (ComDev)!
+This month we have news about ApacheCon NA in Montreal, we prepare to participate at Solutions Hamburg, we talk about our great experience at OSCON, and we look at making sure people can find out about Apache related meetups and events.
+ApacheCon NA 2018 &amp;para; ApacheCon North America, in Montreal, is less than 60 days away and there is still a lot of work happening to ensure that the conference is a success.</description>
+    </item>
+    
+    <item>
+      <title>Community Development News - June 2018</title>
+      <link>https://community.apache.org/blog/community-development-news-june-2018.html</link>
+      <pubDate>Tue, 03 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/community-development-news-june-2018.html</guid>
+      <description>Welcome to our monthly blog update about what is happening in Apache Community Development (ComDev)!
+This month we have news about the Apache EU Roadshow and FOSS Backstage conferences in Berlin, we talk about our participation at the OpenExpo Europe, we interview speakers, attendees and Board members for FeatherCast and we prepare for participation in even more conferences.
+Apache EU Roadshow &amp;para; This month our Apache EU Roadshow was held in Berlin.</description>
+    </item>
+    
+    <item>
+      <title>Community Development News - April 2018</title>
+      <link>https://community.apache.org/blog/community-development-news-april-2018.html</link>
+      <pubDate>Wed, 09 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/community-development-news-april-2018.html</guid>
+      <description>Welcome to our monthly blog update about what is happening in Apache Community Development (ComDev)!
+This month we have news about our Apache EU Roadshow, the schedule for Apachecon North America is announced, we talk about our participation at GOTO Chicago, we plan for having an Apache presence at more open source conferences and we welcome another PMC member.
+OpenExpo Europe &amp;para; As part of our involvement with the OpenExpo Europe Conference there was a request for volunteers to write short articles on open source trends for the conference e-book.</description>
+    </item>
+    
+    <item>
+      <title>Community Development News - February 2018</title>
+      <link>https://community.apache.org/blog/community-development-news-february-2018.html</link>
+      <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/community-development-news-february-2018.html</guid>
+      <description>Welcome to our monthly blog update about what is happening in Apache Community Development (ComDev)!
+This month we have news about our participation at FOSDEM, we include an update on Apachecon North America and our Apache EU Roadshow events, we continue to actively look for event sponsors, we prepare to take part in GSoC and we welcome another PMC member.
+FOSDEM &amp;para; During February, we participated at FOSDEM. FOSDEM is a open source conference held in Brussels every year.</description>
+    </item>
+    
+    <item>
+      <title>Community Development News - January 2018</title>
+      <link>https://community.apache.org/blog/community-development-news-january-2018.html</link>
+      <pubDate>Thu, 08 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/community-development-news-january-2018.html</guid>
+      <description>Welcome to our monthly blog update about what is happening in Apache Community Development (ComDev)!
+This month we have news about ApacheCon North America and also our Apache EU Roadshow, we register for GSoC, we report on our experience at the Open Source Summit Paris, we introduce Apache Community Business Cards, and we welcome two new PMC Members.
+ApacheCon NA 2018 &amp;para; Good news! ApacheCon North America will be held 24-28 September 2018 in Montreal, Canada.</description>
+    </item>
+    
+    <item>
+      <title>Community Development News - October 2017</title>
+      <link>https://community.apache.org/blog/community-development-news-october-2017.html</link>
+      <pubDate>Thu, 09 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/community-development-news-october-2017.html</guid>
+      <description>Welcome to our monthly blog update about what is happening in Apache Community Development (ComDev)!
+This month we have news about attending the FOSS Backstage Micro Summit, we share some interviews from the Prague Open Source Summit, we revitalise our Jira issue tracker, we welcome a new PMC Chair, we translate our ASF brochure into more languages, we prepare for FOSDEM and a for a half day track at the Open Source Summit in Paris, and we look at introducing Apache Community Business Cards.</description>
+    </item>
+    
+    <item>
+      <title>Community Development News - September 2017</title>
+      <link>https://community.apache.org/blog/community-development-news-september-2017.html</link>
+      <pubDate>Thu, 12 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/community-development-news-september-2017.html</guid>
+      <description>Welcome to our monthly blog update about what is happening in Apache Community Development (ComDev)! You may have noticed that we missed our August issue, this was due to preparations and participation at the Solutions Hamburg conference so once again we have a double update for you this month.
+This month we have news about the FOSS Backstage Micro Summit, we share our experience of the Solutions Hamburg conference, and we start preparing for two conferences in October - the Open Source Summit and MesosCon.</description>
+    </item>
+    
+    <item>
+      <title>Community Development News - July 2017</title>
+      <link>https://community.apache.org/blog/community-development-news-july-2017.html</link>
+      <pubDate>Fri, 04 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/community-development-news-july-2017.html</guid>
+      <description>Welcome to our monthly blog update about what is happening in Apache Community Development (ComDev)! You may have noticed that we missed our June issue, this was due to the holiday season so we have a double update for you this month. This month we have lots of news about upcoming conferences that we are interested in participating at, we share a more detailed blog post about the OpenExpo in Madrid, we remind everyone to find us on Twitter, and provide a pointer to how to help fix misuses of Apache project brands.</description>
+    </item>
+    
+    <item>
+      <title>Community Development News - May 2017</title>
+      <link>https://community.apache.org/blog/community-development-news-may-2017.html</link>
+      <pubDate>Wed, 14 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/community-development-news-may-2017.html</guid>
+      <description>Welcome to our monthly blog update about what is happening in Apache Community Development (ComDev)! This month we have lots of news about ApacheCon North America; share some links to some of the conference keynotes; deliver a co-ordinated Apache Way track alongside our Community one; get some feedback from a first time ApacheCon attendee; encourage you to listen to ApacheCon via our FeatherCast podcast channel and we run yet another successful BarCampApache.</description>
+    </item>
+    
+    <item>
+      <title>Community Development News - April 2017</title>
+      <link>https://community.apache.org/blog/community-development-news-april-2017.html</link>
+      <pubDate>Fri, 05 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/community-development-news-april-2017.html</guid>
+      <description>Welcome to our monthly blog update about what is happening in Apache Community Development (ComDev)! This month we have news about ApacheCon North America; give you some reasons why attending BarCampApache is great; encourage projects to ask for help protecting their trademarks; share some mini podcasts from FeatherCast; and we&amp;rsquo;re planning a Community Development Tools Hackathon.
+ApacheCon NA 2017 &amp;para; It is less than 2 weeks to ApacheCon NA in Miami and tickets are still available.</description>
+    </item>
+    
+    <item>
+      <title>Community Development News - March 2017</title>
+      <link>https://community.apache.org/blog/community-development-news-march-2017.html</link>
+      <pubDate>Mon, 10 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/community-development-news-march-2017.html</guid>
+      <description>Welcome to our monthly blog update about what is happening in Apache Community Development. This month we have news about our Annual Members meeting, we celebrate our 18th birthday, we encourage participation in GSoC, a new system for making donations to the ASF goes live, we simplify the Apache Way and the ASF joins Facebook.
+Happy 18th Birthday Apache! &amp;para; Last month the ASF celebrated its 18th birthday. and who would have believed that the Apache HTTP Server, the ASF&amp;rsquo;s original project still remains the most popular Web server on the planet totalling nearly 80M active sites.</description>
+    </item>
+    
+    <item>
+      <title>Community Development News - February 2017</title>
+      <link>https://community.apache.org/blog/community-development-news-february-2017.html</link>
+      <pubDate>Fri, 17 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/community-development-news-february-2017.html</guid>
+      <description>Welcome to our monthly blog update about what is happening in Apache Community Development. This month we have news about ApacheCon, Apache Big Data and our range of mini themed conferences, we also invite you to promote your talk on Feathercast.
+ApacheCon NA 2017 - Miami &amp;para; During February our main focus was in promoting Apache Big Data and the new format ApacheCon in Miami. Over 225 submissions were received and we&amp;rsquo;d like to thank everyone that was involved in helping review them all.</description>
+    </item>
+    
+    <item>
+      <title>Community Development News - January 2017</title>
+      <link>https://community.apache.org/blog/community-development-news-january-2017.html</link>
+      <pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/community-development-news-january-2017.html</guid>
+      <description>Welcome to our monthly blog update about what is happening in Apache Community Development. This month we have news about FOSDEM and our Commnity Development presence there, Feathercast and the audio recordings available and the new mini conference format for Apachecon NA 2017.
+Community Development at FOSDEM 2017 &amp;para; During January a lot of our focus has been in preparing for FOSDEM. FOSDEM is a open source conference in Brussels that is held every year.</description>
+    </item>
+    
+    <item>
+      <title>Community Development News - December 2016</title>
+      <link>https://community.apache.org/blog/community_development_news_december_2016.html</link>
+      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/community_development_news_december_2016.html</guid>
+      <description>Welcome to our monthly blog update about what is happening in Apache Community Development. This month we have news about defining a Community Development Strategy, ASF involvement in GSoC and the results from our Committer Diversity Survey are published.
+Community Development Strategy &amp;para; This month our mailing list has had some detailed discussions around the goal of the Apache Community Development project. The discussion covered topics such as the original mission statement when the project was established and why people felt that more organisation and direction was needed.</description>
+    </item>
+    
+    <item>
+      <title>Community Development News - November 2016</title>
+      <link>https://community.apache.org/blog/community_development_news_november_2016.html</link>
+      <pubDate>Thu, 08 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/community_development_news_november_2016.html</guid>
+      <description>Welcome to the first in a series of monthly blog updates about what is happening in Apache Community Development. This month we have news about our Committer Diversity Survey, FOSDEM 2017, ApacheCon NA 2017 and our PMC grows.
+Apache Committers Diversity Survey &amp;para; Over the last month we have been discussing diversity within the ASF and this month we sent out our first ever Apache Software Foundation Committer Diversity Survey. The committer group was selected because they are a large group that are linked to every Apache project.</description>
+    </item>
+    
+  </channel>
+</rss>

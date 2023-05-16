@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+  <meta name="description" content="Apache Community Development"/>
+  <meta name="keywords" content="apache, apache community, community development, opensource"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta property="og:title" content="Apache-related slides, videos and presentations" />
+<meta property="og:description" content="This page contains links to presentations and other key papers about the ASF and how Apache projects work that you may find useful. Many of these have been presented at ApacheCon conferences or other open source conferences.
+These presentations are available under permissive licenses; please see each individual presentation for license details.
+Many Apache speakers post their slides to the SlideShare website, and the FeatherCast podcast offers audio recordings of many talks and interviews." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://community.apache.org/speakers/slides.html" /><meta property="og:image" content="https://community.apache.org/images/aceu19_1.jpg"/><meta property="article:section" content="speakers" />
+
+<meta property="og:site_name" content="Apache Community Development" />
+
+
+  <title>Apache Community Development - Apache-related slides, videos and presentations</title>
+  <link rel="shortcut icon" href="/images/favicon.ico">
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link href="/css/main.css" rel="stylesheet" media="screen">
+  <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <style type="text/css">
+      .footer {
+          text-align:center;
+          color:grey;
+          font-size:80%;
+          border-top: solid #ddd 1px;
+          margin-top:1em;
+      }
+      .navbar-brand img {
+          height: 50px;
+      }
+  </style>
+
+  
+<script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(['disableCookies']);
+   
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.apache.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '36']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+
+</head>
+
+<body>
+  <header class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+    <img src="https://svn.apache.org/repos/asf/comdev/project-logos/originals/foundation.svg" alt="Apache Software Foundation">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="mainNavbar">
+    <div class="container"> 
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="homeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Home
+            </a>
+            <div class="dropdown-menu" aria-labelledby="homeDropdown">
+              <a class="dropdown-item" href="/">Homepage</a>
+              <a class="dropdown-item" href="/tags.html">Tags</a>
+              <a class="dropdown-item" href="/blog/">Blog</a>
+              <a class="dropdown-item" href="/tags/navigation.html">Navigation pages</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About
+          </a>
+          <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+            <a class="dropdown-item" href="/about/">What We Do</a>
+            <a class="dropdown-item" href="/newbiefaq.html">Frequently Asked Questions</a>
+            <a class="dropdown-item" href="/projectIndependence.html">Apache Project Independence</a>
+            <a class="dropdown-item" href="/apache-way/apache-project-maturity-model.html">Apache Project Maturity Model</a>
+            <a class="dropdown-item" href="/contactpoints.html">Contact Points Within the ASF</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html#2009-11-01">ComDev Original Board Resolution</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html">ComDev Board Reports</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/COMDEV">Community Development Jira</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">About Apache</a>
+            <a class="dropdown-item" href="https://www.apache.org/">The Apache Software Foundation</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/sponsorship">Sponsor Apache</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/thanks">Thanks to our Sponsors</a>
+            <a class="dropdown-item" href="https://www.apache.org/licenses">License</a>
+            <a class="dropdown-item" href="https://www.apache.org/security">Security</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="contribDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            For Contributors
+          </a>
+          <div class="dropdown-menu" aria-labelledby="contribDropdown">
+            <a class="dropdown-item" href="/newcomers/">Newcomers</a>
+            <a class="dropdown-item" href="/gettingStarted/101.html">Getting Started</a>
+            <a class="dropdown-item" href="/contributors/">Finding Your Way Around The Apache Software Foundation</a>
+            <a class="dropdown-item" href="https://www.apache.org/dev/">Technical Developer FAQs</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="commitDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">GSoC</a>
+          <div class="dropdown-menu" aria-labelledby="gsocDropdown">
+            <a class="dropdown-item" href="/gsoc/">Google Summer Of Code Information</a>
+            <a class="dropdown-item" href="/gsoc/mentee-ranking-process.html">Mentee Ranking Process</a>
+            <a class="dropdown-item" href="/gsoc/experiences.html">Past GSoC Experiences</a>
+            <a class="dropdown-item" href="/gsoc/guide-to-being-a-mentor.html">Guide to being a Mentor</a>
+            <a class="dropdown-item" href="/gsoc/use-the-comdev-gsoc-issue-tracker-for-gsoc-tasks.html">Using ComDev's Jira for GSoC Ideas</a>
+            <a class="dropdown-item" href="/gsoc/gsoc-admin-tasks.html">Tasks of a GSoC Admin at the ASF</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/GSOC">GSoC Jira</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="commitDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            For Committers/PMCs
+          </a>
+          <div class="dropdown-menu" aria-labelledby="commitDropdown">
+            <a class="dropdown-item" href="/newcommitter.html">Recruiting New Committers</a>
+            <a class="dropdown-item" href="/committers/">Useful Information for Committers</a>
+            <a class="dropdown-item" href="/committers/consensusBuilding.html">Consensus Building</a>
+            <a class="dropdown-item" href="/committers/lazyConsensus.html">Lazy Consensus</a>
+            <a class="dropdown-item" href="/committers/decisionMaking.html">Decision Making</a>
+            <a class="dropdown-item" href="/committers/voting.html">Voting</a>
+            <a class="dropdown-item" href="/committers/funding-disclaimer.html">Funding Campaign Disclaimer</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="eventDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Events
+          </a>
+          <div class="dropdown-menu" aria-labelledby="eventDropdown">
+            <a class="dropdown-item" href="https://apachecon.com/">Community Over Code - (formerly ApacheCon)</a>
+            <a class="dropdown-item" href="https://events.apache.org/">Other Apache-related Events</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/marks/events">Apache event branding policies</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">Conference Speakers</a>
+            <a class="dropdown-item" href="/speakers/slides.html">Sample presentations</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="conversDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Join the Conversation
+          </a>
+          <div class="dropdown-menu" aria-labelledby="conversDropdown">
+            <a class="dropdown-item" href="/blog/">Blog</a>
+            <a class="dropdown-item" href="https://www.facebook.com/ApacheSoftwareFoundation">Facebook</a>
+            <a class="dropdown-item" href="https://twitter.com/ApacheCommunity">Twitter</a>
+            <a class="dropdown-item" href="/lists.html">Mailing List</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+    </div>
+  </header>
+
+  <main class="cd-main" id="content" role="main">
+    <div class="container">
+      <section id="content" class="row">
+        <div class="col-md-9">
+          <h3 class="mt-3 text-muted">The Apache Software Foundation</h3>
+        </div>
+        <div class="col-md-12"><h4 class="text-muted">Community &gt; Code</h4></div>
+      </section>
+      
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">Home</a></li>
+    
+        
+        
+    
+        
+        
+            <li class="breadcrumb-item"><a href='/speakers'>Speakers</a></li>
+            
+        
+    
+        
+        
+            <li class="breadcrumb-item"><a href='/speakers/slides.html'>Slides</a></li>
+            
+        
+    
+  </ol>
+</nav>
+
+
+      <hr>
+       
+<ul class="tags-list">
+  
+  <li>
+    <a href="https://community.apache.org/tags/speakers.html">speakers</a>
+  </li>
+  <li>
+    <a href="https://community.apache.org/tags/conferences.html">conferences</a>
+  </li>
+  <li>
+    <a href="https://community.apache.org/tags/slides.html">slides</a>
+  </li>
+  <li>
+    <a href="https://community.apache.org/tags/video.html">video</a>
+  </li></ul>
+
+      
+	
+	<br><br>
+	<p>This page contains links to presentations and other key papers about the ASF and how
+Apache projects work that you may find useful.  Many of these have
+been presented at <a href="https://events.apache.org">ApacheCon conferences</a> or
+other open source conferences.</p>
+<p>These presentations are available under permissive licenses; please see
+each individual presentation for license details.</p>
+<p>Many Apache speakers post their slides to the <a href="//www.slideshare.net/search/slideshow?searchfrom=header&amp;q=apache+software">SlideShare website</a>,
+and the <a href="//feathercast.apache.org/">FeatherCast podcast offers audio recordings</a> of many talks and interviews.</p>
+<p>For those who prefer videos, our many volunteers have posted</p>
+<ul>
+<li><a href="https://www.youtube.com/user/TheApacheFoundation/playlists">full videos of all ApacheCon NA 2013 presentations</a>, and</li>
+<li><a href="https://www.youtube.com/playlist?list=PLU2OcwpQkYCzvGxZgVOunTs-3iEao6YJc">select ApacheCon NA 2014 presentations</a>.</li>
+<li><a href="https://www.youtube.com/channel/UCLDJ_V9KUOdOFSbDvPfGBxw">Sessions from ApacheCon 2019 and 2020</a></li>
+</ul>
+<p>Additional slides, videos and audio recordings can also be found through the
+<a href="https://wiki.apache.org/apachecon/Past_Conference_Resources">ApacheCon Past Conference Resources page</a>.</p>
+<h1 id="asf-postings">ASF Postings <a class="headerlink" title="Permalink" href="#asf-postings">&para;</a></h1>
+<ul>
+<li><a href="https://www.apache.org/theapacheway/index.html">Briefing: The Apache Way</a> (paper)</li>
+<li><a href="https://blogs.apache.org/foundation/entry/the-apache-way-to-sustainable">The Apache Way to Sustainable Open Source Success</a>  (paper)</li>
+</ul>
+<h1 id="isabel-drost">Isabel Drost <a class="headerlink" title="Permalink" href="#isabel-drost">&para;</a></h1>
+<ul>
+<li><a href="http://isabel-drost.de/hadoop/slides/christoph.pdf">Open Source development for students</a></li>
+</ul>
+<h1 id="justin-erenkrantz">Justin Erenkrantz <a class="headerlink" title="Permalink" href="#justin-erenkrantz">&para;</a></h1>
+<ul>
+<li><a href="https://www.erenkrantz.com/apachecon/TransferSummit%20-%20Open%20Innovation.pdf">Open Innovation in The Apache Software Foundation</a></li>
+<li><a href="https://www.erenkrantz.com/apachecon/OSBC%20-%20No%20Jerks%20Allowed.pdf">Writing and Distributing Software &ldquo;The Apache Way&rdquo;</a></li>
+<li><a href="https://www.erenkrantz.com/apachecon/JASIG%20-%20No%20Jerks%20Allowed.pdf">The Apache Software Foundation: No Jerks Allowed!</a></li>
+<li><a href="https://www.erenkrantz.com/apachecon/Apache%20Roadshow%20Asia%202009.pdf">Putting It Together</a></li>
+<li><a href="https://www.erenkrantz.com/apachecon/SAP%20Apache%20Intro.pdf">An Overview of The Apache Software Foundation</a></li>
+</ul>
+<h1 id="ross-gardler">Ross Gardler <a class="headerlink" title="Permalink" href="#ross-gardler">&para;</a></h1>
+<ul>
+<li><a href="https://www.slideshare.net/bosc2010/gardler-bosc2010-communitydevelopmentattheasf">Community Development at the ASF</a></li>
+<li><a href="https://www.slideshare.net/rgardler/the-apache-way-and-openofficeorg">The Apache Way and OpenOffice.org</a></li>
+</ul>
+<h1 id="jim-jagielski">Jim Jagielski <a class="headerlink" title="Permalink" href="#jim-jagielski">&para;</a></h1>
+<ul>
+<li><a href="https://people.apache.org/~jim/presos/IOOS2011/Creating_Community.pdf">Communities and Collaboration</a></li>
+<li><a href="https://people.apache.org/~jim/presos/OR2011/Open_Source_NotJust.pdf">Open Source: It&rsquo;s just not for IT anymore</a></li>
+<li>More of Jims presentations <a href="https://people.apache.org/~jim/presos/">here</a> and <a href="https://www.slideshare.net/jimjag/">here</a></li>
+</ul>
+<h1 id="bertrand-delacretaz">Bertrand Delacretaz <a class="headerlink" title="Permalink" href="#bertrand-delacretaz">&para;</a></h1>
+<p>Slides and talk recordings are linked from my <a href="https://pinboard.in/u:bdelacretaz/t:pressbook/">Pressbook</a>.</p>
+<h1 id="shane-curcuru">Shane Curcuru <a class="headerlink" title="Permalink" href="#shane-curcuru">&para;</a></h1>
+<ul>
+<li><a href="http://shaneslides.com/2017/04/History-Of-The-Apache-Way/">History and Overview of Various Apache Way Presentations</a> (annotated list, pre-2017)</li>
+<li><a href="http://shaneslides.com/apachecon/TheApacheWay-Intro-ApacheConNA2017.html">Apache Way: Effective Open Source Project Management</a> ApacheCon 2017 (<a href="https://www.youtube.com/watch?v=hpAv54KIgK8">video</a>)</li>
+<li><a href="https://communityovercode.com/2012/05/camelone-2012-presentation/">About: Apache - The Foundation, The Way, The Projects</a></li>
+<li><a href="https://communityovercode.com/2012/07/oscon-presentation/">Managing Community Open Source Brands</a></li>
+<li><a href="https://www.slideshare.net/shanecurcuru/improving-your-apache-projects-image-and-brand">Improving Your Project&rsquo;s Image And Brand</a></li>
+<li><a href="https://events.linuxfoundation.org/sites/events/files/slides/SupportingApacheBrandsWhileMakingAProfit-SCurcuru-ApacheCon2014.pdf">Supporting Apache Brands While Making A Profit</a> (<a href="https://www.youtube.com/watch?v=8cQMhysKeyU">video</a>)</li>
+<li><a href="https://www.slideshare.net/shanecurcuru/successfully-profiting-from-apache-brands">Successfully Profiting From Apache Projects</a></li>
+<li><a href="https://www.slideshare.net/shanecurcuru/practical-trademark-law-for-foss-projects">Practical Trademark Law For FOSS Projects</a></li>
+</ul>
+<h1 id="nick-burch">Nick Burch <a class="headerlink" title="Permalink" href="#nick-burch">&para;</a></h1>
+<ul>
+<li><a href="https://home.apache.org/~nick/Talks/ApacheConNA15/TheApacheWay15.pdf">The Apache Way (ApacheCon North America 2015 version)</a></li>
+<li><a href="https://home.apache.org/~nick/Talks/ApacheConNA16/ButWereAlreadyOpen.pdf">But we&rsquo;re already open source? Why would we want to bring our project to the ASF?</a></li>
+</ul>
+<h1 id="andrea-pescetti">Andrea Pescetti <a class="headerlink" title="Permalink" href="#andrea-pescetti">&para;</a></h1>
+<ul>
+<li><a href="https://www.slideshare.net/pescetti/bending-the-rules-community-over-code-over-policy-apachecon-2014">Bending the rules: Community over Code over Policy</a></li>
+</ul>
+<h1 id="daniel-ruggeri">Daniel Ruggeri <a class="headerlink" title="Permalink" href="#daniel-ruggeri">&para;</a></h1>
+<ul>
+<li><a href="https://people.apache.org/~druggeri/presentations/TheApacheWay.odp">The Apache Way - amalgamation of many other decks</a> - presented at University of Missouri 2015. Attempt to get everything in one deck.</li>
+</ul>
+<h1 id="j-aaron-farr">J Aaron Farr <a class="headerlink" title="Permalink" href="#j-aaron-farr">&para;</a></h1>
+<ul>
+<li><a href="https://www.slideshare.net/jaaronfarr/presentations">Several older Apache Way and related slide decks</a></li>
+</ul>
+<h1 id="alan-gates">Alan Gates <a class="headerlink" title="Permalink" href="#alan-gates">&para;</a></h1>
+<ul>
+<li><a href="https://www.slideshare.net/alanfgates/keynote-apache-bdeunov2016">Training Our Team in the Apache Way</a> Keynote slides from Apache Big Data EU 2016</li>
+<li><a href="https://www.slideshare.net/alanfgates/hortonworks-apache-training">Hortonworks Engineering Apache Training</a> Training material described in keynote above</li>
+</ul>
+<h1 id="brett-porter">Brett Porter <a class="headerlink" title="Permalink" href="#brett-porter">&para;</a></h1>
+<ul>
+<li><a href="https://www.slideshare.net/brettporter/the-apache-way-dataworks-summit-2017">The Apache Way - based on J Aaron Farr&rsquo;s earlier versions</a></li>
+</ul>
+<h1 id="ismaël-mejía">Ismaël Mejía <a class="headerlink" title="Permalink" href="#isma%c3%abl-mej%c3%ada">&para;</a></h1>
+<ul>
+<li><a href="https://iemejia.github.io/slides/201806-Construyendo%20software%20y%20comunidades%20a%20la%20manera%20de%20Apache.pdf">Construyendo software y comunidades a la manera de Apache (spanish)</a></li>
+</ul>
+<h1 id="piergiorgio-lucidi">Piergiorgio Lucidi <a class="headerlink" title="Permalink" href="#piergiorgio-lucidi">&para;</a></h1>
+<ul>
+<li><a href="https://www.slideshare.net/PiergiorgioLucidi/the-journey-of-apache-manifoldcf-learning-from-asfs-successes-81289363">The Journey of Apache ManifoldCF: Learning from ASF&rsquo;s Successes (Open Source Summit 2017)</a></li>
+</ul>
+<p>And more at his <a href="https://www.slideshare.net/PiergiorgioLucidi">slideshare profile</a></p>
+<h1 id="giovanni-bechis">Giovanni Bechis <a class="headerlink" title="Permalink" href="#giovanni-bechis">&para;</a></h1>
+<ul>
+<li><a href="https://www.slideshare.net/GiovanniBechis/the-apache-way-257836473">The Apache Way</a> - presented at Merge-it 2023.</li>
+</ul>
+<h2 id="committers---please-add-to-this-page">Committers - please add to this page! <a class="headerlink" title="Permalink" href="#committers---please-add-to-this-page">&para;</a></h2>
+<p>If you are an Apache committer and have presented slides on community topics
+around Apache, please add a link to your information here!</p>
+<h3 id="slide-templates">Slide templates <a class="headerlink" title="Permalink" href="#slide-templates">&para;</a></h3>
+<p>If you want to prepare a new presentation about any Apache project, feel free to start using <a href="https://svn.apache.org/repos/asf/comdev/slide-templates/">Apache slide templates</a>.</p>
+
+
+    </div>
+  </main>
+
+  <footer class="page-footer bg-secondary mt-4 pt-3">
+    <div class="container text-center text-md-left mb-3">
+      <div class="row">
+        <div class="col-md-6 mt-md-0 mt-3">
+          <h5 class="text-uppercase">Trademarks</h5>
+          <p>
+            Apache&reg;, the names of Apache projects, and the multicolor feather logo are
+            <a href="https://www.apache.org/foundation/marks/list/">registered trademarks or trademarks</a> of the Apache
+            Software Foundation in the United States and/or other countries.
+          </p>
+        </div>
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <div class="col-md-6 mb-md-0 mb-3">
+          <h5 class="text-uppercase">Website sources</h5>
+
+          <p>
+            This website is generated from the <a href="https://github.com/apache/comdev-site">comdev-site repository</a>.<br>
+            Patches are welcome!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright text-center py-3">
+      <em>Copyright &copy; 2023, <a href="https://www.apache.org/">the Apache Software Foundation</a>. Licensed under the
+      <a rel="license" href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></em>
+    </div>
+  </footer>
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>

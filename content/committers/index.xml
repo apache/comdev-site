@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Committer resources on Apache Comdev</title>
+    <link>https://community.apache.org/committers/</link>
+    <description>Recent content in Committer resources on Apache Comdev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://community.apache.org/committers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Consensus Building</title>
+      <link>https://community.apache.org/committers/consensusBuilding.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/committers/consensusBuilding.html</guid>
+      <description>In some cases there is no obvious path to take, or you might be a new community, or a new member of an existing community. In these cases people often need to build consensus by making proposals and eliciting responses.
+Constructive discussion is the lifeblood of a successful project. However, we want to avoid unnecessary discussion and significant amounts of unnecessary mail that everyone in the community needs to read. so many ASF projects adopt a shorthand notation for showing support, or otherwise, for a proposal.</description>
+    </item>
+    
+    <item>
+      <title>Decision-Making</title>
+      <link>https://community.apache.org/committers/decisionMaking.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/committers/decisionMaking.html</guid>
+      <description>The most important thing about engaging with any Apache project is that everyone is equal. All project participants with an opinion can express that opinion and, where appropriate, have the community consider it.
+To some, the idea of having to establish consensus in a large and distributed team sounds inefficient and frustrating. Don&amp;rsquo;t despair, though: The Apache Way has a set of simple processes to ensure things proceed at a good pace.</description>
+    </item>
+    
+    <item>
+      <title>Funding campaign disclaimer</title>
+      <link>https://community.apache.org/committers/funding-disclaimer.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/committers/funding-disclaimer.html</guid>
+      <description>Some Apache committers have successfully run funding campaigns to support their work on their favorite Apache projects.
+This is ok in principle, but you have to make it clear that the campaign is your own thing, and avoid any confusion about the role of the ASF and how its projects work.
+This page gives a few examples of how to do that.
+If you have any question about this, feel free to ask on our dev@community.</description>
+    </item>
+    
+    <item>
+      <title>Lazy Consensus</title>
+      <link>https://community.apache.org/committers/lazyConsensus.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/committers/lazyConsensus.html</guid>
+      <description>The concept of &amp;ldquo;lazy consensus&amp;rdquo; is very important in your project. Lazy consensus means that when you are convinced that you know what the community would like to see happen, you can assume that you have consensus in favor of the proposed work and can get on with it. You don&amp;rsquo;t have to insist people discuss and/or approve your plan, and you certainly don&amp;rsquo;t need to call a vote to get approval.</description>
+    </item>
+    
+    <item>
+      <title>Voting</title>
+      <link>https://community.apache.org/committers/voting.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/committers/voting.html</guid>
+      <description>Occasionally a &amp;ldquo;feel&amp;rdquo; for consensus is not enough. Sometimes we need to have a measurable consensus, for example, when voting to invite new committers or to approve a release.
+Preparing for a Vote &amp;para; It is important to ensure that the community has time to discuss the issue before voting. To do this, post an email to the list indicating the intention to call a vote and the options available. By the time a vote takes place there usually is consensus in the community on what path to take.</description>
+    </item>
+    
+  </channel>
+</rss>

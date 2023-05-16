@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project Management Committees on Apache Comdev</title>
+    <link>https://community.apache.org/pmc/</link>
+    <description>Recent content in Project Management Committees on Apache Comdev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://community.apache.org/pmc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adding Committers</title>
+      <link>https://community.apache.org/pmc/adding-committers.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/pmc/adding-committers.html</guid>
+      <description>The addition of new committers is essential to the long-term sustainability of an open source project. The PMC is responsible for determining who will be added as a committer.
+Note that the formal policy and process document around adding committers is here. This page discusses best practices in how to think about new committers.
+Who should be a committer? &amp;para; Each project must decide what is the correct measure for inviting a new committer to their project.</description>
+    </item>
+    
+    <item>
+      <title>Adding PMC members</title>
+      <link>https://community.apache.org/pmc/adding-pmc-members.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/pmc/adding-pmc-members.html</guid>
+      <description>The PMC is responsible for identifying individuals who should be added to the PMC. This is a critical part of the long-term health and sustainability of a project, and ensures that contributors to the project have a voice in the project&amp;rsquo;s roadmap.
+Who should be a PMC member? Nominating, discussion, and voting What to do when a new PMC member is elected Note: Formal policy/process doc is here: https://www.apache.org/dev/pmc.html#newpmc</description>
+    </item>
+    
+    <item>
+      <title>New PMC Members</title>
+      <link>https://community.apache.org/pmc/new-member.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/pmc/new-member.html</guid>
+      <description>You&amp;rsquo;ve been invited to join a project PMC? Congratulations! What should you do now?
+Being part of an ASF Project Management Committee is more than just an acknowledgement of your contributions. It&amp;rsquo;s a new level of responsibility for the project&amp;rsquo;s health and sustainability. The Board of Directors is relying on you to provide oversight of the project code, and project community
+Join the conversation &amp;para; If you haven&amp;rsquo;t already, you need to subscribe to the PMC/Private mailing list.</description>
+    </item>
+    
+    <item>
+      <title>PMC Chair</title>
+      <link>https://community.apache.org/pmc/chair.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/pmc/chair.html</guid>
+      <description>The PMC Chair acts as the voice of the project to the board, and is responsible for filing a quarterly report. They are not the project leader, but are a peer of the other PMC members, who has been selected, for a time, to take the role of secretary and spokesperson.
+The PMC Chair is not the de-facto project leader. While they are usually a senior, well-respected member of the community, they are a peer, with a few additional duties.</description>
+    </item>
+    
+    <item>
+      <title>PMC Reporting</title>
+      <link>https://community.apache.org/pmc/reporting.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/pmc/reporting.html</guid>
+      <description>A PMC is required to file a report to the Board of Directors every quarter, on a schedule determined by the Board.
+You can find your project&amp;rsquo;s reporting schedule on projects.apache.org. You will also receive a reminder from the Secretary a few weeks prior to your report&amp;rsquo;s due date.
+The official record of PMC reporting schedules is the file committee-info.txt (requires password authentication).
+Writing a report &amp;para; The report to the board is expected to contain certain sections.</description>
+    </item>
+    
+    <item>
+      <title>PMC Responsibilities</title>
+      <link>https://community.apache.org/pmc/responsibilities.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/pmc/responsibilities.html</guid>
+      <description>The Project Management Committee (PMC) is responsible for the oversight of the project, including technical decisions, ensuring that the project is operating in accordance with ASF norms, adding new members to the project, and voting on releases.
+Conducting business Ensuring project health Adding community members Reporting Conducting Business &amp;para; The PMC is expected to conduct all of its business on the public developers mailing list, in the full view of the community.</description>
+    </item>
+    
+  </channel>
+</rss>
