@@ -9,4 +9,6 @@ Redirect /mentoring/experiences.html /gsoc/experiences.html
 
 RedirectMatch ^/tags/$ /tags.html
 
-Redirect /calendars/conferences.html /calendars/
+Redirect /calendars/conferences.html https://events.apache.org/
+Redirect /calendars/ https://events.apache.org/
+
