@@ -31,7 +31,7 @@ frustrated and leave, and you'll have missed that opportunity forever.
 Setting the bar too high has been the eventual death of many projects.
 
 Think of adding committers as an investment in the future of your
-project, rather than as a reward for good behavior. Committers whoyou
+project, rather than as a reward for good behavior. Committers whom you
 add today will be the backbone of your project tomorrow, or five years
 from now. New committers are the only way to ensure the long-term
 sustainability of your project. Look for contributors who seem to have
