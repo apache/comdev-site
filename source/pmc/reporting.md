@@ -52,13 +52,13 @@ tool](https://whimsy.apache.org/board/agenda), or committed directly to
 the [subversion
 repository](https://svn.apache.org/repos/private/foundation/board).
 
-## What makes a good report
+## What makes a good board report
 
 As with anything you write, the most important thing to keep in mind
 when writing your board report is who your audience is.
 
 The primary audience of your report is, of course, the board of
-directors. They are not experts on your particular technology. They are,
+directors. They are not, generally, experts on your particular technology. They are,
 rather, interested in the health and sustainability of the project.
 Questions to consider include:
 
@@ -81,7 +81,15 @@ If there's something you wish to bring to the attention of the board,
 but isn't for public consumption, enclose it in &lt;private&gt; tags so
 that it won't be published in the public minutes.
 
-The report isn't just a once-a-quarter box to check -- It's your 
+For example:
+
+```
+<private>
+Private tags should be alone on a line
+</private>
+```
+
+The report isn't just a once-a-quarter box to check -- it's your 
 opportunity to tell the story of your project,
 celebrate your accomplishments, ask for help or advice on challenges
 you're facing, and identify places where new contributors might find
