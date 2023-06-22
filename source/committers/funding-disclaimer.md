@@ -1,5 +1,6 @@
 ---
 title: Funding campaign disclaimer
+tags: ["crowdfunding","funding","pmc"]
 ---
 
 Some Apache committers have successfully run funding campaigns to support their work on their favorite Apache projects.
