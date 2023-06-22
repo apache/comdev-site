@@ -125,6 +125,15 @@
     </item>
     
     <item>
+      <title>crowdfunding</title>
+      <link>https://community.apache.org/tags/crowdfunding.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/tags/crowdfunding.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>election</title>
       <link>https://community.apache.org/tags/election.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -157,6 +166,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://community.apache.org/tags/faq.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>funding</title>
+      <link>https://community.apache.org/tags/funding.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/tags/funding.html</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>funding on Apache Comdev</title>
+    <link>https://community.apache.org/tags/funding.html</link>
+    <description>Recent content in funding on Apache Comdev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://community.apache.org/tags/funding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Funding campaign disclaimer</title>
+      <link>https://community.apache.org/committers/funding-disclaimer.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/committers/funding-disclaimer.html</guid>
+      <description>Some Apache committers have successfully run funding campaigns to support their work on their favorite Apache projects.
+This is ok in principle, but you have to make it clear that the campaign is your own thing, and avoid any confusion about the role of the ASF and how its projects work.
+This page gives a few examples of how to do that.
+If you have any question about this, feel free to ask on our dev@community.</description>
+    </item>
+    
+  </channel>
+</rss>

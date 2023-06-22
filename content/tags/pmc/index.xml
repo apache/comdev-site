@@ -48,6 +48,18 @@ You can read the complete list of Apache Community Development board reports. A 
     </item>
     
     <item>
+      <title>Funding campaign disclaimer</title>
+      <link>https://community.apache.org/committers/funding-disclaimer.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/committers/funding-disclaimer.html</guid>
+      <description>Some Apache committers have successfully run funding campaigns to support their work on their favorite Apache projects.
+This is ok in principle, but you have to make it clear that the campaign is your own thing, and avoid any confusion about the role of the ASF and how its projects work.
+This page gives a few examples of how to do that.
+If you have any question about this, feel free to ask on our dev@community.</description>
+    </item>
+    
+    <item>
       <title>Mentoring a new PMC member</title>
       <link>https://community.apache.org/mentoring/pmc.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
