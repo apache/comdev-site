@@ -91,3 +91,7 @@ We encourage you to look at [past board
 reports](https://apache.org/foundation/board/calendar.html) for inspiration from
 other projects' reports. 
 
+<!-- TODO
+* Add links to recommended/good reports to emulate.
+-->
+
