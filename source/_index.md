@@ -56,6 +56,8 @@ Producers should read our <a href="https://www.apache.org/foundation/marks/event
 
 The <a href="https://events.apache.org/event/calendar.html">event calendar</a> lists approved Apache-related events, including Community Over Code (formerly ApacheCon) and project summits.
 
+The <a href="https://tac.apache.org/">ASF Travel Assistance Committee</a> provides financial assistance for selected ASF events, to those who would otherwise be unable to attend them.
+
   </div>
   <div class="col-md-4">
 
