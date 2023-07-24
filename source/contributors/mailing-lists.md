@@ -59,7 +59,8 @@ There are generally two important parts:
 2. How should the subject lines be built up
 
 Both these settings are done in your repositories `.asf.yaml` file.
-The full documentation of all features are documented [here](https://cwiki.apache.org/confluence/display/INFRA/Git+-+.asf.yaml+features)
+Please refer to the full
+[documentation of .asf.yaml features](https://cwiki.apache.org/confluence/display/INFRA/Git+-+.asf.yaml+features)
 
 ### Configuring where to send things
 

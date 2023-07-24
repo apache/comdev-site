@@ -7,9 +7,8 @@ The addition of committers is essential to the long-term
 sustainability of an open source project. The PMC is responsible for
 determining who will be added as a committer.
 
-Note that the formal policy and process document around adding 
-committers is 
-[here](https://www.apache.org/dev/pmc.html#committer-management). 
+Please see the formal policy and process
+[documentation for adding committers](https://www.apache.org/dev/pmc.html#committer-management). 
 This page discusses best practices in how to think about new committers.
 
 ## Who should be a committer?

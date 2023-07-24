@@ -28,9 +28,8 @@ these requirements.
 
 ## Reporting
 
-The Chair is also responsible for filing the quarterly project report to
-the board of directors. This is discussed in more detail
-[here](/pmc/reporting).
+The Chair is also responsible for [filing the quarterly project report](/pmc/reporting) to
+the board of directors.
 
 ## Moderating discussion
 

@@ -6,8 +6,9 @@ published_by: sharan
 tags: ["blog"]
 ---
 
-Article written by [KAIYUANSHE](http://www.kaiyuanshe.cn). (NOTE: A copy of the original article including all photos
-can be found [here](https://shimo.im/docs/RxOQEpcG1aMKaZkR).
+Article written by [KAIYUANSHE](http://www.kaiyuanshe.cn). 
+NOTE: There is a copy of the 
+[original article including all photos](https://shimo.im/docs/RxOQEpcG1aMKaZkR).
 
 Special thanks to Ted Liu, Emily Chen, Biaowei Zhuang, Mabel Li, Rui Li, Jiansheng Li, Sting Chen, Cynthia Xin (
 KAIYUANSHE COSCon'17 Steering Committee)

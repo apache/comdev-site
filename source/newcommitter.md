@@ -291,8 +291,7 @@ sent after a positive result from the vote for a new committer.
     establishing you as a committer.
    
 ### Committer Account Creation
-Follow the instructions
-    [here](https://www.apache.org/dev/pmc.html#newcommitter).
+Please see the [account creation instructions](https://www.apache.org/dev/pmc.html#newcommitter).
 
 In summary:
 
