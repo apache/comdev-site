@@ -150,7 +150,7 @@ github:
     edit_comment_discussion: "Re: [D] {title} ({repository})"
     delete_comment_discussion: "Re: [D] {title} ({repository})"
 ```
-If your project uses multiple github repositories, we reccomend using the `repository` variable to let people know which repo the email is related to. 
+If your project uses multiple github repositories, we recommend using the `repository` variable to let people know which repo the email is related to. 
 If your project is a single-repo project (or for the other repositories GitHub integration is not enabled or not used much) feel free to also remove that part.
 
 ### Conclusion
