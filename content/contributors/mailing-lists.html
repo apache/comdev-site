@@ -332,8 +332,8 @@ could see was: &ldquo;Commented: Discuss&hellip;&rdquo;.</p>
     new_comment_discussion: &#34;Re: [D] {title} ({repository})&#34;
     edit_comment_discussion: &#34;Re: [D] {title} ({repository})&#34;
     delete_comment_discussion: &#34;Re: [D] {title} ({repository})&#34;
-</code></pre><p>For some reason, the <code>repository</code> is required to be part of the pattern.
-Moving this to the end made the emails a lot more readable.</p>
+</code></pre><p>If your project uses multiple github repositories, we recommend using the <code>repository</code> variable to let people know which repo the email is related to.
+If your project is a single-repo project (or for the other repositories GitHub integration is not enabled or not used much) feel free to also remove that part.</p>
 <h3 id="conclusion">Conclusion <a class="headerlink" title="Permalink" href="#conclusion">&para;</a></h3>
 <p>The custom templates help make the GitHub content readable on your
 mailinglist it will therefore not feel as overwhelming as with the
