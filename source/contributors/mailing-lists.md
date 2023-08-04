@@ -150,8 +150,8 @@ github:
     edit_comment_discussion: "Re: [D] {title} ({repository})"
     delete_comment_discussion: "Re: [D] {title} ({repository})"
 ```
-For some reason, the `repository` is required to be part of the pattern.
-Moving this to the end made the emails a lot more readable.
+If your project uses multiple github repositories, we recommend using the `repository` variable to let people know which repo the email is related to. 
+If your project is a single-repo project (or for the other repositories GitHub integration is not enabled or not used much) feel free to also remove that part.
 
 ### Conclusion
 
