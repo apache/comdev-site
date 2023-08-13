@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GettingStarteds on Apache Comdev</title>
+    <link>https://community.apache.org/gettingstarted.html</link>
+    <description>Recent content in GettingStarteds on Apache Comdev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://community.apache.org/gettingstarted/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting started</title>
+      <link>https://community.apache.org/gettingStarted/101.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/gettingStarted/101.html</guid>
+      <description>Where do I start? &amp;para; If you have no idea where to start your engagement with an Apache project, this is the page for you.
+Finding the right project &amp;para; The key to working on projects at Apache (and on any open source project, for that matter) is to have a personal reason for being involved. You might be trying to solve a day job issue or learn a new technology, or simply want to do something fun in your free time.</description>
+    </item>
+    
+  </channel>
+</rss>

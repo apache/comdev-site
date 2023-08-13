@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>contributing on Apache Comdev</title>
+    <link>https://community.apache.org/tags/contributing.html</link>
+    <description>Recent content in contributing on Apache Comdev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://community.apache.org/tags/contributing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Becoming a committer</title>
+      <link>https://community.apache.org/contributors/becomingacommitter.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/contributors/becomingacommitter.html</guid>
+      <description>Read the mailing list Contribute code (and other things) End user support Documentation Review PRs and tickets Be visible Test, and vote on releases (non-binding) Give talks Disclaimer &amp;para; Nothing in this post should be construed as a guarantee. You can do everything listed here, for years, and still not become a committer. This is because the decision is made by individuals on the project PMC, who do things for their own reasons.</description>
+    </item>
+    
+    <item>
+      <title>Committer resources</title>
+      <link>https://community.apache.org/committers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/committers/</guid>
+      <description>There are a number of useful Apache tools and services available for Apache projects and committers. This is a brief set of pointers or signposts to that information.
+Apache Infrastructure Information &amp;para; The primary portals for Apache Infra questions - how Subversion/Git/Websites, etc. work at the ASF - are pages at apache.org/dev and infra.apache.org.
+If you&amp;rsquo;re a committer, you can patch this very website yourself!
+Decision making &amp;para; Decisions in Apache projects result from:</description>
+    </item>
+    
+    <item>
+      <title>Contributing to the Apache Software Foundation</title>
+      <link>https://community.apache.org/contributors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/contributors/</guid>
+      <description>This page is for people who are reasonably comfortable with open source development models but need a helping hand finding their way around the Apache Software Foundation and our way of developing software (commonly called &amp;ldquo;The Apache Way&amp;rdquo;). For those wishing to start from the very beginning, we have a newcomers page.
+Project Independence And Policies &amp;para; While not all ASF projects practice all aspects of the Apache Way in the same way, there are a number of rules that Apache projects must follow – things like complying with PMC release voting, legal policy, brand policy, using mailing lists, etc.</description>
+    </item>
+    
+  </channel>
+</rss>

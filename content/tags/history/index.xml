@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>history on Apache Comdev</title>
+    <link>https://community.apache.org/tags/history.html</link>
+    <description>Recent content in history on Apache Comdev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://community.apache.org/tags/history/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ComDevBoardResolution</title>
+      <link>https://community.apache.org/history/boardresolution.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/history/boardresolution.html</guid>
+      <description>The Apache Community Development Project was created in November 2009.
+Board Resolution Creating the Apache Community Development Project Establish the Apache Community Development Project WHEREAS, the Board of Directors deems it to be in the best interests of the Foundation and consistent with the Foundation&#39;s purpose to establish a Project Management Committee charged with coordinating community development efforts. NOW, THEREFORE, BE IT RESOLVED, that a Project Management Committee (PMC), to be known as the &amp;quot;Apache Community Development Project&amp;quot;, be and hereby is established pursuant to Bylaws of the Foundation; and be it further RESOLVED, that the Apache Community Development Project be and hereby is responsible for helping people become involved with Apache projects; and be it further RESOLVED, that the office of Vice President, Apache Community Development Project, be and hereby is created, the person holding such office to serve at the direction of the Board of Directors as the chair of the Community Development PMC, and to have primary responsibility for management of the projects within the scope of the Apache Community Development project; and be it further RESOLVED, that the persons listed immediately below be and hereby are appointed to serve as the initial members of the Apache Community Development Project PMC: * Ross Gardler &amp;lt;rgardler@apache.</description>
+    </item>
+    
+    <item>
+      <title>Pilot Mentoring Programme with India ICFOSS</title>
+      <link>https://community.apache.org/history/mentoringprogramme-icfoss-pilot.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/history/mentoringprogramme-icfoss-pilot.html</guid>
+      <description>Note that this information is about a pilot program that happened back in 2013.
+The ASF has been participating in many mentoring initiatives, and it&amp;rsquo;s now partnering in a pilot project with India ICFOSS to provide mentoring for undergraduate and graduate students that have interest in learning how to participate in open source communities at ASF.
+The mentoring programme is not here to teach you to write documentation or code.</description>
+    </item>
+    
+  </channel>
+</rss>

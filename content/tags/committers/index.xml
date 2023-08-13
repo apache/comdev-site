@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>committers on Apache Comdev</title>
+    <link>https://community.apache.org/tags/committers.html</link>
+    <description>Recent content in committers on Apache Comdev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://community.apache.org/tags/committers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adding Committers</title>
+      <link>https://community.apache.org/pmc/adding-committers.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/pmc/adding-committers.html</guid>
+      <description>The addition of committers is essential to the long-term sustainability of an open source project. The PMC is responsible for determining who will be added as a committer.
+Please see the formal policy and process documentation for adding committers. This page discusses best practices in how to think about new committers.
+Who should be a committer? &amp;para; Each project must decide what is the correct measure for inviting a new committer to their project.</description>
+    </item>
+    
+    <item>
+      <title>ASF Contributor Ladder</title>
+      <link>https://community.apache.org/contributor-ladder.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/contributor-ladder.html</guid>
+      <description>Projects at the ASF offer a way to grow in your responsibilities in the project, from being a user, all the way up to being a maintainer of the project. While the specific details may look different from one project to another, the rungs of the ladder look mostly the same.
+User Contributor Committer PMC Member ASF Member Officers of the Foundation Board of Directors User &amp;para; Everything that we do in an ASF project is for the user.</description>
+    </item>
+    
+    <item>
+      <title>Becoming a committer</title>
+      <link>https://community.apache.org/contributors/becomingacommitter.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/contributors/becomingacommitter.html</guid>
+      <description>Read the mailing list Contribute code (and other things) End user support Documentation Review PRs and tickets Be visible Test, and vote on releases (non-binding) Give talks Disclaimer &amp;para; Nothing in this post should be construed as a guarantee. You can do everything listed here, for years, and still not become a committer. This is because the decision is made by individuals on the project PMC, who do things for their own reasons.</description>
+    </item>
+    
+    <item>
+      <title>Committer resources</title>
+      <link>https://community.apache.org/committers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/committers/</guid>
+      <description>There are a number of useful Apache tools and services available for Apache projects and committers. This is a brief set of pointers or signposts to that information.
+Apache Infrastructure Information &amp;para; The primary portals for Apache Infra questions - how Subversion/Git/Websites, etc. work at the ASF - are pages at apache.org/dev and infra.apache.org.
+If you&amp;rsquo;re a committer, you can patch this very website yourself!
+Decision making &amp;para; Decisions in Apache projects result from:</description>
+    </item>
+    
+    <item>
+      <title>Mentoring a new committer</title>
+      <link>https://community.apache.org/mentoring/committer.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/mentoring/committer.html</guid>
+      <description>Mentoring a new committer &amp;para; So I&amp;rsquo;m a committer now. What&amp;rsquo;s next? What rights do I have now that I didn&amp;rsquo;t have before? What are the social conventions around making a commit?
+These things vary from one project to another, so clearly documenting them for your particular project is critical.
+Here&amp;rsquo;s the basics that are true across (almost) all Apache projects.
+TODO
+Outline:
+Encouraging other contributors Good commit messages Becoming a PMC member </description>
+    </item>
+    
+    <item>
+      <title>New Committer</title>
+      <link>https://community.apache.org/newcommitter.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/newcommitter.html</guid>
+      <description>Identifying potential new committers, calling a vote for their recognition as a committer and processing the relevant documents are tasks to which the whole community can contribute.
+Each project has a different approach to managing new committers. This page describes a common process found in many Apache projects. It also provides drafts for the various communications that are necessary.
+Guidelines for assessing new candidates for committership Ability to work cooperatively with peers.</description>
+    </item>
+    
+  </channel>
+</rss>
