@@ -289,7 +289,62 @@ commits list.</p>
   # Send dependabot PRs to commits@ instead
   pullrequests_bot_dependabot: commits@foo.apache.org
 </code></pre><h3 id="configuring-the-subject-lines-of-the-emails-being-sent">Configuring the subject lines of the emails being sent <a class="headerlink" title="Permalink" href="#configuring-the-subject-lines-of-the-emails-being-sent">&para;</a></h3>
-<p>The defaults that the tooling uses seems a bit odd to me:</p>
+<p>If not explicitly managing the subject lines, the defaults are as follows (These are the new defaults which are valid starting October 1st 2023):</p>
+<pre tabindex="0"><code>github:
+  custom_subjects:
+    new_pr: &#34;[PR] {title} ({repository})&#34;
+    close_pr: &#34;Re: [PR] {title} ({repository})&#34;
+    comment_pr: &#34;Re: [PR] {title} ({repository})&#34;
+    merge_pr: &#34;Re: [PR] {title} ({repository})&#34;
+    new_issue: &#34;[I] {title} ({repository})&#34;
+    comment_issue: &#34;Re: [I] {title} ({repository})&#34;
+    close_issue: &#34;Re: [I] {title} ({repository})&#34;
+    catchall: &#34;[GH] {title} ({repository})&#34;
+    new_discussion: &#34;[D] {title} ({repository})&#34;
+    edit_discussion: &#34;Re: [D] {title} ({repository})&#34;
+    close_discussion: &#34;Re: [D] {title} ({repository})&#34;
+    close_discussion_with_comment: &#34;Re: [D] {title} ({repository})&#34;
+    reopen_discussion: &#34;Re: [D] {title} ({repository})&#34;
+    new_comment_discussion: &#34;Re: [D] {title} ({repository})&#34;
+    edit_comment_discussion: &#34;Re: [D] {title} ({repository})&#34;
+    delete_comment_discussion: &#34;Re: [D] {title} ({repository})&#34;
+</code></pre><p>In general, you can use any of the following variables in your custom subject lines (However some only apply to some types of messages. If this is the case, it is noted in the line what types of messages they apply to):</p>
+<ul>
+<li><code>{action}</code>: The generic action that happened (created/deleted/edited)</li>
+<li><code>{user}</code>: The GitHub user than initiated the action</li>
+<li><code>{title}</code>: The title of the discussion that was affected</li>
+<li><code>{category}</code>: The category slug for the discussion</li>
+<li><code>{url}</code>: The URL for the discussion or comment that was affected (Discussions)</li>
+<li><code>{link}</code>: The URL for the issue or pr that was affected (PRs and Issues)</li>
+<li><code>{body}</code>: The body of text, either the discussion itself or a comment.</li>
+<li><code>{action_human}</code>: If a comment happened, this is a human readable representation of the action</li>
+<li><code>{recipient}</code>: The mailing list this was sent to</li>
+<li><code>{unsub}</code>: The unsubscribe address of the mailing list this was sent to</li>
+<li><code>{pr_id}</code>: The GitHub pull-request id related to the action (PRs)</li>
+<li><code>{issue_id}</code>: The GitHub issue id related to the action (Issues)</li>
+</ul>
+<p>If your project uses multiple github repositories, we recommend using the <code>repository</code> variable to let people know which repo the email is related to.
+If your project is a single-repo project (or for the other repositories GitHub integration is not enabled or not used much) feel free to also remove that part.</p>
+<pre tabindex="0"><code>github:
+  custom_subjects:
+    new_pr: &#34;[PR] {title}&#34;
+    close_pr: &#34;Re: [PR] {title}&#34;
+    comment_pr: &#34;Re: [PR] {title}&#34;
+    merge_pr: &#34;Re: [PR] {title}&#34;
+    new_issue: &#34;[I] {title}&#34;
+    comment_issue: &#34;Re: [I] {title}&#34;
+    close_issue: &#34;Re: [I] {title}&#34;
+    catchall: &#34;[GH] {title}&#34;
+    new_discussion: &#34;[D] {title}&#34;
+    edit_discussion: &#34;Re: [D] {title}&#34;
+    close_discussion: &#34;Re: [D] {title}&#34;
+    close_discussion_with_comment: &#34;Re: [D] {title}&#34;
+    reopen_discussion: &#34;Re: [D] {title}&#34;
+    new_comment_discussion: &#34;Re: [D] {title}&#34;
+    edit_comment_discussion: &#34;Re: [D] {title}&#34;
+    delete_comment_discussion: &#34;Re: [D] {title}&#34;
+</code></pre><h4 id="using-the-old-defaults-prior-to-october-1st-2023">Using the old defaults (prior to October 1st 2023) <a class="headerlink" title="Permalink" href="#using-the-old-defaults-prior-to-october-1st-2023">&para;</a></h4>
+<p>If for any reason, you would like to use the old defaults that were valid till October 1st 2023, please use the following configuration:</p>
 <pre tabindex="0"><code>github:
   custom_subjects:
     new_pr: &#34;Created: PR {repository}/#{pr_id}: {title}&#34;
@@ -308,33 +363,7 @@ commits list.</p>
     new_comment_discussion: &#34;Commented: Discussion {repository}: {title}&#34;
     edit_comment_discussion: &#34;Edited a comment: Discussion {repository}: {title}&#34;
     delete_comment_discussion: &#34;Deleted a comment: Discussion {repository}: {title}&#34;
-</code></pre><p>However these result in emails that no email client I have come
-across is able to group to threads and I have not come acoss even one
-email where I got to what the email is about on my phone because all I
-could see was: &ldquo;Commented: Discuss&hellip;&rdquo;.</p>
-<p>We therefore updated these in some projects to a lot shorter versions:</p>
-<pre tabindex="0"><code>github:
-  custom_subjects:
-    new_pr: &#34;[PR] {title} ({repository})&#34;
-    close_pr: &#34;Re: [PR] {title} ({repository})&#34;
-    comment_pr: &#34;Re: [PR] {title} ({repository})&#34;
-    merge_pr: &#34;Re: [PR] {title} ({repository})&#34;
-    catchall: &#34;Updated: {repository}/#{issue_id}: {title}&#34;
-    new_issue: &#34;[I] {title} ({repository})&#34;
-    comment_issue: &#34;Re: [I] {title} ({repository})&#34;
-    close_issue: &#34;Re: [I] {title} ({repository})&#34;
-    catchall: &#34;[GH] {title} ({repository})&#34;
-    new_discussion: &#34;[D] {title} ({repository})&#34;
-    edit_discussion: &#34;Re: [D] {title} ({repository})&#34;
-    close_discussion: &#34;Re: [D] {title} ({repository})&#34;
-    close_discussion_with_comment: &#34;Re: [D] {title} ({repository})&#34;
-    reopen_discussion: &#34;Re: [D] {title} ({repository})&#34;
-    new_comment_discussion: &#34;Re: [D] {title} ({repository})&#34;
-    edit_comment_discussion: &#34;Re: [D] {title} ({repository})&#34;
-    delete_comment_discussion: &#34;Re: [D] {title} ({repository})&#34;
-</code></pre><p>If your project uses multiple github repositories, we recommend using the <code>repository</code> variable to let people know which repo the email is related to.
-If your project is a single-repo project (or for the other repositories GitHub integration is not enabled or not used much) feel free to also remove that part.</p>
-<h3 id="conclusion">Conclusion <a class="headerlink" title="Permalink" href="#conclusion">&para;</a></h3>
+</code></pre><h3 id="conclusion">Conclusion <a class="headerlink" title="Permalink" href="#conclusion">&para;</a></h3>
 <p>The custom templates help make the GitHub content readable on your
 mailinglist it will therefore not feel as overwhelming as with the
 defaults. Moving dependabot to the commits lists, helped reduce the
