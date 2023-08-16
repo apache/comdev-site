@@ -100,7 +100,70 @@ notifications:
 
 ### Configuring the subject lines of the emails being sent
 
-The defaults that the tooling uses seems a bit odd to me:
+If not explicitly managing the subject lines, the defaults are as follows (These are the new defaults which are valid starting October 1st 2023):
+
+```
+github:
+  custom_subjects:
+    new_pr: "[PR] {title} ({repository})"
+    close_pr: "Re: [PR] {title} ({repository})"
+    comment_pr: "Re: [PR] {title} ({repository})"
+    merge_pr: "Re: [PR] {title} ({repository})"
+    new_issue: "[I] {title} ({repository})"
+    comment_issue: "Re: [I] {title} ({repository})"
+    close_issue: "Re: [I] {title} ({repository})"
+    catchall: "[GH] {title} ({repository})"
+    new_discussion: "[D] {title} ({repository})"
+    edit_discussion: "Re: [D] {title} ({repository})"
+    close_discussion: "Re: [D] {title} ({repository})"
+    close_discussion_with_comment: "Re: [D] {title} ({repository})"
+    reopen_discussion: "Re: [D] {title} ({repository})"
+    new_comment_discussion: "Re: [D] {title} ({repository})"
+    edit_comment_discussion: "Re: [D] {title} ({repository})"
+    delete_comment_discussion: "Re: [D] {title} ({repository})"
+```
+In general, you can use any of the following variables in your custom subject lines (However some only apply to some types of messages. If this is the case, it is noted in the line what types of messages they apply to):
+
+- `{action}`: The generic action that happened (created/deleted/edited)
+- `{user}`: The GitHub user than initiated the action
+- `{title}`: The title of the discussion that was affected
+- `{category}`: The category slug for the discussion
+- `{url}`: The URL for the discussion or comment that was affected (Discussions)
+- `{link}`: The URL for the issue or pr that was affected (PRs and Issues)
+- `{body}`: The body of text, either the discussion itself or a comment.
+- `{action_human}`: If a comment happened, this is a human readable representation of the action
+- `{recipient}`: The mailing list this was sent to
+- `{unsub}`: The unsubscribe address of the mailing list this was sent to
+- `{pr_id}`: The GitHub pull-request id related to the action (PRs)
+- `{issue_id}`: The GitHub issue id related to the action (Issues)
+
+If your project uses multiple github repositories, we recommend using the `repository` variable to let people know which repo the email is related to. 
+If your project is a single-repo project (or for the other repositories GitHub integration is not enabled or not used much) feel free to also remove that part.
+
+```
+github:
+  custom_subjects:
+    new_pr: "[PR] {title}"
+    close_pr: "Re: [PR] {title}"
+    comment_pr: "Re: [PR] {title}"
+    merge_pr: "Re: [PR] {title}"
+    new_issue: "[I] {title}"
+    comment_issue: "Re: [I] {title}"
+    close_issue: "Re: [I] {title}"
+    catchall: "[GH] {title}"
+    new_discussion: "[D] {title}"
+    edit_discussion: "Re: [D] {title}"
+    close_discussion: "Re: [D] {title}"
+    close_discussion_with_comment: "Re: [D] {title}"
+    reopen_discussion: "Re: [D] {title}"
+    new_comment_discussion: "Re: [D] {title}"
+    edit_comment_discussion: "Re: [D] {title}"
+    delete_comment_discussion: "Re: [D] {title}"
+```
+
+#### Using the old defaults (prior to October 1st 2023)
+
+If for any reason, you would like to use the old defaults that were valid till October 1st 2023, please use the following configuration:
 
 ```
 github:
@@ -122,36 +185,6 @@ github:
     edit_comment_discussion: "Edited a comment: Discussion {repository}: {title}"
     delete_comment_discussion: "Deleted a comment: Discussion {repository}: {title}"
 ```
-However these result in emails that no email client I have come
-across is able to group to threads and I have not come acoss even one 
-email where I got to what the email is about on my phone because all I 
-could see was: "Commented: Discuss...".
-
-We therefore updated these in some projects to a lot shorter versions:
-
-```
-github:
-  custom_subjects:
-    new_pr: "[PR] {title} ({repository})"
-    close_pr: "Re: [PR] {title} ({repository})"
-    comment_pr: "Re: [PR] {title} ({repository})"
-    merge_pr: "Re: [PR] {title} ({repository})"
-    catchall: "Updated: {repository}/#{issue_id}: {title}"
-    new_issue: "[I] {title} ({repository})"
-    comment_issue: "Re: [I] {title} ({repository})"
-    close_issue: "Re: [I] {title} ({repository})"
-    catchall: "[GH] {title} ({repository})"
-    new_discussion: "[D] {title} ({repository})"
-    edit_discussion: "Re: [D] {title} ({repository})"
-    close_discussion: "Re: [D] {title} ({repository})"
-    close_discussion_with_comment: "Re: [D] {title} ({repository})"
-    reopen_discussion: "Re: [D] {title} ({repository})"
-    new_comment_discussion: "Re: [D] {title} ({repository})"
-    edit_comment_discussion: "Re: [D] {title} ({repository})"
-    delete_comment_discussion: "Re: [D] {title} ({repository})"
-```
-If your project uses multiple github repositories, we recommend using the `repository` variable to let people know which repo the email is related to. 
-If your project is a single-repo project (or for the other repositories GitHub integration is not enabled or not used much) feel free to also remove that part.
 
 ### Conclusion
 
