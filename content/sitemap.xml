@@ -162,8 +162,6 @@
   </url><url>
     <loc>https://community.apache.org/tags/conferences.html</loc>
   </url><url>
-    <loc>https://community.apache.org/committers/consensusBuilding.html</loc>
-  </url><url>
     <loc>https://community.apache.org/contactpoints.html</loc>
   </url><url>
     <loc>https://community.apache.org/tags/contacts.html</loc>
@@ -217,8 +215,6 @@
     <loc>https://community.apache.org/tags/incubator.html</loc>
   </url><url>
     <loc>https://community.apache.org/tags/india.html</loc>
-  </url><url>
-    <loc>https://community.apache.org/committers/lazyConsensus.html</loc>
   </url><url>
     <loc>https://community.apache.org/tags/links.html</loc>
   </url><url>
@@ -297,10 +293,6 @@
     <loc>https://community.apache.org/gsoc/use-the-comdev-gsoc-issue-tracker-for-gsoc-tasks.html</loc>
   </url><url>
     <loc>https://community.apache.org/tags/video.html</loc>
-  </url><url>
-    <loc>https://community.apache.org/tags/voting.html</loc>
-  </url><url>
-    <loc>https://community.apache.org/committers/voting.html</loc>
   </url><url>
     <loc>https://community.apache.org/newcomers/</loc>
   </url>

@@ -461,16 +461,6 @@ Board Resolution Creating the Apache Community Development Project Establish the
     </item>
     
     <item>
-      <title>Consensus Building</title>
-      <link>https://community.apache.org/committers/consensusBuilding.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://community.apache.org/committers/consensusBuilding.html</guid>
-      <description>In some cases there is no obvious path to take, or you might be a new community, or a new member of an existing community. In these cases people often need to build consensus by making proposals and eliciting responses.
-Constructive discussion is the lifeblood of a successful project. However, we want to avoid unnecessary discussion and significant amounts of unnecessary mail that everyone in the community needs to read. so many ASF projects adopt a shorthand notation for showing support, or otherwise, for a proposal.</description>
-    </item>
-    
-    <item>
       <title>Contact points</title>
       <link>https://community.apache.org/contactpoints.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -543,15 +533,6 @@ Important Steps &amp;para; Add an issue to Jira (if your project does not use Ji
       <guid>https://community.apache.org/mentor-request-mail.html</guid>
       <description>Having identified a Top Level Project (TLP) and an issue you would like to work on, it is a good idea to introduce yourself to the project community and outline your plans for tackling the issue. This lets the community know you are working on the issue and gives the community an early opportunity to help course correct your proposal, if necessary (which can save you lots of time).
 Here&amp;rsquo;s an example of what your first email might look like:</description>
-    </item>
-    
-    <item>
-      <title>Lazy Consensus</title>
-      <link>https://community.apache.org/committers/lazyConsensus.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://community.apache.org/committers/lazyConsensus.html</guid>
-      <description>The concept of &amp;ldquo;lazy consensus&amp;rdquo; is very important in your project. Lazy consensus means that when you are convinced that you know what the community would like to see happen, you can assume that you have consensus in favor of the proposed work and can get on with it. You don&amp;rsquo;t have to insist people discuss and/or approve your plan, and you certainly don&amp;rsquo;t need to call a vote to get approval.</description>
     </item>
     
     <item>
@@ -751,16 +732,6 @@ c) Once brand use is approved by the respective PMCs, inform the community devel
       <guid>https://community.apache.org/gsoc/use-the-comdev-gsoc-issue-tracker-for-gsoc-tasks.html</guid>
       <description>If your project does not use the ASF Jira for issue tracking, you can use the ComDev GSoC Jira project to record your GSoC tasks.
 Add tasks to the GSOC project Ensure you add the labels gsoc2023, mentor and _YOUR_PROJECT_NAME_ Your issues will appear in the list of projects We use the label _YOUR_PROJECT_NAME_ to map COMDEV issues to the real project when we create the ideas list Please contact dev@community.</description>
-    </item>
-    
-    <item>
-      <title>Voting</title>
-      <link>https://community.apache.org/committers/voting.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://community.apache.org/committers/voting.html</guid>
-      <description>Occasionally a &amp;ldquo;feel&amp;rdquo; for consensus is not enough. Sometimes we need to have a measurable consensus, for example, when voting to invite new committers or to approve a release.
-Preparing for a Vote &amp;para; It is important to ensure that the community has time to discuss the issue before voting. To do this, post an email to the list indicating the intention to call a vote and the options available. By the time a vote takes place there usually is consensus in the community on what path to take.</description>
     </item>
     
   </channel>

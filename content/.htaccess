@@ -12,3 +12,8 @@ RedirectMatch ^/tags/$ /tags.html
 Redirect /calendars/conferences.html https://events.apache.org/
 Redirect /calendars/ https://events.apache.org/
 
+# Consolidate decision-making pages
+Redirect /committers/voting.html /committers/decisionMaking.html
+Redirect /committers/consensusBuilding.html /committers/decisionMaking.html
+Redirect /committers/lazyConsensus.html /committers/decisionMaking.html
+
