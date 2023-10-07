@@ -16,7 +16,7 @@ synchronous communication platforms (IRC, Slack, Discord, etc.) benefit
 only those who are online, and in the channel, at the time of the 
 conversation.
 
-Mailing lists are also [permanently and publicly archived](https://lists.apache.org),
+Mailing lists are also [permanently and publicly archived][1],
 so that decisions can be understood
 by people who were not there at the time - what was decided, why, and by
 whom - even years after the fact.
@@ -34,13 +34,62 @@ list, it didn't happen.**
 
 ## Mailing list etiquette
 
-*To Be Written*
+What you send to ASF mailing lists is [archived, publicly, forever][1]. But
+that's not the only reason for observing basic email etiquette. We
+expect you to conduct yourself politely on our mailing lists, because
+this is where we work, communicate, and build community. Here's a few
+tips. See also [general etiquette tips][2].
 
-* Meaningful subject lines
-* Inline vs top-posting
-* HTML and "rich text" messages
-* Clear language, use of colloquialisms and metaphor, etc. (writing for a
-  diverse audience)
+### Meaningful subject lines
+
+Your subject line largely determines whether anyone reads what you
+write. Try to summarize the topic that you wish to discuss as concisely
+as possible.
+
+If an email thread starts to diverge *substantially* from the original topic, change the
+subject line to reflect the direction that the thread has taken.
+
+### Inline vs top-posting
+
+Most modern email clients default to top-posting - that is, putting the
+entire reply to a message above the quoted body of the message to which
+you are preferring.
+
+We encourage you, instead, to respond inline - that is, put each
+response after the quoted paragraph to which you are responding, so that
+the resulting message reads like a conversation. This makes it very
+clear which points you are responding to. You can then also delete the
+portions of the message that you are not responding to at all, making
+the resulting message self-contained, and not forcing everyone to
+re-read everything that has gone before in order to understand your
+response.
+
+### HTML and "rich text" messages
+
+ASF communities tend to prefer plaintext email messages, rather than
+HTML or other so-called "rich text". This makes messages more
+consistently readable on multiple devices, multiple operating systems,
+and multiple screen sizes. It also makes computer-consumption of these
+message easier, for the purpose of translation, screen readers, and
+other automatic ingestion and processing.
+
+### Colloquialisms
+
+When you speak to your friends and colleagues, you can, and
+usually do, use idioms, slang, colloquialisms, metaphors, and other
+locally-understood figures of speech.
+
+But when you're writing to an open source mailing list, your audience is
+much more diverse, including people all around the world, who are likely
+to not understand these phrases.
+
+Write clearly, plainly, and without resorting to figures of speech,
+wherever possible. If you use slang or a metaphor, consider linking to a
+definition or explanation. Remember that not everyone reading your
+message speaks your language natively. Including them in the
+conversation is essential to collaboration.
+
+ASF mailing lists default to English, unless specified otherwise.
 
 ## Mailing list configuration
 
@@ -204,3 +253,7 @@ lists nobody reads doesn't help with keeping the community knowledge
 available. Even if it's "on the list" somewhere, it doesn't really 
 serve the reasoning behind the "If if didn't happen on the list, 
 it didn't happen".
+
+
+  [1]: https://lists.apache.org/
+  [2]: https://community.apache.org/contributors/etiquette.html
