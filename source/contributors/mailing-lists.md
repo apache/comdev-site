@@ -16,7 +16,8 @@ synchronous communication platforms (IRC, Slack, Discord, etc.) benefit
 only those who are online, and in the channel, at the time of the 
 conversation.
 
-Mailing lists also allow archiving, so that decisions can be understood
+Mailing lists are also [permanently and publicly archived](https://lists.apache.org),
+so that decisions can be understood
 by people who were not there at the time - what was decided, why, and by
 whom - even years after the fact.
 
@@ -189,17 +190,17 @@ github:
 ### Conclusion
 
 The custom templates help make the GitHub content readable on your 
-mailinglist it will therefore not feel as overwhelming as with the 
+mailinglist. It will therefore not feel as overwhelming as with the 
 defaults. Moving dependabot to the commits lists, helped reduce the 
 content with very little information. 
 
 We would strongly encourage projects to keep as much of the discussions
 on their main mailingslist. If it's a larger project and still the 
-volumne is so high, it's overwhelming people, think about directing
+volume is so high that it's overwhelming people, think about directing
 some of the content to other lists. 
 
 Simply directing all GitHub content to dedicated mailing lists or 
 lists nobody reads doesn't help with keeping the community knowledge
-available. Even if it's "on the list" someweere, it doesn't really 
+available. Even if it's "on the list" somewhere, it doesn't really 
 serve the reasoning behind the "If if didn't happen on the list, 
 it didn't happen".
