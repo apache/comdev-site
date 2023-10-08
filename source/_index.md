@@ -18,7 +18,8 @@ title: ASF Community Development - Welcome
 
 
 ## ASF Community Development
-The ASF Community Development project creates and provides tools,
+
+The ASF Community Development (ComDev) project creates and provides tools,
 processes, and advice to help open-source projects improve their own
 community health.
 
@@ -26,7 +27,7 @@ We are primarily focused on ASF projects, but we believe that our
 [governance principles](/tags/governance.html)
 and best practices apply to other projects as well.
 
-ASF [newcomers](/tags/newcomers.html) should also find relevant information here.
+If you're new to the ASF, and are looking for where to get involved, [you can find relevant information here](/tags/newcomers.html).
 
 </div>
 
