@@ -21,7 +21,7 @@ pipeline {
         // https://cwiki.apache.org/confluence/display/INFRA/ci-builds.apache.org
         label 'git-websites'
     }
-   
+
     environment {
         DEPLOY_BRANCH = "${env.BRANCH_NAME == "main" ? "asf-site" : "${env.BRANCH_NAME}-staging"}"
         HUGO_VERSION = '0.111.3'
@@ -89,7 +89,7 @@ pipeline {
                     env.TMP_DIR = sh(script:'mktemp -d', returnStdout: true).trim()
                     env.OUT_DIR = "${env.TMP_DIR}/content"
                     sh "mkdir -p ${env.OUT_DIR}"
-                    
+
                 }
             }
         }
@@ -117,7 +117,7 @@ pipeline {
                     not {
                       branch '*'
                     }
-                }        
+                }
             }
 
             steps {
@@ -160,7 +160,7 @@ pipeline {
             }
         }
     }
-    
+
     post {
         always {
             script {
