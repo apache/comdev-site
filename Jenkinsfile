@@ -26,8 +26,8 @@ pipeline {
         DEPLOY_BRANCH = "${env.BRANCH_NAME == "main" ? "asf-site" : "${env.BRANCH_NAME}-staging"}"
         HUGO_VERSION = '0.111.3'
         HUGO_HASH = 'b382aacb522a470455ab771d0e8296e42488d3ea4e61fe49c11c32ec7fb6ee8b'
-        PAGEFIND_VERSION = '0.12.0'
-        PAGEFIND_HASH = '3e450176562b65359f855c04894ec2c07ffd30a8d08ef4d5812f8d3469d7a58f'
+        PAGEFIND_VERSION = '1.0.3'
+        PAGEFIND_HASH = 'e84ec7e8cb424022aa70ca14e6735c67c9728596753321dec782a902c3bfe6f0'
     }
 
     stages {
@@ -97,7 +97,7 @@ pipeline {
             steps {
                 script {
                     sh "${HUGO_PATH} --destination ${env.OUT_DIR} --cacheDir ${env.HUGO_DIR}"
-                    sh "${PAGEFIND_DIR}/bin/pagefind --source ${env.OUT_DIR}"
+                    sh "${PAGEFIND_DIR}/bin/pagefind --site ${env.OUT_DIR} --output-subdir _pagefind"
                     sh "rm -f .hugo_build.lock"
                 }
             }
