@@ -9,7 +9,7 @@ developer in one of our many Apache project communities. As an all-volunteer
 run organization, Apache and the many Apache projects rely on people like 
 you stepping up to help out.  
 
-  * [Where do I start?](/gettingStarted/101.html) - a guide to your first engagement with an Apache project
+  * [Where do I start?](/newcomers/gettingStarted.html) - a guide to your first engagement with an Apache project
   * [How should I behave?](/contributors/etiquette.html) - etiquette and codes of conduct at Apache
   * [Newbie FAQ](/newbiefaq.html) - some commonly asked questions (and their answers)
   * [How many projects are at Apache?](https://projects.apache.org/) - we have a **LOT** of different project communities!
