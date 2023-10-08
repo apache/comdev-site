@@ -210,7 +210,7 @@ can submit bug reports related to any of our services or websites.
 
   [1]: https://mail-archives.apache.org/mod_mbox/
   [2]: https://apache.markmail.org/
-  [3]: /gettingStarted/101.html
+  [3]: /newcomers/gettingStarted.html
   [7]: https://lists.apache.org/list.html?dev@community.apache.org:lte=3M:
   [8]: /about/#about-this-website
   [9]: https://projects.apache.org/
