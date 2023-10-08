@@ -257,3 +257,11 @@ it didn't happen".
 
   [1]: https://lists.apache.org/
   [2]: https://community.apache.org/contributors/etiquette.html
+
+<!--
+TODO:
+
+* Possibly split this page into a separate page about mailing list
+configuration
+* Discuss "standard" mailing list tags (ie [DISCUSS], [VOTE], and so on)
+-->

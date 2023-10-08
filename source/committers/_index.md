@@ -15,22 +15,17 @@ If you're a committer, you can [patch this very website yourself][2]!
 
 ## Decision making
 
-Decisions in Apache projects result from:
+When getting involved in any open source project, it's critical to
+understand how, when, and by whom, decisions are made.
 
-  - action
-  - consensus in the community 
-  - (if needed) votes within the community
+In ASF projects, decisions are made by the people that do the work. This
+is usually the committers, who make decisions by committing code.
 
-We have, over the years, developed a very simple and effective approach to 
-consensus building and decision making. Projects, and the ASF generally, make the vast majority of decisions
-using [lazy consensus][3]. If the "lazy" approach to consensus building seems
-unsuitable for a particular decision, we seek to [build consensus][4] within
-the community. Very occasionally, usually for formal reasons relating to legal 
-responsibilities, it is necessary to call a [vote][5].
+The PMC makes major decisions about project roadmaps, releases, and who
+to invite into the ranks of the committers.
 
-Full descriptions of each of these approaches are available on various foundation 
-and project sites. However, we've provided an initial introduction to [decision
-making][6] here on the community development site.
+See the [discussion of how decision making works at the ASF][6] for more
+details.
 
 ## Project independence
 
@@ -99,9 +94,6 @@ There is no shortage of useful resources for committers at Apache. Here are a fe
 
   [1]: https://www.apache.org/dev/
   [2]: /newbiefaq.html#websitecms
-  [3]: /committers/lazyConsensus.html
-  [4]: /committers/consensusBuilding.html
-  [5]: /committes/voting.html
   [6]: /committers/decisionMaking.html
   [7]: https://www.apache.org/legal/release-policy.html
   [8]: https://www.apache.org/legal/
