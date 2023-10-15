@@ -495,6 +495,16 @@ If you have any question about this, feel free to ask on our dev@community.</des
     </item>
     
     <item>
+      <title>Getting started</title>
+      <link>https://community.apache.org/newcomers/gettingStarted.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/newcomers/gettingStarted.html</guid>
+      <description>Where do I start? &amp;para; If you have no idea where to start your engagement with an Apache project, this is the page for you.
+Finding the right project &amp;para; The key to working on projects at Apache (and on any open source project, for that matter) is to have a personal reason for being involved. You might be trying to solve a day job issue or learn a new technology, or simply want to do something fun in your free time.</description>
+    </item>
+    
+    <item>
       <title>GSoC admins</title>
       <link>https://community.apache.org/gsoc/gsoc-admin-tasks.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
