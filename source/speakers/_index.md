@@ -41,6 +41,20 @@ that talks about Apache communities, best practices, or the like
 (i.e. one that is applicable to more than just one project 
 at Apache), please email us and suggest we include your slides.
 
+## Speaker coaching and mentoring
+
+The ComDev committee provides several types of speaker coaching for
+speakers at events related to ASF projects and topics:
+
+* Reviewing and improving titles and abstracts you're planning to submit
+  to a call for presentations (CFP)
+* Reviewing your slides to make recommentations
+* Dress rehearsal for your talk, to suggest improvements
+
+This is staffed by a number of volunteers with varying availability. If
+you want to take advantage of any of these services, please ask on [the
+comdev mailing list][9].
+
 
   [1]: https://community.zones.apache.org/
   [2]: /calendars/conferences.html
@@ -50,3 +64,4 @@ at Apache), please email us and suggest we include your slides.
   [6]: https://www.apache.org/foundation/press/kit/
   [7]: slides.html
   [8]: themes
+  [9]: https://lists.apache.org/list?community@apache.org
