@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+  <meta name="description" content="Apache Community Development"/>
+  <meta name="keywords" content="apache, apache community, community development, opensource"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta property="og:title" content="Apache in GSoC" />
+<meta property="og:description" content="This should be in the GSoC directory
+This is a place for collecting information about GSoC activities each year for historical tracking. It was started in 2012 so is missing plenty of detail in the early years. Your help filling it out would be appreciated.
+2018 Overview &para; Students accepted: ? Students who passed final: 29 2017 Overview &para; Students accepted: ? Students who passed final: 27 2016 Overview &para; Students accepted: 49 Students who passed final: 35 2015 Overview &para; Students accepted: 56 Students who passed final: 47 2014 Overview &para; Students accepted: 42 Students who passed final: 35 2013 Overview &para; Students accepted: 51 Students who passed final: 44 2012 Overview &para; Students accepted: 41 Students who passed midterm: 40 26 projects mentoring (17 TLPs and 9 Podlings) Participating TLPS are: Xerces, Pig, OODT, Hive, James, Tapestry, Ofbiz, Gora, Synapse, Derby, Axis, POI, Whirr, Lucene, Velocity, Libcloud, Xalan Participating Podlings are: ODF Toolkit, Airavata, Stanbol, Photark, Wookie, OpenMeetings, Nuvem, Hama, VXQuery 2012 Blogs &para; Scott Wilson: Wookie Mentor Pushpalanka: Wookie Student Mike McCandless: Lucene Mentor Bhathiya Jayasekara: Airavata Student OpenMeetings Mentors: Sebastian Wagner, Alexei Fedotov, Maxim Solodovnik - Students: Ankur Ankan, German Grekhov, Dmitry Zamula, Josh Dolitsky 2011 Overview &para; Students accepted: 40 Students who passed midterm: 38 Students who passed final: 36 2010 Overview &para; Students accepted: 44 Students who passed final: 39 2005 &para; First year Apache participated" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://community.apache.org/gsoc/experiences.html" /><meta property="og:image" content="https://community.apache.org/images/aceu19_1.jpg"/><meta property="article:section" content="gsoc" />
+
+<meta property="og:site_name" content="Apache Community Development" />
+
+
+  <title>Apache Community Development - Apache in GSoC</title>
+  <link rel="shortcut icon" href="/images/favicon.ico">
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link href="/css/main.css" rel="stylesheet" media="screen">
+  <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <style type="text/css">
+      .footer {
+          text-align:center;
+          color:grey;
+          font-size:80%;
+          border-top: solid #ddd 1px;
+          margin-top:1em;
+      }
+      .navbar-brand img {
+          height: 50px;
+      }
+  </style>
+
+  
+<script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(['disableCookies']);
+   
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.apache.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '36']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+
+  
+
+</head>
+
+<body>
+  <header class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+    <img src="https://svn.apache.org/repos/asf/comdev/project-logos/originals/foundation.svg" alt="Apache Software Foundation">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="mainNavbar">
+    <div class="container"> 
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="homeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Home
+            </a>
+            <div class="dropdown-menu" aria-labelledby="homeDropdown">
+              <a class="dropdown-item" href="/">Homepage</a>
+              <a class="dropdown-item" href="/tags.html">Tags</a>
+              <a class="dropdown-item" href="/blog/">Blog</a>
+              <a class="dropdown-item" href="/tags/navigation.html">Navigation pages</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About
+          </a>
+          <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+            <a class="dropdown-item" href="/about/">What We Do</a>
+            <a class="dropdown-item" href="/newbiefaq.html">Frequently Asked Questions</a>
+            <a class="dropdown-item" href="/projectIndependence.html">Apache Project Independence</a>
+            <a class="dropdown-item" href="/apache-way/apache-project-maturity-model.html">Apache Project Maturity Model</a>
+            <a class="dropdown-item" href="/contactpoints.html">Contact Points Within the ASF</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html#2009-11-01">ComDev Original Board Resolution</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html">ComDev Board Reports</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/COMDEV">Community Development Jira</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">About Apache</a>
+            <a class="dropdown-item" href="https://www.apache.org/">The Apache Software Foundation</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/sponsorship">Sponsor Apache</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/thanks">Thanks to our Sponsors</a>
+            <a class="dropdown-item" href="https://www.apache.org/licenses">License</a>
+            <a class="dropdown-item" href="https://www.apache.org/security">Security</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="contribDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            For Contributors
+          </a>
+          <div class="dropdown-menu" aria-labelledby="contribDropdown">
+            <a class="dropdown-item" href="/newcomers/">Newcomers</a>
+            <a class="dropdown-item" href="/newcomers/gettingStarted.html">Getting Started</a>
+            <a class="dropdown-item"
+            href="/contributor-ladder.html">Contributor Ladder</a>
+            <a class="dropdown-item" href="/contributors/">Finding Your Way Around The Apache Software Foundation</a>
+            <a class="dropdown-item" href="https://www.apache.org/dev/">Technical Developer FAQs</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="commitDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">GSoC</a>
+          <div class="dropdown-menu" aria-labelledby="gsocDropdown">
+            <a class="dropdown-item" href="/gsoc/">Google Summer Of Code Information</a>
+            <a class="dropdown-item" href="/gsoc/mentee-ranking-process.html">Mentee Ranking Process</a>
+            <a class="dropdown-item" href="/gsoc/experiences.html">Past GSoC Experiences</a>
+            <a class="dropdown-item" href="/gsoc/guide-to-being-a-mentor.html">Guide to being a Mentor</a>
+            <a class="dropdown-item" href="/gsoc/use-the-comdev-gsoc-issue-tracker-for-gsoc-tasks.html">Using ComDev's Jira for GSoC Ideas</a>
+            <a class="dropdown-item" href="/gsoc/gsoc-admin-tasks.html">Tasks of a GSoC Admin at the ASF</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/GSOC">GSoC Jira</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="commitDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            For Committers/PMCs
+          </a>
+          <div class="dropdown-menu" aria-labelledby="commitDropdown">
+            <a class="dropdown-item" href="/newcommitter.html">Recruiting New Committers</a>
+            <a class="dropdown-item" href="/committers/">Useful Information for Committers</a>
+            <a class="dropdown-item" href="/committers/decisionMaking.html">Decision Making</a>
+            <a class="dropdown-item" href="/committers/funding-disclaimer.html">Funding Campaign Disclaimer</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="eventDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Events
+          </a>
+          <div class="dropdown-menu" aria-labelledby="eventDropdown">
+            <a class="dropdown-item" href="https://apachecon.com/">Community Over Code - (formerly ApacheCon)</a>
+            <a class="dropdown-item" href="https://events.apache.org/">Other Apache-related Events</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/marks/events">Apache event branding policies</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">Conference Speakers</a>
+            <a class="dropdown-item" href="/speakers/slides.html">Sample presentations</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="conversDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Join the Conversation
+          </a>
+          <div class="dropdown-menu" aria-labelledby="conversDropdown">
+            <a class="dropdown-item" href="/blog/">Blog</a>
+            <a class="dropdown-item" href="https://www.facebook.com/ApacheSoftwareFoundation">Facebook</a>
+            <a class="dropdown-item" href="https://twitter.com/ApacheCommunity">Twitter</a>
+            <a class="dropdown-item" href="/lists.html">Mailing List</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+    </div>
+  </header>
+
+  <main class="cd-main" id="content" role="main">
+    <div class="container">
+      <section id="content" class="row">
+        <div class="col-md-9">
+          <h3 class="mt-3 text-muted">The Apache Software Foundation</h3>
+        </div>
+        <div class="col-md-12"><h4 class="text-muted">Community &gt; Code</h4></div>
+      </section>
+      
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">Home</a></li>
+    
+        
+        
+    
+        
+        
+            <li class="breadcrumb-item"><a href='/gsoc'>Gsoc</a></li>
+            
+        
+    
+        
+        
+            <li class="breadcrumb-item"><a href='/gsoc/experiences.html'>Experiences</a></li>
+            
+        
+    
+  </ol>
+</nav>
+
+
+      <hr>
+       
+<ul class="tags-list">
+  
+  
+  
+  </ul>
+
+      
+	
+	<br><br>
+	<p><em>This should be in the GSoC directory</em></p>
+<p>This is a place for
+collecting information about GSoC activities each year for historical tracking. It
+was started in 2012 so is missing plenty of detail in the early years. Your help
+filling it out would be appreciated.</p>
+<h1 id="2018-overview">2018 Overview <a class="headerlink" title="Permalink" href="#2018-overview">&para;</a></h1>
+<ul>
+<li>Students accepted: ?</li>
+<li>Students who passed final: 29</li>
+</ul>
+<h1 id="2017-overview">2017 Overview <a class="headerlink" title="Permalink" href="#2017-overview">&para;</a></h1>
+<ul>
+<li>Students accepted: ?</li>
+<li>Students who passed final: 27</li>
+</ul>
+<h1 id="2016-overview">2016 Overview <a class="headerlink" title="Permalink" href="#2016-overview">&para;</a></h1>
+<ul>
+<li>Students accepted: 49</li>
+<li>Students who passed final: 35</li>
+</ul>
+<h1 id="2015-overview">2015 Overview <a class="headerlink" title="Permalink" href="#2015-overview">&para;</a></h1>
+<ul>
+<li>Students accepted: 56</li>
+<li>Students who passed final: 47</li>
+</ul>
+<h1 id="2014-overview">2014 Overview <a class="headerlink" title="Permalink" href="#2014-overview">&para;</a></h1>
+<ul>
+<li>Students accepted: 42</li>
+<li>Students who passed final: 35</li>
+</ul>
+<h1 id="2013-overview">2013 Overview <a class="headerlink" title="Permalink" href="#2013-overview">&para;</a></h1>
+<ul>
+<li>Students accepted: 51</li>
+<li>Students who passed final: 44</li>
+</ul>
+<h1 id="2012-overview">2012 Overview <a class="headerlink" title="Permalink" href="#2012-overview">&para;</a></h1>
+<ul>
+<li>Students accepted: 41</li>
+<li>Students who passed midterm: 40</li>
+<li>26 projects mentoring (17 TLPs and 9 Podlings)
+<ul>
+<li>Participating TLPS are: Xerces, Pig, OODT, Hive, James, Tapestry, Ofbiz,
+Gora, Synapse, Derby, Axis, POI, Whirr, Lucene, Velocity, Libcloud, Xalan</li>
+<li>Participating Podlings are: ODF Toolkit, Airavata, Stanbol, Photark,
+Wookie, OpenMeetings, Nuvem, Hama, VXQuery</li>
+</ul>
+</li>
+</ul>
+<h2 id="2012-blogs">2012 Blogs <a class="headerlink" title="Permalink" href="#2012-blogs">&para;</a></h2>
+<ul>
+<li><a href="https://scottbw.wordpress.com/2012/08/22/wookie-adds-support-for-signed-widgets-thanks-to-google-summer-of-code/">Scott Wilson: Wookie Mentor</a></li>
+<li><a href="https://pushpalankajaya.blogspot.com/search/label/GSoC">Pushpalanka: Wookie Student</a></li>
+<li><a href="http://blog.mikemccandless.com/2012/08/lucenes-new-blockpostingsformat-thanks.html">Mike McCandless: Lucene Mentor</a></li>
+<li><a href="https://summerwithairavata.blogspot.com/">Bhathiya Jayasekara: Airavata Student</a></li>
+<li><a href="https://blogs.apache.org/openmeetings/entry/google_summer_of_code_2012">OpenMeetings Mentors: Sebastian Wagner, Alexei Fedotov, Maxim Solodovnik - Students: Ankur Ankan, German Grekhov, Dmitry Zamula, Josh Dolitsky </a></li>
+</ul>
+<h1 id="2011-overview">2011 Overview <a class="headerlink" title="Permalink" href="#2011-overview">&para;</a></h1>
+<ul>
+<li>Students accepted: 40</li>
+<li>Students who passed midterm: 38</li>
+<li>Students who passed final: 36</li>
+</ul>
+<h1 id="2010-overview">2010 Overview <a class="headerlink" title="Permalink" href="#2010-overview">&para;</a></h1>
+<ul>
+<li>Students accepted: 44</li>
+<li>Students who passed final: 39</li>
+</ul>
+<h1 id="2005">2005 <a class="headerlink" title="Permalink" href="#2005">&para;</a></h1>
+<p>First year Apache participated</p>
+
+
+    </div>
+  </main>
+
+  <footer class="page-footer bg-secondary mt-4 pt-3">
+    <div class="container text-center text-md-left mb-3">
+      <div class="row">
+        <div class="col-md-6 mt-md-0 mt-3">
+          <h5 class="text-uppercase">Trademarks</h5>
+          <p>
+            Apache&reg;, the names of Apache projects, and the multicolor feather logo are
+            <a href="https://www.apache.org/foundation/marks/list/">registered trademarks or trademarks</a> of the Apache
+            Software Foundation in the United States and/or other countries.
+          </p>
+        </div>
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <div class="col-md-6 mb-md-0 mb-3">
+          <h5 class="text-uppercase">Website sources</h5>
+
+          <p>
+            This website is generated from the <a href="https://github.com/apache/comdev-site">comdev-site repository</a>.<br>
+            Patches are welcome!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright text-center py-3">
+      <em>Copyright &copy; 2023, <a href="https://www.apache.org/">the Apache Software Foundation</a>. Licensed under the
+      <a rel="license" href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></em>
+    </div>
+  </footer>
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>

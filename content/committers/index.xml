@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Committer resources on ASF Community Development</title>
+    <link>https://community.apache.org/committers/</link>
+    <description>Recent content in Committer resources on ASF Community Development</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://community.apache.org/committers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Decision-Making</title>
+      <link>https://community.apache.org/committers/decisionMaking.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/committers/decisionMaking.html</guid>
+      <description>The most important thing about engaging with any Apache project is that everyone is equal. All project participants with an opinion can express that opinion and, where appropriate, have the community consider it.
+To some, the idea of having to establish consensus in a large and distributed team sounds inefficient and frustrating. Don&amp;rsquo;t despair, though: The Apache Way has a set of simple processes to ensure things proceed at a good pace.</description>
+    </item>
+    
+    <item>
+      <title>Funding campaign disclaimer</title>
+      <link>https://community.apache.org/committers/funding-disclaimer.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/committers/funding-disclaimer.html</guid>
+      <description>Some Apache committers have successfully run funding campaigns to support their work on their favorite Apache projects.
+This is ok in principle, but you have to make it clear that the campaign is your own thing, and avoid any confusion about the role of the ASF and how its projects work.
+This page gives a few examples of how to do that.
+If you have any question about this, feel free to ask on our dev@community.</description>
+    </item>
+    
+  </channel>
+</rss>

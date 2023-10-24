@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+  <meta name="description" content="Apache Community Development"/>
+  <meta name="keywords" content="apache, apache community, community development, opensource"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta property="og:title" content="Community Development News - January 2018" />
+<meta property="og:description" content="Welcome to our monthly blog update about what is happening in Apache Community Development (ComDev)!
+This month we have news about ApacheCon North America and also our Apache EU Roadshow, we register for GSoC, we report on our experience at the Open Source Summit Paris, we introduce Apache Community Business Cards, and we welcome two new PMC Members.
+ApacheCon NA 2018 &para; Good news! ApacheCon North America will be held 24-28 September 2018 in Montreal, Canada." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://community.apache.org/blog/community-development-news-january-2018.html" /><meta property="og:image" content="https://community.apache.org/images/aceu19_1.jpg"/><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2018-02-08T00:00:00+00:00" />
+<meta property="article:modified_time" content="2018-02-08T00:00:00+00:00" /><meta property="og:site_name" content="Apache Community Development" />
+
+
+  <title>Apache Community Development - Community Development News - January 2018</title>
+  <link rel="shortcut icon" href="/images/favicon.ico">
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link href="/css/main.css" rel="stylesheet" media="screen">
+  <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <style type="text/css">
+      .footer {
+          text-align:center;
+          color:grey;
+          font-size:80%;
+          border-top: solid #ddd 1px;
+          margin-top:1em;
+      }
+      .navbar-brand img {
+          height: 50px;
+      }
+  </style>
+
+  
+<script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(['disableCookies']);
+   
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.apache.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '36']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+
+  
+
+</head>
+
+<body>
+  <header class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+    <img src="https://svn.apache.org/repos/asf/comdev/project-logos/originals/foundation.svg" alt="Apache Software Foundation">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="mainNavbar">
+    <div class="container"> 
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="homeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Home
+            </a>
+            <div class="dropdown-menu" aria-labelledby="homeDropdown">
+              <a class="dropdown-item" href="/">Homepage</a>
+              <a class="dropdown-item" href="/tags.html">Tags</a>
+              <a class="dropdown-item" href="/blog/">Blog</a>
+              <a class="dropdown-item" href="/tags/navigation.html">Navigation pages</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About
+          </a>
+          <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+            <a class="dropdown-item" href="/about/">What We Do</a>
+            <a class="dropdown-item" href="/newbiefaq.html">Frequently Asked Questions</a>
+            <a class="dropdown-item" href="/projectIndependence.html">Apache Project Independence</a>
+            <a class="dropdown-item" href="/apache-way/apache-project-maturity-model.html">Apache Project Maturity Model</a>
+            <a class="dropdown-item" href="/contactpoints.html">Contact Points Within the ASF</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html#2009-11-01">ComDev Original Board Resolution</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html">ComDev Board Reports</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/COMDEV">Community Development Jira</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">About Apache</a>
+            <a class="dropdown-item" href="https://www.apache.org/">The Apache Software Foundation</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/sponsorship">Sponsor Apache</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/thanks">Thanks to our Sponsors</a>
+            <a class="dropdown-item" href="https://www.apache.org/licenses">License</a>
+            <a class="dropdown-item" href="https://www.apache.org/security">Security</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="contribDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            For Contributors
+          </a>
+          <div class="dropdown-menu" aria-labelledby="contribDropdown">
+            <a class="dropdown-item" href="/newcomers/">Newcomers</a>
+            <a class="dropdown-item" href="/newcomers/gettingStarted.html">Getting Started</a>
+            <a class="dropdown-item"
+            href="/contributor-ladder.html">Contributor Ladder</a>
+            <a class="dropdown-item" href="/contributors/">Finding Your Way Around The Apache Software Foundation</a>
+            <a class="dropdown-item" href="https://www.apache.org/dev/">Technical Developer FAQs</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="commitDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">GSoC</a>
+          <div class="dropdown-menu" aria-labelledby="gsocDropdown">
+            <a class="dropdown-item" href="/gsoc/">Google Summer Of Code Information</a>
+            <a class="dropdown-item" href="/gsoc/mentee-ranking-process.html">Mentee Ranking Process</a>
+            <a class="dropdown-item" href="/gsoc/experiences.html">Past GSoC Experiences</a>
+            <a class="dropdown-item" href="/gsoc/guide-to-being-a-mentor.html">Guide to being a Mentor</a>
+            <a class="dropdown-item" href="/gsoc/use-the-comdev-gsoc-issue-tracker-for-gsoc-tasks.html">Using ComDev's Jira for GSoC Ideas</a>
+            <a class="dropdown-item" href="/gsoc/gsoc-admin-tasks.html">Tasks of a GSoC Admin at the ASF</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/GSOC">GSoC Jira</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="commitDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            For Committers/PMCs
+          </a>
+          <div class="dropdown-menu" aria-labelledby="commitDropdown">
+            <a class="dropdown-item" href="/newcommitter.html">Recruiting New Committers</a>
+            <a class="dropdown-item" href="/committers/">Useful Information for Committers</a>
+            <a class="dropdown-item" href="/committers/decisionMaking.html">Decision Making</a>
+            <a class="dropdown-item" href="/committers/funding-disclaimer.html">Funding Campaign Disclaimer</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="eventDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Events
+          </a>
+          <div class="dropdown-menu" aria-labelledby="eventDropdown">
+            <a class="dropdown-item" href="https://apachecon.com/">Community Over Code - (formerly ApacheCon)</a>
+            <a class="dropdown-item" href="https://events.apache.org/">Other Apache-related Events</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/marks/events">Apache event branding policies</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">Conference Speakers</a>
+            <a class="dropdown-item" href="/speakers/slides.html">Sample presentations</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="conversDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Join the Conversation
+          </a>
+          <div class="dropdown-menu" aria-labelledby="conversDropdown">
+            <a class="dropdown-item" href="/blog/">Blog</a>
+            <a class="dropdown-item" href="https://www.facebook.com/ApacheSoftwareFoundation">Facebook</a>
+            <a class="dropdown-item" href="https://twitter.com/ApacheCommunity">Twitter</a>
+            <a class="dropdown-item" href="/lists.html">Mailing List</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+    </div>
+  </header>
+
+  <main class="cd-main" id="content" role="main">
+    <div class="container">
+      <section id="content" class="row">
+        <div class="col-md-9">
+          <h3 class="mt-3 text-muted">The Apache Software Foundation</h3>
+        </div>
+        <div class="col-md-12"><h4 class="text-muted">Community &gt; Code</h4></div>
+      </section>
+      
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">Home</a></li>
+    
+        
+        
+    
+        
+        
+            <li class="breadcrumb-item"><a href='/blog'>Blog</a></li>
+            
+        
+    
+        
+        
+            <li class="breadcrumb-item"><a href='/blog/community-development-news-january-2018.html'>Community development news january 2018</a></li>
+            
+        
+    
+  </ol>
+</nav>
+
+
+      <hr>
+       
+<ul class="tags-list">
+  
+  <li>
+    <a href="https://community.apache.org/tags/blog.html">blog</a>
+  </li>
+  <li>
+    <a href="https://community.apache.org/tags/news.html">news</a>
+  </li></ul>
+
+      
+	
+		<h2>Community Development News - January 2018</h2>
+		<span class="published-info">Published on Thursday, Feb 8, 2018
+
+    
+    by sharan
+    
+</span>
+	
+	<br><br>
+	<p>Welcome to our monthly blog update about what is happening in Apache Community Development (ComDev)!</p>
+<p>This month we have news about ApacheCon North America and also our Apache EU Roadshow, we register for GSoC, we report
+on our experience at the Open Source Summit Paris, we introduce Apache Community Business Cards, and we welcome two new
+PMC Members.</p>
+<h3 id="apachecon-na-2018">ApacheCon NA 2018 <a class="headerlink" title="Permalink" href="#apachecon-na-2018">&para;</a></h3>
+<p>Good news! ApacheCon North America will be held 24-28 September 2018 in Montreal, Canada. ApacheCon is a key ASF event
+that showcases dozens of Apache projects, from ideation to deployment. The sessions are aimed at a broad audience, from
+seasoned professionals to novices who want to learn what&rsquo;s new and how it all fits in to the greater Open Source
+ecosystem. It is a great way to bring together Apache users with the projects and communities. The <strong>CFP for ApacheCon
+is open</strong> so please make your submissions: <a href="http://apachecon.com/acna18">ApacheCon CFP</a></p>
+<p>More details will be announced soon and updates will be posted at <a href="http://apachecon.com/acna18">http://apachecon.com/acna18</a> and the ApacheCon mailing
+list (sign up for updates by sending email to). You can also follow what is happening
+on <a href="https://twitter.com/ApacheCon">Twitter @ApacheCon</a></p>
+<p>We are also looking for sponsors so if you are interested in Sponsorship opportunities then please contact Kevin A.
+McGrail at kmcgrail(at)apache(dot)org.</p>
+<h3 id="apache-eu-roadshow-2018">Apache EU Roadshow 2018 <a class="headerlink" title="Permalink" href="#apache-eu-roadshow-2018">&para;</a></h3>
+<p>We have been working on trying to get a Apache European event organised this year as many of you told us that you missed
+not having an Apache EU last year. If you haven&rsquo;t already seen the <a href="https://s.apache.org/9Ork">announcement</a>, then we
+are extremely happy to let you all know that we will be holding an Apache EU Roadshow co-located
+with <a href="https://foss-backstage.de/">FOSS Backstage</a> in Berlin on 13 - 14 June 2018. The Roadshow will be free of charge to
+FOSS Backstage attendees (this means that you will need to buy a ticket to FOSS Backstage to attend!). You can find out
+more information and buy your early bird tickets from <a href="https://foss-backstage.de/">https://foss-backstage.de/</a></p>
+<p>As well as our Apache Booth, there will be an Apache Lounge space for people to relax, collaborate and hack. (In fact
+the Lounge will be there during Berlin Buzzwords too and there is also a Barcamp on Sunday 10th June!). During the
+Roadshow we will have 2 Apache Devrooms available as well as a shared workshop space with FOSS Backstage where we can
+run sprints, BoFs or small workshops.</p>
+<p>We only have capacity to run 2 full tracks per day for this Roadshow, plus some small additional workshops so will need
+to limit the scope since this is a smaller event than our normal ApacheCon. Our main focus for this Roadshow will be
+Internet of Things (IoT), Cloud, Httpd and Tomcat.</p>
+<p>The <strong>CFP for the Roadshow is open</strong> so please submit your proposals using the link below:</p>
+<p><a href="http://apachecon.com/euroadshow18/">Apache EU Roadshow CFP</a></p>
+<p>Please note that we won&rsquo;t have any space for Community or Apache Way talks but the good news is that the FOSS Backstage
+organisers are happy to include an Apache track if there are enough submissions, so please submit any community,
+governance or legal themed talks directly to FOSS Backstage.</p>
+<p><a href="https://foss-backstage.de/call-papers">FOSS Backstage CFP</a></p>
+<p>Please feel free to spread the word that we will be having an Apache event in Europe this year and if possible makes
+plans to come along and participate.For more information and updates please check <a href="http://apachecon.com/euroadshow18/">http://apachecon.com/euroadshow18/</a></p>
+<p>We are also looking for sponsors so if you are interested in Sponsorship opportunities then please contact Kevin A.
+McGrail at kmcgrail(at)apache(dot)org.</p>
+<h3 id="apache-business-cards">Apache Business Cards <a class="headerlink" title="Permalink" href="#apache-business-cards">&para;</a></h3>
+<p>A couple of months ago we had a discussion about introducing Apache business cards. Apache Business Cards are cards that
+people involved with Apache projects can use when they are promoting their Apache project at an event or representing
+their Apache project. Individuals (not the ASF) would be responsible for printing their own cards. We have two standard
+formats:</p>
+<ul>
+<li><a href="https://s.apache.org/12nG">Apache Official Role Business Card</a> (This card single sided card with a white background and the Apache logo)</li>
+<li><a href="https://s.apache.org/wAsM">Apache Community Business Card</a> (This card is double sided with the Apache logo on the back
+and a red background with the Apache feather logo on the front)</li>
+</ul>
+<p>The main difference between the two cards is that the Apache Official Role Business card needs to contain your official
+role at Apache. For example if you are a Board Member, Officer of the Foundation, Member, PMC Member, VP of a project or
+an Apache Committer, then these are all valid Apache roles that can be used. You must also include your apache.org email
+as the contact email address.</p>
+<p>The Apache Community Business Card can contain all the official roles as well as other role descriptions. For example
+Developer, Contributor. It can also include other details related to your involvement in Apache such as PGP key and does
+not need to include your apache.org email address.</p>
+<p>For convenience we have created <a href="https://s.apache.org/2vDD">an ASF account with moo.com</a> where you can order business
+cards based on both formats.</p>
+<p><strong>NOTE</strong>: You do not have to buy your business cards from moo.com. You can order your business cards from another
+supplier. We have setup the ASF Moo account to make it easier for lots of people to order their cards.You can find
+more <a href="https://cwiki.apache.org/confluence/display/COMDEV/Apache+Business+Cards">details about business cards on the Comdev wiki</a>.</p>
+<h3 id="new-pmc-members">New PMC Members <a class="headerlink" title="Permalink" href="#new-pmc-members">&para;</a></h3>
+<p>The Apache Community Development PMC is pleased to announce that two new PMCs members. Piergiorgio Lucidi (PJ) and
+Ignasi Barerra have been involved in a range of community development activities both on and off the mailing lists. Both
+have also supported the ASF at events and conferences.</p>
+<p>More recently PJ helped promote the introduction of Apache Business Cards and Ignasi helped design and create our ASF
+Brochure. Please join us in welcoming PJ and Ignasi to the team.</p>
+<h3 id="open-source-summit-paris">Open Source Summit Paris <a class="headerlink" title="Permalink" href="#open-source-summit-paris">&para;</a></h3>
+<p>In December, we were invited to participate at the Open Source Summit in Paris. The event attracts around 6000 attendees
+and we were given a booth and a half day track at the event. Our booth was in the Associations Village (for Open Source
+Foundations and non profits) and they also had a Legal Tech Village about the legal side or open source. A key focus
+this year was Africa and how open source is opening up new technology opportunities.</p>
+<p>Our Apache track was run during the afternoon in a room that held a maximum 35 people. Our talks were a mix of French
+and English and attendance numbers varied from around 10 to 30. The most popular talk being Apache Spark! Many of the
+discussions were in French and one of the most common questions we were asked is &lsquo;Does Apache have a local company in
+France?&rsquo; And each time we explained that the Apache community is everywhere.</p>
+<p>Thanks very much to our speakers (Bertrand, Luciano, Martin, Ismael, and Olivier) and to everyone who helped out on the
+booth. It was a great event to be involved in and we hope that we get invited to participate again next year!</p>
+<h3 id="google-summer-of-code-gsoc">Google Summer of Code (GSoC) <a class="headerlink" title="Permalink" href="#google-summer-of-code-gsoc">&para;</a></h3>
+<p>The ASF is registering again to be a mentoring organisation for Google Summer of Code. Projects that want to
+participate have been asked to start creating a list of task ideas that students could work on. Participating in GSoC is
+a good way of encouraging new people to become involved with a project and also gain mentoring skills.</p>
+<p>If your project is interested in participating then please add your task ideas to
+the <a href="https://issues.apache.org/jira/projects/COMDEV/issues/COMDEV-266?filter=allopenissues">Comdev JIRA</a>. ComDev Jira
+using the component &ldquo;GSoC/Mentoring Ideas&rdquo;</p>
+<h3 id="contacting-community-development">Contacting Community Development <a class="headerlink" title="Permalink" href="#contacting-community-development">&para;</a></h3>
+<p>Remember that we are always happy to get your feedback and comments so please feel free to contact us, follow our events
+and participate in our discussions on <a href="https://s.apache.org/qdrd">our mailing list</a>. If you would like to be kept up to
+date with all the latest news about what is happening in Community Development then please subscribe to our mailing list
+by sending an email to dev-subscribe AT community DOT apache DOT org.</p>
+
+
+    </div>
+  </main>
+
+  <footer class="page-footer bg-secondary mt-4 pt-3">
+    <div class="container text-center text-md-left mb-3">
+      <div class="row">
+        <div class="col-md-6 mt-md-0 mt-3">
+          <h5 class="text-uppercase">Trademarks</h5>
+          <p>
+            Apache&reg;, the names of Apache projects, and the multicolor feather logo are
+            <a href="https://www.apache.org/foundation/marks/list/">registered trademarks or trademarks</a> of the Apache
+            Software Foundation in the United States and/or other countries.
+          </p>
+        </div>
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <div class="col-md-6 mb-md-0 mb-3">
+          <h5 class="text-uppercase">Website sources</h5>
+
+          <p>
+            This website is generated from the <a href="https://github.com/apache/comdev-site">comdev-site repository</a>.<br>
+            Patches are welcome!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright text-center py-3">
+      <em>Copyright &copy; 2023, <a href="https://www.apache.org/">the Apache Software Foundation</a>. Licensed under the
+      <a rel="license" href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></em>
+    </div>
+  </footer>
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>

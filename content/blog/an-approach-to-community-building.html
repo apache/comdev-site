@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+  <meta name="description" content="Apache Community Development"/>
+  <meta name="keywords" content="apache, apache community, community development, opensource"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta property="og:title" content="An approach to community building from Apache Beam" />
+<meta property="og:description" content="Apache Beam has been a top-level project since January 2017. I, current Beam PMC Chair, would like to share some of Beam&rsquo;s recent efforts to tackle the challenges of growing our community.
+[Updated Feb 27, 2019 to clarify that the article is authored by the Beam PMC Chair and describes the Beam project&rsquo;s work to build their own community. Previously it could have mistakenly been read as an ASF Foundation statement about the Beam project, or as describing an ASF action taken upon the Beam project." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://community.apache.org/blog/an-approach-to-community-building.html" /><meta property="og:image" content="https://community.apache.org/images/aceu19_1.jpg"/><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2019-02-22T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-02-22T00:00:00+00:00" /><meta property="og:site_name" content="Apache Community Development" />
+
+
+  <title>Apache Community Development - An approach to community building from Apache Beam</title>
+  <link rel="shortcut icon" href="/images/favicon.ico">
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link href="/css/main.css" rel="stylesheet" media="screen">
+  <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <style type="text/css">
+      .footer {
+          text-align:center;
+          color:grey;
+          font-size:80%;
+          border-top: solid #ddd 1px;
+          margin-top:1em;
+      }
+      .navbar-brand img {
+          height: 50px;
+      }
+  </style>
+
+  
+<script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(['disableCookies']);
+   
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.apache.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '36']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+
+  
+
+</head>
+
+<body>
+  <header class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+    <img src="https://svn.apache.org/repos/asf/comdev/project-logos/originals/foundation.svg" alt="Apache Software Foundation">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="mainNavbar">
+    <div class="container"> 
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="homeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Home
+            </a>
+            <div class="dropdown-menu" aria-labelledby="homeDropdown">
+              <a class="dropdown-item" href="/">Homepage</a>
+              <a class="dropdown-item" href="/tags.html">Tags</a>
+              <a class="dropdown-item" href="/blog/">Blog</a>
+              <a class="dropdown-item" href="/tags/navigation.html">Navigation pages</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About
+          </a>
+          <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+            <a class="dropdown-item" href="/about/">What We Do</a>
+            <a class="dropdown-item" href="/newbiefaq.html">Frequently Asked Questions</a>
+            <a class="dropdown-item" href="/projectIndependence.html">Apache Project Independence</a>
+            <a class="dropdown-item" href="/apache-way/apache-project-maturity-model.html">Apache Project Maturity Model</a>
+            <a class="dropdown-item" href="/contactpoints.html">Contact Points Within the ASF</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html#2009-11-01">ComDev Original Board Resolution</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html">ComDev Board Reports</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/COMDEV">Community Development Jira</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">About Apache</a>
+            <a class="dropdown-item" href="https://www.apache.org/">The Apache Software Foundation</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/sponsorship">Sponsor Apache</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/thanks">Thanks to our Sponsors</a>
+            <a class="dropdown-item" href="https://www.apache.org/licenses">License</a>
+            <a class="dropdown-item" href="https://www.apache.org/security">Security</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="contribDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            For Contributors
+          </a>
+          <div class="dropdown-menu" aria-labelledby="contribDropdown">
+            <a class="dropdown-item" href="/newcomers/">Newcomers</a>
+            <a class="dropdown-item" href="/newcomers/gettingStarted.html">Getting Started</a>
+            <a class="dropdown-item"
+            href="/contributor-ladder.html">Contributor Ladder</a>
+            <a class="dropdown-item" href="/contributors/">Finding Your Way Around The Apache Software Foundation</a>
+            <a class="dropdown-item" href="https://www.apache.org/dev/">Technical Developer FAQs</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="commitDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">GSoC</a>
+          <div class="dropdown-menu" aria-labelledby="gsocDropdown">
+            <a class="dropdown-item" href="/gsoc/">Google Summer Of Code Information</a>
+            <a class="dropdown-item" href="/gsoc/mentee-ranking-process.html">Mentee Ranking Process</a>
+            <a class="dropdown-item" href="/gsoc/experiences.html">Past GSoC Experiences</a>
+            <a class="dropdown-item" href="/gsoc/guide-to-being-a-mentor.html">Guide to being a Mentor</a>
+            <a class="dropdown-item" href="/gsoc/use-the-comdev-gsoc-issue-tracker-for-gsoc-tasks.html">Using ComDev's Jira for GSoC Ideas</a>
+            <a class="dropdown-item" href="/gsoc/gsoc-admin-tasks.html">Tasks of a GSoC Admin at the ASF</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/GSOC">GSoC Jira</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="commitDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            For Committers/PMCs
+          </a>
+          <div class="dropdown-menu" aria-labelledby="commitDropdown">
+            <a class="dropdown-item" href="/newcommitter.html">Recruiting New Committers</a>
+            <a class="dropdown-item" href="/committers/">Useful Information for Committers</a>
+            <a class="dropdown-item" href="/committers/decisionMaking.html">Decision Making</a>
+            <a class="dropdown-item" href="/committers/funding-disclaimer.html">Funding Campaign Disclaimer</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="eventDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Events
+          </a>
+          <div class="dropdown-menu" aria-labelledby="eventDropdown">
+            <a class="dropdown-item" href="https://apachecon.com/">Community Over Code - (formerly ApacheCon)</a>
+            <a class="dropdown-item" href="https://events.apache.org/">Other Apache-related Events</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/marks/events">Apache event branding policies</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">Conference Speakers</a>
+            <a class="dropdown-item" href="/speakers/slides.html">Sample presentations</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="conversDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Join the Conversation
+          </a>
+          <div class="dropdown-menu" aria-labelledby="conversDropdown">
+            <a class="dropdown-item" href="/blog/">Blog</a>
+            <a class="dropdown-item" href="https://www.facebook.com/ApacheSoftwareFoundation">Facebook</a>
+            <a class="dropdown-item" href="https://twitter.com/ApacheCommunity">Twitter</a>
+            <a class="dropdown-item" href="/lists.html">Mailing List</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+    </div>
+  </header>
+
+  <main class="cd-main" id="content" role="main">
+    <div class="container">
+      <section id="content" class="row">
+        <div class="col-md-9">
+          <h3 class="mt-3 text-muted">The Apache Software Foundation</h3>
+        </div>
+        <div class="col-md-12"><h4 class="text-muted">Community &gt; Code</h4></div>
+      </section>
+      
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">Home</a></li>
+    
+        
+        
+    
+        
+        
+            <li class="breadcrumb-item"><a href='/blog'>Blog</a></li>
+            
+        
+    
+        
+        
+            <li class="breadcrumb-item"><a href='/blog/an-approach-to-community-building.html'>An approach to community building</a></li>
+            
+        
+    
+  </ol>
+</nav>
+
+
+      <hr>
+       
+<ul class="tags-list">
+  
+  <li>
+    <a href="https://community.apache.org/tags/blog.html">blog</a>
+  </li></ul>
+
+      
+	
+		<h2>An approach to community building from Apache Beam</h2>
+		<span class="published-info">Published on Friday, Feb 22, 2019
+
+    
+    by Kenn Knowles, VP Apache Beam
+    
+</span>
+	
+	<br><br>
+	<p><a href="https://beam.apache.org/">Apache Beam</a> has been a top-level project since January 2017. I, current Beam PMC Chair,
+would like to share some of Beam&rsquo;s recent efforts to tackle the challenges of growing our community.</p>
+<p><em><strong>[Updated Feb 27, 2019 to clarify that the article is authored by the Beam PMC Chair and describes the Beam project&rsquo;s
+work to build their own community. Previously it could have mistakenly been read as an ASF Foundation statement about
+the Beam project, or as describing an ASF action taken upon the Beam project. Neither is the the case.]</strong></em></p>
+<p>We identified two things we want to improve in our contributor/committer-base, common to many open source projects:</p>
+<ol>
+<li>We could use more committers to review all the code being contributed, in part due to recent departure of a few committers</li>
+<li>We want our contributor-base (hence committer-base) to be more spread across companies and backgrounds. This is a
+core value of the Apache Software Foundation. In particular, the project&rsquo;s direction should not be dominated by any
+company, and the project should be able to survive the departure of a major contributor or all contributors from a
+particular employer. Eventually, we hope that our user base is active and diverse enough that this happens naturally.
+But we are not there yet, so instead we have to work hard to build our community around the software we already have.</li>
+</ol>
+<h4 id="what-we-did">What we did <a class="headerlink" title="Permalink" href="#what-we-did">&para;</a></h4>
+<p><strong>Committer guidelines</strong></p>
+<p>We published <a href="https://beam.apache.org/contribute/become-a-committer">committer guidelines</a> for transparency and as an
+invitation. We start by emphasizing that there are many kinds of contributions, not just code. We have committers from
+community development, tech writing, training, etc. Then we have three aspects:</p>
+<ol>
+<li>ASF code of conduct</li>
+<li>ASF committer responsibilities</li>
+<li>Beam-specific committer responsibilities</li>
+</ol>
+<p>The best way to understand is to read the guidelines. The important influence on the community is this: you shouldn&rsquo;t
+be proposing a committer for other reasons, such as a new member of your team at work, or forging political alliances.
+And you shouldn&rsquo;t be blocking a committer for other reasons, such as any reason that isn&rsquo;t about their actions as an
+individual.</p>
+<p><strong>Instead of just discussing potential committers and PMC members, we discuss many layers of the community</strong></p>
+<p>Previously, when a PMC member noticed a contributor that they thought might make a good committer, they would start a
+thread with a subject like &ldquo;[DISCUSS] Potential committer: Jane Doe&rdquo;. The PMC would discuss and it could lead to a vote
+or not. More rarely, a similar process was followed for new PMC members.</p>
+<p>We were fortunate to have Gris Cuevas (<a href="mailto:gris@apache.org">gris@apache.org</a>) working with us, and she outlined these phases that people go
+through in their relationship with our project:</p>
+<ol>
+<li>aware of it</li>
+<li>interested in it / checking it out</li>
+<li>using it for real</li>
+<li>first-time contributor</li>
+<li>repeat contributor</li>
+<li>committer</li>
+<li>PMC</li>
+</ol>
+<p>As soon as we notice someone, like a user asking really deep questions, we invite discussion on private@ on how we can
+move them to the next level of engagement.</p>
+<p><strong>Monthly cadence</strong></p>
+<p>About every month, we call for new discussions and revisit prior discussions. This way we do not forget to keep up this
+effort.</p>
+<p><strong>Individual discussions</strong></p>
+<p>For each person we have a separate thread on private@. This ensures we have quality focused discussions that lead to
+feedback. In collective discussions that we used to do, we often didn&rsquo;t really come up with actionable feedback and
+ended up not even contacting major contributors to encourage them. And consensus was much less clear.</p>
+<p><strong>Feedback!</strong></p>
+<p>If someone is brought up for a discussion, that means they got enough attention that we hope to engage them more.
+But unsolicited feedback is never a good idea.</p>
+<p>For an early contributor, we have sent a simpler encouragement email thanking them, being sure to be specific about the
+contribution(s) discussed, so they know we really did pay attention and it is not just a form letter. And if we missed
+something, they can let us know :-)</p>
+<p>For a contributor who was discussed as a potential committer, we did this:</p>
+<ol>
+<li>Send an email saying something like &ldquo;you were discussed as a potential committer - do you want to become one? do you
+want feedback?&rdquo;</li>
+<li>If they say yes (so far everyone) we send a few bullet points from the discussion and <em>most important</em> tie each
+bullet to the committer guidelines. Formulating this feedback is important for helping contributors to learn, but it
+also serves as a check against bias and politics. If we found ourselves unable to specify such feedback, that is a sign
+that we are deciding for a reason other than those we have declared and agreed upon.</li>
+</ol>
+<p>We have seen a <em>very</em> significant increase in engagement from those we sent feedback to. Almost all of them become more
+active but also they act on the feedback and really engage The Apache Way (as interpreted by Beam). Most become
+committers. But not only that, they become mentors for other new contributors.</p>
+<p><strong>Results</strong></p>
+<ul>
+<li>Q1 we had no process and we invited no new committers or PMC members.</li>
+<li>Q2 when we tried these new things we invited 7 committers and 1 PMC member, with a few obvious committer candidates
+for next time around, plus positive feedback from other contributors, spread across five companies.</li>
+<li>Q3 we invited 3 committers</li>
+<li>Q4 we have invited 5 committers (so far!)</li>
+</ul>
+<p>We&rsquo;ve had a pretty major uptick in building Beam as a result.</p>
+<p><strong>Review-then-commit</strong></p>
+<p>I want to conclude with another formal change we made around the same time. Beam uses
+<a href="https://www.apache.org/foundation/glossary.html#RTC">review-then-commit</a>, a pretty typical GitHub workflow. Previously,
+the reviewer was required to be a committer, even if the author was a committer. So non-committers had no opportunity
+to review code. We changed our policy to require that <em>either</em> the reviewer <em>or</em> the author be a committer. Rationale:
+if we trust someone as a committer, we should trust their choice of reviewer.</p>
+<p>But most important for this post: reviews are not just a way to make code better or spread knowledge, they are a place
+where community is built. Letting non-committers review code by committers gives them another opening to the Beam
+community. I like to reference this quote by Richard Stallman that really drew me in to open source development:
+&ldquo;The fundamental act of friendship among programmers is the sharing of programs&rdquo; and reviews are one place where we do
+that.</p>
+
+
+    </div>
+  </main>
+
+  <footer class="page-footer bg-secondary mt-4 pt-3">
+    <div class="container text-center text-md-left mb-3">
+      <div class="row">
+        <div class="col-md-6 mt-md-0 mt-3">
+          <h5 class="text-uppercase">Trademarks</h5>
+          <p>
+            Apache&reg;, the names of Apache projects, and the multicolor feather logo are
+            <a href="https://www.apache.org/foundation/marks/list/">registered trademarks or trademarks</a> of the Apache
+            Software Foundation in the United States and/or other countries.
+          </p>
+        </div>
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <div class="col-md-6 mb-md-0 mb-3">
+          <h5 class="text-uppercase">Website sources</h5>
+
+          <p>
+            This website is generated from the <a href="https://github.com/apache/comdev-site">comdev-site repository</a>.<br>
+            Patches are welcome!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright text-center py-3">
+      <em>Copyright &copy; 2023, <a href="https://www.apache.org/">the Apache Software Foundation</a>. Licensed under the
+      <a rel="license" href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></em>
+    </div>
+  </footer>
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>

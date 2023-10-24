@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+  <meta name="description" content="Apache Community Development"/>
+  <meta name="keywords" content="apache, apache community, community development, opensource"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta property="og:title" content="ASF Community Etiquette Guidelines" />
+<meta property="og:description" content="The ASF and our many projects welcome all participants. Before you begin, it is important to review and respect our community guidelines. We have a few ASF-specific tips below.
+Code of Conduct &para; The ASF has adopted a Code of Conduct which covers interactions in all the online spaces that ASF projects use - email, issue trackers, wikis, websites, IRC, and the like. ASF projects are made up of volunteers, and we work to ensure that all productive contributions are welcomed." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://community.apache.org/contributors/etiquette.html" /><meta property="og:image" content="https://community.apache.org/images/aceu19_1.jpg"/><meta property="article:section" content="contributors" />
+
+<meta property="og:site_name" content="Apache Community Development" />
+
+
+  <title>Apache Community Development - ASF Community Etiquette Guidelines</title>
+  <link rel="shortcut icon" href="/images/favicon.ico">
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link href="/css/main.css" rel="stylesheet" media="screen">
+  <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <style type="text/css">
+      .footer {
+          text-align:center;
+          color:grey;
+          font-size:80%;
+          border-top: solid #ddd 1px;
+          margin-top:1em;
+      }
+      .navbar-brand img {
+          height: 50px;
+      }
+  </style>
+
+  
+<script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(['disableCookies']);
+   
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.apache.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '36']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+
+  
+
+</head>
+
+<body>
+  <header class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+    <img src="https://svn.apache.org/repos/asf/comdev/project-logos/originals/foundation.svg" alt="Apache Software Foundation">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="mainNavbar">
+    <div class="container"> 
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="homeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Home
+            </a>
+            <div class="dropdown-menu" aria-labelledby="homeDropdown">
+              <a class="dropdown-item" href="/">Homepage</a>
+              <a class="dropdown-item" href="/tags.html">Tags</a>
+              <a class="dropdown-item" href="/blog/">Blog</a>
+              <a class="dropdown-item" href="/tags/navigation.html">Navigation pages</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About
+          </a>
+          <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+            <a class="dropdown-item" href="/about/">What We Do</a>
+            <a class="dropdown-item" href="/newbiefaq.html">Frequently Asked Questions</a>
+            <a class="dropdown-item" href="/projectIndependence.html">Apache Project Independence</a>
+            <a class="dropdown-item" href="/apache-way/apache-project-maturity-model.html">Apache Project Maturity Model</a>
+            <a class="dropdown-item" href="/contactpoints.html">Contact Points Within the ASF</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html#2009-11-01">ComDev Original Board Resolution</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html">ComDev Board Reports</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/COMDEV">Community Development Jira</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">About Apache</a>
+            <a class="dropdown-item" href="https://www.apache.org/">The Apache Software Foundation</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/sponsorship">Sponsor Apache</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/thanks">Thanks to our Sponsors</a>
+            <a class="dropdown-item" href="https://www.apache.org/licenses">License</a>
+            <a class="dropdown-item" href="https://www.apache.org/security">Security</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="contribDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            For Contributors
+          </a>
+          <div class="dropdown-menu" aria-labelledby="contribDropdown">
+            <a class="dropdown-item" href="/newcomers/">Newcomers</a>
+            <a class="dropdown-item" href="/newcomers/gettingStarted.html">Getting Started</a>
+            <a class="dropdown-item"
+            href="/contributor-ladder.html">Contributor Ladder</a>
+            <a class="dropdown-item" href="/contributors/">Finding Your Way Around The Apache Software Foundation</a>
+            <a class="dropdown-item" href="https://www.apache.org/dev/">Technical Developer FAQs</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="commitDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">GSoC</a>
+          <div class="dropdown-menu" aria-labelledby="gsocDropdown">
+            <a class="dropdown-item" href="/gsoc/">Google Summer Of Code Information</a>
+            <a class="dropdown-item" href="/gsoc/mentee-ranking-process.html">Mentee Ranking Process</a>
+            <a class="dropdown-item" href="/gsoc/experiences.html">Past GSoC Experiences</a>
+            <a class="dropdown-item" href="/gsoc/guide-to-being-a-mentor.html">Guide to being a Mentor</a>
+            <a class="dropdown-item" href="/gsoc/use-the-comdev-gsoc-issue-tracker-for-gsoc-tasks.html">Using ComDev's Jira for GSoC Ideas</a>
+            <a class="dropdown-item" href="/gsoc/gsoc-admin-tasks.html">Tasks of a GSoC Admin at the ASF</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/GSOC">GSoC Jira</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="commitDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            For Committers/PMCs
+          </a>
+          <div class="dropdown-menu" aria-labelledby="commitDropdown">
+            <a class="dropdown-item" href="/newcommitter.html">Recruiting New Committers</a>
+            <a class="dropdown-item" href="/committers/">Useful Information for Committers</a>
+            <a class="dropdown-item" href="/committers/decisionMaking.html">Decision Making</a>
+            <a class="dropdown-item" href="/committers/funding-disclaimer.html">Funding Campaign Disclaimer</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="eventDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Events
+          </a>
+          <div class="dropdown-menu" aria-labelledby="eventDropdown">
+            <a class="dropdown-item" href="https://apachecon.com/">Community Over Code - (formerly ApacheCon)</a>
+            <a class="dropdown-item" href="https://events.apache.org/">Other Apache-related Events</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/marks/events">Apache event branding policies</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">Conference Speakers</a>
+            <a class="dropdown-item" href="/speakers/slides.html">Sample presentations</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="conversDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Join the Conversation
+          </a>
+          <div class="dropdown-menu" aria-labelledby="conversDropdown">
+            <a class="dropdown-item" href="/blog/">Blog</a>
+            <a class="dropdown-item" href="https://www.facebook.com/ApacheSoftwareFoundation">Facebook</a>
+            <a class="dropdown-item" href="https://twitter.com/ApacheCommunity">Twitter</a>
+            <a class="dropdown-item" href="/lists.html">Mailing List</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+    </div>
+  </header>
+
+  <main class="cd-main" id="content" role="main">
+    <div class="container">
+      <section id="content" class="row">
+        <div class="col-md-9">
+          <h3 class="mt-3 text-muted">The Apache Software Foundation</h3>
+        </div>
+        <div class="col-md-12"><h4 class="text-muted">Community &gt; Code</h4></div>
+      </section>
+      
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">Home</a></li>
+    
+        
+        
+    
+        
+        
+            <li class="breadcrumb-item"><a href='/contributors'>Contributors</a></li>
+            
+        
+    
+        
+        
+            <li class="breadcrumb-item"><a href='/contributors/etiquette.html'>Etiquette</a></li>
+            
+        
+    
+  </ol>
+</nav>
+
+
+      <hr>
+       
+<ul class="tags-list">
+  
+  <li>
+    <a href="https://community.apache.org/tags/etiquette.html">etiquette</a>
+  </li>
+  <li>
+    <a href="https://community.apache.org/tags/conduct.html">conduct</a>
+  </li></ul>
+
+      
+	
+	<br><br>
+	<p>The ASF and our many projects welcome all
+participants.  Before you begin, it is important to review and respect our community guidelines. We have a few
+ASF-specific tips below.</p>
+<h1 id="coc">Code of Conduct <a class="headerlink" title="Permalink" href="#coc">&para;</a></h1>
+<p>The ASF has adopted a <a href="https://www.apache.org/foundation/policies/conduct.html">Code of Conduct</a> which covers interactions in
+all the online spaces that ASF projects use - email, issue trackers, wikis,
+websites, IRC, and the like.  ASF projects are made up of volunteers, and
+we work to ensure that all productive contributions are welcomed.  Every PMC is expected to ensure their project&rsquo;s lists show
+proper behavior.</p>
+<h1 id="member">Guidelines for Conduct and Etiquette <a class="headerlink" title="Permalink" href="#member">&para;</a></h1>
+<p>The ASF as a corporation is run by several hundred members, who have deep and lasting experience
+in helping to build and run long-term, successful open source projects.  Below are some guidelines to help you communicate with other volunteers, and get the most out of your communication experience.</p>
+<p><strong>General Communication Guidelines</strong></p>
+<ul>
+<li>
+<p>Use a thoughtful, respectful tone to communicate your thoughts. Remember, text is difficult to interpret.  There are no body language or voice tones to help interpret the messenger&rsquo;s intent. Remember that the person on the other side of your communication is also a human deserving of understanding and
+respect.</p>
+</li>
+<li>
+<p>If you agree with someone, let them know. If you disagree, let them know as well.  Positive and negative feedback are both necessary.  Positive
+feedback will help others feel more confident in their ideas, as well as ensure they know they&rsquo;re on the right track.  Negative feedback, given in a
+respectable tone, will help to guide the messenger toward a more productive solution.</p>
+</li>
+<li>
+<p>Avoid idiomatic and metaphoric language. At the ASF, we have thousands of volunteers that speak different languages.  To avoid miscommunication, it
+is best to avoid this type of language in favor of clear, direct statements.</p>
+</li>
+<li>
+<p>Be patient when waiting for responses.  Because the ASF is an international community, there may be some delays in response time.  We call these
+&ldquo;asynchronous responders.&rdquo;  We understand that it can be difficult and frustrating to wait, but please give these asynchronous responders time to read
+and address your message.  The ASF strives to respond to all messages (email, slack, etc.) in a timely manner.</p>
+</li>
+<li>
+<p>Dealing with conflict and miscommunication:  Here at the ASF, we strive to make everyone feel welcome and wanted in their roles.  With that said, we
+also understand that miscommunications happen, especially in text.  If you are sent a message that you don&rsquo;t understand, or feel uncomfortable with, a
+good first step would be to ask for clarification. Don&rsquo;t be afraid to ask specific questions.  Chances are, the person you&rsquo;re communicating with has been
+in your position before, and will understand.</p>
+</li>
+<li>
+<p>Be forgiving and accept different priorities:  Everyone that works on ASF projects is passsionate about their work, and we love and welcome that
+passion and hope you will bring your own passion to your projects. Please remember, the ASF currently has over 300 projects, each with their own project
+priorities. If your priorities seem at odds with others, remember that compromise is essential to progress.  Work with the other person to come up with a
+compromise that takes all project priorities into account.</p>
+</li>
+<li>
+<p>Note:  Foul, derogatory, or divisive language in any form, up to and including threats, harassment, and discriminatory language, is strongly
+prohibited.</p>
+</li>
+</ul>
+<p><strong>Face-to-Face</strong> is excellent way to eliminate disagreements, but that is often
+not practical. Consider a conversation via Skype, Google Hangouts or a Slack channel, just for the social aspect
+of being part of this community. It does not need to be a formal meeting.  Once we have a face to add to the words, and a general
+idea how that person is socially, we are much more capable to interact via text.</p>
+<p><strong>Project decisions must always be made on mailing lists</strong>.<br>
+It&rsquo;s great to have a synchronous online chat to work through some questions, but
+be sure to bring the results of the chat (and any proposals for the
+project community to consider)  back to the mailing list.  People who
+weren&rsquo;t able to attend the chat or call might also have ideas on the topic.
+Be sure to allow at least 72 hours for others to read the proposals and
+comment before closing out the issue.</p>
+<h1 id="other">Other Etiquette Guidelines <a class="headerlink" title="Permalink" href="#other">&para;</a></h1>
+<ul>
+<li><a href="https://www.apache.org/foundation/policies/conduct.html">Official Apache-wide Code of Conduct</a></li>
+<li><a href="https://www.apache.org/dev/contrib-email-tips">Email Etiquette Guidelines - writing good emails</a></li>
+<li><a href="/committers/consensusBuilding.html">Building Consensus in a community</a></li>
+</ul>
+
+
+    </div>
+  </main>
+
+  <footer class="page-footer bg-secondary mt-4 pt-3">
+    <div class="container text-center text-md-left mb-3">
+      <div class="row">
+        <div class="col-md-6 mt-md-0 mt-3">
+          <h5 class="text-uppercase">Trademarks</h5>
+          <p>
+            Apache&reg;, the names of Apache projects, and the multicolor feather logo are
+            <a href="https://www.apache.org/foundation/marks/list/">registered trademarks or trademarks</a> of the Apache
+            Software Foundation in the United States and/or other countries.
+          </p>
+        </div>
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <div class="col-md-6 mb-md-0 mb-3">
+          <h5 class="text-uppercase">Website sources</h5>
+
+          <p>
+            This website is generated from the <a href="https://github.com/apache/comdev-site">comdev-site repository</a>.<br>
+            Patches are welcome!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright text-center py-3">
+      <em>Copyright &copy; 2023, <a href="https://www.apache.org/">the Apache Software Foundation</a>. Licensed under the
+      <a rel="license" href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></em>
+    </div>
+  </footer>
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>

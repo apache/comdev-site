@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+  <meta name="description" content="Apache Community Development"/>
+  <meta name="keywords" content="apache, apache community, community development, opensource"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta property="og:title" content="Community Development News - July 2018" />
+<meta property="og:description" content="Welcome to our monthly blog update about what is happening in Apache Community Development (ComDev)!
+This month we have news about ApacheCon NA in Montreal, we prepare to participate at Solutions Hamburg, we talk about our great experience at OSCON, and we look at making sure people can find out about Apache related meetups and events.
+ApacheCon NA 2018 &para; ApacheCon North America, in Montreal, is less than 60 days away and there is still a lot of work happening to ensure that the conference is a success." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://community.apache.org/blog/community-development-news-july-2018.html" /><meta property="og:image" content="https://community.apache.org/images/aceu19_1.jpg"/><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2018-08-06T00:00:00+00:00" />
+<meta property="article:modified_time" content="2018-08-06T00:00:00+00:00" /><meta property="og:site_name" content="Apache Community Development" />
+
+
+  <title>Apache Community Development - Community Development News - July 2018</title>
+  <link rel="shortcut icon" href="/images/favicon.ico">
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link href="/css/main.css" rel="stylesheet" media="screen">
+  <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <style type="text/css">
+      .footer {
+          text-align:center;
+          color:grey;
+          font-size:80%;
+          border-top: solid #ddd 1px;
+          margin-top:1em;
+      }
+      .navbar-brand img {
+          height: 50px;
+      }
+  </style>
+
+  
+<script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(['disableCookies']);
+   
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.apache.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '36']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+
+  
+
+</head>
+
+<body>
+  <header class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+    <img src="https://svn.apache.org/repos/asf/comdev/project-logos/originals/foundation.svg" alt="Apache Software Foundation">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="mainNavbar">
+    <div class="container"> 
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="homeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Home
+            </a>
+            <div class="dropdown-menu" aria-labelledby="homeDropdown">
+              <a class="dropdown-item" href="/">Homepage</a>
+              <a class="dropdown-item" href="/tags.html">Tags</a>
+              <a class="dropdown-item" href="/blog/">Blog</a>
+              <a class="dropdown-item" href="/tags/navigation.html">Navigation pages</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About
+          </a>
+          <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+            <a class="dropdown-item" href="/about/">What We Do</a>
+            <a class="dropdown-item" href="/newbiefaq.html">Frequently Asked Questions</a>
+            <a class="dropdown-item" href="/projectIndependence.html">Apache Project Independence</a>
+            <a class="dropdown-item" href="/apache-way/apache-project-maturity-model.html">Apache Project Maturity Model</a>
+            <a class="dropdown-item" href="/contactpoints.html">Contact Points Within the ASF</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html#2009-11-01">ComDev Original Board Resolution</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html">ComDev Board Reports</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/COMDEV">Community Development Jira</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">About Apache</a>
+            <a class="dropdown-item" href="https://www.apache.org/">The Apache Software Foundation</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/sponsorship">Sponsor Apache</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/thanks">Thanks to our Sponsors</a>
+            <a class="dropdown-item" href="https://www.apache.org/licenses">License</a>
+            <a class="dropdown-item" href="https://www.apache.org/security">Security</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="contribDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            For Contributors
+          </a>
+          <div class="dropdown-menu" aria-labelledby="contribDropdown">
+            <a class="dropdown-item" href="/newcomers/">Newcomers</a>
+            <a class="dropdown-item" href="/newcomers/gettingStarted.html">Getting Started</a>
+            <a class="dropdown-item"
+            href="/contributor-ladder.html">Contributor Ladder</a>
+            <a class="dropdown-item" href="/contributors/">Finding Your Way Around The Apache Software Foundation</a>
+            <a class="dropdown-item" href="https://www.apache.org/dev/">Technical Developer FAQs</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="commitDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">GSoC</a>
+          <div class="dropdown-menu" aria-labelledby="gsocDropdown">
+            <a class="dropdown-item" href="/gsoc/">Google Summer Of Code Information</a>
+            <a class="dropdown-item" href="/gsoc/mentee-ranking-process.html">Mentee Ranking Process</a>
+            <a class="dropdown-item" href="/gsoc/experiences.html">Past GSoC Experiences</a>
+            <a class="dropdown-item" href="/gsoc/guide-to-being-a-mentor.html">Guide to being a Mentor</a>
+            <a class="dropdown-item" href="/gsoc/use-the-comdev-gsoc-issue-tracker-for-gsoc-tasks.html">Using ComDev's Jira for GSoC Ideas</a>
+            <a class="dropdown-item" href="/gsoc/gsoc-admin-tasks.html">Tasks of a GSoC Admin at the ASF</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/GSOC">GSoC Jira</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="commitDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            For Committers/PMCs
+          </a>
+          <div class="dropdown-menu" aria-labelledby="commitDropdown">
+            <a class="dropdown-item" href="/newcommitter.html">Recruiting New Committers</a>
+            <a class="dropdown-item" href="/committers/">Useful Information for Committers</a>
+            <a class="dropdown-item" href="/committers/decisionMaking.html">Decision Making</a>
+            <a class="dropdown-item" href="/committers/funding-disclaimer.html">Funding Campaign Disclaimer</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="eventDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Events
+          </a>
+          <div class="dropdown-menu" aria-labelledby="eventDropdown">
+            <a class="dropdown-item" href="https://apachecon.com/">Community Over Code - (formerly ApacheCon)</a>
+            <a class="dropdown-item" href="https://events.apache.org/">Other Apache-related Events</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/marks/events">Apache event branding policies</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">Conference Speakers</a>
+            <a class="dropdown-item" href="/speakers/slides.html">Sample presentations</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="conversDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Join the Conversation
+          </a>
+          <div class="dropdown-menu" aria-labelledby="conversDropdown">
+            <a class="dropdown-item" href="/blog/">Blog</a>
+            <a class="dropdown-item" href="https://www.facebook.com/ApacheSoftwareFoundation">Facebook</a>
+            <a class="dropdown-item" href="https://twitter.com/ApacheCommunity">Twitter</a>
+            <a class="dropdown-item" href="/lists.html">Mailing List</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+    </div>
+  </header>
+
+  <main class="cd-main" id="content" role="main">
+    <div class="container">
+      <section id="content" class="row">
+        <div class="col-md-9">
+          <h3 class="mt-3 text-muted">The Apache Software Foundation</h3>
+        </div>
+        <div class="col-md-12"><h4 class="text-muted">Community &gt; Code</h4></div>
+      </section>
+      
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">Home</a></li>
+    
+        
+        
+    
+        
+        
+            <li class="breadcrumb-item"><a href='/blog'>Blog</a></li>
+            
+        
+    
+        
+        
+            <li class="breadcrumb-item"><a href='/blog/community-development-news-july-2018.html'>Community development news july 2018</a></li>
+            
+        
+    
+  </ol>
+</nav>
+
+
+      <hr>
+       
+<ul class="tags-list">
+  
+  <li>
+    <a href="https://community.apache.org/tags/blog.html">blog</a>
+  </li>
+  <li>
+    <a href="https://community.apache.org/tags/news.html">news</a>
+  </li></ul>
+
+      
+	
+		<h2>Community Development News - July 2018</h2>
+		<span class="published-info">Published on Monday, Aug 6, 2018
+
+    
+    by sharan
+    
+</span>
+	
+	<br><br>
+	<p>Welcome to our monthly blog update about what is happening in Apache Community Development (ComDev)!</p>
+<p>This month we have news about ApacheCon NA in Montreal, we prepare to participate at Solutions Hamburg, we talk about
+our great experience at OSCON, and we look at making sure people can find out about Apache related meetups and events.</p>
+<h3 id="apachecon-na-2018">ApacheCon NA 2018 <a class="headerlink" title="Permalink" href="#apachecon-na-2018">&para;</a></h3>
+<p>ApacheCon North America, in Montreal, is less than 60 days away and there is still a lot of work happening to ensure
+that the conference is a success. The schedule includes over 100 talks and we&rsquo;ll be featuring talks from many of our our
+ASF projects., We have inspiring keynotes from some of the brilliant members of our community and the wider tech space,
+including:</p>
+<ul>
+<li>Myrle Krantz, PMC chair for Apache Fineract, and leader in the open source financing space</li>
+<li>Cliff Schmidt, founder of Literacy Bridge (now Amplio) and creator of the Talking Book project</li>
+<li>Bridget Kromhout, principal cloud developer advocate at Microsoft</li>
+<li>Euan McLeod, Comcast engineer, and pioneer in streaming video</li>
+</ul>
+<p>We&rsquo;ll also be featuring tracks for Geospatial science, Tomcat, Cloudstack, and Big Data, as well as numerous other
+fields where Apache software is leading the way. See the full schedule
+at <a href="http://apachecon.com/acna18/schedule.html">ApacheCon NA Schedule</a>.</p>
+<p>We&rsquo;ll also be running our Apache BarCamp, the traditional ApacheCon Hackathon, and the Wednesday evening Lighting Talks.
+If you&rsquo;d like to attend ApacheCon NA then you can <a href="http://apachecon.com/acna18">register here</a>.</p>
+<p>If you also need to book a hotel room for the event then we have negotiated a special room rate that is available until
+24th August 2018. Details about this can be found on
+the <a href="http://www.apachecon.com/acna18/venue.html">ApacheCon NA website</a>.</p>
+<h3 id="solutions-hamburg">Solutions Hamburg <a class="headerlink" title="Permalink" href="#solutions-hamburg">&para;</a></h3>
+<p>For the second year in a row we have been invited to participate at <a href="https://s.apache.org/TSHA">Solutions Hamburg</a>. This
+time as well as presentations we will also have an Apache booth. Solutions Hamburg will run from 12th to 14th September
+2018 in Hamburg. We have an Apache related mini track on Wednesday 12th September featuring the following talks:</p>
+<ul>
+<li>Community Over Code - Andrea Frittoli</li>
+<li>Transparency at Apache - Myrle Krantz</li>
+<li>Kommerzieller Erfolg durch Open-Source Engagement&hellip; wie geht das? - Christofer Dutz</li>
+</ul>
+<p>We are still looking for volunteers to staff our Apache booth throughout the conference so if you are interested in
+helping out then please respond to <a href="https://s.apache.org/QhGv">the thread on our mailing list</a>.</p>
+<h3 id="oscon">OSCON <a class="headerlink" title="Permalink" href="#oscon">&para;</a></h3>
+<p>In July we also had some Apache presentations and an Apache booth
+at <a href="https://conferences.oreilly.com/oscon/oscon-or">OSCON</a>. It has been a while since we participated but we had a great
+group of volunteers to help out with our presence there. Daniel Ruggeri was the main person co-ordinating the effort and
+he wrote a brief summary of the event below.</p>
+<p>Booth setup was straightforward and we had a couple of roller banners (one with the Apache feather, and another listing
+the logos of all our existing projects). We also ordered an extra large table cloth with the ASF logo for the booth so
+no one could have any difficulty finding us. When the table cloth arrived we realised that it was a little too big so
+had to do some on site adjustments using tape and eventually origami (OK folding and tucking!) to get it to fit. Thanks
+very much to Filip for his perfect folding techniques.</p>
+<p>We had a constant stream of visitors. Lots and lots of people came over to see us and chat. The range of visitors was
+varied, from people telling us &ldquo;Thanks for what you do!&rdquo; to those asking &ldquo;What is an Apache?&rdquo; and &ldquo;How can I help?&rdquo;</p>
+<p>One visitor that was particularly interesting was a man seeking advice for creating his own software foundation in
+support of his project. We talked to him about trying going through the incubator instead. Also our booth was located
+directly across from the NSA&rsquo;s booth so we were able to watch them while they watched us. Joking aside, We went over to
+talk to them and were able to pitch the idea to one of their engineers of taking his personal project through the
+incubator.</p>
+<p>One thing we underestimated was the amount of stickers and giveaways. The supplies we had were gone too quickly so one
+of the lessons learned is to get make sure we have more next time!</p>
+<p>We couldn&rsquo;t have done anything without our volunteers so huge thanks to Daniel ,Filip, Pono and Myrle for all their help
+and support in making our Apache presence at OSCON a great success. Thank you, thank you, THANK YOU!!!</p>
+<p>Being at OSCON really showed why having a booth there can really help with community development as we can reach out and
+meet new people that might be interested in joining our communities. This was another successful event for us to be
+involved in so let&rsquo;s hope we get invited to participate again in the future.</p>
+<h3 id="upcoming-events">Upcoming Events <a class="headerlink" title="Permalink" href="#upcoming-events">&para;</a></h3>
+<p>The Community Development team is consolidating Apache related event information into the events.apache.org website. In
+the past we have had information about conferences and meetups displayed in various places. The aim is to provide a
+single place where people can find out about events.</p>
+<p>Resources include</p>
+<ul>
+<li><a href="https://s.apache.org/nfp9">a community events calendar</a></li>
+<li><a href="https://s.apache.org/NTlA">a list of project related meetups</a></li>
+<li><a href="https://s.apache.org/q8r5">general information about ApachCon and Roadshow</a></li>
+</ul>
+<p>We are looking for volunteers to help ensure that our website event listings and calendar remain up to date so if you
+are interested in helping us with this then please respond to the <a href="https://s.apache.org/t8sm">mailing list thread</a>.</p>
+<h3 id="contacting-community-development">Contacting Community Development <a class="headerlink" title="Permalink" href="#contacting-community-development">&para;</a></h3>
+<p>Remember that we are always happy to get your feedback and comments so please feel free to contact us, follow our events
+and participate in our discussions on <a href="https://s.apache.org/qdrd">our mailing list</a>. If you would like to be kept up to
+date with all the latest news about what is happening in Community Development then please subscribe to our mailing list
+by sending an email to dev-subscribe AT community DOT apache DOT org.</p>
+
+
+    </div>
+  </main>
+
+  <footer class="page-footer bg-secondary mt-4 pt-3">
+    <div class="container text-center text-md-left mb-3">
+      <div class="row">
+        <div class="col-md-6 mt-md-0 mt-3">
+          <h5 class="text-uppercase">Trademarks</h5>
+          <p>
+            Apache&reg;, the names of Apache projects, and the multicolor feather logo are
+            <a href="https://www.apache.org/foundation/marks/list/">registered trademarks or trademarks</a> of the Apache
+            Software Foundation in the United States and/or other countries.
+          </p>
+        </div>
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <div class="col-md-6 mb-md-0 mb-3">
+          <h5 class="text-uppercase">Website sources</h5>
+
+          <p>
+            This website is generated from the <a href="https://github.com/apache/comdev-site">comdev-site repository</a>.<br>
+            Patches are welcome!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright text-center py-3">
+      <em>Copyright &copy; 2023, <a href="https://www.apache.org/">the Apache Software Foundation</a>. Licensed under the
+      <a rel="license" href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></em>
+    </div>
+  </footer>
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>

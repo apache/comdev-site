@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+  <meta name="description" content="Apache Community Development"/>
+  <meta name="keywords" content="apache, apache community, community development, opensource"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta property="og:title" content="Apache Newcomer FAQs" />
+<meta property="og:description" content="These answers to frequently asked questions may help newcomers to The Apache Software Foundation (ASF) and our many Apache projects understand how we work.
+Index of Questions
+About The Apache Software Foundation How do I find projects or technologies at the ASF? How are projects managed at the ASF? How do I ask a question about the ASF in general? How do I get user support for an Apache project? Getting involved with Apache projects How do I choose an Apache project to work on?" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://community.apache.org/newbiefaq.html" /><meta property="og:image" content="https://community.apache.org/images/aceu19_1.jpg"/><meta property="article:section" content="" />
+
+<meta property="og:site_name" content="Apache Community Development" />
+
+
+  <title>Apache Community Development - Apache Newcomer FAQs</title>
+  <link rel="shortcut icon" href="/images/favicon.ico">
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link href="/css/main.css" rel="stylesheet" media="screen">
+  <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <style type="text/css">
+      .footer {
+          text-align:center;
+          color:grey;
+          font-size:80%;
+          border-top: solid #ddd 1px;
+          margin-top:1em;
+      }
+      .navbar-brand img {
+          height: 50px;
+      }
+  </style>
+
+  
+<script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(['disableCookies']);
+   
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.apache.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '36']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+
+  
+
+</head>
+
+<body>
+  <header class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+    <img src="https://svn.apache.org/repos/asf/comdev/project-logos/originals/foundation.svg" alt="Apache Software Foundation">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="mainNavbar">
+    <div class="container"> 
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="homeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Home
+            </a>
+            <div class="dropdown-menu" aria-labelledby="homeDropdown">
+              <a class="dropdown-item" href="/">Homepage</a>
+              <a class="dropdown-item" href="/tags.html">Tags</a>
+              <a class="dropdown-item" href="/blog/">Blog</a>
+              <a class="dropdown-item" href="/tags/navigation.html">Navigation pages</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About
+          </a>
+          <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+            <a class="dropdown-item" href="/about/">What We Do</a>
+            <a class="dropdown-item" href="/newbiefaq.html">Frequently Asked Questions</a>
+            <a class="dropdown-item" href="/projectIndependence.html">Apache Project Independence</a>
+            <a class="dropdown-item" href="/apache-way/apache-project-maturity-model.html">Apache Project Maturity Model</a>
+            <a class="dropdown-item" href="/contactpoints.html">Contact Points Within the ASF</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html#2009-11-01">ComDev Original Board Resolution</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html">ComDev Board Reports</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/COMDEV">Community Development Jira</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">About Apache</a>
+            <a class="dropdown-item" href="https://www.apache.org/">The Apache Software Foundation</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/sponsorship">Sponsor Apache</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/thanks">Thanks to our Sponsors</a>
+            <a class="dropdown-item" href="https://www.apache.org/licenses">License</a>
+            <a class="dropdown-item" href="https://www.apache.org/security">Security</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="contribDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            For Contributors
+          </a>
+          <div class="dropdown-menu" aria-labelledby="contribDropdown">
+            <a class="dropdown-item" href="/newcomers/">Newcomers</a>
+            <a class="dropdown-item" href="/newcomers/gettingStarted.html">Getting Started</a>
+            <a class="dropdown-item"
+            href="/contributor-ladder.html">Contributor Ladder</a>
+            <a class="dropdown-item" href="/contributors/">Finding Your Way Around The Apache Software Foundation</a>
+            <a class="dropdown-item" href="https://www.apache.org/dev/">Technical Developer FAQs</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="commitDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">GSoC</a>
+          <div class="dropdown-menu" aria-labelledby="gsocDropdown">
+            <a class="dropdown-item" href="/gsoc/">Google Summer Of Code Information</a>
+            <a class="dropdown-item" href="/gsoc/mentee-ranking-process.html">Mentee Ranking Process</a>
+            <a class="dropdown-item" href="/gsoc/experiences.html">Past GSoC Experiences</a>
+            <a class="dropdown-item" href="/gsoc/guide-to-being-a-mentor.html">Guide to being a Mentor</a>
+            <a class="dropdown-item" href="/gsoc/use-the-comdev-gsoc-issue-tracker-for-gsoc-tasks.html">Using ComDev's Jira for GSoC Ideas</a>
+            <a class="dropdown-item" href="/gsoc/gsoc-admin-tasks.html">Tasks of a GSoC Admin at the ASF</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/GSOC">GSoC Jira</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="commitDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            For Committers/PMCs
+          </a>
+          <div class="dropdown-menu" aria-labelledby="commitDropdown">
+            <a class="dropdown-item" href="/newcommitter.html">Recruiting New Committers</a>
+            <a class="dropdown-item" href="/committers/">Useful Information for Committers</a>
+            <a class="dropdown-item" href="/committers/decisionMaking.html">Decision Making</a>
+            <a class="dropdown-item" href="/committers/funding-disclaimer.html">Funding Campaign Disclaimer</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="eventDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Events
+          </a>
+          <div class="dropdown-menu" aria-labelledby="eventDropdown">
+            <a class="dropdown-item" href="https://apachecon.com/">Community Over Code - (formerly ApacheCon)</a>
+            <a class="dropdown-item" href="https://events.apache.org/">Other Apache-related Events</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/marks/events">Apache event branding policies</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">Conference Speakers</a>
+            <a class="dropdown-item" href="/speakers/slides.html">Sample presentations</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="conversDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Join the Conversation
+          </a>
+          <div class="dropdown-menu" aria-labelledby="conversDropdown">
+            <a class="dropdown-item" href="/blog/">Blog</a>
+            <a class="dropdown-item" href="https://www.facebook.com/ApacheSoftwareFoundation">Facebook</a>
+            <a class="dropdown-item" href="https://twitter.com/ApacheCommunity">Twitter</a>
+            <a class="dropdown-item" href="/lists.html">Mailing List</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+    </div>
+  </header>
+
+  <main class="cd-main" id="content" role="main">
+    <div class="container">
+      <section id="content" class="row">
+        <div class="col-md-9">
+          <h3 class="mt-3 text-muted">The Apache Software Foundation</h3>
+        </div>
+        <div class="col-md-12"><h4 class="text-muted">Community &gt; Code</h4></div>
+      </section>
+      
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">Home</a></li>
+    
+        
+        
+    
+        
+        
+            <li class="breadcrumb-item"><a href='/newbiefaq.html'>Newbiefaq</a></li>
+            
+        
+    
+  </ol>
+</nav>
+
+
+      <hr>
+       
+<ul class="tags-list">
+  
+  <li>
+    <a href="https://community.apache.org/tags/newcomers.html">newcomers</a>
+  </li>
+  <li>
+    <a href="https://community.apache.org/tags/faq.html">faq</a>
+  </li></ul>
+
+      
+	
+	<br><br>
+	<p>These answers to frequently asked questions may help newcomers to
+The Apache Software Foundation (ASF) and our many Apache projects understand how we work.</p>
+<p><em>Index of Questions</em></p>
+<ul>
+<li><a href="#NewbieFAQ-AboutTheApacheSoftwareFoundation">About The Apache Software Foundation</a>
+<ul>
+<li><a href="#NewbieFAQ-WhatprojectscanIfindinTheApacheSoftwareFoundation?">How do I find projects or technologies at the ASF?</a></li>
+<li><a href="#NewbieFAQ-HowareprojectsmanagedinTheApacheSoftwareFoundation">How are projects managed at the ASF?</a></li>
+<li><a href="#NewbieFAQ-HowdoIaskaquestionabouttheASFingeneral?">How do I ask a question about the ASF in general?</a></li>
+<li><a href="#NewbieFAQ-HowdoIgetusersupportforanASFproject?">How do I get user support for an Apache project?</a></li>
+</ul>
+</li>
+<li><a href="#NewbieFAQ-GettingInvolvedwithApacheprojects">Getting involved with Apache projects</a>
+<ul>
+<li><a href="#NewbieFAQ-HowdoIchooseanApacheprojecttoworkon?">How do I choose an Apache project to work on?</a></li>
+<li><a href="#NewbieFAQ-HowdoIgetinvolvedwithanApacheproject?">How do I get involved with an Apache project?</a></li>
+<li><a href="#NewbieFAQ-IsthereaCodeofConductforApacheprojects?">Is there a Code of Conduct for Apache projects?</a></li>
+</ul>
+</li>
+<li><a href="#websitecms">How do I suggest or make changes to this website?</a></li>
+<li><a href="#comdevweb">What other useful websites about Apache are there?</a></li>
+<li><a href="#comdevbug">How do I report a bug for Comdev websites or tools?</a></li>
+</ul>
+<p>We are always looking for better ways to help newcomers to the ASF find
+the information they&rsquo;re looking for. Please ask questions or give us suggestions on
+<a href="mailto:dev@community.apache.org">dev@community.apache.org</a> (subscribe by sending an email to
+<a href="mailto:dev-subscribe@community.apache.org">dev-subscribe@community.apache.org</a> first).</p>
+<p><a name="NewbieFAQ-AboutTheApacheSoftwareFoundation"></a></p>
+<h1 id="about-the-apache-software-foundation">About The Apache Software Foundation <a class="headerlink" title="Permalink" href="#about-the-apache-software-foundation">&para;</a></h1>
+<p><a name="NewbieFAQ-WhatprojectscanIfindinTheApacheSoftwareFoundation?"></a></p>
+<h2 id="what-projects-can-i-find-in-the-apache-software-foundation">What projects can I find in The Apache Software Foundation? <a class="headerlink" title="Permalink" href="#what-projects-can-i-find-in-the-apache-software-foundation">&para;</a></h2>
+<p>There are over 350 separate projects and communities hosted at the Apache Software Foundation. We have
+three classes, or types, of project (in terms of their community, not in terms of technology):</p>
+<ul>
+<li><a href="https://projects.apache.org">Top Level Projects</a> (TLPs): these are projects with healthy communities and active development; and supported software products you can find here: <a href="https://projects.apache.org/">listing by technologies</a>.</li>
+<li><a href="https://incubator.apache.org">Incubating Projects</a>: these are projects that have yet to build a sustainable community, but
+have active development and are moving towards graduating to become TLPs.</li>
+<li><a href="https://attic.apache.org">Attic</a>: these are end-of-life projects that are no longer receiving active
+development, but may still be useful.</li>
+</ul>
+<p><a name="NewbieFAQ-HowareprojectsmanagedinTheApacheSoftwareFoundation"></a></p>
+<h2 id="how-are-projects-managed-in-the-apache-software-foundation">How are projects managed in the Apache Software Foundation? <a class="headerlink" title="Permalink" href="#how-are-projects-managed-in-the-apache-software-foundation">&para;</a></h2>
+<p>Apache project participants all believe that if we look after the community, good
+code will emerge from that community. That is, when people with similar
+needs come together, they will work out a way to solve their common
+problems. For this reason we created the Community
+Development project (where you are right now). The ASF has grown to be very
+large and, from the outside, can look too mature for newcomers and novices.
+However, these communities seek to be flat in structure. No single person
+in any community has more influence than the next; a newcomer with a good
+idea has just as much input and influence as the original creator of the
+project.</p>
+<p>We do have a system, <em>meritocracy</em>, that allows those who have
+demonstrated commitment and understanding to the community to earn certain
+privileges, such as being able to make changes directly to documentation
+and program code. However, these privileges simply streamline the
+process; they do not (in most cases) give additional powers over the
+project.</p>
+<p>In summary, Apache projects work because people like you participate
+constructively within them!</p>
+<p>To learn more about &ldquo;The Apache Way&rdquo; in general, see the <a href="https://apache.org/foundation/how-it-works.html">How it Works</a>
+pages. We also have <a href="https://www.apache.org/foundation/governance/">detailed overviews of how the ASF and projects are governed</a>.</p>
+<p><a name="NewbieFAQ-HowdoIaskaquestionabouttheASFingeneral?"></a></p>
+<h2 id="generalquestion">How do I ask a question about the ASF in general? <a class="headerlink" title="Permalink" href="#generalquestion">&para;</a></h2>
+<p>The Community Development Project is here for this very purpose. Check out
+the resources on this site first. If you don&rsquo;t find the answer to your question, send an email
+to <code>dev@community.apache.org</code> (subscribe first by sending an email to
+<code>dev-subscribe@community.apache.org</code>).</p>
+<p><a name="NewbieFAQ-HowdoIgetusersupportforanASFproject?"></a></p>
+<h2 id="how-do-i-get-user-support-for-an-asf-project">How do I get user support for an ASF project? <a class="headerlink" title="Permalink" href="#how-do-i-get-user-support-for-an-asf-project">&para;</a></h2>
+<p>Everyone active in ASF projects is here as a volunteer. You need to be
+careful not to waste people&rsquo;s time, so do your homework. Generally, if
+people can see that you have tried to solve your problem before asking for help, they are more
+likely to respond. So, before asking a question, do the following:</p>
+<ul>
+<li>Search that project&rsquo;s documentation</li>
+<li>Search that <a href="https://mail-archives.apache.org/mod_mbox/">project&rsquo;s user@ mailing list archives</a></li>
+<li>Search the project issue tracker for any related known issues</li>
+<li>Search the web in general</li>
+</ul>
+<p>If you don&rsquo;t find a solution, send a concise, but detailed, request for
+support to the appropriate <code>users@</code> mailing list (you will usually need to
+subscribe first, by sending an email to <code>users-subscribe@</code>). Indicate that you have read the appropriate documentation
+and explain what you have tried, what you expect to happen and what
+actually happens. All Apache projects should have a &ldquo;Mailing List&rdquo;,
+&ldquo;How to Contribute&rdquo; or similar link on their home page that tells you how to subscribe
+to that project&rsquo;s specific lists. Mailing lists at Apache are also
+<a href="https://mail-archives.apache.org/mod_mbox/">publicly archived</a> at the ASF and <a href="https://apache.markmail.org/">elsewhere</a>.</p>
+<p>Be patient waiting for a response: give it at least three working days
+before you send a second message. People are busy, and they will deal with your
+request when they can. If you need urgent help it is best not to rely on
+the community support channels, but to find an outside organization willing to support you for
+a fee. Remember that committers on Apache mailing lists are generally working as volunteers.</p>
+<p>It is worth noting that people are more willing to help those who
+contribute back to the project in some way. If you hit a problem that was
+not documented, it is likely others will, too. A good idea is to propose a
+patch to the project to improve its documentation. Then those
+who follow in your footsteps get an answer in the first step above and you
+start to build merit in the community that will result in further help in
+the future.</p>
+<p>A second way of contributing is to provide user support to others as your
+expertise grows. Again, earning merit in this way will help you to get
+the support you need in the future.</p>
+<p><a name="NewbieFAQ-GettingInvolvedwithApacheprojects"></a></p>
+<h1 id="getting-involved-with-apache-projects">Getting Involved with Apache projects <a class="headerlink" title="Permalink" href="#getting-involved-with-apache-projects">&para;</a></h1>
+<p><a name="NewbieFAQ-HowdoIchooseanApacheprojecttoworkon?"></a></p>
+<h2 id="how-do-i-choose-an-apache-project-to-work-on">How do I choose an Apache project to work on? <a class="headerlink" title="Permalink" href="#how-do-i-choose-an-apache-project-to-work-on">&para;</a></h2>
+<p>The key to working on projects at Apache (and any open source project, for that
+matter) is to have a personal reason for being involved. You might be
+trying to solve a day job issue, you might be looking to learn a new
+technology or you might simply want to do something fun in your free time.
+The key is that you must <em>want</em> to get involved. It is also important that
+you have appropriate skills to be able to help the project.</p>
+<p>Our <a href="https://projects.apache.org/">projects page</a> provides a list of projects that you can sort alphabetically, by category or by language. When you view a project&rsquo;s details
+page you can find out about its mailing lists, issue tracker and other resources.</p>
+<p>In the project&rsquo;s issue tracker you will find details of bugs and feature
+requests the project would like help with. This should give you some
+inspiration about how you might be able to help the project community. If
+you see an issue you would like to tackle, it&rsquo;s time to join the project&rsquo;s
+mailing list and get started.</p>
+<p><a name="NewbieFAQ-HowdoIgetinvolvedwithanApacheproject?"></a></p>
+<h2 id="how-do-i-get-involved-with-an-apache-project">How do I get involved with an Apache project? <a class="headerlink" title="Permalink" href="#how-do-i-get-involved-with-an-apache-project">&para;</a></h2>
+<p>You can improve your programming skills by watching the <code>commit</code>
+lists, receiving code reviews and participating in discussions. However,
+this learning opportunity is a healthy side effect of open source
+activities rather than a goal in itself. Nobody in an Apache project is
+going to spend time teaching you Programming 101, technical writing or
+testing (to mention just a few of the skills we need). You need to know the basics
+and be willing to research the rest.</p>
+<p>To learn more about getting involved with an Apache Project, see our <a href="/newcomers/gettingStarted.html">getting
+started guide</a>. You will also find our <a href="https://apache.org/foundation/getinvolved.html">get involved</a> page a useful starting point.</p>
+<p><a name="NewbieFAQ-IsthereaCodeofConductforApacheprojects?"></a></p>
+<h2 id="is-there-a-code-of-conduct-for-apache-projects">Is there a Code of Conduct for Apache projects? <a class="headerlink" title="Permalink" href="#is-there-a-code-of-conduct-for-apache-projects">&para;</a></h2>
+<p>Our code of conduct is posted at
+<a href="https://www.apache.org/foundation/policies/conduct.html">https://www.apache.org/foundation/policies/conduct.html</a>.
+The ASF expects that everyone participating on an Apache project, whether it be improving websites; contributing to email lists, bugtrackers, or forums hosted at <code>apache.org</code>; or contributing code will abide by our code of conduct.</p>
+<p>PMCs are allowed to define their own additional codes of conduct for their individual communities, but all PMCs are expected to abide by the Foundation-wide policy.</p>
+<p>The <a href="https://incubator.apache.org/guides/committer.html">Incubator document</a> also
+has some really useful information for both the newbie and the
+old hands. The section on <strong>ASF Mottos</strong> is especially useful as a reminder of the way things are in most ASF
+projects. This section includes such gems as:</p>
+<ul>
+<li>Put community before code.</li>
+<li>Let them who do the work make the decisions.</li>
+<li>If it didn&rsquo;t happen on a mailing list, it didn&rsquo;t happen.</li>
+<li>Don&rsquo;t feed the trolls.</li>
+</ul>
+<h1 id="websitecms">How do I suggest changes to this website? <a class="headerlink" title="Permalink" href="#websitecms">&para;</a></h1>
+<p>The content for the <code>community.apache.org</code> website is written in Markdown
+and published automatically using a <a href="https://ci-builds.apache.org/job/Community%20Development/job/site/">Jenkins job</a>.
+Any contributor is able to submit changes via pull requests. Comdev committers are able to merge
+proposed changes.</p>
+<p>Website sources are available via:</p>
+<ul>
+<li>GitHub: <a href="https://github.com/apache/comdev-site">https://github.com/apache/comdev-site</a></li>
+<li>Gitbox: <a href="https://gitbox.apache.org/repos/asf/comdev-site.git">https://gitbox.apache.org/repos/asf/comdev-site.git</a></li>
+</ul>
+<p>For general questions you can <a href="#generalquestion">ask us on dev@community</a>
+or read our <a href="https://lists.apache.org/list.html?dev@community.apache.org:lte=3M:">mailing list archives</a> for past questions and answers.</p>
+<p>For technical website details, see <a href="/about/#about-this-website">About this Website</a>.
+To submit a formal bug, see our <a href="#comdevbug">COMDEV JIRA</a>.</p>
+<h1 id="comdevweb">What else does Community Development publish or manage? <a class="headerlink" title="Permalink" href="#comdevweb">&para;</a></h1>
+<p>The Community Development project maintains several other tools
+that help you navigate the ASF.</p>
+<ul>
+<li>The <a href="https://projects.apache.org/">Apache Projects Directory</a> lists all our software technologies, and you can learn <a href="https://projects.apache.org/about.html">how it works</a> and what JSON data feeds are available.</li>
+<li><a href="https://home.apache.org/">Home.apache.org</a> serves as a telephone directory of all Apache committers.</li>
+<li>Apache committers can log in to the <a href="https://reporter.apache.org/">Project Reporting Tool</a> that helps PMCs create quarterly board reports; you can <a href="https://svn.apache.org/repos/asf/comdev/reporter.apache.org/">see the code that does this</a>.</li>
+<li>A <a href="https://cwiki.apache.org/confluence/display/COMDEV/ComDev+Wiki">ComDev Wiki</a> is also available for scratch or experimental work, although most permanent content should be here in the website.</li>
+</ul>
+<h1 id="comdevbug">How do I report a bug for Comdev websites or tools? <a class="headerlink" title="Permalink" href="#comdevbug">&para;</a></h1>
+<p>The Community Development project has a Jira issue tracker queue where you
+can submit bug reports related to any of our services or websites.</p>
+<ul>
+<li><a href="https://issues.apache.org/jira/browse/COMDEV">https://issues.apache.org/jira/browse/COMDEV</a></li>
+</ul>
+
+
+    </div>
+  </main>
+
+  <footer class="page-footer bg-secondary mt-4 pt-3">
+    <div class="container text-center text-md-left mb-3">
+      <div class="row">
+        <div class="col-md-6 mt-md-0 mt-3">
+          <h5 class="text-uppercase">Trademarks</h5>
+          <p>
+            Apache&reg;, the names of Apache projects, and the multicolor feather logo are
+            <a href="https://www.apache.org/foundation/marks/list/">registered trademarks or trademarks</a> of the Apache
+            Software Foundation in the United States and/or other countries.
+          </p>
+        </div>
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <div class="col-md-6 mb-md-0 mb-3">
+          <h5 class="text-uppercase">Website sources</h5>
+
+          <p>
+            This website is generated from the <a href="https://github.com/apache/comdev-site">comdev-site repository</a>.<br>
+            Patches are welcome!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright text-center py-3">
+      <em>Copyright &copy; 2023, <a href="https://www.apache.org/">the Apache Software Foundation</a>. Licensed under the
+      <a rel="license" href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></em>
+    </div>
+  </footer>
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>
