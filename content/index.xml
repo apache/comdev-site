@@ -6,7 +6,17 @@
     <description>Recent content in ASF Community Development - Welcome on ASF Community Development</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://community.apache.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://community.apache.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RSS feeds activated</title>
+      <link>https://community.apache.org/blog/rss-feeds-activated.html</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/rss-feeds-activated.html</guid>
+      <description>We have activated RSS feeds on this website.
+Section pages such as the blog and pmc pages each have their own feed, to which you can subscribe to stay updated.</description>
+    </item>
+    
     <item>
       <title>Paving the way for a more diverse open source landscape: the First OSS Contributor Summit in Mexico</title>
       <link>https://community.apache.org/blog/the-asf-helps-promote-open.html</link>
