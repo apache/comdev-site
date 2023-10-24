@@ -29,6 +29,8 @@ and best practices apply to other projects as well.
 
 If you're new to the ASF, and are looking for where to get involved, [you can find relevant information here](/tags/newcomers.html).
 
+RSS feeds allow you to subscribe to our content, section pages such as the [blog](/blog/) and [pmc](/pmc/) pages each have their own
+feed.
 </div>
 
 <a name="Index-Startingpoints"></a>
