@@ -100,12 +100,11 @@ Interest across multiple projects, and at the Foundation-wide level, is the star
 Finally, a reminder – there’s no way to guarantee promotion to committer or the PMC. However, if you make your goal the improvement of the project, rather than just about personal promotion, and approach these recommendations as a path to project ownership, in good faith, these are your best path towards that goal.
 
 # Resources
-Find your project’s [committer and PMC membership lists](https://projects.apache.org/)
 
-Read [mailing list archives](https://lists.apache.org/)
-
-Find your contribution count to date on Github, for example: [Apache Hadoop contributors](https://github.com/apache/hadoop/graphs/contributors) (You can drag a date range to narrow it down to recent contributions.)
-
-View [past board reports from your project](https://www.apache.org/foundation/board/calendar.html). This is a good way to judge the rate at which a given project adds committers and PMC members. It’s also a way to compare how long other individuals took to attain committer status.
+* Find your project’s [committer and PMC membership lists](https://projects.apache.org/)
+* Read [mailing list archives](https://lists.apache.org/)
+* Find your contribution count to date on Github, for example: [Apache Hadoop contributors](https://github.com/apache/hadoop/graphs/contributors) (You can drag a date range to narrow it down to recent contributions.)
+* View [past board reports from your project](https://www.apache.org/foundation/board/calendar.html). This is a good way to judge the rate at which a given project adds committers and PMC members. It’s also a way to compare how long other individuals took to attain committer status.
+* A number of projects have information pages on contributing and becoming a committer. As of 2023, at least [Kafka](https://kafka.apache.org/contributing.html), [NetBeans](https://netbeans.apache.org/community/committer.html), [Beam](https://beam.apache.org/contribute/become-a-committer/), [Maven](https://maven.apache.org/guides/development/guide-committer-school.html) and [Submarine](https://submarine.apache.org/docs/community/HowToBecomeCommitter/) have such pages. They might be specific to how they operate, but help see the big picture.
 
 
