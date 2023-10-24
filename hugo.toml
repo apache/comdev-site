@@ -1,5 +1,5 @@
 baseURL = "https://community.apache.org"
-title = "Apache Comdev"
+title = "ASF Community Development"
 languageCode = "en"
 
 contentDir = "source"
@@ -48,3 +48,8 @@ tags = ["OpenSource", "Community", "Apache Software Foundation"]
 
 [social]
 twitter = "ApacheCommunity"
+
+[outputs]
+home = ["html","rss"]
+term = ["html"]
+section = ["html","rss"]
