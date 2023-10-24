@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>GSoC on Apache Comdev</title>
+    <title>GSoC on ASF Community Development</title>
     <link>https://community.apache.org/gsoc/</link>
-    <description>Recent content in GSoC on Apache Comdev</description>
+    <description>Recent content in GSoC on ASF Community Development</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language><atom:link href="https://community.apache.org/gsoc/index.xml" rel="self" type="application/rss+xml" />
     <item>
