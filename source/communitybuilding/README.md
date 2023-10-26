@@ -27,9 +27,21 @@ grow and retain the various parts of a project community. This includes,
 but is not limited to:
 
 * Welcoming
+    * Creating a welcoming environment for beginners
+    * Actively welcoming new contributors
+    * Welcoming, and onboarding, new Committers, PMC members
 * Transparency
+    * Bringing discussion back to the public list
+    * Over-communicating, rather than assuming everyone Just Knows
+    * Appropriate use of synchronous communication (ie, Slack, Discord,
+      etc.)
 * Articulating the project mission
+    * What's in scope? What is out of scope?
+    * What does it do? Who is the target audience?
 * Events
+    * Foundation-wide events
+    * Project summits
+    * Small/Local meetups
 * Good First Tickets
 * Responsiveness (to tickets, questions, PRs)
 * Delegation (Actively delegating to beginners, so that they can build
