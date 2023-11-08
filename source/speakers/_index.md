@@ -64,4 +64,4 @@ comdev mailing list][9].
   [6]: https://www.apache.org/foundation/press/kit/
   [7]: slides.html
   [8]: themes
-  [9]: https://lists.apache.org/list?community@apache.org
+  [9]: https://lists.apache.org/list?dev@community.apache.org
