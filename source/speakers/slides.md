@@ -57,7 +57,7 @@ Slides and talk recordings are linked from my [Pressbook](https://pinboard.in/u:
  - [About: Apache - The Foundation, The Way, The Projects](https://communityovercode.com/2012/05/camelone-2012-presentation/)
  - [Managing Community Open Source Brands](https://communityovercode.com/2012/07/oscon-presentation/)
  - [Improving Your Project's Image And Brand](https://www.slideshare.net/shanecurcuru/improving-your-apache-projects-image-and-brand)
- - [Supporting Apache Brands While Making A Profit](https://events.linuxfoundation.org/sites/events/files/slides/SupportingApacheBrandsWhileMakingAProfit-SCurcuru-ApacheCon2014.pdf) ([video](https://www.youtube.com/watch?v=8cQMhysKeyU))
+ - [Supporting Apache Brands While Making A Profit](https://www.youtube.com/watch?v=8cQMhysKeyU) (video)
  - [Successfully Profiting From Apache Projects](https://www.slideshare.net/shanecurcuru/successfully-profiting-from-apache-brands)
  - [Practical Trademark Law For FOSS Projects](https://www.slideshare.net/shanecurcuru/practical-trademark-law-for-foss-projects)
 
@@ -95,7 +95,7 @@ And more at his [slideshare profile](https://www.slideshare.net/PiergiorgioLucid
 ## Committers - please add to this page!
 
 If you are an Apache committer and have presented slides on community topics
-around Apache, please add a link to your information here! 
+around Apache, please [add a link to your information here](https://github.com/apache/comdev-site)! 
 
 ### Slide templates
 
