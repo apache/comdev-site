@@ -26,6 +26,7 @@ Additional slides, videos and audio recordings can also be found through the
 - [Briefing: The Apache Way](https://www.apache.org/theapacheway/index.html) (paper)
 - [The Apache Way to Sustainable Open Source Success](https://blogs.apache.org/foundation/entry/the-apache-way-to-sustainable)  (paper)
 - [Sponsorship pitch deck](https://docs.google.com/presentation/d/1NGhnhuyA9LcSfnsxJK1AyBFTkrVgbTbzjsMjXT233qc/) (Google slides)
+- [What is the ASF?](https://training.apache.org/presentations/comdev/apache-intro) (From the Apache Training project)
 
 # Isabel Drost
   - [Open Source development for students][1]
@@ -45,7 +46,7 @@ Additional slides, videos and audio recordings can also be found through the
 # Jim Jagielski
   - [Communities and Collaboration][9]
   - [Open Source: It's just not for IT anymore][10]
-  - More of Jims presentations [here][11] and [here][12]
+  - More of Jim's presentations [here][11] and [here][12]
 
 # Bertrand Delacretaz
 
