@@ -46,7 +46,7 @@ Additional slides, videos and audio recordings can also be found through the
 # Jim Jagielski
   - [Communities and Collaboration][9]
   - [Open Source: It's just not for IT anymore][10]
-  - More of Jims presentations [here][11] and [here][12]
+  - More of Jim's presentations [here][11] and [here][12]
 
 # Bertrand Delacretaz
 
