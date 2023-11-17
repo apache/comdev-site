@@ -9,7 +9,8 @@ materials, this is the place for you.
 
 If you are seeking to organise an Apache-branded event, you must ensure your activities 
 conform to the [Third Party Event Branding Policy][1]. Once you have verified you are in
-conformance, please consider adding your event to the [events calendar][2].
+conformance, contact dev@community.apache.org to get your event added to
+the [events calendar][2].
 
 ## Finding speakers
 
@@ -41,6 +42,8 @@ that talks about Apache communities, best practices, or the like
 (i.e. one that is applicable to more than just one project 
 at Apache), please email us and suggest we include your slides.
 
+If you want to prepare a new presentation about any Apache project, feel free to start using [Apache slide templates](https://svn.apache.org/repos/asf/comdev/slide-templates/).
+
 ## Speaker coaching and mentoring
 
 The ComDev committee provides several types of speaker coaching for
@@ -57,7 +60,7 @@ comdev mailing list][9].
 
 
   [1]: https://community.zones.apache.org/
-  [2]: /calendars/conferences.html
+  [2]: https://events.apache.org/
   [3]: https://community.zones.apache.org/
   [4]: slides.html
   [5]: speakers.html
