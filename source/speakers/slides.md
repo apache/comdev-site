@@ -44,8 +44,7 @@ software projects work, and how the ASF itself works.
   - [Several older Apache Way and related slide decks](https://www.slideshare.net/jaaronfarr/presentations) (J Aaron Farr)
   - [An Overview of The Apache Software Foundation][6] (Justin Erenkrantz)
   - [Construyendo software y comunidades a la manera de Apache](https://iemejia.github.io/slides/201806-Construyendo%20software%20y%20comunidades%20a%20la%20manera%20de%20Apache.pdf) (Spanish, Ismaël Mejía)
-
- - [History and Overview of Various Apache Way Presentations](http://shaneslides.com/2017/04/History-Of-The-Apache-Way/) (annotated list, pre-2017, Shane Curcuru)
+  - [History and Overview of Various Apache Way Presentations](http://shaneslides.com/2017/04/History-Of-The-Apache-Way/) (annotated list, pre-2017, Shane Curcuru)
 
 # About the ASF
 
