@@ -19,6 +19,12 @@ var projectsById = {};
   })
 }
 
+// some projects websites have names that
+// differ from their Whimsy name
+const projectToWebsite = {
+  comdev: 'community'
+}
+
 // Component that replaces its content with a list of links
 // to the projects that an ASF id belongs to
 class PersonProjects extends HTMLElement {
@@ -28,11 +34,12 @@ class PersonProjects extends HTMLElement {
     const theirProjects = projectsById[asfid];
     if (theirProjects) {
       Object.keys(theirProjects).forEach(project => {
+        const website = projectToWebsite[project] ? projectToWebsite[project] : project;
         const isPmc = theirProjects[project].pmc;
         if (projectsHTML != '') {
           projectsHTML += ', ';
         }
-        projectsHTML += `<a href=https://${project}.apache.org>${isPmc ? '<strong>' : ''}${project}${isPmc ? '</strong>' : ''}</a>`;
+        projectsHTML += `<a href=https://${website}.apache.org>${isPmc ? '<strong>' : ''}${project}${isPmc ? '</strong>' : ''}</a>`;
       })
     }
 
