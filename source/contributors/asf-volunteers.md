@@ -27,13 +27,5 @@ https://whimsy.apache.org/public/public_ldap_projects.json ,
 by a Web Component loaded for this page.
 -->
 
-* bdelacretaz # mentor, speaker # https://grep.codeconsult.ch # Switzerland
-* rbowen # mentor, speaker # https://drbacchus.com/ # N/A
-
-<!-- test entries
-* some_test_entries_follow_remove_when_this_is_merged
-* invalidID # just testing # cyberspace
-* bdelacretaz # duplicate, testing, no location field
-* bdelacretaz
-* bdelacretaz # 3rd copy, testing # with location
--->
+* bdelacretaz # mentor, speaker # French, English, some German # https://grep.codeconsult.ch # Switzerland
+* rbowen # mentor, speaker # English, ? # https://drbacchus.com/ # N/A

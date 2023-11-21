@@ -9,6 +9,7 @@ class VolunteersList extends HTMLElement {
     const people = await fetchPublicData('public_ldap_people.json');
     this.querySelectorAll('li').forEach(li => {
       const d = this._parseEntry(li.textContent);
+      console.log(d);
 
       // set volunteer information
       const name = people.people[d.id]?.name ? people.people[d.id]?.name : d.id;
@@ -17,6 +18,7 @@ class VolunteersList extends HTMLElement {
         (${d.id})
         - ${d.roles}
         ${d.location && d.location != 'N/A' ? '- ' + d.location : ''}
+        - speaks ${d.lang}
         <br/><span class='projects'><em>projects: </em><person-projects asfid="${d.id}"></person-projects></span>
       `;
     })
@@ -28,6 +30,7 @@ class VolunteersList extends HTMLElement {
     return {
       id: fields[i++]?.trim(),
       roles: fields[i++]?.trim(),
+      lang: fields[i++]?.trim(),
       url: fields[i++]?.trim(),
       location: fields[i++]?.trim()
     }
