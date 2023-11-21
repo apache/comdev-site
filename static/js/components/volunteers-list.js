@@ -9,7 +9,6 @@ class VolunteersList extends HTMLElement {
     const people = await fetchPublicData('public_ldap_people.json');
     this.querySelectorAll('li').forEach(li => {
       const d = this._parseEntry(li.textContent);
-      console.log(d);
 
       // set volunteer information
       const name = people.people[d.id]?.name ? people.people[d.id]?.name : d.id;
