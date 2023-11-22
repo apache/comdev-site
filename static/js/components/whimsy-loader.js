@@ -1,3 +1,5 @@
+// This is used by the components in this folder to load
+// public data from Whimsy
 const fetchPublicData = async whimsyFilename => {
   var result = {};
   const response = await fetch(`https://whimsy.apache.org/public/${whimsyFilename}`);
