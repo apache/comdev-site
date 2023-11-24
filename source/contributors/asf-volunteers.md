@@ -28,4 +28,5 @@ by a Web Component loaded for this page.
 -->
 
 * bdelacretaz # mentor, speaker # French, English, some German # https://grep.codeconsult.ch # Switzerland
+* curcuru # mentor, speaker # English # https://shanecurcuru.org/ # Boston, MA, US
 * rbowen # mentor, speaker # English, ? # https://drbacchus.com/ # N/A
