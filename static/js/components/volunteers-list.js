@@ -16,8 +16,8 @@ class VolunteersList extends HTMLElement {
         <a rel="nofollow" href="${d.url}">${name}</a>
         (${d.id})
         - ${d.roles}
-        ${d.location && d.location != 'N/A' ? '- ' + d.location : ''}
-        - speaks ${d.lang}
+        ${d.location ? '- ' + d.location : ''}
+        ${d.lang ? '- languages spoken: ' + d.lang : ''}
         <br/><span class='projects'><em>projects: </em><person-projects asfid="${d.id}"></person-projects></span>
       `;
     })
@@ -25,13 +25,22 @@ class VolunteersList extends HTMLElement {
 
   _parseEntry(txt) {
     const fields = txt.split('#');
+
+    const nullIfEmpty = input => {
+      if(!input) {
+        return null;
+      }
+      const result = input.trim();
+      return result.length == 0 ? null : result;
+    }
+
     var i = 0;
     return {
-      id: fields[i++]?.trim(),
-      roles: fields[i++]?.trim(),
-      lang: fields[i++]?.trim(),
-      url: fields[i++]?.trim(),
-      location: fields[i++]?.trim()
+      id: nullIfEmpty(fields[i++]),
+      roles: nullIfEmpty(fields[i++]),
+      lang: nullIfEmpty(fields[i++]),
+      url: nullIfEmpty(fields[i++]),
+      location: nullIfEmpty(fields[i++])
     }
   }
 

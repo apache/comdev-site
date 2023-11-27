@@ -18,9 +18,9 @@ These will need to be adapted if we decide to use this page.
 <!--
 To add your name to this list, use the same 
 format as other entries and keep the list sorted
-alphabetically by ASF username. Adding location information
-in the last field is optional, use N/A if you don't want
-to add that info.
+alphabetically by ASF username. 
+
+The languages and location fields are optional.
 
 This data is combined with public ASF info found under
 https://whimsy.apache.org/public/public_ldap_projects.json , 
@@ -30,5 +30,5 @@ by a Web Component loaded for this page.
 **TODO**: add an "edit in GitHub" link pointing to the right page so that people can add their names
 
 * bdelacretaz # mentor, speaker # French, English, some German # https://grep.codeconsult.ch # Switzerland
-* curcuru # mentor, speaker # English # https://shanecurcuru.org/ # Boston, MA, US
-* rbowen # mentor, speaker # English, ? # https://drbacchus.com/ # N/A
+* curcuru # mentor, speaker # # https://shanecurcuru.org/ # Boston, MA, US
+* rbowen # mentor, speaker # # https://drbacchus.com/ #
