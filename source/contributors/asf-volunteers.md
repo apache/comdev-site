@@ -20,7 +20,9 @@ To add your name to this list, use the same
 format as other entries and keep the list sorted
 alphabetically by ASF username. 
 
-The languages and location fields are optional.
+You can add additional data such as your personal
+website URL, languages spoken, location etc.
+to the /static/data/people.json file
 
 This data is combined with public ASF info found under
 https://whimsy.apache.org/public/public_ldap_projects.json , 
@@ -29,6 +31,6 @@ by a Web Component loaded for this page.
 
 **TODO**: add an "edit in GitHub" link pointing to the right page so that people can add their names
 
-* bdelacretaz # mentor, speaker # French, English, some German # https://grep.codeconsult.ch # Switzerland
-* curcuru # mentor, speaker # # https://shanecurcuru.org/ # Boston, MA, US
-* rbowen # mentor, speaker # # https://drbacchus.com/ #
+* bdelacretaz # mentor, speaker
+* curcuru # mentor, speaker
+* rbowen # mentor, speaker

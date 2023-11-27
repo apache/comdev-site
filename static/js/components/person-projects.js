@@ -1,5 +1,5 @@
-import fetchPublicData from "./whimsy-loader.js";
-const projects = await fetchPublicData('public_ldap_projects.json');
+import fetchJSON from './data-loader.js';
+const projects = await fetchJSON('https://whimsy.apache.org/public/public_ldap_projects.json');
 var projectsById = {};
 
 {

@@ -1,4 +1,4 @@
-import fetchPublicData from "./whimsy-loader.js";
+import fetchJSON from "./data-loader.js";
 
 // Component that enriches a list of volunteers where each
 // entry is formatted in Markdown like
@@ -6,18 +6,20 @@ import fetchPublicData from "./whimsy-loader.js";
 //
 class VolunteersList extends HTMLElement {
   async connectedCallback() {
-    const people = await fetchPublicData('public_ldap_people.json');
+    const whimsyPeople = await fetchJSON('https://whimsy.apache.org/public/public_ldap_people.json');
+    const localPeople = await fetchJSON('/data/people.json');
     this.querySelectorAll('li').forEach(li => {
       const d = this._parseEntry(li.textContent);
 
       // set volunteer information
-      const name = people.people[d.id]?.name ? people.people[d.id]?.name : d.id;
+      const name = whimsyPeople.people[d.id]?.name ? whimsyPeople.people[d.id]?.name : d.id;
+      const localinfo = localPeople[d.id];
       li.innerHTML = `
-        <a rel="nofollow" href="${d.url}">${name}</a>
+        ${localinfo?.website ? '<a rel="nofollow" href="' + localinfo.website + '">' + name + '</a>' : name }
         (${d.id})
         - ${d.roles}
-        ${d.location ? '- ' + d.location : ''}
-        ${d.lang ? '- languages spoken: ' + d.lang : ''}
+        ${localinfo?.region ? '- ' + localinfo.region : ''}
+        ${localinfo?.speaks ? '- languages spoken: ' + localinfo.speaks : ''}
         <br/><span class='projects'><em>projects: </em><person-projects asfid="${d.id}"></person-projects></span>
       `;
     })
@@ -37,10 +39,7 @@ class VolunteersList extends HTMLElement {
     var i = 0;
     return {
       id: nullIfEmpty(fields[i++]),
-      roles: nullIfEmpty(fields[i++]),
-      lang: nullIfEmpty(fields[i++]),
-      url: nullIfEmpty(fields[i++]),
-      location: nullIfEmpty(fields[i++])
+      roles: nullIfEmpty(fields[i++])
     }
   }
 

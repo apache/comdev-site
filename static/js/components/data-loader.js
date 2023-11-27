@@ -1,8 +1,8 @@
 // This is used by the components in this folder to load
-// public data from Whimsy
-const fetchPublicData = async whimsyFilename => {
+// JSON public data from various places
+const fetchJSON = async url => {
   var result = {};
-  const response = await fetch(`https://whimsy.apache.org/public/${whimsyFilename}`);
+  const response = await fetch(url);
   if (response.status == 200) {
     const data = await response.text();
     result = JSON.parse(data);
@@ -10,4 +10,4 @@ const fetchPublicData = async whimsyFilename => {
   return result;
 }
 
-export default fetchPublicData;
+export default fetchJSON;
