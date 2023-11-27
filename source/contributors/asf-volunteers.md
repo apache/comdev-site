@@ -27,6 +27,8 @@ https://whimsy.apache.org/public/public_ldap_projects.json ,
 by a Web Component loaded for this page.
 -->
 
+**TODO**: add an "edit in GitHub" link pointing to the right page so that people can add their names
+
 * bdelacretaz # mentor, speaker # French, English, some German # https://grep.codeconsult.ch # Switzerland
 * curcuru # mentor, speaker # English # https://shanecurcuru.org/ # Boston, MA, US
 * rbowen # mentor, speaker # English, ? # https://drbacchus.com/ # N/A
