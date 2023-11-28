@@ -1,6 +1,6 @@
 <p>
   This website is generated from the <a href="{{ .Site.Params.repositoryUrl }}">comdev-site repository</a>
-  {{ if .IsPage }}
+  {{ if or .IsPage .IsSection .IsHome }}
     <br/>
     Source of this page: <a href="{{ .Site.Params.repositoryContentBaseUrl }}/{{ .Page.File.Path }}" title="Source of this page">{{ .Page.File.Path }}</a>
   {{ end }}
