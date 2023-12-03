@@ -113,8 +113,8 @@ If you still haven't found what you are looking for, try our <a href="newbiefaq.
 
 #### Diversity and Inclusion
 
-The <a href="http://diversity.apache.org/">Apache Diversity</a> website has more information
-on that project, dedicated to understanding and promoting diversity and inclusion in ASF communities.
+<a href="http://diversity.apache.org/">Apache DE&I</a>  (Diversity, Inclusion and Equity) website has more information
+on that project and current initiatives, dedicated to understanding and promoting diversity and inclusion in ASF communities.
 
   </div>
   <div class="col-md-4">
