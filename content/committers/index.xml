@@ -28,5 +28,15 @@ This page gives a few examples of how to do that.
 If you have any question about this, feel free to ask on our dev@community.</description>
     </item>
     
+    <item>
+      <title>Good First Issues</title>
+      <link>https://community.apache.org/committers/good-first-issues.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/committers/good-first-issues.html</guid>
+      <description>What are &amp;ldquo;Good First Issues&amp;rdquo;? &amp;para; &amp;ldquo;Good First Issues&amp;rdquo; are a good way to start on an OSS project, and a official Github initiative. Several GitHub repositories use this label to encourage new contributors to start helping the project without the necessity, in most cases, to contact one of the contributors in advance or to have a deep knowledge of the project architecture or content.
+How can I identify a &amp;ldquo;Good First Issue&amp;rdquo;?</description>
+    </item>
+    
   </channel>
 </rss>
