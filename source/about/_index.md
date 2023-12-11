@@ -29,8 +29,8 @@ provides a wide array of information, [FAQs](/newbiefaq.html), and help to newco
 - [Sample Presentations](/speakers/slides.html)
 
 ### Diversity
+- [Diversity Website](http://diversity.apache.org/)
 - [Code of Conduct](https://www.apache.org/foundation/policies/conduct.html)
-- Surveys
 
 ### Conference Travel Assistance
 - [TAC - Travel Assistance Committee](https://www.apache.org/travel)
