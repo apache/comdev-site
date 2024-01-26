@@ -18,13 +18,14 @@ submit ideas via Jira (if your project does not use Jira you can [use the Comdev
 
 * Add an issue to Jira (if your project does not use Jira you can [use the Comdev GSoC Issue Tracker For GSoC Tasks](use-the-comdev-gsoc-issue-tracker-for-gsoc-tasks.html)
   * Add sub-tasks if necessary
-* Label the main issue with "*mentor*" (these will show up at the [ASF-wide list of issues](https://issues.apache.org/jira/issues?jql=labels%20in%20(gsoc2024)%20AND%20labels%20in%20(mentor,%20Mentor)))
-* Label the main issue with "*gsoc2024*" if appropriate (these will show up at [GSoC 2024 Ideas](https://s.apache.org/gsoc2024ideas))
+* Label the main issue with "*mentor*" (these will show up at the [ASF-wide list of issues](https://issues.apache.org/jira/issues?jql=labels%20in%20(gsoc{{< current_year >}})%20AND%20labels%20in%20(mentor,%20Mentor)))
+* Label the main issue with "*gsoc{{< current_year >}}*" if appropriate (these will show up at [GSoC {{< current_year >}} Ideas](https://s.apache.org/gsoc{{< current_year >}}ideas))
 
 <div class="card border-success mb-3">
   <div class="card-header">Size of project</div>
   <div class="card-body text-success">
-    <p class="card-text">Starting this year there are 3 types of projects available.<br> Please put "<em>full-time</em>" label for ~350 hours project and<br> "<em>part-time</em>" label for ~175 hours project <br> "<em>small</em>" label for ~90 hours project</p>
+    <p class="card-text">Starting in 2024 there are 3 types of projects available.<br> Please put 
+"<em>full-time</em>" label for ~350 hours project and<br> "<em>part-time</em>" label for ~175 hours project <br> "<em>small</em>" label for ~90 hours project</p>
   </div>
 </div>
 

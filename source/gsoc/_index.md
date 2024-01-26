@@ -12,10 +12,10 @@ url: /gsoc/
   </div>
 </div>
 
-Google is sponsoring the [2024 Summer of Code](https://summerofcode.withgoogle.com/) and 
+Google is sponsoring the [{{< current_year >}} Summer of Code](https://summerofcode.withgoogle.com/) and 
 [The Apache Software Foundation](https://www.apache.org/) (ASF) registered as a mentoring organization.
 This page is your entry point to the ASF GSoC program.
-Please watch this page for updates concerning our participating in 2024.
+Please watch this page for updates concerning our participation in {{< current_year >}}.
 
 <a name="GSoC-Students:readthis"></a>
 # Students: read this
@@ -26,11 +26,11 @@ Please watch this page for updates concerning our participating in 2024.
  to make sure you really want to apply to GSoC.
 * Watch [GSoC video presentation](https://www.youtube.com/watch?v=S6IP_6HG2QE)
  for students.
-* Examine the list of [available ASF GSoC 2024 projects](https://s.apache.org/gsoc2024ideas)
+* Examine the list of [available ASF GSoC {{< current_year >}} projects](https://s.apache.org/gsoc{{< current_year >}}ideas)
 	* <span class="text-primary">**NOTE**</span> that you can search the issue tracker for GSoC projects by
-filtering using the "*gsoc2024*" label, this allows you to narrow down the list
+filtering using the "*gsoc{{< current_year >}}*" label, this allows you to narrow down the list
 to the projects you are interested in.<br/>
-Or simply use this link https://issues.apache.org/jira/issues/?jql=labels+%3D+gsoc2024
+Or simply use this link https://issues.apache.org/jira/issues/?jql=labels+%3D+gsoc{{< current_year >}}
 * If you do not see any interesting projects from the proposed ideas, we encourage you to contact one of the Apache Project's mailing list and propose a new idea. But these ideas have to be vetted on the project dev list. The ASF does not encourage and will not respond to your personal new open source project ideas which are unrelated to any Apache projects.
 
 <a name="GSoC-ApplyingforGSoC"></a>
@@ -127,7 +127,7 @@ engage with that project community.
 Please contact dev@community.apache.org if you have questions/difficulties.
 
 <a name="GSoC-ASFGSoCTimeline"></a>
-# ASF GSoC 2024 Timeline
+# ASF GSoC {{< current_year >}} Timeline
 
 Below is a timeline of events for The Apache Software Foundation's
 involvement in GSoC. Unless otherwise stated deadlines are 24:00 UTC on the
@@ -175,7 +175,7 @@ The ASF currently has no policy establishing the criteria on what basis to vouch
 # Useful Links
 
  * [Summer of Code home](https://summerofcode.withgoogle.com)
- * [Official Google Summer of Code 2024 Timeline, FAQs](https://developers.google.com/open-source/gsoc/timeline)
+ * [Official Google Summer of Code {{< current_year >}} Timeline, FAQs](https://developers.google.com/open-source/gsoc/timeline)
  * [GSoC discussion list](https://groups.google.com/group/google-summer-of-code-discuss)
  * [Python notes on expectations](https://wiki.python.org/moin/SummerOfCode/Expectations)
  * \#gsoc on Freenode
