@@ -25,7 +25,7 @@ This is a place for collecting information about GSoC activities each year for h
       <guid>https://community.apache.org/gsoc/gsoc-admin-tasks.html</guid>
       <description>A comprehensive guide to being a GSoC admin for the ASF
 List of duties:
-Make sure the ASF has an extensive list of project ideas ready shortly after Google announces the program (around the end of January). Projects must create Jira issues for their ideas and label them with gsoc&amp;lt;year&amp;gt;; and mentor. If a project doesn&amp;rsquo;t use Jira, have them create the ideas in the GSOC Jira project. Create a Jira filter for these ideas to use in the application (see next).</description>
+Make sure the ASF has an extensive list of project ideas ready shortly after Google announces the program (around the end of January). Projects must create Jira issues for their ideas and label them with gsoc2024; and mentor. If a project doesn&amp;rsquo;t use Jira, have them create the ideas in the GSOC Jira project. Create a Jira filter for these ideas to use in the application (see next).</description>
     </item>
     
     <item>
@@ -35,7 +35,7 @@ Make sure the ASF has an extensive list of project ideas ready shortly after Goo
       
       <guid>https://community.apache.org/gsoc/guide-to-being-a-mentor.html</guid>
       <description>Submitting ideas to the mentoring programme &amp;para; We invite all ASF projects to submit their ideas for consideration in the ASF mentoring programme. Any Apache member and experienced committers can submit ideas via Jira (if your project does not use Jira you can use the Comdev GSoC Issue Tracker For GSoC Tasks. We are looking for as many interesting projects as we can come up with.
-Important Steps &amp;para; Add an issue to Jira (if your project does not use Jira you can use the Comdev GSoC Issue Tracker For GSoC Tasks Add sub-tasks if necessary Label the main issue with &amp;ldquo;mentor&amp;rdquo; (these will show up at the ASF-wide list of issues) Label the main issue with &amp;ldquo;gsoc2023&amp;rdquo; if appropriate (these will show up at GSoC 2023 Ideas) Size of project Starting this year there are 2 types of projects available.</description>
+Important Steps &amp;para; Add an issue to Jira (if your project does not use Jira you can use the Comdev GSoC Issue Tracker For GSoC Tasks Add sub-tasks if necessary Label the main issue with &amp;ldquo;mentor&amp;rdquo; (these will show up at the ASF-wide list of issues) Label the main issue with &amp;ldquo;gsoc2024&amp;rdquo; if appropriate (these will show up at GSoC 2024 Ideas) Size of project Starting in 2024 there are 3 types of projects available.</description>
     </item>
     
     <item>
@@ -56,7 +56,7 @@ Remember, mentoring is all about the mentee and open source as a whole. It is no
       
       <guid>https://community.apache.org/gsoc/use-the-comdev-gsoc-issue-tracker-for-gsoc-tasks.html</guid>
       <description>If your project does not use the ASF Jira for issue tracking, you can use the ComDev GSoC Jira project to record your GSoC tasks.
-Add tasks to the GSOC project Ensure you add the labels gsoc2023, mentor and _YOUR_PROJECT_NAME_ Your issues will appear in the list of projects We use the label _YOUR_PROJECT_NAME_ to map COMDEV issues to the real project when we create the ideas list Please contact dev@community.</description>
+Add tasks to the GSOC project Ensure you add the labels gsoc2024, mentor and _YOUR_PROJECT_NAME_ Your issues will appear in the list of projects We use the label _YOUR_PROJECT_NAME_ to map COMDEV issues to the real project when we create the ideas list Please contact dev@community.</description>
     </item>
     
   </channel>
