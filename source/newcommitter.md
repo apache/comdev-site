@@ -298,7 +298,7 @@ In summary:
 If the ICLA identifies the project and a valid Apache ID, and the
 [RESULT][VOTE] message has been posted to the PMC private list,
 the account creation request is made by the 
-secretary or assistant who files the ICLA.
+secretary or assistant secretary who files the ICLA.
 
 Otherwise, the new account request should be made by the
 PMC Chair (or any [ASF Member][6] if the chair is unavailable).
