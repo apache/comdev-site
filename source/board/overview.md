@@ -26,7 +26,13 @@ can run from a half hour, on up, depending on the issues to be discussed
 in that particular month.
 
 The shortest board meeting ran less than 15 minutes, while the longest
-ones have been upwards of 2 hours.
+ones have been upwards of 2 hours. Typical meetings run about one hour.
+
+Note that meeting times are chosen by the directors, and so tend to be
+placed at times that are convenient to the majority of the currently
+sitting directors. That is to say, the meetings tend to be at times that
+are inconvenient to people living in underrepresented parts of the
+world.
 
 ## Pre-meeting work
 
@@ -45,6 +51,10 @@ various special orders, and following up on action items.
 If you review each of your shepherd projects in depth, and attempt to read
 and comment on all of the other projects, this can take from several
 hours to a couple of days.
+
+Each director is assigned N/9 projects to shepherd, where N is the number 
+of projects reporting that month. As of January 2024, this works out to 
+roughly 7 or 8 shepherd projects per director.
 
 ## Post-meeting work
 
