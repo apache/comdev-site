@@ -4,6 +4,8 @@ url: /board/overview.html
 tags: ["board"]
 ---
 
+# What to Expect When You're Expecting to be a Director
+
 What's involved in being a director? This document tries to give an
 overview of the time commitment involved, and what the work looks like.
 
@@ -19,14 +21,14 @@ someone who's considering running for their first term as a Director.
 ## Monthly meeting
 
 As with most things in open source, you can spend as much time on them
-as you want, and pursue your indivual passions. However, being a
+as you want, and pursue your individual passions. However, being a
 director does carry certain basic responsibilities.
 You are expected to attend the board meeting, once a month. This meeting
-can run from a half hour, on up, depending on the issues to be discussed
+can run from a half hour or more, depending on the issues to be discussed
 in that particular month.
 
 The shortest board meeting ran less than 15 minutes, while the longest
-ones have been upwards of 2 hours. Typical meetings run about one hour.
+ones have been upwards of two hours. Typical meetings run about one hour.
 
 Note that meeting times are chosen by the directors, and so tend to be
 placed at times that are convenient to the majority of the currently
