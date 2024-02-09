@@ -77,6 +77,9 @@ This is typically a two-day meeting, plus travel time to and from the
 meeting venue. The venue is chosen to minimize travel time and distance
 for the largest number of participants.
 
+Travel costs can be covered by the ASF, if needed, for directors and
+officers who are expected to attend those face-to-face meetings.
+
 ## Between meetings
 
 The board communicates on the board@apache.org mailing list, which is
