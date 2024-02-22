@@ -10,10 +10,9 @@ and/or to be speakers at ASF-related events.
 Project names shown in <strong>bold</strong> mean that the corresponding person
 is a PMC member of that project.
 
-**TODO**: a [number of pages](/tags/speakers.html) explain how to register yourself as a potential speaker.
-These will need to be adapted if we decide to use this page.
-
 ## List of ASF volunteers
+
+In alphabetical order of ASF IDs.
 
 <!--
 To add your name to this list, use the same 
@@ -28,8 +27,6 @@ This data is combined with public ASF info found under
 https://whimsy.apache.org/public/public_ldap_projects.json , 
 by a Web Component loaded for this page.
 -->
-
-**TODO**: add an "edit in GitHub" link pointing to the right page so that people can add their names
 
 * bdelacretaz # mentor, speaker
 * curcuru # mentor, speaker
