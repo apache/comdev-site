@@ -4,6 +4,12 @@ url: /zones-disabled.html
 tags: ["history"]
 ---
 
+<!--
+DO NOT DELETE THIS PAGE
+It is used as a target for redirects for the
+apps that used to be on https://community.zones.apache.org/
+-->
+
 ## community.zones.a.o has been disabled
 
 We used to have a few apps meant to help find speakers and mentors
