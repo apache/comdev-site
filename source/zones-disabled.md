@@ -19,5 +19,5 @@ in Feburary 2024 as they were not enthusiastically maintained.
 The pages tagged with
 [speakers](/tags/speakers.html)
 or
-[mentors](/tags/mentors.html)
+[mentoring](/tags/mentoring.html)
 should provide the information that used to be there.

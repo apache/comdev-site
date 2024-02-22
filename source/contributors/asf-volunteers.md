@@ -1,7 +1,7 @@
 ---
 title: ASF volunteers, mentors and speakers
 layout: volunteers
-tags: ["committers","newcomers","contributing","mentors","speakers"]
+tags: ["committers","newcomers","contributing","mentoring","speakers"]
 ---
 
 Here's a list of ASF community members who volunteer to mentor new community members
