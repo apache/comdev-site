@@ -42,8 +42,8 @@ In the project's issue tracker you will find details of bugs that have been repo
 requests the project is considering. This should give you some 
 inspiration about how you might be able to help the project community. If
 you are looking for a beginner-level issue, try searching Jira for issues 
-with the label "GSoC" or "mentor"; these are issues the community feels are 
-manageable for someone new to the ASF and their project.
+with the label "GSoC", "mentor", "good-first-issue" or "up-for-grabs";
+these are issues the community feels are manageable for someone new to the ASF and their project.
 
 ## Joining the community
 
