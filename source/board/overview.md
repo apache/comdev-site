@@ -6,7 +6,7 @@ tags: ["board"]
 
 # What to Expect When You're Expecting to be a Director
 
-What's involved in being a director? This document tries to give an
+What's involved in being a director at the ASF? This document tries to give an
 overview of the time commitment involved, and what the work looks like.
 
 The official duties of the Board are defined [on the Apache Governance
@@ -34,13 +34,16 @@ Note that meeting times are chosen by the directors, and so tend to be
 placed at times that are convenient to the majority of the currently
 sitting directors. That is to say, the meetings tend to be at times that
 are inconvenient to people living in underrepresented parts of the
-world.
+world.  Meetings are held on the third Thursday of a month.
 
 ## Pre-meeting work
 
 Most of the work of a board meeting happens before the meeting starts,
 as discussed in the [formal
-documentation](https://apache.org/foundation/governance/board.html). 
+documentation](https://apache.org/foundation/governance/board.html).  
+Many projects and officers submit their reports to the agenda a week
+before the meeting, meaning directors have time beforehand to read 
+and comment on most reports.
 
 The Incubator report, in particular, consists of the podling reports
 for all active incubation efforts, and so is effectively a dozen reports
@@ -68,6 +71,11 @@ It is difficult to estimate what time will be required to handle these
 items, as it varies greatly from one month to the next, and with the
 complexity of the issues involved.
 
+Shepherds are normally expected to take the lead on any board issues 
+relating to the reports they were assigned that month.  Shepherd 
+assignments are random each month, which helps to ensure that over 
+a year's board term each director reads a variety of reports.
+
 ## Face-to-face meetings
 
 Most years, the new board of directors will be asked to attend a
@@ -86,7 +94,7 @@ officers who are expected to attend those face-to-face meetings.
 
 The board communicates on the board@apache.org mailing list, which is
 visible to all ASF members and PMC chairs. On very rare occasions,
-confidential discussions are handled on the board-private mailing list,
+confidential discussions are handled on the board-private mail alias,
 however, use of that is discouraged.
 
 Directors are expected to check the board mailing list regularly, keep
@@ -95,10 +103,21 @@ where the business of the Foundation is conducted.
 
 # Legal and Liability issues
 
-Apache is a 501c3 non-profit. The Board of Directors have fidicuary
-and legal responsibility for the operation of the Foundation.
+Apache is a 501c3 non-profit corporation in the state of Delaware. 
+The Directors have fiduciary and legal responsibilities relating to 
+Delaware and US law.  These include a duty of care and duty of loyalty 
+to the organization itself; primarily ensuring that directors are 
+informed about the issues, and are acting in the best interests of 
+the organization as a whole (and it's public charity benefit).
 
-(More detail here would be really useful.)
+While the majority of work as directors involves working with our 
+project communities or considering policy questions, things like
+voting for the annual budget and other financial issues are definitely 
+things covered by Delaware law.
 
+Useful overviews of the legal responsibilities include:
 
-
+- [Board Roles And Responsibilities](https://www.councilofnonprofits.org/running-nonprofit/governance-leadership/board-roles-and-responsibilities), an overview from the National Council 
+  of Nonprofits about basic nonprofit director duties.
+- [Directors’ Fiduciary Duties: Back to Delaware Law Basics](https://corpgov.law.harvard.edu/2020/03/10/directors-fiduciary-duties-back-to-delaware-law-basics/), a layman's 
+  explanation of what Delaware law requires of directors.

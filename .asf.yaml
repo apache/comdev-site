@@ -9,8 +9,8 @@ github:
 
 notifications:
   commits:      commits@community.apache.org
-  issues:       dev@community.apache.org
-  pullrequests: dev@community.apache.org
+  issues:       notifications@community.apache.org
+  pullrequests: notifications@community.apache.org
   jira_options: link label
 
 # Maybe publish also needed:

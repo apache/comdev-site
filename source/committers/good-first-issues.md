@@ -22,8 +22,9 @@ It's a good idea to put contact information in the ticket, so that someone that 
 ### Example first issues
 
 Here you can find some Apache projects with "Good First Issues":
-- [Apache Beam](https://github.com/apache/beam/contribute)
 - [Apache Airflow](https://github.com/apache/airflow/contribute)
-- [Apache Superset](https://github.com/apache/superset/contribute)
-- [Apache Iceberg](https://github.com/apache/iceberg/contribute)
+- [Apache Beam](https://github.com/apache/beam/contribute)
 - [Apache Cassandra](https://issues.apache.org/jira/browse/CASSANDRA-18868?jql=project%20%3D%20Cassandra%20AND%20(complexity%20%3D%20%22Low%20Hanging%20Fruit%22%20or%20labels%20%3D%20%22lhf%22)%20and%20assignee%20is%20Empty%20and%20status%20not%20in%20(Resolved%2C%20%22In%20Progress%22))
+- [Apache Iceberg](https://github.com/apache/iceberg/contribute)
+- [Apache Maven](https://s.apache.org/for-the-grabs_maven)
+- [Apache Superset](https://github.com/apache/superset/contribute)
