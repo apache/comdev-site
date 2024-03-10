@@ -9,7 +9,7 @@ disablePathToLower = true
 uglyURLs = true
 enableRobotsTXT = true
 disableBrowserError = true
-timeout = 3000
+timeout = "30s"
 
 ignoreFiles = [ ] # No files to ignore
 

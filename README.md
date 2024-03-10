@@ -1,11 +1,11 @@
-<!--                                                                                                                                                                                                    
+<!--
 Licensed to the Apache Software Foundation (ASF) under one or more
 contributor license agreements.  See the NOTICE file distributed with
 this work for additional information regarding copyright ownership.
 The ASF licenses this file to You under the Apache License, Version 2.0
 (the "License"); you may not use this file except in compliance with
 the License.  You may obtain a copy of the License at
-   
+
     http://www.apache.org/licenses/LICENSE-2.0
 
 Unless required by applicable law or agreed to in writing, software
@@ -30,7 +30,7 @@ Changes to the `main` or `preview/*` branches of this repository trigger the [co
 
 There's currently (April 2020) a lag of about ten minutes for the corresponding Jenkins job to start, if you commit directly to the GitHub repository, but you can also start the job manually if you have the required Jenkins access rights.
 
-For the `main` branch, the generated content is pushed to the `asf-site` branch, and 
+For the `main` branch, the generated content is pushed to the `asf-site` branch, and
 the [ASF's gitpubsub mechanism](https://blogs.apache.org/infra/entry/git_based_websites_available) then synchronizes that content to the live [community.apache.org](https://community.apache.org/) website, usually within a few seconds.
 
 Branches named `preview/<name>` are staged automatically, a branch named `preview/0421b` for example
@@ -51,9 +51,9 @@ You need a recent version of `hugo`, to find out which one is used to deploy thi
 look at the Jenkins build output, linked above.
 
 To generate the static website, execute `hugo` to generate the website under `target/content` and execute
-`npx -y pagefind --source target/content` to index the content for Pagefind (the search bar on the website).
+`npx -y pagefind --site target/content` to index the content for Pagefind (the search bar on the website).
 
 During development, it may be useful to run an incremental build. For this to work, execute
 `hugo server -D -d /tmp/comdev-generated-site` to continuously (re)generate and serve the website on `localhost:1313`
-(-D means include draft pages). In another terminal, execute `npx -y pagefind --source /tmp/comdev-generated-site` to
+(-D means include draft pages). In another terminal, execute `npx -y pagefind --site /tmp/comdev-generated-site` to
 index the site content for Pagefind (the search bar on the website).
