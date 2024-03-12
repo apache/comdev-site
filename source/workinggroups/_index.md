@@ -19,14 +19,14 @@ emailing
 and introducing yourself, or by the mechanism defined in the individual
 WG's README.
 
-Current working groups include:
+Current proposed working groups include:
 
-* wg-wg - Defining how working groups work, in general.
-* wg-advisors - Advising PMCs on best practice
-* wg-badging - Creation and maintenance of an accomplishment badging system
-* wg-social - Orchestrating local gathering of Apache enthusiasts
-* wg-social-media - Social media
-* wg-website - Maintenance of the website
-* wg-welcome - Helping projects, and the ASF in general, be more welcoming
+* [wg-wg](https://github.com/apache/comdev-working-groups/tree/main/wg-wg) - Defining how working groups work, in general.
+* [wg-advisors](https://github.com/apache/comdev-working-groups/tree/main/wg-advisors) - Advising PMCs on best practice
+* [wg-badging](https://github.com/apache/comdev-working-groups/tree/main/wg-badging) - Creation and maintenance of an accomplishment badging system
+* [wg-social](https://github.com/apache/comdev-working-groups/tree/main/wg-social) - Orchestrating local gathering of Apache enthusiasts
+* [wg-social-media](https://github.com/apache/comdev-working-groups/tree/main/wg-social-media) - Social media
+* [wg-website](https://github.com/apache/comdev-working-groups/tree/main/wg-website) - Maintenance of the website
+* [wg-welcome](https://github.com/apache/comdev-working-groups/tree/main/wg-welcome) - Helping projects, and the ASF in general, be more welcoming
 
 
