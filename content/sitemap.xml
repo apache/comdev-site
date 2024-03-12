@@ -310,5 +310,11 @@
     <loc>https://community.apache.org/tags/video.html</loc>
   </url><url>
     <loc>https://community.apache.org/newcomers/</loc>
+  </url><url>
+    <loc>https://community.apache.org/tags/wg.html</loc>
+  </url><url>
+    <loc>https://community.apache.org/workinggroups/</loc>
+  </url><url>
+    <loc>https://community.apache.org/tags/workinggroups.html</loc>
   </url>
 </urlset>
