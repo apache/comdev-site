@@ -30,4 +30,5 @@ by a Web Component loaded for this page.
 
 * bdelacretaz # mentor, speaker
 * curcuru # mentor, speaker
+* dirkx # speaker
 * rbowen # mentor, speaker

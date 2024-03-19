@@ -14,5 +14,9 @@
   },
   "rbowen" : {
     "website": "https://drbacchus.com"
+  },
+  "dirkx" : {
+    "speaks": [ "English", "Dutch"],
+    "region": "Netherlands"
   }
 }
