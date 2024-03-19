@@ -86,3 +86,7 @@ ul.tags-list {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+
+volunteers-list .projects {
+  font-size: 80%;
+}

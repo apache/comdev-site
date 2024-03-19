@@ -1,0 +1,18 @@
+{
+  "NONAME_KEEP_THIS_FIRST": {
+    "info": "This file supplies additional public information about our people, so far for the ASF volunteers page",
+    "details": "See static/js/components for how this data is used"
+  },
+  "bdelacretaz" : {
+    "speaks": [ "French", "English", "Some German"],
+    "region": "Switzerland",
+    "website": "https://grep.codeconsult.ch"
+  },
+  "curcuru" : {
+    "region": "Boston, MA, US",
+    "website": " https://shanecurcuru.org/"
+  },
+  "rbowen" : {
+    "website": "https://drbacchus.com"
+  }
+}

@@ -143,6 +143,8 @@
   </url><url>
     <loc>https://community.apache.org/contributor-ladder.html</loc>
   </url><url>
+    <loc>https://community.apache.org/contributors/asf-volunteers.html</loc>
+  </url><url>
     <loc>https://community.apache.org/contributors/becomingacommitter.html</loc>
   </url><url>
     <loc>https://community.apache.org/tags/board.html</loc>
@@ -166,6 +168,8 @@
     <loc>https://community.apache.org/lists.html</loc>
   </url><url>
     <loc>https://community.apache.org/about/</loc>
+  </url><url>
+    <loc>https://community.apache.org/zones-disabled.html</loc>
   </url><url>
     <loc>https://community.apache.org/communitybuilding.html</loc>
   </url><url>
@@ -234,8 +238,6 @@
     <loc>https://community.apache.org/tags/links.html</loc>
   </url><url>
     <loc>https://community.apache.org/links.html</loc>
-  </url><url>
-    <loc>https://community.apache.org/speakers/speakers.html</loc>
   </url><url>
     <loc>https://community.apache.org/contributors/mailing-lists.html</loc>
   </url><url>

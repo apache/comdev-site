@@ -19,3 +19,6 @@ Redirect /committers/voting.html /committers/decisionMaking.html
 Redirect /committers/consensusBuilding.html /committers/decisionMaking.html
 Redirect /committers/lazyConsensus.html /committers/decisionMaking.html
 
+# Speakers app is being deprecated
+Redirect /speakers/speakers.html /speakers/
+
