@@ -12,6 +12,9 @@
     "speaks": [ "German", "English"],
     "region": "Darmstadt, Hesse, Germany"
   },
+  "clr" : {
+    "region": "San Jose, CA, US"
+  },
   "curcuru" : {
     "region": "Boston, MA, US",
     "website": " https://shanecurcuru.org/"
