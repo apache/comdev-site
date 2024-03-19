@@ -10,7 +10,7 @@ and/or to be speakers at ASF-related events.
 Project names shown in <strong>bold</strong> mean that the corresponding person
 is a PMC member of that project.
 
-## List of ASF volunteers
+## ASF volunteer mentors & speakers
 
 In alphabetical order of ASF IDs.
 
