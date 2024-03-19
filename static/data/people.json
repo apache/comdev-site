@@ -8,6 +8,10 @@
     "region": "Switzerland",
     "website": "https://grep.codeconsult.ch"
   },
+  "cdutz" : {
+    "speaks": [ "German", "English"],
+    "region": "Darmstadt, Hesse, Germany"
+  },
   "curcuru" : {
     "region": "Boston, MA, US",
     "website": " https://shanecurcuru.org/"
