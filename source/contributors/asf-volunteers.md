@@ -34,3 +34,4 @@ by a Web Component loaded for this page.
 * curcuru # mentor, speaker
 * dirkx # speaker
 * rbowen # mentor, speaker
+* rvs # mentor, speaker
