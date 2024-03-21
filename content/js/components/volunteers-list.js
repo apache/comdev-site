@@ -15,7 +15,7 @@ class VolunteersList extends HTMLElement {
       const name = whimsyPeople.people[d.id]?.name ? whimsyPeople.people[d.id]?.name : d.id;
       const localinfo = localPeople[d.id];
       li.innerHTML = `
-        ${localinfo?.website ? '<a rel="nofollow" href="' + localinfo.website + '">' + name + '</a>' : name }
+        <b>${localinfo?.website ? '<a class="name" rel="nofollow" href="' + localinfo.website + '">' + name + '</a>' : name }</b>
         (${d.id})
         - ${d.roles}
         ${localinfo?.region ? '- ' + localinfo.region : ''}
