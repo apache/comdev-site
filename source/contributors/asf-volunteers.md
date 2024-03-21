@@ -33,6 +33,7 @@ by a Web Component loaded for this page.
 * clr # mentor, speaker
 * curcuru # mentor, speaker
 * dirkx # speaker
+* jbonofre # mentor, speaker
 * ningjiang # mentor, speaker
 * rbowen # mentor, speaker
 * rvs # mentor, speaker
