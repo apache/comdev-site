@@ -88,5 +88,16 @@ ul.tags-list {
 }
 
 volunteers-list .projects {
+  display: block;
   font-size: 80%;
+  margin-left: 2em;
+}
+
+volunteers-list a.name,
+volunteers-list a:visited.name {
+  color:#00008b;
+}
+
+volunteers-list li {
+  margin-bottom: 0.2em;
 }
