@@ -35,3 +35,4 @@ by a Web Component loaded for this page.
 * dirkx # speaker
 * rbowen # mentor, speaker
 * rvs # mentor, speaker
+* ningjiang # mentor, speaker

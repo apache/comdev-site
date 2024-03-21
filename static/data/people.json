@@ -29,5 +29,9 @@
   "dirkx" : {
     "speaks": [ "English", "Dutch"],
     "region": "Netherlands"
+  },
+  "ningjiang" : {
+    "speaks": [ "English", "Chinese"],
+    "region": "Beijing, China"
   }
 }
