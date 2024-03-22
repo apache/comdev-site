@@ -37,7 +37,7 @@ Other community members are free to comment on proposals as they see fit.
 In the re-evaluation phase (see below) admins use
 comments provided by mentors and community members.
 
-##*Selection Phase* : a mentor does this during ranking time
+## *Selection Phase* : a mentor does this during ranking time
 
 In this phase mentors evaluate each proposal. We do all scoring in the Google Docs spreadsheet shared on
 mentors@community.apache.org. Add an explanation to every score, using the criteria below, to help admins in the later stages of evaluation.
