@@ -63,13 +63,13 @@ See also this [detailed advice for how to become a committer](/contributors/beco
 ## Anyone Can Become A Committer
 
 There is nothing at the Apache Software Foundation that says you must write code 
-in order to be a committer. Anyone who is supportive of the community and works 
-in any of the CoPDoC areas is a likely candidate for committership.
+in order to be a committer. Anyone who is supportive by contributing towards project,
+community, documentation or code is a likely candidate for committership.
 
-Apache strives to be meritocratic. That is, once someone has contributed sufficiently to 
-any area of CoPDoC they can be voted in as a committer. Being a committer does 
-not necessarily mean you commit code; it means you are committed to the project
-and are productively contributing to its success.
+Apache strives to be meritocratic. That is, once someone has contributed sufficiently 
+towards the project, they can be voted in as a committer. Being a committer does not 
+necessarily mean you commit code; it means you are committed to the project and are 
+productively contributing to its success.
 
 One of the key contributions people can make to the community is through the 
 support of a wide user base by assisting users on the user list, writing user-oriented docs and ensuring the developers understand the user viewpoint. 
