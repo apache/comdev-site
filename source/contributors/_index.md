@@ -6,13 +6,13 @@ tags: ["faq","navigation","contributing"]
 
 This page is for people who are reasonably 
 comfortable with open source development models but need a helping hand finding 
-their way around the Apache Software Foundation and our way of developing software
+their way around the Apache Software Foundation (ASF) and our way of developing software
 (commonly called "The Apache Way"). For those wishing to start from
 the very beginning, we have a [newcomers page][1].
 
 ## Project Independence And Policies
 
-While not all ASF projects practice all aspects of the Apache Way in the same way, there are a number of rules that Apache 
+While not all ASF projects practice all aspects of the Apache Way in the same way, there are a number of rules that ASF 
 projects must follow – things like complying with PMC 
 [release voting][2], [legal policy][3], [brand policy][4], 
 using [mailing lists][5], etc., which are [documented in various places][6]. 
@@ -36,7 +36,7 @@ list, it didn't happen**](/contributors/mailing-lists).
 
 ## Moving From Contributor to Committer
 
-Anyone can be a contributor to an Apache project. Being a contributor simply means
+Anyone can be a contributor to an ASF project. Being a contributor simply means
 that you take an interest in the project and contribute in some way, ranging from asking
 sensible questions (which document the project and provide feedback to developers)
 through to providing new features as code patches.
@@ -56,17 +56,17 @@ continue to support the code over the longer term, even as individual
 contributors come and go from the field.
 
 In particular, we have some [etiquette and behavior expectations][8] when 
-you work with Apache communities.
+you work with ASF communities.
 
 See also this [detailed advice for how to become a committer](/contributors/becomingacommitter.html)
 
 ## Anyone Can Become A Committer
 
-There is nothing at the Apache Software Foundation that says you must write code 
+There is nothing at the ASF that says you must write code 
 in order to be a committer. Anyone who is supportive by contributing towards project,
 community, documentation or code is a likely candidate for committership.
 
-Apache strives to be meritocratic. That is, once someone has contributed sufficiently 
+The ASF strives to be meritocratic. That is, once someone has contributed sufficiently 
 towards the project, they can be voted in as a committer. Being a committer does not 
 necessarily mean you commit code; it means you are committed to the project and are 
 productively contributing to its success.
