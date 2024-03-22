@@ -28,6 +28,7 @@ https://whimsy.apache.org/public/public_ldap_projects.json ,
 by a Web Component loaded for this page.
 -->
 
+* altay # speaker
 * bdelacretaz # mentor, speaker
 * cdutz # mentor, speaker
 * clr # mentor, speaker
