@@ -45,7 +45,8 @@ software projects work, and how the ASF itself works.
   - [An Overview of The Apache Software Foundation][6] (Justin Erenkrantz)
   - [Construyendo software y comunidades a la manera de Apache](https://iemejia.github.io/slides/201806-Construyendo%20software%20y%20comunidades%20a%20la%20manera%20de%20Apache.pdf) (Spanish, Ismaël Mejía)
   - [History and Overview of Various Apache Way Presentations](http://shaneslides.com/2017/04/History-Of-The-Apache-Way/) (annotated list, pre-2017, Shane Curcuru)
-
+  - [The Apache Way of Open Source](https://www.slideshare.net/johannesgeppert1/the-apache-way-of-open-source-republica-2018-berlin) (re:publica 2018 Berlin, Johannes Geppert)
+  
 # About the ASF
 
   - [Hortonworks Engineering Apache Training](https://www.slideshare.net/alanfgates/hortonworks-apache-training) (Alan Gates)
