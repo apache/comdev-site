@@ -11,6 +11,10 @@ Please see the formal policy and process
 [documentation for adding committers](https://www.apache.org/dev/pmc.html#committer-management). 
 This page discusses best practices in how to think about new committers.
 
+In addition to the mechanisms for adding committers, give some thought
+to [practical steps you can take to attract new
+contributors](/pmc/community-growth.html).
+
 ## Who should be a committer?
 
 Each project must decide what is the correct measure for inviting a new
