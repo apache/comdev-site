@@ -6,7 +6,7 @@ tags: ["pmc","committers","community"]
 Growing your project community takes work. This document makes practical
 suggestions of how to encourage people to get involved in your project.
 
-## Publish a road map
+## Publish a roadmap
 
 Volunteers can work on whatever they want, and so we have a tendency to
 not want to tell them what to work on. However, publishing a roadmap, or
@@ -16,12 +16,20 @@ people an idea of where they might be able to get involved.
 This also gives a clear sense that the project has ambitions, and is
 going somewhere, rather than that it is stagnating.
 
+It can be very challenging to keep a roadmap current. Having a mechanism
+for tagging open issues with `proposal` or `roadmap` and
+automatimatically extracting that into a web page can help with this.
+
 ## Periodically publish the open issue list
 
 Your ticket tracker allows you to periodically summarize the open
 issues. Sending this to the dev@ list reminds people that there are
 things to work on, and gives them permission, and encouragement, to do
 so.
+
+Consider creating [good first
+issues](/committers/good-first-issues.html) as a place for new
+contributors to get started.
 
 ## Clearly document contribution processes
 
