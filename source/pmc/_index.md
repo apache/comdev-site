@@ -18,7 +18,7 @@ policies](https://www.apache.org/dev/pmc.html#policy).
 * [Reporting](#reporting)
 * [Adding committers](#adding-committers)
 * [Adding PMC members](#adding-pmc-members)
-* [What to do as a new member](#what-to-do-as-a-new-member)
+* [What to do as a new PMC member](#what-to-do-as-a-new-member)
 
 ## PMC Responsibilities
 
