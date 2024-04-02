@@ -17,6 +17,7 @@ policies](https://www.apache.org/dev/pmc.html#policy).
 * [Voting](#voting)
 * [Reporting](#reporting)
 * [Adding committers](#adding-committers)
+* [Encouraging community growth](#community-growth)
 * [Adding PMC members](#adding-pmc-members)
 * [What to do as a new PMC member](#what-to-do-as-a-new-member)
 
@@ -68,6 +69,13 @@ The addition of committers is essential to the long-term
 sustainability of an open source project. The PMC is responsible for
 determining who will be added as a committer. [Read more about how new
 committers are added to a project](/pmc/adding-committers.html).
+
+## Community growth
+
+Growing your project community takes work. But knowing exactly what to
+do to encourage that growth can be difficult. [Read about practical
+steps you can take to attract new
+contributors](/pmc/community-growth.html).
 
 ## Adding PMC members
 
