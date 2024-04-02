@@ -14,7 +14,7 @@
       <guid>https://community.apache.org/pmc/adding-committers.html</guid>
       <description>The addition of committers is essential to the long-term sustainability of an open source project. The PMC is responsible for determining who will be added as a committer.
 Please see the formal policy and process documentation for adding committers. This page discusses best practices in how to think about new committers.
-Who should be a committer? &amp;para; Each project must decide what is the correct measure for inviting a new committer to their project.</description>
+In addition to the mechanisms for adding committers, give some thought to practical steps you can take to attract new contributors.</description>
     </item>
     
     <item>
@@ -25,6 +25,16 @@ Who should be a committer? &amp;para; Each project must decide what is the corre
       <guid>https://community.apache.org/pmc/adding-pmc-members.html</guid>
       <description>The PMC is responsible for identifying individuals who should be added to the PMC. This is a critical part of the long-term health and sustainability of a project, and ensures that contributors to the project have a voice in the project&amp;rsquo;s roadmap.
 Who should be a PMC member? Nominating, discussion, and voting What to do when a new PMC member is elected Note: Formal policy/process doc is here: https://www.apache.org/dev/pmc.html#newpmc</description>
+    </item>
+    
+    <item>
+      <title>Community Growth</title>
+      <link>https://community.apache.org/pmc/community-growth.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/pmc/community-growth.html</guid>
+      <description>Growing your project community takes work. This document makes practical suggestions of how to encourage people to get involved in your project.
+Publish a roadmap &amp;para; Volunteers can work on whatever they want, and so we have a tendency to not want to tell them what to work on. However, publishing a roadmap, or even a wishlist of features or improvements that are desired, can give people an idea of where they might be able to get involved.</description>
     </item>
     
     <item>

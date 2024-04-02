@@ -354,7 +354,7 @@ Overview &amp;para; The goals of this maturity model are to describe how Apache 
       <guid>https://community.apache.org/pmc/adding-committers.html</guid>
       <description>The addition of committers is essential to the long-term sustainability of an open source project. The PMC is responsible for determining who will be added as a committer.
 Please see the formal policy and process documentation for adding committers. This page discusses best practices in how to think about new committers.
-Who should be a committer? &amp;para; Each project must decide what is the correct measure for inviting a new committer to their project.</description>
+In addition to the mechanisms for adding committers, give some thought to practical steps you can take to attract new contributors.</description>
     </item>
     
     <item>
@@ -501,6 +501,16 @@ Board Resolution Creating the Apache Community Development Project Establish the
       
       <guid>https://community.apache.org/lists.html</guid>
       <description>Almost everything and everyone at Apache use email lists to get work done, including this Community Development project right here! When people send email to a list, many other community members get the message, and someone usually provides a useful reply. Every email list at Apache is archived: most lists are archived publicly. That means that newcomers to a community can learn how decisions on a project have been made in the past, because all the email discussions a project has had are archived.</description>
+    </item>
+    
+    <item>
+      <title>Community Growth</title>
+      <link>https://community.apache.org/pmc/community-growth.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/pmc/community-growth.html</guid>
+      <description>Growing your project community takes work. This document makes practical suggestions of how to encourage people to get involved in your project.
+Publish a roadmap &amp;para; Volunteers can work on whatever they want, and so we have a tendency to not want to tell them what to work on. However, publishing a roadmap, or even a wishlist of features or improvements that are desired, can give people an idea of where they might be able to get involved.</description>
     </item>
     
     <item>
