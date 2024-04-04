@@ -3,13 +3,22 @@
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="/">Home</a></li>
-    {{ range $index, $element := split $url "/" }}
-        {{ $.Scratch.Add "path" $element }}
-        {{ if ne $element "" }}
-            <li class="breadcrumb-item"><a href='{{ $.Scratch.Get "path" }}'>{{ humanize . | replaceRE "\\.[hH]tml$" "" }}</a></li>
-            {{ $.Scratch.Add "path" "/" }}
-        {{ end }}
-    {{ end }}
+    {{ template "breadcrumb" dict "currentPage" .Page "id" .Key }}
   </ol>
 </nav>
 
+{{ define "breadcrumb" }}
+  {{ if .currentPage.Parent }}
+    {{ template "breadcrumb" dict "currentPage" .currentPage.Parent }}
+
+    <li class="breadcrumb-item">
+      {{ if eq .id .currentPage.Key }}
+        {{ .currentPage.Title }}
+      {{ else }}
+        {{ with .currentPage }}
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{ end }}
+      {{ end }}
+    </li>
+  {{ end }}
+{{ end }}
