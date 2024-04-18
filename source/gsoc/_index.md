@@ -17,6 +17,11 @@ Google is sponsoring the [{{< current_year >}} Summer of Code](https://summerofc
 This page is your entry point to the ASF GSoC program.
 Please watch this page for updates concerning our participation in {{< current_year >}}.
 
+<a name="GSoC-Mentors:readthis"></a>
+# Mentors: read this
+
+Navigate to the [mentor documentation](./guide-to-being-a-mentor.html).
+
 <a name="GSoC-Students:readthis"></a>
 # Students: read this
 
