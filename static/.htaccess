@@ -22,3 +22,4 @@ Redirect /committers/lazyConsensus.html /committers/decisionMaking.html
 # Speakers app is being deprecated
 Redirect /speakers/speakers.html /speakers/
 
+Redirect /working-groups/ /workinggroups/
