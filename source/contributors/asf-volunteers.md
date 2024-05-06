@@ -36,6 +36,7 @@ by a Web Component loaded for this page.
 * dirkx # speaker
 * glauesppen # mentor, speaker
 * jbonofre # mentor, speaker
+* kanchana # mentor
 * ningjiang # mentor, speaker
 * rbowen # mentor, speaker
 * rvs # mentor, speaker
