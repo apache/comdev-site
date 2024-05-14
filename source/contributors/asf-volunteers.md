@@ -15,16 +15,16 @@ is a PMC member of that project.
 In alphabetical order of ASF IDs.
 
 <!--
-To add your name to this list, use the same 
+To add your name to this list, use the same
 format as other entries and keep the list sorted
-alphabetically by ASF username. 
+alphabetically by ASF username.
 
 You can add additional data such as your personal
 website URL, languages spoken, location etc.
 to the /static/data/people.json file
 
 This data is combined with public ASF info found under
-https://whimsy.apache.org/public/public_ldap_projects.json , 
+https://whimsy.apache.org/public/public_ldap_projects.json ,
 by a Web Component loaded for this page.
 -->
 
@@ -40,4 +40,4 @@ by a Web Component loaded for this page.
 * ningjiang # mentor, speaker
 * rbowen # mentor, speaker
 * rvs # mentor, speaker
-
+* tison # mentor, speaker
