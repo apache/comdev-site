@@ -1,5 +1,7 @@
 ---
 title: Apache in GSoC
+url: /gsoc/experiences
+---
 ---
 
 *This should be in the GSoC directory*
@@ -8,6 +10,18 @@ This is a place for
 collecting information about GSoC activities each year for historical tracking. It 
 was started in 2012 so is missing plenty of detail in the early years. Your help 
 filling it out would be appreciated.
+
+# [2023 Overview](/gsoc/experiences/gsoc-2023.html)
+
+* Students accepted: 26
+* Students who passed midterm: 26
+* Students who passed final: 25
+
+# [2022 Overview](/gsoc/experiences/gsoc-2022.html)
+
+* Students accepted: 37
+* Students who passed midterm: 36
+* Students who passed final: 33
 
 # 2018 Overview
   
