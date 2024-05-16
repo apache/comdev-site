@@ -7,17 +7,6 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language><atom:link href="https://community.apache.org/gsoc/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Apache in GSoC</title>
-      <link>https://community.apache.org/gsoc/experiences.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://community.apache.org/gsoc/experiences.html</guid>
-      <description>This should be in the GSoC directory
-This is a place for collecting information about GSoC activities each year for historical tracking. It was started in 2012 so is missing plenty of detail in the early years. Your help filling it out would be appreciated.
-2018 Overview &amp;para; Students accepted: ? Students who passed final: 29 2017 Overview &amp;para; Students accepted: ? Students who passed final: 27 2016 Overview &amp;para; Students accepted: 49 Students who passed final: 35 2015 Overview &amp;para; Students accepted: 56 Students who passed final: 47 2014 Overview &amp;para; Students accepted: 42 Students who passed final: 35 2013 Overview &amp;para; Students accepted: 51 Students who passed final: 44 2012 Overview &amp;para; Students accepted: 41 Students who passed midterm: 40 26 projects mentoring (17 TLPs and 9 Podlings) Participating TLPS are: Xerces, Pig, OODT, Hive, James, Tapestry, Ofbiz, Gora, Synapse, Derby, Axis, POI, Whirr, Lucene, Velocity, Libcloud, Xalan Participating Podlings are: ODF Toolkit, Airavata, Stanbol, Photark, Wookie, OpenMeetings, Nuvem, Hama, VXQuery 2012 Blogs &amp;para; Scott Wilson: Wookie Mentor Pushpalanka: Wookie Student Mike McCandless: Lucene Mentor Bhathiya Jayasekara: Airavata Student OpenMeetings Mentors: Sebastian Wagner, Alexei Fedotov, Maxim Solodovnik - Students: Ankur Ankan, German Grekhov, Dmitry Zamula, Josh Dolitsky 2011 Overview &amp;para; Students accepted: 40 Students who passed midterm: 38 Students who passed final: 36 2010 Overview &amp;para; Students accepted: 44 Students who passed final: 39 2005 &amp;para; First year Apache participated</description>
-    </item>
-    
-    <item>
       <title>GSoC admins</title>
       <link>https://community.apache.org/gsoc/gsoc-admin-tasks.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
