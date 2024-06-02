@@ -101,3 +101,7 @@ volunteers-list a:visited.name {
 volunteers-list li {
   margin-bottom: 0.2em;
 }
+
+.bg-bright {
+    background: white;
+}
