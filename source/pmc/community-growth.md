@@ -18,7 +18,7 @@ going somewhere, rather than that it is stagnating.
 
 It can be very challenging to keep a roadmap current. Having a mechanism
 for tagging open issues with `proposal` or `roadmap` and
-automatimatically extracting that into a web page can help with this.
+automatically extracting that into a web page can help with this.
 
 ## Periodically publish the open issue list
 
