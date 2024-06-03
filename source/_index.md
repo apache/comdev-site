@@ -27,7 +27,7 @@ We are primarily focused on ASF projects, but we believe that our
 [governance principles](/tags/governance.html)
 and best practices apply to other projects as well.
 
-If you're new to the ASF, and are looking for where to get involved, [you can find relevant information here](/tags/newcomers.html).
+If you're new to the ASF and are looking for where to get involved, [you can find relevant information here](/tags/newcomers.html).
 </div>
 
 <a name="Index-Startingpoints"></a>
@@ -54,9 +54,9 @@ The ASF is a large organization made up of many separate projects. Each project 
 
 Producers should read our <a href="https://www.apache.org/foundation/marks/events">Event Branding Policy</a> for ticketed events, and we have some <a href="events/small-events.html">tips for organizing small community events</a> about Apache projects.
 
-The <a href="https://events.apache.org/event/calendar.html">event calendar</a> lists approved Apache-related events, including Community Over Code (formerly ApacheCon) and project summits.
+The <a href="https://events.apache.org/event/calendar.html">events calendar</a> lists approved Apache-related events, including Community Over Code (formerly ApacheCon) and project summits.
 
-The <a href="https://tac.apache.org/">ASF Travel Assistance Committee</a> provides financial assistance for selected ASF events, to those who would otherwise be unable to attend them.
+The <a href="https://tac.apache.org/">ASF Travel Assistance Committee</a> provides financial assistance for selected ASF events to those who would otherwise be unable to attend them.
 
   </div>
   <div class="col-md-4">
@@ -76,7 +76,7 @@ Our mission is to create software for the public good that we <a href="https://w
 
 #### Open Source Contributors
 
-If you know a little about open source, and want to understand how the ASF works, our <a href="contributors/index.html">contributors' section</a> is for you.
+If you know a little about open source and want to understand how the ASF works, our <a href="contributors/index.html">contributors' section</a> is for you.
 
 We also have a collection of <a href="links.html">links</a> to relevant information.
 
@@ -110,8 +110,8 @@ If you still haven't found what you are looking for, try our <a href="newbiefaq.
 
 #### Diversity and Inclusion
 
-<a href="http://diversity.apache.org/">Apache DE&I</a>  (Diversity, Inclusion and Equity) website has more information
-on that project and current initiatives, dedicated to understanding and promoting diversity and inclusion in ASF communities.
+The <a href="http://diversity.apache.org/">Apache DE&I</a> (Diversity, Equity, and Inclusion) website has more information
+on that project and current initiatives dedicated to understanding and promoting diversity and inclusion in ASF communities.
 
   </div>
   <div class="col-md-4">
