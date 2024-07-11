@@ -128,10 +128,10 @@ disillusioned.
 
 On the `private@` list we can each say exactly what we feel about each person,
 with no holds barred. Keep the discussion concise. The praise part can
-be done later in public. Keep in mind, however, that if the member becomes
+be done later in public. Keep in mind, however, that if the person becomes
 a PMC member later, they will have access to this discussion.
 
-Let the Vote thread run for one week.
+Let the Vote thread run for one week, or longer if fewer than three positive votes are received.
 
 A positive result is achieved by **Consensus Approval**: at least 3 +1
 votes and no vetoes.
@@ -139,7 +139,7 @@ votes and no vetoes.
 Any veto must be accompanied by reasoning and the vetoer must be prepared to defend it.
 Other members can attempt to encourage them to change their mind.
 
-New committers can be either quiet or active as they choose. If we find
+New committers can be as quiet or active as they choose. If we find
 that certain people lapse and don't ever contribute, then the project can take steps
 to retire them.
 
@@ -176,13 +176,13 @@ merge this template with the following one (PMC Vote Template).
     ------------------------------------------------------------
 
 ### PMC Vote Template
-This is the email to commence a vote for a new **PMC candidate**. New PMC members need
-to be voted for by the existing PMC members and subsequently approved by the Board
-(or Incubator PMC for incubating projects).
+This is the email to commence a vote for a new **PMC member**. New PMC members need
+to be voted for by the existing PMC members and subsequently approved by the
+Incubator PMC for incubating projects.
     
     ------------------------------------------------------------
     To: private@[PROJECT].apache.org
-    Subject: [VOTE] New PMC candidate: Jo Bloggs
+    Subject: [VOTE] New PMC member: Jo Bloggs
     
     [ add the reasons behind your nomination here ]
     
@@ -197,7 +197,7 @@ This email ends the vote and reports the result to the project.
     
     ------------------------------------------------------------
     To: private@[PROJECT].a.o
-    Subject: [RESULT] [VOTE] New committer (or PMC candidate): Jo Bloggs
+    Subject: [RESULT] [VOTE] New committer (or PMC member): Jo Bloggs
     
     The vote has now closed. The results are:
     
@@ -208,9 +208,6 @@ This email ends the vote and reports the result to the project.
     -1 [TOTAL BINDING -1 VOTES]
     
     The vote is ***successful/not successful***
-
-### Notify Board of new PMC member 
-See [https://www.apache.org/dev/pmc.html#newpmc][1]
 
 ### Committer Invite Template
 This is the suggested invitation email to send to the newly elected committer, 
