@@ -714,7 +714,17 @@ Talk to the project first Make sure it&amp;rsquo;s wanted/welcome See if there&a
       <guid>https://community.apache.org/newcommitter.html</guid>
       <description>Identifying potential new committers, calling a vote for their recognition as a committer and processing the relevant documents are tasks to which the whole community can contribute.
 Each project has a different approach to managing new committers. This page describes a common process found in many Apache projects. It also provides drafts for the various communications that are necessary.
-Guidelines for assessing new candidates for committership Ability to work cooperatively with peers.</description>
+Some of the PMCs automatically make committers PMC members. The templates below have conditional [if] clauses for that.</description>
+    </item>
+    
+    <item>
+      <title>New PMC member</title>
+      <link>https://community.apache.org/newpmcmember.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/newpmcmember.html</guid>
+      <description>New PMC member process &amp;para; This section describes a typical Apache project&amp;rsquo;s process for handling the vote to add a new PMC member - when it is separate from becoming committer. Templates mentioned in the process appear later in this document. If your PMC adds automatically committers as PMC members, the process for doing both at the same time is described in the New committer
+Summary &amp;para; Discuss the proposed PMC member.</description>
     </item>
     
     <item>
