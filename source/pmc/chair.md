@@ -18,12 +18,12 @@ duties](https://www.apache.org/dev/pmc.html#chair) of the role.
 ## Secretarial duties
 
 The Chair is responsible for completing the necessary "paperwork" when
-new committers and PMC members are added. 
+new committers and PMC members are added.
 
-See the [process for adding new 
+See the [process for adding new
 committers](https://www.apache.org/dev/pmc.html#committer-management),
-and the [process for adding new PMC 
-members](https://www.apache.org/dev/pmc.html#newpmc), for details of
+and the [process for adding new PMC
+members](https://www.apache.org/dev/pmc.html#newpmcmember), for details of
 these requirements.
 
 ## Reporting
@@ -35,18 +35,18 @@ the board of directors.
 
 As the name implies, the Chair may occasionally need to step in to
 moderate discussion, to ensure that a community is conducting itself
-with decorum, and not straying into divisive discussion. 
+with decorum, and not straying into divisive discussion.
 
-The Chair has been selected because they are a respected member of the 
-community, and so should not be hesitant to step in and state what the 
-community standards are, and enforce the expectation that community members 
+The Chair has been selected because they are a respected member of the
+community, and so should not be hesitant to step in and state what the
+community standards are, and enforce the expectation that community members
 behave in appropriate ways on official communication channels.
 
 ## Selecting a new Chair
 
-A project may periodically select a new Chair. 
+A project may periodically select a new Chair.
 
-Some projects do this every year or two, while others keep the same Chair 
+Some projects do this every year or two, while others keep the same Chair
 for many years. A Chair might step down because they no longer have time
 for the role, or simply to give someone else an opportunity.
 
@@ -60,10 +60,10 @@ success in the role.
 
 ## See also:
 
-Newly Chairs are sent [this 
+Newly Chairs are sent [this
 advice](https://svn.apache.org/repos/private/foundation/officers/advice-for-new-pmc-chairs.txt),
 and you're encouraged to read that thoroughly. They should also be
-familiar with [published 
+familiar with [published
 policies](https://www.apache.org/dev/pmc.html#policy) for PMCs.
 
 

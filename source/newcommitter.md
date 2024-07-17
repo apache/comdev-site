@@ -11,6 +11,12 @@ Each project has a different approach to managing new committers. This page
 describes a common process found in many Apache projects. It also provides
 drafts for the various communications that are necessary.
 
+Some of the PMCs automatically make committers PMC members. The templates below
+have conditional `[if]` clauses for that.
+
+If the PMC has separate process for approving PMC members, see
+[new PMC member](https://community.apache.org/newpcmember.html)
+
 {{% toc %}}
 
 <a name="NewCommitter-Guidelinesforassessingnewcandidatesforcommittership"></a>
@@ -29,7 +35,7 @@ the project. We encourage you to not make this bar artificially high.
 The following are some points to consider when assessing a candidate's qualifications for committership.
 
 <a name="NewCommitter-Abilitytoworkco-operativelywithpeers."></a>
-### Ability to work cooperatively with peers. 
+### Ability to work cooperatively with peers.
 How do we evaluate?
 
   - By the interactions they have through email.
@@ -49,7 +55,7 @@ materials.
 How do we evaluate?
 
   - By the interactions they have through email.
-  - Do they help to answer questions raised on the mailing list; do they show a helpful 
+  - Do they help to answer questions raised on the mailing list; do they show a helpful
 attitude and respect for other people's ideas?
 
 <a name="NewCommitter-Committment"></a>
@@ -64,7 +70,7 @@ How do we evaluate?
 ### Personal skill/ability
 How do we evaluate?
 
-  - A solid general understanding of the project. 
+  - A solid general understanding of the project.
   - Quality of discussion in email.
   - Whether their patches (where applicable) are easy to apply with only a cursory review.
 
@@ -78,25 +84,27 @@ later in this document.
 <a name="NewCommitter-Summary"></a>
 ### Summary
 
-1. Discuss the proposed committer or PMC member. If the discussion seems to be going positively, call a vote (templates/committerVote.txt)
-1. Close the vote (templates/closeVote.txt)
-1. If the result is positive, invite the new committer (templates/committerInvite.txt)
+1. Discuss the proposed committer (and optionally PMC member). If the discussion seems to be going positively,
+   call a vote following the template below.
+1. Close the vote following the template below
+1. If the result is positive, invite the new committer following the template below.
 
 If they accept, then:
 
 1. If they already have an Apache id, grant appropriate commit privileges.
-Use the Whimsy tool to update the roster via https://whimsy.apache.org/roster/committee/ or https://whimsy.apache.org/roster/ppmc/
+   Use the Whimsy tool to update the roster via [Comitee Roster](https://whimsy.apache.org/roster/committee/) or
+   [PPMC Roster](https://whimsy.apache.org/roster/ppmc/)
 1. If they have already filed an ICLA, request creation of the committer account.
    If they need to change anything in a previously filed ICLA, wait until the new ICLA is filed,
    then request the account.
    1. Wait until root says it is done
    1. PMC Chair updates LDAP group membership which enables svn, gitbox and other access.
-If the committer uses GitHub, they are responsible for linking it to their ASF account.
+      If the committer uses GitHub, they are responsible for linking it to their ASF account.
    1. Add committer to the appropriate groups in Jira and CWiki
-1. Notify the committer of completion (template/committerDone.txt)
-1. If committer is also to be a PMC member, PMC Chair sends email to board@ asking for acknowledgement of new PMC member
-(templates/email-member-ack.txt)
-1. Announce the new committer (template/committerAnnounce.txt)
+1. Notify the committer of completion following the template below
+1. If committer is also to be a PMC member, PMC Chair or another PMC member sends email to board@ notifying
+   about the PMC member. See [new PMC member](https://www.apache.org/dev/pmc.html#newpmcmember]
+1. Announce the new committer following the template below.
 
 <a name="NewCommitter-Discussion"></a>
 ### Discussion
@@ -143,7 +151,7 @@ New committers can be either quiet or active as they choose. If we find
 that certain people lapse and don't ever contribute, then the project can take steps
 to retire them.
 
-After a positive result, record the result on the PMC list with a [RESULT][VOTE] subject
+After a positive result, record the result on the PMC list with a `[RESULT][VOTE]` subject
 and then invite the candidate. We give candidates a chance to decline committership in private. They
 can post a reply to the PMC mailing list.
 
@@ -159,96 +167,110 @@ Other notes about the process are available on the main [Apache site](https://ww
 ### Committer Vote Template
 This is the email to commence a vote for a new committer.
 Some projects make committers PMC members automatically. If this is the case,
-merge this template with the following one (PMC Vote Template).
-      
+use the following one (Committer and PMC member candidate Vote Template).
+
     ------------------------------------------------------------
     To: private@[PROJECT].apache.org
     Subject: [VOTE] New committer: Jo Bloggs
-    
+
     [ add the reasons behind your nomination here ]
-    
+
     Voting ends one week from today, i.e. midnight UTC on YYYY-MM-DD
     https://www.timeanddate.com/counters/customcounter.html?year=YYYY&month=MM&day=DD
-    
+
     See voting guidelines at
     https://community.apache.org/newcommitter.html
-    
+
     ------------------------------------------------------------
 
-### PMC Vote Template
-This is the email to commence a vote for a new **PMC candidate**. New PMC members need
-to be voted for by the existing PMC members and subsequently approved by the Board
-(or Incubator PMC for incubating projects).
-    
+### Committer and PMC member candidate Vote Template
+This is the email to commence a vote for new committer that is also candidate for a PMC member.
+
     ------------------------------------------------------------
     To: private@[PROJECT].apache.org
-    Subject: [VOTE] New PMC candidate: Jo Bloggs
-    
+    Subject: [VOTE] New Committer and PMC member candidate: Jo Bloggs
+
     [ add the reasons behind your nomination here ]
-    
+
     Voting ends one week from today, i.e. midnight UTC on YYYY-MM-DD
     https://www.timeanddate.com/counters/customcounter.html?year=YYYY&month=MM&day=DD
-    
+
     See voting guidelines at
     https://community.apache.org/newcommitter.html
-    
-### Close Vote
+
+### Committer Close Vote
 This email ends the vote and reports the result to the project.
-    
+
     ------------------------------------------------------------
     To: private@[PROJECT].a.o
-    Subject: [RESULT] [VOTE] New committer (or PMC candidate): Jo Bloggs
-    
+    Subject: [RESULT] [VOTE] New committer: Jo Bloggs
+
     The vote has now closed. The results are:
-    
+
     Binding Votes:
-    
+
     +1 [TOTAL BINDING +1 VOTES]
      0 [TOTAL BINDING +0/-0 VOTES]
     -1 [TOTAL BINDING -1 VOTES]
-    
+
     The vote is ***successful/not successful***
 
-### Notify Board of new PMC member 
-See [https://www.apache.org/dev/pmc.html#newpmc][1]
+### Committer and New PMC member candidate close Vote
+This email ends the vote and reports the result to the project.
+
+    ------------------------------------------------------------
+    To: private@[PROJECT].a.o
+    Subject: [RESULT] [VOTE] New committer and PMC member candidate: Jo Bloggs
+
+    The vote has now closed. The results are:
+
+    Binding Votes:
+
+    +1 [TOTAL BINDING +1 VOTES]
+     0 [TOTAL BINDING +0/-0 VOTES]
+    -1 [TOTAL BINDING -1 VOTES]
+
+    The vote is ***successful/not successful***
 
 ### Committer Invite Template
-This is the suggested invitation email to send to the newly elected committer, 
+This is the suggested invitation email to send to the newly elected committer,
 sent after a positive result from the vote for a new committer.
-    
+
     ------------------------------------------------------------
     To: JoBloggs@foo.net
     Cc: private@[PROJECT].apache.org
     Subject: Invitation to become [PROJECT] committer: Jo Bloggs
-        
+
     Hello [invitee name],
 
-    The [Project] Project Management Committee (PMC) 
-    hereby offers you committer privileges to the project 
-    [as well as membership in the PMC]. These privileges are
-    offered on the understanding that you'll use them
+    The [Project] Project Management Committee (PMC)
+    hereby offers you committer privileges to the project
+    [If your project automatically adds committers as PMC members]
+    as well as membership in the PMC
+    [/if]
+    These privileges are offered on the understanding that you'll use them
     reasonably and with common sense. We like to work on trust
-    rather than unnecessary constraints. 
+    rather than unnecessary constraints.
 
-    Being a committer enables you to more easily make 
-    changes without needing to go through the patch 
-    submission process. [Being a PMC member enables you 
+    Being a committer enables you to more easily make
+    changes without needing to go through the patch
+    submission process. [Being a PMC member enables you
     to guide the direction of the project.]
 
-    Being a committer does not require you to 
-    participate any more than you already do. It does 
-    tend to make one even more committed.  You will 
+    Being a committer does not require you to
+    participate any more than you already do. It does
+    tend to make one even more committed.  You will
     probably find that you spend more time here.
 
-    Of course, you can decline and instead remain as a 
+    Of course, you can decline and instead remain as a
     contributor, participating as you do now.
 
     This personal invitation is a chance for you to accept or decline in private.
     Please let us know in reply to this message whether you accept or decline.
-    
+
     If you accept, you will need an Apache account (id) with privileges.
     Please follow these instructions.
-    
+
     A. If you already have an ICLA on file:
 
         1. If you already have an Apache account, let us know your id and we
@@ -256,21 +278,21 @@ sent after a positive result from the vote for a new committer.
 
         2. If you have previously sent an ICLA, let us know the email address
     and public name used on the ICLA and your preferred Apache id, and
-    we will request your account. 
+    we will request your account.
 
         3. If the email address on the previously submitted ICLA is no longer
     valid, let us know the email address and public name used on the new ICLA,
     and your preferred Apache id. Continue to step B below and file your new ICLA.
-    
-    Look to see if your preferred ID is already taken at 
+
+    Look to see if your preferred ID is already taken at
     https://people.apache.org/committer-index.html
 
     B. If there is not already an ICLA on file, you need to submit an ICLA:
-    
-        1. Details of the ICLA and the forms are found 
+
+        1. Details of the ICLA and the forms are found
         through this link: https://www.apache.org/licenses/#clas
 
-        2. Instructions for its completion and return to 
+        2. Instructions for its completion and return to
         the Secretary of the ASF are found at
         https://www.apache.org/licenses/contributor-agreements.html#submitting
 
@@ -279,95 +301,113 @@ sent after a positive result from the vote for a new committer.
         that should be kept private.
 
         3. When you complete the ICLA form, be sure to include in the form
-        the Apache [Project] project and choose a 
-        unique Apache ID. Look to see if your preferred 
-        ID is already taken at 
+        the Apache [Project] project and choose a
+        unique Apache ID. Look to see if your preferred
+        ID is already taken at
         https://people.apache.org/committer-index.html
-        This will allow the Secretary to notify the PMC 
+        This will allow the Secretary to notify the PMC
         when your ICLA has been recorded.
 
-    When recording of your ICLA is noted, you will 
-    receive a follow-up message with the next steps for 
+    When recording of your ICLA is noted, you will
+    receive a follow-up message with the next steps for
     establishing you as a committer.
-   
+
 ### Committer Account Creation
 Please see the [account creation instructions](https://www.apache.org/dev/pmc.html#newcommitter).
 
 In summary:
 
 If the ICLA identifies the project and a valid Apache ID, and the
-[RESULT][VOTE] message has been posted to the PMC private list,
-the account creation request is made by the 
+`[RESULT][VOTE]` message has been posted to the PMC private list,
+the account creation request is made by the
 secretary or assistant secretary who files the ICLA.
 
 Otherwise, the new account request should be made by the
-PMC Chair (or any [ASF Member][6] if the chair is unavailable).
+PMC Chair (or any [ASF Member](https://www.apache.org/foundation/glossary.html#Member)
+if the chair is unavailable).
 
-The PMC chair needs to use the [ASF New Account Request][2] form to
-send a new account request. Members may use [ASF New Account 
-Request][3] page.
+The PMC chair needs to use the [ASF New Account Request](https://id.apache.org/acreq/pmc-chairs/) form to
+send a new account request. Members may use [ASF New Account Request](https://id.apache.org/acreq/members/) page.
 
-For elections held on public lists, please supply the 
-[mail-archives.apache.org][4] url. For private lists, you can 
-use the [Mail Search tool][5] to locate the appropriate url.
+For elections held on public lists, please supply the
+[Mail archives](https://mail-archives.apache.org/) url. For private lists, you can
+use the [Mail Search tool](https://mail-search.apache.org/) to locate the appropriate url.
 
 ### Committer Announce Template
 This is the email to announce the new committer to `[PROJECT]-dev` once the account has been created.
-    
+
     ------------------------------------------------------------
     To: dev@[PROJECT].apache.org
     Subject: new committer: ###Jo Bloggs
-    
+
     The Project Management Committee (PMC) for Apache [PROJECT]
-    has invited Jo Bloggs to become a committer and we are pleased 
+    has invited Jo Bloggs to become a committer and we are pleased
     to announce that they have accepted.
-    
+
     ### add specific details here ###
-    
+
     Being a committer enables easier contribution to the
-    project since there is no need to go via the patch
-    submission process. This should enable better productivity.
+    project since the committer has write access to the repository
+    This should enable better productivity.
+
+### Committer and PMC member Announce Template
+This is the email to announce the new committer to `[PROJECT]-dev` once the account has been created.
+
+    ------------------------------------------------------------
+    To: dev@[PROJECT].apache.org
+    Subject: new committer and PMC member: ###Jo Bloggs
+
+    The Project Management Committee (PMC) for Apache [PROJECT]
+    has invited Jo Bloggs to become a committer and a PMC member
+    and we are pleased to announce that they have accepted.
+
+    ### add specific details here ###
+
+    Being a committer enables easier contribution to the
+    project since the committer has write access to the repository
+    This should enable better productivity.
+
     A PMC member helps manage and guide the direction of the project.
 
 ### Committer Done Template
     After the committer account is established.
-    
+
     ------------------------------------------------------------
     To: private@[PROJECT].a.o, ###JoBloggs@foo.net
     Subject: account request: ###Jo Bloggs
-    
+
     ####, as you know, the ASF Infrastructure has set up your
     committer account with the username '####'.
-    
+
     Please follow the instructions to set up your SSH,
     svn password, svn configuration, email forwarding, etc.
     https://www.apache.org/dev/#committers
-   
-    [If your project automatically adds committers to the PMC]
-    Please subscribe to the [PROJECT] Project Management 
+
+    [If your project automatically adds committers as PMC members]
+    Please subscribe to the [PROJECT] Project Management
     Committee mailing list private@[PROJECT].apache.org.
     [/If]
-    
+
     You have commit access to specific sections of the
     ASF repository, as follows:
-    
+
     [PROJECT] has various resources at:
       https://svn.apache.org/repos/asf/[PROJECT]
       https://gitbox.apache.org
-    
+
     The general "committers" at:
     https://svn.apache.org/repos/private/committers
-    
-    If using svn, you will probably need to 'svn switch" previous checkouts to now use https, 
+
+    If using svn, you will probably need to 'svn switch" previous checkouts to now use https,
     for example:
 
     svn switch --relocate https://svn.apache.org/repos/asf/[PROJECT] https://svn.apache.org/repos/asf/[PROJECT]
-        
+
     The developer section of the website describes roles within the ASF and provides other
     resources:
       https://www.apache.org/foundation/how-it-works.html
       https://www.apache.org/dev/
-    
+
     The incubator also has some useful information for new committers
     in incubating projects:
       https://incubator.apache.org/guides/committer.html
@@ -376,27 +416,19 @@ This is the email to announce the new committer to `[PROJECT]-dev` once the acco
     Just as before you became a committer, participation in any ASF community
     requires adherence to the ASF Code of Conduct:
       https://www.apache.org/foundation/policies/conduct.html
-    
+
     [PROJECT should insert its own guidelines here; if none are available,
      the Apache Forrest guidelines are available as a template.]
       https://forrest.apache.org/guidelines.html
 
     If you have any questions during this phase, then please
     see the following resources:
-    
+
     Apache developer's pages: https://www.apache.org/dev/
     Incubator committer guide: https://incubator.apache.org/guides/committer.html
-    
-    Naturally, if you don't understand anything be sure to ask us on the [PROJECT] dev mailing list. 
+
+    Naturally, if you don't understand anything be sure to ask us on the [PROJECT] dev mailing list.
     Documentation is maintained by volunteers and hence can be out-of-date and incomplete - of course
     you can now help fix that.
-    
+
     A PMC member will announce your election to the dev list soon.
-
-
-  [1]: https://www.apache.org/dev/pmc.html#newpmc
-  [2]: https://id.apache.org/acreq/pmc-chairs/
-  [3]: https://id.apache.org/acreq/members/
-  [4]: https://mail-archives.apache.org/
-  [5]: https://mail-search.apache.org/
-  [6]: https://www.apache.org/foundation/glossary.html#Member
