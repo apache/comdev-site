@@ -24,6 +24,7 @@ Current proposed working groups include:
 * [wg-wg](https://github.com/apache/comdev-working-groups/tree/main/wg-wg) - Defining how working groups work, in general.
 * [wg-advisors](https://github.com/apache/comdev-working-groups/tree/main/wg-advisors) - Advising PMCs on best practice
 * [wg-badging](https://github.com/apache/comdev-working-groups/tree/main/wg-badging) - Creation and maintenance of an accomplishment badging system
+* [wg-code-of-conduct](https://github.com/apache/comdev-working-groups/tree/main/wg-code-of-conduct) - Providing a recommended template for project code of conduct
 * [wg-social](https://github.com/apache/comdev-working-groups/tree/main/wg-social) - Orchestrating local gathering of Apache enthusiasts
 * [wg-social-media](https://github.com/apache/comdev-working-groups/tree/main/wg-social-media) - Social media
 * [wg-website](https://github.com/apache/comdev-working-groups/tree/main/wg-website) - Maintenance of the website
