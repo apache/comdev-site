@@ -8,13 +8,7 @@ project, from being a user, all the way up to being a maintainer of the
 project. While the specific details may look different from one project
 to another, the rungs of the ladder look mostly the same.
 
-* [User](#user)
-* [Contributor](#contributor)
-* [Committer](#committer)
-* [PMC Member](#pmc-member)
-* [ASF Member](#asf-member)
-* [Officers of the Foundation](#officers-of-the-foundation)
-* [Board of Directors](#board-of-directors)
+{{% toc %}}
 
 ## User
 

@@ -13,15 +13,7 @@ reports quarterly to the Board of Directors.
 The Board expects all PMCs to understand and comply with [published 
 policies](https://www.apache.org/dev/pmc.html#policy).
 
-- [PMC Responsibilities](#pmc-responsibilities)
-- [Chair](#chair)
-- [Voting](#voting)
-- [Infrastructure services](#infrastructure-services)
-- [Reporting](#reporting)
-- [Adding committers](#adding-committers)
-- [Community growth](#community-growth)
-- [Adding PMC members](#adding-pmc-members)
-- [What to do as a new member](#what-to-do-as-a-new-member)
+{{% toc %}}
 
 ## PMC Responsibilities
 

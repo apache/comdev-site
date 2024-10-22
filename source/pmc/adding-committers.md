@@ -15,6 +15,8 @@ In addition to the mechanisms for adding committers, give some thought
 to [practical steps you can take to attract new
 contributors](/pmc/community-growth.html).
 
+{{% toc %}}
+
 ## Who should be a committer?
 
 Each project must decide what is the correct measure for inviting a new
