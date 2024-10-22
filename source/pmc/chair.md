@@ -15,6 +15,8 @@ peer, with a few additional duties.
 The Chair should be familiar with the [assigned
 duties](https://www.apache.org/dev/pmc.html#chair) of the role.
 
+{{% toc %}}
+
 ## Secretarial duties
 
 The Chair is responsible for completing the necessary "paperwork" when

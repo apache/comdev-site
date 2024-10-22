@@ -6,6 +6,8 @@ tags: ["pmc","committers","community"]
 Growing your project community takes work. This document makes practical
 suggestions of how to encourage people to get involved in your project.
 
+{{% toc %}}
+
 ## Publish a roadmap
 
 Volunteers can work on whatever they want, and so we have a tendency to

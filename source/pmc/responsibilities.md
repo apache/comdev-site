@@ -8,11 +8,7 @@ of the project, including technical decisions, ensuring that the project
 is operating in accordance with ASF norms, adding new members to the
 project, and voting on releases.
 
-- [Conducting Business](#conducting-business)
-- [Protecting your brand](#protecting-your-brand)
-- [Making a release](#making-a-release)
-- [Ensuring Project Health](#ensuring-project-health)
-- [Adding Community Members](#adding-community-members)
+{{% toc %}}
 
 ## Conducting Business
 

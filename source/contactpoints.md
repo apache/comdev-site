@@ -8,6 +8,8 @@ If you have a question about anything Apache, the ComDev project is here to help
 To help us help you, try to direct your question to the right mailing list - our 
 volunteer committers do all their work on mailing lists.
 
+{{% toc %}}
+
 # Community Questions
 
 Email questions about community or issues across multiple Apache projects to [dev@community.apache.org](mailto:dev@community.apache.org?subject=New-Contact-Question) - or see our detailed [Mailing List How To](//community.apache.org/lists.html) page.
@@ -27,6 +29,7 @@ Each of Apache's email lists is privately archived: you can mail to them, and
 we'll answer, but you won't be able to read the archives.
 
 <a name="ContactPoints-Trademarks"></a>
+
 ## Trademarks
 
 Issues regarding trademarks, specific project names, or branding of the
@@ -35,6 +38,7 @@ or send email to [trademarks@apache.org](mailto:trademarks@apache.org).
 
 
 <a name="ContactPoints-PublicityandMarketing"></a>
+
 ## Publicity and Marketing
 
 Issues dealing with publicity, marketing, or any inquires from the
@@ -42,6 +46,7 @@ press or analysts: see our [Press Team Page](https://www.apache.org/press/),
  or email to [press@apache.org](mailto:press@apache.org).
 
 <a name="ContactPoints-FundraisingandSponsorship"></a>
+
 ## Fundraising and Sponsorship
 
 Questions about fundraising, sponsorships, donations, or related
@@ -49,6 +54,7 @@ finances: see our [Donations Information](//www.apache.org/foundation/contributi
 or email to [fundraising@apache.org](mailto:fundraising@apache.org).
 
 <a name="ContactPoints-Legal"></a>
+
 ### Legal
 
 Send specific legal questions that may need to be private, and require a
@@ -58,6 +64,7 @@ response from the ASF's legal counsel to
 Please read our [Legal FAQs](https://www.apache.org/legal/#user-links) first.
 
 <a name="ContactPoints-Other"></a>
+
 ### Other
 
 For more information on these and other foundation lists, see the [Mailing Lists](https://www.apache.org/foundation/mailinglists.html) page.

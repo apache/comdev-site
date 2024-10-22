@@ -8,6 +8,8 @@ communication format in projects. This is not merely because we've
 always done it that way, but is an intentional decision for the health
 and sustainability of our communities.
 
+{{% toc %}}
+
 ## Inclusion and transparency
 
 Mailing lists ensure that all members of the community can participate
