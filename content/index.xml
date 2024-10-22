@@ -449,7 +449,7 @@ Code of Conduct &amp;para; The ASF has adopted a Code of Conduct which covers in
       
       <guid>https://community.apache.org/contributor-ladder.html</guid>
       <description>Projects at the ASF offer a way to grow in your responsibilities in the project, from being a user, all the way up to being a maintainer of the project. While the specific details may look different from one project to another, the rungs of the ladder look mostly the same.
-User Contributor Committer PMC Member ASF Member Officers of the Foundation Board of Directors User &amp;para; Everything that we do in an ASF project is for the user.</description>
+User Contributor Committer PMC Member Foundation Member Officers of the Foundation Board of Directors User &amp;para; Everything that we do in an ASF project is for the user.</description>
     </item>
     
     <item>
@@ -519,7 +519,7 @@ Board Resolution Creating the Apache Community Development Project Establish the
       
       <guid>https://community.apache.org/pmc/community-growth.html</guid>
       <description>Growing your project community takes work. This document makes practical suggestions of how to encourage people to get involved in your project.
-Publish a roadmap &amp;para; Volunteers can work on whatever they want, and so we have a tendency to not want to tell them what to work on. However, publishing a roadmap, or even a wishlist of features or improvements that are desired, can give people an idea of where they might be able to get involved.</description>
+Publish a roadmap Periodically publish the open issue list Clearly document contribution processes Publish your contributor ladder Engage with big users Be transparent about project risk Come talk to us Publish a roadmap &amp;para; Volunteers can work on whatever they want, and so we have a tendency to not want to tell them what to work on.</description>
     </item>
     
     <item>
@@ -540,8 +540,7 @@ The pages tagged with speakers or mentoring should provide the information that 
       <guid>https://community.apache.org/contactpoints.html</guid>
       <description>If you have a question about anything Apache, the ComDev project is here to help.
 To help us help you, try to direct your question to the right mailing list - our volunteer committers do all their work on mailing lists.
-Community Questions &amp;para; Email questions about community or issues across multiple Apache projects to dev@community.apache.org - or see our detailed Mailing List How To page.
-Technical Questions &amp;para; If you have a technical question about this website, or one of the tools that the ComDev project builds, email us at dev@community.</description>
+Trademarks Publicity and Marketing Fundraising and Sponsorship Legal Other Community Questions &amp;para; Email questions about community or issues across multiple Apache projects to dev@community.apache.org - or see our detailed Mailing List How To page.</description>
     </item>
     
     <item>
@@ -635,7 +634,7 @@ Books &amp;para; Producing Open Source Software - by Karl Fogel Blog posts &amp;
       
       <guid>https://community.apache.org/contributors/mailing-lists.html</guid>
       <description>The ASF has a long tradition of using mailing lists as the primary communication format in projects. This is not merely because we&amp;rsquo;ve always done it that way, but is an intentional decision for the health and sustainability of our communities.
-Inclusion and transparency &amp;para; Mailing lists ensure that all members of the community can participate on a level field, regardless of time zone or availability, whereas synchronous communication platforms (IRC, Slack, Discord, etc.</description>
+Inclusion and transparency Mailing list etiquette Meaningful subject lines Inline vs top-posting HTML and &amp;ldquo;rich text&amp;rdquo; messages Colloquialisms Mailing list configuration Configuring where to send things Configuring the subject lines of the emails being sent Conclusion Inclusion and transparency &amp;para; Mailing lists ensure that all members of the community can participate on a level field, regardless of time zone or availability, whereas synchronous communication platforms (IRC, Slack, Discord, etc.</description>
     </item>
     
     <item>
