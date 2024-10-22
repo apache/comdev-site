@@ -5,27 +5,30 @@ tags: ["pmc","navigation"]
 ---
 
 The Project Management Committee, or PMC, is the technical steering
-committee for a project. This group determines the roadmap for the
-project, decides who will be added as committers and PMC members, and
+committee for a project. Each PMC determines the roadmap for their
+project, decides who will be added as committers and PMC members, 
+votes on new project software releases, and
 reports quarterly to the Board of Directors.
 
 The Board expects all PMCs to understand and comply with [published 
 policies](https://www.apache.org/dev/pmc.html#policy).
 
-* [PMC Responsibilities](#pmc-responsibilities)
-* [Chair](#chair)
-* [Voting](#voting)
-* [Reporting](#reporting)
-* [Adding committers](#adding-committers)
-* [Encouraging community growth](#community-growth)
-* [Adding PMC members](#adding-pmc-members)
-* [What to do as a new PMC member](#what-to-do-as-a-new-member)
+- [PMC Responsibilities](#pmc-responsibilities)
+- [Chair](#chair)
+- [Voting](#voting)
+- [Infrastructure services](#infrastructure-services)
+- [Reporting](#reporting)
+- [Adding committers](#adding-committers)
+- [Community growth](#community-growth)
+- [Adding PMC members](#adding-pmc-members)
+- [What to do as a new member](#what-to-do-as-a-new-member)
 
 ## PMC Responsibilities
 
 The PMC is responsible for the management of the project. This includes
 both the technical decisions and ensuring that the project is operating
-in community-friendly ways.
+in community-friendly ways.  PMCs are also responsible for managing 
+their project's brand and trademarks.
 
 The PMC is also responsible for voting on releases of their project, to
 ensure that each release is tested and is an official ASF release

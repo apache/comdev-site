@@ -8,19 +8,20 @@ of the project, including technical decisions, ensuring that the project
 is operating in accordance with ASF norms, adding new members to the
 project, and voting on releases.
 
-* [Conducting business](#conducting-business)
-* [Ensuring project health](#ensuring-project-health)
-* [Adding community members](#adding-community-members)
-* [Reporting](/pmc/reporting.html)
+- [Conducting Business](#conducting-business)
+- [Protecting your brand](#protecting-your-brand)
+- [Making a release](#making-a-release)
+- [Ensuring Project Health](#ensuring-project-health)
+- [Adding Community Members](#adding-community-members)
 
 ## Conducting Business
 
 The PMC is expected to conduct all of its business on the public
 developers mailing list, in the full view of the community.
 
-The private@ list is for communication about private matters, such as
-discussion of proposed committers, proposed new PMC members, and
-communication from the Board of Directors. Do not use it for discussion
+Every PMC also has a private@ list, which is for communication about
+private matters, such as discussion of proposed committers, proposed
+new PMC members, or confidential security issues. Do not use it for discussion
 of features, roadmap, or other technical decisions.
 
 The Board of Directors will occasionally send you comments or queries,
@@ -69,7 +70,7 @@ of their employer, or other third-party interests. The reputation of the
 project, and the ASF in general, is delegated to PMC members in this
 respect.
 
-Projects should operate in a vendor neutral fashion. That is to say, any
+Projects should [operate in a vendor neutral fashion](https://community.apache.org/projectIndependence.html). That is to say, any
 project participant has an equal voice, unrelated to the employer or
 lack thereof. Evidence that a project is favoring one company or
 organization over another is a serious offense. For example, if members
@@ -81,7 +82,8 @@ influence over the direction of the project.
 The PMC is also expected to set the tone for conduct and interactions in
 the project. They can, and should, call out behavior that is in conflict
 with ASF norms, such as bullying, racist or sexist discussions, or other
-abusive behavior.
+abusive behavior.  PMCs may adopt a specific Code of Conduct, or simply 
+follow the [ASF's general Code of Conduct](https://apache.org/foundation/policies/conduct).
 
 ## Adding Community Members
 

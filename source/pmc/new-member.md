@@ -43,7 +43,9 @@ policies](https://www.apache.org/dev/pmc.html#policy)
 
 Also have a look at the [overview of PMC 
 responsibilities](https://community.apache.org/pmc/responsibilities.html) to 
-understand best practices of governing your project.
+understand best practices of governing your project.  Two other key 
+documents are about [maintaining project independence](https://apache.org/foundation/policies/conduct),
+and [protecting your project's trademarks](https://apache.org/foundation/marks/responsibility).
 
 ## Ask a lot of questions
 
