@@ -63,6 +63,7 @@ should have a feel for how to get involved, so go for it.
 A very good first step would be to introduce yourself in an email to the list. Explain your interest in the project and anything relevant in your background or skills, and identify the bug or feature request you would like to work on.
 
 # Further Reading
+  * Read about our [Contributor Ladder](https://community.apache.org/contributor-ladder.html) which explains the steps towards contributing more at the ASF.
   * Answers to some common questions are in our [FAQ][5]
   * To learn more about "The Apache Way" of developing software, see the 
 Foundation's [How It Works][6] pages.

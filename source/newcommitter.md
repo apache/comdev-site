@@ -15,7 +15,8 @@ Some of the PMCs automatically make committers PMC members. The templates below
 have conditional `[if]` clauses for that.
 
 If the PMC has separate process for approving PMC members, see
-[new PMC member](newpmcmember.html)
+[new PMC member](newpmcmember.html).  
+The [Contributor Ladder](https://community.apache.org/contributor-ladder.html) helps explain different roles.
 
 {{% toc %}}
 

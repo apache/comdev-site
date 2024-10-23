@@ -8,7 +8,8 @@ This page is for people who are reasonably
 comfortable with open source development models but need a helping hand finding 
 their way around the Apache Software Foundation (ASF) and our way of developing software
 (commonly called "The Apache Way"). For those wishing to start from
-the very beginning, we have a [newcomers page][1].
+the very beginning, we have a [newcomers page][1] and an 
+overview of our [Contributor Ladder](https://community.apache.org/contributor-ladder.html).
 
 ## Project Independence And Policies
 

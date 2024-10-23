@@ -10,6 +10,8 @@ vote to add a new PMC member - when it is separate from becoming committer.
 Templates mentioned in the process appear later in this document. If your PMC
 adds automatically committers as PMC members, the process for doing both at the
 same time is described in the [New committer](https://community.apache.org/newcommitter.html)
+The [Contributor Ladder](https://community.apache.org/contributor-ladder.html) helps explain different roles.
+
 
 <a name="NewPMCMember-Summary"></a>
 ### Summary

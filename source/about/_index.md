@@ -15,14 +15,15 @@ provides a wide array of information, [FAQs](/newbiefaq.html), and help to newco
 - [GSoC](/gsoc/)
 - [Contributors Guide](/newcomers/)
 - [Committers Guide](/committers)
-- Project Management Committees
+- [Contributor Ladder](https://community.apache.org/contributor-ladder.html) of roles
+- [Project Management Committees](https://community.apache.org/pmc/)
 
 ### Mentoring for Projects
 - [Incubator Mentors](https://incubator.apache.org/guides/mentor.html) - Many folks here are IPMC members or mentors, too
 - Get community advice on dev@community
 
 ### Education + Outreach
-- [ApacheCon](https://apachecon.com/)
+- [Community Over Code](https://communityovercode.org/) *(formerly ApacheCon)*
 - Partnered Industry Events (FOSDEM etc.)
 - MeetUps, Apache BarCamps, etc.
 - Event Representatives (booth coverage, etc.)
@@ -49,7 +50,6 @@ The ComDev PMC maintains these tools, so bring questions to our [dev@](https://l
 ### Physical artifacts
 
 * Stickers: Request project stickers for your event, depending on geography
-* Assistance with producing [swag for your project](https://www.redbubble.com/people/comdev/shop)
 
 ## About This Website
 

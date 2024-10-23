@@ -11,6 +11,7 @@ you stepping up to help out.
 
   * [Where do I start?](/newcomers/gettingStarted.html) - a guide to your first engagement with an Apache project
   * [How should I behave?](/contributors/etiquette.html) - etiquette and codes of conduct at Apache
+  * [How can I climb the Contributor Ladder?](https://community.apache.org/contributor-ladder.html) - roles in Apache projects
   * [Newbie FAQ](/newbiefaq.html) - some commonly asked questions (and their answers)
   * [How many projects are at Apache?](https://projects.apache.org/) - we have a **LOT** of different project communities!
   * [Just show me the code!](https://www.apache.org/dev/) - site index of technical questions (where's SVN, how to log in, etc.)
