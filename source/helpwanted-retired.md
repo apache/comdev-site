@@ -12,7 +12,7 @@ app that used to be at https://helpwanted.apache.org/
 
 ## The HelpWanted app has been retired
 
-Few projects used the app, and there was very little traffic in its final years.
+Few projects used the app at helpwanted.apache.org, and there was very little traffic in its final years.
 It was not considered worth the maintenance effort.
 
 The code is still available at  https://svn.apache.org/repos/asf/comdev/helpwanted.apache.org/site/
