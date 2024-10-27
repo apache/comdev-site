@@ -1,0 +1,13 @@
+To: private@[PROJECT].a.o
+Subject: [RESULT] [VOTE] New committer: Candidate Name
+
+The vote has now closed. The results are:
+
+Binding Votes:
+
++1 [TOTAL BINDING +1 VOTES]
+ 0 [TOTAL BINDING +0/-0 VOTES]
+-1 [TOTAL BINDING -1 VOTES]
+
+The vote is ***successful/not successful***
+

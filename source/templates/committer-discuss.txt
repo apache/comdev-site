@@ -1,0 +1,13 @@
+To: private@project.apache.org
+Subject: [DISCUSS] New committer: [Candidate Name]
+
+I propose to add [Candidate Name] as a committer.
+
+[State reasons that you believe they are a good candidate.]
+
+[State contribution statistics, if available and relevant.]
+
+Please remember that should this candidate be elected, they will have
+access to our archives, and be able to read this, so phrase your
+comments constructively with this in mind.
+
