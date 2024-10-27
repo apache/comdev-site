@@ -9,7 +9,7 @@ the whole community can contribute.
 
 Each project has a different approach to managing new committers. This page
 describes a common process found in many Apache projects. It also provides
-drafts for the various communications that are necessary.
+draft templates for the various communications that are necessary.
 
 Some of the PMCs automatically make committers PMC members. The templates below
 have conditional `[if]` clauses for that.
@@ -53,6 +53,10 @@ If they accept, then:
 
 <a name="NewCommitter-Guidelinesforassessingnewcandidatesforcommittership"></a>
 ## Guidelines for assessing new candidates for committership
+
+Frequently inviting new committers (and PMC members) to your project
+helps to ensure the sustainability of the project, and brings new ideas
+into the discussion.
 
 When voting, all PMC members need to make up their own minds as to whether a candidate
 should be approved to become a committer. They might search mailing lists and issue trackers to see
@@ -184,27 +188,16 @@ template](template/committer-announce.txt) to announce a new committer,
 or [this template](templates/committer-pmc-announce.txt) for new
 committer and PMC member.
 
+You can use [this template](templates/committer-welcome.txt) to welcome
+the new committer to your project community. You are, however,
+encouraged to create your own version of this template, customized to
+your particular project community.
+
 New committers can be either quiet or active as they choose. If we find
 that certain people lapse and don't ever contribute, then the project can take steps
 to retire them.
 
 Other notes about the process are available on the main [Apache site](https://www.apache.org/dev/pmc.html#newcommitter).
-
-<a name="NewCommitter-EmailTemplates"></a>
-## Email Templates
-
-The following templates are recommended ways to phrase your email
-communications around inviting a new committer, to ensure that everyone
-understands your intent.
-
-* [Committer discussion template](templates/committer-discuss.txt)
-* [Committer vote template](templates/commiter-vote.txt)
-* [Committer + PMC vote template](templates/commiter-pmc-vote.txt)
-* [Committer vote results template](templates/committer-results.txt)
-* [Committer + PMC vote results template](templates/committer-pmc-results.txt)
-* [Committer invite template](templates/committer-invite.txt)
-* [New committer announcement](templates/committer-announce.txt)
-* [New committer and PMC member  announcement](templates/committer-pmc-announce.txt)
 
 ### Committer Account Creation
 Please see the [account creation instructions](https://www.apache.org/dev/pmc.html#newcommitter).
@@ -226,67 +219,20 @@ send a new account request. Members may use [ASF New Account Request](https://id
 Please supply the [mail archives](https://lists.apache.org/) URL as
 proof of the vote results.
 
-### Committer Done Template
-    After the committer account is established.
+<a name="NewCommitter-EmailTemplates"></a>
+## Email Templates
 
-    ------------------------------------------------------------
-    To: private@[PROJECT].a.o, ###JoBloggs@foo.net
-    Subject: account request: ###Jo Bloggs
+The following templates are recommended ways to phrase your email
+communications around inviting a new committer, to ensure that everyone
+understands your intent.
 
-    ####, as you know, the ASF Infrastructure has set up your
-    committer account with the username '####'.
-
-    Please follow the instructions to set up your SSH,
-    svn password, svn configuration, email forwarding, etc.
-    https://www.apache.org/dev/#committers
-
-    [If your project automatically adds committers as PMC members]
-    Please subscribe to the [PROJECT] Project Management
-    Committee mailing list private@[PROJECT].apache.org.
-    [/If]
-
-    You have commit access to specific sections of the
-    ASF repository, as follows:
-
-    [PROJECT] has various resources at:
-      https://svn.apache.org/repos/asf/[PROJECT]
-      https://gitbox.apache.org
-
-    The general "committers" at:
-    https://svn.apache.org/repos/private/committers
-
-    If using svn, you will probably need to 'svn switch" previous checkouts to now use https,
-    for example:
-
-    svn switch --relocate https://svn.apache.org/repos/asf/[PROJECT] https://svn.apache.org/repos/asf/[PROJECT]
-
-    The developer section of the website describes roles within the ASF and provides other
-    resources:
-      https://www.apache.org/foundation/how-it-works.html
-      https://www.apache.org/dev/
-
-    The incubator also has some useful information for new committers
-    in incubating projects:
-      https://incubator.apache.org/guides/committer.html
-      https://incubator.apache.org/guides/ppmc.html
-
-    Just as before you became a committer, participation in any ASF community
-    requires adherence to the ASF Code of Conduct:
-      https://www.apache.org/foundation/policies/conduct.html
-
-    [PROJECT should insert its own guidelines here; if none are available,
-     the Apache Forrest guidelines are available as a template.]
-      https://forrest.apache.org/guidelines.html
-
-    If you have any questions during this phase, then please
-    see the following resources:
-
-    Apache developer's pages: https://www.apache.org/dev/
-    Incubator committer guide: https://incubator.apache.org/guides/committer.html
-
-    Naturally, if you don't understand anything be sure to ask us on the [PROJECT] dev mailing list.
-    Documentation is maintained by volunteers and hence can be out-of-date and incomplete - of course
-    you can now help fix that.
-
-    A PMC member will announce your election to the dev list soon.
+* [Committer discussion template](templates/committer-discuss.txt)
+* [Committer vote template](templates/commiter-vote.txt)
+* [Committer + PMC vote template](templates/commiter-pmc-vote.txt)
+* [Committer vote results template](templates/committer-results.txt)
+* [Committer + PMC vote results template](templates/committer-pmc-results.txt)
+* [Committer invite template](templates/committer-invite.txt)
+* [New committer announcement](templates/committer-announce.txt)
+* [New committer and PMC member  announcement](templates/committer-pmc-announce.txt)
+* [Welcome the new committer to your community](templates/committer-welcome.txt)
 
