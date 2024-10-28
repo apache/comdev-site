@@ -1,5 +1,5 @@
 To: private@[PROJECT].a.o
-Subject: [RESULT] [VOTE] New committer and PMC member candidate: Candiate Name
+Subject: [RESULT] [VOTE] New committer and PMC member candidate: [Candiate Name]
 
 The vote has now closed. The results are:
 

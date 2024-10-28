@@ -1,5 +1,5 @@
 To: private@[PROJECT].apache.org
-Subject: [VOTE] New committer: Candidate Name
+Subject: [VOTE] New committer: [Candidate Name]
 
 This is a VOTE to add [Candidate Name] as a committer.
 

@@ -1,6 +1,6 @@
 To: NewCommiter@domain.com
 Cc: private@[PROJECT].apache.org
-Subject: Invitation to become [PROJECT] committer: Candidate Name
+Subject: Invitation to become [PROJECT] committer: [Candidate Name]
 
 Hello [Candidate Name],
 

@@ -1,5 +1,5 @@
 To: dev@[PROJECT].apache.org
-Subject: New committer: Committer Name
+Subject: New committer: [Committer Name]
 
 The Project Management Committee (PMC) for Apache [PROJECT]
 has invited [Committer Name] to become a committer and we are pleased
