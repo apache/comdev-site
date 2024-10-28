@@ -4,6 +4,12 @@ Subject: Welcome, New Committer!
 [Committer Name] as you know, the ASF Infrastructure has set up your
 committer account with the username `[apacheID]`
 
+[If your project uses GitHub]
+You will now be able to merge approved PRs on GitHub for this project.
+
+You can manage your account settings at https://id.apache.org/
+[/If GitHub]
+
 [If your project uses SVN]
 
 Please follow the instructions to set up your SSH,
@@ -20,18 +26,6 @@ Committee mailing list private@[PROJECT].apache.org.
 
 [/If SVN]
 
-[If your project uses GitHub]
-You will now be able to merge approved PRs on GitHub for this project.
-
-You can manage your account settings at https://id.apache.org/
-[/If GitHub]
-
-As an ASF committer, you now also have commit access to specific
-sections of the ASF Foundation repository, as follows:
-
-The general "committers" at:
-https://svn.apache.org/repos/private/committers
-
 The developer section of the website describes roles within the ASF and 
 provides other resources:
   https://www.apache.org/foundation/how-it-works.html
@@ -42,13 +36,18 @@ in incubating projects:
   https://incubator.apache.org/guides/committer.html
   https://incubator.apache.org/guides/ppmc.html
 
+You now have expanded access to portions of the Whimsy toolset
+specific to committers: https://whimsy.apache.org/
+
+As an ASF committer, you now also have commit access to specific
+sections of the ASF Foundation repository, as follows:
+
+The general "committers" at:
+https://svn.apache.org/repos/private/committers
+
 Just as before you became a committer, participation in any ASF community
 requires adherence to the ASF Code of Conduct:
   https://www.apache.org/foundation/policies/conduct.html
-
-[PROJECT should insert its own guidelines here; if none are available,
- the Apache Forrest guidelines are available as a template.]
-  https://forrest.apache.org/guidelines.html
 
 If you have any questions during this phase, then please
 see the following resources:
