@@ -43,9 +43,12 @@ If they accept, then:
    then request the account.
    1. Wait until root says it is done
    1. PMC Chair updates LDAP group membership which enables svn, gitbox and other access.
-      If the committer uses GitHub, they are responsible for linking it to their ASF account.
-   1. Add committer to the appropriate groups in Jira and CWiki
-1. Notify the committer of completion following the template below
+      If the committer uses GitHub, let them know that they are responsible for linking 
+      it to their ASF account.
+   1. Add committer to the appropriate access groups for any services
+      that your project uses, which are not tied to ASF LDAP.
+1. Notify the committer of completion. (Use [this
+   template](templates/committer-welcome.txt)
 1. If committer is also to be a PMC member, PMC Chair or another PMC member sends email to board@ notifying
    about the PMC member. See [new PMC member](https://www.apache.org/dev/pmc.html#newpmcmember]
 1. Announce the new committer following the template below.
