@@ -1,0 +1,19 @@
+To: private@[PROJECT].apache.org
+Subject: [VOTE] New committer: [Candidate Name]
+
+This is a VOTE to add [Candidate Name] as a committer.
+
+This has been discussed here: [Link to DISCUSS thread on
+lists.apache.org] If you have more to add to the discussion, please do
+so there, rather than in this VOTE thread.
+
+[+1] Yes, add this committer
+[0] Abstain
+[-1] No, do not add this committer
+
+Voting ends one week from today, i.e. midnight UTC on YYYY-MM-DD
+https://www.timeanddate.com/counters/customcounter.html?year=YYYY&month=MM&day=DD
+
+See voting guidelines at
+https://community.apache.org/newcommitter.html
+
