@@ -1,11 +1,15 @@
 To: private@[PROJECT].a.o, NewCommitterID@apache.org
 Subject: Welcome, [First Name], New Committer!
 
-[Committer Name] as you know, the ASF Infrastructure has set up your
-committer account with the username `[apacheID]`
+Hello, [Committer Name]
+
+As you know, the ASF Infrastructure has set up your committer account
+with the username `[apacheID]`
 
 [If your project uses GitHub]
 You will now be able to merge approved PRs on GitHub for this project.
+(You'll need to associate your GitHub account with your Apache email
+address.)
 
 You can manage your account settings at https://id.apache.org/
 [/If GitHub]
