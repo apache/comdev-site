@@ -1,5 +1,5 @@
 To: private@[PROJECT].a.o, NewCommitterID@apache.org
-Subject: Welcome, New Committer!
+Subject: Welcome, [First Name], New Committer!
 
 [Committer Name] as you know, the ASF Infrastructure has set up your
 committer account with the username `[apacheID]`
@@ -11,20 +11,17 @@ You can manage your account settings at https://id.apache.org/
 [/If GitHub]
 
 [If your project uses SVN]
-
-Please follow the instructions to set up your SSH,
 svn password, svn configuration, email forwarding, etc.
 https://www.apache.org/dev/#committers
+
+[PROJECT] has various resources at:
+  https://svn.apache.org/repos/asf/[PROJECT]
+[/If SVN]
 
 [If your project automatically adds committers as PMC members]
 Please subscribe to the [PROJECT] Project Management
 Committee mailing list private@[PROJECT].apache.org.
 [/If PMC]
-
-[PROJECT] has various resources at:
-  https://svn.apache.org/repos/asf/[PROJECT]
-
-[/If SVN]
 
 The developer section of the website describes roles within the ASF and 
 provides other resources:
