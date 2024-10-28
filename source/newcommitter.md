@@ -158,13 +158,11 @@ a PMC member later, they will have access to this discussion.
 ### Vote
 
 If the proposed candidate seems to be received positively by a majority
-of those responding, it's time to start a vote.
+of those responding, it's time to [start a vote](templates/committer-vote.txt). 
 
-You can use [this template to start the
-vote](templates/committer-vote.txt). In some projects, new committers
-are automatically also made PMC members. If this is the case in your
-project, you can use [this template to start the
-vote](committer-pmc-vote.txt).
+In some projects, new committers are automatically also made PMC members.
+If this is the case in your project, use [this template to start the
+vote](committer-pmc-vote.txt) instead.
 
 Start a separate [VOTE] thread for each new person. This makes it much easier
 to review the email archives.
@@ -176,32 +174,26 @@ document](https://apache.org/foundation/voting).
 ### Announcing results
 
 After a positive result, record the result on the PMC list with a `[RESULT][VOTE]` subject
-and then invite the candidate. 
-
-You can use [this template](templates/committer-results.txt) to announce the
-results of the vote for a new committer, or [this
-template](templates/committer-pmc-results.txt) for a committer and PMC
-member.
+and then invite the candidate, using [this template](templates/committer-results.txt) 
+for a new committer, or [this template](templates/committer-pmc-results.txt) 
+for a committer and PMC member.
 
 We give candidates a chance to decline committership 
 in private. They can post a reply to the PMC mailing list.
 
 After we reach a decision on the `private@` list, and after the steps above, we
-announce the new committer on the `dev` list. Use [this
-template](template/committer-announce.txt) to announce a new committer,
-or [this template](templates/committer-pmc-announce.txt) for new
-committer and PMC member.
+[announce the new committer on the `dev` list](template/committer-announce.txt)
+
+Alternately, use [this template](templates/committer-pmc-announce.txt) for new
+committer + PMC member.
 
 You can use [this template](templates/committer-welcome.txt) to welcome
 the new committer to your project community. You are, however,
 encouraged to create your own version of this template, customized to
 your particular project community.
 
-New committers can be either quiet or active as they choose. If we find
-that certain people lapse and don't ever contribute, then the project can take steps
-to retire them.
-
-Other notes about the process are available on the main [Apache site](https://www.apache.org/dev/pmc.html#newcommitter).
+Other notes about the process are available on the main 
+[Apache site](https://www.apache.org/dev/pmc.html#newcommitter).
 
 ### Committer Account Creation
 Please see the [account creation instructions](https://www.apache.org/dev/pmc.html#newcommitter).
