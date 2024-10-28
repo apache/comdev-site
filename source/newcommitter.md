@@ -49,9 +49,11 @@ If they accept, then:
       that your project uses, which are not tied to ASF LDAP.
 1. Notify the committer of completion. (Use [this
    template](templates/committer-welcome.txt)
-1. If committer is also to be a PMC member, PMC Chair or another PMC member sends email to board@ notifying
-   about the PMC member. See [new PMC member](https://www.apache.org/dev/pmc.html#newpmcmember]
-1. Announce the new committer following the template below.
+1. If committer is also to be a PMC member, the PMC Chair or other PMC
+   members must [update the PMC roster](https://whimsy.apache.org/roster/committee/)
+   See [new PMC member](https://www.apache.org/dev/pmc.html#newpmcmember) for more detail.
+1. Announce the new committer. (Use [this
+  template](templates/committer-announce.txt).
 
 
 <a name="NewCommitter-Guidelinesforassessingnewcandidatesforcommittership"></a>
@@ -236,6 +238,6 @@ understands your intent.
 * [Committer + PMC vote results template](templates/committer-pmc-results.txt)
 * [Committer invite template](templates/committer-invite.txt)
 * [New committer announcement](templates/committer-announce.txt)
-* [New committer and PMC member  announcement](templates/committer-pmc-announce.txt)
+* [New committer and PMC member announcement](templates/committer-pmc-announce.txt)
 * [Welcome the new committer to your community](templates/committer-welcome.txt)
 
