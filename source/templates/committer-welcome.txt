@@ -64,4 +64,6 @@ help fix that.
 A PMC member will announce your election to the dev list, and we
 encourage you to introduce yourself there.
 
+[Your Name]
+On behalf of the [Project] PMC
 
