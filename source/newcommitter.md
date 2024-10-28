@@ -169,10 +169,9 @@ vote](committer-pmc-vote.txt).
 Start a separate [VOTE] thread for each new person. This makes it much easier
 to review the email archives.
 
-Let the Vote thread run for one week. A positive result is achieved by 
-**Consensus Approval**: at least 3 +1 votes and no vetoes.
-Any veto must be accompanied by reasoning and the vetoer must be prepared to defend it.
-Other members can attempt to encourage them to change their mind.
+Let the Vote thread run for one week. A positive result is achieved by
+more positive votes than negative ones, as per the [ASF voting process
+document](https://apache.org/foundation/voting).
 
 ### Announcing results
 
