@@ -86,7 +86,7 @@ disillusioned.
 
 Let the Vote thread run for one week.
 
-A positive result is achieved by **Consensus Approval**: more +1 votes
+A positive result is achieved if there are more +1 votes
 than -1 votes.
 
 ### Invitation and welcome
