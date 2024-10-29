@@ -1,5 +1,5 @@
 ---
-title: New Committer
+title: Inviting a New Committer
 tags: ["pmc","committers","election"]
 ---
 
