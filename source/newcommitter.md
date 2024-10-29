@@ -223,8 +223,8 @@ communications around inviting a new committer, to ensure that everyone
 understands your intent.
 
 * [Committer discussion template](templates/committer-discuss.txt)
-* [Committer vote template](templates/commiter-vote.txt)
-* [Committer + PMC vote template](templates/commiter-pmc-vote.txt)
+* [Committer vote template](templates/committer-vote.txt)
+* [Committer + PMC vote template](templates/committer-pmc-vote.txt)
 * [Committer vote results template](templates/committer-results.txt)
 * [Committer + PMC vote results template](templates/committer-pmc-results.txt)
 * [Committer invite template](templates/committer-invite.txt)
