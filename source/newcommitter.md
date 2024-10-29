@@ -21,11 +21,11 @@ The [Contributor Ladder](https://community.apache.org/contributor-ladder.html) h
 {{% toc %}}
 
 <a name="NewCommitter-Summary"></a>
-### TL;DR - Inviting a new Committer
+## TL;DR - Inviting a new Committer
 
 1. Discuss the proposed committer (and optionally PMC member). (Use
    [this template](templates/committer-discuss.txt).)
-If the discussion seems to be going positively,
+1. If the discussion seems to be going positively,
    call a vote. (Use [this template](templates/committer-vote.txt) for
    committer, [this template](templates/committer-pmc-vote.txt) for
    committer and PMC member.)
