@@ -29,7 +29,7 @@ explain different roles.
 
 If they accept, then:
 
-1. In case the new PMC member is already is already a committer, and they have Apache id,
+1. If the new PMC member is already is already a committer, and they have Apache id,
    you should grant them appropriate PMC privileges. Use the 
    [committee roster tool](https://whimsy.apache.org/roster/committee/) (or
    [ppmc roster tool](https://whimsy.apache.org/roster/ppmc/) for
@@ -97,7 +97,7 @@ They can post a reply to the PMC mailing list.
 
 After we reach a decision on the `private@` list, and after the steps above, we
 announce the new PMC member on the `dev` list. We can then each follow up with
-our praise in public.
+our praise and welcome messages in public.
 
 Other notes about the process are available on the main [Apache site](https://www.apache.org/dev/pmc.html#newpmcmember).
 
