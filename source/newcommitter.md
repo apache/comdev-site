@@ -1,5 +1,5 @@
 ---
-title: New Committer
+title: Inviting a New Committer
 tags: ["pmc","committers","election"]
 ---
 
@@ -167,8 +167,10 @@ vote](committer-pmc-vote.txt) instead.
 Start a separate [VOTE] thread for each new person. This makes it much easier
 to review the email archives.
 
-Let the Vote thread run for one week. A positive result is achieved by
-more positive votes than negative ones, as per the [ASF voting process
+Let the Vote thread run for one week.
+
+A positive result is achieved when there are at least 3 +1 votes and no vetoes,
+as per the [ASF voting process
 document](https://apache.org/foundation/voting).
 
 ### Announcing results
