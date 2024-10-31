@@ -8,9 +8,9 @@ This has been discussed here:
 If you have more to add to the discussion, please do so there, rather than 
 in this VOTE thread.
 
-[+1] Yes, add this committer
+[+1] Yes, add this person to the PMC
 [0] Abstain
-[-1] No, do not add this committer
+[-1] No, do not add this person to the PMC
 
 Voting ends one week from today, i.e. midnight UTC on YYYY-MM-DD
 https://www.timeanddate.com/counters/customcounter.html?year=YYYY&month=MM&day=DD
