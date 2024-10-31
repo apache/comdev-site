@@ -1,7 +1,7 @@
-To: private@[PROJECT].a.o, NewCommitterID@apache.org
+To: private@[PROJECT].apache.org, NewCommitterID@apache.org
 Subject: Welcome, [First Name], New Committer!
 
-Hello, [Committer Name]
+Hello, [Committer Name],
 
 As you know, the ASF Infrastructure has set up your committer account
 with the username `[apacheID]`
