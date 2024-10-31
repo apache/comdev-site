@@ -86,8 +86,7 @@ disillusioned.
 
 Let the Vote thread run for one week.
 
-A positive result is achieved if there are more +1 votes
-than -1 votes.
+A positive result is achieved when there are at least 3 +1 votes and no vetoes
 
 ### Invitation and welcome
 
