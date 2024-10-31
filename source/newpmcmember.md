@@ -86,7 +86,9 @@ disillusioned.
 
 Let the Vote thread run for one week.
 
-A positive result is achieved when there are at least 3 +1 votes and no vetoes
+A positive result is achieved when there are at least 3 +1 votes and no vetoes,
+as per the [ASF voting process
+document](https://apache.org/foundation/voting).
 
 ### Invitation and welcome
 
