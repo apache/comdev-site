@@ -3,8 +3,6 @@ Subject: [RESULT] [VOTE] New PMC member: [Candidate Name]
 
 The vote has now closed. The results are:
 
-Binding Votes:
-
 +1 N binding, M non-binding
  0 N binding, M non-binding
 -1 N binding, M non-binding
