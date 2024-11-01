@@ -73,7 +73,7 @@ with. In most cases you will need to be a committer to carry out these
 activities, although non-committers can often act in supporting roles.
 
  * Write informational [blogs][22]
- * [Assessing and approving new committers](/newcommitter.html)
+ * [Assessing and approving new committers](/pmc/adding-committers.html)
  * [Board Reports](/boardreport.html)
  * [Apache Project Branding/Trademark Resources](https://www.apache.org/foundation/marks/resources)
 

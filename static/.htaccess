@@ -25,3 +25,6 @@ Redirect /committers/lazyConsensus.html /committers/decisionMaking.html
 Redirect /speakers/speakers.html /speakers/
 
 Redirect /working-groups/ /workinggroups/
+
+RedirectMatch ^/newpmcmember(\.html)? /pmc/adding-pmc-members.html
+RedirectMatch ^/newcommitter(\.html)? /pmc/adding-committers.html

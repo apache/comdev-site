@@ -16,5 +16,5 @@ Voting ends one week from today, i.e. midnight UTC on YYYY-MM-DD
 https://www.timeanddate.com/counters/customcounter.html?year=YYYY&month=MM&day=DD
 
 See voting guidelines at
-https://community.apache.org/newpmcmember.html
+https://community.apache.org/pmc/adding-pmc-members.html
 
