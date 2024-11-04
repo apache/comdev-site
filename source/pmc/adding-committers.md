@@ -24,14 +24,16 @@ The [Contributor Ladder](https://community.apache.org/contributor-ladder.html) h
 ## TL;DR - Inviting a new Committer
 
 1. Discuss the proposed committer (and optionally PMC member). (Use
-   [this template](/templates/committer-discuss.txt).)
+   the [committer discuss template](/templates/committer-discuss.txt).)
 1. If the discussion seems to be going positively,
-   call a vote. (Use [this template](/templates/committer-vote.txt) for
-   committer, [this template](/templates/committer-pmc-vote.txt) for
+   call a vote. (Use the [committer vote template](/templates/committer-vote.txt) for
+   committer, the [committer + PMC member vote template](templates/committer-pmc-vote.txt) for
    committer and PMC member.)
-1. Close the vote. (Use [this template](/templates/committer-results.txt) for a committer vote, or [this template](/templates/committer-pmc-results.txt) for a committer + PMC member vote.)
-1. If the result is positive, invite the new committer. (Use [this
-   template](/templates/committer-invite.txt).)
+1. Close the vote. (Use the [committer vote results template](/templates/committer-results.txt) 
+   for a committer vote, or the [committer + PMC member vote results 
+   template](/templates/committer-pmc-results.txt) for a committer + PMC member vote.)
+1. If the result is positive, invite the new committer. (Use the
+   [committer invite template](/templates/committer-invite.txt).)
 
 If they accept, then:
 
@@ -47,12 +49,12 @@ If they accept, then:
       it to their ASF account.
    1. Add committer to the appropriate access groups for any services
       that your project uses, which are not tied to ASF LDAP.
-1. Notify the committer of completion. (Use [this
+1. Notify the committer of completion. (Use the [committer welcome
    template](/templates/committer-welcome.txt)
 1. If committer is also to be a PMC member, the PMC Chair or other PMC
    members must [update the PMC roster](https://whimsy.apache.org/roster/committee/)
    See [new PMC member](https://www.apache.org/dev/pmc.html#newpmcmember) for more detail.
-1. Announce the new committer. (Use [this
+1. Announce the new committer. (Use the [new committer announcement
   template](/templates/committer-announce.txt).
 
 
@@ -155,14 +157,14 @@ discussion. Any PMC member may propose a potential committer or PMC
 member. This is **not** the sole responsibility or right of the PMC
 chair.
 
-You can use [this template to start the
-discussion](/templates/committer-discuss.txt).
+You can use [the committer discussion template](/templates/committer-discuss.txt)
+to start the discussion
 
-We invite people to join as committers/PMC members, not github ids. It is
-fine to refer to the candidate's github id for context, but the person should
+We invite people to join as committers/PMC members, not GitHub ids. It is
+fine to refer to the candidate's GitHub id for context, but the person should
 be referred to by their name. It is not necessary to have their full legal
 name (that will be kept private) but it is important to use their name, as
-they refer to themselves in email. If a person is known only by their github
+they refer to themselves in email. If a person is known only by their GitHub
 id, it is ok to ask them for their real name prior to holding a VOTE.
 
 We need to be sure that they are committed people with whom we can work.
@@ -186,8 +188,8 @@ If the proposed candidate seems to be received positively by a majority
 of those responding, it's time to [start a vote](/templates/committer-vote.txt). 
 
 In some projects, new committers are automatically also made PMC members.
-If this is the case in your project, use [this template to start the
-vote](committer-pmc-vote.txt) instead.
+If this is the case in your project, use the [committer + PMC member vote
+template](committer-pmc-vote.txt) instead.
 
 Start a separate [VOTE] thread for each new person. This makes it much easier
 to review the email archives.
@@ -201,8 +203,8 @@ document](https://apache.org/foundation/voting).
 ### Announcing results
 
 After a positive result, record the result on the PMC list with a `[RESULT][VOTE]` subject
-and then invite the candidate, using [this template](/templates/committer-results.txt) 
-for a new committer, or [this template](/templates/committer-pmc-results.txt) 
+and then invite the candidate, using the [committer vote results template](/templates/committer-results.txt) 
+for a new committer, or the [committer + PMC member vote results template](/templates/committer-pmc-results.txt) 
 for a committer and PMC member.
 
 We give candidates a chance to decline committership 
@@ -211,10 +213,10 @@ in private. They can post a reply to the PMC mailing list.
 After we reach a decision on the `private@` list, and after the steps above, we
 [announce the new committer on the `dev` list](template/committer-announce.txt)
 
-Alternately, use [this template](/templates/committer-pmc-announce.txt) for new
+Alternately, use the [committer + PMC member announce template](/templates/committer-pmc-announce.txt) for new
 committer + PMC member.
 
-You can use [this template](/templates/committer-welcome.txt) to welcome
+You can use the [new committer welcome template](/templates/committer-welcome.txt) to welcome
 the new committer to your project community. You are, however,
 encouraged to create your own version of this template, customized to
 your particular project community.
