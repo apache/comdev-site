@@ -36,7 +36,7 @@ community health.
 
 #### Newcomers
 
-[![Newcomers](/images/newcomers-fp.jpg)](/newcomers/index.html)
+[![Newcomers](/images/newcomers-fp.webp)](/newcomers/index.html)
   </div> <!-- End Newcomers -->
 
   <!-- Events -->
@@ -44,7 +44,7 @@ community health.
 
 #### Events
 
-[![Events](/images/events-fp.jpg)](https://events.apache.org/)
+[![Events](/images/events-fp.webp)](https://events.apache.org/)
 
   </div> <!-- End Events -->
 
@@ -53,7 +53,7 @@ community health.
 
 #### The Foundation
 
-[![Foundation](/images/foundation-fp.jpg)](https://apache.org/foundation/)
+[![Foundation](/images/foundation-fp.webp)](https://apache.org/foundation/)
 
   </div>
   <!-- End Foundation -->
@@ -66,14 +66,14 @@ community health.
 
 #### Contributors
 
-[![Contributors](/images/contributors-fp.jpg)](/contributors/)
+[![Contributors](/images/contributors-fp.webp)](/contributors/)
 
   </div>
   <div class="col-md-4">
 
 #### Google Summer of Code
 
-[![GSOC](/images/gsoc-fp.jpg)](/gsoc/)
+[![GSOC](/images/gsoc-fp.webp)](/gsoc/)
 
   </div>
 
@@ -82,7 +82,7 @@ community health.
 
 #### Apache Local Community
 
-[![ALC](/images/alc-fp.jpg)](https://s.apache.org/alc)
+[![ALC](/images/alc-fp.webp)](https://s.apache.org/alc)
 
 </div>
   <!-- End ALC -->
@@ -100,7 +100,7 @@ community health.
 
 #### Diversity and Inclusion
 
-[![DE&I](/images/dei-fp.jpg)](https://diversity.apache.org/)
+[![DE&I](/images/dei-fp.webp)](https://diversity.apache.org/)
 
   </div>
 
