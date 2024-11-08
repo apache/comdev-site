@@ -3,12 +3,6 @@ Subject: [VOTE] New Committer and PMC member: [Candidate Name]
 
 [ add the reasons behind your nomination here ]
 
-Voting ends one week from today, i.e. midnight UTC on YYYY-MM-DD
-https://www.timeanddate.com/counters/customcounter.html?year=YYYY&month=MM&day=DD
-
-See voting guidelines at
-https://community.apache.org/newcommitter.html
-
 This is a VOTE to add [Candidate Name] as a committer and PMC member
 
 This has been discussed here: [Link to DISCUSS thread on
@@ -23,5 +17,5 @@ Voting ends one week from today, i.e. midnight UTC on YYYY-MM-DD
 https://www.timeanddate.com/counters/customcounter.html?year=YYYY&month=MM&day=DD
 
 See voting guidelines at
-https://community.apache.org/newcommitter.html
+https://community.apache.org/pmc/adding-committers.html
 
