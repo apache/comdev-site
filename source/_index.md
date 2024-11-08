@@ -23,7 +23,6 @@ community health.
 
 <a name="Index-Startingpoints"></a>
 
-
 <community-front-page>
 
 <!-- Row 1 -->
