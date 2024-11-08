@@ -352,9 +352,9 @@ Overview &amp;para; The goals of this maturity model are to describe how Apache 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://community.apache.org/pmc/adding-committers.html</guid>
-      <description>The addition of committers is essential to the long-term sustainability of an open source project. The PMC is responsible for determining who will be added as a committer.
-Please see the formal policy and process documentation for adding committers. This page discusses best practices in how to think about new committers.
-In addition to the mechanisms for adding committers, give some thought to practical steps you can take to attract new contributors.</description>
+      <description>Identifying potential new committers, calling a vote for their recognition as a committer and processing the relevant documents are tasks to which the whole community can contribute.
+Each project has a different approach to managing new committers. This page describes a common process found in many Apache projects. It also provides draft templates for the various communications that are necessary.
+Some of the PMCs automatically make committers PMC members. The templates below have conditional [if] clauses for that.</description>
     </item>
     
     <item>
@@ -363,8 +363,9 @@ In addition to the mechanisms for adding committers, give some thought to practi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://community.apache.org/pmc/adding-pmc-members.html</guid>
-      <description>The PMC is responsible for identifying individuals who should be added to the PMC. This is a critical part of the long-term health and sustainability of a project, and ensures that contributors to the project have a voice in the project&amp;rsquo;s roadmap.
-Who should be a PMC member? Nominating, discussion, and voting What to do when a new PMC member is elected Note: Formal policy/process doc is here: https://www.apache.org/dev/pmc.html#newpmc</description>
+      <description>This document describes a typical Apache project&amp;rsquo;s process for handling the vote to add a new PMC (Project Management Committee) member - when it is separate from becoming committer.
+Templates mentioned in the process appear [#NewPMCMember-EmailTemplates](later in this document). If your PMC adds automatically committers as PMC members, the process for doing both at the same time is described in the New committer advice.
+The Contributor Ladder helps explain different roles.</description>
     </item>
     
     <item>

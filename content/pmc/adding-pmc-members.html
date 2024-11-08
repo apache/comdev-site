@@ -7,8 +7,9 @@
   <meta name="keywords" content="apache, apache community, community development, opensource"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <meta property="og:title" content="Adding PMC members" />
-<meta property="og:description" content="The PMC is responsible for identifying individuals who should be added to the PMC. This is a critical part of the long-term health and sustainability of a project, and ensures that contributors to the project have a voice in the project&rsquo;s roadmap.
-Who should be a PMC member? Nominating, discussion, and voting What to do when a new PMC member is elected Note: Formal policy/process doc is here: https://www.apache.org/dev/pmc.html#newpmc" />
+<meta property="og:description" content="This document describes a typical Apache project&rsquo;s process for handling the vote to add a new PMC (Project Management Committee) member - when it is separate from becoming committer.
+Templates mentioned in the process appear [#NewPMCMember-EmailTemplates](later in this document). If your PMC adds automatically committers as PMC members, the process for doing both at the same time is described in the New committer advice.
+The Contributor Ladder helps explain different roles." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://community.apache.org/pmc/adding-pmc-members.html" /><meta property="og:image" content="https://community.apache.org/images/aceu19_1.jpg"/><meta property="article:section" content="pmc" />
 
@@ -120,7 +121,7 @@ Who should be a PMC member? Nominating, discussion, and voting What to do when a
             <a class="dropdown-item" href="/committers/funding-disclaimer.html">Funding Campaign Disclaimer</a>
             <a class="dropdown-item" href="/committers/good-first-issues.html">Good First Issues</a>
             <a class="dropdown-item" href="/pmc/">PMC Tips</a>
-            <a class="dropdown-item" href="/newcommitter.html">Recruiting New Committers</a>
+            <a class="dropdown-item" href="/pmc/community-growth.html">Recruiting New Contributors</a>
           </div>
         </li>
         <li class="nav-item dropdown">
@@ -224,16 +225,105 @@ Who should be a PMC member? Nominating, discussion, and voting What to do when a
       
 	
 	<br><br>
-	<p>The PMC is responsible for identifying individuals who should be added
-to the PMC. This is a critical part of the long-term health and
-sustainability of a project, and ensures that contributors to the
-project have a voice in the project&rsquo;s roadmap.</p>
+	<p>This document describes a typical Apache project&rsquo;s process for handling the
+vote to add a new PMC (Project Management Committee) member - when it is
+separate from becoming committer.</p>
+<p>Templates mentioned in the process appear [#NewPMCMember-EmailTemplates](later in
+this document). If your PMC adds automatically committers as PMC members, the process
+for doing both at the same time is described in the <a href="https://community.apache.org/pmc/adding-committers.html">New
+committer</a> advice.</p>
+<p>The <a href="https://community.apache.org/contributor-ladder.html">Contributor Ladder</a> helps
+explain different roles.</p>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#tldr---inviting-a-new-pmc-member">TL;DR - Inviting a new PMC member</a></li>
+    <li><a href="#guidelines-for-inviting-a-new-pmc-member">Guidelines for inviting a new PMC member</a>
+      <ul>
+        <li><a href="#discussion">Discussion</a></li>
+        <li><a href="#vote">Vote</a></li>
+        <li><a href="#invitation-and-welcome">Invitation and welcome</a></li>
+      </ul>
+    </li>
+    <li><a href="#email-templates">Email Templates</a></li>
+  </ul>
+</nav>
+<p><a name="NewPMCMember-Summary"></a></p>
+<h2 id="tldr---inviting-a-new-pmc-member">TL;DR - Inviting a new PMC member <a class="headerlink" title="Permalink" href="#tldr---inviting-a-new-pmc-member">&para;</a></h2>
+<ol>
+<li>Discuss the proposed PMC member.  (Use <a href="/templates/pmc-member-discuss.txt">this template</a>.)</li>
+<li>If the discussion seems to be going positively, call a vote. (Use
+<a href="/templates/pmc-member-vote.txt">this template</a>.)</li>
+<li>Close the vote. (Use <a href="/templates/pmc-member-results.txt">this template</a>.)</li>
+<li>If the result is positive, invite the new committer. (Use <a href="/templates/pmc-member-invite.txt">this
+template</a>.)</li>
+</ol>
+<p>If they accept, then:</p>
+<ol>
+<li>If the new PMC member is already is already a committer, and they have Apache id,
+you should grant them appropriate PMC privileges. Use the
+<a href="https://whimsy.apache.org/roster/committee/">committee roster tool</a> (or
+<a href="https://whimsy.apache.org/roster/ppmc/">ppmc roster tool</a> for
+incubating projects) on Whimsy to update the roster.</li>
+<li>Announce the new PMC member. (Use <a href="/templates/pmc-member-announce.txt">this
+template</a>.)</li>
+</ol>
+<p><a name="#NewPMCMemberGuidelines"></a></p>
+<h2 id="guidelines-for-inviting-a-new-pmc-member">Guidelines for inviting a new PMC member <a class="headerlink" title="Permalink" href="#guidelines-for-inviting-a-new-pmc-member">&para;</a></h2>
+<p>Frequently adding new PMC members to your project helps to ensure the
+sustainability and longevity of your project, and brings new ideas into
+the discussion.</p>
+<p>As a PMC member, you should frequently look at your
+project&rsquo;s active committers and contributors (including non-code
+participants) and consider whether having their voice in the
+decision-making process would better serve your stakeholders, and
+contribute to the Foundation&rsquo;s mission of providing software for the
+public good.</p>
+<p><a name="NewPMCMember-Discussion"></a></p>
+<h3 id="discussion">Discussion <a class="headerlink" title="Permalink" href="#discussion">&para;</a></h3>
+<p>Any PMC member may propose a potential PMC member.
+This is <strong>not</strong> the sole responsibility or right of the PMC chair.</p>
+<p>We do the discussion and vote on the <code>private@</code> mailing list to enable a frank
+discussion. But do keep in mind that if the candidate is elected, they
+will be able to inspect the archives, so keep your discussion respectful
+and professional, with that in mind.</p>
+<p>We invite people to join as PMC members, not github ids. It is
+fine to refer to the candidate&rsquo;s github id for context, but the person should
+be referred to by their name. It is not necessary to have their full legal
+name (that will be kept private) but it is important to use their name, as
+they refer to themselves in email. If a person is known only by their github
+id, it is ok to ask them for their real name prior to holding a VOTE.</p>
+<h3 id="vote">Vote <a class="headerlink" title="Permalink" href="#vote">&para;</a></h3>
+<p>Start a separate [VOTE] thread for each new person. This makes it much easier
+to review the email archives.</p>
+<p>We need to be sure that they are committed people with whom we can work.
+They will be our peers. We will have already observed that they are
+committed to the project and graceful toward users and other developers.</p>
+<p>Don&rsquo;t wait too long before proposing and don&rsquo;t be too hasty. There is a
+trade-off and something about timeliness. A point is reached where it
+becomes obvious that we should invite them. This encourages them and keeps
+them enthusiastic. If we leave it too long, then we risk them becoming
+disillusioned.</p>
+<p>Let the Vote thread run for one week.</p>
+<p>A positive result is achieved when there are at least 3 +1 votes and no vetoes,
+as per the <a href="https://apache.org/foundation/voting">ASF voting process
+document</a>.</p>
+<h3 id="invitation-and-welcome">Invitation and welcome <a class="headerlink" title="Permalink" href="#invitation-and-welcome">&para;</a></h3>
+<p>After a positive result, record the result on the PMC list with a <code>[RESULT][VOTE]</code> subject
+and then invite the candidate. We give candidates a chance to decline PMC membership in private.
+They can post a reply to the PMC mailing list.</p>
+<p>After we reach a decision on the <code>private@</code> list, and after the steps above, we
+announce the new PMC member on the <code>dev</code> list. We can then each follow up with
+our praise and welcome messages in public.</p>
+<p>Other notes about the process are available on the main <a href="https://www.apache.org/dev/pmc.html#newpmcmember">Apache site</a>.</p>
+<p><a name="NewPMCMember-EmailTemplates"></a></p>
+<h2 id="email-templates">Email Templates <a class="headerlink" title="Permalink" href="#email-templates">&para;</a></h2>
 <ul>
-<li>Who should be a PMC member?</li>
-<li>Nominating, discussion, and voting</li>
-<li>What to do when a new PMC member is elected</li>
+<li><a href="/templates/pmc-member-vote.txt">PMC member vote</a></li>
+<li><a href="/templates/pmc-member-results.txt">PMC member vote results</a></li>
+<li><a href="/templates/pmc-member-invite.txt">PMC member invitation</a></li>
+<li><a href="/templates/pmc-member-announce.txt">PMC member announcmement</a></li>
+<li><a href="/templates/pmc-member-welcome.txt">PMC member welcome</a></li>
 </ul>
-<p>Note: Formal policy/process doc is here: <a href="https://www.apache.org/dev/pmc.html#newpmc">https://www.apache.org/dev/pmc.html#newpmc</a></p>
 
 
     </div>
