@@ -12,10 +12,7 @@ title: ASF Community Development - Welcome
 </script>
 
 <div class="homepage-hero">
-  <a target="_blank" href="https://www.apache.org/events/current-event.html">
-    <img class="events-logo" src="https://www.apache.org/events/current-event-125x125.png"/>
-  </a>
-
+    <img class="events-logo" src="/images/project-logos.webp" />
 
 ## ASF Community Development
 
