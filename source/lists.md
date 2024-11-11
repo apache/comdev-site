@@ -50,14 +50,6 @@ browsing and searching through all public email archives:
 
  * [https://lists.apache.org/](https://lists.apache.org/)
 
-Several other organizations also archive many/most Apache email lists, and some 
-offer useful search or sending functionality:
-
- * MarkMail [https://apache.markmail.org/](https://apache.markmail.org/) - natural language search
- * MARC [https://marc.info/](https://marc.info/)
- * The (old) Mail Archive [https://mail-archive.com/][7]
- * GMANE [http://gmane.org/](http://dir.gmane.org/search.php?match=apache)
-
 
   [1]: https://www.apache.org/foundation/public-archives.html
   [2]: https://www.apache.org/dev/#mail

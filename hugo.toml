@@ -44,7 +44,7 @@ repositoryContentBaseUrl = "https://github.com/apache/comdev-site/blob/main/sour
 # Open Graph section
 title = "Apache Community Development"
 description = "The Community Development project creates and provides tools, processes, and advice to help open-source software projects improve their own community health."
-images = ["images/aceu19_1.jpg", "images/aceu19_2.jpg"] # Open graph images are placed in `static/images`
+images = ["images/project-logos.webp"] # Open graph images are placed in `static/images`
 tags = ["OpenSource", "Community", "Apache Software Foundation"]
 
 [social]

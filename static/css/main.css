@@ -105,3 +105,9 @@ volunteers-list li {
 .bg-bright {
     background: white;
 }
+
+community-front-page img {
+    border-radius: 12%;
+}
+
+
