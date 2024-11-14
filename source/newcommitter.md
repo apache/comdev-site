@@ -15,7 +15,7 @@ Some of the PMCs automatically make committers PMC members. The templates below
 have conditional `[if]` clauses for that.
 
 If the PMC has separate process for approving PMC members, see
-[new PMC member](newpmcmember.html).  
+[new PMC member](/pmc/adding-pmc-members.html).  
 The [Contributor Ladder](https://community.apache.org/contributor-ladder.html) helps explain different roles.
 
 {{% toc %}}
@@ -59,19 +59,44 @@ If they accept, then:
 <a name="NewCommitter-Guidelinesforassessingnewcandidatesforcommittership"></a>
 ## Guidelines for assessing new candidates for committership
 
-Frequently inviting new committers (and PMC members) to your project
-helps to ensure the sustainability of the project, and brings new ideas
-into the discussion.
+Each project must decide what is the correct measure for inviting a new
+committer to their project. There are, however, several things that we
+encourage you to consider.
 
-When voting, all PMC members need to make up their own minds as to whether a candidate
-should be approved to become a committer. They might search mailing lists and issue trackers to see
-how the candidate interacts with others, and the contributions (code or doc patches, suggestions, engagement in conversation) they have made.
+Any PMC member can (and should!) nominate project contributors for a
+committer vote. Don't assume that the PMC chair, or some senior project
+member, will do this. Watch the contributors, and nominate promising
+participants.
 
-All new committers **must** adhere to the [Apache Code of Conduct](https://www.apache.org/foundation/policies/conduct.html).
+Remember that we do all of our development in revision control.
+Errors are reversible learning opportunities. Thus, inviting someone
+"too early" has very little risk associated with it. On the other hand,
+inviting someone too late has the very real risk that they'll get
+frustrated and leave, and you'll have missed that opportunity forever.
+Setting the bar too high has been the eventual death of many projects.
 
-Each PMC may want to create their own supplemental committer guidelines,
-such as a minimum number of contributions, or number of months active on
-the project. We encourage you to not make this bar artificially high.
+Think of adding committers as an investment in the future of your
+project, rather than as a reward for good behavior. Committers whom you
+add today will be the backbone of your project tomorrow, or five years
+from now. New committers are the only way to ensure the long-term
+sustainability of your project. Look for contributors who seem to have
+new ways of thinking.
+
+Think of a committer as someone who is committed to the project, rather
+than just someone who writes code. Contributions in other areas, such as
+design, end-user support, event management, documentation, or project
+promotion, should also be welcomed into the project by inviting them as 
+committers, and, eventually, as PMC members.
+
+Finally, if you have specific requirements for committers (such as a
+period of time, or number of contributions) we encourage you to document
+that on your website. People like to know what their "career path" is in
+a project, rather than feeling that it is merely at the whim of a
+secret committee. If you see someone who seems to be on the path, point
+them to this document, so that they know what to expect, and what they
+can do to become a better contributor. See also [Becoming A
+Committer](https://community.apache.org/contributors/becomingacommitter.html)
+for general advice you might offer.
 
 The following are some points to consider when assessing a candidate's qualifications for committership.
 

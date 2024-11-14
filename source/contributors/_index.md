@@ -33,7 +33,7 @@ intentional decision, in order to include a wider community than who
 happens to be on your Slack channel at a particular moment.
 
 This is why we say, at the ASF, [**If it didn't happen on the mailing
-list, it didn't happen**](/contributors/mailing-lists).
+list, it didn't happen**](/contributors/mailing-lists.html).
 
 ## Moving From Contributor to Committer
 
