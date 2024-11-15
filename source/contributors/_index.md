@@ -57,12 +57,12 @@ Most (not all) Apache projects have their code on
 ### Communication
 
 Most (not all) Apache project have their main discussions on [mailing
-lists][lists]. Most projects have
+lists][11]. Most projects have
 `users@project.apache.org` and `dev@project.apache.org` mailing lists,
 focused, respectively, on end-user questions, and development activity.
 You can read the archives (i.e., messages from the past), as well as
 participate in current discussions, either by subscribing to the lists,
-or by using the [lists.apache.org][lists] site
+or by using the [lists.apache.org][11] site
 directly.
 
 #### Subscribe
@@ -178,6 +178,6 @@ in our document [Project Independence][7].
   [8]: /contributors/etiquette
   [9]: https://www.apache.org/foundation/how-it-works.html
   [10]: /newbiefaq.html#websitecms
-  [lists]: https://lists.apache.org/
+  [11]: https://lists.apache.org/
 <!-- /Links -->
 
