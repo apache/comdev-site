@@ -9,7 +9,7 @@ the [contributor ladder](/contributor-ladder.html).
 
 User &rarr; **Contributor** &rarr; [Committer](/committers/) &rarr; [PMC member](/pmc/)
 
-While we tend to think of contributions to open source as *code*, a 
+While we often think of contributions to open source as *code*, a 
 contribution can be anything - good questions, documentation, design,
 event coordination, and so on also qualify as contributions. Projects
 need your skills, even if you're not a programmer.
