@@ -87,7 +87,7 @@ instructions.
 #### Other communication channels
 
 Some projects use other communication channels, such as Slack, Discord,
-or WiChat. This will (hopefully) be listed on the project page.
+or WeChat. This will (hopefully) be listed on the project page.
 
 ## Your First Contribution
 
