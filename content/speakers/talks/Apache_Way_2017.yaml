@@ -1,0 +1,24 @@
+---
+title: "Apache Way: Effective Open Source Project Management"
+teaser: Learn how to manage long-lived diverse open source project communities by following the behaviors of the Apache Way.
+submitter: curcuru
+speakers:
+- curcuru
+abstract: | 
+  The "Apache Way" is the process by which Apache Software Foundation projects are managed. It has evolved 18 years and has produced over 170 highly successful open source Apache projects. But what is it and how does it work?
+
+  Learn the core behaviors that make up the Apache Way, and how they are used in successful Apache projects from core technologies, to big data, to user facing projects.
+  
+  The behaviors in the Apache Way are required for all Apache projects, but can be simply used by any open source projects.  Distributed decision making, open communication, do-ocracy, and diverse communities are the cornerstones.
+  
+  Benefit from the experience of over 5,000 Apache committers and 170 successful projects by applying these behaviors and techniques in your own projects! 
+
+audience: Community managers, developers, project managers involved with FOSS projects.
+slides: http://shaneslides.com/apachecon/TheApacheWay-Intro-ApacheConNA2017.html
+video: https://www.youtube.com/watch?v=hpAv54KIgK8
+topics: 
+- apacheway
+- community
+present_at:
+- http://apachecon.com/2017
+present_date: '2017-05-16'

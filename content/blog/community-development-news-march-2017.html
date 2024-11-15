@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+  <meta name="description" content="Apache Community Development"/>
+  <meta name="keywords" content="apache, apache community, community development, opensource"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta property="og:title" content="Community Development News - March 2017" />
+<meta property="og:description" content="Welcome to our monthly blog update about what is happening in Apache Community Development. This month we have news about our Annual Members meeting, we celebrate our 18th birthday, we encourage participation in GSoC, a new system for making donations to the ASF goes live, we simplify the Apache Way and the ASF joins Facebook.
+Happy 18th Birthday Apache! &para; Last month the ASF celebrated its 18th birthday. and who would have believed that the Apache HTTP Server, the ASF&rsquo;s original project still remains the most popular Web server on the planet totalling nearly 80M active sites." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://community.apache.org/blog/community-development-news-march-2017.html" /><meta property="og:image" content="https://community.apache.org/images/project-logos.webp"/><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2017-04-10T00:00:00+00:00" />
+<meta property="article:modified_time" content="2017-04-10T00:00:00+00:00" /><meta property="og:site_name" content="Apache Community Development" />
+
+
+  <title>Apache Community Development - Community Development News - March 2017</title>
+  <link rel="shortcut icon" href="/images/favicon.ico">
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link href="/css/main.css" rel="stylesheet" media="screen">
+  <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <style type="text/css">
+      .footer {
+          text-align:center;
+          color:grey;
+          font-size:80%;
+          border-top: solid #ddd 1px;
+          margin-top:1em;
+      }
+      .navbar-brand img {
+          height: 50px;
+      }
+  </style>
+
+  
+<script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(['disableCookies']);
+   
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.apache.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '36']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+
+  
+
+</head>
+
+<body>
+  <header class="navbar navbar-expand-lg navbar-dark bg-bright fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+    <img src="https://svn.apache.org/repos/asf/comdev/project-logos/originals/foundation.svg" alt="Apache Software Foundation">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="mainNavbar">
+    <div class="container"> 
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="homeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Home
+            </a>
+            <div class="dropdown-menu" aria-labelledby="homeDropdown">
+              <a class="dropdown-item" href="/">Homepage</a>
+              <a class="dropdown-item" href="/tags.html">Tags</a>
+              <a class="dropdown-item" href="/blog/">Blog</a>
+              <a class="dropdown-item" href="/tags/navigation.html">Navigation pages</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About
+          </a>
+          <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+            <a class="dropdown-item" href="/about/">What We Do</a>
+            <a class="dropdown-item" href="/newbiefaq.html">Frequently Asked Questions</a>
+            <a class="dropdown-item" href="/projectIndependence.html">Apache Project Independence</a>
+            <a class="dropdown-item" href="/apache-way/apache-project-maturity-model.html">Apache Project Maturity Model</a>
+            <a class="dropdown-item" href="/contactpoints.html">Contact Points Within the ASF</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html#2009-11-01">ComDev Original Board Resolution</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html">ComDev Board Reports</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/COMDEV">Community Development Jira</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">About Apache</a>
+            <a class="dropdown-item" href="https://www.apache.org/">The Apache Software Foundation</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/sponsorship">Sponsor Apache</a>
+            <a class="dropdown-item" href="http://diversity.apache.org/">Diversity & Inclusion</a>
+             <a class="dropdown-item" href="/contributors/asf-volunteers.html">Mentors &amp; Speakers</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/thanks">Thanks to our Sponsors</a>
+            <a class="dropdown-item" href="https://www.apache.org/licenses">License</a>
+            <a class="dropdown-item" href="https://www.apache.org/security">Security</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="contribDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Contributing
+          </a>
+          <div class="dropdown-menu" aria-labelledby="contribDropdown">
+            <a class="dropdown-item" href="/contributors/">About The Apache Software Foundation</a>
+            <a class="dropdown-item" href="/contributor-ladder.html">Contributor Ladder</a>
+            <a class="dropdown-item" href="/newcomers/">Getting Started at Apache</a>
+            <a class="dropdown-item" href="https://www.apache.org/dev/">Technical Developer FAQs</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">Committers and PMCs</a>
+            <a class="dropdown-item" href="/committers/">Committer Tips</a>
+            <a class="dropdown-item" href="/committers/decisionMaking.html">Decision Making</a>
+            <a class="dropdown-item" href="/committers/funding-disclaimer.html">Funding Campaign Disclaimer</a>
+            <a class="dropdown-item" href="/committers/good-first-issues.html">Good First Issues</a>
+            <a class="dropdown-item" href="/pmc/">PMC Tips</a>
+            <a class="dropdown-item" href="/pmc/community-growth.html">Recruiting New Contributors</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="commitDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">GSoC</a>
+          <div class="dropdown-menu" aria-labelledby="gsocDropdown">
+            <a class="dropdown-item" href="/gsoc/">Google Summer Of Code Information</a>
+            <a class="dropdown-item" href="/gsoc/mentee-ranking-process.html">Mentee Ranking Process</a>
+            <a class="dropdown-item" href="/gsoc/experiences/">Past GSoC Experiences</a>
+            <a class="dropdown-item" href="/gsoc/guide-to-being-a-mentor.html">Guide to being a Mentor</a>
+            <a class="dropdown-item" href="/gsoc/use-the-comdev-gsoc-issue-tracker-for-gsoc-tasks.html">Using ComDev's Jira for GSoC Ideas</a>
+            <a class="dropdown-item" href="/gsoc/gsoc-admin-tasks.html">Tasks of a GSoC Admin at the ASF</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/GSOC">GSoC Jira</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="eventDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Events
+          </a>
+          <div class="dropdown-menu" aria-labelledby="eventDropdown">
+            <a class="dropdown-item" href="https://apachecon.com/">Community Over Code - (formerly ApacheCon)</a>
+            <a class="dropdown-item" href="https://events.apache.org/">Other Apache-related Events</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/marks/events">Apache event branding policies</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">Conference Speakers</a>
+            <a class="dropdown-item" href="/speakers/">Speaker resources</a>
+            <a class="dropdown-item" href="/speakers/slides.html">Sample presentations</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="conversDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Working Groups
+          </a>
+          <div class="dropdown-menu" aria-labelledby="wgDropdown">
+            <a class="dropdown-item" href="/workinggroups/">Working Groups</a>
+            <a class="dropdown-item" href="https://github.com/apache/comdev-working-groups">Git repositories</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="conversDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Join the Conversation
+          </a>
+          <div class="dropdown-menu" aria-labelledby="conversDropdown">
+            <a class="dropdown-item" href="/blog/">Blog</a>
+            <a class="dropdown-item" href="https://www.facebook.com/ApacheSoftwareFoundation">Facebook</a>
+            <a class="dropdown-item" href="https://twitter.com/ApacheCommunity">Twitter</a>
+            <a class="dropdown-item" href="/lists.html">Mailing List</a>
+            <a class="dropdown-item" href="https://cwiki.apache.org/confluence/display/COMDEV/Apache+Local+Community+-+ALC">ALC: Apache Local Communities</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+    </div>
+  </header>
+
+  <main class="cd-main" id="content" role="main">
+    <div class="container">
+      <section id="content" class="row">
+        <div class="col-md-9">
+          
+        </div>
+        <div class="col-md-12"></div>
+      </section>
+      
+      <hr>
+       
+<ul class="tags-list">
+  
+  <li>
+    <a href="https://community.apache.org/tags/blog.html">blog</a>
+  </li>
+  <li>
+    <a href="https://community.apache.org/tags/news.html">news</a>
+  </li></ul>
+
+      
+	
+		<h2>Community Development News - March 2017</h2>
+		<span class="published-info">Published on Monday, Apr 10, 2017
+
+    
+    by sharan
+    
+</span>
+	
+	<br><br>
+	<p>Welcome to our monthly blog update about what is happening in Apache Community Development. This month we have news
+about our Annual Members meeting, we celebrate our 18th birthday, we encourage participation in GSoC, a new system for
+making donations to the ASF goes live, we simplify the Apache Way and the ASF joins Facebook.</p>
+<h3 id="happy-18th-birthday-apache">Happy 18th Birthday Apache! <a class="headerlink" title="Permalink" href="#happy-18th-birthday-apache">&para;</a></h3>
+<p>Last month the <a href="https://s.apache.org/TRc7">ASF celebrated its 18th birthday</a>. and who would have believed that the
+Apache HTTP Server, the ASF&rsquo;s original project still remains the most popular Web server on the planet totalling nearly
+80M active sites. Over the 18 years the ASF has grown and developed and now has 300+ projects and 6000+ committers. Our
+projects cover a range of different domains including Big Data, Artificial Intelligence, Mobile, Geospatial and Internet
+of Things.</p>
+<p>It&rsquo;s great to see that many of our projects are not only well known but are a key part of mainstream technology
+infrastructure and applications. We have become so much more than just the web server! So let&rsquo;s celebrate our first 18
+years by thanking all our communities and volunteer contributors that helped make Apache what it is today.</p>
+<p>Let&rsquo;s look forward to our next18 years of Apache collaboration, innovation and successful project communities.</p>
+<h3 id="donate-and-help-support-the-asf">Donate and Help Support the ASF <a class="headerlink" title="Permalink" href="#donate-and-help-support-the-asf">&para;</a></h3>
+<p>Last month saw the start of a new way to donate and support Apache. We do rely on a lot of volunteer effort but we still
+need to spend money on things such as infrastructure, marketing, legal services and administration. Any amount is
+accepted and even small donations can make a real difference. Details of how to make a donation can be found below.</p>
+<p><a href="https://donate.apache.org/">Donate to the ASF</a></p>
+<p>If you use or rely on any Apache software then please consider donating (even a small amount helps) to help the ASF
+continue doing what it has been doing for another 18 years.</p>
+<h3 id="apache-annual-members-meeting">Apache Annual Members Meeting <a class="headerlink" title="Permalink" href="#apache-annual-members-meeting">&para;</a></h3>
+<p>Every year the foundation holds its Annual Members meeting to review the previous year and prepare for the next one. A
+key part of this includes reveiwing the state of the foundation itself and also voting in a new board of directors.
+During this year&rsquo;s meeting the following were elected as the new ASF Board. Rich Bowen, Shane Curcuru, Bertrand
+Delacretaz, Ted Dunning, Jim Jagielski, Chris Mattmann, Brett Porter, Phil Steitz, and Mark Thomas</p>
+<p>As well as welcoming our new Board members, we would also like to say a huge thank you to the two directors that have
+left the board this year (Marvin Humphrey and Isabel Drost-Fromm) for their work and dedication over the past year.</p>
+<p>The annual members meeting is also used to increase the membership by inviting new members. Over the coming weeks you
+may see various announcements for the new members. If you would like to find out more about the how the foundations
+works, what the Board of Directors do and the role of the foundation members then please see the links below:</p>
+<ul>
+<li><a href="http://apache.org/foundation/how-it-works.html">About the ASF and How it Works</a></li>
+<li><a href="http://apache.org/foundation/board/">About the ASF Board</a></li>
+</ul>
+<h3 id="apache-and-the-google-summer-of-code-2017">Apache and the Google Summer of Code 2017 <a class="headerlink" title="Permalink" href="#apache-and-the-google-summer-of-code-2017">&para;</a></h3>
+<p>Once again the ASF is one of the mentoring organisations for
+the <a href="https://summerofcode.withgoogle.com/organizations/5416945173135360/">Google Summer of Code (GSoC)</a>. A range of
+Apache projects have volunteered mentors and tasks that can picked up, worked on and then contributed back to a project.</p>
+<p>We have already seen some activity on our mailing lists as people sign up for various tasks so if you are interested in
+participating in the GSoC then please take a look at
+the <a href="https://issues.apache.org/jira/browse/VXQUERY-180?filter=12339687">list of task ideas</a></p>
+<h3 id="the-apache-way">The Apache Way <a class="headerlink" title="Permalink" href="#the-apache-way">&para;</a></h3>
+<p>A new resource is available that simply and easily explains the main concepts of
+the <a href="https://www.apache.org/foundation/governance/">Apache Way</a>. The new site was put together by community member Shane
+Curcuru and breaks down the Apache Way into 6 key concepts as follows:</p>
+<ul>
+<li><a href="http://theapacheway.com/charity/">Charity</a></li>
+<li><a href="http://theapacheway.com/community/">Community</a></li>
+<li><a href="http://theapacheway.com/consensus/">Consensus</a></li>
+<li><a href="http://theapacheway.com/merit/">Merit</a></li>
+<li><a href="http://theapacheway.com/open/">Open</a></li>
+<li><a href="http://theapacheway.com/pragmatic/">Pragmatic</a></li>
+</ul>
+<p>A big thank you to Shane Curcuru for putting this together and if you have any feedback or comments regarding the site
+then Shane is happy to receive your pull requests.</p>
+<h3 id="asf-on-facebook">ASF on Facebook <a class="headerlink" title="Permalink" href="#asf-on-facebook">&para;</a></h3>
+<p>Did you know that the <a href="https://www.facebook.com/ApacheSoftwareFoundation/?ref=page_internal">ASF is now on Facebook</a>?</p>
+<p>One of our community members, Raphael Bircher discovered that the ASF had an automatically generated Facebook site with
+over 9000 likes. Facebook automatically generates pages for highy requested pages that don&rsquo;t already exist, so
+highlights that we have a significant amount of followers looking for us.</p>
+<p>We have now taken over the autogenerated page and are working on actively building our following. If you or your
+community has a Facebook page then please help support Apache by liking us. Big thanks to Raphael Bircher for working on
+getting this setup.</p>
+<h3 id="committer-survey-feedback-and-comments">Committer Survey Feedback and Comments <a class="headerlink" title="Permalink" href="#committer-survey-feedback-and-comments">&para;</a></h3>
+<p>During March the detailed comments from
+our <a href="https://cwiki.apache.org/confluence/display/COMDEV/ASF+Committer+Diversity+Survey+-+2016">committer diversity survey</a>
+were posted on our mailing list. We had a range of feedback from improvements for the structure of the survey to
+comments about diversity and the role of the Apache Software Foundation itself.</p>
+<p>Details of all these comments can be found at the links below:</p>
+<ol>
+<li><a href="https://s.apache.org/Wtjy">Survey Related Feedback</a></li>
+<li><a href="https://s.apache.org/sdwf">Diversity Related Feedback</a></li>
+<li><a href="https://s.apache.org/XU6v">Improvements Related Feedback</a></li>
+<li><a href="https://s.apache.org/OQUF">Running Survey and General Apache Related Feedback</a></li>
+<li><a href="https://s.apache.org/XU6v">Improvements Related Feedback</a></li>
+</ol>
+<p>It was good to be able to engage with our committer group and get their feedback. We are now looking at following up on
+some of the ideas for improvements, including finding a way to better inform and engage committers across all our
+projects.</p>
+<h3 id="contacting-community-development">Contacting Community Development <a class="headerlink" title="Permalink" href="#contacting-community-development">&para;</a></h3>
+<p>Remember that we are always happy to get your feedback and comments so please feel free to contact us, follow our events
+and participate in our discussions on <a href="https://s.apache.org/qdrd">our mailing list</a>. If you would like to be kept up to
+date with all the latest news about what is happening in Community Development then please subscribe to our mailing list
+by sending an email to dev-subscribe AT community DOT apache DOT org.</p>
+
+
+    </div>
+  </main>
+
+  <footer class="page-footer bg-secondary mt-4 pt-3">
+    <div class="container text-center text-md-left mb-3">
+      <div class="row">
+        <div class="col-md-6 mt-md-0 mt-3">
+          <h5 class="text-uppercase">Trademarks</h5>
+          <p>
+            Apache&reg;, the names of Apache projects, and the multicolor feather logo are
+            <a href="https://www.apache.org/foundation/marks/list/">registered trademarks or trademarks</a> of the Apache
+            Software Foundation in the United States and/or other countries.
+          </p>
+        </div>
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <div class="col-md-6 mb-md-0 mb-3">
+          <h5 class="text-uppercase">Website sources</h5>
+          <p>
+  This website is generated from the <a href="https://github.com/apache/comdev-site">comdev-site repository</a>
+  
+    <br/>
+    Source of this page:
+      <a href="https://github.com/apache/comdev-site/blob/main/source/blog/community-development-news-march-2017.md" title="Source of this page">
+        blog/community-development-news-march-2017.md
+      </a>
+  
+</p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright text-center py-3">
+      <em>Copyright &copy; 2024, <a href="https://www.apache.org/">the Apache Software Foundation</a>. Licensed under the
+      <a rel="license" href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></em>
+    </div>
+  </footer>
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>

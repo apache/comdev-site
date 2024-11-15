@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ASF Community Development - Welcome on ASF Community Development</title>
+    <link>https://community.apache.org/</link>
+    <description>Recent content in ASF Community Development - Welcome on ASF Community Development</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://community.apache.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RSS feeds activated</title>
+      <link>https://community.apache.org/blog/rss-feeds-activated.html</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/rss-feeds-activated.html</guid>
+      <description>We have activated RSS feeds on this website.
+Section pages such as the blog and pmc pages each have their own feed, to which you can subscribe to stay updated.</description>
+    </item>
+    
+    <item>
+      <title>Paving the way for a more diverse open source landscape: the First OSS Contributor Summit in Mexico</title>
+      <link>https://community.apache.org/blog/the-asf-helps-promote-open.html</link>
+      <pubDate>Mon, 02 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/the-asf-helps-promote-open.html</guid>
+      <description>“I was able to make my first contribution yesterday, and today it was merged. I&amp;rsquo;m so excited about my first steps in open source&amp;quot;, a participant said about the First Summit for Open Source Contributors, which took place this September in Guadalajara, México. How do you involve others in open source? How can we make this space more inclusive for groups with low representation in the field?
+With these questions in mind and the call to contribute to software that is powering the world&amp;rsquo;s favorite products, the Apache Software Foundation, along with the CNCF, sponsored the First Summit for Open Source Contributors in Mexico.</description>
+    </item>
+    
+    <item>
+      <title>Apache Event @ Tsinghua University, Beijing, China - Embracing The Apache Open Source Community</title>
+      <link>https://community.apache.org/blog/apache-event-tsinghua-university-beijing.html</link>
+      <pubDate>Mon, 25 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/apache-event-tsinghua-university-beijing.html</guid>
+      <description>Apache Event @ Tsinghua University, Beijing, China, Nov. 9, 2019
+The Way of Open Source Lecture Series - Embracing The Apache Open Source Community
+The All-in-one video of the Apache Event - Embracing the Apache OSS Community (Panel Discussion included): https://youtu.be/vDc7nUb7V0w Craig&amp;rsquo;s talk, The Apache Way : https://youtu.be/JZbR5vW7oL0 Junping Du&amp;rsquo;s talk (in Chinese), The practice of enjoying Apache : https://youtu.be/cCQ52QPtZ_s Willem Jiang&amp;rsquo;s talk (in Chinese), Getting Started: How to join an Open Source project: https://youtu.</description>
+    </item>
+    
+    <item>
+      <title>New Apache mailing-list for inter-project communication with a focus on IoT related topics</title>
+      <link>https://community.apache.org/blog/new-apache-mailing-list-for.html</link>
+      <pubDate>Mon, 08 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/new-apache-mailing-list-for.html</guid>
+      <description>There&amp;rsquo;s a lot of magic happening in the IoT sector at the moment. A lot of new projects are appearing and older projects are growing and extending their functionality. We have noticed that it&amp;rsquo;s currently quite difficult to keep track who the players in this field are and what they&amp;rsquo;re up to. So we decided to create a new mailing-list to help improve the communication:
+iot@apache.org (Archive at: https://lists.apache.org/list.html?iot@apache.org)
+We hope this communication-channel will help reduce unnecessary double-work and improve streamlining the projects to work together as good a possible.</description>
+    </item>
+    
+    <item>
+      <title>An approach to community building from Apache Beam</title>
+      <link>https://community.apache.org/blog/an-approach-to-community-building.html</link>
+      <pubDate>Fri, 22 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/an-approach-to-community-building.html</guid>
+      <description>Apache Beam has been a top-level project since January 2017. I, current Beam PMC Chair, would like to share some of Beam&amp;rsquo;s recent efforts to tackle the challenges of growing our community.
+[Updated Feb 27, 2019 to clarify that the article is authored by the Beam PMC Chair and describes the Beam project&amp;rsquo;s work to build their own community. Previously it could have mistakenly been read as an ASF Foundation statement about the Beam project, or as describing an ASF action taken upon the Beam project.</description>
+    </item>
+    
+    <item>
+      <title>Community Development News - July 2018</title>
+      <link>https://community.apache.org/blog/community-development-news-july-2018.html</link>
+      <pubDate>Mon, 06 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/community-development-news-july-2018.html</guid>
+      <description>Welcome to our monthly blog update about what is happening in Apache Community Development (ComDev)!
+This month we have news about ApacheCon NA in Montreal, we prepare to participate at Solutions Hamburg, we talk about our great experience at OSCON, and we look at making sure people can find out about Apache related meetups and events.
+ApacheCon NA 2018 &amp;para; ApacheCon North America, in Montreal, is less than 60 days away and there is still a lot of work happening to ensure that the conference is a success.</description>
+    </item>
+    
+    <item>
+      <title>Community Development News - June 2018</title>
+      <link>https://community.apache.org/blog/community-development-news-june-2018.html</link>
+      <pubDate>Tue, 03 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/community-development-news-june-2018.html</guid>
+      <description>Welcome to our monthly blog update about what is happening in Apache Community Development (ComDev)!
+This month we have news about the Apache EU Roadshow and FOSS Backstage conferences in Berlin, we talk about our participation at the OpenExpo Europe, we interview speakers, attendees and Board members for FeatherCast and we prepare for participation in even more conferences.
+Apache EU Roadshow &amp;para; This month our Apache EU Roadshow was held in Berlin.</description>
+    </item>
+    
+    <item>
+      <title>Community Development News - April 2018</title>
+      <link>https://community.apache.org/blog/community-development-news-april-2018.html</link>
+      <pubDate>Wed, 09 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/community-development-news-april-2018.html</guid>
+      <description>Welcome to our monthly blog update about what is happening in Apache Community Development (ComDev)!
+This month we have news about our Apache EU Roadshow, the schedule for Apachecon North America is announced, we talk about our participation at GOTO Chicago, we plan for having an Apache presence at more open source conferences and we welcome another PMC member.
+OpenExpo Europe &amp;para; As part of our involvement with the OpenExpo Europe Conference there was a request for volunteers to write short articles on open source trends for the conference e-book.</description>
+    </item>
+    
+    <item>
+      <title>Community Development News - February 2018</title>
+      <link>https://community.apache.org/blog/community-development-news-february-2018.html</link>
+      <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/community-development-news-february-2018.html</guid>
+      <description>Welcome to our monthly blog update about what is happening in Apache Community Development (ComDev)!
+This month we have news about our participation at FOSDEM, we include an update on Apachecon North America and our Apache EU Roadshow events, we continue to actively look for event sponsors, we prepare to take part in GSoC and we welcome another PMC member.
+FOSDEM &amp;para; During February, we participated at FOSDEM. FOSDEM is a open source conference held in Brussels every year.</description>
+    </item>
+    
+    <item>
+      <title>Community Development News - January 2018</title>
+      <link>https://community.apache.org/blog/community-development-news-january-2018.html</link>
+      <pubDate>Thu, 08 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/community-development-news-january-2018.html</guid>
+      <description>Welcome to our monthly blog update about what is happening in Apache Community Development (ComDev)!
+This month we have news about ApacheCon North America and also our Apache EU Roadshow, we register for GSoC, we report on our experience at the Open Source Summit Paris, we introduce Apache Community Business Cards, and we welcome two new PMC Members.
+ApacheCon NA 2018 &amp;para; Good news! ApacheCon North America will be held 24-28 September 2018 in Montreal, Canada.</description>
+    </item>
+    
+    <item>
+      <title>Apache Software Foundation Community Sponsor for DeveloperWeek 2018</title>
+      <link>https://community.apache.org/blog/apache-software-foundation-community-sponsor.html</link>
+      <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/apache-software-foundation-community-sponsor.html</guid>
+      <description>We are happy to announce that the Apache Software Foundation (ASF) will be participating as a Community Sponsor for DeveloperWeek 2018 which takes place on February 3-7, San Francisco Bay Area.
+The conference says it is the world&amp;rsquo;s largest developer festival with 8,000+ participants. DeveloperWeek includes 200+ DevTech sessions across Artificial Intelligence, Blockchain, JavaScript, Microservices, Serverless Dev, and more. It also features 90+ innovators exhibiting at the DeveloperWeek Expo. One of the PRO workshops will be run by Denis Magda on &amp;ldquo;Apache Ignite Service Grid: Foundation of Your Microservices-Based Solution&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title>The Spirit of Thanksgiving - 2017 China Open Source Conference (COSCon&#39;17)</title>
+      <link>https://community.apache.org/blog/the-spirit-of-thanksgiving-2017.html</link>
+      <pubDate>Mon, 27 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/the-spirit-of-thanksgiving-2017.html</guid>
+      <description>Article written by KAIYUANSHE. NOTE: There is a copy of the original article including all photos.
+Special thanks to Ted Liu, Emily Chen, Biaowei Zhuang, Mabel Li, Rui Li, Jiansheng Li, Sting Chen, Cynthia Xin ( KAIYUANSHE COSCon&#39;17 Steering Committee)
+2017 China Open Source Conference-COSCon&#39;17 successfully concluded &amp;para; 2017 China Open Source Annual Conference-COSCon&#39;17 which was held in November 18-19th in Shanghai Jiaotong University Campus concluded successfully. Following the successful holding of the 2015 Apache China Roadshow, and the 2016 China Open Source Conference-COSCon&#39;16, the COSCon&#39;17 was jointly organised and meticulously crafted by KAIYUANSHE, the first ground-up open source alliance in China, the Shanghai Branch of the China Computer Federation (CCF), and the Open Source Cloud Alliance for Industry (OSCAR) for the people who truly love open source technologies, believe in community, enjoy the lively sharing of the community atmosphere of the open source.</description>
+    </item>
+    
+    <item>
+      <title>[ANNOUNCE] Apache Participation at the Open Source Summit Paris</title>
+      <link>https://community.apache.org/blog/announce-apache-participation-at-the.html</link>
+      <pubDate>Fri, 10 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/announce-apache-participation-at-the.html</guid>
+      <description>Voir ci-dessous pour la version française de cette annonce.
+We are happy to announce our participation at the Open Source Summit in Paris on 6th and 7th December 2017. The event schedule contains a mix of both French and English speaking presentations across many areas of open source technology, innovation and community.
+The Summit will feature an Apache Software Foundation keynote by Bertrand Delacretaz, member of our Board of Directors, as well as a half day track of Apache based projects and technologies, with the following program:</description>
+    </item>
+    
+    <item>
+      <title>Community Development News - October 2017</title>
+      <link>https://community.apache.org/blog/community-development-news-october-2017.html</link>
+      <pubDate>Thu, 09 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/community-development-news-october-2017.html</guid>
+      <description>Welcome to our monthly blog update about what is happening in Apache Community Development (ComDev)!
+This month we have news about attending the FOSS Backstage Micro Summit, we share some interviews from the Prague Open Source Summit, we revitalise our Jira issue tracker, we welcome a new PMC Chair, we translate our ASF brochure into more languages, we prepare for FOSDEM and a for a half day track at the Open Source Summit in Paris, and we look at introducing Apache Community Business Cards.</description>
+    </item>
+    
+    <item>
+      <title>Community Development News - September 2017</title>
+      <link>https://community.apache.org/blog/community-development-news-september-2017.html</link>
+      <pubDate>Thu, 12 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/community-development-news-september-2017.html</guid>
+      <description>Welcome to our monthly blog update about what is happening in Apache Community Development (ComDev)! You may have noticed that we missed our August issue, this was due to preparations and participation at the Solutions Hamburg conference so once again we have a double update for you this month.
+This month we have news about the FOSS Backstage Micro Summit, we share our experience of the Solutions Hamburg conference, and we start preparing for two conferences in October - the Open Source Summit and MesosCon.</description>
+    </item>
+    
+    <item>
+      <title>Community Development News - July 2017</title>
+      <link>https://community.apache.org/blog/community-development-news-july-2017.html</link>
+      <pubDate>Fri, 04 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/community-development-news-july-2017.html</guid>
+      <description>Welcome to our monthly blog update about what is happening in Apache Community Development (ComDev)! You may have noticed that we missed our June issue, this was due to the holiday season so we have a double update for you this month. This month we have lots of news about upcoming conferences that we are interested in participating at, we share a more detailed blog post about the OpenExpo in Madrid, we remind everyone to find us on Twitter, and provide a pointer to how to help fix misuses of Apache project brands.</description>
+    </item>
+    
+    <item>
+      <title>Community Development at Open Expo in Madrid</title>
+      <link>https://community.apache.org/blog/community-development-at-open-expo.html</link>
+      <pubDate>Thu, 15 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/community-development-at-open-expo.html</guid>
+      <description>Throughout May we promoted that we had been invited to have an Apache booth at the Open Expo in Madrid. The event took place on 1st June 2017 and was the first time that we had an Apache presence there. We received an invitation to the event because of a contact made at FOSDEM (so you can see how being at one event can lead to another!)
+In preparation we made sure that we had enough stickers and swag (pens, usb hubs, fandanas and lapel pins) for our booth.</description>
+    </item>
+    
+    <item>
+      <title>Community Development News - May 2017</title>
+      <link>https://community.apache.org/blog/community-development-news-may-2017.html</link>
+      <pubDate>Wed, 14 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/community-development-news-may-2017.html</guid>
+      <description>Welcome to our monthly blog update about what is happening in Apache Community Development (ComDev)! This month we have lots of news about ApacheCon North America; share some links to some of the conference keynotes; deliver a co-ordinated Apache Way track alongside our Community one; get some feedback from a first time ApacheCon attendee; encourage you to listen to ApacheCon via our FeatherCast podcast channel and we run yet another successful BarCampApache.</description>
+    </item>
+    
+    <item>
+      <title>My First Experience Of ApacheCon by Stephen Downie</title>
+      <link>https://community.apache.org/blog/my-first-experience-of-apachecon.html</link>
+      <pubDate>Thu, 25 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/my-first-experience-of-apachecon.html</guid>
+      <description>Let me start with a small introduction of myself. My name is Stephen Downie and I have been working in the world of IT for only 2 months. Tom Barber, an ASF member and committer, recently got in touch and offered me the opportunity to retrain. I have previously worked for the last 20 years in retail and if I&amp;rsquo;m being honest hated 90% of my time at work, so I thought why not.</description>
+    </item>
+    
+    <item>
+      <title>Community Development News - April 2017</title>
+      <link>https://community.apache.org/blog/community-development-news-april-2017.html</link>
+      <pubDate>Fri, 05 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/community-development-news-april-2017.html</guid>
+      <description>Welcome to our monthly blog update about what is happening in Apache Community Development (ComDev)! This month we have news about ApacheCon North America; give you some reasons why attending BarCampApache is great; encourage projects to ask for help protecting their trademarks; share some mini podcasts from FeatherCast; and we&amp;rsquo;re planning a Community Development Tools Hackathon.
+ApacheCon NA 2017 &amp;para; It is less than 2 weeks to ApacheCon NA in Miami and tickets are still available.</description>
+    </item>
+    
+    <item>
+      <title>Community Development News - March 2017</title>
+      <link>https://community.apache.org/blog/community-development-news-march-2017.html</link>
+      <pubDate>Mon, 10 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/community-development-news-march-2017.html</guid>
+      <description>Welcome to our monthly blog update about what is happening in Apache Community Development. This month we have news about our Annual Members meeting, we celebrate our 18th birthday, we encourage participation in GSoC, a new system for making donations to the ASF goes live, we simplify the Apache Way and the ASF joins Facebook.
+Happy 18th Birthday Apache! &amp;para; Last month the ASF celebrated its 18th birthday. and who would have believed that the Apache HTTP Server, the ASF&amp;rsquo;s original project still remains the most popular Web server on the planet totalling nearly 80M active sites.</description>
+    </item>
+    
+    <item>
+      <title>Community Development News - February 2017</title>
+      <link>https://community.apache.org/blog/community-development-news-february-2017.html</link>
+      <pubDate>Fri, 17 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/community-development-news-february-2017.html</guid>
+      <description>Welcome to our monthly blog update about what is happening in Apache Community Development. This month we have news about ApacheCon, Apache Big Data and our range of mini themed conferences, we also invite you to promote your talk on Feathercast.
+ApacheCon NA 2017 - Miami &amp;para; During February our main focus was in promoting Apache Big Data and the new format ApacheCon in Miami. Over 225 submissions were received and we&amp;rsquo;d like to thank everyone that was involved in helping review them all.</description>
+    </item>
+    
+    <item>
+      <title>Community Development News - January 2017</title>
+      <link>https://community.apache.org/blog/community-development-news-january-2017.html</link>
+      <pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/community-development-news-january-2017.html</guid>
+      <description>Welcome to our monthly blog update about what is happening in Apache Community Development. This month we have news about FOSDEM and our Commnity Development presence there, Feathercast and the audio recordings available and the new mini conference format for Apachecon NA 2017.
+Community Development at FOSDEM 2017 &amp;para; During January a lot of our focus has been in preparing for FOSDEM. FOSDEM is a open source conference in Brussels that is held every year.</description>
+    </item>
+    
+    <item>
+      <title>Community Development News - December 2016</title>
+      <link>https://community.apache.org/blog/community_development_news_december_2016.html</link>
+      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/community_development_news_december_2016.html</guid>
+      <description>Welcome to our monthly blog update about what is happening in Apache Community Development. This month we have news about defining a Community Development Strategy, ASF involvement in GSoC and the results from our Committer Diversity Survey are published.
+Community Development Strategy &amp;para; This month our mailing list has had some detailed discussions around the goal of the Apache Community Development project. The discussion covered topics such as the original mission statement when the project was established and why people felt that more organisation and direction was needed.</description>
+    </item>
+    
+    <item>
+      <title>Community Development News - November 2016</title>
+      <link>https://community.apache.org/blog/community_development_news_november_2016.html</link>
+      <pubDate>Thu, 08 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/community_development_news_november_2016.html</guid>
+      <description>Welcome to the first in a series of monthly blog updates about what is happening in Apache Community Development. This month we have news about our Committer Diversity Survey, FOSDEM 2017, ApacheCon NA 2017 and our PMC grows.
+Apache Committers Diversity Survey &amp;para; Over the last month we have been discussing diversity within the ASF and this month we sent out our first ever Apache Software Foundation Committer Diversity Survey. The committer group was selected because they are a large group that are linked to every Apache project.</description>
+    </item>
+    
+    <item>
+      <title>The Apache Community Development Team Prepares to Send Out its First Diversity Survey</title>
+      <link>https://community.apache.org/blog/the_apache_community_development_team.html</link>
+      <pubDate>Wed, 23 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/the_apache_community_development_team.html</guid>
+      <description>Over the next few weeks the Apache Community Development team will be sending out and running its first ever Apache Software Foundation Committer Diversity Survey. The committer group was selected because they are a significant number of people that are linked to every Apache project. (NOTE: The ASF currently has 5861 committers across 295 projects.)
+Although there are many aspects to diversity including socio-economic, disability and education etc which may be addressed in future surveys, this initial survey will focus on the three broad areas of age, gender and ethnicity.</description>
+    </item>
+    
+    <item>
+      <title>The Apache Software Foundation Participating in Google Summer of Code 2012 as a Mentoring Organization</title>
+      <link>https://community.apache.org/blog/apache_software_foundation_accepted_for.html</link>
+      <pubDate>Wed, 21 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/apache_software_foundation_accepted_for.html</guid>
+      <description>The Apache Software Foundation will be participating in the Google Summer of Code again this year as a mentoring organization.
+Google Summer of Code is a program where students work on open source projects backed by a stipend granted by Google. The Apache Software Foundation has been participating in the program since its inception in 2005.
+Each year, 30-40 students are guided by volunteer mentors from various Apache communities. During the summer they learn what it means to participate in a diverse open source community and develop open source software &amp;ldquo;The Apache Way&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Who should use Apache Extras?</title>
+      <link>https://community.apache.org/blog/who_should_use_apache_extras.html</link>
+      <pubDate>Mon, 20 Dec 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/who_should_use_apache_extras.html</guid>
+      <description>This is historical content, not relevant anymore but kept here as an archive.Who should host their projects on Apache Extras?
+Apache Extras is aimed primarily those who are unable or unwilling to licence their code under the Apache License V2, but want to signal their relationship to one or more Apache project community.
+One example of this is my own Drupal connector for Apache Wookie (Incubating). This needs to be GPL licensed due to the Drupal dependency, but it contains Apache Licensed code as well.</description>
+    </item>
+    
+    <item>
+      <title>Why Apache Extras?</title>
+      <link>https://community.apache.org/blog/why_apache_extras.html</link>
+      <pubDate>Wed, 15 Dec 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/why_apache_extras.html</guid>
+      <description>This is historical content, not relevant anymore but kept here as an archive.All Apache projects use the same pragmatic software license, the Apache License v2. However, we recognise that there are other FOSS licences out there, some of which are incompatible with the Apache License v2.
+Code under these licenses cannot be hosted on Apache servers, but people sometimes choose to, or are required to, use them.
+Until the launch of apache-extras these projects had no a single home to go to.</description>
+    </item>
+    
+    <item>
+      <title>How Apache Projects Use Consensus</title>
+      <link>https://community.apache.org/blog/how_apache_projects_use_consensus.html</link>
+      <pubDate>Tue, 21 Sep 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/how_apache_projects_use_consensus.html</guid>
+      <description>The Apache Software Foundation exists to provide legal and technological infrastructure for open source projects. By and large, the Foundation leaves the individual project communities to make their own choices about their development process. There are some constraints that result from the fundamental legal umbrella held by the Foundation. For the Foundation to protect contributors, projects must respect the rules regarding IP management and releases. A more interesting set of constraints, however, stems from the Foundation&amp;rsquo;s commitment to Open Source software development as a communal process.</description>
+    </item>
+    
+    <item>
+      <title>What makes Apache projects different?</title>
+      <link>https://community.apache.org/blog/what_makes_apache_projects_different.html</link>
+      <pubDate>Thu, 03 Jun 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/blog/what_makes_apache_projects_different.html</guid>
+      <description>Sharing a code repository with some other programmers might seem enough to create an open source project; the Apache Software Foundation goes further and focuses on making projects sustainable in the long term, and ensuring that our code is legally clean.
+This means that our projects have to follow a (small) number of rules, and a number of best practices have been established over the years.
+Here&amp;rsquo;s a quick description of how Apache projects are born and live on - some of the items below are derived from the ASF&amp;rsquo;s bylaws (http://www.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://community.apache.org/communitybuilding/README.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/communitybuilding/README.html</guid>
+      <description>Community Building at the ASF &amp;para; This directory will contain practical advice to ASF projects about how to encourage and foster the growth of their project communities. This will include a variety of topics:
+What &amp;para; What is an Apache community Who are the persona that comprise an Apache community How does an Apache community differ from other open source communities? How is it the same? Why &amp;para; Why community matters to a project.</description>
+    </item>
+    
+    <item>
+      <title>A Maturity Model for Apache Projects</title>
+      <link>https://community.apache.org/apache-way/apache-project-maturity-model.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/apache-way/apache-project-maturity-model.html</guid>
+      <description>The Apache Project Maturity Model provides a suggested framework for evaluating the overall maturity of an Apache project community and the codebase that it maintains. While this model is specific to projects of the Apache Software Foundation (ASF), many of these factors apply to any open source project.
+Overview &amp;para; The goals of this maturity model are to describe how Apache projects operate in a concise and high-level way, and to provide a basic framework that projects may choose to use to evaluate themselves.</description>
+    </item>
+    
+    <item>
+      <title>Adding Committers</title>
+      <link>https://community.apache.org/pmc/adding-committers.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/pmc/adding-committers.html</guid>
+      <description>Identifying potential new committers, calling a vote for their recognition as a committer and processing the relevant documents are tasks to which the whole community can contribute.
+Each project has a different approach to managing new committers. This page describes a common process found in many Apache projects. It also provides draft templates for the various communications that are necessary.
+Some of the PMCs automatically make committers PMC members. The templates below have conditional [if] clauses for that.</description>
+    </item>
+    
+    <item>
+      <title>Adding PMC members</title>
+      <link>https://community.apache.org/pmc/adding-pmc-members.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/pmc/adding-pmc-members.html</guid>
+      <description>This document describes a typical Apache project&amp;rsquo;s process for handling the vote to add a new PMC (Project Management Committee) member - when it is separate from becoming committer.
+Templates mentioned in the process appear [#NewPMCMember-EmailTemplates](later in this document). If your PMC adds automatically committers as PMC members, the process for doing both at the same time is described in the New committer advice.
+The Contributor Ladder helps explain different roles.</description>
+    </item>
+    
+    <item>
+      <title>An overview of board responsibilities</title>
+      <link>https://community.apache.org/board/overview.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/board/overview.html</guid>
+      <description>What to Expect When You&amp;rsquo;re Expecting to be a Director &amp;para; What&amp;rsquo;s involved in being a director at the ASF? This document tries to give an overview of the time commitment involved, and what the work looks like.
+The official duties of the Board are defined on the Apache Governance website. You should read that doc, and those to which it links, first.
+This document tries to give a little more flavor, for the benefit of someone who&amp;rsquo;s considering running for their first term as a Director.</description>
+    </item>
+    
+    <item>
+      <title>Apache in GSoC</title>
+      <link>https://community.apache.org/gsoc/experiences/gsoc-2022.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/gsoc/experiences/gsoc-2022.html</guid>
+      <description>This is a place for collecting information about GSoC activities each year for historical tracking. Your help filling it out would be appreciated.
+2022 Details &amp;para; Students accepted: 37 Students who passed final: 33 Contributor Project Mentors Status Abhinav Sinha Apache Custos Baremetal Deployment SureshMarru, Isuru Ranawaka (+1) Passed / Passed Aishwarya Sinhasane Airavata Rich Client Based on ElectronJS SureshMarru, Eroma Abeysinghe (+1) Passed / Passed Aisulu Karimbaeva Runner Comparison / Capability Matrix revamp Pablo Estrada Passed / Passed Bhavesh Asanabada SMILES Data Models SureshMarru, Isuru Ranawaka (+1) Passed / Passed Chusheng Wu Apache skywalking: Add the webapp of Banyandb Hongtao Gao, Zhenxu Ke (+1) Passed / Passed conghuhu Thin SDK for Proxy Mesh Albumen Kevin, Jun Passed / Passed Cyl Apache Dubbo GSoC2022 Proxyless Mesh support Albumen Kevin, Jun Passed / Passed Daman Arora CloudStack Terraform Provider - Add datasources for the existing resources Boris Stoyanov, Pearl Dsilva (+1) Passed / Passed erdengk Apache ShenYu: Integration tests cover more scenarios EricPer, impactCn Passed / Passed erikiceliu Apache APISIX Java Plugin Runner Improvement Zeping Bai, Zhiyuan Ju (+1) Passed / Passed Everly Precia Suresh Solve unsupported Postgres sql about alter statement for ShardingSphere Parser Trista Pan, Zhengqiang Duan (+2) Passed / Passed Feng Han Multi-source data import and export extension for APISIX Dashboard Zeping Bai, Zhiyuan Ju (+1) Passed / Passed henrik Dubbo Metrics and Observability Albumen Kevin, Jun Passed / Passed Himanshu Acharya Apache Geode Data store support for Apache Gora(GORA-698) Madhawa Gunasekara, Furkan KAMACI Passed / Passed Himanshu Hansaria Airavata Jupyter Platform Services SureshMarru, Isuru Ranawaka (+1) Passed / Passed Huang Xin Apache ShardingSphere Develop an external tool to convert YAML configuration into DistSQL scripts Trista Pan, Longtao Jiang (+1) Passed / Passed Huang Yilong Task demo demonstrating the usage of Dubbo3 Albumen Kevin, Jun Passed / Passed jay li GSoC 2022: Dubo-go-boot project enriches other middleware adaptations zhaoyunxing, laurence Passed / Passed Kaifeng Liu EventMesh Admin Dashboard Xiaoyang Liu Passed / Passed Liangshumin Log Outlier Detection Zhenxu Ke, Superskyyy Passed / Passed lyle Proposal For Python API CLI Enhancement Wenjun Ruan, zhongjiajie Passed / Passed maverick_June Elaborating the new stream processing system utilizes serverless framework with fast scaling policy wonook, Jeongyoon Eo Passed / Passed Pengcheng Ma Apache EventMesh Support Knative as Eventing Infra Mike Xue Passed / Passed Qifan Yu ShenYu: logging-kafka plugin Yonglun Zhang, Liang Liu Passed / Passed QinHaiqi Proposal for Apache Shenyu about logging-elasticsearch plugin Yu Xiao, qicz Passed / Passed Shibo Chen Gracefully shuts down for dubbo-go-pixiu laurence Passed / Passed Shubham Bipin Kumar Dashboards to get quick statistics SureshMarru, Eroma Abeysinghe (+1) Passed / Passed Sumanth Sulur Rajkumar Commons Numbers Library for Complex Linear Algebra Gilles, Matt Juntunen (+1) Passed / Passed Thanoshan M.</description>
+    </item>
+    
+    <item>
+      <title>Apache in GSoC</title>
+      <link>https://community.apache.org/gsoc/experiences/gsoc-2023.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/gsoc/experiences/gsoc-2023.html</guid>
+      <description>This is a place for collecting information about GSoC activities each year for historical tracking. Your help filling it out would be appreciated.
+2023 Details &amp;para; Students accepted: 26 Students who passed final: 25 Contributor Project Mentors Status Aibek [GSOC-242] Project proposal for Airflow Aizhamal, Pablo E Passed / Passed aroura Introduce New CRD ShardingSphereChaos tuichenchuxin, Maxwell Miao Passed / Passed chaminda-neluka GORA-708 Improve ArangoDB datastore and upgrade Hive and HBase dependencies Kevin Ratnasekera, Chanaka Passed / Passed Chaomei Yan GSoC Implement python client for RocketMQ 5.</description>
+    </item>
+    
+    <item>
+      <title>Apache Newcomer FAQs</title>
+      <link>https://community.apache.org/newbiefaq.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/newbiefaq.html</guid>
+      <description>These answers to frequently asked questions may help newcomers to The Apache Software Foundation (ASF) and our many Apache projects understand how we work.
+Index of Questions
+About The Apache Software Foundation How do I find projects or technologies at the ASF? How are projects managed at the ASF? How do I ask a question about the ASF in general? How do I get user support for an Apache project? Getting involved with Apache projects How do I choose an Apache project to work on?</description>
+    </item>
+    
+    <item>
+      <title>Apache-related slides, videos and presentations</title>
+      <link>https://community.apache.org/speakers/slides.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/speakers/slides.html</guid>
+      <description>This page contains links to presentations and other key papers about the ASF and how Apache projects work that you may find useful. Many of these have been presented at ApacheCon conferences or other open source conferences.
+These presentations are available under permissive licenses; please see each individual presentation for license details.
+Many Apache speakers post their slides to the SlideShare website, and the FeatherCast podcast offers audio recordings of many talks and interviews.</description>
+    </item>
+    
+    <item>
+      <title>April 2017 Community Newsletter</title>
+      <link>https://community.apache.org/newsletter/2017-04.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/newsletter/2017-04.html</guid>
+      <description>Apache Committer Newsletter, April 2017 &amp;para; Dear Apache Committer,
+In this newsletter: committer resources you might not know about, Foundation news, and upcoming community events.
+Thank you for your hard work on our Apache projects. You are the reason the Foundation exists, and your work is the reason we have the reputation we enjoy.
+In our recent community survey, we heard from a lot of you that you want more information about what committer resources are available, how to connect with developers from other projects, and more information about what’s going on in the Foundation at large.</description>
+    </item>
+    
+    <item>
+      <title>ASF Community Etiquette Guidelines</title>
+      <link>https://community.apache.org/contributors/etiquette.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/contributors/etiquette.html</guid>
+      <description>The ASF and our many projects welcome all participants. Before you begin, it is important to review and respect our community guidelines. We have a few ASF-specific tips below.
+Code of Conduct &amp;para; The ASF has adopted a Code of Conduct which covers interactions in all the online spaces that ASF projects use - email, issue trackers, wikis, websites, IRC, and the like. ASF projects are made up of volunteers, and we work to ensure that all productive contributions are welcomed.</description>
+    </item>
+    
+    <item>
+      <title>ASF Contributor Ladder</title>
+      <link>https://community.apache.org/contributor-ladder.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/contributor-ladder.html</guid>
+      <description>Projects at the ASF offer a way to grow in your responsibilities in the project, from being a user, all the way up to being a maintainer of the project. While the specific details may look different from one project to another, the rungs of the ladder look mostly the same.
+User Contributor Committer PMC Member Foundation Member Officers of the Foundation Board of Directors User &amp;para; Everything that we do in an ASF project is for the user.</description>
+    </item>
+    
+    <item>
+      <title>ASF volunteers, mentors and speakers</title>
+      <link>https://community.apache.org/contributors/asf-volunteers.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/contributors/asf-volunteers.html</guid>
+      <description>Here&amp;rsquo;s a list of ASF community members who volunteer to mentor new community members and/or to be speakers at ASF-related events.
+Project names shown in bold mean that the corresponding person is a PMC member of that project.
+ASF volunteer mentors &amp;amp; speakers &amp;para; In alphabetical order of ASF IDs.
+altay # speaker bdelacretaz # mentor, speaker cdutz # mentor, speaker clr # mentor, speaker curcuru # mentor, speaker dirkx # speaker glauesppen # mentor, speaker jbonofre # mentor, speaker kanchana # mentor ningjiang # mentor, speaker rbowen # mentor, speaker rvs # mentor, speaker tison # mentor, speaker </description>
+    </item>
+    
+    <item>
+      <title>Becoming a committer</title>
+      <link>https://community.apache.org/contributors/becomingacommitter.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/contributors/becomingacommitter.html</guid>
+      <description>Read the mailing list Contribute code (and other things) End user support Documentation Review PRs and tickets Be visible Test, and vote on releases (non-binding) Give talks Disclaimer &amp;para; Nothing in this post should be construed as a guarantee. You can do everything listed here, for years, and still not become a committer. This is because the decision is made by individuals on the project PMC, who do things for their own reasons.</description>
+    </item>
+    
+    <item>
+      <title>BoardReport</title>
+      <link>https://community.apache.org/boardreport.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/boardreport.html</guid>
+      <description>For complete details about what should be in ASF project board reports, including instructions on using the handy Reporter tool, please see:
+https://apache.org/foundation/board/reporting</description>
+    </item>
+    
+    <item>
+      <title>ComDevBoardReports</title>
+      <link>https://community.apache.org/comdevboardreports.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/comdevboardreports.html</guid>
+      <description>Like every other ASF project, the ComDev PMC sends a quarterly report to the board. These reports are read by the board, and sometimes directors will ask the PMC for clarification or to make suggestions for the project.
+You can read the complete list of Apache Community Development board reports. A chronological view of all minutes from ASF Board meetings is also public.</description>
+    </item>
+    
+    <item>
+      <title>ComDevBoardResolution</title>
+      <link>https://community.apache.org/history/boardresolution.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/history/boardresolution.html</guid>
+      <description>The Apache Community Development Project was created in November 2009.
+Board Resolution Creating the Apache Community Development Project Establish the Apache Community Development Project WHEREAS, the Board of Directors deems it to be in the best interests of the Foundation and consistent with the Foundation&#39;s purpose to establish a Project Management Committee charged with coordinating community development efforts. NOW, THEREFORE, BE IT RESOLVED, that a Project Management Committee (PMC), to be known as the &amp;quot;Apache Community Development Project&amp;quot;, be and hereby is established pursuant to Bylaws of the Foundation; and be it further RESOLVED, that the Apache Community Development Project be and hereby is responsible for helping people become involved with Apache projects; and be it further RESOLVED, that the office of Vice President, Apache Community Development Project, be and hereby is created, the person holding such office to serve at the direction of the Board of Directors as the chair of the Community Development PMC, and to have primary responsibility for management of the projects within the scope of the Apache Community Development project; and be it further RESOLVED, that the persons listed immediately below be and hereby are appointed to serve as the initial members of the Apache Community Development Project PMC: * Ross Gardler &amp;lt;rgardler@apache.</description>
+    </item>
+    
+    <item>
+      <title>Community Development Mailing Lists</title>
+      <link>https://community.apache.org/lists.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/lists.html</guid>
+      <description>Almost everything and everyone at Apache use email lists to get work done, including this Community Development project right here! When people send email to a list, many other community members get the message, and someone usually provides a useful reply. Every email list at Apache is archived: most lists are archived publicly. That means that newcomers to a community can learn how decisions on a project have been made in the past, because all the email discussions a project has had are archived.</description>
+    </item>
+    
+    <item>
+      <title>Community Growth</title>
+      <link>https://community.apache.org/pmc/community-growth.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/pmc/community-growth.html</guid>
+      <description>Growing your project community takes work. This document makes practical suggestions of how to encourage people to get involved in your project.
+Publish a roadmap Periodically publish the open issue list Clearly document contribution processes Publish your contributor ladder Engage with big users Be transparent about project risk Come talk to us Publish a roadmap &amp;para; Volunteers can work on whatever they want, and so we have a tendency to not want to tell them what to work on.</description>
+    </item>
+    
+    <item>
+      <title>Community.zones has been disabled</title>
+      <link>https://community.apache.org/zones-disabled.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/zones-disabled.html</guid>
+      <description>community.zones.a.o has been disabled &amp;para; We used to have a few apps meant to help find speakers and mentors on the community.zones.apache.org server , but those have been disabled in Feburary 2024 as they were not enthusiastically maintained.
+The pages tagged with speakers or mentoring should provide the information that used to be there.</description>
+    </item>
+    
+    <item>
+      <title>Contact points</title>
+      <link>https://community.apache.org/contactpoints.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/contactpoints.html</guid>
+      <description>If you have a question about anything Apache, the ComDev project is here to help guide you to the right place.
+To help us help you, try to direct your question to the right mailing list - our volunteers do all their work on mailing lists.
+Trademarks Publicity and Marketing Fundraising and Sponsorship Legal Other Community Questions &amp;para; Email questions about community or issues across multiple Apache projects to dev@community.apache.org - or see our detailed Mailing List How To page.</description>
+    </item>
+    
+    <item>
+      <title>Decision-Making</title>
+      <link>https://community.apache.org/committers/decisionMaking.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/committers/decisionMaking.html</guid>
+      <description>The most important thing about engaging with any Apache project is that everyone is equal. All project participants with an opinion can express that opinion and, where appropriate, have the community consider it.
+To some, the idea of having to establish consensus in a large and distributed team sounds inefficient and frustrating. Don&amp;rsquo;t despair, though: The Apache Way has a set of simple processes to ensure things proceed at a good pace.</description>
+    </item>
+    
+    <item>
+      <title>Funding campaign disclaimer</title>
+      <link>https://community.apache.org/committers/funding-disclaimer.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/committers/funding-disclaimer.html</guid>
+      <description>Some Apache committers have successfully run funding campaigns to support their work on their favorite Apache projects.
+This is ok in principle, but you have to make it clear that the campaign is your own thing, and avoid any confusion about the role of the ASF and how its projects work.
+This page gives a few examples of how to do that.
+If you have any question about this, feel free to ask on our dev@community.</description>
+    </item>
+    
+    <item>
+      <title>Getting started</title>
+      <link>https://community.apache.org/newcomers/gettingStarted.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/newcomers/gettingStarted.html</guid>
+      <description>Where do I start? &amp;para; If you have no idea where to start your engagement with an Apache project, this is the page for you.
+Finding the right project &amp;para; The key to working on projects at Apache (and on any open source project, for that matter) is to have a personal reason for being involved. You might be trying to solve a day job issue or learn a new technology, or simply want to do something fun in your free time.</description>
+    </item>
+    
+    <item>
+      <title>Good First Issues</title>
+      <link>https://community.apache.org/committers/good-first-issues.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/committers/good-first-issues.html</guid>
+      <description>What are &amp;ldquo;Good First Issues&amp;rdquo;? &amp;para; &amp;ldquo;Good First Issues&amp;rdquo; are a good way to start on an OSS project, and an official Github initiative. Several GitHub repositories use this label to encourage new contributors to start helping the project without the necessity, in most cases, to contact one of the contributors in advance or to have a deep knowledge of the project architecture or content.
+How can I identify a &amp;ldquo;Good First Issue&amp;rdquo;?</description>
+    </item>
+    
+    <item>
+      <title>GSoC admins</title>
+      <link>https://community.apache.org/gsoc/gsoc-admin-tasks.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/gsoc/gsoc-admin-tasks.html</guid>
+      <description>A comprehensive guide to being a GSoC admin for the ASF
+List of duties:
+Make sure the ASF has an extensive list of project ideas ready shortly after Google announces the program (around the end of January). Projects must create Jira issues for their ideas and label them with gsoc2024; and mentor. If a project doesn&amp;rsquo;t use Jira, have them create the ideas in the GSOC Jira project. Create a Jira filter for these ideas to use in the application (see next).</description>
+    </item>
+    
+    <item>
+      <title>guide to being a mentor</title>
+      <link>https://community.apache.org/gsoc/guide-to-being-a-mentor.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/gsoc/guide-to-being-a-mentor.html</guid>
+      <description>Submitting ideas to the mentoring programme &amp;para; We invite all ASF projects to submit their ideas for consideration in the ASF mentoring programme. Any Apache member and experienced committers can submit ideas via Jira (if your project does not use Jira you can use the Comdev GSoC Issue Tracker For GSoC Tasks. We are looking for as many interesting projects as we can come up with.
+Important Steps &amp;para; Add an issue to Jira (if your project does not use Jira you can use the Comdev GSoC Issue Tracker For GSoC Tasks Add sub-tasks if necessary Label the main issue with &amp;ldquo;mentor&amp;rdquo; (these will show up at the ASF-wide list of issues) Label the main issue with &amp;ldquo;gsoc2024&amp;rdquo; if appropriate (these will show up at GSoC 2024 Ideas) Size of project Starting in 2024 there are 3 types of projects available.</description>
+    </item>
+    
+    <item>
+      <title>Helpwanted app has been retired</title>
+      <link>https://community.apache.org/helpwanted-retired.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/helpwanted-retired.html</guid>
+      <description>The HelpWanted app has been retired &amp;para; The HelpWanted service, formerly at helpwanted.apache.org, has been retired. We encourage you to use a #GoodFirstIssue tag in your project&amp;rsquo;s issue tracker as an alternate to this tool.
+The code is still available at https://svn.apache.org/repos/asf/comdev/helpwanted.apache.org/site/</description>
+    </item>
+    
+    <item>
+      <title>How To: Write A Mentor Request Email</title>
+      <link>https://community.apache.org/mentor-request-mail.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/mentor-request-mail.html</guid>
+      <description>Having identified a Top Level Project (TLP) and an issue you would like to work on, it is a good idea to introduce yourself to the project community and outline your plans for tackling the issue. This lets the community know you are working on the issue and gives the community an early opportunity to help course correct your proposal, if necessary (which can save you lots of time).
+Here&amp;rsquo;s an example of what your first email might look like:</description>
+    </item>
+    
+    <item>
+      <title>Inviting a New Committer</title>
+      <link>https://community.apache.org/newcommitter.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/newcommitter.html</guid>
+      <description>Identifying potential new committers, calling a vote for their recognition as a committer and processing the relevant documents are tasks to which the whole community can contribute.
+Each project has a different approach to managing new committers. This page describes a common process found in many Apache projects. It also provides draft templates for the various communications that are necessary.
+Some of the PMCs automatically make committers PMC members. The templates below have conditional [if] clauses for that.</description>
+    </item>
+    
+    <item>
+      <title>Inviting a New PMC member</title>
+      <link>https://community.apache.org/newpmcmember.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/newpmcmember.html</guid>
+      <description>This document describes a typical Apache project&amp;rsquo;s process for handling the vote to add a new PMC (Project Management Committee) member - when it is separate from becoming committer.
+Templates mentioned in the process appear [#NewPMCMember-EmailTemplates](later in this document). If your PMC adds automatically committers as PMC members, the process for doing both at the same time is described in the New committer advice.
+The Contributor Ladder helps explain different roles.</description>
+    </item>
+    
+    <item>
+      <title>Links</title>
+      <link>https://community.apache.org/links.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/links.html</guid>
+      <description>This is a collection of links to information that&amp;rsquo;s relevant to the Apache Way and Open Source in general.
+Note that most of these links point to websites that are outside of the control of the Apache Software Foundation. Please contact their respective authors for more information or questions. General discussion on the dev@community.a.o list is fine of course.
+Books &amp;para; Producing Open Source Software - by Karl Fogel Blog posts &amp;para; Apache - the Switzerland of Open Source?</description>
+    </item>
+    
+    <item>
+      <title>Mailing lists</title>
+      <link>https://community.apache.org/contributors/mailing-lists.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/contributors/mailing-lists.html</guid>
+      <description>The ASF has a long tradition of using mailing lists as the primary communication format in projects. This is not merely because we&amp;rsquo;ve always done it that way, but is an intentional decision for the health and sustainability of our communities.
+Inclusion and transparency Mailing list etiquette Meaningful subject lines Inline vs top-posting HTML and &amp;ldquo;rich text&amp;rdquo; messages Colloquialisms Mailing list configuration Configuring where to send things Configuring the subject lines of the emails being sent Conclusion Inclusion and transparency &amp;para; Mailing lists ensure that all members of the community can participate on a level field, regardless of time zone or availability, whereas synchronous communication platforms (IRC, Slack, Discord, etc.</description>
+    </item>
+    
+    <item>
+      <title>May 2017 Community Newsletter</title>
+      <link>https://community.apache.org/newsletter/2017-05.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/newsletter/2017-05.html</guid>
+      <description>Committer Resources
+(So that we didn&amp;rsquo;t put them all in the first edition)
+If you blog about anything Apache related, you might want to know about http://planet.apache.org/committers/ - the Apache committer blog aggregator. It’s valuable in seeing what the rest of the Apache community is working on. To add yourself to the planet, edit the file https://svn.apache.org/repos/asf/planet/committers.ini in svn. It’s preferable if you use an ‘apache’ tag to separate out the stuff that is relevant to the community.</description>
+    </item>
+    
+    <item>
+      <title>Mentee Ranking Process</title>
+      <link>https://community.apache.org/gsoc/mentee-ranking-process.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/gsoc/mentee-ranking-process.html</guid>
+      <description>This page describes the ranking process The Apache Software Foundation uses to evaluate mentee proposals.
+The ranking process makes sure the most promising applicants get a mentor with an ASF project. The goal is not to identify the &amp;ldquo;best&amp;rdquo; projects for the ASF, but the best mentees who have applied to the ASF.
+Remember, mentoring is all about the mentee and open source as a whole. It is not about the mentors or their projects.</description>
+    </item>
+    
+    <item>
+      <title>Mentoring a new committer</title>
+      <link>https://community.apache.org/mentoring/committer.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/mentoring/committer.html</guid>
+      <description>Mentoring a new committer &amp;para; So I&amp;rsquo;m a committer now. What&amp;rsquo;s next? What rights do I have now that I didn&amp;rsquo;t have before? What are the social conventions around making a commit?
+These things vary from one project to another, so clearly documenting them for your particular project is critical.
+Here&amp;rsquo;s the basics that are true across (almost) all Apache projects.
+TODO
+Outline:
+Encouraging other contributors Good commit messages Becoming a PMC member </description>
+    </item>
+    
+    <item>
+      <title>Mentoring a new PMC member</title>
+      <link>https://community.apache.org/mentoring/pmc.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/mentoring/pmc.html</guid>
+      <description>Mentoring a new PMC member &amp;para; So I&amp;rsquo;m a PMC member now. What does this mean? What rights do I have now that I didn&amp;rsquo;t have before? What conversations belong on the private list, as opposed to the public list.
+These things vary a little from one project to another, so clearly documenting them for your particular project is critical. And specifically assigning a PMC mentor to new PMC members can greatly help that new member get up to speed, and prevent problems in the future.</description>
+    </item>
+    
+    <item>
+      <title>Mentoring Mentors</title>
+      <link>https://community.apache.org/mentoring/mentor.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/mentoring/mentor.html</guid>
+      <description>Mentoring Mentors &amp;para; The job of a mentor is to reproduce - spread the work load. Once you&amp;rsquo;ve mentored someone, you need to encourage them to become a mentor themselves. Here&amp;rsquo;s some ways you can do that.
+Point out people that need a little help Encourage them to answer a question rather than answering it yourself &amp;hellip; TODO</description>
+    </item>
+    
+    <item>
+      <title>Mentoring: First Patch</title>
+      <link>https://community.apache.org/mentoring/firstpatch.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/mentoring/firstpatch.html</guid>
+      <description>Mentoring: First Patch &amp;para; A beginner&amp;rsquo;s first patch on a project can be an intimidating and frustrating experience. Clearly documenting the entire process from checkout to accepted patch greatly lowers the barrier for a new contributor, and makes it more likely that they&amp;rsquo;ll come back for their second patch.
+Here&amp;rsquo;s some tips on how to do that.
+Outline:
+Talk to the project first Make sure it&amp;rsquo;s wanted/welcome See if there&amp;rsquo;s already work in progress, or suggestions Find someone to be your advocate Finding the source Writing a good commit message Following up on your pull request Learning from your struggle: Improving the documentation </description>
+    </item>
+    
+    <item>
+      <title>New PMC Members</title>
+      <link>https://community.apache.org/pmc/new-member.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/pmc/new-member.html</guid>
+      <description>You&amp;rsquo;ve been invited to join a project PMC? Congratulations! What should you do now?
+Being part of an ASF Project Management Committee is more than just an acknowledgement of your contributions. It&amp;rsquo;s a new level of responsibility for the project&amp;rsquo;s health and sustainability. The Board of Directors is relying on you to provide oversight of the project code, and project community
+Join the conversation &amp;para; If you haven&amp;rsquo;t already, you need to subscribe to the PMC/Private mailing list.</description>
+    </item>
+    
+    <item>
+      <title>Pilot Mentoring Programme with India ICFOSS</title>
+      <link>https://community.apache.org/history/mentoringprogramme-icfoss-pilot.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/history/mentoringprogramme-icfoss-pilot.html</guid>
+      <description>Note that this information is about a pilot program that happened back in 2013.
+The ASF has been participating in many mentoring initiatives, and it&amp;rsquo;s now partnering in a pilot project with India ICFOSS to provide mentoring for undergraduate and graduate students that have interest in learning how to participate in open source communities at ASF.
+The mentoring programme is not here to teach you to write documentation or code.</description>
+    </item>
+    
+    <item>
+      <title>PMC Chair</title>
+      <link>https://community.apache.org/pmc/chair.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/pmc/chair.html</guid>
+      <description>The PMC Chair acts as the voice of the project to the board, and is responsible for filing a quarterly report. They are not the project leader, but are a peer of the other PMC members, who has been selected, for a time, to take the role of secretary and spokesperson.
+The PMC Chair is not the de-facto project leader. While they are usually a senior, well-respected member of the community, they are a peer, with a few additional duties.</description>
+    </item>
+    
+    <item>
+      <title>PMC Reporting</title>
+      <link>https://community.apache.org/pmc/reporting.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/pmc/reporting.html</guid>
+      <description>A PMC is required to file a report to the Board of Directors every quarter, on a schedule determined by the Board.
+You can find your project&amp;rsquo;s reporting schedule on projects.apache.org. You will also receive a reminder from the Secretary a few weeks prior to your report&amp;rsquo;s due date.
+The official record of PMC reporting schedules is the file committee-info.txt (requires password authentication).
+Writing a report &amp;para; The report to the board is expected to contain certain sections.</description>
+    </item>
+    
+    <item>
+      <title>PMC Responsibilities</title>
+      <link>https://community.apache.org/pmc/responsibilities.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/pmc/responsibilities.html</guid>
+      <description>The Project Management Committee (PMC) is responsible for the oversight of the project, including technical decisions, ensuring that the project is operating in accordance with ASF norms, adding new members to the project, and voting on releases.
+Conducting Business Protecting your brand Making a release Ensuring Project Health Adding Community Members Conducting Business &amp;para; The PMC is expected to conduct all of its business on the public developers mailing list, in the full view of the community.</description>
+    </item>
+    
+    <item>
+      <title>Project Independence</title>
+      <link>https://community.apache.org/projectIndependence.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/projectIndependence.html</guid>
+      <description>While not all ASF projects practice all aspects of the Apache Way in the same way, there are a number of rules and policies that Apache projects must follow – things like complying with PMC release voting, legal policy, brand policy, using mailing lists, etc., which are documented in various places.
+A community is not merely a set of rules; it is also a set of behaviors that the participants express when interacting within that community.</description>
+    </item>
+    
+    <item>
+      <title>Use the Comdev Issue Tracker For GSoC Tasks</title>
+      <link>https://community.apache.org/gsoc/use-the-comdev-gsoc-issue-tracker-for-gsoc-tasks.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/gsoc/use-the-comdev-gsoc-issue-tracker-for-gsoc-tasks.html</guid>
+      <description>If your project does not use the ASF Jira for issue tracking, you can use the ComDev GSoC Jira project to record your GSoC tasks.
+Add tasks to the GSOC project Ensure you add the labels gsoc2024, mentor and _YOUR_PROJECT_NAME_ Your issues will appear in the list of projects We use the label _YOUR_PROJECT_NAME_ to map COMDEV issues to the real project when we create the ideas list Please contact dev@community.</description>
+    </item>
+    
+  </channel>
+</rss>

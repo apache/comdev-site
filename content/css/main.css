@@ -1,0 +1,113 @@
+main.cd-main {
+  padding-top: 4.5rem;
+}
+
+footer.page-footer {
+  bottom: 0;
+  color: #fff;
+}
+
+footer.page-footer a {
+  color: #000000;
+}
+footer.page-footer a:hover {
+  color: #000000;
+}
+
+footer.page-footer .footer-copyright {
+  overflow: hidden;
+  color: rgba(255,255,255,0.6);
+  background-color: rgba(0,0,0,0.2);
+}
+
+.headerlink {
+  visibility: hidden;
+}
+
+dt:hover > .headerlink, p:hover > .headerlink, td:hover > .headerlink, h1:hover > .headerlink, h2:hover > .headerlink, h3:hover > .headerlink, h4:hover > .headerlink, h5:hover > .headerlink, h6:hover > .headerlink {
+  visibility: visible
+}
+
+.child-pages {
+  list-style-type: none;  
+}
+.page-summary .title {
+  font-size:100%;
+}
+
+.page-summary .summary {
+  margin-left: 1em;
+  font-style: italic;
+}
+
+.published-info {
+  font-size: 80%;
+  font-style: italic;
+}
+
+ul.tags-list {
+  padding-left: 0;
+  font-size: 90%;
+  display:flex;
+  list-style-type: none;
+  flex-wrap:wrap;
+}
+
+.tags-list li {
+  margin-right:.5rem;
+  margin-top: 0.25rem;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  background-color: var(--light);
+}
+
+.homepage-hero {
+  background-color: var(--light);
+  padding: 1rem;
+}
+
+.events-logo {
+  float: right;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.help-wanted {
+  padding: 1rem;
+  border-left: solid var(--gray) 1px;
+  font-size: 90%;
+  background-color: var(--light);
+}
+
+.historical {
+  border-top: solid var(--gray) 1px;
+  border-bottom: solid var(--gray) 1px;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+volunteers-list .projects {
+  display: block;
+  font-size: 80%;
+  margin-left: 2em;
+}
+
+volunteers-list a.name,
+volunteers-list a:visited.name {
+  color:#00008b;
+}
+
+volunteers-list li {
+  margin-bottom: 0.2em;
+}
+
+.bg-bright {
+    background: white;
+}
+
+community-front-page img {
+    border-radius: 12%;
+}
+
+
