@@ -98,9 +98,8 @@ We recommend that you start by finding, and joining, the relevant
 communication channel. Introduce yourself, and say what you're
 interested in working on. How people respond to this can be a good
 indicator of how welcoming the project is. It will also be an
-opportunity for them to point you to good first issues,
-<!-- Can we link that to a generic "good first issues on Apache repos"
-link on GitHub? -->
+opportunity for them to point you to [good first
+issues](https://community.apache.org/committers/good-first-issues.html),
 or other possible things to work on.
 
 Your beginner's impression of the project, and the development process,
