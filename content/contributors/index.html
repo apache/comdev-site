@@ -58,7 +58,7 @@
   <header class="navbar navbar-expand-lg navbar-dark bg-bright fixed-top">
     <div class="container">
       <a class="navbar-brand" href="/">
-    <img src="https://svn.apache.org/repos/asf/comdev/project-logos/originals/foundation.svg" alt="Apache Software Foundation">
+    <img src="/images/asf_logo.svg" alt="Apache Software Foundation">
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -184,27 +184,6 @@
         <div class="col-md-12"></div>
       </section>
       
-
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="/">Home</a></li>
-    
-        
-        
-    
-        
-        
-            <li class="breadcrumb-item"><a href='/contributors'>Contributors</a></li>
-            
-        
-    
-        
-        
-    
-  </ol>
-</nav>
-
-
       <hr>
        
 <ul class="tags-list">
@@ -220,71 +199,145 @@
   </li></ul>
 
       
-    <p>This page is for people who are reasonably
-comfortable with open source development models but need a helping hand finding
-their way around the Apache Software Foundation (ASF) and our way of developing software
-(commonly called &ldquo;The Apache Way&rdquo;). For those wishing to start from
-the very beginning, we have a <a href="/newcomers/index.html">newcomers page</a> and an
-overview of our <a href="https://community.apache.org/contributor-ladder.html">Contributor Ladder</a>.</p>
-<h2 id="project-independence-and-policies">Project Independence And Policies <a class="headerlink" title="Permalink" href="#project-independence-and-policies">&para;</a></h2>
-<p>While not all ASF projects practice all aspects of the Apache Way in the same way, there are a number of rules that ASF
-projects must follow – things like complying with PMC
-<a href="https://www.apache.org/legal/release-policy.html">release voting</a>, <a href="https://www.apache.org/legal/">legal policy</a>, <a href="https://www.apache.org/foundation/marks/">brand policy</a>,
-using <a href="https://www.apache.org/dev/#mail">mailing lists</a>, etc., which are <a href="https://blogs.apache.org/comdev/entry/what_makes_apache_projects_different">documented in various places</a>.</p>
-<p>One of these invariant rules is that projects are managed
+    <p>Contributing to an Apache project is the second step on your journey up
+the <a href="/contributor-ladder.html">contributor ladder</a>.</p>
+<p>User → <strong>Contributor</strong> → <a href="/committers/">Committer</a> → <a href="/pmc/">PMC member</a></p>
+<p>While we often think of contributions to open source as <em>code</em>, a
+contribution can be anything - good questions, documentation, design,
+event coordination, and so on also qualify as contributions. Projects
+need your skills, even if you&rsquo;re not a programmer.</p>
+<p>But, it can sometimes be hard to know where to get started. We&rsquo;re here
+to help. Here&rsquo;s some of the basics.</p>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#what-projects-can-i-contribute-to">What projects can I contribute to?</a></li>
+    <li><a href="#where-is-everything">Where is everything?</a>
+      <ul>
+        <li><a href="#download">Download</a></li>
+        <li><a href="#the-code">The Code</a></li>
+        <li><a href="#communication">Communication</a></li>
+      </ul>
+    </li>
+    <li><a href="#your-first-contribution">Your First Contribution</a></li>
+    <li><a href="#becoming-a-committer">Becoming a Committer</a></li>
+    <li><a href="#questions-and-feedback">Questions and Feedback</a></li>
+  </ul>
+</nav>
+<h2 id="what-projects-can-i-contribute-to">What projects can I contribute to? <a class="headerlink" title="Permalink" href="#what-projects-can-i-contribute-to">&para;</a></h2>
+<p>Most contributors start as users, and then see something that they want
+to improve, fix, or otherwise help out with.</p>
+<p>There&rsquo;s <a href="https://projects.apache.org/">a lot of projects</a>. You can look
+through them
+<a href="https://projects.apache.org/projects.html?name">by name</a>,
+<a href="https://projects.apache.org/projects.html?category">by topic</a>,
+or <a href="https://projects.apache.org/projects.html?language">by programming language</a>.</p>
+<h2 id="where-is-everything">Where is everything? <a class="headerlink" title="Permalink" href="#where-is-everything">&para;</a></h2>
+<p>Every <a href="https://projects.apache.org/">Apache project</a> website <em>should</em>
+have an <strong>/about</strong> page (or similar) that lists the basic &ldquo;where is
+everything&rdquo; about the project. If they don&rsquo;t, here&rsquo;s where to start looking:</p>
+<h3 id="download">Download <a class="headerlink" title="Permalink" href="#download">&para;</a></h3>
+<p>Most (not all) Apache projects will have a prominent download link on
+the front page of their project website. This will (hopefully) be
+accompanied by instructions on how to download, build, install, and use
+the releases.</p>
+<p>Getting to know how to use the software that a project releases is a
+reasonable first step towards contributing. Keep notes of that first
+user experience, as that is valuable information for the project, and
+might be a good place to start your contributions.</p>
+<h3 id="the-code">The Code <a class="headerlink" title="Permalink" href="#the-code">&para;</a></h3>
+<p>Most (not all) Apache projects have their code on
+<a href="https://github.com/apache">GitHub</a>. Search for the project name in the
+<strong>apache</strong> GitHub organization.</p>
+<h3 id="communication">Communication <a class="headerlink" title="Permalink" href="#communication">&para;</a></h3>
+<p>Most (not all) Apache project have their main discussions on <a href="https://lists.apache.org/">mailing
+lists</a>. Most projects have
+<code>users@project.apache.org</code> and <code>dev@project.apache.org</code> mailing lists,
+focused, respectively, on end-user questions, and development activity.
+You can read the archives (i.e., messages from the past), as well as
+participate in current discussions, either by subscribing to the lists,
+or by using the <a href="https://lists.apache.org/">lists.apache.org</a> site
+directly.</p>
+<h4 id="subscribe">Subscribe <a class="headerlink" title="Permalink" href="#subscribe">&para;</a></h4>
+<p>To subscribe (that is, to receive every message sent to the list via
+email) to a project mailing list (e.g., if you want to subscribe
+to the <code>users</code> list for <code>PROJECT</code>)
+send a blank email message to <code>users-subscribe@PROJECT.apache.org</code>.
+Substitute the name of the list (i.e., <code>dev</code> instead of <code>users</code>), and of
+the specific project you&rsquo;re interested in (i.e., <code>karaf</code> instead of
+<code>PROJECT</code>).</p>
+<h4 id="unsubscribe">Unsubscribe <a class="headerlink" title="Permalink" href="#unsubscribe">&para;</a></h4>
+<p>To unsubscribe, the process is similar. Send a blank email message to
+<code>users-unsubscribe@PROJECT.apache.org</code> from the email address with which
+you subscribed.</p>
+<p>In each case, you&rsquo;ll receive a confirmation email, with further
+instructions.</p>
+<h4 id="other-communication-channels">Other communication channels <a class="headerlink" title="Permalink" href="#other-communication-channels">&para;</a></h4>
+<p>Some projects use other communication channels, such as Slack, Discord,
+or WeChat. This will (hopefully) be listed on the project page.</p>
+<h2 id="your-first-contribution">Your First Contribution <a class="headerlink" title="Permalink" href="#your-first-contribution">&para;</a></h2>
+<p>Most first contributions are simple, as you become familiar with the
+project and its specific contributor flow.</p>
+<p>We recommend that you start by finding, and joining, the relevant
+communication channel. Introduce yourself, and say what you&rsquo;re
+interested in working on. How people respond to this can be a good
+indicator of how welcoming the project is. It will also be an
+opportunity for them to point you to <a href="https://community.apache.org/committers/good-first-issues.html">good first
+issues</a>,
+or other possible things to work on.</p>
+<p>Your beginner&rsquo;s impression of the project, and the development process,
+can be very valuable to projects attempting to improve their onboarding
+experience, so take notes of the things that were hard to find, or
+processes that you found confusing.</p>
+<h2 id="becoming-a-committer">Becoming a Committer <a class="headerlink" title="Permalink" href="#becoming-a-committer">&para;</a></h2>
+<p>Any contributor can, eventually, become a committer. While the exact
+process, and the specific milestones you may need to achieve, will vary
+from one project to another, the basics are fairly consistent across the
+ASF.</p>
+<p>Ideally, once someone has contributed consistently, and of a
+consistently high quality, to a project, they will get invited to become
+a committer, which grants a higher level of ownership of the project.</p>
+<p>Being a committer does not necessarily mean you commit code, although
+that is the historical reason that we use this particular word.
+It means you are <em>committed</em> to the project and are productively
+contributing to its success.</p>
+<p>We&rsquo;ve written a <a href="/contributors/becomingacommitter.html">guide on how to become an Apache
+committer</a> which covers the basics. As you
+become more familiar with a specific project, though, you&rsquo;ll see that
+each project has its own slightly different culture.</p>
+<p>In general, we have some <a href="/contributors/etiquette">etiquette and behavior expectations</a> when
+you work with ASF communities.</p>
+<p>For more details see &ldquo;<a href="https://www.apache.org/foundation/how-it-works.html">How it works</a>&rdquo;.  You can also make
+<a href="/newbiefaq.html#websitecms">suggestions for how to update this website</a> you&rsquo;re reading right now!</p>
+<h2 id="questions-and-feedback">Questions and Feedback <a class="headerlink" title="Permalink" href="#questions-and-feedback">&para;</a></h2>
+<p>If you have other questions, the ComDev team he here to help.</p>
+<p>You can provide feedback and ask questions by subscribing to our mailing
+list: send an email to
+<a href="mailto:dev-subscribe@community.apache.org">dev-subscribe@community.apache.org</a>.
+Once subscribed, you can send email to <a href="mailto:dev@community.apache.org">dev@community.apache.org</a>,
+or through the <a href="https://lists.apache.org/lists.html?dev@community.apache.org">lists.apache.org web
+interface</a>.</p>
+<!--
+
+Editorial Note: This is useful content, but doesn't belong here. Commenting out
+for now, but need to move at some point. Probably belongs under /pmc/ ? --RCB
+
+## Project Independence And Policies
+
+While not all ASF projects practice all aspects of the Apache Way in the 
+same way, there are a number of rules that ASF projects must follow – things
+like complying with PMC [release voting][2], [legal policy][3], [brand policy][4], 
+using [mailing lists][5], etc., which are [documented in various places][6]. 
+
+One of these invariant rules is that projects are managed
 independently of any commercial interests. The goal is to create an
 environment in which all participants are equal and thus have an equal
 opportunity to contribute to and benefit from our software, regardless
 of motivation or financial objectives. This is discussed in more detail
-in our document <a href="/projectIndependence.html">Project Independence</a>.</p>
-<h2 id="communication-on-mailing-lists">Communication on mailing lists <a class="headerlink" title="Permalink" href="#communication-on-mailing-lists">&para;</a></h2>
-<p>Development at the ASF has traditionally been done on mailing lists.
-This is not merely because we&rsquo;ve always done it this way, but is an
-intentional decision, in order to include a wider community than who
-happens to be on your Slack channel at a particular moment.</p>
-<p>This is why we say, at the ASF, <a href="/contributors/mailing-lists.html"><strong>If it didn&rsquo;t happen on the mailing
-list, it didn&rsquo;t happen</strong></a>.</p>
-<h2 id="moving-from-contributor-to-committer">Moving From Contributor to Committer <a class="headerlink" title="Permalink" href="#moving-from-contributor-to-committer">&para;</a></h2>
-<p>Anyone can be a contributor to an ASF project. Being a contributor simply means
-that you take an interest in the project and contribute in some way, ranging from asking
-sensible questions (which document the project and provide feedback to developers)
-through to providing new features as code patches.</p>
-<p>If you become a valuable contributor to the project, the Project Management Committee (PMC) may invite you to become
-a <em>committer</em>. At the ASF, a committer is someone who is
-committed to a particular project. It brings with it the privilege of write access to
-the project repository and resources. In many projects, committers may also be invited
-to be part of the core group within the project that ensures the project&rsquo;s vitality, the PMC.
-In a few projects only a subset of committers who have earned even more merit are invited to be a part of the PMC.</p>
-<p>One thing that is sometimes hard to understand, when you are new to the open
-development process used at the ASF, is that we value the community more than
-the code. A strong and healthy community will be respectful and be a fun and
-rewarding place. More importantly, a diverse and healthy community can
-continue to support the code over the longer term, even as individual
-contributors come and go from the field.</p>
-<p>In particular, we have some <a href="/contributors/etiquette">etiquette and behavior expectations</a> when
-you work with ASF communities.</p>
-<p>See also this <a href="/contributors/becomingacommitter.html">detailed advice for how to become a committer</a></p>
-<h2 id="anyone-can-become-a-committer">Anyone Can Become A Committer <a class="headerlink" title="Permalink" href="#anyone-can-become-a-committer">&para;</a></h2>
-<p>There is nothing at the ASF that says you must write code
-in order to be a committer. Anyone who is supportive by contributing towards project,
-community, documentation or code is a likely candidate for committership.</p>
-<p>The ASF strives to be meritocratic. That is, once someone has contributed sufficiently
-towards the project, they can be voted in as a committer. Being a committer does not
-necessarily mean you commit code; it means you are committed to the project and are
-productively contributing to its success.</p>
-<p>One of the key contributions people can make to the community is through the
-support of a wide user base by assisting users on the user list, writing user-oriented docs and ensuring the developers understand the user viewpoint.
-A main idea behind being a committer is the ability to be a mentor and to work
-cooperatively with your peers.</p>
-<p>Some users of a project&rsquo;s software become committers in their own right. Some will test code,
-some will write documentation, some will do bug triage and some will write code.</p>
-<p>For more details see &ldquo;<a href="https://www.apache.org/foundation/how-it-works.html">How it works</a>&rdquo;.  You can also make
-<a href="/newbiefaq.html#websitecms">suggestions for how to update this website</a> you&rsquo;re reading right now!</p>
-<h2 id="questions-and-feedback">Questions and Feedback <a class="headerlink" title="Permalink" href="#questions-and-feedback">&para;</a></h2>
-<p>You can provide feedback and ask questions by subscribing to our mailing
-list: send an email to
-<a href="mailto:dev-subscribe@community.apache.org">dev-subscribe@community.apache.org</a>. Once subscribed, you can send your mail to
-<a href="mailto:dev@community.apache.org">dev@community.apache.org</a>.</p>
+in our document [Project Independence][7].
+
+-->
+<!-- Links -->
+<!-- /Links -->
 
     
 
