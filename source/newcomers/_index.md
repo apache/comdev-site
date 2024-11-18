@@ -4,6 +4,15 @@ url: /newcomers/
 tags: ["newcomers","navigation"]
 ---
 
+<!--
+
+TODO:
+
+This page is largely the same topic as /contributors/_index.md, and
+should almost certainly be merged with it at some point.
+
+-->
+
 In this section we'll help you take your first steps as an open source 
 developer in one of our many Apache project communities. As an all-volunteer 
 run organization, Apache and the many Apache projects rely on people like 
@@ -14,10 +23,19 @@ you stepping up to help out.
   * [How can I climb the Contributor Ladder?](https://community.apache.org/contributor-ladder.html) - roles in Apache projects
   * [Newbie FAQ](/newbiefaq.html) - some commonly asked questions (and their answers)
   * [How many projects are at Apache?](https://projects.apache.org/) - we have a **LOT** of different project communities!
-  * [Just show me the code!](https://www.apache.org/dev/) - site index of technical questions (where's SVN, how to log in, etc.)
+  * [Just show me the code!](https://www.apache.org/dev/) - site index of technical questions (where's SVN, how to log in, etc.) <!--
+    This is probably not the right page to send a newcomer to.
+  -->
 
 <a name="Index-FirstContributions"></a>
 # First Contributions
+
+<!--
+This content is largely a duplicate of the /contributors/ page. TODO:
+Figure out of "newcomers" is actually a different audience from
+"contributors". General Apache tourists should probably just get sent to
+https://apache.org/
+-->
 
 *The more you give the more you get out*. 
 

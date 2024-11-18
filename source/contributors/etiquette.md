@@ -69,6 +69,6 @@ comment before closing out the issue.
 
  - [Official Apache-wide Code of Conduct][1]
  - [Email Etiquette Guidelines - writing good emails](https://www.apache.org/dev/contrib-email-tips)
- - [Building Consensus in a community](/committers/consensusBuilding.html)
+ - [Building Consensus in a community](/committers/decisionMaking.html)
 
   [1]: https://www.apache.org/foundation/policies/conduct.html
