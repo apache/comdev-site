@@ -1,0 +1,7 @@
+---
+name: Andrew Wang
+website: http://umbrant.com/
+twitter:
+facebook:
+bio: | 
+  Andrew Wang is a software engineer at Cloudera on the HDFS team, where he has worked on projects including in-memory caching, transparent encryption, and erasure coding. Previously, he was a PhD student in the AMP Lab at UC Berkeley, where he worked on problems related to distributed systems and warehouse-scale computing. He is a committer and PMC member on the Apache Hadoop project, a committer on Apache Kudu (incubating), and holds masters and bachelors degrees in computer science from UC Berkeley and UVa respectively. Andrew has spoken at conferences including Hadoop Summit EU, Strata NYC, Strata London, HBaseCon, ACM SoCC, and USENIX HotCloud.

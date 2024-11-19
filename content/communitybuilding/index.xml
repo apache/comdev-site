@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Communitybuildings on ASF Community Development</title>
+    <link>https://community.apache.org/communitybuilding.html</link>
+    <description>Recent content in Communitybuildings on ASF Community Development</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://community.apache.org/communitybuilding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://community.apache.org/communitybuilding/README.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/communitybuilding/README.html</guid>
+      <description>Community Building at the ASF &amp;para; This directory will contain practical advice to ASF projects about how to encourage and foster the growth of their project communities. This will include a variety of topics:
+What &amp;para; What is an Apache community Who are the persona that comprise an Apache community How does an Apache community differ from other open source communities? How is it the same? Why &amp;para; Why community matters to a project.</description>
+    </item>
+    
+  </channel>
+</rss>
