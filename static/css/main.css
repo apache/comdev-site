@@ -111,3 +111,16 @@ community-front-page img {
 }
 
 
+.pull-left {
+    float: left;
+    margin-left: 1rem;
+    margin-botton: 1rem;
+    border-radius: 12%;
+}
+
+.pull-right {
+    float: right;
+    margin-left: 1rem;
+    margin-botton: 1rem;
+    border-radius: 12%;
+}
