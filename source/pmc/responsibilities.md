@@ -43,7 +43,7 @@ website](https://www.apache.org/foundation/voting.html).
 Apache PMCs are directly responsible for promoting and protecting their
 project's brand and trademarks while following Apache Trademark
 policies. This is discussed in detail on the [trademarks
-site](https://apache.org/foundation/marks/responsibility),
+site](https://apache.org/foundation/marks/responsibility).
 
 ## Making a release
 
