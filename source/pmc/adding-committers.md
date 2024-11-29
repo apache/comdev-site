@@ -27,7 +27,7 @@ The [Contributor Ladder](https://community.apache.org/contributor-ladder.html) h
    the [committer discuss template](/templates/committer-discuss.txt).)
 1. If the discussion seems to be going positively,
    call a vote. (Use the [committer vote template](/templates/committer-vote.txt) for
-   committer, the [committer + PMC member vote template](templates/committer-pmc-vote.txt) for
+   committer, the [committer + PMC member vote template](/templates/committer-pmc-vote.txt) for
    committer and PMC member.)
 1. Close the vote. (Use the [committer vote results template](/templates/committer-results.txt) 
    for a committer vote, or the [committer + PMC member vote results 
