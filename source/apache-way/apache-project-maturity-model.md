@@ -213,37 +213,43 @@ all places it controls.
 <dl>
 <dt id="TB10">TB10</dt>
 <dd>
-The project correctly uses "Apache Foo" as the project name
-where required.
+The project uses "Apache Foo™" as the project and software product
+name consistently, with appropriate [trademark attributions][trademark-attributions].
 </dd>
+
+[trademark-attributions]: https://apache.org/foundation/marks/pmcs#attributions
 
 <dt id="TB20">TB20</dt>
 <dd>
-The project resolves any potential trademark issue pointed out to
-it promptly.
+The project's primary homepage is at `projectname.apache.org`.
+When exceptions exist to use alternate domains for any purpose, any
+`non-apache.org` domain names are owned by the ASF.
 </dd>
 
 <dt id="TB30">TB30</dt>
 <dd>
-The project proactively monitors 3rd party use of its trademarks,
-addressing any instances of misuse.
+The ASF has trademark rights, including any registrations, to the
+project name, logo, and any other major branding elements.
 
-NB. For example, regularly/irregularly check how downstream
-refer to the project, check how 3rd party sites refer to the project.
+NB. For example, any transfers of existing trademark registrations
+during Incubation must completed before graduation.
 </dd>
 
 <dt id="TB40">TB40</dt>
 <dd>
-Any existing previous domain name relating to the project name is
-under the PMC's control.
-</dd>
+The project monitors for any major misuses of their project's brand
+by others, and [reports][reports-trademark-issues] any potential
+misuses to Brand Management.
 
-<dt id="TB50">TB50</dt>
-<dd>
-Any existing trademarks relating to the project name have been or
-are in the process of being transferred to the ASF.
-</dd>
+NB. TB40 is a balancing act: we hope that PMCs are spending some
+time responding to any obvious or blatant misuses of their brand.
+But PMCs sometimes can't handle all the details of actually stopping a
+potential infringement; what we really need is for PMCs to actively
+report them, and then promptly respond if Brand Managment (or other
+officers) ask for information when addressing a misuse.
 
+[reports-trademark-issues]: https://apache.org/foundation/marks/reporting.html#pmcs
+</dd>
 </dl>
 
 ## Consensus Building
