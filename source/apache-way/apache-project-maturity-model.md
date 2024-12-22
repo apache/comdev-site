@@ -197,6 +197,55 @@ The project strives to answer user questions in a timely manner.
 </dd>
 </dl>
 
+## Trademark and Branding
+
+Notable items from the [Trademark Policy][trademark-policy],
+[FAQ][trademark-faq], [Guide][trademark-guide], and
+[PMC Branding Responsibilities][branding-responsibilities].
+The project's PMC should comply with ASF's branding and trademark policy in
+all places it controls.
+
+[trademark-policy]: https://www.apache.org/foundation/marks/
+[trademark-faq]: https://www.apache.org/foundation/marks/faq/
+[trademark-guide]: https://www.apache.org/foundation/marks/guide
+[branding-responsibilities]: https://www.apache.org/foundation/marks/responsibility
+
+<dl>
+<dt id="TB10">TB10</dt>
+<dd>
+The project correctly uses "Apache Foo" as the project name
+where required.
+</dd>
+
+<dt id="TB20">TB20</dt>
+<dd>
+The project resolves any potential trademark issue pointed out to
+it promptly.
+</dd>
+
+<dt id="TB30">TB30</dt>
+<dd>
+The project proactively monitors 3rd party use of its trademarks,
+addressing any instances of misuse.
+
+NB. For example, regularly/irregularly check how downstream
+refer to the project, check how 3rd party sites refer to the project.
+</dd>
+
+<dt id="TB40">TB40</dt>
+<dd>
+Any existing previous domain name relating to the project name is
+under the PMC's control.
+</dd>
+
+<dt id="TB50">TB50</dt>
+<dd>
+Any existing trademarks relating to the project name have been or
+are in the process of being transferred to the ASF.
+</dd>
+
+</dl>
+
 ## Consensus Building
 
 <dl>
@@ -213,16 +262,16 @@ Decisions require a consensus among PMC members
 <sup><a href="#fnref-08fda1a3461c11086b8542178f35e0c27a4a46c3" id="fndef-08fda1a3461c11086b8542178f35e0c27a4a46c3-8">9</a></sup>
  and are documented on the project's main communications channel.
 The PMC takes community opinions into account, but the PMC has the final word.
- </dd>
+</dd>
 
- <dt id="CS30">CS30</dt>
- <dd>
- The project uses documented voting rules to build consensus when discussion is not sufficient.
- <sup><a href="#fnref-9b0cf71f04bcd81dddbf6199f1c771e27566611e" id="fndef-9b0cf71f04bcd81dddbf6199f1c771e27566611e-9">10</a></sup>
- </dd>
+<dt id="CS30">CS30</dt>
+<dd>
+The project uses documented voting rules to build consensus when discussion is not sufficient.
+<sup><a href="#fnref-9b0cf71f04bcd81dddbf6199f1c771e27566611e" id="fndef-9b0cf71f04bcd81dddbf6199f1c771e27566611e-9">10</a></sup>
+</dd>
 
- <dt id="CS40">CS40</dt>
- <dd>In Apache projects, vetoes are only valid for code commits. The person exercising the veto must justify it with a technical explanation, as per the Apache voting rules
+<dt id="CS40">CS40</dt>
+<dd>In Apache projects, vetoes are only valid for code commits. The person exercising the veto must justify it with a technical explanation, as per the Apache voting rules
 defined in CS30.
 </dd>
 
@@ -286,6 +335,8 @@ v1.1, October 2016 added RE50.
 v1.2, February 2018, reworked the "how to use" section with more links to self-assessments.
 
 v1.3, June 2021, improve readability and simplify the language where possible.
+
+v1.4, December 2024, added the Trademark and Branding section (TB10-TB50).
 
 See the <a href="https://svn.apache.org/viewvc/comdev/site/trunk/content/apache-way/apache-project-maturity-model.mdtext?view=log" target="_blank">svn revision history</a> (for older
 versions) and <a href="https://github.com/apache/comdev-site/commits/main/source/apache-way/apache-project-maturity-model.md">GitHub history</a> (since March 2020) of this document for more details and other minor changes.
