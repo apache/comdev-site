@@ -197,63 +197,6 @@ The project strives to answer user questions in a timely manner.
 </dd>
 </dl>
 
-## Trademark and Branding
-
-Notable items from the [Trademark Policy][trademark-policy],
-[FAQ][trademark-faq], [Guide][trademark-guide], and
-[PMC Branding Responsibilities][branding-responsibilities].
-The project's PMC should comply with ASF's branding and trademark policy in
-all places it controls.
-
-[trademark-policy]: https://www.apache.org/foundation/marks/
-[trademark-faq]: https://www.apache.org/foundation/marks/faq/
-[trademark-guide]: https://www.apache.org/foundation/marks/guide
-[branding-responsibilities]: https://www.apache.org/foundation/marks/responsibility
-
-<dl>
-<dt id="TB10">TB10</dt>
-<dd>
-The project uses "Apache Foo™" as the project and software product
-name consistently, with appropriate [trademark attributions][trademark-attributions].
-</dd>
-
-[trademark-attributions]: https://apache.org/foundation/marks/pmcs#attributions
-
-<dt id="TB20">TB20</dt>
-<dd>
-The project's primary homepage is at <code>projectname.apache.org</code>.
-When exceptions exist to use alternate domains for any purpose, any
-<code>non-apache.org</code> domain names are owned by the ASF.
-</dd>
-
-<dt id="TB30">TB30</dt>
-<dd>
-The ASF has trademark rights, including any registrations, to the
-project name, logo, and any other major branding elements.
-
-<br/><br/>
-<em>NB.</em> For example, any transfers of existing trademark registrations
-during Incubation must completed before graduation.
-</dd>
-
-<dt id="TB40">TB40</dt>
-<dd>
-The project monitors for any major misuses of their project's brand
-by others, and [reports][reports-trademark-issues] any potential
-misuses to Brand Management.
-
-<br/><br/>
-<em>NB.</em> TB40 is a balancing act: we hope that PMCs are spending some
-time responding to any obvious or blatant misuses of their brand.
-But PMCs sometimes can't handle all the details of actually stopping a
-potential infringement; what we really need is for PMCs to actively
-report them, and then promptly respond if Brand Managment (or other
-officers) ask for information when addressing a misuse.
-
-[reports-trademark-issues]: https://apache.org/foundation/marks/reporting.html#pmcs
-</dd>
-</dl>
-
 ## Consensus Building
 
 <dl>
@@ -306,6 +249,50 @@ The project is independent from any corporate or organizational influence.
 </dd>
 </dl>
 
+## Trademark and Branding
+
+Notable items from the [Trademark Policy][trademark-policy],
+[FAQ][trademark-faq], [Guide][trademark-guide], and
+[PMC Branding Responsibilities][branding-responsibilities].
+The project's PMC should comply with ASF's branding and trademark policy in
+all places it controls.
+
+[trademark-policy]: https://www.apache.org/foundation/marks/
+[trademark-faq]: https://www.apache.org/foundation/marks/faq/
+[trademark-guide]: https://www.apache.org/foundation/marks/guide
+[branding-responsibilities]: https://www.apache.org/foundation/marks/responsibility
+
+<dl>
+<dt id="TB10">TB10</dt>
+<dd>
+The project uses "Apache Foo™" as the project and software product
+name consistently, with appropriate trademark attributions
+<sup><a href="#fnref-0178A90B3010DC18C1BF45A9E55CB9C54D42F14B" id="fndef-0178A90B3010DC18C1BF45A9E55CB9C54D42F14B-12">13</a></sup>.
+</dd>
+
+<dt id="TB20">TB20</dt>
+<dd>
+The project's primary homepage is at <code>projectname.apache.org</code>.
+When exceptions exist to use alternate domains for any purpose, any
+<code>non-apache.org</code> domain names are owned by the ASF.
+</dd>
+
+<dt id="TB30">TB30</dt>
+<dd>
+The ASF has trademark rights, including any registrations, to the
+project name, logo, and any other major branding elements
+<sup><a href="#fnref-CAE17AF182EE90ACCB55FE618A99E4AECC282572" id="fndef-CAE17AF182EE90ACCB55FE618A99E4AECC282572-13">14</a></sup>.
+</dd>
+
+<dt id="TB40">TB40</dt>
+<dd>
+The project monitors for any major misuses of their project's brand
+by others, and reports
+<sup><a href="#fnref-7052346662809FE3100C7E3C1F1CB33D0B10208D" id="fndef-7052346662809FE3100C7E3C1F1CB33D0B10208D-14">15</a></sup>
+any potential misuses to Brand Management.
+</dd>
+</dl>
+
 # How To Use The Apache Project Maturity Model
 
 **Remember:** This model is a guide; it is not a requirements document. The model shows what generally good behaviors in an Apache project look like.
@@ -352,7 +339,6 @@ versions) and <a href="https://github.com/apache/comdev-site/commits/main/source
 ### Footnotes
 
 <ol>
-
 <li>
 <a id="fnref-a2e0cd066fd8f45af4e87bcdbf8d9abd3ad40872"></a>
 "For distribution to the public at no charge" is straight from the from the ASF Bylaws at <a class="http" href="https://apache.org/foundation/bylaws.html" target="_blank">https://apache.org/foundation/bylaws.html</a>.
@@ -391,43 +377,43 @@ contributions but grant the ASF a perpetual copyright license for them.
 (<a href="#fndef-258df7a61c975c67bbef17d3cf7851bafd40b8fb-4">5</a>)
 </li>
 
- <li>
- <a id="fnref-d2389850862fcc9bddabb3c2e23b13922d68e3fc"></a>
- See <a class="http" href="https://www.apache.org/legal/release-policy.html">https://www.apache.org/legal/release-policy.html</a> for more info on Apache releases.
+<li>
+<a id="fnref-d2389850862fcc9bddabb3c2e23b13922d68e3fc"></a>
+See <a class="http" href="https://www.apache.org/legal/release-policy.html">https://www.apache.org/legal/release-policy.html</a> for more info on Apache releases.
 
- (<a href="#fndef-d2389850862fcc9bddabb3c2e23b13922d68e3fc-5">6</a>)
- </li>
+(<a href="#fndef-d2389850862fcc9bddabb3c2e23b13922d68e3fc-5">6</a>)
+</li>
 
- <li>
- <a id="fnref-89a5257606b929cc5ced2bee207c80b43541d488"></a>
- The required level of security depends on the software's intended uses, of course. Projects should clearly document security expectations.
+<li>
+<a id="fnref-89a5257606b929cc5ced2bee207c80b43541d488"></a>
+The required level of security depends on the software's intended uses, of course. Projects should clearly document security expectations.
 
- (<a href="#fndef-89a5257606b929cc5ced2bee207c80b43541d488-6">7</a>)
- </li>
+(<a href="#fndef-89a5257606b929cc5ced2bee207c80b43541d488-6">7</a>)
+</li>
 
- <li>
- <a id="fnref-7c23a24b04dcf9b4b10423685fbd37f69b2b3783"></a>
- Apache projects can just point to <a class="http" href="https://www.apache.org/security/">https://www.apache.org/security/</a> or use their own security contacts page, which should also point to that.
+<li>
+<a id="fnref-7c23a24b04dcf9b4b10423685fbd37f69b2b3783"></a>
+Apache projects can just point to <a class="http" href="https://www.apache.org/security/">https://www.apache.org/security/</a> or use their own security contacts page, which should also point to that.
 
- (<a href="#fndef-7c23a24b04dcf9b4b10423685fbd37f69b2b3783-7">8</a>)
- </li>
+(<a href="#fndef-7c23a24b04dcf9b4b10423685fbd37f69b2b3783-7">8</a>)
+</li>
 
- <li>
- <a id="fnref-08fda1a3461c11086b8542178f35e0c27a4a46c3"></a>
- In Apache projects, "consensus" means <em>widespread agreement among people who have decision power</em>. It does not necessarily mean "unanimity".
+<li>
+<a id="fnref-08fda1a3461c11086b8542178f35e0c27a4a46c3"></a>
+In Apache projects, "consensus" means <em>widespread agreement among people who have decision power</em>. It does not necessarily mean "unanimity".
 
- (<a href="#fndef-08fda1a3461c11086b8542178f35e0c27a4a46c3-8">9</a>)
- </li>
+(<a href="#fndef-08fda1a3461c11086b8542178f35e0c27a4a46c3-8">9</a>)
+</li>
 
- <li>
- <a id="fnref-9b0cf71f04bcd81dddbf6199f1c771e27566611e"></a>
- For Apache projects, <a class="http" href="https://www.apache.org/foundation/voting.html" target="_blank">https://www.apache.org/foundation/voting.html</a> defines the voting rules.
+<li>
+<a id="fnref-9b0cf71f04bcd81dddbf6199f1c771e27566611e"></a>
+For Apache projects, <a class="http" href="https://www.apache.org/foundation/voting.html" target="_blank">https://www.apache.org/foundation/voting.html</a> defines the voting rules.
 
- (<a href="#fndef-9b0cf71f04bcd81dddbf6199f1c771e27566611e-9">10</a>)
- </li>
+(<a href="#fndef-9b0cf71f04bcd81dddbf6199f1c771e27566611e-9">10</a>)
+</li>
 
- <li>
- <a id="fnref-d9e7a517f046358463f038f3830fef171e69f78b"></a>
+<li>
+<a id="fnref-d9e7a517f046358463f038f3830fef171e69f78b"></a>
 Each Apache project has a private mailing list that its PMC is expected to use
 only when really needed. The private list is typically used for
 discussions about people, for example to discuss and to vote on PMC
@@ -445,4 +431,34 @@ with no hidden agendas.
 (<a href="#fndef-764b2c2fd32deb4ff73ea01efa67c8556303c359-11">12</a>)
 </li>
 
+<li>
+<a id="fnref-0178A90B3010DC18C1BF45A9E55CB9C54D42F14B"></a>
+See https://apache.org/foundation/marks/pmcs#attributions for more information
+on trademark attributions.
+
+(<a href="#fndef-0178A90B3010DC18C1BF45A9E55CB9C54D42F14B-12">13</a>)
+</li>
+
+<li>
+<a id="fnref-CAE17AF182EE90ACCB55FE618A99E4AECC282572"></a>
+For example, any transfers of existing trademark registrations during
+Incubation must completed before graduation.
+
+(<a href="#fndef-CAE17AF182EE90ACCB55FE618A99E4AECC282572-13">14</a>)
+</li>
+
+<li>
+<a id="fnref-7052346662809FE3100C7E3C1F1CB33D0B10208D"></a>
+See also https://apache.org/foundation/marks/reporting.html#pmcs for
+more information on reporting misuses.
+
+TB40 is a balancing act: we hope that PMCs are spending some
+time responding to any obvious or blatant misuses of their brand.
+But PMCs sometimes can't handle all the details of actually stopping a
+potential infringement; what we really need is for PMCs to actively
+report them, and then promptly respond if Brand Managment (or other
+officers) ask for information when addressing a misuse.
+
+(<a href="#fndef-7052346662809FE3100C7E3C1F1CB33D0B10208D-14">15</a>)
+</li>
 </ol>
