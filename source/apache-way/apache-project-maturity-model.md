@@ -304,10 +304,11 @@ It might be useful for top-level ASF projects to regularly assess their maturity
 
 Here are a few self-assessment examples:
 
-* [Apache Groovy podling self-assessment, 2015](https://github.com/apache/groovy/blob/576b3c5d6a7022ac4a8df1ef118666456ce627fb/MATURITY.adoc)
-* [Apache Taverna Graduation Maturity Assessment, 2016](https://cwiki.apache.org/confluence/display/TAVERNADEV/2016-03+Taverna+Graduation+Maturity+Assessment)
-* [Apache CarbonData Podling Maturity Assessment, 2017](https://cwiki.apache.org/confluence/display/CARBONDATA/Apache+Maturity+Model+Assessment+for+CarbonData)
+* [Apache OpenDAL Maturity Model Assessment, 2024](https://opendal.apache.org/community/maturity)
 * [Apache ServiceComb Maturity Model Assessment, 2018](https://cwiki.apache.org/confluence/display/SERVICECOMB/Apache+Maturity+Model+Assessment+for+ServiceComb)
+* [Apache CarbonData Podling Maturity Assessment, 2017](https://cwiki.apache.org/confluence/display/CARBONDATA/Apache+Maturity+Model+Assessment+for+CarbonData)
+* [Apache Taverna Graduation Maturity Assessment, 2016](https://cwiki.apache.org/confluence/display/TAVERNADEV/2016-03+Taverna+Graduation+Maturity+Assessment)
+* [Apache Groovy podling self-assessment, 2015](https://github.com/apache/groovy/blob/576b3c5d6a7022ac4a8df1ef118666456ce627fb/MATURITY.adoc)
 
 ## Other Open Source Project Models
 
