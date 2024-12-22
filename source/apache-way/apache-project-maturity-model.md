@@ -221,9 +221,9 @@ name consistently, with appropriate [trademark attributions][trademark-attributi
 
 <dt id="TB20">TB20</dt>
 <dd>
-The project's primary homepage is at `projectname.apache.org`.
+The project's primary homepage is at <code>projectname.apache.org</code>.
 When exceptions exist to use alternate domains for any purpose, any
-`non-apache.org` domain names are owned by the ASF.
+<code>non-apache.org</code> domain names are owned by the ASF.
 </dd>
 
 <dt id="TB30">TB30</dt>
@@ -231,7 +231,8 @@ When exceptions exist to use alternate domains for any purpose, any
 The ASF has trademark rights, including any registrations, to the
 project name, logo, and any other major branding elements.
 
-NB. For example, any transfers of existing trademark registrations
+<br/><br/>
+<em>NB.</em> For example, any transfers of existing trademark registrations
 during Incubation must completed before graduation.
 </dd>
 
@@ -241,7 +242,8 @@ The project monitors for any major misuses of their project's brand
 by others, and [reports][reports-trademark-issues] any potential
 misuses to Brand Management.
 
-NB. TB40 is a balancing act: we hope that PMCs are spending some
+<br/><br/>
+<em>NB.</em> TB40 is a balancing act: we hope that PMCs are spending some
 time responding to any obvious or blatant misuses of their brand.
 But PMCs sometimes can't handle all the details of actually stopping a
 potential infringement; what we really need is for PMCs to actively
@@ -342,7 +344,7 @@ v1.2, February 2018, reworked the "how to use" section with more links to self-a
 
 v1.3, June 2021, improve readability and simplify the language where possible.
 
-v1.4, December 2024, added the Trademark and Branding section (TB10-TB50).
+v1.4, December 2024, added the Trademark and Branding section (TB10-TB40).
 
 See the <a href="https://svn.apache.org/viewvc/comdev/site/trunk/content/apache-way/apache-project-maturity-model.mdtext?view=log" target="_blank">svn revision history</a> (for older
 versions) and <a href="https://github.com/apache/comdev-site/commits/main/source/apache-way/apache-project-maturity-model.md">GitHub history</a> (since March 2020) of this document for more details and other minor changes.
