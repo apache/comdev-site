@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>True on ASF Community Development</title>
+    <link>https://community.apache.org/true.html</link>
+    <description>Recent content in True on ASF Community Development</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://community.apache.org/true/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contributing to the Apache Software Foundation on ASF Community Development</title>
+    <link>https://community.apache.org/contributors/</link>
+    <description>Recent content in Contributing to the Apache Software Foundation on ASF Community Development</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://community.apache.org/contributors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ASF Community Etiquette Guidelines</title>
+      <link>https://community.apache.org/contributors/etiquette.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/contributors/etiquette.html</guid>
+      <description>The ASF and our many projects welcome all participants. Before you begin, it is important to review and respect our community guidelines. We have a few ASF-specific tips below.
+Code of Conduct &amp;para; The ASF has adopted a Code of Conduct which covers interactions in all the online spaces that ASF projects use - email, issue trackers, wikis, websites, IRC, and the like. ASF projects are made up of volunteers, and we work to ensure that all productive contributions are welcomed.</description>
+    </item>
+    
+    <item>
+      <title>ASF volunteers, mentors and speakers</title>
+      <link>https://community.apache.org/contributors/asf-volunteers.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/contributors/asf-volunteers.html</guid>
+      <description>Here&amp;rsquo;s a list of ASF community members who volunteer to mentor new community members and/or to be speakers at ASF-related events.
+Project names shown in bold mean that the corresponding person is a PMC member of that project.
+ASF volunteer mentors &amp;amp; speakers &amp;para; In alphabetical order of ASF IDs.
+altay # speaker bdelacretaz # mentor, speaker cdutz # mentor, speaker clr # mentor, speaker curcuru # mentor, speaker dirkx # speaker glauesppen # mentor, speaker jbonofre # mentor, speaker kanchana # mentor ningjiang # mentor, speaker rbowen # mentor, speaker rvs # mentor, speaker tison # mentor, speaker </description>
+    </item>
+    
+    <item>
+      <title>Becoming a committer</title>
+      <link>https://community.apache.org/contributors/becomingacommitter.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/contributors/becomingacommitter.html</guid>
+      <description>Read the mailing list Contribute code (and other things) End user support Documentation Review PRs and tickets Be visible Test, and vote on releases (non-binding) Give talks Disclaimer &amp;para; Nothing in this post should be construed as a guarantee. You can do everything listed here, for years, and still not become a committer. This is because the decision is made by individuals on the project PMC, who do things for their own reasons.</description>
+    </item>
+    
+    <item>
+      <title>Mailing lists</title>
+      <link>https://community.apache.org/contributors/mailing-lists.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/contributors/mailing-lists.html</guid>
+      <description>The ASF has a long tradition of using mailing lists as the primary communication format in projects. This is not merely because we&amp;rsquo;ve always done it that way, but is an intentional decision for the health and sustainability of our communities.
+Inclusion and transparency Mailing list etiquette Meaningful subject lines Inline vs top-posting HTML and &amp;ldquo;rich text&amp;rdquo; messages Colloquialisms Mailing list configuration Configuring where to send things Configuring the subject lines of the emails being sent Conclusion Inclusion and transparency &amp;para; Mailing lists ensure that all members of the community can participate on a level field, regardless of time zone or availability, whereas synchronous communication platforms (IRC, Slack, Discord, etc.</description>
+    </item>
+    
+  </channel>
+</rss>

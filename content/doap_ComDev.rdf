@@ -1,0 +1,67 @@
+<!--
+Licensed to the Apache Software Foundation (ASF) under one
+or more contributor license agreements.  See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership.  The ASF licenses this file
+to you under the Apache License, Version 2.0 (the
+"License"); you may not use this file except in compliance
+with the License.  You may obtain a copy of the License at
+
+    https://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<rdf:RDF xml:lang="en" xmlns="http://usefulinc.com/ns/doap#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:asfext="http://projects.apache.org/ns/asfext#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <Project rdf:about="https://comdev.apache.org/">
+    <created>2009</created>
+    <license rdf:resource="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+    <name>Apache Community Development</name>
+    <homepage rdf:resource="https://community.apache.org/"/>
+    <asfext:pmc rdf:resource="https://comdev.apache.org/"/>
+    <shortdesc>Resources to help people become involved with Apache projects</shortdesc>
+    <!--description></description-->
+    <bug-database rdf:resource="https://issues.apache.org/jira/browse/COMDEV"/>
+    <mailing-list rdf:resource="https://community.apache.org/lists.html"/>
+    <repository>
+      <GitRepository>
+        <location rdf:resource="https://gitbox.apache.org/repos/asf/comdev-site.git"/>
+        <browse rdf:resource="https://github.com/apache/comdev-site"/>
+      </GitRepository>
+    </repository>
+    <repository>
+      <GitRepository>
+        <location rdf:resource="https://gitbox.apache.org/repos/asf/comdev-events-site.git"/>
+        <browse rdf:resource="https://github.com/apache/comdev-events-site"/>
+      </GitRepository>
+    </repository>
+    <repository>
+      <SVNRepository>
+        <location rdf:resource="https://svn.apache.org/repos/asf/comdev/projects.apache.org/"/>
+        <browse rdf:resource="https://svn.apache.org/viewvc/comdev/site/projects.apache.org/"/>
+      </SVNRepository>
+    </repository>
+    <repository>
+      <SVNRepository>
+        <location rdf:resource="https://svn.apache.org/repos/asf/comdev/reporter.apache.org/"/>
+        <browse rdf:resource="https://svn.apache.org/viewvc/comdev/site/reporter.apache.org/"/>
+      </SVNRepository>
+    </repository>
+    <repository>
+      <SVNRepository>
+        <location rdf:resource="https://svn.apache.org/repos/asf/comdev/helpwanted.apache.org/"/>
+        <browse rdf:resource="https://svn.apache.org/viewvc/comdev/site/helpwanted.apache.org/"/>
+      </SVNRepository>
+    </repository>
+    <maintainer>
+      <foaf:Person>
+        <foaf:name>Apache Community Development PMC</foaf:name>
+          <foaf:mbox rdf:resource="mailto:dev@community.apache.org"/>
+      </foaf:Person>
+    </maintainer>
+  </Project>
+</rdf:RDF>

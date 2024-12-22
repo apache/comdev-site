@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+  <meta name="description" content="Apache Community Development"/>
+  <meta name="keywords" content="apache, apache community, community development, opensource"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta property="og:title" content="Apache in GSoC" />
+<meta property="og:description" content="This is a place for collecting information about GSoC activities each year for historical tracking. Your help filling it out would be appreciated.
+2022 Details &para; Students accepted: 37 Students who passed final: 33 Contributor Project Mentors Status Abhinav Sinha Apache Custos Baremetal Deployment SureshMarru, Isuru Ranawaka (&#43;1) Passed / Passed Aishwarya Sinhasane Airavata Rich Client Based on ElectronJS SureshMarru, Eroma Abeysinghe (&#43;1) Passed / Passed Aisulu Karimbaeva Runner Comparison / Capability Matrix revamp Pablo Estrada Passed / Passed Bhavesh Asanabada SMILES Data Models SureshMarru, Isuru Ranawaka (&#43;1) Passed / Passed Chusheng Wu Apache skywalking: Add the webapp of Banyandb Hongtao Gao, Zhenxu Ke (&#43;1) Passed / Passed conghuhu Thin SDK for Proxy Mesh Albumen Kevin, Jun Passed / Passed Cyl Apache Dubbo GSoC2022 Proxyless Mesh support Albumen Kevin, Jun Passed / Passed Daman Arora CloudStack Terraform Provider - Add datasources for the existing resources Boris Stoyanov, Pearl Dsilva (&#43;1) Passed / Passed erdengk Apache ShenYu: Integration tests cover more scenarios EricPer, impactCn Passed / Passed erikiceliu Apache APISIX Java Plugin Runner Improvement Zeping Bai, Zhiyuan Ju (&#43;1) Passed / Passed Everly Precia Suresh Solve unsupported Postgres sql about alter statement for ShardingSphere Parser Trista Pan, Zhengqiang Duan (&#43;2) Passed / Passed Feng Han Multi-source data import and export extension for APISIX Dashboard Zeping Bai, Zhiyuan Ju (&#43;1) Passed / Passed henrik Dubbo Metrics and Observability Albumen Kevin, Jun Passed / Passed Himanshu Acharya Apache Geode Data store support for Apache Gora(GORA-698) Madhawa Gunasekara, Furkan KAMACI Passed / Passed Himanshu Hansaria Airavata Jupyter Platform Services SureshMarru, Isuru Ranawaka (&#43;1) Passed / Passed Huang Xin Apache ShardingSphere Develop an external tool to convert YAML configuration into DistSQL scripts Trista Pan, Longtao Jiang (&#43;1) Passed / Passed Huang Yilong Task demo demonstrating the usage of Dubbo3 Albumen Kevin, Jun Passed / Passed jay li GSoC 2022: Dubo-go-boot project enriches other middleware adaptations zhaoyunxing, laurence Passed / Passed Kaifeng Liu EventMesh Admin Dashboard Xiaoyang Liu Passed / Passed Liangshumin Log Outlier Detection Zhenxu Ke, Superskyyy Passed / Passed lyle Proposal For Python API CLI Enhancement Wenjun Ruan, zhongjiajie Passed / Passed maverick_June Elaborating the new stream processing system utilizes serverless framework with fast scaling policy wonook, Jeongyoon Eo Passed / Passed Pengcheng Ma Apache EventMesh Support Knative as Eventing Infra Mike Xue Passed / Passed Qifan Yu ShenYu: logging-kafka plugin Yonglun Zhang, Liang Liu Passed / Passed QinHaiqi Proposal for Apache Shenyu about logging-elasticsearch plugin Yu Xiao, qicz Passed / Passed Shibo Chen Gracefully shuts down for dubbo-go-pixiu laurence Passed / Passed Shubham Bipin Kumar Dashboards to get quick statistics SureshMarru, Eroma Abeysinghe (&#43;1) Passed / Passed Sumanth Sulur Rajkumar Commons Numbers Library for Complex Linear Algebra Gilles, Matt Juntunen (&#43;1) Passed / Passed Thanoshan M." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://community.apache.org/gsoc/experiences/gsoc-2022.html" /><meta property="og:image" content="https://community.apache.org/images/project-logos.webp"/><meta property="article:section" content="gsoc" />
+
+<meta property="og:site_name" content="Apache Community Development" />
+
+
+  <title>Apache Community Development - Apache in GSoC</title>
+  <link rel="shortcut icon" href="/images/favicon.ico">
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link href="/css/main.css" rel="stylesheet" media="screen">
+  <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <style type="text/css">
+      .footer {
+          text-align:center;
+          color:grey;
+          font-size:80%;
+          border-top: solid #ddd 1px;
+          margin-top:1em;
+      }
+      .navbar-brand img {
+          height: 50px;
+      }
+  </style>
+
+  
+<script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(['disableCookies']);
+   
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.apache.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '36']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+
+  
+
+</head>
+
+<body>
+  <header class="navbar navbar-expand-lg navbar-dark bg-bright fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+    <img src="/images/asf_logo.svg" alt="Apache Software Foundation">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="mainNavbar">
+    <div class="container"> 
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="homeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Home
+            </a>
+            <div class="dropdown-menu" aria-labelledby="homeDropdown">
+              <a class="dropdown-item" href="/">Homepage</a>
+              <a class="dropdown-item" href="/tags.html">Tags</a>
+              <a class="dropdown-item" href="/blog/">Blog</a>
+              <a class="dropdown-item" href="/tags/navigation.html">Navigation pages</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About
+          </a>
+          <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+            <a class="dropdown-item" href="/about/">What We Do</a>
+            <a class="dropdown-item" href="/newbiefaq.html">Frequently Asked Questions</a>
+            <a class="dropdown-item" href="/projectIndependence.html">Apache Project Independence</a>
+            <a class="dropdown-item" href="/apache-way/apache-project-maturity-model.html">Apache Project Maturity Model</a>
+            <a class="dropdown-item" href="/contactpoints.html">Contact Points Within the ASF</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html#2009-11-01">ComDev Original Board Resolution</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html">ComDev Board Reports</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/COMDEV">Community Development Jira</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">About Apache</a>
+            <a class="dropdown-item" href="https://www.apache.org/">The Apache Software Foundation</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/sponsorship">Sponsor Apache</a>
+            <a class="dropdown-item" href="http://diversity.apache.org/">Diversity & Inclusion</a>
+             <a class="dropdown-item" href="/contributors/asf-volunteers.html">Mentors &amp; Speakers</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/thanks">Thanks to our Sponsors</a>
+            <a class="dropdown-item" href="https://www.apache.org/licenses">License</a>
+            <a class="dropdown-item" href="https://www.apache.org/security">Security</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="contribDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Contributing
+          </a>
+          <div class="dropdown-menu" aria-labelledby="contribDropdown">
+            <a class="dropdown-item" href="/contributor-ladder.html">Contributor Ladder</a>
+            <a class="dropdown-item" href="/newcomers/">Getting Started at Apache</a>
+            <a class="dropdown-item" href="/contributors/">Contributing to projects</a>
+            <a class="dropdown-item" href="/committers/">Committers</a>
+            <a class="dropdown-item" href="/pmc/">PMC Members</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">Committer and PMC Information</a>
+            <a class="dropdown-item" href="https://www.apache.org/dev/">Technical Developer FAQs</a>
+            <a class="dropdown-item" href="/committers/decisionMaking.html">Decision Making</a>
+            <a class="dropdown-item" href="/committers/good-first-issues.html">Good First Issues</a>
+            <a class="dropdown-item" href="/pmc/community-growth.html">Recruiting New Contributors</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="commitDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">GSoC</a>
+          <div class="dropdown-menu" aria-labelledby="gsocDropdown">
+            <a class="dropdown-item" href="/gsoc/">Google Summer Of Code Information</a>
+            <a class="dropdown-item" href="/gsoc/mentee-ranking-process.html">Mentee Ranking Process</a>
+            <a class="dropdown-item" href="/gsoc/experiences/">Past GSoC Experiences</a>
+            <a class="dropdown-item" href="/gsoc/guide-to-being-a-mentor.html">Guide to being a Mentor</a>
+            <a class="dropdown-item" href="/gsoc/use-the-comdev-gsoc-issue-tracker-for-gsoc-tasks.html">Using ComDev's Jira for GSoC Ideas</a>
+            <a class="dropdown-item" href="/gsoc/gsoc-admin-tasks.html">Tasks of a GSoC Admin at the ASF</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/GSOC">GSoC Jira</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="eventDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Events
+          </a>
+          <div class="dropdown-menu" aria-labelledby="eventDropdown">
+            <a class="dropdown-item" href="https://apachecon.com/">Community Over Code - (formerly ApacheCon)</a>
+            <a class="dropdown-item" href="https://events.apache.org/">Other Apache-related Events</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/marks/events">Apache event branding policies</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">Conference Speakers</a>
+            <a class="dropdown-item" href="/speakers/">Speaker resources</a>
+            <a class="dropdown-item" href="/speakers/slides.html">Sample presentations</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="conversDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Working Groups
+          </a>
+          <div class="dropdown-menu" aria-labelledby="wgDropdown">
+            <a class="dropdown-item" href="/workinggroups/">Working Groups</a>
+            <a class="dropdown-item" href="https://github.com/apache/comdev-working-groups">Git repositories</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="conversDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Join the Conversation
+          </a>
+          <div class="dropdown-menu" aria-labelledby="conversDropdown">
+            <a class="dropdown-item" href="/blog/">Blog</a>
+            <a class="dropdown-item" href="https://www.facebook.com/ApacheSoftwareFoundation">Facebook</a>
+            <a class="dropdown-item" href="https://twitter.com/ApacheCommunity">Twitter</a>
+            <a class="dropdown-item" href="/lists.html">Mailing List</a>
+            <a class="dropdown-item" href="https://cwiki.apache.org/confluence/display/COMDEV/Apache+Local+Community+-+ALC">ALC: Apache Local Communities</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+    </div>
+  </header>
+
+  <main class="cd-main" id="content" role="main">
+    <div class="container">
+      <section id="content" class="row">
+        <div class="col-md-9">
+          
+        </div>
+        <div class="col-md-12"></div>
+      </section>
+      
+      <hr>
+       
+      
+	
+	<br><br>
+	<p>This is a place for collecting information about GSoC activities each year for historical tracking. Your help
+filling it out would be appreciated.</p>
+<h1 id="2022-details">2022 Details <a class="headerlink" title="Permalink" href="#2022-details">&para;</a></h1>
+<ul>
+<li>Students accepted: 37</li>
+<li>Students who passed final: 33</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Contributor</th>
+<th>Project</th>
+<th>Mentors</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Abhinav Sinha</td>
+<td>Apache Custos Baremetal Deployment</td>
+<td>SureshMarru, Isuru Ranawaka (+1)</td>
+<td>Passed / Passed</td>
+</tr>
+<tr>
+<td>Aishwarya Sinhasane</td>
+<td>Airavata Rich Client Based on ElectronJS</td>
+<td>SureshMarru, Eroma Abeysinghe (+1)</td>
+<td>Passed / Passed</td>
+</tr>
+<tr>
+<td>Aisulu Karimbaeva</td>
+<td>Runner Comparison / Capability Matrix revamp</td>
+<td>Pablo Estrada</td>
+<td>Passed / Passed</td>
+</tr>
+<tr>
+<td>Bhavesh Asanabada</td>
+<td>SMILES Data Models</td>
+<td>SureshMarru, Isuru Ranawaka (+1)</td>
+<td>Passed / Passed</td>
+</tr>
+<tr>
+<td>Chusheng Wu</td>
+<td>Apache skywalking: Add the webapp of Banyandb</td>
+<td>Hongtao Gao, Zhenxu Ke (+1)</td>
+<td>Passed / Passed</td>
+</tr>
+<tr>
+<td>conghuhu</td>
+<td>Thin SDK for Proxy Mesh</td>
+<td>Albumen Kevin, Jun</td>
+<td>Passed / Passed</td>
+</tr>
+<tr>
+<td>Cyl</td>
+<td>Apache Dubbo GSoC2022 Proxyless Mesh support</td>
+<td>Albumen Kevin, Jun</td>
+<td>Passed / Passed</td>
+</tr>
+<tr>
+<td>Daman Arora</td>
+<td>CloudStack Terraform Provider - Add datasources for the existing resources</td>
+<td>Boris Stoyanov, Pearl Dsilva (+1)</td>
+<td>Passed / Passed</td>
+</tr>
+<tr>
+<td>erdengk</td>
+<td>Apache ShenYu: Integration tests cover more scenarios</td>
+<td>EricPer, impactCn</td>
+<td>Passed / Passed</td>
+</tr>
+<tr>
+<td>erikiceliu</td>
+<td>Apache APISIX Java Plugin Runner Improvement</td>
+<td>Zeping Bai, Zhiyuan Ju (+1)</td>
+<td>Passed / Passed</td>
+</tr>
+<tr>
+<td>Everly Precia Suresh</td>
+<td>Solve unsupported Postgres sql about alter statement for ShardingSphere Parser</td>
+<td>Trista Pan, Zhengqiang Duan (+2)</td>
+<td>Passed / Passed</td>
+</tr>
+<tr>
+<td>Feng Han</td>
+<td>Multi-source data import and export extension for APISIX Dashboard</td>
+<td>Zeping Bai, Zhiyuan Ju (+1)</td>
+<td>Passed / Passed</td>
+</tr>
+<tr>
+<td>henrik</td>
+<td>Dubbo Metrics and Observability</td>
+<td>Albumen Kevin, Jun</td>
+<td>Passed / Passed</td>
+</tr>
+<tr>
+<td>Himanshu Acharya</td>
+<td>Apache Geode Data store support for Apache Gora(GORA-698)</td>
+<td>Madhawa Gunasekara, Furkan KAMACI</td>
+<td>Passed / Passed</td>
+</tr>
+<tr>
+<td>Himanshu Hansaria</td>
+<td>Airavata Jupyter Platform Services</td>
+<td>SureshMarru, Isuru Ranawaka (+1)</td>
+<td>Passed / Passed</td>
+</tr>
+<tr>
+<td>Huang Xin</td>
+<td>Apache ShardingSphere Develop an external tool to convert YAML configuration into DistSQL scripts</td>
+<td>Trista Pan, Longtao Jiang (+1)</td>
+<td>Passed / Passed</td>
+</tr>
+<tr>
+<td>Huang Yilong</td>
+<td>Task demo demonstrating the usage of Dubbo3</td>
+<td>Albumen Kevin, Jun</td>
+<td>Passed / Passed</td>
+</tr>
+<tr>
+<td>jay li</td>
+<td>GSoC 2022: Dubo-go-boot project enriches other middleware adaptations</td>
+<td>zhaoyunxing, laurence</td>
+<td>Passed / Passed</td>
+</tr>
+<tr>
+<td>Kaifeng Liu</td>
+<td>EventMesh Admin Dashboard</td>
+<td>Xiaoyang Liu</td>
+<td>Passed / Passed</td>
+</tr>
+<tr>
+<td>Liangshumin</td>
+<td>Log Outlier Detection</td>
+<td>Zhenxu Ke, Superskyyy</td>
+<td>Passed / Passed</td>
+</tr>
+<tr>
+<td>lyle</td>
+<td>Proposal For Python API CLI Enhancement</td>
+<td>Wenjun Ruan, zhongjiajie</td>
+<td>Passed / Passed</td>
+</tr>
+<tr>
+<td>maverick_June</td>
+<td>Elaborating the new stream processing system utilizes serverless framework with fast scaling policy</td>
+<td>wonook, Jeongyoon Eo</td>
+<td>Passed / Passed</td>
+</tr>
+<tr>
+<td>Pengcheng Ma</td>
+<td>Apache EventMesh Support Knative as Eventing Infra</td>
+<td>Mike Xue</td>
+<td>Passed / Passed</td>
+</tr>
+<tr>
+<td>Qifan Yu</td>
+<td>ShenYu: logging-kafka plugin</td>
+<td>Yonglun Zhang, Liang Liu</td>
+<td>Passed / Passed</td>
+</tr>
+<tr>
+<td>QinHaiqi</td>
+<td>Proposal for Apache Shenyu about logging-elasticsearch plugin</td>
+<td>Yu Xiao, qicz</td>
+<td>Passed / Passed</td>
+</tr>
+<tr>
+<td>Shibo Chen</td>
+<td>Gracefully shuts down for dubbo-go-pixiu</td>
+<td>laurence</td>
+<td>Passed / Passed</td>
+</tr>
+<tr>
+<td>Shubham Bipin Kumar</td>
+<td>Dashboards to get quick statistics</td>
+<td>SureshMarru, Eroma Abeysinghe (+1)</td>
+<td>Passed / Passed</td>
+</tr>
+<tr>
+<td>Sumanth Sulur Rajkumar</td>
+<td>Commons Numbers Library for Complex Linear Algebra</td>
+<td>Gilles, Matt Juntunen (+1)</td>
+<td>Passed / Passed</td>
+</tr>
+<tr>
+<td>Thanoshan M.V.</td>
+<td>Solve Unsupported PostgreSQL Statements That Start With &lsquo;c&rsquo; for Shardingsphere Parser</td>
+<td>Trista Pan, Zhengqiang Duan (+2)</td>
+<td>Passed / Passed</td>
+</tr>
+<tr>
+<td>wjf</td>
+<td>DolphinScheduler: Support etcd as registry</td>
+<td>Wenjun Ruan</td>
+<td>Passed / Passed</td>
+</tr>
+<tr>
+<td>Yepeng Zhang</td>
+<td>DUBBO-92: Explore a new generation of flexible loadbalance algorithms for Dubbo-go</td>
+<td>justxuewei</td>
+<td>Passed / Passed</td>
+</tr>
+<tr>
+<td>zlber</td>
+<td>dubbo-go Proxyless Mesh</td>
+<td>laurence</td>
+<td>Passed / Passed</td>
+</tr>
+<tr>
+<td>杨阳</td>
+<td>GSoC2022 Rust language implementation</td>
+<td>Albumen Kevin, Jun</td>
+<td>Passed / Passed</td>
+</tr>
+<tr>
+<td>Pritam Neog</td>
+<td>OAuth 2.0 based SSO integration in CloudStack</td>
+<td>Boris Stoyanov, Nicolas Vazquez</td>
+<td>Passed / Failed</td>
+</tr>
+<tr>
+<td>Shivani Chauhan</td>
+<td>Apache APISIX redesign</td>
+<td>Zhiyuan Ju, Ayush Das</td>
+<td>Passed / Failed</td>
+</tr>
+<tr>
+<td>Xin Zhao</td>
+<td>Apache IoTDB integration with gRPC</td>
+<td>hxd, Jialin Qiao</td>
+<td>Failed / Failed</td>
+</tr>
+<tr>
+<td>Yeming Gu</td>
+<td>GSoC Proposal for Apache APISIX Refactoring Dashboard plugin orchestration</td>
+<td>Zeping Bai, Zhiyuan Ju (+1)</td>
+<td>Passed / Failed</td>
+</tr>
+</tbody>
+</table>
+
+
+    </div>
+  </main>
+
+  <footer class="page-footer bg-secondary mt-4 pt-3">
+    <div class="container text-center text-md-left mb-3">
+      <div class="row">
+        <div class="col-md-6 mt-md-0 mt-3">
+          <h5 class="text-uppercase">Trademarks</h5>
+          <p>
+            Apache&reg;, the names of Apache projects, and the multicolor feather logo are
+            <a href="https://www.apache.org/foundation/marks/list/">registered trademarks or trademarks</a> of the Apache
+            Software Foundation in the United States and/or other countries.
+          </p>
+        </div>
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <div class="col-md-6 mb-md-0 mb-3">
+          <h5 class="text-uppercase">Website sources</h5>
+          <p>
+  This website is generated from the <a href="https://github.com/apache/comdev-site">comdev-site repository</a>
+  
+    <br/>
+    Source of this page:
+      <a href="https://github.com/apache/comdev-site/blob/main/source/gsoc/experiences/gsoc-2022.md" title="Source of this page">
+        gsoc/experiences/gsoc-2022.md
+      </a>
+  
+</p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright text-center py-3">
+      <em>Copyright &copy; 2024, <a href="https://www.apache.org/">the Apache Software Foundation</a>. Licensed under the
+      <a rel="license" href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></em>
+    </div>
+  </footer>
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>
