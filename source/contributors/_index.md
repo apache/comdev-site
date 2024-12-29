@@ -138,7 +138,7 @@ For more details see "[How it works][9]".  You can also make
 
 ## Questions and Feedback
 
-If you have other questions, the ComDev team he here to help.
+If you have other questions, the ComDev team is here to help.
 
 You can provide feedback and ask questions by subscribing to our mailing
 list: send an email to 
