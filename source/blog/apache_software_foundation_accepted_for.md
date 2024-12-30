@@ -1,4 +1,4 @@
----
+GRU
 title: The Apache Software Foundation Participating in Google Summer of Code 2012 as a Mentoring Organization
 date: 2012-03-21
 blog_post: true
