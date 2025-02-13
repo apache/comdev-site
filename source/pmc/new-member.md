@@ -18,6 +18,12 @@ If you haven't already, you need to subscribe to the PMC/Private mailing
 list. This is the list on which confidential PMC business is conducted,
 and is also the channel that the Board uses to contact the PMC.
 
+To subscribe to the private list, send blank email to the address
+private-subscribe@**PROJECT**.apache.org (replacing **PROJECT** with
+your specific project name). Alternately, you can visit the private list
+on [lists.apache.org](https://lists.apache.org) (you'll need to log in)
+and click the blue "Subscribe to list" button in the left column.
+
 See also [these tips for using the private mailing
 list](https://community.apache.org/pmc/responsibilities.html#conducting-business)
 
