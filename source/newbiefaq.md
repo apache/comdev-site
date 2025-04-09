@@ -36,7 +36,9 @@ the information they're looking for. Please ask questions or give us suggestions
 There are over 350 separate projects and communities hosted at the Apache Software Foundation. We have
 three classes, or types, of project (in terms of their community, not in terms of technology):
 
-   * [Top Level Projects](https://projects.apache.org) (TLPs): these are projects with healthy communities and active development; and supported software products you can find here: [listing by technologies](https://projects.apache.org/).
+   * [Top Level Projects](https://projects.apache.org) (TLPs): these are projects with healthy
+   communities and active development; and supported software products you can find here:
+   [listing by technologies](https://projects.apache.org/projects.html?category).
    * [Incubating Projects](https://incubator.apache.org): these are projects that have yet to build a sustainable community, but
 have active development and are moving towards graduating to become TLPs.
    * [Attic](https://attic.apache.org): these are end-of-life projects that are no longer receiving active
