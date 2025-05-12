@@ -141,35 +141,36 @@ date indicated.
 <a name="GSoC-StudentApplicationandSelection"></a>
 ## Student Application and Selection
 
-  - 2024-02-22: Potential GSoC contributors discuss application ideas with mentoring organizations
-  - 2024-03-18: GSoC contributor application period begins
-  - 2024-04-02: GSoC contributor application deadline
-  - 2024-04-15: Proposals to ASF projects must be reviewed roughly and have a potential mentor so that we know how many slots to request. Proposals that don't have a mentor at this point will be down-rated.
-  - 2024-04-22: Proposal scoring must be completed. Proposals without a score will be rejected, no exceptions.
-  - 2024-05-01: Accepted student proposals announced on the Google Summer of Code site.
+  - 2025-02-27: Potential GSoC contributors discuss application ideas with mentoring organizations
+  - 2025-03-24: GSoC contributor application period begins
+  - 2025-04-08: GSoC contributor application deadline
+  - 2025-04-22: Proposals to ASF projects must be reviewed roughly and have a potential mentor so that we know how 
+    many slots to request. Proposals that don't have a mentor at this point will be down-rated.
+  - 2025-04-25: Proposal scoring must be completed. Proposals without a score will be rejected, no exceptions.
+  - 2025-05-08: Accepted student proposals announced on the Google Summer of Code site.
 
-<a name="GSoC-GSocisunderway"></a>
+<a name="GSoC-GSoCisunderway"></a>
 ## GSoC is underway
 
-  - 2024-05-01: Community bonding start
-  - 2024-05-26: Community bonding end
-  - 2024-05-27: Coding start
-  - 2024-07-06: Mentors and GSoC contributors can begin submitting Phase 1 evaluations
-  - 2024-07-10: Phase 1 Evaluation deadline (standard coding period)
+  - 2025-05-08: Community bonding start
+  - 2025-06-01: Community bonding end
+  - 2025-06-02: Coding start
+  - 2025-07-14: Mentors and GSoC contributors can begin submitting Phase 1 evaluations
+  - 2025-07-18: Phase 1 Evaluation deadline (standard coding period)
   
 <a name="GSoC-Winddown"></a>
 ## Wind down
 
-  - 2024-08-17: GSoC contributors submit their final work product and their final mentor evaluation (standard coding period)
-  - 2024-08-24: ASF Mentors evaluations can be submitted
-  - 2024-08-31: ASF Mentors final evaluations deadline
-  - 2024-09-03: Initial results of Google Summer of Code 2023 announced
+  - 2025-09-01: GSoC contributors submit their final work product and their final mentor evaluation (standard coding 
+    period)
+  - 2025-09-01: ASF Mentors evaluations can be submitted
+  - 2025-09-08: ASF Mentors final evaluations deadline
 
 <a name="GSoC-Extended"></a>
 ## Extended coding period
-  - 2024-09-03: GSoC contributors with extended timelines continue coding
-  - 2024-11-04: Final date for all GSoC contributors to submit their final work product and final evaluation
-  - 2024-11-09: Final date for mentors to submit evaluations for GSoC contributor projects with extended deadlines
+  - 2025-11-09: GSoC contributors with extended timelines continue coding
+  - 2025-11-10: Final date for all GSoC contributors to submit their final work product and final evaluation
+  - 2025-11-17: Final date for mentors to submit evaluations for GSoC contributor projects with extended deadlines
 
 <a name="GSoC-Vouching"></a>
 # Organization Vouching
