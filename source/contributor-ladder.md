@@ -83,8 +83,16 @@ developer mailing list(s), in the view of the entire community. A PMC
 also has a private mailing list, which is for discussion of topics such
 as the addition of new committers and PMC members, and any other
 sensitive topics.
-
 [See more information about being a PMC member](/pmc/).
+
+### Terminology: PMC and PMC Member
+
+Note that the term _PMC_ refers to the _group_ that steers a project.
+
+The _people_ who are members of the group are called _PMC Members_.
+
+Referring to those people as _PMCs_ is incorrect and can be confusing,
+please avoid doing that.
 
 ## Foundation Member
 
