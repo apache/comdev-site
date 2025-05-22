@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+  <meta name="description" content="Apache Community Development"/>
+  <meta name="keywords" content="apache, apache community, community development, opensource"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta property="og:title" content="How Apache Projects Use Consensus" />
+<meta property="og:description" content="The Apache Software Foundation exists to provide legal and technological infrastructure for open source projects. By and large, the Foundation leaves the individual project communities to make their own choices about their development process. There are some constraints that result from the fundamental legal umbrella held by the Foundation. For the Foundation to protect contributors, projects must respect the rules regarding IP management and releases. A more interesting set of constraints, however, stems from the Foundation&rsquo;s commitment to Open Source software development as a communal process." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://community.apache.org/blog/how_apache_projects_use_consensus.html" /><meta property="og:image" content="https://community.apache.org/images/project-logos.webp"/><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2010-09-21T00:00:00+00:00" />
+<meta property="article:modified_time" content="2010-09-21T00:00:00+00:00" /><meta property="og:site_name" content="Apache Community Development" />
+
+
+  <title>Apache Community Development - How Apache Projects Use Consensus</title>
+  <link rel="shortcut icon" href="/images/favicon.ico">
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link href="/css/main.css" rel="stylesheet" media="screen">
+  <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <style type="text/css">
+      .footer {
+          text-align:center;
+          color:grey;
+          font-size:80%;
+          border-top: solid #ddd 1px;
+          margin-top:1em;
+      }
+      .navbar-brand img {
+          height: 50px;
+      }
+  </style>
+
+  
+<script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(['disableCookies']);
+   
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.apache.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '36']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+
+  
+
+</head>
+
+<body>
+  <header class="navbar navbar-expand-lg navbar-dark bg-bright fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+    <img src="/images/asf_logo.svg" alt="Apache Software Foundation">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="mainNavbar">
+    <div class="container"> 
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="homeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Home
+            </a>
+            <div class="dropdown-menu" aria-labelledby="homeDropdown">
+              <a class="dropdown-item" href="/">Homepage</a>
+              <a class="dropdown-item" href="/tags.html">Tags</a>
+              <a class="dropdown-item" href="/blog/">Blog</a>
+              <a class="dropdown-item" href="/tags/navigation.html">Navigation pages</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About
+          </a>
+          <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+            <a class="dropdown-item" href="/about/">What We Do</a>
+            <a class="dropdown-item" href="/newbiefaq.html">Frequently Asked Questions</a>
+            <a class="dropdown-item" href="/projectIndependence.html">Apache Project Independence</a>
+            <a class="dropdown-item" href="/apache-way/apache-project-maturity-model.html">Apache Project Maturity Model</a>
+            <a class="dropdown-item" href="/contactpoints.html">Contact Points Within the ASF</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html#2009-11-01">ComDev Original Board Resolution</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html">ComDev Board Reports</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/COMDEV">Community Development Jira</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">About Apache</a>
+            <a class="dropdown-item" href="https://www.apache.org/">The Apache Software Foundation</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/sponsorship">Sponsor Apache</a>
+            <a class="dropdown-item" href="http://diversity.apache.org/">Diversity & Inclusion</a>
+             <a class="dropdown-item" href="/contributors/asf-volunteers.html">Mentors &amp; Speakers</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/thanks">Thanks to our Sponsors</a>
+            <a class="dropdown-item" href="https://www.apache.org/licenses">License</a>
+            <a class="dropdown-item" href="https://www.apache.org/security">Security</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="contribDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Contributing
+          </a>
+          <div class="dropdown-menu" aria-labelledby="contribDropdown">
+            <a class="dropdown-item" href="/contributor-ladder.html">Contributor Ladder</a>
+            <a class="dropdown-item" href="/newcomers/">Getting Started at Apache</a>
+            <a class="dropdown-item" href="/contributors/">Contributing to projects</a>
+            <a class="dropdown-item" href="/committers/">Committers</a>
+            <a class="dropdown-item" href="/pmc/">PMC Members</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">Committer and PMC Information</a>
+            <a class="dropdown-item" href="https://www.apache.org/dev/">Technical Developer FAQs</a>
+            <a class="dropdown-item" href="/committers/decisionMaking.html">Decision Making</a>
+            <a class="dropdown-item" href="/committers/good-first-issues.html">Good First Issues</a>
+            <a class="dropdown-item" href="/pmc/community-growth.html">Recruiting New Contributors</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="commitDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">GSoC</a>
+          <div class="dropdown-menu" aria-labelledby="gsocDropdown">
+            <a class="dropdown-item" href="/gsoc/">Google Summer Of Code Information</a>
+            <a class="dropdown-item" href="/gsoc/mentee-ranking-process.html">Mentee Ranking Process</a>
+            <a class="dropdown-item" href="/gsoc/experiences/">Past GSoC Experiences</a>
+            <a class="dropdown-item" href="/gsoc/guide-to-being-a-mentor.html">Guide to being a Mentor</a>
+            <a class="dropdown-item" href="/gsoc/use-the-comdev-gsoc-issue-tracker-for-gsoc-tasks.html">Using ComDev's Jira for GSoC Ideas</a>
+            <a class="dropdown-item" href="/gsoc/gsoc-admin-tasks.html">Tasks of a GSoC Admin at the ASF</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/GSOC">GSoC Jira</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="eventDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Events
+          </a>
+          <div class="dropdown-menu" aria-labelledby="eventDropdown">
+            <a class="dropdown-item" href="https://apachecon.com/">Community Over Code - (formerly ApacheCon)</a>
+            <a class="dropdown-item" href="https://events.apache.org/">Other Apache-related Events</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/marks/events">Apache event branding policies</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">Conference Speakers</a>
+            <a class="dropdown-item" href="/speakers/">Speaker resources</a>
+            <a class="dropdown-item" href="/speakers/slides.html">Sample presentations</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="conversDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Working Groups
+          </a>
+          <div class="dropdown-menu" aria-labelledby="wgDropdown">
+            <a class="dropdown-item" href="/workinggroups/">Working Groups</a>
+            <a class="dropdown-item" href="https://github.com/apache/comdev-working-groups">Git repositories</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="conversDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Join the Conversation
+          </a>
+          <div class="dropdown-menu" aria-labelledby="conversDropdown">
+            <a class="dropdown-item" href="/blog/">Blog</a>
+            <a class="dropdown-item" href="https://www.facebook.com/ApacheSoftwareFoundation">Facebook</a>
+            <a class="dropdown-item" href="https://twitter.com/ApacheCommunity">Twitter</a>
+            <a class="dropdown-item" href="/lists.html">Mailing List</a>
+            <a class="dropdown-item" href="https://cwiki.apache.org/confluence/display/COMDEV/Apache+Local+Community+-+ALC">ALC: Apache Local Communities</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+    </div>
+  </header>
+
+  <main class="cd-main" id="content" role="main">
+    <div class="container">
+      <section id="content" class="row">
+        <div class="col-md-9">
+          
+        </div>
+        <div class="col-md-12"></div>
+      </section>
+      
+      <hr>
+       
+<ul class="tags-list">
+  
+  <li>
+    <a href="https://community.apache.org/tags/blog.html">blog</a>
+  </li>
+  <li>
+    <a href="https://community.apache.org/tags/collaboration.html">collaboration</a>
+  </li></ul>
+
+      
+	
+		<h2>How Apache Projects Use Consensus</h2>
+		<span class="published-info">Published on Tuesday, Sep 21, 2010
+
+    
+    by bimargulies
+    
+</span>
+	
+	<br><br>
+	<p>The Apache Software Foundation exists to provide legal and technological infrastructure for open source projects. By and
+large, the Foundation leaves the individual project communities to make their own choices about their development
+process. There are some constraints that result from the fundamental legal umbrella held by the Foundation. For the
+Foundation to protect contributors, projects must respect the rules regarding IP management and releases. A more
+interesting set of constraints, however, stems from the Foundation&rsquo;s commitment to Open Source software development as
+a <em>communal</em> process. Apache projects are <em>communities</em>, and some of the few pan-Foundation norms exist to ensure
+transparent, fair, collegial, decision-making processes.</p>
+<p>Roughly speaking, the two pillars of the Apache community model are mailing lists and consensus process. The mailing
+list policy is simple enough. Community decisions must be reached on the mailing list. This allows anyone in the
+community, whatever their location or time zone, to participate. Consensus is a more complex matter.</p>
+<p>At a first glance, consensus process is defined by the <strong>veto</strong>. When an important matter it put to a vote, even one '
+-1&rsquo; vote blocks progress. This seems like a recipe for gridlock. It isn&rsquo;t. It <strong>could</strong> be, if the consensus process
+consisted only of veto rights.</p>
+<p>Consensus wasn&rsquo;t invented, of course, at Apache. The most famous example of consensus process is the Quaker Meeting,
+though many organizations have adopted and adapted it since. In a consensus-based organization, you&rsquo;ll hardly ever hear
+someone use the term &lsquo;veto&rsquo;. Instead, you will hear the phrase, &lsquo;block consensus&rsquo;. And, from these two words, we can
+unpack the larger model of consensus.</p>
+<p>The goal of consensus is make decisions that are acceptable to everyone in the group. &lsquo;Acceptable,&rsquo; not &lsquo;ideal.&rsquo; For a
+consensus organization to function, all the participants have to be willing to balance their personal views with the
+good of the group. Anyone can block consensus &ndash; but blocking consensus is not a choice that anyone takes lightly.</p>
+<p>People being people, this is not a natural state of affairs. People disagree. A functional consensus process requires a
+group of people who are willing to spend as much time as it takes to reach complete agreement &ndash; where &lsquo;complete
+agreement&rsquo; is defined as &lsquo;acceptable to everyone.&rsquo; Consensus groups discuss a decision, at length, until someone thinks
+that the group has reached a consensus. At this point, the moderator asks, &lsquo;do we have a consensus&rsquo;?</p>
+<p>Silence, at this point, defines success.</p>
+<p>The process I just described was built, over many years, for face-to-face meetings. At Apache, project decisions aren&rsquo;t
+made at face-to-face meetings, but rather on mailing lists. Further, Apache projects are full of impatient programmers.
+Silence, then, is not a practical measurement. ASF projects use two adjustments to classic consensus process to adapt it
+to the Foundation&rsquo;s needs: the three-valued vote and &rsquo;lazy&rsquo; consensus.</p>
+<p>When an Apache Project Management Committee needs to make an important, binding, hard-to-reverse decision, such as
+declaring a release, it holds a vote. Members vote -1, 0, or 1.</p>
+<p>Any member of the committee can block consensus by voting &lsquo;-1&rsquo;.</p>
+<p>Without face-to-face meetings, Apache projects need a way to tell if, in fact, enough people are in favor of an decision
+to justify proceeding. Face-to-face, this might be left to the judgement of a moderator. At Apache, this is the job of
+the two other voting options: &lsquo;0&rsquo; and &lsquo;+1&rsquo;. A vote of &lsquo;+1&rsquo; is a positive endorsement of the proposal, while a vote of '
+0&rsquo; is an abstention. Different situations require different minimum numbers of +1 votes.</p>
+<p>If a three-valued vote is a more formal, electoral, sort of event than a traditional consensus process, the &rsquo;lazy&rsquo;
+consensus is just the opposite &ndash; a means of making a decision without any explicit decision-making process at all. Many
+projects use lazy consensus for routine, reversible, decisions. The group has an existing consensus on an overall
+approach, and individual members go ahead and make the day-to-day decisions without stopping to poll their peers. The
+most common application of lazy consensus is software development itself. In a project using lazy consensus, a committer
+will post a patch and notify the list. Absent any objection, she goes ahead and checks it in. Now, in some sense, this
+is just like classic consensus; silence is consent. Some projects take this a step further. Committers go ahead and
+commit routine changes. If someone objects, the original committer backs the change out. Some objections result in a
+discussion followed, perhaps, by removing the change, and others result in reverting followed by discussion. The net
+result is that committers can progress on the work at hand without having to wait around for approval.</p>
+<p>This process is not a magic cure for human nature. Apache projects suffer from disputes and dissension just like
+everyone else. The consensus rules, however, encourage collegial behavior (the goal is to convince everyone, not to
+assemble a majority block). And, in the worse case, they serve as a firewall. If an Apache community grinds to a halt
+due to an abject inability to reach consensus, it will be painfully obvious from the voting records, and the board can
+take note and act.</p>
+
+
+    </div>
+  </main>
+
+  <footer class="page-footer bg-secondary mt-4 pt-3">
+    <div class="container text-center text-md-left mb-3">
+      <div class="row">
+        <div class="col-md-6 mt-md-0 mt-3">
+          <h5 class="text-uppercase">Trademarks</h5>
+          <p>
+            Apache&reg;, the names of Apache projects, and the multicolor feather logo are
+            <a href="https://www.apache.org/foundation/marks/list/">registered trademarks or trademarks</a> of the Apache
+            Software Foundation in the United States and/or other countries.
+          </p>
+        </div>
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <div class="col-md-6 mb-md-0 mb-3">
+          <h5 class="text-uppercase">Website sources</h5>
+          <p>
+  This website is generated from the <a href="https://github.com/apache/comdev-site">comdev-site repository</a>
+  
+    <br/>
+    Source of this page:
+      <a href="https://github.com/apache/comdev-site/blob/main/source/blog/how_apache_projects_use_consensus.md" title="Source of this page">
+        blog/how_apache_projects_use_consensus.md
+      </a>
+  
+</p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright text-center py-3">
+      <em>Copyright &copy; 2025, <a href="https://www.apache.org/">the Apache Software Foundation</a>. Licensed under the
+      <a rel="license" href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></em>
+    </div>
+  </footer>
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>

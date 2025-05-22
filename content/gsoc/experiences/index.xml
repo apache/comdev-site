@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Apache in GSoC on ASF Community Development</title>
+    <link>https://community.apache.org/gsoc/experiences/</link>
+    <description>Recent content in Apache in GSoC on ASF Community Development</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://community.apache.org/gsoc/experiences/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apache in GSoC</title>
+      <link>https://community.apache.org/gsoc/experiences/gsoc-2022.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/gsoc/experiences/gsoc-2022.html</guid>
+      <description>This is a place for collecting information about GSoC activities each year for historical tracking. Your help filling it out would be appreciated.
+GSoC 2022 Details &amp;para; Students accepted: 37 Students who passed final: 33 Contributor Project Mentors Status Abhinav Sinha Apache Custos Baremetal Deployment SureshMarru, Isuru Ranawaka (+1) Passed / Passed Aishwarya Sinhasane Airavata Rich Client Based on ElectronJS SureshMarru, Eroma Abeysinghe (+1) Passed / Passed Aisulu Karimbaeva Runner Comparison / Capability Matrix revamp Pablo Estrada Passed / Passed Bhavesh Asanabada SMILES Data Models SureshMarru, Isuru Ranawaka (+1) Passed / Passed Chusheng Wu Apache skywalking: Add the webapp of Banyandb Hongtao Gao, Zhenxu Ke (+1) Passed / Passed conghuhu Thin SDK for Proxy Mesh Albumen Kevin, Jun Passed / Passed Cyl Apache Dubbo GSoC2022 Proxyless Mesh support Albumen Kevin, Jun Passed / Passed Daman Arora CloudStack Terraform Provider - Add datasources for the existing resources Boris Stoyanov, Pearl Dsilva (+1) Passed / Passed erdengk Apache ShenYu: Integration tests cover more scenarios EricPer, impactCn Passed / Passed erikiceliu Apache APISIX Java Plugin Runner Improvement Zeping Bai, Zhiyuan Ju (+1) Passed / Passed Everly Precia Suresh Solve unsupported Postgres sql about alter statement for ShardingSphere Parser Trista Pan, Zhengqiang Duan (+2) Passed / Passed Feng Han Multi-source data import and export extension for APISIX Dashboard Zeping Bai, Zhiyuan Ju (+1) Passed / Passed henrik Dubbo Metrics and Observability Albumen Kevin, Jun Passed / Passed Himanshu Acharya Apache Geode Data store support for Apache Gora(GORA-698) Madhawa Gunasekara, Furkan KAMACI Passed / Passed Himanshu Hansaria Airavata Jupyter Platform Services SureshMarru, Isuru Ranawaka (+1) Passed / Passed Huang Xin Apache ShardingSphere Develop an external tool to convert YAML configuration into DistSQL scripts Trista Pan, Longtao Jiang (+1) Passed / Passed Huang Yilong Task demo demonstrating the usage of Dubbo3 Albumen Kevin, Jun Passed / Passed jay li GSoC 2022: Dubo-go-boot project enriches other middleware adaptations zhaoyunxing, laurence Passed / Passed Kaifeng Liu EventMesh Admin Dashboard Xiaoyang Liu Passed / Passed Liangshumin Log Outlier Detection Zhenxu Ke, Superskyyy Passed / Passed lyle Proposal For Python API CLI Enhancement Wenjun Ruan, zhongjiajie Passed / Passed maverick_June Elaborating the new stream processing system utilizes serverless framework with fast scaling policy wonook, Jeongyoon Eo Passed / Passed Pengcheng Ma Apache EventMesh Support Knative as Eventing Infra Mike Xue Passed / Passed Qifan Yu ShenYu: logging-kafka plugin Yonglun Zhang, Liang Liu Passed / Passed QinHaiqi Proposal for Apache Shenyu about logging-elasticsearch plugin Yu Xiao, qicz Passed / Passed Shibo Chen Gracefully shuts down for dubbo-go-pixiu laurence Passed / Passed Shubham Bipin Kumar Dashboards to get quick statistics SureshMarru, Eroma Abeysinghe (+1) Passed / Passed Sumanth Sulur Rajkumar Commons Numbers Library for Complex Linear Algebra Gilles, Matt Juntunen (+1) Passed / Passed Thanoshan M.</description>
+    </item>
+    
+    <item>
+      <title>Apache in GSoC</title>
+      <link>https://community.apache.org/gsoc/experiences/gsoc-2023.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/gsoc/experiences/gsoc-2023.html</guid>
+      <description>This is a place for collecting information about GSoC activities each year for historical tracking. Your help filling it out would be appreciated.
+GSoC 2023 Details &amp;para; Students accepted: 26 Students who passed final: 25 Contributor Project Mentors Status Aibek [GSOC-242] Project proposal for Airflow Aizhamal, Pablo E Passed / Passed aroura Introduce New CRD ShardingSphereChaos tuichenchuxin, Maxwell Miao Passed / Passed chaminda-neluka GORA-708 Improve ArangoDB datastore and upgrade Hive and HBase dependencies Kevin Ratnasekera, Chanaka Passed / Passed Chaomei Yan GSoC Implement python client for RocketMQ 5.</description>
+    </item>
+    
+    <item>
+      <title>Apache in GSoC</title>
+      <link>https://community.apache.org/gsoc/experiences/gsoc-2024.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/gsoc/experiences/gsoc-2024.html</guid>
+      <description>This is a place for collecting information about GSoC activities each year for historical tracking. Your help filling it out would be appreciated.
+GSoC 2024 Details &amp;para; Students accepted: 22 Students who passed final: 20 Contributor Project Mentors Status George Miao OpenDAL FTP Server (oftp) Xuanwo, Manjusaka Passed / Passed ButterBright Optimization of the Query Subsystem in BanyanDB Hongtao Gao, Jiajing LU Passed / Passed Chales Xu Proposal for Unified IDL Albumen Kevin, Jun (+1) Passed / Passed Ganning Xu Building Rich User Interfaces for Airavata Services SureshMarru Passed / Passed Ho 229 Apache OpenDAL Ofs via CloudFilter Project Proposal Xuanwo, Jun Ouyang Passed / Passed hqbfz Optimizing Lock Mechanisms in Apache RocketMQ RongtongJin, ShannonDing Passed / Passed Huy T Support for Aggregate Engines in Apache UIMA CPP DrDub Passed / Passed itsayushpandey Build out Beam Use Cases - Implement semantic search pipelines Danny McCormick Passed / Passed melani-chamoda [GORA-709] Upgrade Hadoop dependencies in Apache Gora Kevin Ratnasekera Passed / Passed Reeba Qureshi Build out Beam Yaml features Danny McCormick Passed / Passed resyfer mnemofs: An Apache NuttX NAND Flash Filesystem Alan, Xiang Xiao Passed / Passed Rushabh Gala Apache NuttX Apps and Rust Integration Lup Yuen Lee, Xiang Xiao Passed / Passed Shivang Mishra Implement Jupyter Extension and Desktop App for Airavata MFT SureshMarru Passed / Passed Sylvie Wu Apache SkyWalking - BanyanDB Cluster Monitoring Hongtao Gao, Jiajing LU Passed / Passed Tommy(Runze) Li Runze&amp;rsquo;s Proposal for [SS] Scan and create issues for classes that have not implemented unit tests Nianjun Sun Passed / Passed WangYibo Traffic Management for Dubbo-go and Dubbo-k8s, feature enhancement and demonstration Albumen Kevin, Jun (+1) Passed / Passed Zikang Chen Dubbo - Python integration &amp;amp; AI Traffic Management Albumen Kevin, earthchen Passed / Passed ZiweiYuan RocketMQ Dashboard Supports RocketMQ 5.</description>
+    </item>
+    
+  </channel>
+</rss>

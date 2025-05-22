@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+  <meta name="description" content="Apache Community Development"/>
+  <meta name="keywords" content="apache, apache community, community development, opensource"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta property="og:title" content="Adding Committers" />
+<meta property="og:description" content="Identifying potential new committers, calling a vote for their recognition as a committer and processing the relevant documents are tasks to which the whole community can contribute.
+Each project has a different approach to managing new committers. This page describes a common process found in many Apache projects. It also provides draft templates for the various communications that are necessary.
+Some of the PMCs automatically make committers PMC members. The templates below have conditional [if] clauses for that." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://community.apache.org/pmc/adding-committers.html" /><meta property="og:image" content="https://community.apache.org/images/project-logos.webp"/><meta property="article:section" content="pmc" />
+
+<meta property="og:site_name" content="Apache Community Development" />
+
+
+  <title>Apache Community Development - Adding Committers</title>
+  <link rel="shortcut icon" href="/images/favicon.ico">
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link href="/css/main.css" rel="stylesheet" media="screen">
+  <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <style type="text/css">
+      .footer {
+          text-align:center;
+          color:grey;
+          font-size:80%;
+          border-top: solid #ddd 1px;
+          margin-top:1em;
+      }
+      .navbar-brand img {
+          height: 50px;
+      }
+  </style>
+
+  
+<script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(['disableCookies']);
+   
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.apache.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '36']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+
+  
+
+</head>
+
+<body>
+  <header class="navbar navbar-expand-lg navbar-dark bg-bright fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+    <img src="/images/asf_logo.svg" alt="Apache Software Foundation">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="mainNavbar">
+    <div class="container"> 
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="homeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Home
+            </a>
+            <div class="dropdown-menu" aria-labelledby="homeDropdown">
+              <a class="dropdown-item" href="/">Homepage</a>
+              <a class="dropdown-item" href="/tags.html">Tags</a>
+              <a class="dropdown-item" href="/blog/">Blog</a>
+              <a class="dropdown-item" href="/tags/navigation.html">Navigation pages</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About
+          </a>
+          <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+            <a class="dropdown-item" href="/about/">What We Do</a>
+            <a class="dropdown-item" href="/newbiefaq.html">Frequently Asked Questions</a>
+            <a class="dropdown-item" href="/projectIndependence.html">Apache Project Independence</a>
+            <a class="dropdown-item" href="/apache-way/apache-project-maturity-model.html">Apache Project Maturity Model</a>
+            <a class="dropdown-item" href="/contactpoints.html">Contact Points Within the ASF</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html#2009-11-01">ComDev Original Board Resolution</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html">ComDev Board Reports</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/COMDEV">Community Development Jira</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">About Apache</a>
+            <a class="dropdown-item" href="https://www.apache.org/">The Apache Software Foundation</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/sponsorship">Sponsor Apache</a>
+            <a class="dropdown-item" href="http://diversity.apache.org/">Diversity & Inclusion</a>
+             <a class="dropdown-item" href="/contributors/asf-volunteers.html">Mentors &amp; Speakers</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/thanks">Thanks to our Sponsors</a>
+            <a class="dropdown-item" href="https://www.apache.org/licenses">License</a>
+            <a class="dropdown-item" href="https://www.apache.org/security">Security</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="contribDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Contributing
+          </a>
+          <div class="dropdown-menu" aria-labelledby="contribDropdown">
+            <a class="dropdown-item" href="/contributor-ladder.html">Contributor Ladder</a>
+            <a class="dropdown-item" href="/newcomers/">Getting Started at Apache</a>
+            <a class="dropdown-item" href="/contributors/">Contributing to projects</a>
+            <a class="dropdown-item" href="/committers/">Committers</a>
+            <a class="dropdown-item" href="/pmc/">PMC Members</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">Committer and PMC Information</a>
+            <a class="dropdown-item" href="https://www.apache.org/dev/">Technical Developer FAQs</a>
+            <a class="dropdown-item" href="/committers/decisionMaking.html">Decision Making</a>
+            <a class="dropdown-item" href="/committers/good-first-issues.html">Good First Issues</a>
+            <a class="dropdown-item" href="/pmc/community-growth.html">Recruiting New Contributors</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="commitDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">GSoC</a>
+          <div class="dropdown-menu" aria-labelledby="gsocDropdown">
+            <a class="dropdown-item" href="/gsoc/">Google Summer Of Code Information</a>
+            <a class="dropdown-item" href="/gsoc/mentee-ranking-process.html">Mentee Ranking Process</a>
+            <a class="dropdown-item" href="/gsoc/experiences/">Past GSoC Experiences</a>
+            <a class="dropdown-item" href="/gsoc/guide-to-being-a-mentor.html">Guide to being a Mentor</a>
+            <a class="dropdown-item" href="/gsoc/use-the-comdev-gsoc-issue-tracker-for-gsoc-tasks.html">Using ComDev's Jira for GSoC Ideas</a>
+            <a class="dropdown-item" href="/gsoc/gsoc-admin-tasks.html">Tasks of a GSoC Admin at the ASF</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/GSOC">GSoC Jira</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="eventDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Events
+          </a>
+          <div class="dropdown-menu" aria-labelledby="eventDropdown">
+            <a class="dropdown-item" href="https://apachecon.com/">Community Over Code - (formerly ApacheCon)</a>
+            <a class="dropdown-item" href="https://events.apache.org/">Other Apache-related Events</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/marks/events">Apache event branding policies</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">Conference Speakers</a>
+            <a class="dropdown-item" href="/speakers/">Speaker resources</a>
+            <a class="dropdown-item" href="/speakers/slides.html">Sample presentations</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="conversDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Working Groups
+          </a>
+          <div class="dropdown-menu" aria-labelledby="wgDropdown">
+            <a class="dropdown-item" href="/workinggroups/">Working Groups</a>
+            <a class="dropdown-item" href="https://github.com/apache/comdev-working-groups">Git repositories</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="conversDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Join the Conversation
+          </a>
+          <div class="dropdown-menu" aria-labelledby="conversDropdown">
+            <a class="dropdown-item" href="/blog/">Blog</a>
+            <a class="dropdown-item" href="https://www.facebook.com/ApacheSoftwareFoundation">Facebook</a>
+            <a class="dropdown-item" href="https://twitter.com/ApacheCommunity">Twitter</a>
+            <a class="dropdown-item" href="/lists.html">Mailing List</a>
+            <a class="dropdown-item" href="https://cwiki.apache.org/confluence/display/COMDEV/Apache+Local+Community+-+ALC">ALC: Apache Local Communities</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+    </div>
+  </header>
+
+  <main class="cd-main" id="content" role="main">
+    <div class="container">
+      <section id="content" class="row">
+        <div class="col-md-9">
+          
+        </div>
+        <div class="col-md-12"></div>
+      </section>
+      
+      <hr>
+       
+<ul class="tags-list">
+  
+  <li>
+    <a href="https://community.apache.org/tags/pmc.html">pmc</a>
+  </li>
+  <li>
+    <a href="https://community.apache.org/tags/committers.html">committers</a>
+  </li></ul>
+
+      
+	
+	<br><br>
+	<p>Identifying potential new committers, calling a vote for their recognition
+as a committer and processing the relevant documents are tasks to which
+the whole community can contribute.</p>
+<p>Each project has a different approach to managing new committers. This page
+describes a common process found in many Apache projects. It also provides
+draft templates for the various communications that are necessary.</p>
+<p>Some of the PMCs automatically make committers PMC members. The templates below
+have conditional <code>[if]</code> clauses for that.</p>
+<p>If the PMC has separate process for approving PMC members, see
+<a href="/pmc/adding-pmc-members.html">new PMC member</a>.<br>
+The <a href="https://community.apache.org/contributor-ladder.html">Contributor Ladder</a> helps explain different roles.</p>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#tldr---inviting-a-new-committer">TL;DR - Inviting a new Committer</a></li>
+    <li><a href="#guidelines-for-assessing-new-candidates-for-committership">Guidelines for assessing new candidates for committership</a>
+      <ul>
+        <li><a href="#ability-to-work-cooperatively-with-peers">Ability to work cooperatively with peers.</a></li>
+        <li><a href="#ability-to-be-a-mentor">Ability to be a mentor.</a></li>
+        <li><a href="#community">Community</a></li>
+        <li><a href="#commitment">Commitment</a></li>
+        <li><a href="#personal-skillability">Personal skill/ability</a></li>
+      </ul>
+    </li>
+    <li><a href="#new-committer-process">New Committer Process</a>
+      <ul>
+        <li><a href="#discussion">Discussion</a></li>
+        <li><a href="#vote">Vote</a></li>
+        <li><a href="#announcing-results">Announcing results</a></li>
+        <li><a href="#committer-account-creation">Committer Account Creation</a></li>
+      </ul>
+    </li>
+    <li><a href="#email-templates">Email Templates</a></li>
+  </ul>
+</nav>
+<p><a name="NewCommitter-Summary"></a></p>
+<h2 id="tldr---inviting-a-new-committer">TL;DR - Inviting a new Committer <a class="headerlink" title="Permalink" href="#tldr---inviting-a-new-committer">&para;</a></h2>
+<ol>
+<li>Discuss the proposed committer (and optionally PMC member). (Use
+the <a href="/templates/committer-discuss.txt">committer discuss template</a>.)</li>
+<li>If the discussion seems to be going positively,
+call a vote. (Use the <a href="/templates/committer-vote.txt">committer vote template</a> for
+committer, the <a href="/templates/committer-pmc-vote.txt">committer + PMC member vote template</a> for
+committer and PMC member.)</li>
+<li>Close the vote. (Use the <a href="/templates/committer-results.txt">committer vote results template</a>
+for a committer vote, or the <a href="/templates/committer-pmc-results.txt">committer + PMC member vote results
+template</a> for a committer + PMC member vote.)</li>
+<li>If the result is positive, invite the new committer. (Use the
+<a href="/templates/committer-invite.txt">committer invite template</a>.)</li>
+</ol>
+<p>If they accept, then:</p>
+<ol>
+<li>If they already have an Apache id, grant appropriate commit privileges.
+Use the Whimsy tool to update the roster via <a href="https://whimsy.apache.org/roster/committee/">Comitee Roster</a> or
+<a href="https://whimsy.apache.org/roster/ppmc/">PPMC Roster</a></li>
+<li>If they have already filed an ICLA, request creation of the committer account.
+If they need to change anything in a previously filed ICLA, wait until the new ICLA is filed,
+then request the account.
+<ol>
+<li>Wait until root says it is done</li>
+<li>PMC Chair updates LDAP group membership which enables svn, gitbox and other access.
+If the committer uses GitHub, let them know that they are responsible for linking
+it to their ASF account.</li>
+<li>Add committer to the appropriate access groups for any services
+that your project uses, which are not tied to ASF LDAP.</li>
+</ol>
+</li>
+<li>Notify the committer of completion. (Use the <a href="/templates/committer-welcome.txt">committer welcome
+template</a></li>
+<li>If committer is also to be a PMC member, the PMC Chair or other PMC
+members must <a href="https://whimsy.apache.org/roster/committee/">update the PMC roster</a>
+See <a href="https://www.apache.org/dev/pmc.html#newpmcmember">new PMC member</a> for more detail.</li>
+<li>Announce the new committer. (Use the <a href="/templates/committer-announce.txt">new committer announcement
+template</a>.</li>
+</ol>
+<p><a name="NewCommitter-Guidelinesforassessingnewcandidatesforcommittership"></a></p>
+<h2 id="guidelines-for-assessing-new-candidates-for-committership">Guidelines for assessing new candidates for committership <a class="headerlink" title="Permalink" href="#guidelines-for-assessing-new-candidates-for-committership">&para;</a></h2>
+<p>Each project must decide what is the correct measure for inviting a new
+committer to their project. There are, however, several things that we
+encourage you to consider.</p>
+<p>Any PMC member can (and should!) nominate project contributors for a
+committer vote. Don&rsquo;t assume that the PMC chair, or some senior project
+member, will do this. Watch the contributors, and nominate promising
+participants.</p>
+<p>Remember that we do all of our development in revision control.
+Errors are reversible learning opportunities. Thus, inviting someone
+&ldquo;too early&rdquo; has very little risk associated with it. On the other hand,
+inviting someone too late has the very real risk that they&rsquo;ll get
+frustrated and leave, and you&rsquo;ll have missed that opportunity forever.
+Setting the bar too high has been the eventual death of many projects.</p>
+<p>Think of adding committers as an investment in the future of your
+project, rather than as a reward for good behavior. Committers whom you
+add today will be the backbone of your project tomorrow, or five years
+from now. New committers are the only way to ensure the long-term
+sustainability of your project. Look for contributors who seem to have
+new ways of thinking.</p>
+<p>Think of a committer as someone who is committed to the project, rather
+than just someone who writes code. Contributions in other areas, such as
+design, end-user support, event management, documentation, or project
+promotion, should also be welcomed into the project by inviting them as
+committers, and, eventually, as PMC members.</p>
+<p>Finally, if you have specific requirements for committers (such as a
+period of time, or number of contributions) we encourage you to document
+that on your website. People like to know what their &ldquo;career path&rdquo; is in
+a project, rather than feeling that it is merely at the whim of a
+secret committee. If you see someone who seems to be on the path, point
+them to this document, so that they know what to expect, and what they
+can do to become a better contributor. See also <a href="https://community.apache.org/contributors/becomingacommitter.html">Becoming A
+Committer</a>
+for general advice you might offer.</p>
+<p>The following are some points to consider when assessing a candidate&rsquo;s qualifications for committership.</p>
+<p><a name="NewCommitter-Abilitytoworkco-operativelywithpeers."></a></p>
+<h3 id="ability-to-work-cooperatively-with-peers">Ability to work cooperatively with peers. <a class="headerlink" title="Permalink" href="#ability-to-work-cooperatively-with-peers">&para;</a></h3>
+<p>How do we evaluate?</p>
+<ul>
+<li>By the interactions they have through email.</li>
+<li>By how they respond to criticism.</li>
+<li>By how they participate in the group decision-making process.</li>
+</ul>
+<p><a name="NewCommitter-Abilitytobeamentor."></a></p>
+<h3 id="ability-to-be-a-mentor">Ability to be a mentor. <a class="headerlink" title="Permalink" href="#ability-to-be-a-mentor">&para;</a></h3>
+<p>How do we evaluate?</p>
+<ul>
+<li>By the interactions they have through email.</li>
+<li>By how clear they are and how willing they are to identify or even create appropriate background
+materials.</li>
+</ul>
+<p><a name="NewCommitter-Community"></a></p>
+<h3 id="community">Community <a class="headerlink" title="Permalink" href="#community">&para;</a></h3>
+<p>How do we evaluate?</p>
+<ul>
+<li>By the interactions they have through email.</li>
+<li>Do they help to answer questions raised on the mailing list; do they show a helpful
+attitude and respect for other people&rsquo;s ideas?</li>
+</ul>
+<p><a name="NewCommitter-Committment"></a></p>
+<h3 id="commitment">Commitment <a class="headerlink" title="Permalink" href="#commitment">&para;</a></h3>
+<p>How do we evaluate?</p>
+<ul>
+<li>By time already given to the project.</li>
+<li>By how well they stick with the process through tough issues.</li>
+<li>By how they help on not-so-fun tasks.</li>
+</ul>
+<p><a name="NewCommitter-Personalskill/ability"></a></p>
+<h3 id="personal-skillability">Personal skill/ability <a class="headerlink" title="Permalink" href="#personal-skillability">&para;</a></h3>
+<p>How do we evaluate?</p>
+<ul>
+<li>A solid general understanding of the project.</li>
+<li>Quality of discussion in email.</li>
+<li>Whether their patches (where applicable) are easy to apply with only a cursory review.</li>
+</ul>
+<p><a name="NewCommitter-NewCommitterProcess"></a></p>
+<h2 id="new-committer-process">New Committer Process <a class="headerlink" title="Permalink" href="#new-committer-process">&para;</a></h2>
+<p>This section describes a typical Apache project&rsquo;s process for handling the
+vote to add a new committer. Templates mentioned in the process appear
+later in this document.</p>
+<p><a name="NewCommitter-Discussion"></a></p>
+<h3 id="discussion">Discussion <a class="headerlink" title="Permalink" href="#discussion">&para;</a></h3>
+<p>We do the discussion and vote on the <code>private@</code> mailing list to enable a frank
+discussion. Any PMC member may propose a potential committer or PMC
+member. This is <strong>not</strong> the sole responsibility or right of the PMC
+chair.</p>
+<p>You can use <a href="/templates/committer-discuss.txt">the committer discussion template</a>
+to start the discussion</p>
+<p>We invite people to join as committers/PMC members, not GitHub ids. It is
+fine to refer to the candidate&rsquo;s GitHub id for context, but the person should
+be referred to by their name. It is not necessary to have their full legal
+name (that will be kept private) but it is important to use their name, as
+they refer to themselves in email. If a person is known only by their GitHub
+id, it is ok to ask them for their real name prior to holding a VOTE.</p>
+<p>We need to be sure that they are committed people with whom we can work.
+They will be our peers. We will have already observed that they are
+committed to the project and graceful toward users and other developers.</p>
+<p>Don&rsquo;t wait too long before proposing and don&rsquo;t be too hasty. There is a
+trade-off and something about timeliness. A point is reached where it
+becomes obvious that we should invite them. This encourages them and keeps
+them enthusiastic. If we leave it too long, then we risk them becoming
+disillusioned.</p>
+<p>On the <code>private@</code> list we can each say exactly what we feel about each person,
+with no holds barred. Keep the discussion concise. The praise part can
+be done later in public. Keep in mind, however, that if the member becomes
+a PMC member later, they will have access to this discussion.</p>
+<h3 id="vote">Vote <a class="headerlink" title="Permalink" href="#vote">&para;</a></h3>
+<p>If the proposed candidate seems to be received positively by a majority
+of those responding, it&rsquo;s time to <a href="/templates/committer-vote.txt">start a vote</a>.</p>
+<p>In some projects, new committers are automatically also made PMC members.
+If this is the case in your project, use the <a href="committer-pmc-vote.txt">committer + PMC member vote
+template</a> instead.</p>
+<p>Start a separate [VOTE] thread for each new person. This makes it much easier
+to review the email archives.</p>
+<p>Let the Vote thread run for one week.</p>
+<p>A positive result is achieved when there are at least 3 +1 votes and no vetoes,
+as per the <a href="https://apache.org/foundation/voting">ASF voting process
+document</a>.</p>
+<h3 id="announcing-results">Announcing results <a class="headerlink" title="Permalink" href="#announcing-results">&para;</a></h3>
+<p>After a positive result, record the result on the PMC list with a <code>[RESULT][VOTE]</code> subject
+and then invite the candidate, using the <a href="/templates/committer-results.txt">committer vote results template</a>
+for a new committer, or the <a href="/templates/committer-pmc-results.txt">committer + PMC member vote results template</a>
+for a committer and PMC member.</p>
+<p>We give candidates a chance to decline committership
+in private. They can post a reply to the PMC mailing list.</p>
+<p>After we reach a decision on the <code>private@</code> list, and after the steps above, we
+<a href="template/committer-announce.txt">announce the new committer on the <code>dev</code> list</a></p>
+<p>Alternately, use the <a href="/templates/committer-pmc-announce.txt">committer + PMC member announce template</a> for new
+committer + PMC member.</p>
+<p>You can use the <a href="/templates/committer-welcome.txt">new committer welcome template</a> to welcome
+the new committer to your project community. You are, however,
+encouraged to create your own version of this template, customized to
+your particular project community.</p>
+<p>Other notes about the process are available on the main
+<a href="https://www.apache.org/dev/pmc.html#newcommitter">Apache site</a>.</p>
+<h3 id="committer-account-creation">Committer Account Creation <a class="headerlink" title="Permalink" href="#committer-account-creation">&para;</a></h3>
+<p>Please see the <a href="https://www.apache.org/dev/pmc.html#newcommitter">account creation instructions</a>.</p>
+<p>In summary:</p>
+<p>If the ICLA identifies the project and a valid Apache ID, and the
+<code>[RESULT][VOTE]</code> message has been posted to the PMC private list,
+the account creation request is made by the
+secretary or assistant secretary who files the ICLA.</p>
+<p>Otherwise, the new account request should be made by the
+PMC Chair (or any <a href="https://www.apache.org/foundation/glossary.html#Member">ASF Member</a>
+if the chair is unavailable).</p>
+<p>The PMC chair needs to use the <a href="https://id.apache.org/acreq/pmc-chairs/">ASF New Account Request</a> form to
+send a new account request. Members may use <a href="https://id.apache.org/acreq/members/">ASF New Account Request</a> page.</p>
+<p>Please supply the <a href="https://lists.apache.org/">mail archives</a> URL as
+proof of the vote results.</p>
+<p><a name="NewCommitter-EmailTemplates"></a></p>
+<h2 id="email-templates">Email Templates <a class="headerlink" title="Permalink" href="#email-templates">&para;</a></h2>
+<p>The following templates are recommended ways to phrase your email
+communications around inviting a new committer, to ensure that everyone
+understands your intent.</p>
+<ul>
+<li><a href="/templates/committer-discuss.txt">Committer discussion template</a></li>
+<li><a href="/templates/committer-vote.txt">Committer vote template</a></li>
+<li><a href="/templates/committer-pmc-vote.txt">Committer + PMC vote template</a></li>
+<li><a href="/templates/committer-results.txt">Committer vote results template</a></li>
+<li><a href="/templates/committer-pmc-results.txt">Committer + PMC vote results template</a></li>
+<li><a href="/templates/committer-invite.txt">Committer invite template</a></li>
+<li><a href="/templates/committer-announce.txt">New committer announcement</a></li>
+<li><a href="/templates/committer-pmc-announce.txt">New committer and PMC member announcement</a></li>
+<li><a href="/templates/committer-welcome.txt">Welcome the new committer to your community</a></li>
+</ul>
+
+
+    </div>
+  </main>
+
+  <footer class="page-footer bg-secondary mt-4 pt-3">
+    <div class="container text-center text-md-left mb-3">
+      <div class="row">
+        <div class="col-md-6 mt-md-0 mt-3">
+          <h5 class="text-uppercase">Trademarks</h5>
+          <p>
+            Apache&reg;, the names of Apache projects, and the multicolor feather logo are
+            <a href="https://www.apache.org/foundation/marks/list/">registered trademarks or trademarks</a> of the Apache
+            Software Foundation in the United States and/or other countries.
+          </p>
+        </div>
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <div class="col-md-6 mb-md-0 mb-3">
+          <h5 class="text-uppercase">Website sources</h5>
+          <p>
+  This website is generated from the <a href="https://github.com/apache/comdev-site">comdev-site repository</a>
+  
+    <br/>
+    Source of this page:
+      <a href="https://github.com/apache/comdev-site/blob/main/source/pmc/adding-committers.md" title="Source of this page">
+        pmc/adding-committers.md
+      </a>
+  
+</p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright text-center py-3">
+      <em>Copyright &copy; 2025, <a href="https://www.apache.org/">the Apache Software Foundation</a>. Licensed under the
+      <a rel="license" href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></em>
+    </div>
+  </footer>
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>
