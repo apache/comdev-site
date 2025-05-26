@@ -36,7 +36,7 @@ the [ASF's gitpubsub mechanism](https://blogs.apache.org/infra/entry/git_based_w
 Branches named `preview/<name>` are staged automatically, a branch named `preview/0421b` for example
 is staged at https://community-0421b.staged.apache.org/ .
 
-More details about the publication process can be found in the [ASF Documentation about Project sites](https://infra.apache.org/project-site.html). If for some reason this process fails, you can use [the self-service page from ASF Infra](https://selfserve.apache.org/) to trigger a resync of the git repo.
+More details about the publication process can be found in the [ASF Documentation about Project sites](https://infra.apache.org/project-site.html). If for some reason this process fails, try making a dummy commit.
 
 ## Powered by Hugo!
 
