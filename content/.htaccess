@@ -33,4 +33,3 @@ Redirect /working-groups/ /workinggroups/
 
 RedirectMatch ^/newpmcmember(\.html)? /pmc/adding-pmc-members.html
 RedirectMatch ^/newcommitter(\.html)? /pmc/adding-committers.html
-
