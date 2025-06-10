@@ -33,8 +33,12 @@ There's currently (April 2020) a lag of about ten minutes for the corresponding 
 For the `main` branch, the generated content is pushed to the `asf-site` branch, and
 the [ASF's gitpubsub mechanism](https://blogs.apache.org/infra/entry/git_based_websites_available) then synchronizes that content to the live [community.apache.org](https://community.apache.org/) website, usually within a few seconds.
 
-Branches named `preview/<name>` are staged automatically, a branch named `preview/0421b` for example
-is staged at https://community-0421b.staged.apache.org/ .
+### Preview branches
+Branches named `preview/<name>` are staged automatically, a branch named 
+[preview/pmc-members](https://github.com/apache/comdev-site/tree/preview/pmc-members)
+for example gets staged at
+https://comdev-pmc-members.staged.apache.org/
+as per [INFRA-26845](https://issues.apache.org/jira/browse/INFRA-26845)
 
 More details about the publication process can be found in the [ASF Documentation about Project sites](https://infra.apache.org/project-site.html). If for some reason this process fails, try making a dummy commit.
 
