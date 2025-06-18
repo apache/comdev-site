@@ -11,6 +11,12 @@ collecting information about GSoC activities each year for historical tracking. 
 was started in 2012 so is missing plenty of detail in the early years. Your help 
 filling it out would be appreciated.
 
+# [2025 Overview](/gsoc/experiences/gsoc-2025.html)
+
+* Students accepted: 27
+* Students who passed midterm: -
+* Students who passed final: -
+
 # [2024 Overview](/gsoc/experiences/gsoc-2024.html)
 
 * Students accepted: 22
