@@ -51,12 +51,6 @@ under the License.
         <browse rdf:resource="https://svn.apache.org/viewvc/comdev/site/reporter.apache.org/"/>
       </SVNRepository>
     </repository>
-    <repository>
-      <SVNRepository>
-        <location rdf:resource="https://svn.apache.org/repos/asf/comdev/helpwanted.apache.org/"/>
-        <browse rdf:resource="https://svn.apache.org/viewvc/comdev/site/helpwanted.apache.org/"/>
-      </SVNRepository>
-    </repository>
     <maintainer>
       <foaf:Person>
         <foaf:name>Apache Community Development PMC</foaf:name>
