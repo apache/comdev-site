@@ -11,7 +11,7 @@ While typically a senior, respected community leader, the Chair is
 voting rights and authority as other PMC members, who has accepted 
 additional secretarial and spokesperson responsibilities.
 
-The Chair should familiarize themselves with the [assigned
+The Chair must familiarize themselves with the [assigned
 duties](https://www.apache.org/dev/pmc.html#chair) of the role.
 
 {{% toc %}}
