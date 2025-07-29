@@ -203,9 +203,12 @@ document](https://apache.org/foundation/voting).
 ### Announcing results
 
 After a positive result, record the result on the PMC list with a `[RESULT][VOTE]` subject
-and then invite the candidate, using the [committer vote results template](/templates/committer-results.txt) 
-for a new committer, or the [committer + PMC member vote results template](/templates/committer-pmc-results.txt) 
+using either the [committer vote results template](/templates/committer-results.txt), or the
+or the [committer + PMC member vote results template](/templates/committer-pmc-results.txt) 
 for a committer and PMC member.
+
+Next, invite the candidate using the [committer invitation template](/templates/committer-invite.txt) 
+for a new committer.
 
 We give candidates a chance to decline committership 
 in private. They can post a reply to the PMC mailing list.
