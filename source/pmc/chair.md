@@ -19,7 +19,7 @@ duties](https://www.apache.org/dev/pmc.html#chair) of the role.
 ## Secretarial duties
 
 The Chair is responsible for completing the necessary processes when
-new committers and PMC members are added.
+the PMC adds committers and members.
 
 See the [process for adding new
 committers](https://www.apache.org/dev/pmc.html#committer-management),
@@ -38,7 +38,7 @@ The Chair may need to moderate discussions to ensure the community
 maintains appropriate conduct and avoids divisive conversations.
 
 Since the Chair has been selected as a respected community member, they
-should confidently establish community standards and enforce
+should model and encourage established community standards and enforce
 expectations for appropriate behavior on official communication
 channels.
 
@@ -54,7 +54,7 @@ Inform Chair candidates about the workload to ensure they have
 sufficient availability and understand the role's requirements.
 
 The outgoing Chair should mentor the incoming Chair, familiarizing them
-with duties to ensure a successful transition.
+with Chair's duties to ensure a successful transition.
 
 ## See also:
 

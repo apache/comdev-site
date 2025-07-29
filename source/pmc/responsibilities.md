@@ -11,12 +11,12 @@ new members, and approving releases.
 
 ## Conducting Business
 
-The PMC must conduct all business on the public developers mailing list,
+The PMC must conduct all business on the public developers' mailing list,
 maintaining full community visibility.
 
 Every PMC has a private@ list reserved for confidential matters such as
 discussing proposed committers, potential PMC members, or security issues.
-Do not use the private list for features, roadmap discussions, or other
+Do not use the private list to discuss features, roadmap discussions, or other
 technical decisions, as this cuts the community out of the process.
 
 The Board of Directors occasionally sends comments or queries, often
@@ -77,7 +77,7 @@ Code of Conduct](https://apache.org/foundation/policies/conduct).
 
 ## Adding Community Members
 
-The PMC ensures project sustainability by regularly [adding new
+The PMC ensures project sustainability by regularly [adding
 committers](/pmc/adding-committers.html) and [new PMC
 members](/pmc/adding-pmc-members.html). This responsibility extends beyond
 the chair -- every PMC member should regularly evaluate project participants

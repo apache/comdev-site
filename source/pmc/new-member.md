@@ -7,7 +7,7 @@ Congratulations on your invitation to join a project PMC! Here's what
 you should do next.
 
 Joining an ASF Project Management Committee represents more than
-recognition of your contributions -- it's a new level of responsibility
+recognition of your contributions. You take on a new level of responsibility
 for the project's health and sustainability. The Board of Directors
 relies on you to provide oversight of the project code and community.
 
@@ -28,8 +28,8 @@ list](https://community.apache.org/pmc/responsibilities.html#conducting-business
 
 Join the developer and user mailing lists if you're not already
 subscribed. These lists handle the project's day-to-day business and
-provide opportunities to interact with users, understanding their needs
-and challenges.
+provide opportunities to interact with users, which will help you
+understand their needs and challenges.
 
 Introduce yourself on the dev list if you're not well known there.
 Include information such as your location (and time zone), which parts

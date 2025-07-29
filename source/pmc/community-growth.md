@@ -4,8 +4,8 @@ tags: ["pmc","committers","community"]
 ---
 
 Building a thriving project community requires intentional effort.
-This guide provides practical strategies to attract and engage
-contributors in your project.
+This guide provides practical strategies to attract contributors to your
+project, and engage them in it.
 
 {{% toc %}}
 
@@ -52,7 +52,7 @@ can get involved.
 
 ## Publish your contributor ladder
 
-A [contributor ladder](/contributor-ladder.html) describes the various
+A [contributor ladder](/contributor-ladder.html) describes the
 levels of access and responsibility contributors can progress through
 in your project -- typically from contributor to committer to PMC member.
 
@@ -61,7 +61,7 @@ ten substantial patches or three months of involvement, publish these
 criteria on your website. This prevents contributors from feeling the
 process is arbitrary or unclear.
 
-Consider lowering your entry barriers. Remember that inviting someone
+Consider relaxing your entry conditions. Remember that inviting someone
 "too early" risks temporary issues that version control can fix, but
 inviting someone too late risks losing them permanently.
 
