@@ -67,10 +67,12 @@ inviting someone too late risks losing them permanently.
 
 ## Engage with big users
 
-Reach out to companies that depend on your project and ask them to consider
-what would happen if the project were discontinued. This often leads
-organizations to recognize the value they receive and motivates them
-to start contributing in meaningful ways.
+Reach out to companies that depend on your project, and encourage them
+to take an active role in the decision-making by getting involved in the
+discussions on the mailing lists, and providing code changes that their
+customers are requesting. Encourage them to think of open source
+collaboration as investing in their supply chain, rather than as
+altruism.
 
 ## Be transparent about project risk
 
