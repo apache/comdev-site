@@ -3,39 +3,36 @@ title: PMC Responsibilities
 tags: ["pmc","governance"]
 ---
 
-The Project Management Committee (PMC) is responsible for the oversight
-of the project, including technical decisions, ensuring that the project
-is operating in accordance with ASF norms, adding new members to the
-project, and voting on releases.
+The Project Management Committee (PMC) oversees the project, including
+technical decisions, ensuring compliance with ASF standards, adding
+new members, and approving releases.
 
 {{% toc %}}
 
 ## Conducting Business
 
-The PMC is expected to conduct all of its business on the public
-developers mailing list, in the full view of the community.
+The PMC must conduct all business on the public developers' mailing list,
+maintaining full community visibility.
 
-Every PMC also has a private@ list, which is for communication about
-private matters, such as discussion of proposed committers, proposed
-new PMC members, or confidential security issues. Do not use it for discussion
-of features, roadmap, or other technical decisions.
+Every PMC has a private@ list reserved for confidential matters such as
+discussing proposed committers, potential PMC members, or security issues.
+Do not use the private list to discuss features, roadmap discussions, or other
+technical decisions, as this cuts the community out of the process.
 
-The Board of Directors will occasionally send you comments or queries,
-often related to your quarterly board report. Any PMC member can, and
-should, respond to these. You should not wait for the Chair to respond
-to these queries.
+The Board of Directors occasionally sends comments or queries, often
+regarding your quarterly board report. Any PMC member can and should
+respond to these inquiries -- don't wait for the Chair to handle them.
 
-The PMC is tasked with making decisions on the direction of the project,
-They can, and should, also incorporate the voice of the larger community
-in these decisions. However, if a vote is taken, only the votes of the
-PMC are binding on the outcome. Other community members may vote as
-well, but those votes are advisory only, and not binding.
+The PMC makes decisions about project direction and should incorporate
+input from the broader community. However, when votes are taken, only
+PMC votes are binding. Community members are encouraged to vote, but
+their votes serve as advisory input only.
 
-A PMC member may veto a technical decision, such as a proposed patch.
-However, they must be able to back this veto up with a technical reason,
-and be willing to discuss possible resolutions to their objection.
+PMC members may veto technical decisions, such as proposed patches, but
+must provide technical justification and engage in discussion to resolve
+their objections.
 
-Further discussion of voting may be found on the [Foundation
+For more information about voting procedures, see the [Foundation
 website](https://www.apache.org/foundation/voting.html).
 
 ## Protecting your brand
@@ -47,47 +44,42 @@ site](https://apache.org/foundation/marks/responsibility).
 
 ## Making a release
 
-The process for releasing a official Apache software artifact may be
-found on the [Infra
-website](https://infra.apache.org/release-publishing.html). As a PMC
-member, you are expected to read and understand that process.
+The process for releasing official Apache software artifacts is documented
+on the [Infra website](https://infra.apache.org/release-publishing.html).
+As a PMC member, you must read and understand this process.
 
-When you vote on a release, it should be an indication that you have
-actually tested that release. In your vote email, rather than merely
-voting +1 or -1, also indicate what you tested, and on what
-platform(s).
+When voting on a release, actually test the release candidate. In your vote
+email, specify what you tested and on which platforms, rather than simply
+voting +1 or -1.
 
 ## Ensuring Project Health
 
-The PMC is tasked individually and collectively with ensuring that the
-project is behaving according to ASF policies and norms. In this
-responsibility, PMC members act as individuals, not as representatives
-of their employer, or other third-party interests. The reputation of the
-project, and the ASF in general, is delegated to PMC members in this
-respect.
+The PMC is individually and collectively responsible for ensuring the
+project operates according to ASF policies and standards. In this role,
+PMC members act as individuals, not as representatives of their employers
+or other third-party interests. The reputation of both the project and the
+ASF depends on PMC members fulfilling this responsibility.
 
-Projects should [operate in a vendor neutral fashion](https://community.apache.org/projectIndependence.html). That is to say, any
-project participant has an equal voice, unrelated to the employer or
-lack thereof. Evidence that a project is favoring one company or
-organization over another is a serious offense. For example, if members
-of a particular organization are favored over another, for either
-addition to the committer roll, the PMC, or for acceptance of their
-patches, this is an indication that the employer is exerting undue
-influence over the direction of the project.
+Projects must [operate in a vendor-neutral
+fashion](https://community.apache.org/projectIndependence.html). Every project
+participant should have an equal voice, regardless of their employer or
+employment status. Evidence that a project favors one company or organization
+over another constitutes a serious violation. For example, if members of a
+particular organization receive preferential treatment for committer status,
+PMC membership, or patch acceptance, this indicates undue employer influence
+over the project.
 
-The PMC is also expected to set the tone for conduct and interactions in
-the project. They can, and should, call out behavior that is in conflict
-with ASF norms, such as bullying, racist or sexist discussions, or other
-abusive behavior.  PMCs may adopt a specific Code of Conduct, or simply 
-follow the [ASF's general Code of Conduct](https://apache.org/foundation/policies/conduct).
+The PMC sets the tone for conduct and interactions within the project.
+Members can and should address behavior that conflicts with ASF standards,
+including bullying, discriminatory discussions, or other abusive behavior.
+PMCs may adopt a specific Code of Conduct or follow the [ASF's general
+Code of Conduct](https://apache.org/foundation/policies/conduct).
 
 ## Adding Community Members
 
-The PMC is also tasked with the sustainability of the project. An
-important part of this is regularly [adding new
+The PMC ensures project sustainability by regularly [adding
 committers](/pmc/adding-committers.html) and [new PMC
-members](/pmc/adding-pmc-members.html). This is not the sole role of the
-chair. Rather, every PMC member can, and should, regularly look at who
-is participating in the project, and evaluate whether they should be
-invited to the next [rung of the contributor
-ladder](/contributor-ladder.html).
+members](/pmc/adding-pmc-members.html). This responsibility extends beyond
+the chair -- every PMC member should regularly evaluate project participants
+and consider whether they should be invited to the next [level of the
+contributor ladder](/contributor-ladder.html).

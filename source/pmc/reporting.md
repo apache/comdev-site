@@ -3,10 +3,11 @@ title: PMC Reporting
 tags: ["pmc","reporting"]
 ---
 
-A PMC is required to file a report to the Board of Directors every
-quarter, on a schedule determined by the Board.
+Each PMC must submit a quarterly report to the Board of Directors
+according to a schedule set by the Board.
 
-You can find your project's reporting schedule on
+You can find your project's reporting schedule by visiting the
+committee's page on
 [projects.apache.org](https://projects.apache.org/committees.html). You
 will also receive a reminder from the Secretary a few weeks prior to
 your report's due date.
@@ -17,87 +18,68 @@ The *official* record of PMC reporting schedules is the file
 
 ## Writing a report
 
-The report to the board is expected to contain certain sections. See the
-[detailed instructions for writing a board
-report](https://www.apache.org/foundation/board/reporting).
+While you may use the [reporter tool](https://reporter.apache.org)
+to draft your report, avoid submitting auto-generated content. Instead,
+use this opportunity to reflect thoughtfully on your project's health,
+objectives, and any challenges it's facing. Take time to be introspective
+about your project's short- and long-term goals and identify any risks or concerns.
 
-You may (but are not required to) use the [reporter
-tool](https://reporter.apache.org) to draft your report. However, do
-**not** simply submit an auto-generated report. You are expected to take
-this time to be introspective about your project's health, short- and
-long-term objectives, and any risks or concerns facing your project.
+Consider including these important topics in your report:
 
-Important things you should mention might include (but are not limited to):
-
-* Changes to technology trends that will influence the direction of your
-  project
-* A very active individual, or company, entering or exiting from the project
-* A merger or acquisition between active participant organizations in
+* Technology trend changes that will influence your project's direction
+* A very active contributor, or company, joining or leaving the project
+* Mergers or acquisitions between active participant organizations in
   your project
-* A boost or decline in your project's momentum, or popularity, that may 
-  result in community changes
+* Notable increases or decreases in your project's momentum or popularity
+  that may affect the community
 
-Remember that reports are made public once the board minutes are
-approved, and craft your phrasing accordingly. Sections that are
-intended to be Foundation-confidential should be enclosed in *private*
+While the Board of Directors is your primary audience,
+reports become [publicly available](https://whimsy.apache.org/board/minutes/)
+once the board minutes are approved. Enclose any
+Foundation-confidential sections in &lt;private&gt;...&lt;/private&gt;
 tags, as described in the formal documentation above.
 
-While the Chair can write the report on their own, you are encouraged to
-consult with the entire PMC for input on the report, perhaps even
-drafting it with everyone able to contribute.
+Consider the secondary audience when writing. For example, if you want
+the press to tell a particular story about your project, tell that story
+in your report, and provide a quote suitable for an article.
 
-The report can be submitted via the [reporter
-tool](https://reporter.apache.org), the [agenda
-tool](https://whimsy.apache.org/board/agenda), or committed directly to
-the [subversion
+The Chair is responsible for ensuring that the report is filed, but it
+should represent the thoughts of the entire PMC. Consult with the entire PMC as
+you draft the report. Many projects discuss drafts on on the dev list,
+giving the broader community the opportunity to provide input as well.
+
+Submit your report via the [reporter tool](https://reporter.apache.org) or
+the [agenda tool](https://whimsy.apache.org/board/agenda), or commit it
+directly to the [subversion
 repository](https://svn.apache.org/repos/private/foundation/board).
 
 ## What makes a good board report
 
-As with anything you write, the most important thing to keep in mind
-when writing your board report is who your audience is.
+When writing your board report, keep your audience in mind.
 
-The primary audience of your report is, of course, the board of
-directors. They are not, generally, experts on your particular technology. They are,
-rather, interested in the health and sustainability of the project.
-Questions to consider include:
+The primary audience of your report is the board of directors. While
+board members may not be experts in your specific technology, they focus
+on project health and sustainability.
+
+Consider these key questions:
 
 * Do you have enough active participants - both committers and PMC members -
-  to respond to urgent bugs or security?
-* Have you responded to any questions or comments that the board made on
+  to respond to urgent bugs or security? Think about non-technical, as
+  well as technical roles.
+* Have you addressed any questions or comments that the board made on
   your previous report?
-* Have you pointed out major achievements, or challenges, encountered in
-  the past quarter that an outsider would have missed?
+* Have you highlighted major achievements or challenges in the past
+  quarter than an outsider might have missed?
 
-The secondary audience of your report is the general public. The minutes
-of board meetings are
-[published](https://apache.org/foundation/board/calendar.html) for our users,
-sponsors, the press, and the general public to read. Consider that
-audience when writing. For example, if there's a story that you'd like
-the press to tell about your project, you might mention it, and provide
-a quote that you'd like to see in an article.
-
-If there's something you wish to bring to the attention of the board,
-but isn't for public consumption, enclose it in &lt;private&gt; tags so
-that it won't be published in the public minutes.
-
-For example:
-
-```
-<private>
-Private tags should be alone on a line
-</private>
-```
-
-The report isn't just a once-a-quarter box to check -- it's your 
+The report isn't just a once-a-quarter box to check -- it's your
 opportunity to tell the story of your project,
 celebrate your accomplishments, ask for help or advice on challenges
 you're facing, and identify places where new contributors might find
 something to work on.
 
-We encourage you to look at [past board
+We encourage you to review [past board
 reports](https://apache.org/foundation/board/calendar.html) for inspiration from
-other projects' reports. 
+other projects.
 
 <!-- TODO
 * Add links to recommended/good reports to emulate.
