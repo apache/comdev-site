@@ -16,6 +16,9 @@ The *official* record of PMC reporting schedules is the file
 [committee-info.txt](https://svn.apache.org/repos/private/committers/board/committee-info.txt)
 (requires password authentication).
 
+The complete detailed policy and process for reporting may be found on
+the [board website](https://www.apache.org/foundation/board/reporting).
+
 ## Writing a report
 
 While you may use the [reporter tool](https://reporter.apache.org)
