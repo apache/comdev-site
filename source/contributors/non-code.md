@@ -78,13 +78,49 @@ Commons license.
 
 ## Event support
 
+Many ASF projects host their own events, either specific to one project,
+or across several related projects. These events often rely on external
+vendors or conference planners, but there is almost always an
+opportunity for volunteer support in planning, promoting, and executing
+these events. This may involve site planning, design and promotion,
+speaker relations, sponsor acquisition and relations, or University 
+outreach, among many other details.
+
+If you have experience running events of any scale, your expertise will
+be greatly appreciated by these projects.
+
+You can see a list of approved upcoming events on the [Apache
+events](https://events.apache.org/) website, or by searching for
+`meetup` or `conference` on
+[lists.apache.org](https://lists.apache.org).
+
 ## Community engagement
+
+* Identify first-time contributors and welcome them
+* Celebrate contribution milestones
 
 ## Vendor engagement
 
+* Identify companies that have products or services around a given
+  project, and reach out to them to understand their needs and
+  opportunities for contribution/participation.
+* Arrange meetings between vendors to compare and collaborate on
+  priorities.
+* Consult with vendor marketing orgs to ensure appropriate use of
+  trademarks.
+
 ## Marketing and promotion
 
+* Social media content and scheduling
+* Blog posts telling stories of project innovation and user stories.
+* Promotion of releases
+* Coordination with M&P
+
 ## Testing
+
+* Functional testing
+* Automated testing
+* User interviews
 
 ## Project management
 
