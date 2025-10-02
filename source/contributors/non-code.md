@@ -96,8 +96,29 @@ events](https://events.apache.org/) website, or by searching for
 
 ## Community engagement
 
-* Identify first-time contributors and welcome them
-* Celebrate contribution milestones
+One of our mottos at Apache is "Community Over Code." A strong community
+produces better software. Strong community is built on trust, respect,
+and communication. These things don't just happen - they take hard work.
+
+An important contribution that almost anyone can make is investing in
+that community. A community engagement contribution might look like one
+of the following:
+
+* Identify first-time contributors and welcome them. Report (on the
+  mailing list) each month which contributors had their first PR accepted;
+  their first ticket opened; their first review to an open PR.
+* Contact a new contributor after their second PR and try to understand
+  who they are, why they are contributing, and what their goals are.
+  Offer to review their PRs or introduce them to individuals who can.
+* Celebrate contribution milestones. Use the GitHub API to determine
+  when contributors make their 10th, or 100th, or 1000th commit.
+* Be the first to answer user questions on the mailing list, with a
+  friendly voice and helpful pointers. Encourage others to do the same.
+  Quietly, off-list, admonish anyone who responds rudely, and
+  encourage them to either do better, or let someone else answer those
+  questions.
+
+Friendly communities grow faster, and retain people longer.
 
 ## Vendor engagement
 
