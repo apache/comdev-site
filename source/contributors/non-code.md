@@ -122,13 +122,38 @@ Friendly communities grow faster, and retain people longer.
 
 ## Vendor engagement
 
-* Identify companies that have products or services around a given
-  project, and reach out to them to understand their needs and
-  opportunities for contribution/participation.
-* Arrange meetings between vendors to compare and collaborate on
-  priorities.
-* Consult with vendor marketing orgs to ensure appropriate use of
-  trademarks.
+Many Apache communities rely on participation from the various vendors
+that rely on our projects. While we recognize individual contributors
+rather than their employers, it can be very valuable to do proactive
+outreach to vendors to encourage them to participate in
+community-friendly ways.
+
+You can help by identifying companies that have products or services
+that depend on a particular project, and reach out to them to understand
+their needs, their frustrations, and their goals. Encourage them to
+participate in the open to achieve those goals, and to talk about what
+they are working on.
+
+Projects should not be expected to care about a company's timelines,
+customers, or product milestones. But understanding what those are may
+result in helpful collaboration, either between individual contributors,
+or between interested companies.
+
+Have friendly conversations with the marketing departments from
+interested companies about appropriate use of trademarks. This avoids
+unpleasant situations later on, and thus helps avoid a company having a
+negative interaction with our Trademarks team.
+
+Identify a contact inside each participating vendor who is friendly to
+Apache community norms, and offer to help them make the case for
+upstream enagement -- sometimes an outsider voice can be more
+persuasive.
+
+Encourage your contacts to submit talks to the project's summit,
+meetups, or other conferences, about their work in the project. That, in
+turn, will help individual contributors to raise their profile within
+their employer, and demonstrate the value of earning trust in open
+source communities.
 
 ## Marketing and promotion
 
