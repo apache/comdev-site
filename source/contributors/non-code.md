@@ -55,18 +55,19 @@ about what translation/localization tools are available and recommended.
 
 ## Design
 
-Most open source projects are designed by programmers. There are
-opportunities for anyone with an artistic eye to improve the user
-experience, both of the product itself, as well as the website, logos,
-and other assorted imagery around the project ecosystem.
+Programmers usually design their project website, and the user interface
+of their projects. There are opportunities for anyone with an artistic
+eye to improve the user experience, both of the product itself, as well
+as the website, logos, and other imagery around the project
+ecosystem.
 
 Designing banners for conferences, mascots, promotional materials, and
 blog posts can make a project more engaging and welcoming. If the
 project does not have a logo, work with the community to suggest
 possible designs.
 
-Working with the developers to improve the user interface of a product
-can drive greater adoption of the product. Work with testers and
+Helping improve the user interface of a product can result in more users
+adopting it. Work with [testers](#testing) and
 users to understand which parts of the product are harder to use or
 understand.
 
@@ -197,14 +198,14 @@ get around limitations.
 
 ## Project management
 
-Apache projects are not usually tied to strict release schedules,
-feature sprints, and other strict planning regiments that you see in
+Apache projects are not usually tied to release schedules,
+feature sprints, and other strict planning that you see in
 commercial software development efforts. However, there's often value in
 having someone who tracks what is being worked on, what's next on the
 roadmap, and what is intended to be in upcoming releases. Having project
 management skills can be a real benefit to a project that has a diverse
 set of developers all working on different things. A project manager can
-coordinate communication ensure that everyone is aware of priorities,
+coordinate communication to ensure that everyone is aware of priorities,
 and help avoid conflicts.
 
 If you're good at this kind of thing, come [talk with
@@ -244,10 +245,11 @@ participation.
 
 Projects should:
 
-* Identify non-code contributions that are needed/wanted
+* Identify non-code contributions that are needed/wanted.
 * Recognize and celebrate non-code contributors. Committer status is
   *NOT* just for coders!
 * Consider giving specific titles to leaders in non-code areas. For
   example, identify (by name) your documentation team. Identify (by
   name) your community leadership team. Identify (by name) your social
   media coordinator.
+
