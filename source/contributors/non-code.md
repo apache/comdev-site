@@ -146,7 +146,7 @@ negative interaction with our Trademarks team.
 
 Identify a contact inside each participating vendor who is friendly to
 Apache community norms, and offer to help them make the case for
-upstream enagement -- sometimes an outsider voice can be more
+upstream engagement -- sometimes an outsider voice can be more
 persuasive.
 
 Encourage your contacts to submit talks to the project's summit,
@@ -157,16 +157,43 @@ source communities.
 
 ## Marketing and promotion
 
-* Social media content and scheduling
-* Blog posts telling stories of project innovation and user stories.
-* Promotion of releases
-* Coordination with M&P
+Getting the word out about a project is critical to building your
+project's community. There are many ways to do this, and this is a
+fantastic way to contribute to a project.
+
+Does the project have a social media presence? Offer to help schedule
+and produce content for those channels. Use those channels to promote
+releases, features, and volunteer opportunities, as well as to
+celebrate individual contributor milestones.
+
+Conduct interviews with users who have interesting use cases, or vendors
+who offer interesting services based on the project. Publish these
+interviews (with [pictures](#design)!) on your project website or blog.
+
+Work with Marketing & Publicity to find ways to promote your project.
+Volunteer to do an interview with [PlusOne](https://plusone.apache.org)
+and coordinate with the dev list to find the right people to be the
+voice of your project.
 
 ## Testing
 
-* Functional testing
-* Automated testing
-* User interviews
+Your project probably has automated testing of some kind, but nothing
+beats a human tester. Test, and [vote on](https://www.apache.org/legal/release-policy.html#release-approval), 
+each release candidate, even if your vote isn't binding (i.e., if 
+you're not a PMC member).
+
+Download and try out the product, naively following the documentation to
+ensure that it accurately represents how to get it working. Report your
+findings in detail - what you tried, what happened, and how it differed
+from what you expected to happen.
+
+Try out documented features, and see if they work how you expect them
+to. Report your findings.
+
+Offer to interview new users to find out their experience - the
+beginner's first experience with your project's product can be very
+eyeopening to people who have been using it for years and know how to
+get around limitations.
 
 ## Project management
 
@@ -187,10 +214,13 @@ skills. If you're a project that needs this kind of help, let us know!
 
 ## Others
 
-* Legal
-* Trademarks
-* Accounting
-* ...
+This is not an exhaustive list. There are other places that you can get
+involved in a project, or in the Foundation. If you have expertise in
+[law or trademarks](https://www.apache.org/legal/),
+[accounting](https://treasurer.apache.org/), or public policy, your
+expertise is welcome and sought after. Come talk to us about your
+skills, and how you would like to participate, and we'll try to make
+introductions.
 
 # A word about AI
 
