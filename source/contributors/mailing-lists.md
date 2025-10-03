@@ -93,6 +93,16 @@ conversation is essential to collaboration.
 
 ASF mailing lists default to English, unless specified otherwise.
 
+<!--
+
+TODO:
+
+This stuff about configuring mailing lists should really be under
+/committers rather than here, since you can't make any of these changes
+until you're a committer.
+
+-->
+
 ## Mailing list configuration
 
 Modern software development tools, including GitHub, your various ticket
