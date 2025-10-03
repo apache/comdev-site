@@ -73,7 +73,8 @@ Projects should identify, recruit for, and celebrate contributions in
 all of these areas, and reward non-code contributors with the same
 rights and privileges that they do for code contributors. 
 
-**Being a committer is *not* just for code contributors!**
+**Being a committer is *not* just for code contributors!** It's a
+recognition of anyone who is **committed** to the project.
 
 ### Communication
 
