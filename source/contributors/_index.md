@@ -50,11 +50,31 @@ reasonable first step towards contributing. Keep notes of that first
 user experience, as that is valuable information for the project, and
 might be a good place to start your contributions.
 
-### The Code
+### What can I contribute?
 
-Most (not all) Apache projects have their code on
-[GitHub](https://github.com/apache). Search for the project name in the
-**apache** GitHub organization.
+Most people's first thought when contributing to open source projects is
+code. And, indeed, that's where most people get involved. Most (not all) 
+Apache projects have their code on [GitHub](https://github.com/apache).
+Search for the project name in the **apache** GitHub organization.
+
+There are, however, many other areas where you can contribute to a
+project. These include, but are not limited to:
+
+* Documentation
+* Marketing and social media promotion
+* Event planning
+* Technical support on mailing lists and other forums
+* Vendor/Sponsor relations
+* Project management (organizing the next sprint or feature set, keeping
+  track of who is working on what, updating the roadmap)
+* Community management
+
+Projects should identify, recruit for, and celebrate contributions in
+all of these areas, and reward non-code contributors with the same
+rights and privileges that they do for code contributors. 
+
+**Being a committer is *not* just for code contributors!** It's a
+recognition of anyone who is **committed** to the project.
 
 ### Communication
 
@@ -66,6 +86,15 @@ You can read the archives (i.e., messages from the past), as well as
 participate in current discussions, either by subscribing to the lists,
 or by using the [lists.apache.org][11] site
 directly.
+
+<!--
+
+TODO:
+
+All of this stuff about mailing lists should be in mailing-lists.md
+rather than here.
+
+-->
 
 #### Subscribe
 
