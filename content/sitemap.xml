@@ -197,6 +197,8 @@
   </url><url>
     <loc>https://community.apache.org/contributors/</loc>
   </url><url>
+    <loc>https://community.apache.org/tags/contributor.html</loc>
+  </url><url>
     <loc>https://community.apache.org/tags/crowdfunding.html</loc>
   </url><url>
     <loc>https://community.apache.org/committers/decisionMaking.html</loc>
@@ -286,6 +288,12 @@
     <loc>https://community.apache.org/tags/newsletter.html</loc>
   </url><url>
     <loc>https://community.apache.org/newsletter/</loc>
+  </url><url>
+    <loc>https://community.apache.org/tags/non-code.html</loc>
+  </url><url>
+    <loc>https://community.apache.org/contributors/non-code.html</loc>
+  </url><url>
+    <loc>https://community.apache.org/tags/non-technical.html</loc>
   </url><url>
     <loc>https://community.apache.org/tags/officers.html</loc>
   </url><url>

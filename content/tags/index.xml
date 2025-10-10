@@ -134,6 +134,15 @@
     </item>
     
     <item>
+      <title>contributor</title>
+      <link>https://community.apache.org/tags/contributor.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/tags/contributor.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>crowdfunding</title>
       <link>https://community.apache.org/tags/crowdfunding.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -310,6 +319,24 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://community.apache.org/tags/newsletter.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>non-code</title>
+      <link>https://community.apache.org/tags/non-code.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/tags/non-code.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>non-technical</title>
+      <link>https://community.apache.org/tags/non-technical.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://community.apache.org/tags/non-technical.html</guid>
       <description></description>
     </item>
     
