@@ -58,23 +58,10 @@ Apache projects have their code on [GitHub](https://github.com/apache).
 Search for the project name in the **apache** GitHub organization.
 
 There are, however, many other areas where you can contribute to a
-project. These include, but are not limited to:
-
-* Documentation
-* Marketing and social media promotion
-* Event planning
-* Technical support on mailing lists and other forums
-* Vendor/Sponsor relations
-* Project management (organizing the next sprint or feature set, keeping
-  track of who is working on what, updating the roadmap)
-* Community management
-
-Projects should identify, recruit for, and celebrate contributions in
+project. Projects should identify, recruit for, and celebrate contributions in
 all of these areas, and reward non-code contributors with the same
-rights and privileges that they do for code contributors. 
-
-**Being a committer is *not* just for code contributors!** It's a
-recognition of anyone who is **committed** to the project.
+rights and privileges that they do for code contributors. [Read more
+about non-code contribution opportunities](non-code.html).
 
 ### Communication
 
