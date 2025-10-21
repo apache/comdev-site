@@ -3,6 +3,8 @@ title: Non-code contributions
 tags: ["contributor","non-technical","non-code"]
 ---
 
+# Non-code contributions
+
 While most people think of contributing *code* when they think of open
 source participation, and most project contribution guides focus on
 code contributions, there are many other ways to contribute to an open
@@ -10,14 +12,14 @@ source project.
 
 {{% toc %}}
 
-# Ways to contribute
+## Ways to contribute
 
 There are many broad categories of non-code contributions. This list is
 not comprehensive. Indeed, whatever your passion or expertise, there is
 probably a place for you to participate in some Apache project, or at
 the Foundation level.
 
-## Documentation
+### Documentation
 
 All software needs some level of documentation. And documentation needs
 writers, as well as readers. If you are a writer, particularly one with
@@ -36,7 +38,7 @@ Working with [testers](#testing) to describe their failure scenarios
 and desired new functionality is a way to accelerate innovation, and
 help developers understand vague tickets.
 
-## Translation and localization
+### Translation and localization
 
 Most documentation of Apache projects is written in English. Providing
 translation and localization of these documents is a great service to a
@@ -53,7 +55,7 @@ you speak, and, if possible, give some examples of your work.
 Projects should consult with [Infrastructure](https://infra.apache.org/)
 about what translation/localization tools are available and recommended.
 
-## Design
+### Design
 
 Programmers usually design their project website, and the user interface
 of their projects. There are opportunities for anyone with an artistic
@@ -77,7 +79,7 @@ appropriate license to use. For example, you can use images from
 [photos.apachecon.com](https://photos.apachecon.com/) under a Creative
 Commons license.
 
-## Event support
+### Event support
 
 Many ASF projects host their own events, either specific to one project,
 or across several related projects. These events often rely on external
@@ -95,7 +97,7 @@ events](https://events.apache.org/) website, or by searching for
 `meetup` or `conference` on
 [lists.apache.org](https://lists.apache.org).
 
-## Community engagement
+### Community engagement
 
 One of our mottos at Apache is "Community Over Code." A strong community
 produces better software. Strong community is built on trust, respect,
@@ -124,7 +126,7 @@ of the following:
 
 Friendly communities grow faster, and retain people longer.
 
-## Vendor engagement
+### Vendor engagement
 
 Many Apache communities rely on participation from the various vendors
 that rely on our projects. While we recognize individual contributors
@@ -159,7 +161,7 @@ turn, will help individual contributors to raise their profile within
 their employer, and demonstrate the value of earning trust in open
 source communities.
 
-## Marketing and promotion
+### Marketing and promotion
 
 Getting the word out about a project is critical to building your
 project's community. There are many ways to do this, and this is a
@@ -179,7 +181,7 @@ Volunteer to do an interview with [PlusOne](https://plusone.apache.org)
 and coordinate with the dev list to find the right people to be the
 voice of your project.
 
-## Testing
+### Testing
 
 Your project probably has automated testing of some kind, but nothing
 beats a human tester. Test, and [vote on](https://www.apache.org/legal/release-policy.html#release-approval), 
@@ -199,7 +201,7 @@ beginner's first experience with your project's product can be very
 eyeopening to people who have been using it for years and know how to
 get around limitations.
 
-## Project management
+### Project management
 
 Apache projects are not usually tied to release schedules,
 feature sprints, and other strict planning that you see in
@@ -216,7 +218,7 @@ us](https://lists.apache.org/list.html?dev@community.apache.org) and
 we'll try to help you find a good match with a community seeking those
 skills. If you're a project that needs this kind of help, let us know!
 
-## Others
+### Others
 
 This is not an exhaustive list. There are other places that you can get
 involved in a project, or in the Foundation. If you have expertise in
@@ -226,7 +228,7 @@ expertise is welcome and sought after. Come talk to us about your
 skills, and how you would like to participate, and we'll try to make
 introductions.
 
-# A word about AI
+## A word about AI
 
 It can be tempting to use AI to analyze some portion of a project,
 whether that's code or documentation, and then submit patches based on
@@ -244,7 +246,7 @@ correctness and quality, as this will likely result in future
 contributions being rejected, or even in your being blocked from further
 participation.
 
-# Recruiting and encouraging non-code participants
+## Recruiting and encouraging non-code participants
 
 Because most people think of code first, it's important for projects to
 actively recruit and recognize non-code participants. There are a number
@@ -264,7 +266,7 @@ would coders. You can, and should, extend Committer status to non-code
 contributors. Mention in release notes everyone who contributed to a
 particular release, including these non-code roles.
 
-# In conclusion ...
+## In conclusion ...
 
 Like any project, open source projects are composed of many different
 participants with different skills. Foster a community where these
