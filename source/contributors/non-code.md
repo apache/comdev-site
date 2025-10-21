@@ -101,6 +101,9 @@ One of our mottos at Apache is "Community Over Code." A strong community
 produces better software. Strong community is built on trust, respect,
 and communication. These things don't just happen - they take hard work.
 
+<!-- There is no community except the one you build - JFK. Add graphic
+here? -->
+
 An important contribution that almost anyone can make is investing in
 that community. A community engagement contribution might look like one
 of the following:
@@ -243,13 +246,29 @@ participation.
 
 # Recruiting and encouraging non-code participants
 
-Projects should:
+Because most people think of code first, it's important for projects to
+actively recruit and recognize non-code participants. There are a number
+of ways that you can do this.
 
-* Identify non-code contributions that are needed/wanted.
-* Recognize and celebrate non-code contributors. Committer status is
-  *NOT* just for coders!
-* Consider giving specific titles to leaders in non-code areas. For
-  example, identify (by name) your documentation team. Identify (by
-  name) your community leadership team. Identify (by name) your social
-  media coordinator.
+Identify specific non-code contributions that are needed or wanted. Open
+tickets as you would for any code issue. This signals that non-code
+contributions have the same importance as code contributions.
+
+Consider creating specific named roles (e.g., Project Manager, UX Design
+Lead, Vendor Outreach Coordinator) for non-code roles. This makes it
+easier to attract the skills that you are looking for, and shows that
+you value those roles.
+
+Recognize and celebrate non-code contributors in the same ways that you
+would coders. You can, and should, extend Committer status to non-code
+contributors. Mention in release notes everyone who contributed to a
+particular release, including these non-code roles.
+
+# In conclusion ...
+
+Like any project, open source projects are composed of many different
+participants with different skills. Foster a community where these
+different skills are treated as equal participants in the larger whole.
+Celebrate non-code contributions, and grant full project membership
+(Committer and PMC status) to non-code participants.
 
