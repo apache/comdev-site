@@ -4,7 +4,8 @@
     <title>Community Development: What we do on ASF Community Development</title>
     <link>https://community.apache.org/about/</link>
     <description>Recent content in Community Development: What we do on ASF Community Development</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://community.apache.org/about/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://community.apache.org/about/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

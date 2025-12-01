@@ -2,22 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://community.apache.org/</loc>
+    <loc>https://community.apache.org/index.html</loc>
     <lastmod>2023-10-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/blog/</loc>
     <lastmod>2023-10-24T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://community.apache.org/tags/blog.html</loc>
+    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://community.apache.org/tags/navigation.html</loc>
+    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://community.apache.org/blog/rss-feeds-activated.html</loc>
     <lastmod>2023-10-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://community.apache.org/tags/blog.html</loc>
-    <lastmod>2019-12-02T00:00:00+00:00</lastmod>
+    <loc>https://community.apache.org/tags/index.html</loc>
+    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/blog/the-asf-helps-promote-open.html</loc>
-    <lastmod>2019-12-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://community.apache.org/tags.html</loc>
     <lastmod>2019-12-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/blog/apache-event-tsinghua-university-beijing.html</loc>
@@ -143,7 +146,7 @@
   </url><url>
     <loc>https://community.apache.org/speakers/slides.html</loc>
   </url><url>
-    <loc>https://community.apache.org/apache-way.html</loc>
+    <loc>https://community.apache.org/apache-way/index.html</loc>
   </url><url>
     <loc>https://community.apache.org/newsletter/2017-04.html</loc>
   </url><url>
@@ -159,7 +162,7 @@
   </url><url>
     <loc>https://community.apache.org/boardreport.html</loc>
   </url><url>
-    <loc>https://community.apache.org/board.html</loc>
+    <loc>https://community.apache.org/board/index.html</loc>
   </url><url>
     <loc>https://community.apache.org/tags/chair.html</loc>
   </url><url>
@@ -183,7 +186,7 @@
   </url><url>
     <loc>https://community.apache.org/zones-disabled.html</loc>
   </url><url>
-    <loc>https://community.apache.org/communitybuilding.html</loc>
+    <loc>https://community.apache.org/communitybuilding/index.html</loc>
   </url><url>
     <loc>https://community.apache.org/tags/conduct.html</loc>
   </url><url>
@@ -207,11 +210,11 @@
   </url><url>
     <loc>https://community.apache.org/tags/election.html</loc>
   </url><url>
-    <loc>https://community.apache.org/emacs.html</loc>
+    <loc>https://community.apache.org/emacs/index.html</loc>
   </url><url>
     <loc>https://community.apache.org/tags/etiquette.html</loc>
   </url><url>
-    <loc>https://community.apache.org/false.html</loc>
+    <loc>https://community.apache.org/false/index.html</loc>
   </url><url>
     <loc>https://community.apache.org/tags/faq.html</loc>
   </url><url>
@@ -235,7 +238,7 @@
   </url><url>
     <loc>https://community.apache.org/helpwanted-retired.html</loc>
   </url><url>
-    <loc>https://community.apache.org/history.html</loc>
+    <loc>https://community.apache.org/history/index.html</loc>
   </url><url>
     <loc>https://community.apache.org/tags/history.html</loc>
   </url><url>
@@ -251,9 +254,9 @@
   </url><url>
     <loc>https://community.apache.org/newpmcmember.html</loc>
   </url><url>
-    <loc>https://community.apache.org/tags/links.html</loc>
-  </url><url>
     <loc>https://community.apache.org/links.html</loc>
+  </url><url>
+    <loc>https://community.apache.org/tags/links.html</loc>
   </url><url>
     <loc>https://community.apache.org/contributors/mailing-lists.html</loc>
   </url><url>
@@ -267,9 +270,9 @@
   </url><url>
     <loc>https://community.apache.org/gsoc/mentee-ranking-process.html</loc>
   </url><url>
-    <loc>https://community.apache.org/tags/mentoring.html</loc>
-  </url><url>
     <loc>https://community.apache.org/mentoring/</loc>
+  </url><url>
+    <loc>https://community.apache.org/tags/mentoring.html</loc>
   </url><url>
     <loc>https://community.apache.org/mentoring/committer.html</loc>
   </url><url>
@@ -279,15 +282,13 @@
   </url><url>
     <loc>https://community.apache.org/mentoring/firstpatch.html</loc>
   </url><url>
-    <loc>https://community.apache.org/tags/navigation.html</loc>
-  </url><url>
     <loc>https://community.apache.org/pmc/new-member.html</loc>
   </url><url>
     <loc>https://community.apache.org/tags/newcomers.html</loc>
   </url><url>
-    <loc>https://community.apache.org/tags/newsletter.html</loc>
-  </url><url>
     <loc>https://community.apache.org/newsletter/</loc>
+  </url><url>
+    <loc>https://community.apache.org/tags/newsletter.html</loc>
   </url><url>
     <loc>https://community.apache.org/tags/non-code.html</loc>
   </url><url>
@@ -325,7 +326,7 @@
   </url><url>
     <loc>https://community.apache.org/speakers/</loc>
   </url><url>
-    <loc>https://community.apache.org/true.html</loc>
+    <loc>https://community.apache.org/true/index.html</loc>
   </url><url>
     <loc>https://community.apache.org/gsoc/use-the-comdev-gsoc-issue-tracker-for-gsoc-tasks.html</loc>
   </url><url>

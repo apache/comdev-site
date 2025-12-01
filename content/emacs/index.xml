@@ -2,9 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Emacs on ASF Community Development</title>
-    <link>https://community.apache.org/emacs.html</link>
+    <link>https://community.apache.org/emacs/index.html</link>
     <description>Recent content in Emacs on ASF Community Development</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://community.apache.org/emacs/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://community.apache.org/emacs/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
