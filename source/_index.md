@@ -110,7 +110,7 @@ community health.
 
 </div> <!-- End Row Three -->
 
-</ community-front-page>
+</community-front-page>
 
 <div>
 
