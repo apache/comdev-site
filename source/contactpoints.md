@@ -28,7 +28,7 @@ the project.
 Most of the below mailing lists are privately archived: you can mail to them, and 
 we'll answer, but you won't be able to read the archives.
 
-<a name="ContactPoints-Trademarks"></a>
+<span id="ContactPoints-Trademarks"></span>
 
 ## Trademarks
 
@@ -37,7 +37,7 @@ ASF and any projects: see our [Trademark Site Map](//www.apache.org/foundation/m
 or [Contact the Trademarks team](https://apache.org/foundation/marks/contact).
 
 
-<a name="ContactPoints-PublicityandMarketing"></a>
+<span id="ContactPoints-PublicityandMarketing"></span>
 
 ## Publicity and Marketing
 
@@ -45,7 +45,7 @@ Issues dealing with publicity, marketing, or any inquires from the
 press or analysts: see our [Press Team Page](https://www.apache.org/press/),
  or [Contact the Press team](https://www.apache.org/press/#contact-us).
 
-<a name="ContactPoints-FundraisingandSponsorship"></a>
+<span id="ContactPoints-FundraisingandSponsorship"></span>
 
 ## Fundraising and Sponsorship
 
@@ -53,7 +53,7 @@ Questions about fundraising, sponsorships, donations, or related
 finances: see our [Donations Information](//www.apache.org/foundation/contributing.html),
 or email to [fundraising@apache.org](mailto:fundraising@apache.org).
 
-<a name="ContactPoints-Legal"></a>
+<span id="ContactPoints-Legal"></span>
 
 ### Legal
 
@@ -68,7 +68,7 @@ response from the ASF's legal counsel, then email this private list:
 If you have **general** questions about licensing or Apache projects, then please
 use our [public legal-discuss@ mailing list](https://apache.org/foundation/mailinglists.html#foundation-legal).
 
-<a name="ContactPoints-Other"></a>
+<span id="ContactPoints-Other"></span>
 
 ### Other
 

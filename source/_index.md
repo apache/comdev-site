@@ -21,7 +21,7 @@ processes, and advice to help open-source projects improve their own
 community health.
 </div>
 
-<a name="Index-Startingpoints"></a>
+<span id="Index-Startingpoints"></span>
 
 <community-front-page>
 

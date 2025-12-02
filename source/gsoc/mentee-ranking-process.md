@@ -19,7 +19,7 @@ as a potential mentor (you don't actually have to _become_ a mentor).
 The instructions below described ranking proposals using the Google Summer
 of Code application.
 
-<a name="MenteeRankingProcess-ScoringSystem"></a>
+<span id="MenteeRankingProcess-ScoringSystem"></span>
 # Scoring System
 
 We rank projects using this scoring system:
@@ -116,7 +116,7 @@ The admins transfer the scores to Melange.
 At the end of this phase there is a short window for the community to
 verify the admins' work before the final selection is made.
 
-<a name="MenteeRankingProcess-Whatarewelookingforinagoodproposal?"></a>
+<span id="MenteeRankingProcess-Whatarewelookingforinagoodproposal?"></span>
 # What are we looking for in a good proposal?
 
 In general we much prefer new mentees to repeat mentees. The goal is to
@@ -131,7 +131,7 @@ requests for more info)
 * Acknowledgment of weaknesses in existing skill set and a plan for
 addressing those weaknesses
 
-<a name="MenteeRankingProcess-Warningsignsinabadproposal"></a>
+<span id="MenteeRankingProcess-Warningsignsinabadproposal"></span>
 # Warning signs in a bad proposal
 
 * No engagement with project community
@@ -139,7 +139,7 @@ addressing those weaknesses
 * Indication of external commitments (exams, job etc.)
 * Previous failures within the mentor programme
 
-<a name="MenteeRankingProcess-Whathappensnext?"></a>
+<span id="MenteeRankingProcess-Whathappensnext?"></span>
 # What happens next?
 
 Towards the end of the ranking period Google announces how many slots
@@ -185,7 +185,7 @@ cut-off point may move as well, so Google may give us one extra slot. So we
 need to ensure that all rank-7 projects are correctly ordered, not just the
 best.
 
-<a name="MenteeRankingProcess-Theprocessofbreakingclusters"></a>
+<span id="MenteeRankingProcess-Theprocessofbreakingclusters"></span>
 ## The process of breaking clusters
 
 Admins work through all applications, adding a +8 to all those ranked above
@@ -203,7 +203,7 @@ score for this one (i.e. to try to spread the love).
 It's not practical to ask the community to comment at this point as we are
 on a tight deadline. We ask that the community trust the assigned admins.
 
-<a name="MenteeRankingProcess-Resolveconflicts"></a>
+<span id="MenteeRankingProcess-Resolveconflicts"></span>
 # Resolve conflicts
 
 Inevitably there will be one or two students who have been accepted in

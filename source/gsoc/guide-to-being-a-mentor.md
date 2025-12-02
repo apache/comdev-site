@@ -6,14 +6,14 @@ title: guide to being a mentor
 Note: This document is bout GSoC, not about a generic Mentoring Program.
 -->
 
-<a name="guidetobeingamentor-Submittingideastothementoringprogramme"></a>
+<span id="guidetobeingamentor-Submittingideastothementoringprogramme"></span>
 # Submitting ideas to the mentoring programme
 
 We invite all ASF projects to submit their ideas for consideration in the
 ASF mentoring programme. Any Apache member and experienced committers can
 submit ideas via Jira (if your project does not use Jira you can [use the Comdev GSoC Issue Tracker For GSoC Tasks](use-the-comdev-gsoc-issue-tracker-for-gsoc-tasks.html). We are looking for as many interesting projects as we can come up with.
 
-<a name="guidetobeingamentor-Summary"></a>
+<span id="guidetobeingamentor-Summary"></span>
 ## Important Steps
 
 * Add an issue to Jira (if your project does not use Jira you can [use the Comdev GSoC Issue Tracker For GSoC Tasks](use-the-comdev-gsoc-issue-tracker-for-gsoc-tasks.html)
@@ -31,7 +31,7 @@ submit ideas via Jira (if your project does not use Jira you can [use the Comdev
 
 Please NOTE Ideas list is manually updated by GSoC admins, please ping mentors (at) community.apache.org if the page is not being updated .. :))
 
-<a name="guidetobeingamentor-Detail"></a>
+<span id="guidetobeingamentor-Detail"></span>
 ## Details
 
 To ensure we include your Jira issues in our list of mentored projects,
@@ -60,7 +60,7 @@ those project will automatically go ahead. Depending on the number of
 projects; the number of people able to mentor, and the timing we will
 probably have to make a smaller selection.
 
-<a name="guidetobeingamentor-Publicisingyourmentoredissues"></a>
+<span id="guidetobeingamentor-Publicisingyourmentoredissues"></span>
 ### Publicising your mentored issues
 
 You can link to the [ASF wide list of issues](https://issues.apache.org/jira/secure/IssueNavigator.jspa?requestId=12315361)
@@ -74,14 +74,14 @@ out.
 If you have any cool ideas for using this data, let us know so we can
 share them with other projects (mail `dev@community.apache.org`).
 
-<a name="guidetobeingamentor-Examples"></a>
+<span id="guidetobeingamentor-Examples"></span>
 ## Examples
 
   - [Wookie GSoC Issues](https://issues.apache.org/jira/secure/IssueNavigator.jspa?requestId=12315360)
   - [Wookie RSS GSoC feed](https://issues.apache.org/jira/sr/jira.issueviews:searchrequest-rss/12315360/SearchRequest-12315360.xml?tempMax=1000)
   - [Wookie XML GSoC feed](https://issues.apache.org/jira/sr/jira.issueviews:searchrequest-xml/12315360/SearchRequest-12315360.xml?tempMax=1000)
 
-<a name="guidetobeingamentor-Stayingintouch"></a>
+<span id="guidetobeingamentor-Stayingintouch"></span>
 # Staying in touch
 
 All mentors/prospective mentors **must** subscribe to `mentors@community.apache.org`, our list for
@@ -106,7 +106,7 @@ subscribe to `dev@community.apache.org`.
 If you are planning on mentoring as part of the GSoC programme you also
 need to register with Google. See our [GSoC](/gsoc/) page for more information.
 
-<a name="guidetobeingamentor-Howmucheffortisinvolvedwithbeingamentor"></a>
+<span id="guidetobeingamentor-Howmucheffortisinvolvedwithbeingamentor"></span>
 ## How much effort is involved with being a mentor?
 
 Most mentors spend between three and five hours per week with their students. Most
@@ -120,7 +120,7 @@ student and helping them deliver on their commitments.
 
 The [GSoC Mentoring Guide](https://developers.google.com/open-source/gsoc/resources/guide#mentor_guide) has plenty of useful materials for mentors.
 
-<a name="guidetobeingamentor-Anoteabouteligibility"></a>
+<span id="guidetobeingamentor-Anoteabouteligibility"></span>
 ## A note about eligibility
 
 If your project has any restrictions on who can participate (as is the case

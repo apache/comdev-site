@@ -41,7 +41,7 @@ opportunity to contribute to and benefit from our software, regardless
 of motivation or financial objectives. There is more discussion of this principle
 in our document [Project Independence][12].
 
-<a name="Index-Assistingwithprojectmanagement"></a>
+<span id="Index-Assistingwithprojectmanagement"></span>
 
 ## Development processes
 

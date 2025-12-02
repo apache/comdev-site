@@ -27,10 +27,10 @@ the information they're looking for. Please ask questions or give us suggestions
 [dev-subscribe@community.apache.org](mailto:dev-subscribe@community.apache.org) first).
 
 
-<a name="NewbieFAQ-AboutTheApacheSoftwareFoundation"></a>
+<span id="NewbieFAQ-AboutTheApacheSoftwareFoundation"></span>
 # About The Apache Software Foundation
 
-<a name="NewbieFAQ-WhatprojectscanIfindinTheApacheSoftwareFoundation?"></a>
+<span id="NewbieFAQ-WhatprojectscanIfindinTheApacheSoftwareFoundation?"></span>
 ## What projects can I find in The Apache Software Foundation?
 
 There are over 350 separate projects and communities hosted at the Apache Software Foundation. We have
@@ -44,7 +44,7 @@ have active development and are moving towards graduating to become TLPs.
    * [Attic](https://attic.apache.org): these are end-of-life projects that are no longer receiving active
 development, but may still be useful.
 
-<a name="NewbieFAQ-HowareprojectsmanagedinTheApacheSoftwareFoundation"></a>
+<span id="NewbieFAQ-HowareprojectsmanagedinTheApacheSoftwareFoundation"></span>
 ## How are projects managed in the Apache Software Foundation?
 
 Apache project participants all believe that if we look after the community, good
@@ -71,7 +71,7 @@ constructively within them!
 To learn more about "The Apache Way" in general, see the [How it Works](https://apache.org/foundation/how-it-works.html)
  pages. We also have [detailed overviews of how the ASF and projects are governed](https://www.apache.org/foundation/governance/).
 
-<a name="NewbieFAQ-HowdoIaskaquestionabouttheASFingeneral?"></a>
+<span id="NewbieFAQ-HowdoIaskaquestionabouttheASFingeneral?"></span>
 ## How do I ask a question about the ASF in general? ## {#generalquestion}
 
 The Community Development Project is here for this very purpose. Check out
@@ -79,7 +79,7 @@ the resources on this site first. If you don't find the answer to your question,
 to `dev@community.apache.org` (subscribe first by sending an email to
 `dev-subscribe@community.apache.org`).
 
-<a name="NewbieFAQ-HowdoIgetusersupportforanASFproject?"></a>
+<span id="NewbieFAQ-HowdoIgetusersupportforanASFproject?"></span>
 ## How do I get user support for an ASF project?
 
 Everyone active in ASF projects is here as a volunteer. You need to be
@@ -120,10 +120,10 @@ expertise grows. Again, earning merit in this way will help you to get
 the support you need in the future.
 
 
-<a name="NewbieFAQ-GettingInvolvedwithApacheprojects"></a>
+<span id="NewbieFAQ-GettingInvolvedwithApacheprojects"></span>
 # Getting Involved with Apache projects
 
-<a name="NewbieFAQ-HowdoIchooseanApacheprojecttoworkon?"></a>
+<span id="NewbieFAQ-HowdoIchooseanApacheprojecttoworkon?"></span>
 ## How do I choose an Apache project to work on?
 
 The key to working on projects at Apache (and any open source project, for that
@@ -142,7 +142,7 @@ inspiration about how you might be able to help the project community. If
 you see an issue you would like to tackle, it's time to join the project's
 mailing list and get started.
 
-<a name="NewbieFAQ-HowdoIgetinvolvedwithanApacheproject?"></a>
+<span id="NewbieFAQ-HowdoIgetinvolvedwithanApacheproject?"></span>
 ## How do I get involved with an Apache project?
 
 You can improve your programming skills by watching the `commit`
@@ -156,7 +156,7 @@ and be willing to research the rest.
 To learn more about getting involved with an Apache Project, see our [getting
 started guide][3]. You will also find our [get involved](https://apache.org/foundation/getinvolved.html) page a useful starting point.
 
-<a name="NewbieFAQ-IsthereaCodeofConductforApacheprojects?"></a>
+<span id="NewbieFAQ-IsthereaCodeofConductforApacheprojects?"></span>
 ## Is there a Code of Conduct for Apache projects?
 
 Our code of conduct is posted at 

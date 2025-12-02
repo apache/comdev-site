@@ -27,7 +27,7 @@ you stepping up to help out.
     This is probably not the right page to send a newcomer to.
   -->
 
-<a name="Index-FirstContributions"></a>
+<span id="Index-FirstContributions"></span>
 # First Contributions
 
 <!--

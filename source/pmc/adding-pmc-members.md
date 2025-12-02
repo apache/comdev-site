@@ -17,7 +17,7 @@ explain different roles.
 
 {{% toc %}}
 
-<a name="NewPMCMember-Summary"></a>
+<span id="NewPMCMember-Summary"></span>
 ## TL;DR - Inviting a new PMC member
 
 1. Discuss the proposed PMC member.  (Use [this template](/templates/pmc-member-discuss.txt).)
@@ -37,7 +37,7 @@ If they accept, then:
 1. Announce the new PMC member. (Use [this
    template](/templates/pmc-member-announce.txt).)
 
-<a name="#NewPMCMemberGuidelines"></a>
+<span id="#NewPMCMemberGuidelines"></span>
 ## Guidelines for inviting a new PMC member
 
 Frequently adding new PMC members to your project helps to ensure the
@@ -51,7 +51,7 @@ decision-making process would better serve your stakeholders, and
 contribute to the Foundation's mission of providing software for the
 public good.
 
-<a name="NewPMCMember-Discussion"></a>
+<span id="NewPMCMember-Discussion"></span>
 ### Discussion
 
 Any PMC member may propose a potential PMC member.
@@ -102,7 +102,7 @@ our praise and welcome messages in public.
 
 Other notes about the process are available on the main [Apache site](https://www.apache.org/dev/pmc.html#newpmcmember).
 
-<a name="NewPMCMember-EmailTemplates"></a>
+<span id="NewPMCMember-EmailTemplates"></span>
 ## Email Templates
 
 * [PMC member vote](/templates/pmc-member-vote.txt)

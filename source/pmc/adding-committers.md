@@ -20,7 +20,7 @@ The [Contributor Ladder](https://community.apache.org/contributor-ladder.html) h
 
 {{% toc %}}
 
-<a name="NewCommitter-Summary"></a>
+<span id="NewCommitter-Summary"></span>
 ## TL;DR - Inviting a new Committer
 
 1. Discuss the proposed committer (and optionally PMC member). (Use
@@ -58,7 +58,7 @@ If they accept, then:
   template](/templates/committer-announce.txt).
 
 
-<a name="NewCommitter-Guidelinesforassessingnewcandidatesforcommittership"></a>
+<span id="NewCommitter-Guidelinesforassessingnewcandidatesforcommittership"></span>
 ## Guidelines for assessing new candidates for committership
 
 Each project must decide what is the correct measure for inviting a new
@@ -102,7 +102,7 @@ for general advice you might offer.
 
 The following are some points to consider when assessing a candidate's qualifications for committership.
 
-<a name="NewCommitter-Abilitytoworkco-operativelywithpeers."></a>
+<span id="NewCommitter-Abilitytoworkco-operativelywithpeers."></span>
 ### Ability to work cooperatively with peers.
 How do we evaluate?
 
@@ -110,7 +110,7 @@ How do we evaluate?
   - By how they respond to criticism.
   - By how they participate in the group decision-making process.
 
-<a name="NewCommitter-Abilitytobeamentor."></a>
+<span id="NewCommitter-Abilitytobeamentor."></span>
 ### Ability to be a mentor.
 How do we evaluate?
 
@@ -118,7 +118,7 @@ How do we evaluate?
   - By how clear they are and how willing they are to identify or even create appropriate background
 materials.
 
-<a name="NewCommitter-Community"></a>
+<span id="NewCommitter-Community"></span>
 ### Community
 How do we evaluate?
 
@@ -126,7 +126,7 @@ How do we evaluate?
   - Do they help to answer questions raised on the mailing list; do they show a helpful
 attitude and respect for other people's ideas?
 
-<a name="NewCommitter-Committment"></a>
+<span id="NewCommitter-Committment"></span>
 ### Commitment
 How do we evaluate?
 
@@ -134,7 +134,7 @@ How do we evaluate?
   - By how well they stick with the process through tough issues.
   - By how they help on not-so-fun tasks.
 
-<a name="NewCommitter-Personalskill/ability"></a>
+<span id="NewCommitter-Personalskill/ability"></span>
 ### Personal skill/ability
 How do we evaluate?
 
@@ -142,14 +142,14 @@ How do we evaluate?
   - Quality of discussion in email.
   - Whether their patches (where applicable) are easy to apply with only a cursory review.
 
-<a name="NewCommitter-NewCommitterProcess"></a>
+<span id="NewCommitter-NewCommitterProcess"></span>
 ## New Committer Process
 
 This section describes a typical Apache project's process for handling the
 vote to add a new committer. Templates mentioned in the process appear
 later in this document.
 
-<a name="NewCommitter-Discussion"></a>
+<span id="NewCommitter-Discussion"></span>
 ### Discussion
 
 We do the discussion and vote on the `private@` mailing list to enable a frank
@@ -247,7 +247,7 @@ send a new account request. Members may use [ASF New Account Request](https://id
 Please supply the [mail archives](https://lists.apache.org/) URL as
 proof of the vote results.
 
-<a name="NewCommitter-EmailTemplates"></a>
+<span id="NewCommitter-EmailTemplates"></span>
 ## Email Templates
 
 The following templates are recommended ways to phrase your email

@@ -20,7 +20,7 @@ will provide enough information for you to progress within the project. You
 need to bring the confidence to take their guidance and discover the detail
 for yourself.
 
-<a name="Schedule"></a>
+<span id="Schedule"></span>
 ## Proposed Schedule
 
 | Date | Description |
@@ -38,13 +38,13 @@ for yourself.
 | October 28 | Mentors and students can begin submitting final evaluations |
 | November 1 | Final evaluation deadline |
 
-<a name="MentoringProgramme-WorkshopMaterials"></a>
+<span id="MentoringProgramme-WorkshopMaterials"></span>
 ## Workshop Materials
 
 The slides used for the local workshop at ICFOSS headquarters in Kerala are available for [download](https://people.apache.org/~lresende/presentations/asf-icfoss-mentoring.pdf).
 
 
-<a name="MentoringProgramme-ProjectIdeas"></a>
+<span id="MentoringProgramme-ProjectIdeas"></span>
 ## Project Ideas
 
 Project ideas are jira created by possible mentors and can be viewed at:
@@ -54,7 +54,7 @@ Project ideas are jira created by possible mentors and can be viewed at:
 + [2013 GSoC Project Ideas](https://s.apache.org/gsoc2013ideas)
 
 
-<a name="MentoringProgramme-ApplyingfortheMentorProgramme"></a>
+<span id="MentoringProgramme-ApplyingfortheMentorProgramme"></span>
 ## Applying for the Mentor Programme
 
 Students can propose their own project ideas, or select one from the ASF provided list. After selecting the project ideas. students should create a project proposal following guidance from the **mentor** and the **project community**.
