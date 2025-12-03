@@ -6,20 +6,13 @@
     <description>Recent content in Tags on ASF Community Development</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Dec 2025 15:09:51 +0000</lastBuildDate>
     <atom:link href="https://community.apache.org/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog</title>
       <link>https://community.apache.org/tags/blog.html</link>
-      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 02 Dec 2019 00:00:00 +0000</pubDate>
       <guid>https://community.apache.org/tags/blog.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Navigation</title>
-      <link>https://community.apache.org/tags/navigation.html</link>
-      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://community.apache.org/tags/navigation.html</guid>
       <description></description>
     </item>
     <item>
@@ -237,6 +230,13 @@
       <link>https://community.apache.org/tags/mentoring.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://community.apache.org/tags/mentoring.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Navigation</title>
+      <link>https://community.apache.org/tags/navigation.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/tags/navigation.html</guid>
       <description></description>
     </item>
     <item>
