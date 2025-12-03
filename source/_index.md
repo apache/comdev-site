@@ -12,7 +12,7 @@ title: ASF Community Development - Welcome
 </script>
 
 <div class="homepage-hero">
-    <img class="events-logo" src="/images/project-logos.webp" />
+    <img class="events-logo" src="/images/project-logos.webp" alt="Project Logos">
 
 ## ASF Community Development
 
