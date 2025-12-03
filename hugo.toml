@@ -13,10 +13,6 @@ timeout = "30s"
 
 ignoreFiles = [ ] # No files to ignore
 
-# Enable tags but not categories
-[taxonomies]
-tag = "tags"
-
 # Highlighting config. See https://help.farbox.com/pygments.html
 pygmentsCodeFences = true
 pygmentsUseClasses = false
@@ -24,6 +20,10 @@ pygmentsStyle = "emacs"
 
 # Enable Git variables like commit, lastmod
 enableGitInfo = true
+
+# Enable tags but not categories
+[taxonomies]
+tag = "tags"
 
 [markup.goldmark.renderer]
 unsafe = true
