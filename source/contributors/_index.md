@@ -4,7 +4,7 @@ url: /contributors/
 tags: ["faq","navigation","contributing"]
 ---
 
-<img src="/images/contributors-fp.webp" class="pull-right">
+<img src="/images/contributors-fp.webp" alt="Code sample" class="pull-right">
 
 Contributing to an Apache project is the second step on your journey up
 the [contributor ladder](/contributor-ladder.html).
