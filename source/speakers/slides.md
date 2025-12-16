@@ -89,7 +89,7 @@ project to the ASF.
 Various Apache-related presentations by prominent community members.
 
   - More of Jim's presentations [here][11] and [here][12] (Jim Jagielski)
-  - Bertrand Delacretaz [slides and talk recordings](https://pinboard.in/u:bdelacretaz/t:pressbook/).
+  - Bertrand Delacretaz [slides and talk recordings](https://grep.codeconsult.ch/pressbook/).
   - [Piergiorgio Lucidi](https://www.slideshare.net/PiergiorgioLucidi)
   - [The Journey of Apache ManifoldCF: Learning from ASF's Successes](https://www.slideshare.net/PiergiorgioLucidi/the-journey-of-apache-manifoldcf-learning-from-asfs-successes-81289363) (Piergiorgio Lucidi)
 
