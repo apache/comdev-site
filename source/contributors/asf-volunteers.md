@@ -38,6 +38,7 @@ by a Web Component loaded for this page.
 * jbonofre # mentor, speaker
 * kanchana # mentor
 * ningjiang # mentor, speaker
+* potiuk # mentor, speaker
 * rbowen # mentor, speaker
 * rvs # mentor, speaker
 * tison # mentor, speaker
