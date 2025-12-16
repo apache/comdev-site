@@ -12,7 +12,8 @@ Redirect /use-the-comdev-issue-tracker-for-gsoc-tasks.html /gsoc/use-the-comdev-
 Redirect /mentoringprogramme.html /mentoring/
 Redirect /mentoring/experiences.html /gsoc/experiences.html
 
-RedirectMatch ^/tags/$ /tags.html
+# Recent versions of Hugo use /tags/ instead of /tags.html previously
+# RedirectMatch ^/tags/$ /tags.html
 
 Redirect /calendars/conferences.html https://events.apache.org/
 Redirect /calendars/ https://events.apache.org/
