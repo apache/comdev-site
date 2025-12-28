@@ -18,7 +18,8 @@ although that is the most obvious and visible way that you can participate.
 
 While many companies contribute here and there to open source projects,
 having a carefully considered strategy for doing so will lead to more
-consistent, measurable results.
+consistent, measurable results, and greater influence in the project's
+decisions and roadmap.
 
 ### Allocate Dedicated Time
 
