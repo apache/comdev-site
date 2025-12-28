@@ -10,6 +10,8 @@ Companies that actively participate in ASF projects realize significant strategi
 
 ## Business and Strategic Advantages
 
+
+
 ### Market Positioning
 - Establish thought leadership in key technology areas
 - Build brand recognition and trust within developer communities
@@ -28,15 +30,24 @@ Companies that actively participate in ASF projects realize significant strategi
 - Build strategic partnerships through community collaboration
 - Reduce competitive threats through ecosystem participation
 
-## Talent and Human Resources
+## Recruiting and Employee Satisfaction
 
-### Talent Acquisition
-- Access to a global pool of skilled developers
-- Attract candidates who value open source contribution
-- Demonstrate company culture and technical values
-- Build relationships with potential hires through community work
+### Recruiting
+
+By working upstream on projects, you directly showcase to potential
+employees what they might be working on. This helps attract the right
+kind of talent to work on your priorities, which decreases recruitment
+costs. 
+
+Meanwhile, being involved in the day-to-day life of the project
+gives you direct access to the most qualified people in the world to
+work on your team. And you know they'll be arriving with the skills you
+need.
 
 ### Employee Development
+The very best way to develop skills around an ASF project is to work
+directly on that project, and receive feedback from peers.
+
 - Enhance technical skills through diverse project exposure
 - Develop leadership and collaboration abilities
 - Build professional networks and industry recognition
@@ -50,12 +61,6 @@ Companies that actively participate in ASF projects realize significant strategi
 
 ## Technology and Innovation
 
-### Technical Excellence
-- Access to cutting-edge technologies and innovations
-- Benefit from collective problem-solving and peer review
-- Reduce development time through shared components
-- Improve code quality through community standards
-
 ### Risk Mitigation
 - Avoid vendor lock-in and proprietary dependencies
 - Ensure long-term technology sustainability
@@ -63,7 +68,6 @@ Companies that actively participate in ASF projects realize significant strategi
 - Maintain control over critical technology components
 
 ### Faster Time to Market
-- Leverage existing solutions rather than building from scratch
 - Focus resources on core business differentiators
 - Accelerate development through community contributions
 - Reduce testing and validation overhead
@@ -93,19 +97,5 @@ Companies that actively participate in ASF projects realize significant strategi
 - Build cross-functional and cross-organizational capabilities
 - Enhance organizational agility and adaptability
 - Create culture of continuous learning and improvement
-
-## Measuring Success
-
-### Quantitative Metrics
-- Developer productivity and satisfaction scores
-- Time to market improvements
-- Cost savings and efficiency gains
-- Community engagement and contribution levels
-
-### Qualitative Indicators
-- Brand recognition and industry reputation
-- Employee retention and recruitment success
-- Customer satisfaction and trust levels
-- Innovation capacity and market responsiveness
 
 The benefits of open source participation compound over time, creating sustainable competitive advantages and fostering innovation that drives long-term business success.

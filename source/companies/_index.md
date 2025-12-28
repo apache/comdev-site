@@ -16,7 +16,6 @@ benefit of their customers.
 
 Active participation in open source projects provides significant strategic and operational benefits to companies, from talent acquisition to technology innovation and market positioning.
 
-
 ## Ways to contribute
 
 There are three primary ways that companies can engage with ASF
@@ -31,7 +30,7 @@ considered.
 
 [![employ](/images/company-employ.jpg)](/companies/employ.html)
 
-The most impactful way companies support open source is by employing developers and other professionals who contribute to projects. This includes not just code contributions, but documentation, community management, testing, design, and advocacy work.
+The most effective way companies support ASF projects is by employing developers, and other professionals, who contribute to directly projects. This includes not just code contributions, but documentation, community management, testing, design, and advocacy work.
     </div><!-- End Employ -->
 
 
@@ -53,7 +52,7 @@ Companies can provide crucial financial support through ASF sponsorship, in-kind
 
 [![advocacy](/images/company-advocacy.jpg)](/companies/advocacy.html)
 
-Companies can advocate for open source adoption both publicly and with their customers, while appropriately using open source project brands and promoting the value of community-driven development.
+Companies can advocate for ASF project adoption both publicly and with their customers, while appropriately using open source project brands and promoting the value of community-driven development.
     </div> <!-- End Advocacy-->
 </div> <!-- End Row -->
 ---
