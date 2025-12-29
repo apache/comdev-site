@@ -17,7 +17,7 @@ benefit of their customers.
 Active participation in open source projects provides significant
 strategic and operational benefits to companies, from talent
 acquisition to technology innovation and market positioning.
-[[Read more ...](/companies/benefits.html)
+[[Read more ...](/companies/benefits.html)]
 
 ## Ways to contribute
 
