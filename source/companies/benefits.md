@@ -19,7 +19,7 @@ project maintenance -- issue and PR triage; reviewing PRs; planning and
 executing community events; answering user questions -- you'll quickly
 begin to establish that you can be trusted, which will make it easier
 for you to influence the direction of the project.
-
+    
 Decisions about the direction of Apache projects are made by the people
 who show up to participate in the conversation. If you don't join the
 conversation, then your competitors will decide how tomorrow's
@@ -29,6 +29,11 @@ Make sure someone on your team is reading the project [mailing
 lists](https://www.apache.org/foundation/mailinglists.html) every day,
 and advocating for your priorities. That's what community means --
 showing up to own the future of the project.
+
+While trust does not necessarily transfer to other employees, over time,
+as project participants see your company actively contributing to the
+project, and demonstrating ownership, they'll be more willing to work
+with you.
 
 ## Recruiting
 
