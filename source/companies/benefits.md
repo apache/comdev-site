@@ -9,11 +9,28 @@ tags: ["companies", "benefits", "business value"]
 Companies that actively participate in ASF projects realize significant
 strategic and operational advantages that extend far beyond cost savings.
 It's important to think strategically about how, where, and why you will
-participate and measure impact. It can be challenging to justify these
-benefits to management, as many of them are long-term. And these benefits
-will vary greatly depending on the nature of your business.
+participate and measure impact.
 
-### Recruiting
+## Influence the roadmap
+
+While it can sometimes take months, or years, to gain expertise and
+trust in an established community, showing up to do the daily
+project maintenance -- issue and PR triage; reviewing PRs; planning and
+executing community events; answering user questions -- you'll quickly
+begin to establish that you can be trusted, which will make it easier
+for you to influence the direction of the project.
+
+Decisions about the direction of Apache projects are made by the people
+who show up to participate in the conversation. If you don't join the
+conversation, then your competitors will decide how tomorrow's
+technology will shape up.
+
+Make sure someone on your team is reading the project [mailing
+lists](https://www.apache.org/foundation/mailinglists.html) every day,
+and advocating for your priorities. That's what community means --
+showing up to own the future of the project.
+
+## Recruiting
 
 By working upstream on projects, you directly showcase to potential
 employees what they might be working on. This helps attract the right
@@ -34,4 +51,10 @@ practices. You'll be building trust with current and potential
 customers, and building strategic partnerships with other companies
 working in the same space.
 
-*The benefits of open source participation compound over time, creating sustainable competitive advantages and fostering innovation that drives long-term business success.*
+And by collaborating with your peers on the common tasks, you'll be able
+to better focus on what is your unique business differentiators.
+Collaborate on what all share; Compete where you excel.
+
+*The benefits of open source participation compound over time, creating
+sustainable competitive advantages and fostering innovation that drives 
+long-term business success.*
