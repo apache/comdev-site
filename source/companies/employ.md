@@ -9,7 +9,7 @@ tags: ["companies", "employment", "contributors"]
 If your business relies on an open source project, employing
 contributors to the project is the most effective way to ensure that
 your priorities influence project decisions. (See
-[Recruiting and Employee Satisfaction](/companies/benefits.html#recruiting-and-employee-satisfaction)
+[Recruiting and Employee Satisfaction](/companies/benefits.html#recruiting-and-employee-satisfaction))
 
 This goes [far beyond code contributions](/contributors/non-code.html), 
 although that is the most obvious and visible way that you can participate.
