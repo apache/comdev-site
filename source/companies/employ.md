@@ -70,7 +70,7 @@ whole remains healthy.
 3. Start with small, manageable contributions
 4. Build relationships within project communities
 5. Gradually increase involvement and responsibility (See [Becoming a
-   committer](/contributors/becomingacommitter.html)
+   committer](/contributors/becomingacommitter.html))
 
 Companies that invest in employing open source contributors create a sustainable model that benefits the entire ecosystem while building internal expertise and community relationships.
 
