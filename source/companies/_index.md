@@ -4,19 +4,21 @@ url: /companies/
 tags: ["companies", "business", "navigation"]
 ---
 
-# Companies and Open Source
+# Why your company should participate in ASF projects
 
-All modern digital infrastructure is dependent on open source software.
+All modern digital infrastructure is dependent on open source software,
+and **ASF projects are everywhere**.
 Companies must think strategically about how they will engage with the
 open source projects on which they rely in order to ensure
-sustainability, and influence the direction of these projects for the
-benefit of their customers.
+sustainability, and **influence the direction of these projects** for the
+benefit of their customers. 
 
 ## [Benefits to Companies](/companies/benefits.html)
 
 Active participation in open source projects provides significant
-strategic and operational benefits to companies, from talent
-acquisition to technology innovation and market positioning.
+strategic and operational benefits to companies, including talent
+acquisition, influence over industry standards, strong company
+partnerships, and greater customer trust.<br />
 [[Read more ...](/companies/benefits.html)]
 
 ## Ways to contribute
