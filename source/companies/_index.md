@@ -14,7 +14,10 @@ benefit of their customers.
 
 ## [Benefits to Companies](/companies/benefits.html)
 
-Active participation in open source projects provides significant strategic and operational benefits to companies, from talent acquisition to technology innovation and market positioning.
+Active participation in open source projects provides significant
+strategic and operational benefits to companies, from talent
+acquisition to technology innovation and market positioning.
+[[Read more ...](/companies/benefits.html)
 
 ## Ways to contribute
 
@@ -30,10 +33,9 @@ considered.
 
 [![employ](/images/company-employ.jpg)](/companies/employ.html)
 
-The most effective way companies support ASF projects is by employing 
-developers, and other professionals, who contribute directly to
-projects. This includes not just code contributions, but 
-documentation, community management, testing, design, and advocacy work.
+Support ASF projects by employing developers, and other professionals,
+who contribute directly to projects. This includes code 
+contributions, documentation, community management, testing, design, and advocacy work.
 [[Read more ...](/companies/employ.html)]
     </div><!-- End Employ -->
 
