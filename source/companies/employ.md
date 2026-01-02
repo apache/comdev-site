@@ -180,8 +180,11 @@ will be willing to work with you.
 1. Identify projects your company already uses or depends on
 2. Connect with existing contributors in your organization
 3. Start with small, manageable contributions
-4. Build relationships within project communities
-5. Gradually increase involvement and responsibility (See [Becoming a
+4. Consider sending a weekly/monthly update to the project dev list
+   about what you're focusing on. (Discuss this with the project first
+   to be sure it's welcome.)
+5. Build relationships within project communities
+6. Gradually increase involvement and responsibility (See [Becoming a
    committer](/contributors/becomingacommitter.html))
 
 *Companies that invest in employing open source contributors create a sustainable model that benefits the entire ecosystem while building internal expertise and community relationships.*
