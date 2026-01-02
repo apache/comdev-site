@@ -6,13 +6,16 @@ tags: ["companies", "advocacy", "branding"]
 
 # Open Source Advocacy
 
-Advocating for ASF projects, while respecting the project's independence
-and honoring the project's brands, can significantly drive adoption of
-the project, which can advance your own company's business
+TO BE WRITTEN:
 
-While it's fine to associate your company's name and reputation with an
-ASF project, you must do it in ways that don't confuse or mislead the
-public about the project's independence.
+Focus on:
+* Appropropriate (and inappropriate) ways to associate your own company
+  with the success of a project.
+* Third-party events/conferences
+* Respectig brand policy
+* Talk directly about ways NOT to use ASF brands
+* Ways to train/educate your marketing/sales folks so that you don't end
+  up burning trust.
 
 Be sure your marketing department understands and respects the [ASF Trademark
 Policy](https://www.apache.org/foundation/marks/).
