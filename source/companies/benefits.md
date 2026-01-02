@@ -57,7 +57,7 @@ customers, and building strategic partnerships with other companies
 working in the same space.
 
 And by collaborating with your peers on the common tasks, you'll be able
-to better focus on what is your unique business differentiators.
+to better focus on your unique business differentiators.
 Collaborate on what all share; Compete where you excel.
 
 *The benefits of open source participation compound over time, creating
