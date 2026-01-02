@@ -35,9 +35,8 @@ considered.
 
 [![employ](/images/company-employ.jpg)](/companies/employ.html)
 
-Support ASF projects by employing developers, and other professionals,
-who contribute directly to projects. This includes code 
-contributions, documentation, community management, testing, design, and advocacy work.<br />
+Support ASF projects by employing, or otherwise financially supportiong, developers, and other professionals,
+who contribute directly to projects.<br />
 [[Read more ...](/companies/employ.html)]
     </div><!-- End Employ -->
 
@@ -48,10 +47,8 @@ contributions, documentation, community management, testing, design, and advocac
 
 [![sponsor](/images/company-sponsor.jpg)](/companies/sponsor.html)
 
-Companies can provide crucial financial support through ASF 
-sponsorship, in-kind donation of services, Community Over Code 
-conference sponsorship, local meetup support, and direct 
-contributor support programs.<br />
+Sponsor the ASF, the Community Over Code conference, project events,
+and local meetups.<br />
 [[Read more ...](/companies/sponsor.html)]
 
 </div> <!-- End Sponsor -->
@@ -64,8 +61,7 @@ contributor support programs.<br />
 [![advocacy](/images/company-advocacy.jpg)](/companies/advocacy.html)
 
 Companies can advocate for ASF project adoption both publicly and with 
-their customers, while appropriately using open source project brands 
-and promoting the value of community-driven development.<br />
+their customers, while appropriately using open source project brands.<br />
 [[Read more ...](/companies/advocacy.html)]
     </div> <!-- End Advocacy-->
 </div> <!-- End Row -->
