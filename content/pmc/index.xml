@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project Management Committees on ASF Community Development</title>
+    <link>https://community.apache.org/pmc/</link>
+    <description>Recent content in Project Management Committees on ASF Community Development</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://community.apache.org/pmc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adding Committers</title>
+      <link>https://community.apache.org/pmc/adding-committers.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/pmc/adding-committers.html</guid>
+      <description>&lt;p&gt;Identifying potential new committers, calling a vote for their recognition&#xA;as a committer and processing the relevant documents are tasks to which&#xA;the whole community can contribute.&lt;/p&gt;&#xA;&lt;p&gt;Each project has a different approach to managing new committers. This page&#xA;describes a common process found in many Apache projects. It also provides&#xA;draft templates for the various communications that are necessary.&lt;/p&gt;&#xA;&lt;p&gt;Some of the PMCs automatically make committers PMC members. The templates below&#xA;have conditional &lt;code&gt;[if]&lt;/code&gt; clauses for that.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Adding PMC members</title>
+      <link>https://community.apache.org/pmc/adding-pmc-members.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/pmc/adding-pmc-members.html</guid>
+      <description>&lt;p&gt;This document describes a typical Apache project&amp;rsquo;s process for handling the&#xA;vote to add a new PMC (Project Management Committee) member - when it is&#xA;separate from becoming committer.&lt;/p&gt;&#xA;&lt;p&gt;Templates mentioned in the process appear [#NewPMCMember-EmailTemplates](later in&#xA;this document). If your PMC adds automatically committers as PMC members, the process&#xA;for doing both at the same time is described in the &lt;a href=&#34;https://community.apache.org/pmc/adding-committers.html&#34;&gt;New&#xA;committer&lt;/a&gt; advice.&lt;/p&gt;&#xA;&lt;p&gt;The &lt;a href=&#34;https://community.apache.org/contributor-ladder.html&#34;&gt;Contributor Ladder&lt;/a&gt; helps&#xA;explain different roles.&lt;/p&gt;&#xA;&lt;nav id=&#34;TableOfContents&#34;&gt;&#xA;  &lt;ul&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#tldr---inviting-a-new-pmc-member&#34;&gt;TL;DR - Inviting a new PMC member&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#guidelines-for-inviting-a-new-pmc-member&#34;&gt;Guidelines for inviting a new PMC member&lt;/a&gt;&#xA;      &lt;ul&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#discussion&#34;&gt;Discussion&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#vote&#34;&gt;Vote&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#invitation-and-welcome&#34;&gt;Invitation and welcome&lt;/a&gt;&lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#email-templates&#34;&gt;Email Templates&lt;/a&gt;&lt;/li&gt;&#xA;  &lt;/ul&gt;&#xA;&lt;/nav&gt;&#xA;&lt;p&gt;&lt;span id=&#34;NewPMCMember-Summary&#34;&gt;&lt;/span&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Community Growth</title>
+      <link>https://community.apache.org/pmc/community-growth.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/pmc/community-growth.html</guid>
+      <description>&lt;p&gt;Building a thriving project community requires intentional effort.&#xA;This guide provides practical strategies to attract contributors to your&#xA;project, and engage them in it.&lt;/p&gt;&#xA;&lt;nav id=&#34;TableOfContents&#34;&gt;&#xA;  &lt;ul&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#publish-a-roadmap&#34;&gt;Publish a roadmap&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#periodically-publish-the-open-issue-list&#34;&gt;Periodically publish the open issue list&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#clearly-document-contribution-processes&#34;&gt;Clearly document contribution processes&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#publish-your-contributor-ladder&#34;&gt;Publish your contributor ladder&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#engage-with-big-users&#34;&gt;Engage with big users&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#be-transparent-about-project-risk&#34;&gt;Be transparent about project risk&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#come-talk-to-us&#34;&gt;Come talk to us&lt;/a&gt;&lt;/li&gt;&#xA;  &lt;/ul&gt;&#xA;&lt;/nav&gt;&#xA;&lt;h2 id=&#34;publish-a-roadmap&#34;&gt;Publish a roadmap &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#publish-a-roadmap&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;While volunteers choose their own contributions, providing direction&#xA;helps them find meaningful ways to get involved. Publishing a roadmap&#xA;or wishlist of desired features and improvements gives potential&#xA;contributors clear entry points.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>New PMC Members</title>
+      <link>https://community.apache.org/pmc/new-member.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/pmc/new-member.html</guid>
+      <description>&lt;p&gt;Congratulations on your invitation to join a project PMC! Here&amp;rsquo;s what&#xA;you should do next.&lt;/p&gt;&#xA;&lt;p&gt;Joining an ASF Project Management Committee represents more than&#xA;recognition of your contributions. You take on a new level of responsibility&#xA;for the project&amp;rsquo;s health and sustainability. The Board of Directors&#xA;relies on you to provide oversight of the project code and community.&lt;/p&gt;&#xA;&lt;h2 id=&#34;join-the-conversation&#34;&gt;Join the conversation &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#join-the-conversation&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Subscribe to the PMC/Private mailing list if you haven&amp;rsquo;t already. This&#xA;list handles confidential PMC business and serves as the Board&amp;rsquo;s&#xA;communication channel with the PMC.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PMC Chair</title>
+      <link>https://community.apache.org/pmc/chair.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/pmc/chair.html</guid>
+      <description>&lt;p&gt;The PMC Chair serves as the project&amp;rsquo;s voice to the board and handles&#xA;quarterly reporting.&lt;/p&gt;&#xA;&lt;p&gt;While typically a senior, respected community leader, the Chair is&#xA;&lt;strong&gt;not&lt;/strong&gt; the project leader but a peer among PMC members, with the same&#xA;voting rights and authority as other PMC members, who has accepted&#xA;additional secretarial and spokesperson responsibilities.&lt;/p&gt;&#xA;&lt;p&gt;The Chair must familiarize themselves with the &lt;a href=&#34;https://www.apache.org/dev/pmc.html#chair&#34;&gt;assigned&#xA;duties&lt;/a&gt; of the role.&lt;/p&gt;&#xA;&lt;nav id=&#34;TableOfContents&#34;&gt;&#xA;  &lt;ul&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#secretarial-duties&#34;&gt;Secretarial duties&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#reporting&#34;&gt;Reporting&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#moderating-discussion&#34;&gt;Moderating discussion&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#selecting-a-new-chair&#34;&gt;Selecting a new Chair&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#see-also&#34;&gt;See also:&lt;/a&gt;&lt;/li&gt;&#xA;  &lt;/ul&gt;&#xA;&lt;/nav&gt;&#xA;&lt;h2 id=&#34;secretarial-duties&#34;&gt;Secretarial duties &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#secretarial-duties&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;The Chair is responsible for completing the necessary processes when&#xA;the PMC adds committers and members.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PMC Reporting</title>
+      <link>https://community.apache.org/pmc/reporting.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/pmc/reporting.html</guid>
+      <description>&lt;p&gt;Each PMC must submit a quarterly report to the Board of Directors&#xA;according to a schedule set by the Board.&lt;/p&gt;&#xA;&lt;p&gt;You can find your project&amp;rsquo;s reporting schedule by visiting the&#xA;committee&amp;rsquo;s page on&#xA;&lt;a href=&#34;https://projects.apache.org/committees.html&#34;&gt;projects.apache.org&lt;/a&gt;. You&#xA;will also receive a reminder from the Secretary a few weeks prior to&#xA;your report&amp;rsquo;s due date.&lt;/p&gt;&#xA;&lt;p&gt;The &lt;em&gt;official&lt;/em&gt; record of PMC reporting schedules is the file&#xA;&lt;a href=&#34;https://svn.apache.org/repos/private/committers/board/committee-info.txt&#34;&gt;committee-info.txt&lt;/a&gt;&#xA;(requires password authentication).&lt;/p&gt;&#xA;&lt;p&gt;The complete detailed policy and process for reporting may be found on&#xA;the &lt;a href=&#34;https://www.apache.org/foundation/board/reporting&#34;&gt;board website&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PMC Responsibilities</title>
+      <link>https://community.apache.org/pmc/responsibilities.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/pmc/responsibilities.html</guid>
+      <description>&lt;p&gt;The Project Management Committee (PMC) oversees the project, including&#xA;technical decisions, ensuring compliance with ASF standards, adding&#xA;new members, and approving releases.&lt;/p&gt;&#xA;&lt;nav id=&#34;TableOfContents&#34;&gt;&#xA;  &lt;ul&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#conducting-business&#34;&gt;Conducting Business&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#protecting-your-brand&#34;&gt;Protecting your brand&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#making-a-release&#34;&gt;Making a release&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#ensuring-project-health&#34;&gt;Ensuring Project Health&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#adding-community-members&#34;&gt;Adding Community Members&lt;/a&gt;&lt;/li&gt;&#xA;  &lt;/ul&gt;&#xA;&lt;/nav&gt;&#xA;&lt;h2 id=&#34;conducting-business&#34;&gt;Conducting Business &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#conducting-business&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;The PMC must conduct all business on the public developers&amp;rsquo; mailing list,&#xA;maintaining full community visibility.&lt;/p&gt;&#xA;&lt;p&gt;Every PMC has a private@ list reserved for confidential matters such as&#xA;discussing proposed committers, potential PMC members, or security issues.&#xA;Do not use the private list to discuss features, roadmap discussions, or other&#xA;technical decisions, as this cuts the community out of the process.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
