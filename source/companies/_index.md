@@ -35,7 +35,7 @@ considered.
 
 [![employ](/images/company-employ.jpg)](/companies/employ.html)
 
-Support ASF projects by employing, or otherwise financially supportiong, developers, and other professionals,
+Support ASF projects by employing, or otherwise financially supporting, developers, and other professionals,
 who contribute directly to projects.<br />
 [[Read more ...](/companies/employ.html)]
     </div><!-- End Employ -->
