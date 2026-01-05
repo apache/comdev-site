@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+  <meta name="description" content="Apache Community Development">
+  <meta name="keywords" content="apache, apache community, community development, opensource">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" >
+  <meta property="og:url" content="https://community.apache.org/contributors/mailing-lists.html">
+  <meta property="og:site_name" content="ASF Community Development">
+  <meta property="og:title" content="Mailing lists">
+  <meta property="og:description" content="The ASF has a long tradition of using mailing lists as the primary communication format in projects. This is not merely because we’ve always done it that way, but is an intentional decision for the health and sustainability of our communities.
+Inclusion and transparency Mailing list etiquette Meaningful subject lines Inline vs top-posting HTML and “rich text” messages Colloquialisms Mailing list configuration Configuring where to send things Configuring the subject lines of the emails being sent Conclusion Inclusion and transparency ¶ Mailing lists ensure that all members of the community can participate on a level field, regardless of time zone or availability, whereas synchronous communication platforms (IRC, Slack, Discord, etc.) benefit only those who are online, and in the channel, at the time of the conversation.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="contributors">
+    <meta property="article:modified_time" content="2025-09-26T15:52:47-04:00">
+    <meta property="article:tag" content="Communication">
+    <meta property="article:tag" content="Mailing-Lists">
+    <meta property="article:tag" content="Etiquette">
+    <meta property="og:image" content="https://community.apache.org/images/project-logos.webp">
+
+
+  <title>Apache Community Development - Mailing lists</title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link href="/css/main.css" rel="stylesheet" media="screen">
+  <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <style>
+      .footer {
+          text-align:center;
+          color:grey;
+          font-size:80%;
+          border-top: solid #ddd 1px;
+          margin-top:1em;
+      }
+      .navbar-brand img {
+          height: 50px;
+      }
+  </style>
+
+  
+<script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(['disableCookies']);
+   
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.apache.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '36']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+
+  
+
+</head>
+
+<body>
+  <header class="navbar navbar-expand-lg navbar-dark bg-bright fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+    <img src="https://apache.org/img/asf_logo.png" alt="Apache Software Foundation">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="mainNavbar">
+    <div class="container"> 
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="homeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Home
+            </a>
+            <div class="dropdown-menu" aria-labelledby="homeDropdown">
+              <a class="dropdown-item" href="/">Homepage</a>
+              <a class="dropdown-item" href="/tags/">Tags</a>
+              <a class="dropdown-item" href="/blog/">Blog</a>
+              <a class="dropdown-item" href="/tags/navigation.html">Navigation pages</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About
+          </a>
+          <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+            <a class="dropdown-item" href="/about/">What We Do</a>
+            <a class="dropdown-item" href="/newbiefaq.html">Frequently Asked Questions</a>
+            <a class="dropdown-item" href="/projectIndependence.html">Apache Project Independence</a>
+            <a class="dropdown-item" href="/apache-way/apache-project-maturity-model.html">Apache Project Maturity Model</a>
+            <a class="dropdown-item" href="/contactpoints.html">Contact Points Within the ASF</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html#2009-11-01">ComDev Original Board Resolution</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html">ComDev Board Reports</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/COMDEV">Community Development Jira</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">About Apache</a>
+            <a class="dropdown-item" href="https://www.apache.org/">The Apache Software Foundation</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/sponsorship">Sponsor Apache</a>
+            <a class="dropdown-item" href="http://diversity.apache.org/">Diversity & Inclusion</a>
+             <a class="dropdown-item" href="/contributors/asf-volunteers.html">Mentors &amp; Speakers</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/thanks">Thanks to our Sponsors</a>
+            <a class="dropdown-item" href="https://www.apache.org/licenses">License</a>
+            <a class="dropdown-item" href="https://www.apache.org/security">Security</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="contribDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Contributing
+          </a>
+          <div class="dropdown-menu" aria-labelledby="contribDropdown">
+            <a class="dropdown-item" href="/contributor-ladder.html">Contributor Ladder</a>
+            <a class="dropdown-item" href="/newcomers/">Getting Started at Apache</a>
+            <a class="dropdown-item" href="/contributors/">Contributing to projects</a>
+            <a class="dropdown-item" href="/committers/">Committers</a>
+            <a class="dropdown-item" href="/pmc/">PMC Members</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">Committer and PMC Information</a>
+            <a class="dropdown-item" href="https://www.apache.org/dev/">Technical Developer FAQs</a>
+            <a class="dropdown-item" href="/committers/decisionMaking.html">Decision Making</a>
+            <a class="dropdown-item" href="/committers/good-first-issues.html">Good First Issues</a>
+            <a class="dropdown-item" href="/pmc/community-growth.html">Recruiting New Contributors</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="gsocDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">GSoC</a>
+          <div class="dropdown-menu" aria-labelledby="gsocDropdown">
+            <a class="dropdown-item" href="/gsoc/">Google Summer Of Code Information</a>
+            <a class="dropdown-item" href="/gsoc/mentee-ranking-process.html">Mentee Ranking Process</a>
+            <a class="dropdown-item" href="/gsoc/experiences/">Past GSoC Experiences</a>
+            <a class="dropdown-item" href="/gsoc/guide-to-being-a-mentor.html">Guide to being a Mentor</a>
+            <a class="dropdown-item" href="/gsoc/use-the-comdev-gsoc-issue-tracker-for-gsoc-tasks.html">Using ComDev's Jira for GSoC Ideas</a>
+            <a class="dropdown-item" href="/gsoc/gsoc-admin-tasks.html">Tasks of a GSoC Admin at the ASF</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/GSOC">GSoC Jira</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="eventDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Events
+          </a>
+          <div class="dropdown-menu" aria-labelledby="eventDropdown">
+            <a class="dropdown-item" href="https://apachecon.com/">Community Over Code - (formerly ApacheCon)</a>
+            <a class="dropdown-item" href="https://events.apache.org/">Other Apache-related Events</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/marks/events">Apache event branding policies</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">Conference Speakers</a>
+            <a class="dropdown-item" href="/speakers/">Speaker resources</a>
+            <a class="dropdown-item" href="/speakers/slides.html">Sample presentations</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="wgDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Working Groups
+          </a>
+          <div class="dropdown-menu" aria-labelledby="wgDropdown">
+            <a class="dropdown-item" href="/workinggroups/">Working Groups</a>
+            <a class="dropdown-item" href="https://github.com/apache/comdev-working-groups">Git repositories</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="conversDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Join the Conversation
+          </a>
+          <div class="dropdown-menu" aria-labelledby="conversDropdown">
+            <a class="dropdown-item" href="/blog/">Blog</a>
+            <a class="dropdown-item" href="https://www.facebook.com/ApacheSoftwareFoundation">Facebook</a>
+            <a class="dropdown-item" href="https://twitter.com/ApacheCommunity">Twitter</a>
+            <a class="dropdown-item" href="/lists.html">Mailing List</a>
+            <a class="dropdown-item" href="https://cwiki.apache.org/confluence/display/COMDEV/Apache+Local+Community+-+ALC">ALC: Apache Local Communities</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+    </div>
+  </header>
+
+  <main class="cd-main" id="content" role="main">
+    <div class="container">
+      
+      <hr>
+       
+<ul class="tags-list">
+  
+  <li>
+    <a href="https://community.apache.org/tags/communication.html">communication</a>
+  </li>
+  <li>
+    <a href="https://community.apache.org/tags/mailing-lists.html">mailing-lists</a>
+  </li>
+  <li>
+    <a href="https://community.apache.org/tags/etiquette.html">etiquette</a>
+  </li></ul>
+
+      
+	
+	<br><br>
+	<p>The ASF has a long tradition of using mailing lists as the primary
+communication format in projects. This is not merely because we&rsquo;ve
+always done it that way, but is an intentional decision for the health
+and sustainability of our communities.</p>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#inclusion-and-transparency">Inclusion and transparency</a></li>
+    <li><a href="#mailing-list-etiquette">Mailing list etiquette</a>
+      <ul>
+        <li><a href="#meaningful-subject-lines">Meaningful subject lines</a></li>
+        <li><a href="#inline-vs-top-posting">Inline vs top-posting</a></li>
+        <li><a href="#html-and-rich-text-messages">HTML and &ldquo;rich text&rdquo; messages</a></li>
+        <li><a href="#colloquialisms">Colloquialisms</a></li>
+      </ul>
+    </li>
+    <li><a href="#mailing-list-configuration">Mailing list configuration</a>
+      <ul>
+        <li><a href="#configuring-where-to-send-things">Configuring where to send things</a></li>
+        <li><a href="#configuring-the-subject-lines-of-the-emails-being-sent">Configuring the subject lines of the emails being sent</a></li>
+        <li><a href="#conclusion">Conclusion</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+<h2 id="inclusion-and-transparency">Inclusion and transparency <a class="headerlink" title="Permalink" href="#inclusion-and-transparency">&para;</a></h2>
+<p>Mailing lists ensure that all members of the community can participate
+on a level field, regardless of time zone or availability, whereas
+synchronous communication platforms (IRC, Slack, Discord, etc.) benefit
+only those who are online, and in the channel, at the time of the
+conversation.</p>
+<p>Mailing lists are also <a href="https://lists.apache.org/">permanently and publicly archived</a>,
+so that decisions can be understood
+by people who were not there at the time - what was decided, why, and by
+whom - even years after the fact.</p>
+<p>Synchronous communication platforms are great for end-user support,
+where an answer is needed quickly, and asking for clarification can be
+done real-time. It&rsquo;s also good for social interactions, and for quick
+brainstorming.</p>
+<p>But decisions, and important technical discussions, should be taken back
+to the mailing list so that the whole community can participate.</p>
+<p>This is why we say, at the ASF, <strong>If it didn&rsquo;t happen on the mailing
+list, it didn&rsquo;t happen.</strong></p>
+<h2 id="mailing-list-etiquette">Mailing list etiquette <a class="headerlink" title="Permalink" href="#mailing-list-etiquette">&para;</a></h2>
+<p>What you send to ASF mailing lists is <a href="https://lists.apache.org/">archived, publicly, forever</a>. But
+that&rsquo;s not the only reason for observing basic email etiquette. We
+expect you to conduct yourself politely on our mailing lists, because
+this is where we work, communicate, and build community. Here&rsquo;s a few
+tips. See also <a href="https://community.apache.org/contributors/etiquette.html">general etiquette tips</a>.</p>
+<h3 id="meaningful-subject-lines">Meaningful subject lines <a class="headerlink" title="Permalink" href="#meaningful-subject-lines">&para;</a></h3>
+<p>Your subject line largely determines whether anyone reads what you
+write. Try to summarize the topic that you wish to discuss as concisely
+as possible.</p>
+<p>If an email thread starts to diverge <em>substantially</em> from the original topic, change the
+subject line to reflect the direction that the thread has taken.</p>
+<h3 id="inline-vs-top-posting">Inline vs top-posting <a class="headerlink" title="Permalink" href="#inline-vs-top-posting">&para;</a></h3>
+<p>Most modern email clients default to top-posting - that is, putting the
+entire reply to a message above the quoted body of the message to which
+you are preferring.</p>
+<p>We encourage you, instead, to respond inline - that is, put each
+response after the quoted paragraph to which you are responding, so that
+the resulting message reads like a conversation. This makes it very
+clear which points you are responding to. You can then also delete the
+portions of the message that you are not responding to at all, making
+the resulting message self-contained, and not forcing everyone to
+re-read everything that has gone before in order to understand your
+response.</p>
+<h3 id="html-and-rich-text-messages">HTML and &ldquo;rich text&rdquo; messages <a class="headerlink" title="Permalink" href="#html-and-rich-text-messages">&para;</a></h3>
+<p>ASF communities tend to prefer plaintext email messages, rather than
+HTML or other so-called &ldquo;rich text&rdquo;. This makes messages more
+consistently readable on multiple devices, multiple operating systems,
+and multiple screen sizes. It also makes computer-consumption of these
+message easier, for the purpose of translation, screen readers, and
+other automatic ingestion and processing.</p>
+<h3 id="colloquialisms">Colloquialisms <a class="headerlink" title="Permalink" href="#colloquialisms">&para;</a></h3>
+<p>When you speak to your friends and colleagues, you can, and
+usually do, use idioms, slang, colloquialisms, metaphors, and other
+locally-understood figures of speech.</p>
+<p>But when you&rsquo;re writing to an open source mailing list, your audience is
+much more diverse, including people all around the world, who are likely
+to not understand these phrases.</p>
+<p>Write clearly, plainly, and without resorting to figures of speech,
+wherever possible. If you use slang or a metaphor, consider linking to a
+definition or explanation. Remember that not everyone reading your
+message speaks your language natively. Including them in the
+conversation is essential to collaboration.</p>
+<p>ASF mailing lists default to English, unless specified otherwise.</p>
+<!--
+
+TODO:
+
+This stuff about configuring mailing lists should really be under
+/committers rather than here, since you can't make any of these changes
+until you're a committer.
+
+-->
+<h2 id="mailing-list-configuration">Mailing list configuration <a class="headerlink" title="Permalink" href="#mailing-list-configuration">&para;</a></h2>
+<p>Modern software development tools, including GitHub, your various ticket
+trackers, and CI tools, generate a lot of email. This can make your
+development mailing list difficult to approach for new contributors, as
+they appear as a wall of identical subject lines. This makes it hard for
+beginners to break into your project, and find out what&rsquo;s going on.</p>
+<p>Here&rsquo;s some configuration tips for your mailing lists to cut through the
+noise and make your project&rsquo;s lists more approachable and welcoming.</p>
+<p>Infra is providing some tooling to implement the automatically sent emails.
+There are generally two important parts:</p>
+<ol>
+<li>Where should stuff be sent</li>
+<li>How should the subject lines be built up</li>
+</ol>
+<p>Both these settings are done in your repositories <code>.asf.yaml</code> file.
+Please refer to the full
+<a href="https://cwiki.apache.org/confluence/display/INFRA/Git+-+.asf.yaml+features">documentation of .asf.yaml features</a></p>
+<h3 id="configuring-where-to-send-things">Configuring where to send things <a class="headerlink" title="Permalink" href="#configuring-where-to-send-things">&para;</a></h3>
+<p>In order to configure where to send emails, please add or update the
+<code>notifications</code> section in your <code>.asf.yaml</code>.</p>
+<pre tabindex="0"><code>notifications:
+  commits:      commits@foo.apache.org
+  issues:       dev@foo.apache.org
+  pullrequests: dev@foo.apache.org
+  jobs:         dev@foo.apache.org
+  discussions:  dev@foo.apache.org
+</code></pre><p>This will sort of make everything go to your <code>dev</code>-list.
+Some projects have sent some of these to other lists, as the amount
+of emails sent from GitHub was too excessive. I will explain in the
+next chapter how to make this flood of emails manageable.</p>
+<p>One thing that might be anoying, expecially for project with many
+third party dependencies, might be that dependabot will also be
+flooding your mailinglist with pretty atomic mini pull-requests.</p>
+<p>In many projects we therefore forward dependabot emails to the
+commits list.</p>
+<pre tabindex="0"><code>notifications:
+  commits:      commits@foo.apache.org
+  issues:       dev@foo.apache.org
+  pullrequests: dev@foo.apache.org
+  jobs:         dev@foo.apache.org
+  discussions:  dev@foo.apache.org
+  # Send dependabot PRs to commits@ instead
+  pullrequests_bot_dependabot: commits@foo.apache.org
+</code></pre><h3 id="configuring-the-subject-lines-of-the-emails-being-sent">Configuring the subject lines of the emails being sent <a class="headerlink" title="Permalink" href="#configuring-the-subject-lines-of-the-emails-being-sent">&para;</a></h3>
+<p>If not explicitly managing the subject lines, the defaults are as follows (These are the new defaults which are valid starting October 1st 2023):</p>
+<pre tabindex="0"><code>github:
+  custom_subjects:
+    new_pr: &#34;[PR] {title} ({repository})&#34;
+    close_pr: &#34;Re: [PR] {title} ({repository})&#34;
+    comment_pr: &#34;Re: [PR] {title} ({repository})&#34;
+    merge_pr: &#34;Re: [PR] {title} ({repository})&#34;
+    new_issue: &#34;[I] {title} ({repository})&#34;
+    comment_issue: &#34;Re: [I] {title} ({repository})&#34;
+    close_issue: &#34;Re: [I] {title} ({repository})&#34;
+    catchall: &#34;[GH] {title} ({repository})&#34;
+    new_discussion: &#34;[D] {title} ({repository})&#34;
+    edit_discussion: &#34;Re: [D] {title} ({repository})&#34;
+    close_discussion: &#34;Re: [D] {title} ({repository})&#34;
+    close_discussion_with_comment: &#34;Re: [D] {title} ({repository})&#34;
+    reopen_discussion: &#34;Re: [D] {title} ({repository})&#34;
+    new_comment_discussion: &#34;Re: [D] {title} ({repository})&#34;
+    edit_comment_discussion: &#34;Re: [D] {title} ({repository})&#34;
+    delete_comment_discussion: &#34;Re: [D] {title} ({repository})&#34;
+</code></pre><p>In general, you can use any of the following variables in your custom subject lines (However some only apply to some types of messages. If this is the case, it is noted in the line what types of messages they apply to):</p>
+<ul>
+<li><code>{action}</code>: The generic action that happened (created/deleted/edited)</li>
+<li><code>{user}</code>: The GitHub user than initiated the action</li>
+<li><code>{title}</code>: The title of the discussion that was affected</li>
+<li><code>{category}</code>: The category slug for the discussion</li>
+<li><code>{url}</code>: The URL for the discussion or comment that was affected (Discussions)</li>
+<li><code>{link}</code>: The URL for the issue or pr that was affected (PRs and Issues)</li>
+<li><code>{body}</code>: The body of text, either the discussion itself or a comment.</li>
+<li><code>{action_human}</code>: If a comment happened, this is a human readable representation of the action</li>
+<li><code>{recipient}</code>: The mailing list this was sent to</li>
+<li><code>{unsub}</code>: The unsubscribe address of the mailing list this was sent to</li>
+<li><code>{pr_id}</code>: The GitHub pull-request id related to the action (PRs)</li>
+<li><code>{issue_id}</code>: The GitHub issue id related to the action (Issues)</li>
+</ul>
+<p>If your project uses multiple github repositories, we recommend using the <code>repository</code> variable to let people know which repo the email is related to.
+If your project is a single-repo project (or for the other repositories GitHub integration is not enabled or not used much) feel free to also remove that part.</p>
+<pre tabindex="0"><code>github:
+  custom_subjects:
+    new_pr: &#34;[PR] {title}&#34;
+    close_pr: &#34;Re: [PR] {title}&#34;
+    comment_pr: &#34;Re: [PR] {title}&#34;
+    merge_pr: &#34;Re: [PR] {title}&#34;
+    new_issue: &#34;[I] {title}&#34;
+    comment_issue: &#34;Re: [I] {title}&#34;
+    close_issue: &#34;Re: [I] {title}&#34;
+    catchall: &#34;[GH] {title}&#34;
+    new_discussion: &#34;[D] {title}&#34;
+    edit_discussion: &#34;Re: [D] {title}&#34;
+    close_discussion: &#34;Re: [D] {title}&#34;
+    close_discussion_with_comment: &#34;Re: [D] {title}&#34;
+    reopen_discussion: &#34;Re: [D] {title}&#34;
+    new_comment_discussion: &#34;Re: [D] {title}&#34;
+    edit_comment_discussion: &#34;Re: [D] {title}&#34;
+    delete_comment_discussion: &#34;Re: [D] {title}&#34;
+</code></pre><h4 id="using-the-old-defaults-prior-to-october-1st-2023">Using the old defaults (prior to October 1st 2023) <a class="headerlink" title="Permalink" href="#using-the-old-defaults-prior-to-october-1st-2023">&para;</a></h4>
+<p>If for any reason, you would like to use the old defaults that were valid till October 1st 2023, please use the following configuration:</p>
+<pre tabindex="0"><code>github:
+  custom_subjects:
+    new_pr: &#34;Created: PR {repository}/#{pr_id}: {title}&#34;
+    close_pr: &#34;Closed: PR {repository}/#{pr_id}: {title}&#34;
+    comment_pr: &#34;Commented: PR {repository}/#{pr_id}: {title}&#34;
+    merge_pr: &#34;Merged: PR {repository}/#{pr_id}: {title}&#34;
+    new_issue: &#34;Created: Issue {repository} {title}&#34;
+    comment_issue: &#34;Commented: Issue {repository} {title}&#34;
+    close_issue: &#34;Closed: Issue {repository} {title}&#34;
+    catchall: &#34;Updated: {repository}/#{issue_id}: {title}&#34;
+    new_discussion: &#34;Created: Discussion {repository}: {title}&#34;
+    edit_discussion: &#34;Edited: Discussion {repository}: {title}&#34;
+    close_discussion: &#34;Closed: Discussion {repository}: {title}&#34;
+    close_discussion_with_comment: &#34;Closed: Discussion with comment {repository}: {title}&#34;
+    reopen_discussion: &#34;Reopened: Discussion {repository}: {title}&#34;
+    new_comment_discussion: &#34;Commented: Discussion {repository}: {title}&#34;
+    edit_comment_discussion: &#34;Edited a comment: Discussion {repository}: {title}&#34;
+    delete_comment_discussion: &#34;Deleted a comment: Discussion {repository}: {title}&#34;
+</code></pre><h3 id="conclusion">Conclusion <a class="headerlink" title="Permalink" href="#conclusion">&para;</a></h3>
+<p>The custom templates help make the GitHub content readable on your
+mailinglist. It will therefore not feel as overwhelming as with the
+defaults. Moving dependabot to the commits lists, helped reduce the
+content with very little information.</p>
+<p>We would strongly encourage projects to keep as much of the discussions
+on their main mailingslist. If it&rsquo;s a larger project and still the
+volume is so high that it&rsquo;s overwhelming people, think about directing
+some of the content to other lists.</p>
+<p>Simply directing all GitHub content to dedicated mailing lists or
+lists nobody reads doesn&rsquo;t help with keeping the community knowledge
+available. Even if it&rsquo;s &ldquo;on the list&rdquo; somewhere, it doesn&rsquo;t really
+serve the reasoning behind the &ldquo;If if didn&rsquo;t happen on the list,
+it didn&rsquo;t happen&rdquo;.</p>
+<!--
+TODO:
+
+* Possibly split this page into a separate page about mailing list
+configuration
+* Discuss "standard" mailing list tags (ie [DISCUSS], [VOTE], and so on)
+-->
+
+
+    </div>
+  </main>
+
+  <footer class="page-footer bg-secondary mt-4 pt-3">
+    <div class="container text-center text-md-left mb-3">
+      <div class="row">
+        <div class="col-md-6 mt-md-0 mt-3">
+          <h5 class="text-uppercase">Trademarks</h5>
+          <p>
+            Apache&reg;, the names of Apache projects, and the Apache logo are
+            <a href="https://www.apache.org/foundation/marks/list/">registered trademarks or trademarks</a> of the Apache
+            Software Foundation in the United States and/or other countries.
+          </p>
+        </div>
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <div class="col-md-6 mb-md-0 mb-3">
+          <h5 class="text-uppercase">Website sources</h5>
+          <p>
+  This website is generated from the <a href="https://github.com/apache/comdev-site">comdev-site repository</a>
+  
+    <br>
+    Source of this page:
+      <a href="https://github.com/apache/comdev-site/blob/main/source/contributors/mailing-lists.md" title="Source of this page">
+        contributors/mailing-lists.md
+      </a>
+  
+</p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright text-center py-3">
+      <em>Copyright &copy; 2026, <a href="https://www.apache.org/">the Apache Software Foundation</a>. Licensed under the
+      <a rel="license" href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></em>
+    </div>
+  </footer>
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>

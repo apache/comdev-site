@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Companies and Open Source on ASF Community Development</title>
+    <link>https://community.apache.org/companies/</link>
+    <description>Recent content in Companies and Open Source on ASF Community Development</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://community.apache.org/companies/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Benefits of Open Source Participation</title>
+      <link>https://community.apache.org/companies/benefits.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/companies/benefits.html</guid>
+      <description>&lt;h1 id=&#34;benefits-of-asf-participation&#34;&gt;Benefits of ASF Participation &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#benefits-of-asf-participation&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;Companies that actively participate in ASF projects realize significant&#xA;strategic and operational advantages that extend far beyond cost savings.&#xA;It&amp;rsquo;s important to think strategically about how, where, and why you will&#xA;participate and measure impact.&lt;/p&gt;&#xA;&lt;h2 id=&#34;influence-the-roadmap&#34;&gt;Influence the roadmap &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#influence-the-roadmap&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;While it can sometimes take months, or years, to gain expertise and&#xA;trust in an established community, showing up to do the daily&#xA;project maintenance &amp;ndash; issue and PR triage; reviewing PRs; planning and&#xA;executing community events; answering user questions &amp;ndash; you&amp;rsquo;ll quickly&#xA;begin to establish that you can be trusted, which will make it easier&#xA;for you to influence the direction of the project.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Employing Open Source Contributors</title>
+      <link>https://community.apache.org/companies/employ.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/companies/employ.html</guid>
+      <description>&lt;h1 id=&#34;employing-open-source-contributors&#34;&gt;Employing Open Source Contributors &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#employing-open-source-contributors&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;If your business relies on an open source project, employing, or&#xA;otherwise financially supporting,&#xA;contributors to the project is the most effective way to ensure that&#xA;your priorities are reflected in project decisions.&#xA;(See also &lt;a href=&#34;https://community.apache.org/companies/benefits.html#recruiting-and-employee-satisfaction&#34;&gt;Recruiting and Employee&#xA;Satisfaction&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;This goes &lt;a href=&#34;https://community.apache.org/contributors/non-code.html&#34;&gt;far beyond code contributions&lt;/a&gt;,&#xA;although that is the most obvious and visible way that you can participate.&lt;/p&gt;&#xA;&lt;h2 id=&#34;effective-ways-to-contribute&#34;&gt;Effective ways to contribute &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#effective-ways-to-contribute&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;While many companies contribute here and there to open source projects,&#xA;having a carefully considered strategy for doing so will lead to more&#xA;consistent, measurable results, and greater influence in the project&amp;rsquo;s&#xA;decisions and roadmap.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Financial Sponsorship of Open Source</title>
+      <link>https://community.apache.org/companies/sponsor.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/companies/sponsor.html</guid>
+      <description>&lt;h1 id=&#34;financial-sponsorship&#34;&gt;Financial Sponsorship &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#financial-sponsorship&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;The sustainability of our projects relies on consistent funding for&#xA;infrastructure, legal services, marketing, events, and many other&#xA;expenses. Financial sponsorship is a direct way to participate in&#xA;keeping the lights on.&lt;/p&gt;&#xA;&lt;h2 id=&#34;asf-sponsorship&#34;&gt;ASF Sponsorship &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#asf-sponsorship&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Companies can sponsor the ASF with an &lt;a href=&#34;https://apache.org/foundation/sponsorship.html&#34;&gt;annual&#xA;donation&lt;/a&gt;,&#xA;&lt;a href=&#34;https://communityovercode.org&#34;&gt;conferences sponsorship&lt;/a&gt;,&#xA;targeted donations to a particular project, or in-kind donations of&#xA;products or services.&lt;/p&gt;&#xA;&lt;h2 id=&#34;event-and-meetup-sponsorship&#34;&gt;Event and meetup sponsorship &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#event-and-meetup-sponsorship&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;In addition to the &lt;a href=&#34;https://communityovercode.org&#34;&gt;main ASF conference&lt;/a&gt;,&#xA;many ASF projects have their own events. These are usually listed on&#xA;&lt;a href=&#34;https://events.apache.org&#34;&gt;events.apache.org&lt;/a&gt;, and announced within the&#xA;project community itself.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Open Source Advocacy</title>
+      <link>https://community.apache.org/companies/advocacy.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/companies/advocacy.html</guid>
+      <description>&lt;h1 id=&#34;open-source-advocacy&#34;&gt;Open Source Advocacy &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#open-source-advocacy&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;TO BE WRITTEN:&lt;/p&gt;&#xA;&lt;p&gt;Focus on:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Appropropriate (and inappropriate) ways to associate your own company&#xA;with the success of a project.&lt;/li&gt;&#xA;&lt;li&gt;Third-party events/conferences&lt;/li&gt;&#xA;&lt;li&gt;Respectig brand policy&lt;/li&gt;&#xA;&lt;li&gt;Talk directly about ways NOT to use ASF brands&lt;/li&gt;&#xA;&lt;li&gt;Ways to train/educate your marketing/sales folks so that you don&amp;rsquo;t end&#xA;up burning trust.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Be sure your marketing department understands and respects the &lt;a href=&#34;https://www.apache.org/foundation/marks/&#34;&gt;ASF Trademark&#xA;Policy&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;[&amp;hellip; To Do &amp;hellip;]&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
