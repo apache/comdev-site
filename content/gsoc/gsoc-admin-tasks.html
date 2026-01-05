@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+  <meta name="description" content="Apache Community Development">
+  <meta name="keywords" content="apache, apache community, community development, opensource">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" >
+  <meta property="og:url" content="https://community.apache.org/gsoc/gsoc-admin-tasks.html">
+  <meta property="og:site_name" content="ASF Community Development">
+  <meta property="og:title" content="GSoC admins">
+  <meta property="og:description" content="A comprehensive guide to being a GSoC admin for the ASF
+List of duties:
+Make sure the ASF has an extensive list of project ideas ready shortly after Google announces the program (around the end of January). Projects must create Jira issues for their ideas and label them with gsoc2026; and mentor. If a project doesn’t use Jira, have them create the ideas in the GSOC Jira project. Create a Jira filter for these ideas to use in the application (see next). Have prospective mentors subscribe to mentors@community.apache.org. The following is an email sent to pmcs@a.o explaining the procedures to them: Hello PMCs, Google Summer of Code is the ideal opportunity for you to attract new contributors to your projects. If you want to participate with your project you now need to - understand what it means to be a mentor [1] - propose your project ideas. Just label your issues with &#39;gsoc2026&#39; in Jira and they will show up at [2]. See also [1]. - subscribe to mentors@community.apache.org (restricted to potential mentors, meant to be used as a private list - general discussions on the public dev@community.apache.org list as much as possible, please) The ASF has applied as a participating organization with GSoC, so your project doesn&#39;t need to do that. See [3] for more information. Note that the ASF isn&#39;t accepted yet; nevertheless you *really* should start recording your ideas now. Last year we had XX students complete GSoC successfully, some of whom are now active contributors to the projects they worked on. Let&#39;s make this a success again this year! On behalf of the GSoC 2026 admins, Uli [1] https://community.apache.org/gsoc/guide-to-being-a-mentor.html [2] https://s.apache.org/gsoc2026tasks [3] https://community.apache.org/gsoc/ Update our GSoC pages at https://community.apache.org/gsoc/ with the current year’s timeline and at https://community.apache.org/gsoc/guide-to-being-a-mentor.html.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="gsoc">
+    <meta property="article:modified_time" content="2024-01-28T08:18:39+05:30">
+    <meta property="article:tag" content="Gsoc">
+    <meta property="article:tag" content="Mentoring">
+    <meta property="og:image" content="https://community.apache.org/images/project-logos.webp">
+
+
+  <title>Apache Community Development - GSoC admins</title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link href="/css/main.css" rel="stylesheet" media="screen">
+  <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <style>
+      .footer {
+          text-align:center;
+          color:grey;
+          font-size:80%;
+          border-top: solid #ddd 1px;
+          margin-top:1em;
+      }
+      .navbar-brand img {
+          height: 50px;
+      }
+  </style>
+
+  
+<script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(['disableCookies']);
+   
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.apache.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '36']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+
+  
+
+</head>
+
+<body>
+  <header class="navbar navbar-expand-lg navbar-dark bg-bright fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+    <img src="https://apache.org/img/asf_logo.png" alt="Apache Software Foundation">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="mainNavbar">
+    <div class="container"> 
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="homeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Home
+            </a>
+            <div class="dropdown-menu" aria-labelledby="homeDropdown">
+              <a class="dropdown-item" href="/">Homepage</a>
+              <a class="dropdown-item" href="/tags/">Tags</a>
+              <a class="dropdown-item" href="/blog/">Blog</a>
+              <a class="dropdown-item" href="/tags/navigation.html">Navigation pages</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About
+          </a>
+          <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+            <a class="dropdown-item" href="/about/">What We Do</a>
+            <a class="dropdown-item" href="/newbiefaq.html">Frequently Asked Questions</a>
+            <a class="dropdown-item" href="/projectIndependence.html">Apache Project Independence</a>
+            <a class="dropdown-item" href="/apache-way/apache-project-maturity-model.html">Apache Project Maturity Model</a>
+            <a class="dropdown-item" href="/contactpoints.html">Contact Points Within the ASF</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html#2009-11-01">ComDev Original Board Resolution</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html">ComDev Board Reports</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/COMDEV">Community Development Jira</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">About Apache</a>
+            <a class="dropdown-item" href="https://www.apache.org/">The Apache Software Foundation</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/sponsorship">Sponsor Apache</a>
+            <a class="dropdown-item" href="http://diversity.apache.org/">Diversity & Inclusion</a>
+             <a class="dropdown-item" href="/contributors/asf-volunteers.html">Mentors &amp; Speakers</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/thanks">Thanks to our Sponsors</a>
+            <a class="dropdown-item" href="https://www.apache.org/licenses">License</a>
+            <a class="dropdown-item" href="https://www.apache.org/security">Security</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="contribDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Contributing
+          </a>
+          <div class="dropdown-menu" aria-labelledby="contribDropdown">
+            <a class="dropdown-item" href="/contributor-ladder.html">Contributor Ladder</a>
+            <a class="dropdown-item" href="/newcomers/">Getting Started at Apache</a>
+            <a class="dropdown-item" href="/contributors/">Contributing to projects</a>
+            <a class="dropdown-item" href="/committers/">Committers</a>
+            <a class="dropdown-item" href="/pmc/">PMC Members</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">Committer and PMC Information</a>
+            <a class="dropdown-item" href="https://www.apache.org/dev/">Technical Developer FAQs</a>
+            <a class="dropdown-item" href="/committers/decisionMaking.html">Decision Making</a>
+            <a class="dropdown-item" href="/committers/good-first-issues.html">Good First Issues</a>
+            <a class="dropdown-item" href="/pmc/community-growth.html">Recruiting New Contributors</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="gsocDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">GSoC</a>
+          <div class="dropdown-menu" aria-labelledby="gsocDropdown">
+            <a class="dropdown-item" href="/gsoc/">Google Summer Of Code Information</a>
+            <a class="dropdown-item" href="/gsoc/mentee-ranking-process.html">Mentee Ranking Process</a>
+            <a class="dropdown-item" href="/gsoc/experiences/">Past GSoC Experiences</a>
+            <a class="dropdown-item" href="/gsoc/guide-to-being-a-mentor.html">Guide to being a Mentor</a>
+            <a class="dropdown-item" href="/gsoc/use-the-comdev-gsoc-issue-tracker-for-gsoc-tasks.html">Using ComDev's Jira for GSoC Ideas</a>
+            <a class="dropdown-item" href="/gsoc/gsoc-admin-tasks.html">Tasks of a GSoC Admin at the ASF</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/GSOC">GSoC Jira</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="eventDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Events
+          </a>
+          <div class="dropdown-menu" aria-labelledby="eventDropdown">
+            <a class="dropdown-item" href="https://apachecon.com/">Community Over Code - (formerly ApacheCon)</a>
+            <a class="dropdown-item" href="https://events.apache.org/">Other Apache-related Events</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/marks/events">Apache event branding policies</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">Conference Speakers</a>
+            <a class="dropdown-item" href="/speakers/">Speaker resources</a>
+            <a class="dropdown-item" href="/speakers/slides.html">Sample presentations</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="wgDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Working Groups
+          </a>
+          <div class="dropdown-menu" aria-labelledby="wgDropdown">
+            <a class="dropdown-item" href="/workinggroups/">Working Groups</a>
+            <a class="dropdown-item" href="https://github.com/apache/comdev-working-groups">Git repositories</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="conversDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Join the Conversation
+          </a>
+          <div class="dropdown-menu" aria-labelledby="conversDropdown">
+            <a class="dropdown-item" href="/blog/">Blog</a>
+            <a class="dropdown-item" href="https://www.facebook.com/ApacheSoftwareFoundation">Facebook</a>
+            <a class="dropdown-item" href="https://twitter.com/ApacheCommunity">Twitter</a>
+            <a class="dropdown-item" href="/lists.html">Mailing List</a>
+            <a class="dropdown-item" href="https://cwiki.apache.org/confluence/display/COMDEV/Apache+Local+Community+-+ALC">ALC: Apache Local Communities</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+    </div>
+  </header>
+
+  <main class="cd-main" id="content" role="main">
+    <div class="container">
+      
+      <hr>
+       
+<ul class="tags-list">
+  
+  <li>
+    <a href="https://community.apache.org/tags/gsoc.html">gsoc</a>
+  </li>
+  <li>
+    <a href="https://community.apache.org/tags/mentoring.html">mentoring</a>
+  </li></ul>
+
+      
+	
+	<br><br>
+	<p>A comprehensive guide to being a GSoC admin for the ASF</p>
+<p>List of duties:</p>
+<ol>
+<li>Make sure the ASF has an extensive list of project ideas ready shortly after Google announces the
+program (around the end of January). Projects must create Jira issues for their ideas and
+label them with <code>gsoc2026;</code> and <code>mentor</code>. If a project doesn&rsquo;t use Jira, have them create the ideas in the GSOC
+Jira project. Create a Jira filter for these ideas to use in the application (see next). Have
+prospective mentors subscribe to <code>mentors@community.apache.org</code>. The following is an email sent to <code>pmcs@a.o</code>
+explaining the procedures to them:</li>
+</ol>
+<pre>
+Hello PMCs,
+
+Google Summer of Code is the ideal opportunity for you to attract new
+contributors to your projects.
+
+If you want to participate with your project you now need to
+
+ - understand what it means to be a mentor [1]
+ - propose your project ideas. Just label your issues with 'gsoc2026' in Jira and
+   they will show up at [2]. See also [1].
+ - subscribe to mentors@community.apache.org (restricted to potential mentors, meant to be used
+   as a private list - general discussions on the public
+   dev@community.apache.org list as much as possible, please)
+
+The ASF has applied as a participating organization with GSoC, so your project
+doesn't need to do that. See [3] for more information. Note that the ASF isn't
+accepted yet; nevertheless you *really* should start recording your ideas now.
+
+Last year we had XX students complete GSoC successfully, some of whom are
+now active contributors to the projects they worked on. Let's make this a
+success again this year!
+
+On behalf of the GSoC 2026 admins,
+
+Uli
+
+[1] https://community.apache.org/gsoc/guide-to-being-a-mentor.html
+[2] https://s.apache.org/gsoc2026tasks
+[3] https://community.apache.org/gsoc/
+</pre>
+<ol>
+<li>
+<p>Update our GSoC pages at <a href="/gsoc/">https://community.apache.org/gsoc/</a> with the
+current year&rsquo;s timeline and at <a href="guide-to-being-a-mentor.html">https://community.apache.org/gsoc/guide-to-being-a-mentor.html</a>.</p>
+</li>
+<li>
+<p>Apply for the ASF to be a mentoring organization for Google Summer of Code.
+I faintly remember that they wanted to know some stats like how often we have
+already participated and what the number of students was last year. I believe
+the ASF has participated since GSoC&rsquo;s inception in 2005. Consult <a href="/gsoc/experiences.html">participation statistics</a>, although the page may not be up to date.</p>
+</li>
+<li>
+<p>Once our application is accepted, write a press release and
+request press@ to send it out. We don&rsquo;t have a template yet, so work
+with th <code>dev@community.apache.org</code> and <code>press@apache.org</code> lists to get one
+written and add it here.</p>
+</li>
+<li>
+<p>Check with Google whether they changed the ranking process &ndash; again. Find out
+what we need to be change to our internal ranking process in order to be compatible
+with melange (the system Google uses to administer GSOC) and update the <a href="mentee-ranking-process.html">mentee ranking process</a> page
+accordingly. In 2011 we used a Google Docs spreadsheet and did our ranking there. The
+org admin (and only the org admin) then transferred the rankings to Melange.</p>
+</li>
+<li>
+<p>Once the application phase starts, make sure that mentors rank the proposals. They
+should complete this at least one week before Google&rsquo;s official deadline in order to have
+some time for changes that might become necessary. Send reminders.</p>
+</li>
+<li>
+<p>Once Google has assigned our slots and we know who is accepted,
+mail each mentee with details of the <code>dev@community.apache.org</code> list, which they can
+use for general assistance with the ASF. They should seek project-specific
+assistance on the project&rsquo;s <code>dev</code> list. We don&rsquo;t have a
+template for this yet. Please add it here when one is written.</p>
+</li>
+<li>
+<p>Once GSoC is under way, make sure we meet deadlines for midterm and final evaluations. Make it clear to the mentors that we&rsquo;d like to see their evaluation way before
+the end of the deadline. If a mentor still hasn&rsquo;t submitted their evaluation three days
+before the end of the deadline period, mail their PMC and ask them whether they know of
+any reason why the mentor might not be able to do the evaluation.</p>
+</li>
+<li>
+<p>Once GSoC is done, get a PO# from Google to invoice against. Supplier name is The
+Apache Software Foundation, 1901 Munsey Drive, Forest Hill, MD 21050-2747. Our vendor ID
+with Google is 13039.</p>
+</li>
+<li>
+<p>Issue a press release congratulating those who have passed and
+thanking our wonderful mentors. We should invite everyone to come and
+contribute to ASF projects. We should include some stats such as the
+number of full committers resulting from GSoC, the number of issues
+closed etc. We don&rsquo;t have a template yet but work with the
+<code>dev@community.apache.org</code> and <code>press@apache.org</code> lists to get one written
+and add it here.</p>
+</li>
+<li>
+<p>Decide who is going to the mentor summit. If you are going, book your flight (or arrange the details for attending virtually) and
+nag the comdev PMC chair to submit your travel expenses to financials/Bills/received (if
+you don&rsquo;t have access yourself) and move them to <code>financials/Bills/approved</code>.</p>
+</li>
+<li>
+<p>Ask treasurer to invoice Google. The amount is number of students * USD 500 (at time
+of writing) + actual travel expenses up to USD 2,000. Attach PO document (you&rsquo;ll get that
+from Google at some point). Example:</p>
+</li>
+</ol>
+<pre>
+Geir,
+
+please invoice Google the following, according to attached purchase order:
+
+40x Google Summer of Code 2011 mentor stipends for 40 student á USD 500.00 = USD 20,000.00
+1x travel expenses for mentor summit participant Noirin Plunkett = USD 743.70 (see [1], [2], [3])
+1x travel expenses for mentor summit participant Ulrich Stärk = EUR 834.03 = USD 1190,91 @1.4279
+USD/EUR as of 2011/08/09 (see [4] and [5])
+
+PO# is 132387, vendor ID is 13039
+
+The payment process to follow is:
+
+Payment Process - Step Two
+
+Once you receive your Purchase Order via email, you can then bill Google for your mentoring
+organization's payment. In order to receive payment, please send a PDF invoice to p2phelp@google.com
+and cc carols@google.com on the message.
+
+Your invoice *must* include the following information:
+
+   1. Name and address of your organization - official letterhead is preferred if available, must
+match supplier enrollment
+   2. Line(s) stating what the money is for e.g. "For mentoring 3 Google Summer of Code students for
+the Foo project"
+   3. It is likely most useful to simply mirror the wording on the Purchase Order you receive
+   4. If you have purchased flights for the mentor summit, invoice only for the amount paid for
+airfare or driving mileage (55 cents/mile, locals only)
+         1. Amount of payment in USD
+         2. Your invoice MUST include the PO#.
+         3. Your invoice MUST be dated after the issue date of your PO number
+
+
+
+Google has to receive the PDF invoice by November 4th, 2011 and it has to include PDF copies of our
+actual travel expenses, i.e. [2],[3],[4] and [5].
+
+Thanks,
+
+Uli
+
+
+[1] https://svn.apache.org/repos/private/financials/Bills/approved/Noirin-GSoC/README
+[2] https://svn.apache.org/repos/private/financials/Bills/approved/Noirin-GSoC/Noirin-GSoC-Amtrak.pdf
+[3] https://svn.apache.org/repos/private/financials/Bills/approved/Noirin-GSoC/Noirin-GSoC-Delta.pdf
+[4] https://svn.apache.org/repos/private/financials/Bills/received/Uli-GSOC-flights.txt
+[5]
+https://www.oanda.com/currency/historical-rates-classic?date_fmt=us&date=08/09/11&date1=08/09/11&exch=EUR&exch2=EUR&expr=USD&margin_fixed=0&format=HTML&redirected=1
+
+</pre>
+
+
+    </div>
+  </main>
+
+  <footer class="page-footer bg-secondary mt-4 pt-3">
+    <div class="container text-center text-md-left mb-3">
+      <div class="row">
+        <div class="col-md-6 mt-md-0 mt-3">
+          <h5 class="text-uppercase">Trademarks</h5>
+          <p>
+            Apache&reg;, the names of Apache projects, and the Apache logo are
+            <a href="https://www.apache.org/foundation/marks/list/">registered trademarks or trademarks</a> of the Apache
+            Software Foundation in the United States and/or other countries.
+          </p>
+        </div>
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <div class="col-md-6 mb-md-0 mb-3">
+          <h5 class="text-uppercase">Website sources</h5>
+          <p>
+  This website is generated from the <a href="https://github.com/apache/comdev-site">comdev-site repository</a>
+  
+    <br>
+    Source of this page:
+      <a href="https://github.com/apache/comdev-site/blob/main/source/gsoc/gsoc-admin-tasks.md" title="Source of this page">
+        gsoc/gsoc-admin-tasks.md
+      </a>
+  
+</p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright text-center py-3">
+      <em>Copyright &copy; 2026, <a href="https://www.apache.org/">the Apache Software Foundation</a>. Licensed under the
+      <a rel="license" href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></em>
+    </div>
+  </footer>
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+To: [Candidate Email Address]
+Cc: private@[PROJECT].apache.org
+Subject: Invitation to become [PROJECT] PMC member: [PMC Member Name]
+
+Hello [invitee name],
+
+The [Project] Project Management Committee (PMC)
+hereby offers you membership in the PMC. These privileges are offered on
+the understanding that you'll use them reasonably and with common sense.
+We like to work on trust rather than unnecessary constraints.
+
+This personal invitation is a chance for you to accept or decline in private.
+Please let us know in reply to this message whether you accept or decline.
+
+The rights and responsibilities are described here: 
+https://community.apache.org/pmc/responsibilities.html
+If that's in any way unclear, please reach out to me or  any of the
+other PMC members for clarification, or to discuss this decision in more
+detail.
+
+[Your Name]
+On behalf of the [Project] PMC
+
