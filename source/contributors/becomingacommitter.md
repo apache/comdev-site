@@ -64,8 +64,8 @@ Do not, however, just talk to be seen. Nobody is fooled by that.
 
 * [How to verify a release](https://apache.org/info/verification.html)
 
-Verifying release candidates and voting for the release is a critical
-part of an Apache project's life. It's also a great way to learn more
+Verifying release candidates and voting for the release are critical
+parts of an Apache project's life. They are also a great way to learn more
 about the project, understand how and why the ASF releases software, and
 raise your own profile in the project community.
 
@@ -76,7 +76,7 @@ Since you're already monitoring the mailing list, you'll see these votes.
 Any community participant can vote on the release -- including you! 
 
 Although only PMC members' votes officially count towards the final vote tally,
-your vote is important for several reasons.
+your ewview of the release candidate and vote are important for several reasons.
 
 * Help ensure it's a good release by potentially finding problems that benefit the entire community
 * Build trust in the project community by demonstrating your engagement and interest
