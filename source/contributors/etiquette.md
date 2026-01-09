@@ -43,7 +43,7 @@ also understand that miscommunications happen, especially in text.  If you are s
 good first step would be to ask for clarification. Don't be afraid to ask specific questions.  Chances are, the person you're communicating with has been
 in your position before, and will understand.  
 
-  * Be forgiving and accept different priorities:  Everyone that works on ASF projects is passsionate about their work, and we love and welcome that 
+  * Be forgiving and accept different priorities:  Everyone that works on ASF projects is passionate about their work, and we love and welcome that 
 passion and hope you will bring your own passion to your projects. Please remember, the ASF currently has over 300 projects, each with their own project 
 priorities. If your priorities seem at odds with others, remember that compromise is essential to progress.  Work with the other person to come up with a
 compromise that takes all project priorities into account.  
