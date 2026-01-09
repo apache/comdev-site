@@ -99,7 +99,7 @@ events](https://events.apache.org/) website, or by searching for
 
 ### Community engagement
 
-One of our mottos at Apache is "Community Over Code." A strong community
+One of our mottoes at Apache is "Community Over Code." A strong community
 produces better software. Strong community is built on trust, respect,
 and communication. These things don't just happen - they take hard work.
 
