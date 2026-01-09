@@ -76,7 +76,7 @@ Since you're already monitoring the mailing list, you'll see these votes.
 Any community participant can vote on the release -- including you! 
 
 Although only PMC members' votes officially count towards the final vote tally,
-your ewview of the release candidate and vote are important for several reasons.
+your review of the release candidate and vote are important for several reasons.
 
 * Help ensure it's a good release by potentially finding problems that benefit the entire community
 * Build trust in the project community by demonstrating your engagement and interest
