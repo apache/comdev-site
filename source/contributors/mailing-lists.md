@@ -55,7 +55,7 @@ subject line to reflect the direction that the thread has taken.
 
 Most modern email clients default to top-posting - that is, putting the
 entire reply to a message above the quoted body of the message to which
-you are preferring.
+you are replying.
 
 We encourage you, instead, to respond inline - that is, put each
 response after the quoted paragraph to which you are responding, so that

@@ -29,7 +29,7 @@ respect.
   
   *  If you agree with someone, let them know. If you disagree, let them know as well.  Positive and negative feedback are both necessary.  Positive 
 feedback will help others feel more confident in their ideas, as well as ensure they know they're on the right track.  Negative feedback, given in a 
-respectable tone, will help to guide the messenger toward a more productive solution.  
+respectful tone, will help to guide the messenger toward a more productive solution.  
 
   * Avoid idiomatic and metaphoric language. At the ASF, we have thousands of volunteers that speak different languages.  To avoid miscommunication, it 
 is best to avoid this type of language in favor of clear, direct statements.  
