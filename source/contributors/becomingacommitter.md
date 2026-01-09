@@ -62,23 +62,38 @@ Do not, however, just talk to be seen. Nobody is fooled by that.
 
 ## Test, and vote on releases (non-binding)
 
-Testing releases, and then reporting problems or suggesting
-improvements, is one of the most important functions of users, and is an
-important way to contribute to a project. It also familiarizes you with
-the function of the software, which will lead you to be a better
-contributor.
+* [How to verify a release](https://apache.org/info/verification.html)
 
-Many projects use CI to continuously test proposed patches and PRs. Each
-platform needs to be individually set up for testing, and often the
-projects do not have enough people familiar with the specific
-environments that might benefit from testing. You can propose additional
-platforms to test on.
+Verifying release candidates and voting for the release are critical
+parts of an Apache project's life. They are also a great way to learn more
+about the project, understand how and why the ASF releases software, and
+raise your own profile in the project community.
 
-Vote on release candidates and releases (non-binding).
+Each time a project proposes to release an artifact, there is a `[VOTE]`
+thread on the project's `dev` mailing list.
+([Example](https://lists.apache.org/thread/48co7brm91pv0yjqd9fgpptrb7r9jnp3))
+Since you're already monitoring the mailing list, you'll see these votes. 
+Any community participant can vote on the release -- including you! 
 
-Note that a vote should always mean that you’ve actually tested, so testing releases is implied here, too. Indicate what platform(s) you’ve tested on, and what was the nature of the tests that you performed. Testing releases on a variety of platforms and configurations is a very valuable piece of information for projects with limited testing infrastructure.
+Although only PMC members' votes officially count towards the final vote tally,
+your ewview of the release candidate and vote are important for several reasons.
 
-While these votes don’t "count" towards making a release official, it’s both hugely beneficial for the project, and increases your visibility.
+* Help ensure it's a good release by potentially finding problems that benefit the entire community
+* Build trust in the project community by demonstrating your engagement and interest
+* Stay current with new releases to keep your knowledge fresh
+* Learn about project components you're not directly involved with
+  (especially for projects which release multiple artifacts)
+
+Release verification has two main purposes: first, ensuring the release artifact
+follows all official ASF release rules; second, confirming the release works as
+expected.  So in your vote message, you *should* indicate what you
+verified. If you tested functionality, say what you tested, and on what
+operating system(s) and architecture(s). (See example vote thread listed above for
+how you might format this information.)
+
+
+Non-PMC members should indicate their votes as `"(Non-binding)"` to help
+the release manager tally votes correctly.
 
 ## Give talks
 Propose talks to conferences about the project, and about how your employer’s customers are using it.
