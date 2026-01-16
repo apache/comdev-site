@@ -6,7 +6,7 @@ tags: ["companies", "employment", "contributors"]
 
 # Employing Open Source Contributors
 
-If your business relies on an open source project, employing, or
+If your business relies on an open source project, employing, contracting with or
 otherwise financially supporting,
 contributors to the project is the most effective way to ensure that
 your priorities are reflected in project decisions. 
