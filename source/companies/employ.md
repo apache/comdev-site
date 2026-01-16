@@ -21,7 +21,7 @@ think about staffing an internal software development project or working with ex
 positions would you staff if you weren't sharing the load with the
 community? Are those positions being adequately covered?
 
-Dedicating employee or contractors time to positions like marketing, events, and
+Dedicating employee or contractors' time to positions like marketing, events, and
 end-user support, as well as software development, significantly
 increases your influence and trust in the project community.
 
