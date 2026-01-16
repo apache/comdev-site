@@ -64,14 +64,28 @@ full-time positions available on your payroll.
 
 ### Bug bounties
 
+While the ASF does not ever directly pay for contributions to ASF
+projects, as a matter of principle, there are many third-party "bug
+bounty" sites that allow you to support individual contributors in their
+work on projects that you care about.
 
+The project
+[bug-bounty-platforms](https://github.com/disclose/bug-bounty-platforms)
+maintains a list of such sites, along with contact information. The ASF
+does not endorse any of these sites, but developers are welcome to work
+with them as they contribute to ASF projects.
 
-### Sponsor programs
+### Sponsor and internship programs
 
-(Github sponsors, outreachy, etc, etc)
+There are many third-party programs through which you can support
+contributors to open source projects, with [GitHub
+Sponsors](https://github.com/open-source/sponsors) being one of the
+best-known.
 
-### what else goes here?
-
+Internship programs such as [Outreachy](https://www.outreachy.org/)
+provide opportunties for individuals to work a paid internship for an
+open source project. Companies can support these organizations, and thus
+indirectly fund work on projects that they care about.
 
 ## Project Independence
 
