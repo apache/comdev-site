@@ -4,7 +4,7 @@ url: /companies/employ.html
 tags: ["companies", "employment", "contributors"]
 ---
 
-# Employing Open Source Contributors
+# Employing or Contracting with Open Source Contributors
 
 If your business relies on an open source project, employing, contracting with or
 otherwise financially supporting,
