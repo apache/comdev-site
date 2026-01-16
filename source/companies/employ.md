@@ -17,7 +17,7 @@ This goes [far beyond code contributions](/contributors/non-code.html),
 although that is the most obvious and visible way that you can participate.
 
 Think of staffing an open source project exactly the same way you would
-think about staffing an internal software development project. What
+think about staffing an internal software development project or working with external contractors. What
 positions would you staff if you weren't sharing the load with the
 community? Are those positions being adequately covered?
 
