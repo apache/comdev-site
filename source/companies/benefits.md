@@ -11,7 +11,7 @@ strategic and operational advantages that extend far beyond cost savings.
 It's important to think strategically about how, where, and why you will
 participate and measure impact.
 
-## Influence the roadmap
+## Influence the Roadmap
 
 While it can sometimes take months, or years, to gain expertise and
 trust in an established community, showing up to do the daily

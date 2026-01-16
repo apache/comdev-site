@@ -4,7 +4,7 @@ url: /companies/
 tags: ["companies", "business", "navigation"]
 ---
 
-# Why your company should participate in ASF projects
+# Why Your Company Should Participate in ASF Projects
 
 All modern digital infrastructure is dependent on open source software,
 and **ASF projects are everywhere**.
@@ -21,7 +21,7 @@ acquisition, influence over industry standards, strong company
 partnerships, and greater customer trust.<br />
 [[Read more ...](/companies/benefits.html)]
 
-## Ways to contribute
+## Ways to Contribute
 
 There are three primary ways that companies can engage with ASF
 projects. Each has costs and benefits that should be carefully

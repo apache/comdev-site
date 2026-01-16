@@ -19,7 +19,7 @@ donation](https://apache.org/foundation/sponsorship.html),
 targeted donations to a particular project, or in-kind donations of
 products or services.
 
-## Event and meetup sponsorship
+## Event and Meetup Sponsorship
 
 In addition to the [main ASF conference](https://communityovercode.org),
 many ASF projects have their own events. These are usually listed on

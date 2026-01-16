@@ -16,7 +16,7 @@ Satisfaction](/companies/benefits.html#recruiting-and-employee-satisfaction))
 This goes [far beyond code contributions](/contributors/non-code.html), 
 although that is the most obvious and visible way that you can participate.
 
-## Effective ways to contribute
+## Effective Ways to Contribute
 
 While many companies contribute here and there to open source projects,
 having a carefully considered strategy for doing so will lead to more
@@ -55,14 +55,14 @@ creating opportunities to collaborate with peers, and this, in turn,
 will accelerate your business priorities.
 
 
-## Support individual contributors
+## Support Individual Contributors
 
 Supporting individual contributors financially (via B2B contracts, 
 individual sponsorships, fellowships, and third party sponsor programs)
 can be a very effective way to contribute to a project if you don't have
 full-time positions available on your payroll.
 
-### Bug bounties
+### Bug Bounties
 
 While the ASF does not ever directly pay for contributions to ASF
 projects, as a matter of principle, there are many third-party "bug
@@ -75,7 +75,7 @@ maintains a list of such sites, along with contact information. The ASF
 does not endorse any of these sites, but developers are welcome to work
 with them as they contribute to ASF projects.
 
-### Sponsor and internship programs
+### Sponsor and Internship Programs
 
 There are many third-party programs through which you can support
 contributors to open source projects, with [GitHub
@@ -101,7 +101,7 @@ be burned very quickly by misusing a project's brand.
 There are several very practical ways that you can contribute to overall
 project health, while earning trust for your contributors.
 
-### Broad project ownership
+### Broad Project Ownership
 
 Ensure contributions align with long-term project goals rather than 
 solely short-term company priorities. That ensures that the project as a
@@ -113,7 +113,7 @@ overall health of the project. It also makes it very difficult to
 attract broader community interest in your proposed changes, since they
 are seen as self-serving.
 
-### Chop wood, carry water (Routine maintenance)
+### Chop Wood, Carry Water (Routine Maintenance)
 
 Open source communities sometimes use the phrase "chop wood, carry
 water" to talk about doing the mundane maintenance tasks that are
@@ -148,7 +148,7 @@ For projects that provide infrastructure, or other cloud services,
 donating these to the project (talk to infra about how!) is critical to
 the health of ASF projects.
 
-#### User support
+#### User Support
 
 Answering user questions is the very best way to understand the pain
 that your own customers are experiencing with the project. It will make
@@ -167,21 +167,21 @@ participation in ASF projects.
 Being transparent about your company priorities has several positive
 outcomes.
 
-#### Avoid conflicts
+#### Avoid Conflicts
 
 Telling the project what you will be working on can avoid conflicting
 with other work that is going in a different direction. The project can
 discuss your plans, and compromise on a mutually agreed direction,
 saving you time going down a path which will ultimately get rejected.
 
-#### Attract collaborators
+#### Attract Collaborators
 
 It can be a way to identify people from outside your organization who
 share the same priority, who may work with you to achieve your goals,
 and, in the process, provide ideas and innovation that you may have
 missed had you done the work yourself behind your company walls.
 
-#### Earn trust
+#### Earn Trust
 
 It always comes back to earning trust. Being transparent about your
 priorities shows the project what you care about. It doesn't leave them
