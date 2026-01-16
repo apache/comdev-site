@@ -124,3 +124,21 @@ community-front-page img {
     margin-botton: 1rem;
     border-radius: 12%;
 }
+
+@media (max-width: 767px) {
+  community-front-page .col-md-4 {
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+
+  community-front-page img {
+    display: block;
+    margin: 0 auto 1rem;
+  }
+
+  .events-logo {
+    float: none;
+    display: block;
+    margin: 0 auto 1rem;
+  }
+}
