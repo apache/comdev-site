@@ -6,7 +6,7 @@
     <description>Recent content in Tags on ASF Community Development</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 09 Jan 2026 09:01:47 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 16 Jan 2026 13:32:27 -0500</lastBuildDate>
     <atom:link href="https://community.apache.org/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog</title>
@@ -44,10 +44,45 @@
       <description></description>
     </item>
     <item>
+      <title>Advocacy</title>
+      <link>https://community.apache.org/tags/advocacy.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/tags/advocacy.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Benefits</title>
+      <link>https://community.apache.org/tags/benefits.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/tags/benefits.html</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Board</title>
       <link>https://community.apache.org/tags/board.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://community.apache.org/tags/board.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Branding</title>
+      <link>https://community.apache.org/tags/branding.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/tags/branding.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Business</title>
+      <link>https://community.apache.org/tags/business.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/tags/business.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Business Value</title>
+      <link>https://community.apache.org/tags/business-value.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/tags/business-value.html</guid>
       <description></description>
     </item>
     <item>
@@ -76,6 +111,13 @@
       <link>https://community.apache.org/tags/community.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://community.apache.org/tags/community.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Companies</title>
+      <link>https://community.apache.org/tags/companies.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/tags/companies.html</guid>
       <description></description>
     </item>
     <item>
@@ -114,6 +156,13 @@
       <description></description>
     </item>
     <item>
+      <title>Contributors</title>
+      <link>https://community.apache.org/tags/contributors.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/tags/contributors.html</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Crowdfunding</title>
       <link>https://community.apache.org/tags/crowdfunding.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -132,6 +181,13 @@
       <link>https://community.apache.org/tags/election.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://community.apache.org/tags/election.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Employment</title>
+      <link>https://community.apache.org/tags/employment.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/tags/employment.html</guid>
       <description></description>
     </item>
     <item>
@@ -321,6 +377,13 @@
       <link>https://community.apache.org/tags/speakers.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://community.apache.org/tags/speakers.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sponsorship</title>
+      <link>https://community.apache.org/tags/sponsorship.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/tags/sponsorship.html</guid>
       <description></description>
     </item>
     <item>
