@@ -122,7 +122,7 @@ There are generally two important parts:
 
 Both these settings are done in your repositories `.asf.yaml` file.
 Please refer to the full
-[documentation of .asf.yaml features](https://cwiki.apache.org/confluence/display/INFRA/Git+-+.asf.yaml+features)
+[documentation of .asf.yaml features](https://github.com/apache/infrastructure-asfyaml/blob/main/README.md)
 
 ### Configuring where to send things
 
