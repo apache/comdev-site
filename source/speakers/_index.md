@@ -21,6 +21,10 @@ the [events calendar](https://events.apache.org/).
 Our [ASF volunteers](/contributors/asf-volunteers.html) page lists potential speakers
 for ASF-related topics. ASF committers are welcome to add their name there.
 
+If you are speaking as an official representative of the ASF, please
+read the
+[Speaking Guidelines for Officers](https://www.apache.org/press/guides/officer-speaking-guide.html)
+
 ## Speaker support materials
 
 If you are creating your own slides, you will find the
