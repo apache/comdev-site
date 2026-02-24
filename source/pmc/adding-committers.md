@@ -189,7 +189,7 @@ of those responding, it's time to [start a vote](/templates/committer-vote.txt).
 
 In some projects, new committers are automatically also made PMC members.
 If this is the case in your project, use the [committer + PMC member vote
-template](committer-pmc-vote.txt) instead.
+template](/templates/committer-pmc-vote.txt) instead.
 
 Start a separate [VOTE] thread for each new person. This makes it much easier
 to review the email archives.
