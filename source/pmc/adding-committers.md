@@ -43,7 +43,7 @@ If they accept, then:
 1. If they have already filed an ICLA, request creation of the committer account.
    If they need to change anything in a previously filed ICLA, wait until the new ICLA is filed,
    then request the account.
-   1. Wait until root says it is done
+   1. Wait until root says it is done (via an email to the private@ list, with a subject of the form: `[NOTICE] Account created: name (id)`
    1. PMC Chair updates LDAP group membership which enables svn, gitbox and other access.
       If the committer uses GitHub, let them know that they are responsible for linking 
       it to their ASF account.
