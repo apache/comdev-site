@@ -213,6 +213,8 @@ for a new committer.
 We give candidates a chance to decline committership 
 in private. They can post a reply to the PMC mailing list.
 
+Do not proceed until you have received explicit confirmation from the Infrastructure team that the committer account has been created.
+
 After we reach a decision on the `private@` list, and after the steps above, we
 [announce the new committer on the `dev` list](template/committer-announce.txt)
 
