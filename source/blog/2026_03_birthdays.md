@@ -6,8 +6,6 @@ published_by: Rich Bowen
 tags: ["blog"]
 ---
 
-# ASF Project Birthdays - March 2026
-
 The following Apache projects are celebrating their birthdays in March.
 
 ## Apache Celeborn (2 years)

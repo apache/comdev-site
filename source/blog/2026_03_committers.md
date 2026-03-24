@@ -6,8 +6,6 @@ published_by: Rich Bowen
 tags: ["blog"]
 ---
 
-## New Committers - March 2026
-
 In February, 2026, 18 projects elected a total of 21 committers.
 
 ### ALLURA

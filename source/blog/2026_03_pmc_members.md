@@ -6,8 +6,6 @@ published_by: Rich Bowen
 tags: ["blog"]
 ---
 
-## New PMC Members
-
 In February, 2026, 12 projects elected a total of 63 PMC members. 46 of those are part of newly-established projects.
 
 ### ALLURA
