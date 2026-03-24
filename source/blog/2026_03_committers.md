@@ -1,5 +1,5 @@
 ---
-title: New Committers March 2026
+title: New Committers February 2026
 date: 2026-03-01
 blog_post: true
 published_by: Rich Bowen
