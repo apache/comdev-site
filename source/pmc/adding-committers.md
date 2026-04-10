@@ -216,7 +216,7 @@ in private. They can post a reply to the PMC mailing list.
 Do not proceed until you have received explicit confirmation from the Infrastructure team that the committer account has been created.
 
 After we reach a decision on the `private@` list, and after the steps above, we
-[announce the new committer on the `dev` list](template/committer-announce.txt)
+[announce the new committer on the `dev` list](templates/committer-announce.txt)
 
 Alternately, use the [committer + PMC member announce template](/templates/committer-pmc-announce.txt) for new
 committer + PMC member.

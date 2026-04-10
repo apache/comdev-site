@@ -209,7 +209,7 @@ We give candidates a chance to decline committership
 in private. They can post a reply to the PMC mailing list.
 
 After we reach a decision on the `private@` list, and after the steps above, we
-[announce the new committer on the `dev` list](template/committer-announce.txt)
+[announce the new committer on the `dev` list](templates/committer-announce.txt)
 
 Alternately, use [this template](templates/committer-pmc-announce.txt) for new
 committer + PMC member.
