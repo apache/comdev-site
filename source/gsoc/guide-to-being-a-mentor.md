@@ -25,7 +25,7 @@ submit ideas via Jira (if your project does not use Jira you can [use the Comdev
   <div class="card-header">Size of project</div>
   <div class="card-body text-success">
     <p class="card-text">Starting in 2024 there are 3 types of projects available.<br> Please put 
-"<em>full-time</em>" label for ~350 hours project and<br> "<em>part-time</em>" label for ~175 hours project <br> "<em>small</em>" label for ~90 hours project</p>
+"<em>large</em>" label for ~350 hours project and<br> "<em>medium</em>" label for ~175 hours project <br> "<em>small</em>" label for ~90 hours project</p>
   </div>
 </div>
 
