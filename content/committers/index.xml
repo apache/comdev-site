@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Committer resources on ASF Community Development</title>
+    <link>https://community.apache.org/committers/</link>
+    <description>Recent content in Committer resources on ASF Community Development</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://community.apache.org/committers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Decision-Making</title>
+      <link>https://community.apache.org/committers/decisionMaking.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/committers/decisionMaking.html</guid>
+      <description>&lt;p&gt;The most important thing about engaging with any Apache project is that everyone&#xA;is equal. All project participants with an opinion can express that opinion and, where&#xA;appropriate, have the community consider it.&lt;/p&gt;&#xA;&lt;p&gt;To some, the idea of having to establish consensus in a large and distributed team&#xA;sounds inefficient and frustrating. Don&amp;rsquo;t despair, though: The Apache Way has a&#xA;set of simple processes to ensure things proceed at a good pace.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Funding campaign disclaimer</title>
+      <link>https://community.apache.org/committers/funding-disclaimer.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/committers/funding-disclaimer.html</guid>
+      <description>&lt;p&gt;Some Apache committers have successfully run funding campaigns to support their work on their favorite Apache projects.&lt;/p&gt;&#xA;&lt;p&gt;This is ok in principle, but you have to make it clear that the campaign is your own thing, and avoid any confusion about the role of the&#xA;ASF and how its projects work.&lt;/p&gt;&#xA;&lt;p&gt;This page gives a few examples of how to do that.&lt;/p&gt;&#xA;&lt;p&gt;If you have any question about this, feel free to ask on our&#xA;&lt;a href=&#34;https://lists.apache.org/list.html?dev@community.apache.org&#34;&gt;dev@community.apache.org&lt;/a&gt; mailing list.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Good First Issues</title>
+      <link>https://community.apache.org/committers/good-first-issues.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/committers/good-first-issues.html</guid>
+      <description>&lt;h1 id=&#34;what-are-good-first-issues&#34;&gt;What are &amp;ldquo;Good First Issues&amp;rdquo;? &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#what-are-good-first-issues&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;&amp;ldquo;Good First Issues&amp;rdquo; are a good way to start on an OSS project, and an &lt;a href=&#34;https://github.com/topics/good-first-issue&#34;&gt;official Github initiative&lt;/a&gt;. Several GitHub repositories use this label to encourage new contributors to start helping the project without the necessity, in most cases, to contact one of the contributors in advance or to have a deep knowledge of the project architecture or content.&lt;/p&gt;&#xA;&lt;h3 id=&#34;how-can-i-identify-a-good-first-issue&#34;&gt;How can I identify a &amp;ldquo;Good First Issue&amp;rdquo;? &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#how-can-i-identify-a-good-first-issue&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;&amp;ldquo;Good First Issues&amp;rdquo;&amp;rsquo;s are usually flagged in the GitHub projects and normally simple tasks that can be accomplished detached from other dependencies. It can be a small code enhancement, documenting internal functions, creating small APIs to connect services, documentation, and others.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

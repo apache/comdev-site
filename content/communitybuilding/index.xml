@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Communitybuildings on ASF Community Development</title>
+    <link>https://community.apache.org/communitybuilding/index.html</link>
+    <description>Recent content in Communitybuildings on ASF Community Development</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://community.apache.org/communitybuilding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://community.apache.org/communitybuilding/README.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/communitybuilding/README.html</guid>
+      <description>&lt;h1 id=&#34;community-building-at-the-asf&#34;&gt;Community Building at the ASF &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#community-building-at-the-asf&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;This directory will contain practical advice to ASF projects about how&#xA;to encourage and foster the growth of their project communities. This&#xA;will include a variety of topics:&lt;/p&gt;&#xA;&lt;h2 id=&#34;what&#34;&gt;What &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#what&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;What is an Apache community&lt;/li&gt;&#xA;&lt;li&gt;Who are the persona that comprise an Apache community&lt;/li&gt;&#xA;&lt;li&gt;How does an Apache community differ from other open source&#xA;communities? How is it the same?&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;why&#34;&gt;Why &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#why&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Why community matters to a project. (Discussion of &amp;ldquo;Community Over&#xA;Code&amp;rdquo;)&lt;/li&gt;&#xA;&lt;li&gt;Why various groups (individuals, companies, other projects) should be&#xA;involved in the project community. (Sustainability, influence, trust)&lt;/li&gt;&#xA;&lt;li&gt;In particular, how and why companies should get engaged in projects&#xA;that they rely on&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;how&#34;&gt;How &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#how&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;The bulk of the content will focus on the &lt;em&gt;HOW&lt;/em&gt;. Practical advice to&#xA;grow and retain the various parts of a project community. This includes,&#xA;but is not limited to:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

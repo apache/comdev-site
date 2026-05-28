@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+  <meta name="description" content="Apache Community Development">
+  <meta name="keywords" content="apache, apache community, community development, opensource">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" >
+  <meta property="og:url" content="https://community.apache.org/contributors/">
+  <meta property="og:site_name" content="ASF Community Development">
+  <meta property="og:title" content="Contributing to the Apache Software Foundation">
+  <meta property="og:description" content="Contributing to an Apache project is the second step on your journey up the contributor ladder.
+User → Contributor → Committer → PMC member
+While we often think of contributions to open source as code, a contribution can be anything - good questions, documentation, design, event coordination, and so on also qualify as contributions. Projects need your skills, even if you’re not a programmer.
+But, it can sometimes be hard to know where to get started. We’re here to help. Here’s some of the basics.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="website">
+    <meta property="og:image" content="https://community.apache.org/images/project-logos.webp">
+
+
+  <title>Apache Community Development - Contributing to the Apache Software Foundation</title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link href="/css/main.css" rel="stylesheet" media="screen">
+  <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <style>
+      .footer {
+          text-align:center;
+          color:grey;
+          font-size:80%;
+          border-top: solid #ddd 1px;
+          margin-top:1em;
+      }
+      .navbar-brand img {
+          height: 50px;
+      }
+  </style>
+
+  
+<script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(['disableCookies']);
+   
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.apache.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '36']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+
+  <link rel="alternate" type="application/rss+xml" href="https://community.apache.org/contributors/index.xml" title="ASF Community Development">
+
+
+</head>
+
+<body>
+  <header class="navbar navbar-expand-lg navbar-dark bg-bright fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+    <img src="https://apache.org/img/asf_logo.png" alt="Apache Software Foundation">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="mainNavbar">
+    <div class="container"> 
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="homeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Home
+            </a>
+            <div class="dropdown-menu" aria-labelledby="homeDropdown">
+              <a class="dropdown-item" href="/">Homepage</a>
+              <a class="dropdown-item" href="/tags/">Tags</a>
+              <a class="dropdown-item" href="/blog/">Blog</a>
+              <a class="dropdown-item" href="/tags/navigation.html">Navigation pages</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About
+          </a>
+          <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+            <a class="dropdown-item" href="/about/">What We Do</a>
+            <a class="dropdown-item" href="/newbiefaq.html">Frequently Asked Questions</a>
+            <a class="dropdown-item" href="/projectIndependence.html">Apache Project Independence</a>
+            <a class="dropdown-item" href="/apache-way/apache-project-maturity-model.html">Apache Project Maturity Model</a>
+            <a class="dropdown-item" href="/contactpoints.html">Contact Points Within the ASF</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html#2009-11-01">ComDev Original Board Resolution</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html">ComDev Board Reports</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/COMDEV">Community Development Jira</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">About Apache</a>
+            <a class="dropdown-item" href="https://www.apache.org/">The Apache Software Foundation</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/sponsorship">Sponsor Apache</a>
+            <a class="dropdown-item" href="http://diversity.apache.org/">Diversity & Inclusion</a>
+             <a class="dropdown-item" href="/contributors/asf-volunteers.html">Mentors &amp; Speakers</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/thanks">Thanks to our Sponsors</a>
+            <a class="dropdown-item" href="https://www.apache.org/licenses">License</a>
+            <a class="dropdown-item" href="https://www.apache.org/security">Security</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="contribDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Contributing
+          </a>
+          <div class="dropdown-menu" aria-labelledby="contribDropdown">
+            <a class="dropdown-item" href="/contributor-ladder.html">Contributor Ladder</a>
+            <a class="dropdown-item" href="/newcomers/">Getting Started at Apache</a>
+            <a class="dropdown-item" href="/contributors/">Contributing to projects</a>
+            <a class="dropdown-item" href="/committers/">Committers</a>
+            <a class="dropdown-item" href="/pmc/">PMC Members</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">Committer and PMC Information</a>
+            <a class="dropdown-item" href="https://www.apache.org/dev/">Technical Developer FAQs</a>
+            <a class="dropdown-item" href="/committers/decisionMaking.html">Decision Making</a>
+            <a class="dropdown-item" href="/committers/good-first-issues.html">Good First Issues</a>
+            <a class="dropdown-item" href="/pmc/community-growth.html">Recruiting New Contributors</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="gsocDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">GSoC</a>
+          <div class="dropdown-menu" aria-labelledby="gsocDropdown">
+            <a class="dropdown-item" href="/gsoc/">Google Summer Of Code Information</a>
+            <a class="dropdown-item" href="/gsoc/mentee-ranking-process.html">Mentee Ranking Process</a>
+            <a class="dropdown-item" href="/gsoc/experiences/">Past GSoC Experiences</a>
+            <a class="dropdown-item" href="/gsoc/guide-to-being-a-mentor.html">Guide to being a Mentor</a>
+            <a class="dropdown-item" href="/gsoc/use-the-comdev-gsoc-issue-tracker-for-gsoc-tasks.html">Using ComDev's Jira for GSoC Ideas</a>
+            <a class="dropdown-item" href="/gsoc/gsoc-admin-tasks.html">Tasks of a GSoC Admin at the ASF</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/GSOC">GSoC Jira</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="eventDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Events
+          </a>
+          <div class="dropdown-menu" aria-labelledby="eventDropdown">
+            <a class="dropdown-item" href="https://apachecon.com/">Community Over Code - (formerly ApacheCon)</a>
+            <a class="dropdown-item" href="https://events.apache.org/">Other Apache-related Events</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/marks/events">Apache event branding policies</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">Conference Speakers</a>
+            <a class="dropdown-item" href="/speakers/">Speaker resources</a>
+            <a class="dropdown-item" href="/speakers/slides.html">Sample presentations</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="wgDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Working Groups
+          </a>
+          <div class="dropdown-menu" aria-labelledby="wgDropdown">
+            <a class="dropdown-item" href="/workinggroups/">Working Groups</a>
+            <a class="dropdown-item" href="https://github.com/apache/comdev-working-groups">Git repositories</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="conversDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Join the Conversation
+          </a>
+          <div class="dropdown-menu" aria-labelledby="conversDropdown">
+            <a class="dropdown-item" href="/blog/">Blog</a>
+            <a class="dropdown-item" href="https://www.facebook.com/ApacheSoftwareFoundation">Facebook</a>
+            <a class="dropdown-item" href="https://twitter.com/ApacheCommunity">Twitter</a>
+            <a class="dropdown-item" href="/lists.html">Mailing List</a>
+            <a class="dropdown-item" href="https://cwiki.apache.org/confluence/display/COMDEV/Apache+Local+Community+-+ALC">ALC: Apache Local Communities</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+    </div>
+  </header>
+
+  <main class="cd-main" id="content" role="main">
+    <div class="container">
+      
+      <hr>
+       
+<ul class="tags-list">
+  
+  <li>
+    <a href="https://community.apache.org/tags/faq.html">faq</a>
+  </li>
+  <li>
+    <a href="https://community.apache.org/tags/navigation.html">navigation</a>
+  </li>
+  <li>
+    <a href="https://community.apache.org/tags/contributing.html">contributing</a>
+  </li></ul>
+
+      
+    <img src="/images/contributors-fp.webp" alt="Code sample" class="pull-right">
+<p>Contributing to an Apache project is the second step on your journey up
+the <a href="/contributor-ladder.html">contributor ladder</a>.</p>
+<p>User → <strong>Contributor</strong> → <a href="/committers/">Committer</a> → <a href="/pmc/">PMC member</a></p>
+<p>While we often think of contributions to open source as <em>code</em>, a
+contribution can be anything - good questions, documentation, design,
+event coordination, and so on also qualify as contributions. Projects
+need your skills, even if you&rsquo;re not a programmer.</p>
+<p>But, it can sometimes be hard to know where to get started. We&rsquo;re here
+to help. Here&rsquo;s some of the basics.</p>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#what-projects-can-i-contribute-to">What projects can I contribute to?</a></li>
+    <li><a href="#where-is-everything">Where is everything?</a>
+      <ul>
+        <li><a href="#download">Download</a></li>
+        <li><a href="#what-can-i-contribute">What can I contribute?</a></li>
+        <li><a href="#communication">Communication</a></li>
+      </ul>
+    </li>
+    <li><a href="#your-first-contribution">Your First Contribution</a></li>
+    <li><a href="#becoming-a-committer">Becoming a Committer</a></li>
+    <li><a href="#questions-and-feedback">Questions and Feedback</a></li>
+  </ul>
+</nav>
+<h2 id="what-projects-can-i-contribute-to">What projects can I contribute to? <a class="headerlink" title="Permalink" href="#what-projects-can-i-contribute-to">&para;</a></h2>
+<p>Most contributors start as users, and then see something that they want
+to improve, fix, or otherwise help out with.</p>
+<p>There&rsquo;s <a href="https://projects.apache.org/">a lot of projects</a>. You can look
+through them
+<a href="https://projects.apache.org/projects.html?name">by name</a>,
+<a href="https://projects.apache.org/projects.html?category">by topic</a>,
+or <a href="https://projects.apache.org/projects.html?language">by programming language</a>.</p>
+<h2 id="where-is-everything">Where is everything? <a class="headerlink" title="Permalink" href="#where-is-everything">&para;</a></h2>
+<p>Every <a href="https://projects.apache.org/">Apache project</a> website <em>should</em>
+have an <strong>/about</strong> page (or similar) that lists the basic &ldquo;where is
+everything&rdquo; about the project. If they don&rsquo;t, here&rsquo;s where to start looking:</p>
+<h3 id="download">Download <a class="headerlink" title="Permalink" href="#download">&para;</a></h3>
+<p>Most (not all) Apache projects will have a prominent download link on
+the front page of their project website. This will (hopefully) be
+accompanied by instructions on how to download, build, install, and use
+the releases.</p>
+<p>Getting to know how to use the software that a project releases is a
+reasonable first step towards contributing. Keep notes of that first
+user experience, as that is valuable information for the project, and
+might be a good place to start your contributions.</p>
+<h3 id="what-can-i-contribute">What can I contribute? <a class="headerlink" title="Permalink" href="#what-can-i-contribute">&para;</a></h3>
+<p>Most people&rsquo;s first thought when contributing to open source projects is
+code. And, indeed, that&rsquo;s where most people get involved. Most (not all)
+Apache projects have their code on <a href="https://github.com/apache">GitHub</a>.
+Search for the project name in the <strong>apache</strong> GitHub organization.</p>
+<p>There are, however, many other areas where you can contribute to a
+project. Projects should identify, recruit for, and celebrate contributions in
+all of these areas, and reward non-code contributors with the same
+rights and privileges that they do for code contributors. <a href="non-code.html">Read more
+about non-code contribution opportunities</a>.</p>
+<h3 id="communication">Communication <a class="headerlink" title="Permalink" href="#communication">&para;</a></h3>
+<p>Most (not all) Apache project have their main discussions on <a href="https://lists.apache.org/">mailing
+lists</a>. Most projects have
+<code>users@project.apache.org</code> and <code>dev@project.apache.org</code> mailing lists,
+focused, respectively, on end-user questions, and development activity.
+You can read the archives (i.e., messages from the past), as well as
+participate in current discussions, either by subscribing to the lists,
+or by using the <a href="https://lists.apache.org/">lists.apache.org</a> site
+directly.</p>
+<!--
+
+TODO:
+
+All of this stuff about mailing lists should be in mailing-lists.md
+rather than here.
+
+-->
+<h4 id="subscribe">Subscribe <a class="headerlink" title="Permalink" href="#subscribe">&para;</a></h4>
+<p>To subscribe (that is, to receive every message sent to the list via
+email) to a project mailing list (e.g., if you want to subscribe
+to the <code>users</code> list for <code>PROJECT</code>)
+send a blank email message to <code>users-subscribe@PROJECT.apache.org</code>.
+Substitute the name of the list (i.e., <code>dev</code> instead of <code>users</code>), and of
+the specific project you&rsquo;re interested in (i.e., <code>karaf</code> instead of
+<code>PROJECT</code>).</p>
+<h4 id="unsubscribe">Unsubscribe <a class="headerlink" title="Permalink" href="#unsubscribe">&para;</a></h4>
+<p>To unsubscribe, the process is similar. Send a blank email message to
+<code>users-unsubscribe@PROJECT.apache.org</code> from the email address with which
+you subscribed.</p>
+<p>In each case, you&rsquo;ll receive a confirmation email, with further
+instructions.</p>
+<h4 id="other-communication-channels">Other communication channels <a class="headerlink" title="Permalink" href="#other-communication-channels">&para;</a></h4>
+<p>Some projects use other communication channels, such as Slack, Discord,
+or WeChat. This will (hopefully) be listed on the project page.</p>
+<h2 id="your-first-contribution">Your First Contribution <a class="headerlink" title="Permalink" href="#your-first-contribution">&para;</a></h2>
+<p>Most first contributions are simple, as you become familiar with the
+project and its specific contributor flow.</p>
+<p>We recommend that you start by finding, and joining, the relevant
+communication channel. Introduce yourself, and say what you&rsquo;re
+interested in working on. How people respond to this can be a good
+indicator of how welcoming the project is. It will also be an
+opportunity for them to point you to <a href="https://community.apache.org/committers/good-first-issues.html">good first
+issues</a>,
+or other possible things to work on.</p>
+<p>Your beginner&rsquo;s impression of the project, and the development process,
+can be very valuable to projects attempting to improve their onboarding
+experience, so take notes of the things that were hard to find, or
+processes that you found confusing.</p>
+<h2 id="becoming-a-committer">Becoming a Committer <a class="headerlink" title="Permalink" href="#becoming-a-committer">&para;</a></h2>
+<p>Any contributor can, eventually, become a committer. While the exact
+process, and the specific milestones you may need to achieve, will vary
+from one project to another, the basics are fairly consistent across the
+ASF.</p>
+<p>Ideally, once someone has contributed consistently, and of a
+consistently high quality, to a project, they will get invited to become
+a committer, which grants a higher level of ownership of the project.</p>
+<p>Being a committer does not necessarily mean you commit code, although
+that is the historical reason that we use this particular word.
+It means you are <em>committed</em> to the project and are productively
+contributing to its success.</p>
+<p>We&rsquo;ve written a <a href="/contributors/becomingacommitter.html">guide on how to become an Apache
+committer</a> which covers the basics. As you
+become more familiar with a specific project, though, you&rsquo;ll see that
+each project has its own slightly different culture.</p>
+<p>In general, we have some <a href="/contributors/etiquette">etiquette and behavior expectations</a> when
+you work with ASF communities.</p>
+<p>For more details see &ldquo;<a href="https://www.apache.org/foundation/how-it-works.html">How it works</a>&rdquo;.  You can also make
+<a href="/newbiefaq.html#websitecms">suggestions for how to update this website</a> you&rsquo;re reading right now!</p>
+<h2 id="questions-and-feedback">Questions and Feedback <a class="headerlink" title="Permalink" href="#questions-and-feedback">&para;</a></h2>
+<p>If you have other questions, the ComDev team is here to help.</p>
+<p>You can provide feedback and ask questions by subscribing to our mailing
+list: send an email to
+<a href="mailto:dev-subscribe@community.apache.org">dev-subscribe@community.apache.org</a>.
+Once subscribed, you can send email to <a href="mailto:dev@community.apache.org">dev@community.apache.org</a>,
+or through the <a href="https://lists.apache.org/lists.html?dev@community.apache.org">lists.apache.org web
+interface</a>.</p>
+<!--
+
+Editorial Note: This is useful content, but doesn't belong here. Commenting out
+for now, but need to move at some point. Probably belongs under /pmc/ ? --RCB
+
+## Project Independence And Policies
+
+While not all ASF projects practice all aspects of the Apache Way in the 
+same way, there are a number of rules that ASF projects must follow – things
+like complying with PMC [release voting][2], [legal policy][3], [brand policy][4], 
+using [mailing lists][5], etc., which are [documented in various places][6]. 
+
+One of these invariant rules is that projects are managed
+independently of any commercial interests. The goal is to create an
+environment in which all participants are equal and thus have an equal
+opportunity to contribute to and benefit from our software, regardless
+of motivation or financial objectives. This is discussed in more detail
+in our document [Project Independence][7].
+
+-->
+<!-- Links -->
+<!-- /Links -->
+
+    
+
+    </div>
+  </main>
+
+  <footer class="page-footer bg-secondary mt-4 pt-3">
+    <div class="container text-center text-md-left mb-3">
+      <div class="row">
+        <div class="col-md-6 mt-md-0 mt-3">
+          <h5 class="text-uppercase">Trademarks</h5>
+          <p>
+            Apache&reg;, the names of Apache projects, and the Apache logo are
+            <a href="https://www.apache.org/foundation/marks/list/">registered trademarks or trademarks</a> of the Apache
+            Software Foundation in the United States and/or other countries.
+          </p>
+        </div>
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <div class="col-md-6 mb-md-0 mb-3">
+          <h5 class="text-uppercase">Website sources</h5>
+          <p>
+  This website is generated from the <a href="https://github.com/apache/comdev-site">comdev-site repository</a>
+  
+    <br>
+    Source of this page:
+      <a href="https://github.com/apache/comdev-site/blob/main/source/contributors/_index.md" title="Source of this page">
+        contributors/_index.md
+      </a>
+  
+</p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright text-center py-3">
+      <em>Copyright &copy; 2026, <a href="https://www.apache.org/">the Apache Software Foundation</a>. Licensed under the
+      <a rel="license" href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></em>
+    </div>
+  </footer>
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>

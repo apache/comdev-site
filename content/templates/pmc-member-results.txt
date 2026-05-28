@@ -1,0 +1,14 @@
+To: private@[PROJECT].apache.org
+Subject: [RESULT] [VOTE] New PMC member: [Candidate Name]
+
+The vote has now closed. The results are:
+
++1 N binding, M non-binding
+ 0 N binding, M non-binding
+-1 N binding, M non-binding
+
+[Considering listing the names of who voted which way]
+
+The vote is ***successful/not successful***
+
+[Include link to VOTE thread on lists.apache.org]

@@ -1,0 +1,21 @@
+To: private@[PROJECT].apache.org
+Subject: [VOTE] New Committer and PMC member: [Candidate Name]
+
+[ add the reasons behind your nomination here ]
+
+This is a VOTE to add [Candidate Name] as a committer and PMC member
+
+This has been discussed here: [Link to DISCUSS thread on
+lists.apache.org] If you have more to add to the discussion, please do
+so there, rather than in this VOTE thread.
+
+[+1] Yes, add this committer and PMC member
+[0] Abstain
+[-1] No, do not add this committer and PMC member
+
+Voting ends one week from today, i.e. midnight UTC on YYYY-MM-DD
+https://www.timeanddate.com/counters/customcounter.html?year=YYYY&month=MM&day=DD
+
+See voting guidelines at
+https://community.apache.org/pmc/adding-committers.html
+

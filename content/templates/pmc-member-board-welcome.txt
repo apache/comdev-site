@@ -1,0 +1,17 @@
+To: NewPmcMember@apache.org
+Subject: Welcome to the Larger ASF Family
+
+Dear __NAME__,
+
+I see that you have been added to the __PROJECT__ PMC. Congratulations!
+
+As a PMC member, you’re entrusted with the direction of the project, as well as its ongoing relationship with the Board and the rest of the Foundation, so we wanted to welcome you to the larger ASF family.
+
+And even as you have been added, remember that part of your duty is now to be the one to be on the lookout for potential committers and PMC members for your project, and to mentor those people into project leadership, to ensure the sustainability of your project, and of the Foundation.
+
+We’ve put together some resources for PMC members at https://community.apache.org/pmc/ That’s still very much a work in progress and we hope it will improve over time. We’d like to hear your feedback on how this resource could be improved, based on information that you learn and wish someone had told you.
+
+If you have any questions about any aspect of the Foundation, or want to chat about how the Foundation can better serve your project, please reach out to myself, or any other Director.
+
+__DIRECTOR__, on behalf of the Board of Directors
+
