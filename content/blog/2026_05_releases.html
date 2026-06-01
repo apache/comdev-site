@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+  <meta name="description" content="Apache Community Development">
+  <meta name="keywords" content="apache, apache community, community development, opensource">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" >
+  <meta property="og:url" content="https://community.apache.org/blog/2026_05_releases.html">
+  <meta property="og:site_name" content="ASF Community Development">
+  <meta property="og:title" content="ASF Releases, May 2026">
+  <meta property="og:description" content="Releases ¶ In May, 2026, 65 projects made 217 releases.
+ACTIVEMQ ¶ activemq-parent-5.19.7 — 2026-05-27 activemq-parent-6.2.6 — 2026-05-27 AIRFLOW ¶ apache_airflow-3.2.2 — 2026-05-29 apache_airflow_core-3.2.2 — 2026-05-29 apache_airflow_ctl-0.1.4 — 2026-05-05 apache_airflow_providers-2026-05-25 — 2026-05-27 apache_airflow_providers_airbyte-5.5.0 — 2026-05-27 apache_airflow_providers_alibaba-3.3.8 — 2026-05-23 apache_airflow_providers_amazon-9.29.0 — 2026-05-23 apache_airflow_providers_apache_hdfs-4.12.0 — 2026-05-23 apache_airflow_providers_apache_hive-9.5.0 — 2026-05-23 apache_airflow_providers_apache_kafka-1.14.0 — 2026-05-23 apache_airflow_providers_apache_livy-4.5.6 — 2026-05-23 apache_airflow_providers_apache_spark-6.0.2 — 2026-05-23 apache_airflow_providers_celery-3.20.0 — 2026-05-23 apache_airflow_providers_cncf_kubernetes-10.17.1 — 2026-05-23 apache_airflow_providers_common_ai-0.3.0 — 2026-05-23 apache_airflow_providers_common_compat-1.15.0 — 2026-05-23 apache_airflow_providers_common_sql-2.0.0 — 2026-05-23 apache_airflow_providers_databricks-7.15.0 — 2026-05-23 apache_airflow_providers_dbt_cloud-4.9.0 — 2026-05-27 apache_airflow_providers_discord-3.12.3 — 2026-05-11 apache_airflow_providers_docker-4.5.6 — 2026-05-23 apache_airflow_providers_edge3-3.7.0 — 2026-05-23 apache_airflow_providers_elasticsearch-6.5.4 — 2026-05-23 apache_airflow_providers_fab-3.6.4 — 2026-05-23 apache_airflow_providers_ftp-3.15.0 — 2026-05-23 apache_airflow_providers_git-0.4.0 — 2026-05-23 apache_airflow_providers_google-22.0.0 — 2026-05-23 apache_airflow_providers_imap-3.11.3 — 2026-05-23 apache_airflow_providers_influxdb-2.11.0 — 2026-05-23 apache_airflow_providers_keycloak-0.7.2 — 2026-05-23 apache_airflow_providers_microsoft_azure-13.3.0 — 2026-05-23 apache_airflow_providers_microsoft_mssql-4.6.0 — 2026-05-23 apache_airflow_providers_mongo-5.4.0 — 2026-05-23 apache_airflow_providers_mysql-6.6.0 — 2026-05-23 apache_airflow_providers_openlineage-2.17.0 — 2026-05-23 apache_airflow_providers_opensearch-1.9.2 — 2026-05-23 apache_airflow_providers_oracle-4.6.0 — 2026-05-23 apache_airflow_providers_pinecone-2.4.5 — 2026-05-23 apache_airflow_providers_postgres-6.7.0 — 2026-05-23 apache_airflow_providers_presto-5.12.0 — 2026-05-23 apache_airflow_providers_sftp-5.8.0 — 2026-05-23 apache_airflow_providers_smtp-3.0.1 — 2026-05-23 apache_airflow_providers_snowflake-6.13.0 — 2026-05-23 apache_airflow_providers_ssh-5.0.2 — 2026-05-23 apache_airflow_providers_standard-1.13.1 — 2026-05-23 apache_airflow_providers_tableau-5.4.1 — 2026-05-23 apache_airflow_providers_teradata-3.6.0 — 2026-05-23 apache_airflow_providers_trino-6.6.0 — 2026-05-23 apache_airflow_providers_vertica-4.4.0 — 2026-05-23 apache_airflow_providers_weaviate-3.3.4 — 2026-05-23 apache_airflow_providers_yandex-4.5.0 — 2026-05-11 apache_airflow_providers_zendesk-4.12.0 — 2026-05-23 apache_airflow_task_sdk-1.2.2 — 2026-05-29 ANSWER ¶ apache-answer-2.0.1 — 2026-05-25 ARROW ¶ apache-arrow-dotnet-23.0.0 — 2026-05-06 apache-arrow-rs-56.2.1 — 2026-05-11 apache-arrow-rs-57.3.1 — 2026-05-11 apache-arrow-rs-58.2.0 — 2026-05-02 apache-arrow-rs-58.3.0 — 2026-05-11 ARTEMIS ¶ apache-artemis-2.54.0 — 2026-05-14 AXIS ¶ axis2-2.0.1 — 2026-05-18 BRPC ¶ apache-brpc-1.17.0 — 2026-05-22 CALCITE ¶ apache-calcite-1.42.0 — 2026-05-31 apache-calcite-avatica-1.28.0 — 2026-05-11 CAMEL ¶ apache-camel-quarkus-3.27.4 — 2026-05-06 apache-camel-quarkus-3.33.1 — 2026-05-05 apache-camel-quarkus-3.36.0 — 2026-05-21 camel-k-sources-2.10.1 — 2026-05-14 camel-k-sources-2.8.1 — 2026-05-14 camel-k-sources-2.9.2 — 2026-05-14 camel-kamelets-sources-4.18.2 — 2026-05-11 camel-karaf-4.14.7 — 2026-05-20 camel-karaf-4.18.2 — 2026-05-20 CASSANDRA ¶ apache-cassandra-analytics-0.4.0 — 2026-05-07 CLOUDSTACK ¶ apache-cloudstack-4.22.0.1 — 2026-05-06 apache-cloudstack-4.22.1.0 — 2026-05-11 COMMONS ¶ commons-configuration2-2.15.1 — 2026-05-26 commons-daemon-1.6.0 — 2026-05-29 commons-parent-100 — 2026-05-15 commons-statistics-1.3 — 2026-05-05 CORDOVA ¶ cordova-ios-npm-8.1.0 — 2026-05-31 cordova-ios-source-8.1.0 — 2026-05-31 cordova-plugin-network-information-npm-3.1.0 — 2026-05-16 cordova-plugin-network-information-source-3.1.0 — 2026-05-16 COUCHDB ¶ apache-couchdb-3.5.2 — 2026-05-14 CXF ¶ apache-cxf-3.6.11 — 2026-05-20 apache-cxf-4.1.6 — 2026-05-20 apache-cxf-4.2.1 — 2026-05-20 DATAFUSION ¶ apache-datafusion-ballista-53.0.0 — 2026-05-25 apache-datafusion-comet-0.16.0 — 2026-05-11 apache-datafusion-java-0.1.0 — 2026-05-28 apache-datafusion-sqlparser-rs-0.62.0 — 2026-05-07 DATASKETCHES ¶ apache-datasketches-rust-0.3.0-rc.2 — 2026-05-13 DIRECTORY ¶ apache-ldap-api-2.1.8 — 2026-05-31 DORIS ¶ apache-doris-4.1.1-rc01 — 2026-05-20 apache-doris-flink-connector-26.1.1 — 2026-05-07 ECHARTS ¶ apache-echarts-6.1.0 — 2026-05-19 FELIX ¶ org.apache.felix.http.base-5.1.18 — 2026-05-22 org.apache.felix.http.jetty-5.2.2 — 2026-05-22 org.apache.felix.http.jetty12-1.1.10 — 2026-05-22 FLINK ¶ apache_flink-2.1.2 — 2026-05-03 apache_flink-2.2.1 — 2026-05-03 apache_flink_libraries-2.1.2 — 2026-05-03 apache_flink_libraries-2.2.1 — 2026-05-03 flink-2.1.2 — 2026-05-03 flink-2.2.1 — 2026-05-03 flink-kubernetes-operator-1.15.0 — 2026-05-07 flink-kubernetes-operator-1.15.0-helm — 2026-05-07 FORY ¶ apache-fory-1.0.0 — 2026-05-18 GEODE ¶ apache-geode-1.15.4 — 2026-05-14 apache-geode-2.0.2 — 2026-05-13 apache-geode-benchmarks-1.15.4 — 2026-05-14 apache-geode-benchmarks-2.0.2 — 2026-05-13 apache-geode-examples-1.15.4 — 2026-05-14 apache-geode-examples-2.0.2 — 2026-05-13 apache-geode-native-1.15.4 — 2026-05-14 apache-geode-native-2.0.2 — 2026-05-13 GRAILS ¶ apache-grails-8.0.0-M1 — 2026-05-03 apache-grails-spring-security-8.0.0-M1 — 2026-05-05 GRAVITINO ¶ gravitino-1.2.1 — 2026-05-06 gravitino-trino-connector-435-439-1.2.1 — 2026-05-06 gravitino-trino-connector-440-445-1.2.1 — 2026-05-06 gravitino-trino-connector-446-451-1.2.1 — 2026-05-06 gravitino-trino-connector-452-468-1.2.1 — 2026-05-06 gravitino-trino-connector-469-472-1.2.1 — 2026-05-06 gravitino-trino-connector-473-478-1.2.1 — 2026-05-06 GROOVY ¶ apache-groovy-4.0.32 — 2026-05-07 apache-groovy-5.0.6 — 2026-05-07 apache-groovy-6.0.0-alpha-1 — 2026-05-07 apache-groovy-sdk-4.0.32 — 2026-05-07 apache-groovy-sdk-5.0.6 — 2026-05-07 apache-groovy-sdk-6.0.0-alpha-1 — 2026-05-07 HTTPD ¶ httpd-2.4.67 — 2026-05-04 HUDI ¶ hudi-0.15.1 — 2026-05-28 hudi-1.2.0 — 2026-05-23 ICEBERG ¶ apache-iceberg-1.10.2 — 2026-05-13 apache-iceberg-1.11.0 — 2026-05-15 apache-iceberg-go-0.6.0 — 2026-05-21 INCUBATOR-FESOD ¶ apache-fesod-2.0.2-incubating — 2026-05-16 INCUBATOR-OTAVA ¶ apache-otava-0.8.0-incubating — 2026-05-08 apache_otava-0.8.0 — 2026-05-08 INCUBATOR-TEXERA ¶ apache-texera-1.1.0-incubating — 2026-05-06 apache-texera-1.1.0-incubating-docker-compose — 2026-05-06 JENA ¶ jena-6.1.0 — 2026-05-03 JOHNZON ¶ johnzon-1.3.0 — 2026-05-12 johnzon-2.1.0 — 2026-05-06 KAFKA ¶ kafka-4.2.1 — 2026-05-28 kafka-4.3.0 — 2026-05-20 kafka_2.13-4.2.1 — 2026-05-28 kafka_2.13-4.3.0 — 2026-05-20 LOGGING ¶ apache-log4j-2.26.0 — 2026-05-07 MAHOUT ¶ qumat-0.6.0 — 2026-05-31 MAVEN ¶ apache-38 — 2026-05-10 apache-maven-3.9.16 — 2026-05-13 enforcer-3.6.3 — 2026-05-18 maven-build-cache-extension-1.2.3 — 2026-05-22 maven-changelog-plugin-3.0.0-M2 — 2026-05-23 maven-dependency-analyzer-1.17.1 — 2026-05-16 maven-dependency-plugin-3.11.0 — 2026-05-28 maven-invoker-plugin-3.10.1 — 2026-05-05 maven-mvnd-1.0.6 — 2026-05-27 maven-parent-48 — 2026-05-10 maven-reporting-exec-2.0.1 — 2026-05-17 maven-resolver-2.0.18 — 2026-05-18 maven-site-plugin-3.22.0 — 2026-05-23 surefire-3.5.6 — 2026-05-27 MINA ¶ apache-sshd-2.18.0 — 2026-05-25 apache-sshd-3.0.0-M4 — 2026-05-25 MYFACES ¶ myfaces-tobago-6.11.0 — 2026-05-16 NETBEANS ¶ netbeans-30 — 2026-05-11 OFBIZ ¶ apache-ofbiz-24.09.06 — 2026-05-19 OPENWEBBEANS ¶ openwebbeans-4.1.0 — 2026-05-06 PAIMON ¶ apache-paimon-1.3.2 — 2026-05-06 paimon-rust-0.2.0 — 2026-05-20 pypaimon-1.3.2 — 2026-05-06 PARQUET ¶ apache-parquet-1.17.1 — 2026-05-08 PDFBOX ¶ jbig2-imageio-3.0.5 — 2026-05-19 PEKKO ¶ apache-pekko-2.0.0-M2-20260510 — 2026-05-10 apache-pekko-persistence-r2dbc-2.0.0-M1-20260523 — 2026-05-23 PHOENIX ¶ phoenix-5.3.1 — 2026-05-13 POLARIS ¶ apache-polaris-1.5.0 — 2026-05-18 polaris-1.5.0 — 2026-05-18 PULSAR ¶ pulsar-client-python-3.12.0 — 2026-05-13 SHIRO ¶ shiro-root-2.2.0 — 2026-05-18 SKYWALKING ¶ apache-skywalking-horizon-ui-0.5.0 — 2026-05-21 SLING ¶ org.apache.sling.adapter-3.0.0 — 2026-05-11 org.apache.sling.commons.log-6.1.0 — 2026-05-26 org.apache.sling.commons.metrics-2.0.0 — 2026-05-08 org.apache.sling.extensions.webconsolesecurityprovider-2.0.0 — 2026-05-11 org.apache.sling.feature-2.0.6 — 2026-05-26 org.apache.sling.junit.core-1.3.0 — 2026-05-20 org.apache.sling.mcp-server-0.1.4 — 2026-05-26 org.apache.sling.mcp-server-contributions-0.1.0 — 2026-05-26 org.apache.sling.tracer-1.1.0 — 2026-05-20 SPARK ¶ SparkR_4.1.2 — 2026-05-16 pyspark-4.1.2 — 2026-05-16 pyspark_client-4.1.2 — 2026-05-16 pyspark_connect-4.1.2 — 2026-05-16 spark-4.1.2 — 2026-05-16 spark-kubernetes-operator-0.9.0 — 2026-05-11 STORM ¶ apache-storm-2.8.8 — 2026-05-11 STORMCRAWLER ¶ apache-stormcrawler-3.6.0 — 2026-05-22 STRUTS ¶ struts-6.10.0 — 2026-05-25 SUPERSET ¶ apache_superset-6.1.0 — 2026-05-13 SYNCOPE ¶ syncope-4.0.6 — 2026-05-22 syncope-4.1.1 — 2026-05-22 TEACLAVE ¶ apache-teaclave-trustzone-sdk-0.9.0 — 2026-05-18 TIKA ¶ tika-3.3.1 — 2026-05-20 tika-4.0.0-alpha-1 — 2026-05-08 TOMCAT ¶ apache-tomcat-10.1.55 — 2026-05-05 TVM ¶ apache-tvm-ffi-v0.1.11 — 2026-05-04 apache-tvm-v0.24.0 — 2026-05-14 WICKET ¶ apache-wicket-10.9.1 — 2026-05-16 apache-wicket-8.18.0 — 2026-05-10 apache-wicket-9.23.0 — 2026-05-09">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2026-06-01T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-06-01T12:40:20-04:00">
+    <meta property="article:tag" content="Blog">
+    <meta property="og:image" content="https://community.apache.org/images/project-logos.webp">
+
+
+  <title>Apache Community Development - ASF Releases, May 2026</title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link href="/css/main.css" rel="stylesheet" media="screen">
+  <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <style>
+      .footer {
+          text-align:center;
+          color:grey;
+          font-size:80%;
+          border-top: solid #ddd 1px;
+          margin-top:1em;
+      }
+      .navbar-brand img {
+          height: 50px;
+      }
+  </style>
+
+  
+<script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(['disableCookies']);
+   
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.apache.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '36']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+
+  
+
+</head>
+
+<body>
+  <header class="navbar navbar-expand-lg navbar-dark bg-bright fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+    <img src="https://apache.org/img/asf_logo.png" alt="Apache Software Foundation">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="mainNavbar">
+    <div class="container"> 
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="homeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Home
+            </a>
+            <div class="dropdown-menu" aria-labelledby="homeDropdown">
+              <a class="dropdown-item" href="/">Homepage</a>
+              <a class="dropdown-item" href="/tags/">Tags</a>
+              <a class="dropdown-item" href="/blog/">Blog</a>
+              <a class="dropdown-item" href="/tags/navigation.html">Navigation pages</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About
+          </a>
+          <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+            <a class="dropdown-item" href="/about/">What We Do</a>
+            <a class="dropdown-item" href="/newbiefaq.html">Frequently Asked Questions</a>
+            <a class="dropdown-item" href="/projectIndependence.html">Apache Project Independence</a>
+            <a class="dropdown-item" href="/apache-way/apache-project-maturity-model.html">Apache Project Maturity Model</a>
+            <a class="dropdown-item" href="/contactpoints.html">Contact Points Within the ASF</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html#2009-11-01">ComDev Original Board Resolution</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html">ComDev Board Reports</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/COMDEV">Community Development Jira</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">About Apache</a>
+            <a class="dropdown-item" href="https://www.apache.org/">The Apache Software Foundation</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/sponsorship">Sponsor Apache</a>
+            <a class="dropdown-item" href="http://diversity.apache.org/">Diversity & Inclusion</a>
+             <a class="dropdown-item" href="/contributors/asf-volunteers.html">Mentors &amp; Speakers</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/thanks">Thanks to our Sponsors</a>
+            <a class="dropdown-item" href="https://www.apache.org/licenses">License</a>
+            <a class="dropdown-item" href="https://www.apache.org/security">Security</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="contribDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Contributing
+          </a>
+          <div class="dropdown-menu" aria-labelledby="contribDropdown">
+            <a class="dropdown-item" href="/contributor-ladder.html">Contributor Ladder</a>
+            <a class="dropdown-item" href="/newcomers/">Getting Started at Apache</a>
+            <a class="dropdown-item" href="/contributors/">Contributing to projects</a>
+            <a class="dropdown-item" href="/committers/">Committers</a>
+            <a class="dropdown-item" href="/pmc/">PMC Members</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">Committer and PMC Information</a>
+            <a class="dropdown-item" href="https://www.apache.org/dev/">Technical Developer FAQs</a>
+            <a class="dropdown-item" href="/committers/decisionMaking.html">Decision Making</a>
+            <a class="dropdown-item" href="/committers/good-first-issues.html">Good First Issues</a>
+            <a class="dropdown-item" href="/pmc/community-growth.html">Recruiting New Contributors</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="gsocDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">GSoC</a>
+          <div class="dropdown-menu" aria-labelledby="gsocDropdown">
+            <a class="dropdown-item" href="/gsoc/">Google Summer Of Code Information</a>
+            <a class="dropdown-item" href="/gsoc/mentee-ranking-process.html">Mentee Ranking Process</a>
+            <a class="dropdown-item" href="/gsoc/experiences/">Past GSoC Experiences</a>
+            <a class="dropdown-item" href="/gsoc/guide-to-being-a-mentor.html">Guide to being a Mentor</a>
+            <a class="dropdown-item" href="/gsoc/use-the-comdev-gsoc-issue-tracker-for-gsoc-tasks.html">Using ComDev's Jira for GSoC Ideas</a>
+            <a class="dropdown-item" href="/gsoc/gsoc-admin-tasks.html">Tasks of a GSoC Admin at the ASF</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/GSOC">GSoC Jira</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="eventDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Events
+          </a>
+          <div class="dropdown-menu" aria-labelledby="eventDropdown">
+            <a class="dropdown-item" href="https://apachecon.com/">Community Over Code - (formerly ApacheCon)</a>
+            <a class="dropdown-item" href="https://events.apache.org/">Other Apache-related Events</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/marks/events">Apache event branding policies</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">Conference Speakers</a>
+            <a class="dropdown-item" href="/speakers/">Speaker resources</a>
+            <a class="dropdown-item" href="/speakers/slides.html">Sample presentations</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="wgDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Working Groups
+          </a>
+          <div class="dropdown-menu" aria-labelledby="wgDropdown">
+            <a class="dropdown-item" href="/workinggroups/">Working Groups</a>
+            <a class="dropdown-item" href="https://github.com/apache/comdev-working-groups">Git repositories</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="conversDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Join the Conversation
+          </a>
+          <div class="dropdown-menu" aria-labelledby="conversDropdown">
+            <a class="dropdown-item" href="/blog/">Blog</a>
+            <a class="dropdown-item" href="https://www.facebook.com/ApacheSoftwareFoundation">Facebook</a>
+            <a class="dropdown-item" href="https://twitter.com/ApacheCommunity">Twitter</a>
+            <a class="dropdown-item" href="/lists.html">Mailing List</a>
+            <a class="dropdown-item" href="https://cwiki.apache.org/confluence/display/COMDEV/Apache+Local+Community+-+ALC">ALC: Apache Local Communities</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+    </div>
+  </header>
+
+  <main class="cd-main" id="content" role="main">
+    <div class="container">
+      
+      <hr>
+       
+<ul class="tags-list">
+  
+  <li>
+    <a href="https://community.apache.org/tags/blog.html">blog</a>
+  </li></ul>
+
+      
+	
+		<h2>ASF Releases, May 2026</h2>
+		<span class="published-info">Published on Monday, Jun 1, 2026
+
+    
+    by Rich Bowen
+    
+</span>
+	
+	<br><br>
+	<h2 id="releases">Releases <a class="headerlink" title="Permalink" href="#releases">&para;</a></h2>
+<p>In May, 2026, 65 projects made 217 releases.</p>
+<h3 id="activemq">ACTIVEMQ <a class="headerlink" title="Permalink" href="#activemq">&para;</a></h3>
+<ul>
+<li>activemq-parent-5.19.7 — 2026-05-27</li>
+<li>activemq-parent-6.2.6 — 2026-05-27</li>
+</ul>
+<h3 id="airflow">AIRFLOW <a class="headerlink" title="Permalink" href="#airflow">&para;</a></h3>
+<ul>
+<li>apache_airflow-3.2.2 — 2026-05-29</li>
+<li>apache_airflow_core-3.2.2 — 2026-05-29</li>
+<li>apache_airflow_ctl-0.1.4 — 2026-05-05</li>
+<li>apache_airflow_providers-2026-05-25 — 2026-05-27</li>
+<li>apache_airflow_providers_airbyte-5.5.0 — 2026-05-27</li>
+<li>apache_airflow_providers_alibaba-3.3.8 — 2026-05-23</li>
+<li>apache_airflow_providers_amazon-9.29.0 — 2026-05-23</li>
+<li>apache_airflow_providers_apache_hdfs-4.12.0 — 2026-05-23</li>
+<li>apache_airflow_providers_apache_hive-9.5.0 — 2026-05-23</li>
+<li>apache_airflow_providers_apache_kafka-1.14.0 — 2026-05-23</li>
+<li>apache_airflow_providers_apache_livy-4.5.6 — 2026-05-23</li>
+<li>apache_airflow_providers_apache_spark-6.0.2 — 2026-05-23</li>
+<li>apache_airflow_providers_celery-3.20.0 — 2026-05-23</li>
+<li>apache_airflow_providers_cncf_kubernetes-10.17.1 — 2026-05-23</li>
+<li>apache_airflow_providers_common_ai-0.3.0 — 2026-05-23</li>
+<li>apache_airflow_providers_common_compat-1.15.0 — 2026-05-23</li>
+<li>apache_airflow_providers_common_sql-2.0.0 — 2026-05-23</li>
+<li>apache_airflow_providers_databricks-7.15.0 — 2026-05-23</li>
+<li>apache_airflow_providers_dbt_cloud-4.9.0 — 2026-05-27</li>
+<li>apache_airflow_providers_discord-3.12.3 — 2026-05-11</li>
+<li>apache_airflow_providers_docker-4.5.6 — 2026-05-23</li>
+<li>apache_airflow_providers_edge3-3.7.0 — 2026-05-23</li>
+<li>apache_airflow_providers_elasticsearch-6.5.4 — 2026-05-23</li>
+<li>apache_airflow_providers_fab-3.6.4 — 2026-05-23</li>
+<li>apache_airflow_providers_ftp-3.15.0 — 2026-05-23</li>
+<li>apache_airflow_providers_git-0.4.0 — 2026-05-23</li>
+<li>apache_airflow_providers_google-22.0.0 — 2026-05-23</li>
+<li>apache_airflow_providers_imap-3.11.3 — 2026-05-23</li>
+<li>apache_airflow_providers_influxdb-2.11.0 — 2026-05-23</li>
+<li>apache_airflow_providers_keycloak-0.7.2 — 2026-05-23</li>
+<li>apache_airflow_providers_microsoft_azure-13.3.0 — 2026-05-23</li>
+<li>apache_airflow_providers_microsoft_mssql-4.6.0 — 2026-05-23</li>
+<li>apache_airflow_providers_mongo-5.4.0 — 2026-05-23</li>
+<li>apache_airflow_providers_mysql-6.6.0 — 2026-05-23</li>
+<li>apache_airflow_providers_openlineage-2.17.0 — 2026-05-23</li>
+<li>apache_airflow_providers_opensearch-1.9.2 — 2026-05-23</li>
+<li>apache_airflow_providers_oracle-4.6.0 — 2026-05-23</li>
+<li>apache_airflow_providers_pinecone-2.4.5 — 2026-05-23</li>
+<li>apache_airflow_providers_postgres-6.7.0 — 2026-05-23</li>
+<li>apache_airflow_providers_presto-5.12.0 — 2026-05-23</li>
+<li>apache_airflow_providers_sftp-5.8.0 — 2026-05-23</li>
+<li>apache_airflow_providers_smtp-3.0.1 — 2026-05-23</li>
+<li>apache_airflow_providers_snowflake-6.13.0 — 2026-05-23</li>
+<li>apache_airflow_providers_ssh-5.0.2 — 2026-05-23</li>
+<li>apache_airflow_providers_standard-1.13.1 — 2026-05-23</li>
+<li>apache_airflow_providers_tableau-5.4.1 — 2026-05-23</li>
+<li>apache_airflow_providers_teradata-3.6.0 — 2026-05-23</li>
+<li>apache_airflow_providers_trino-6.6.0 — 2026-05-23</li>
+<li>apache_airflow_providers_vertica-4.4.0 — 2026-05-23</li>
+<li>apache_airflow_providers_weaviate-3.3.4 — 2026-05-23</li>
+<li>apache_airflow_providers_yandex-4.5.0 — 2026-05-11</li>
+<li>apache_airflow_providers_zendesk-4.12.0 — 2026-05-23</li>
+<li>apache_airflow_task_sdk-1.2.2 — 2026-05-29</li>
+</ul>
+<h3 id="answer">ANSWER <a class="headerlink" title="Permalink" href="#answer">&para;</a></h3>
+<ul>
+<li>apache-answer-2.0.1 — 2026-05-25</li>
+</ul>
+<h3 id="arrow">ARROW <a class="headerlink" title="Permalink" href="#arrow">&para;</a></h3>
+<ul>
+<li>apache-arrow-dotnet-23.0.0 — 2026-05-06</li>
+<li>apache-arrow-rs-56.2.1 — 2026-05-11</li>
+<li>apache-arrow-rs-57.3.1 — 2026-05-11</li>
+<li>apache-arrow-rs-58.2.0 — 2026-05-02</li>
+<li>apache-arrow-rs-58.3.0 — 2026-05-11</li>
+</ul>
+<h3 id="artemis">ARTEMIS <a class="headerlink" title="Permalink" href="#artemis">&para;</a></h3>
+<ul>
+<li>apache-artemis-2.54.0 — 2026-05-14</li>
+</ul>
+<h3 id="axis">AXIS <a class="headerlink" title="Permalink" href="#axis">&para;</a></h3>
+<ul>
+<li>axis2-2.0.1 — 2026-05-18</li>
+</ul>
+<h3 id="brpc">BRPC <a class="headerlink" title="Permalink" href="#brpc">&para;</a></h3>
+<ul>
+<li>apache-brpc-1.17.0 — 2026-05-22</li>
+</ul>
+<h3 id="calcite">CALCITE <a class="headerlink" title="Permalink" href="#calcite">&para;</a></h3>
+<ul>
+<li>apache-calcite-1.42.0 — 2026-05-31</li>
+<li>apache-calcite-avatica-1.28.0 — 2026-05-11</li>
+</ul>
+<h3 id="camel">CAMEL <a class="headerlink" title="Permalink" href="#camel">&para;</a></h3>
+<ul>
+<li>apache-camel-quarkus-3.27.4 — 2026-05-06</li>
+<li>apache-camel-quarkus-3.33.1 — 2026-05-05</li>
+<li>apache-camel-quarkus-3.36.0 — 2026-05-21</li>
+<li>camel-k-sources-2.10.1 — 2026-05-14</li>
+<li>camel-k-sources-2.8.1 — 2026-05-14</li>
+<li>camel-k-sources-2.9.2 — 2026-05-14</li>
+<li>camel-kamelets-sources-4.18.2 — 2026-05-11</li>
+<li>camel-karaf-4.14.7 — 2026-05-20</li>
+<li>camel-karaf-4.18.2 — 2026-05-20</li>
+</ul>
+<h3 id="cassandra">CASSANDRA <a class="headerlink" title="Permalink" href="#cassandra">&para;</a></h3>
+<ul>
+<li>apache-cassandra-analytics-0.4.0 — 2026-05-07</li>
+</ul>
+<h3 id="cloudstack">CLOUDSTACK <a class="headerlink" title="Permalink" href="#cloudstack">&para;</a></h3>
+<ul>
+<li>apache-cloudstack-4.22.0.1 — 2026-05-06</li>
+<li>apache-cloudstack-4.22.1.0 — 2026-05-11</li>
+</ul>
+<h3 id="commons">COMMONS <a class="headerlink" title="Permalink" href="#commons">&para;</a></h3>
+<ul>
+<li>commons-configuration2-2.15.1 — 2026-05-26</li>
+<li>commons-daemon-1.6.0 — 2026-05-29</li>
+<li>commons-parent-100 — 2026-05-15</li>
+<li>commons-statistics-1.3 — 2026-05-05</li>
+</ul>
+<h3 id="cordova">CORDOVA <a class="headerlink" title="Permalink" href="#cordova">&para;</a></h3>
+<ul>
+<li>cordova-ios-npm-8.1.0 — 2026-05-31</li>
+<li>cordova-ios-source-8.1.0 — 2026-05-31</li>
+<li>cordova-plugin-network-information-npm-3.1.0 — 2026-05-16</li>
+<li>cordova-plugin-network-information-source-3.1.0 — 2026-05-16</li>
+</ul>
+<h3 id="couchdb">COUCHDB <a class="headerlink" title="Permalink" href="#couchdb">&para;</a></h3>
+<ul>
+<li>apache-couchdb-3.5.2 — 2026-05-14</li>
+</ul>
+<h3 id="cxf">CXF <a class="headerlink" title="Permalink" href="#cxf">&para;</a></h3>
+<ul>
+<li>apache-cxf-3.6.11 — 2026-05-20</li>
+<li>apache-cxf-4.1.6 — 2026-05-20</li>
+<li>apache-cxf-4.2.1 — 2026-05-20</li>
+</ul>
+<h3 id="datafusion">DATAFUSION <a class="headerlink" title="Permalink" href="#datafusion">&para;</a></h3>
+<ul>
+<li>apache-datafusion-ballista-53.0.0 — 2026-05-25</li>
+<li>apache-datafusion-comet-0.16.0 — 2026-05-11</li>
+<li>apache-datafusion-java-0.1.0 — 2026-05-28</li>
+<li>apache-datafusion-sqlparser-rs-0.62.0 — 2026-05-07</li>
+</ul>
+<h3 id="datasketches">DATASKETCHES <a class="headerlink" title="Permalink" href="#datasketches">&para;</a></h3>
+<ul>
+<li>apache-datasketches-rust-0.3.0-rc.2 — 2026-05-13</li>
+</ul>
+<h3 id="directory">DIRECTORY <a class="headerlink" title="Permalink" href="#directory">&para;</a></h3>
+<ul>
+<li>apache-ldap-api-2.1.8 — 2026-05-31</li>
+</ul>
+<h3 id="doris">DORIS <a class="headerlink" title="Permalink" href="#doris">&para;</a></h3>
+<ul>
+<li>apache-doris-4.1.1-rc01 — 2026-05-20</li>
+<li>apache-doris-flink-connector-26.1.1 — 2026-05-07</li>
+</ul>
+<h3 id="echarts">ECHARTS <a class="headerlink" title="Permalink" href="#echarts">&para;</a></h3>
+<ul>
+<li>apache-echarts-6.1.0 — 2026-05-19</li>
+</ul>
+<h3 id="felix">FELIX <a class="headerlink" title="Permalink" href="#felix">&para;</a></h3>
+<ul>
+<li>org.apache.felix.http.base-5.1.18 — 2026-05-22</li>
+<li>org.apache.felix.http.jetty-5.2.2 — 2026-05-22</li>
+<li>org.apache.felix.http.jetty12-1.1.10 — 2026-05-22</li>
+</ul>
+<h3 id="flink">FLINK <a class="headerlink" title="Permalink" href="#flink">&para;</a></h3>
+<ul>
+<li>apache_flink-2.1.2 — 2026-05-03</li>
+<li>apache_flink-2.2.1 — 2026-05-03</li>
+<li>apache_flink_libraries-2.1.2 — 2026-05-03</li>
+<li>apache_flink_libraries-2.2.1 — 2026-05-03</li>
+<li>flink-2.1.2 — 2026-05-03</li>
+<li>flink-2.2.1 — 2026-05-03</li>
+<li>flink-kubernetes-operator-1.15.0 — 2026-05-07</li>
+<li>flink-kubernetes-operator-1.15.0-helm — 2026-05-07</li>
+</ul>
+<h3 id="fory">FORY <a class="headerlink" title="Permalink" href="#fory">&para;</a></h3>
+<ul>
+<li>apache-fory-1.0.0 — 2026-05-18</li>
+</ul>
+<h3 id="geode">GEODE <a class="headerlink" title="Permalink" href="#geode">&para;</a></h3>
+<ul>
+<li>apache-geode-1.15.4 — 2026-05-14</li>
+<li>apache-geode-2.0.2 — 2026-05-13</li>
+<li>apache-geode-benchmarks-1.15.4 — 2026-05-14</li>
+<li>apache-geode-benchmarks-2.0.2 — 2026-05-13</li>
+<li>apache-geode-examples-1.15.4 — 2026-05-14</li>
+<li>apache-geode-examples-2.0.2 — 2026-05-13</li>
+<li>apache-geode-native-1.15.4 — 2026-05-14</li>
+<li>apache-geode-native-2.0.2 — 2026-05-13</li>
+</ul>
+<h3 id="grails">GRAILS <a class="headerlink" title="Permalink" href="#grails">&para;</a></h3>
+<ul>
+<li>apache-grails-8.0.0-M1 — 2026-05-03</li>
+<li>apache-grails-spring-security-8.0.0-M1 — 2026-05-05</li>
+</ul>
+<h3 id="gravitino">GRAVITINO <a class="headerlink" title="Permalink" href="#gravitino">&para;</a></h3>
+<ul>
+<li>gravitino-1.2.1 — 2026-05-06</li>
+<li>gravitino-trino-connector-435-439-1.2.1 — 2026-05-06</li>
+<li>gravitino-trino-connector-440-445-1.2.1 — 2026-05-06</li>
+<li>gravitino-trino-connector-446-451-1.2.1 — 2026-05-06</li>
+<li>gravitino-trino-connector-452-468-1.2.1 — 2026-05-06</li>
+<li>gravitino-trino-connector-469-472-1.2.1 — 2026-05-06</li>
+<li>gravitino-trino-connector-473-478-1.2.1 — 2026-05-06</li>
+</ul>
+<h3 id="groovy">GROOVY <a class="headerlink" title="Permalink" href="#groovy">&para;</a></h3>
+<ul>
+<li>apache-groovy-4.0.32 — 2026-05-07</li>
+<li>apache-groovy-5.0.6 — 2026-05-07</li>
+<li>apache-groovy-6.0.0-alpha-1 — 2026-05-07</li>
+<li>apache-groovy-sdk-4.0.32 — 2026-05-07</li>
+<li>apache-groovy-sdk-5.0.6 — 2026-05-07</li>
+<li>apache-groovy-sdk-6.0.0-alpha-1 — 2026-05-07</li>
+</ul>
+<h3 id="httpd">HTTPD <a class="headerlink" title="Permalink" href="#httpd">&para;</a></h3>
+<ul>
+<li>httpd-2.4.67 — 2026-05-04</li>
+</ul>
+<h3 id="hudi">HUDI <a class="headerlink" title="Permalink" href="#hudi">&para;</a></h3>
+<ul>
+<li>hudi-0.15.1 — 2026-05-28</li>
+<li>hudi-1.2.0 — 2026-05-23</li>
+</ul>
+<h3 id="iceberg">ICEBERG <a class="headerlink" title="Permalink" href="#iceberg">&para;</a></h3>
+<ul>
+<li>apache-iceberg-1.10.2 — 2026-05-13</li>
+<li>apache-iceberg-1.11.0 — 2026-05-15</li>
+<li>apache-iceberg-go-0.6.0 — 2026-05-21</li>
+</ul>
+<h3 id="incubator-fesod">INCUBATOR-FESOD <a class="headerlink" title="Permalink" href="#incubator-fesod">&para;</a></h3>
+<ul>
+<li>apache-fesod-2.0.2-incubating — 2026-05-16</li>
+</ul>
+<h3 id="incubator-otava">INCUBATOR-OTAVA <a class="headerlink" title="Permalink" href="#incubator-otava">&para;</a></h3>
+<ul>
+<li>apache-otava-0.8.0-incubating — 2026-05-08</li>
+<li>apache_otava-0.8.0 — 2026-05-08</li>
+</ul>
+<h3 id="incubator-texera">INCUBATOR-TEXERA <a class="headerlink" title="Permalink" href="#incubator-texera">&para;</a></h3>
+<ul>
+<li>apache-texera-1.1.0-incubating — 2026-05-06</li>
+<li>apache-texera-1.1.0-incubating-docker-compose — 2026-05-06</li>
+</ul>
+<h3 id="jena">JENA <a class="headerlink" title="Permalink" href="#jena">&para;</a></h3>
+<ul>
+<li>jena-6.1.0 — 2026-05-03</li>
+</ul>
+<h3 id="johnzon">JOHNZON <a class="headerlink" title="Permalink" href="#johnzon">&para;</a></h3>
+<ul>
+<li>johnzon-1.3.0 — 2026-05-12</li>
+<li>johnzon-2.1.0 — 2026-05-06</li>
+</ul>
+<h3 id="kafka">KAFKA <a class="headerlink" title="Permalink" href="#kafka">&para;</a></h3>
+<ul>
+<li>kafka-4.2.1 — 2026-05-28</li>
+<li>kafka-4.3.0 — 2026-05-20</li>
+<li>kafka_2.13-4.2.1 — 2026-05-28</li>
+<li>kafka_2.13-4.3.0 — 2026-05-20</li>
+</ul>
+<h3 id="logging">LOGGING <a class="headerlink" title="Permalink" href="#logging">&para;</a></h3>
+<ul>
+<li>apache-log4j-2.26.0 — 2026-05-07</li>
+</ul>
+<h3 id="mahout">MAHOUT <a class="headerlink" title="Permalink" href="#mahout">&para;</a></h3>
+<ul>
+<li>qumat-0.6.0 — 2026-05-31</li>
+</ul>
+<h3 id="maven">MAVEN <a class="headerlink" title="Permalink" href="#maven">&para;</a></h3>
+<ul>
+<li>apache-38 — 2026-05-10</li>
+<li>apache-maven-3.9.16 — 2026-05-13</li>
+<li>enforcer-3.6.3 — 2026-05-18</li>
+<li>maven-build-cache-extension-1.2.3 — 2026-05-22</li>
+<li>maven-changelog-plugin-3.0.0-M2 — 2026-05-23</li>
+<li>maven-dependency-analyzer-1.17.1 — 2026-05-16</li>
+<li>maven-dependency-plugin-3.11.0 — 2026-05-28</li>
+<li>maven-invoker-plugin-3.10.1 — 2026-05-05</li>
+<li>maven-mvnd-1.0.6 — 2026-05-27</li>
+<li>maven-parent-48 — 2026-05-10</li>
+<li>maven-reporting-exec-2.0.1 — 2026-05-17</li>
+<li>maven-resolver-2.0.18 — 2026-05-18</li>
+<li>maven-site-plugin-3.22.0 — 2026-05-23</li>
+<li>surefire-3.5.6 — 2026-05-27</li>
+</ul>
+<h3 id="mina">MINA <a class="headerlink" title="Permalink" href="#mina">&para;</a></h3>
+<ul>
+<li>apache-sshd-2.18.0 — 2026-05-25</li>
+<li>apache-sshd-3.0.0-M4 — 2026-05-25</li>
+</ul>
+<h3 id="myfaces">MYFACES <a class="headerlink" title="Permalink" href="#myfaces">&para;</a></h3>
+<ul>
+<li>myfaces-tobago-6.11.0 — 2026-05-16</li>
+</ul>
+<h3 id="netbeans">NETBEANS <a class="headerlink" title="Permalink" href="#netbeans">&para;</a></h3>
+<ul>
+<li>netbeans-30 — 2026-05-11</li>
+</ul>
+<h3 id="ofbiz">OFBIZ <a class="headerlink" title="Permalink" href="#ofbiz">&para;</a></h3>
+<ul>
+<li>apache-ofbiz-24.09.06 — 2026-05-19</li>
+</ul>
+<h3 id="openwebbeans">OPENWEBBEANS <a class="headerlink" title="Permalink" href="#openwebbeans">&para;</a></h3>
+<ul>
+<li>openwebbeans-4.1.0 — 2026-05-06</li>
+</ul>
+<h3 id="paimon">PAIMON <a class="headerlink" title="Permalink" href="#paimon">&para;</a></h3>
+<ul>
+<li>apache-paimon-1.3.2 — 2026-05-06</li>
+<li>paimon-rust-0.2.0 — 2026-05-20</li>
+<li>pypaimon-1.3.2 — 2026-05-06</li>
+</ul>
+<h3 id="parquet">PARQUET <a class="headerlink" title="Permalink" href="#parquet">&para;</a></h3>
+<ul>
+<li>apache-parquet-1.17.1 — 2026-05-08</li>
+</ul>
+<h3 id="pdfbox">PDFBOX <a class="headerlink" title="Permalink" href="#pdfbox">&para;</a></h3>
+<ul>
+<li>jbig2-imageio-3.0.5 — 2026-05-19</li>
+</ul>
+<h3 id="pekko">PEKKO <a class="headerlink" title="Permalink" href="#pekko">&para;</a></h3>
+<ul>
+<li>apache-pekko-2.0.0-M2-20260510 — 2026-05-10</li>
+<li>apache-pekko-persistence-r2dbc-2.0.0-M1-20260523 — 2026-05-23</li>
+</ul>
+<h3 id="phoenix">PHOENIX <a class="headerlink" title="Permalink" href="#phoenix">&para;</a></h3>
+<ul>
+<li>phoenix-5.3.1 — 2026-05-13</li>
+</ul>
+<h3 id="polaris">POLARIS <a class="headerlink" title="Permalink" href="#polaris">&para;</a></h3>
+<ul>
+<li>apache-polaris-1.5.0 — 2026-05-18</li>
+<li>polaris-1.5.0 — 2026-05-18</li>
+</ul>
+<h3 id="pulsar">PULSAR <a class="headerlink" title="Permalink" href="#pulsar">&para;</a></h3>
+<ul>
+<li>pulsar-client-python-3.12.0 — 2026-05-13</li>
+</ul>
+<h3 id="shiro">SHIRO <a class="headerlink" title="Permalink" href="#shiro">&para;</a></h3>
+<ul>
+<li>shiro-root-2.2.0 — 2026-05-18</li>
+</ul>
+<h3 id="skywalking">SKYWALKING <a class="headerlink" title="Permalink" href="#skywalking">&para;</a></h3>
+<ul>
+<li>apache-skywalking-horizon-ui-0.5.0 — 2026-05-21</li>
+</ul>
+<h3 id="sling">SLING <a class="headerlink" title="Permalink" href="#sling">&para;</a></h3>
+<ul>
+<li>org.apache.sling.adapter-3.0.0 — 2026-05-11</li>
+<li>org.apache.sling.commons.log-6.1.0 — 2026-05-26</li>
+<li>org.apache.sling.commons.metrics-2.0.0 — 2026-05-08</li>
+<li>org.apache.sling.extensions.webconsolesecurityprovider-2.0.0 — 2026-05-11</li>
+<li>org.apache.sling.feature-2.0.6 — 2026-05-26</li>
+<li>org.apache.sling.junit.core-1.3.0 — 2026-05-20</li>
+<li>org.apache.sling.mcp-server-0.1.4 — 2026-05-26</li>
+<li>org.apache.sling.mcp-server-contributions-0.1.0 — 2026-05-26</li>
+<li>org.apache.sling.tracer-1.1.0 — 2026-05-20</li>
+</ul>
+<h3 id="spark">SPARK <a class="headerlink" title="Permalink" href="#spark">&para;</a></h3>
+<ul>
+<li>SparkR_4.1.2 — 2026-05-16</li>
+<li>pyspark-4.1.2 — 2026-05-16</li>
+<li>pyspark_client-4.1.2 — 2026-05-16</li>
+<li>pyspark_connect-4.1.2 — 2026-05-16</li>
+<li>spark-4.1.2 — 2026-05-16</li>
+<li>spark-kubernetes-operator-0.9.0 — 2026-05-11</li>
+</ul>
+<h3 id="storm">STORM <a class="headerlink" title="Permalink" href="#storm">&para;</a></h3>
+<ul>
+<li>apache-storm-2.8.8 — 2026-05-11</li>
+</ul>
+<h3 id="stormcrawler">STORMCRAWLER <a class="headerlink" title="Permalink" href="#stormcrawler">&para;</a></h3>
+<ul>
+<li>apache-stormcrawler-3.6.0 — 2026-05-22</li>
+</ul>
+<h3 id="struts">STRUTS <a class="headerlink" title="Permalink" href="#struts">&para;</a></h3>
+<ul>
+<li>struts-6.10.0 — 2026-05-25</li>
+</ul>
+<h3 id="superset">SUPERSET <a class="headerlink" title="Permalink" href="#superset">&para;</a></h3>
+<ul>
+<li>apache_superset-6.1.0 — 2026-05-13</li>
+</ul>
+<h3 id="syncope">SYNCOPE <a class="headerlink" title="Permalink" href="#syncope">&para;</a></h3>
+<ul>
+<li>syncope-4.0.6 — 2026-05-22</li>
+<li>syncope-4.1.1 — 2026-05-22</li>
+</ul>
+<h3 id="teaclave">TEACLAVE <a class="headerlink" title="Permalink" href="#teaclave">&para;</a></h3>
+<ul>
+<li>apache-teaclave-trustzone-sdk-0.9.0 — 2026-05-18</li>
+</ul>
+<h3 id="tika">TIKA <a class="headerlink" title="Permalink" href="#tika">&para;</a></h3>
+<ul>
+<li>tika-3.3.1 — 2026-05-20</li>
+<li>tika-4.0.0-alpha-1 — 2026-05-08</li>
+</ul>
+<h3 id="tomcat">TOMCAT <a class="headerlink" title="Permalink" href="#tomcat">&para;</a></h3>
+<ul>
+<li>apache-tomcat-10.1.55 — 2026-05-05</li>
+</ul>
+<h3 id="tvm">TVM <a class="headerlink" title="Permalink" href="#tvm">&para;</a></h3>
+<ul>
+<li>apache-tvm-ffi-v0.1.11 — 2026-05-04</li>
+<li>apache-tvm-v0.24.0 — 2026-05-14</li>
+</ul>
+<h3 id="wicket">WICKET <a class="headerlink" title="Permalink" href="#wicket">&para;</a></h3>
+<ul>
+<li>apache-wicket-10.9.1 — 2026-05-16</li>
+<li>apache-wicket-8.18.0 — 2026-05-10</li>
+<li>apache-wicket-9.23.0 — 2026-05-09</li>
+</ul>
+
+
+    </div>
+  </main>
+
+  <footer class="page-footer bg-secondary mt-4 pt-3">
+    <div class="container text-center text-md-left mb-3">
+      <div class="row">
+        <div class="col-md-6 mt-md-0 mt-3">
+          <h5 class="text-uppercase">Trademarks</h5>
+          <p>
+            Apache&reg;, the names of Apache projects, and the Apache logo are
+            <a href="https://www.apache.org/foundation/marks/list/">registered trademarks or trademarks</a> of the Apache
+            Software Foundation in the United States and/or other countries.
+          </p>
+        </div>
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <div class="col-md-6 mb-md-0 mb-3">
+          <h5 class="text-uppercase">Website sources</h5>
+          <p>
+  This website is generated from the <a href="https://github.com/apache/comdev-site">comdev-site repository</a>
+  
+    <br>
+    Source of this page:
+      <a href="https://github.com/apache/comdev-site/blob/main/source/blog/2026_05_releases.md" title="Source of this page">
+        blog/2026_05_releases.md
+      </a>
+  
+</p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright text-center py-3">
+      <em>Copyright &copy; 2026, <a href="https://www.apache.org/">the Apache Software Foundation</a>. Licensed under the
+      <a rel="license" href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></em>
+      <br/>
+      <span class="small">
+        <a href="https://www.apache.org/">Foundation</a> |
+        <a href="https://www.apache.org/events/current-event.html">Events</a> |
+        <a href="https://www.apache.org/licenses/">License</a> |
+        <a href="https://www.apache.org/security/">Security</a> |
+        <a href="https://www.apache.org/foundation/sponsorship.html">Sponsorship</a> |
+        <a href="https://www.apache.org/foundation/thanks.html">Thanks</a> |
+        <a href="https://privacy.apache.org/policies/privacy-policy-public.html">Privacy</a>
+      </span>
+    </div>
+  </footer>
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>
