@@ -6,7 +6,7 @@
     <description>Recent content in Tags on ASF Community Development</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 01 Jun 2026 12:40:20 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 11:35:42 -0400</lastBuildDate>
     <atom:link href="https://community.apache.org/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog</title>
@@ -153,6 +153,13 @@
       <link>https://community.apache.org/tags/contributor.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://community.apache.org/tags/contributor.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Contributor-Ladder</title>
+      <link>https://community.apache.org/tags/contributor-ladder.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/tags/contributor-ladder.html</guid>
       <description></description>
     </item>
     <item>

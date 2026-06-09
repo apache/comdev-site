@@ -18,7 +18,7 @@
     <lastmod>2026-06-01T12:40:20-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/tags/index.html</loc>
-    <lastmod>2026-06-01T12:40:20-04:00</lastmod>
+    <lastmod>2026-06-09T11:35:42-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/blog/2026_05_birthdays.html</loc>
     <lastmod>2026-05-01T07:50:41-04:00</lastmod>
@@ -216,13 +216,16 @@
     <lastmod>2026-01-09T08:57:27-05:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/contributor-ladder.html</loc>
-    <lastmod>2025-05-23T19:36:59+02:00</lastmod>
+    <lastmod>2026-06-09T11:35:42-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/contributors/asf-volunteers.html</loc>
     <lastmod>2025-12-16T10:13:25+01:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/contributors/becomingacommitter.html</loc>
-    <lastmod>2026-01-09T08:40:57-05:00</lastmod>
+    <lastmod>2026-06-09T11:35:42-04:00</lastmod>
+  </url><url>
+    <loc>https://community.apache.org/committers/becomingapmcmember.html</loc>
+    <lastmod>2026-06-09T11:35:42-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/tags/benefits.html</loc>
     <lastmod>2026-01-16T11:04:33-05:00</lastmod>
@@ -231,7 +234,7 @@
     <lastmod>2026-01-16T11:04:33-05:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/tags/board.html</loc>
-    <lastmod>2025-05-23T19:36:59+02:00</lastmod>
+    <lastmod>2026-06-09T11:35:42-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/boardreport.html</loc>
     <lastmod>2023-04-27T11:08:26+02:00</lastmod>
@@ -261,7 +264,7 @@
     <lastmod>2025-12-02T15:09:51+00:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/tags/committers.html</loc>
-    <lastmod>2026-04-10T23:24:08+01:00</lastmod>
+    <lastmod>2026-06-09T11:35:42-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/tags/communication.html</loc>
     <lastmod>2026-02-01T09:26:38+00:00</lastmod>
@@ -303,13 +306,16 @@
     <lastmod>2025-12-02T15:09:51+00:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/tags/contributing.html</loc>
-    <lastmod>2026-01-09T08:40:57-05:00</lastmod>
+    <lastmod>2026-06-09T11:35:42-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/contributors/</loc>
     <lastmod>2025-12-03T15:11:41+00:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/tags/contributor.html</loc>
     <lastmod>2026-01-09T09:01:47-05:00</lastmod>
+  </url><url>
+    <loc>https://community.apache.org/tags/contributor-ladder.html</loc>
+    <lastmod>2026-06-09T11:35:42-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/tags/contributors.html</loc>
     <lastmod>2026-01-16T13:32:27-05:00</lastmod>
@@ -354,7 +360,7 @@
     <lastmod>2024-02-25T19:26:57+01:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/tags/governance.html</loc>
-    <lastmod>2025-07-29T10:25:42-04:00</lastmod>
+    <lastmod>2026-06-09T11:35:42-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/tags/gsoc.html</loc>
     <lastmod>2024-01-28T08:18:39+05:30</lastmod>
@@ -414,7 +420,7 @@
     <lastmod>2023-04-27T11:08:26+02:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/tags/members.html</loc>
-    <lastmod>2025-05-23T19:36:59+02:00</lastmod>
+    <lastmod>2026-06-09T11:35:42-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/gsoc/mentee-ranking-process.html</loc>
     <lastmod>2025-12-02T15:09:51+00:00</lastmod>
@@ -438,13 +444,13 @@
     <lastmod>2023-04-27T11:08:26+02:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/tags/navigation.html</loc>
-    <lastmod>2026-02-03T11:16:43-05:00</lastmod>
+    <lastmod>2026-06-09T11:35:42-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/pmc/new-member.html</loc>
     <lastmod>2025-07-29T10:25:42-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/tags/newcomers.html</loc>
-    <lastmod>2026-01-09T08:40:57-05:00</lastmod>
+    <lastmod>2026-06-09T11:35:42-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/newsletter/</loc>
     <lastmod>2023-04-27T11:08:26+02:00</lastmod>
@@ -462,7 +468,7 @@
     <lastmod>2026-01-09T09:01:47-05:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/tags/officers.html</loc>
-    <lastmod>2025-05-23T19:36:59+02:00</lastmod>
+    <lastmod>2026-06-09T11:35:42-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/companies/advocacy.html</loc>
     <lastmod>2026-01-16T11:04:33-05:00</lastmod>
@@ -474,7 +480,7 @@
     <lastmod>2025-12-02T15:09:51+00:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/tags/pmc.html</loc>
-    <lastmod>2026-04-10T23:24:08+01:00</lastmod>
+    <lastmod>2026-06-09T11:35:42-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/pmc/chair.html</loc>
     <lastmod>2025-07-29T10:25:42-04:00</lastmod>
@@ -492,13 +498,13 @@
     <lastmod>2023-04-27T11:08:26+02:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/pmc/</loc>
-    <lastmod>2024-11-19T16:32:07-05:00</lastmod>
+    <lastmod>2026-06-09T11:35:42-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/tags/reporting.html</loc>
     <lastmod>2025-09-30T15:37:56-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/tags/roles.html</loc>
-    <lastmod>2025-05-23T19:36:59+02:00</lastmod>
+    <lastmod>2026-06-09T11:35:42-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/tags/slides.html</loc>
     <lastmod>2025-12-16T11:24:55+01:00</lastmod>

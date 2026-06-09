@@ -8,6 +8,13 @@
     <language>en</language>
     <atom:link href="https://community.apache.org/committers/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Becoming a PMC Member</title>
+      <link>https://community.apache.org/committers/becomingapmcmember.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/committers/becomingapmcmember.html</guid>
+      <description>&lt;p&gt;So you&amp;rsquo;ve become a committer on an ASF project. Congratulations! Now&#xA;what?&lt;/p&gt;&#xA;&lt;p&gt;Becoming a PMC member is the next step on the &lt;a href=&#34;https://community.apache.org/contributor-ladder.html&#34;&gt;contributor&#xA;ladder&lt;/a&gt;. This document describes what PMCs&#xA;generally look for when considering a committer for PMC membership, and&#xA;how you can position yourself for that invitation.&lt;/p&gt;&#xA;&lt;p&gt;As with &lt;a href=&#34;becomingacommitter.html&#34;&gt;becoming a committer&lt;/a&gt;, there are no&#xA;guarantees. Each project sets its own bar, and the decision is made by&#xA;the existing PMC members. But the behaviors described here are&#xA;consistently valued across ASF projects.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Decision-Making</title>
       <link>https://community.apache.org/committers/decisionMaking.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

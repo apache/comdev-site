@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+  <meta name="description" content="Apache Community Development">
+  <meta name="keywords" content="apache, apache community, community development, opensource">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" >
+  <meta property="og:url" content="https://community.apache.org/committers/becomingapmcmember.html">
+  <meta property="og:site_name" content="ASF Community Development">
+  <meta property="og:title" content="Becoming a PMC Member">
+  <meta property="og:description" content="So you’ve become a committer on an ASF project. Congratulations! Now what?
+Becoming a PMC member is the next step on the contributor ladder. This document describes what PMCs generally look for when considering a committer for PMC membership, and how you can position yourself for that invitation.
+As with becoming a committer, there are no guarantees. Each project sets its own bar, and the decision is made by the existing PMC members. But the behaviors described here are consistently valued across ASF projects.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="committers">
+    <meta property="article:modified_time" content="2026-06-09T11:35:42-04:00">
+    <meta property="article:tag" content="Pmc">
+    <meta property="article:tag" content="Committers">
+    <meta property="article:tag" content="Governance">
+    <meta property="article:tag" content="Contributor-Ladder">
+    <meta property="og:image" content="https://community.apache.org/images/project-logos.webp">
+
+
+  <title>Apache Community Development - Becoming a PMC Member</title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link href="/css/main.css" rel="stylesheet" media="screen">
+  <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <style>
+      .footer {
+          text-align:center;
+          color:grey;
+          font-size:80%;
+          border-top: solid #ddd 1px;
+          margin-top:1em;
+      }
+      .navbar-brand img {
+          height: 50px;
+      }
+  </style>
+
+  
+<script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(['disableCookies']);
+   
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.apache.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '36']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+
+  
+
+</head>
+
+<body>
+  <header class="navbar navbar-expand-lg navbar-dark bg-bright fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+    <img src="https://apache.org/img/asf_logo.png" alt="Apache Software Foundation">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="mainNavbar">
+    <div class="container"> 
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="homeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Home
+            </a>
+            <div class="dropdown-menu" aria-labelledby="homeDropdown">
+              <a class="dropdown-item" href="/">Homepage</a>
+              <a class="dropdown-item" href="/tags/">Tags</a>
+              <a class="dropdown-item" href="/blog/">Blog</a>
+              <a class="dropdown-item" href="/tags/navigation.html">Navigation pages</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About
+          </a>
+          <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+            <a class="dropdown-item" href="/about/">What We Do</a>
+            <a class="dropdown-item" href="/newbiefaq.html">Frequently Asked Questions</a>
+            <a class="dropdown-item" href="/projectIndependence.html">Apache Project Independence</a>
+            <a class="dropdown-item" href="/apache-way/apache-project-maturity-model.html">Apache Project Maturity Model</a>
+            <a class="dropdown-item" href="/contactpoints.html">Contact Points Within the ASF</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html#2009-11-01">ComDev Original Board Resolution</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html">ComDev Board Reports</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/COMDEV">Community Development Jira</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">About Apache</a>
+            <a class="dropdown-item" href="https://www.apache.org/">The Apache Software Foundation</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/sponsorship">Sponsor Apache</a>
+            <a class="dropdown-item" href="http://diversity.apache.org/">Diversity & Inclusion</a>
+             <a class="dropdown-item" href="/contributors/asf-volunteers.html">Mentors &amp; Speakers</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/thanks">Thanks to our Sponsors</a>
+            <a class="dropdown-item" href="https://www.apache.org/licenses">License</a>
+            <a class="dropdown-item" href="https://www.apache.org/security">Security</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="contribDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Contributing
+          </a>
+          <div class="dropdown-menu" aria-labelledby="contribDropdown">
+            <a class="dropdown-item" href="/contributor-ladder.html">Contributor Ladder</a>
+            <a class="dropdown-item" href="/newcomers/">Getting Started at Apache</a>
+            <a class="dropdown-item" href="/contributors/">Contributing to projects</a>
+            <a class="dropdown-item" href="/committers/">Committers</a>
+            <a class="dropdown-item" href="/pmc/">PMC Members</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">Committer and PMC Information</a>
+            <a class="dropdown-item" href="https://www.apache.org/dev/">Technical Developer FAQs</a>
+            <a class="dropdown-item" href="/committers/decisionMaking.html">Decision Making</a>
+            <a class="dropdown-item" href="/committers/good-first-issues.html">Good First Issues</a>
+            <a class="dropdown-item" href="/pmc/community-growth.html">Recruiting New Contributors</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="gsocDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">GSoC</a>
+          <div class="dropdown-menu" aria-labelledby="gsocDropdown">
+            <a class="dropdown-item" href="/gsoc/">Google Summer Of Code Information</a>
+            <a class="dropdown-item" href="/gsoc/mentee-ranking-process.html">Mentee Ranking Process</a>
+            <a class="dropdown-item" href="/gsoc/experiences/">Past GSoC Experiences</a>
+            <a class="dropdown-item" href="/gsoc/guide-to-being-a-mentor.html">Guide to being a Mentor</a>
+            <a class="dropdown-item" href="/gsoc/use-the-comdev-gsoc-issue-tracker-for-gsoc-tasks.html">Using ComDev's Jira for GSoC Ideas</a>
+            <a class="dropdown-item" href="/gsoc/gsoc-admin-tasks.html">Tasks of a GSoC Admin at the ASF</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/GSOC">GSoC Jira</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="eventDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Events
+          </a>
+          <div class="dropdown-menu" aria-labelledby="eventDropdown">
+            <a class="dropdown-item" href="https://apachecon.com/">Community Over Code - (formerly ApacheCon)</a>
+            <a class="dropdown-item" href="https://events.apache.org/">Other Apache-related Events</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/marks/events">Apache event branding policies</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">Conference Speakers</a>
+            <a class="dropdown-item" href="/speakers/">Speaker resources</a>
+            <a class="dropdown-item" href="/speakers/slides.html">Sample presentations</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="wgDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Working Groups
+          </a>
+          <div class="dropdown-menu" aria-labelledby="wgDropdown">
+            <a class="dropdown-item" href="/workinggroups/">Working Groups</a>
+            <a class="dropdown-item" href="https://github.com/apache/comdev-working-groups">Git repositories</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="conversDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Join the Conversation
+          </a>
+          <div class="dropdown-menu" aria-labelledby="conversDropdown">
+            <a class="dropdown-item" href="/blog/">Blog</a>
+            <a class="dropdown-item" href="https://www.facebook.com/ApacheSoftwareFoundation">Facebook</a>
+            <a class="dropdown-item" href="https://twitter.com/ApacheCommunity">Twitter</a>
+            <a class="dropdown-item" href="/lists.html">Mailing List</a>
+            <a class="dropdown-item" href="https://cwiki.apache.org/confluence/display/COMDEV/Apache+Local+Community+-+ALC">ALC: Apache Local Communities</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+    </div>
+  </header>
+
+  <main class="cd-main" id="content" role="main">
+    <div class="container">
+      
+      <hr>
+       
+<ul class="tags-list">
+  
+  <li>
+    <a href="https://community.apache.org/tags/pmc.html">pmc</a>
+  </li>
+  <li>
+    <a href="https://community.apache.org/tags/committers.html">committers</a>
+  </li>
+  <li>
+    <a href="https://community.apache.org/tags/governance.html">governance</a>
+  </li>
+  <li>
+    <a href="https://community.apache.org/tags/contributor-ladder.html">contributor-ladder</a>
+  </li></ul>
+
+      
+	
+	<br><br>
+	<p>So you&rsquo;ve become a committer on an ASF project. Congratulations! Now
+what?</p>
+<p>Becoming a PMC member is the next step on the <a href="/contributor-ladder.html">contributor
+ladder</a>. This document describes what PMCs
+generally look for when considering a committer for PMC membership, and
+how you can position yourself for that invitation.</p>
+<p>As with <a href="becomingacommitter.html">becoming a committer</a>, there are no
+guarantees. Each project sets its own bar, and the decision is made by
+the existing PMC members. But the behaviors described here are
+consistently valued across ASF projects.</p>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#what-is-a-pmc-member">What is a PMC member?</a></li>
+    <li><a href="#how-is-it-different-from-being-a-committer">How is it different from being a committer?</a></li>
+    <li><a href="#what-pmcs-look-for">What PMCs look for</a>
+      <ul>
+        <li><a href="#sustained-broad-contribution">Sustained, broad contribution</a></li>
+        <li><a href="#project-wide-perspective">Project-wide perspective</a></li>
+        <li><a href="#release-process-familiarity">Release process familiarity</a></li>
+        <li><a href="#community-building-and-mentorship">Community building and mentorship</a></li>
+        <li><a href="#governance-awareness">Governance awareness</a></li>
+        <li><a href="#independence-of-judgment">Independence of judgment</a></li>
+      </ul>
+    </li>
+    <li><a href="#the-process">The process</a></li>
+    <li><a href="#what-you-can-do-now">What you can do now</a></li>
+    <li><a href="#a-note-on-timelines">A note on timelines</a></li>
+    <li><a href="#further-reading">Further reading</a></li>
+  </ul>
+</nav>
+<h2 id="what-is-a-pmc-member">What is a PMC member? <a class="headerlink" title="Permalink" href="#what-is-a-pmc-member">&para;</a></h2>
+<p>A Project Management Committee (PMC) member is someone entrusted with
+the governance and oversight of an Apache project. PMC members:</p>
+<ul>
+<li>Have <strong>binding votes</strong> on project releases and technical decisions</li>
+<li><strong>Nominate and vote on</strong> new committers and PMC members according to the <a href="https://www.apache.org/foundation/voting.html">ASF voting process</a></li>
+<li>Provide <strong>oversight</strong> of the project on behalf of the ASF and its <a href="https://www.apache.org/foundation/board/">Board of Directors</a></li>
+<li>Ensure the project follows ASF policies (<a href="https://www.apache.org/legal/">legal</a>, <a href="https://www.apache.org/foundation/marks/">branding</a>, <a href="https://infra.apache.org/">infrastructure</a>)</li>
+<li>Report to the Board quarterly on the health of the project</li>
+</ul>
+<p>Being invited to the PMC is the project expressing trust that you will
+act as a responsible steward — someone who cares about the long-term
+health of the project and its community, not just their own contributions.</p>
+<h2 id="how-is-it-different-from-being-a-committer">How is it different from being a committer? <a class="headerlink" title="Permalink" href="#how-is-it-different-from-being-a-committer">&para;</a></h2>
+<p>As a committer, your primary focus is on <em>making contributions</em> — code,
+documentation, reviews, and user support. As a PMC member, your focus
+broadens to <em>project governance</em>:</p>
+<ul>
+<li>You shift from &ldquo;What can I build?&rdquo; to &ldquo;What should we build, and is it
+ready to ship?&rdquo;</li>
+<li>You take responsibility for the project&rsquo;s releases, ensuring they meet
+ASF standards.</li>
+<li>You actively look for contributors to mentor and eventually nominate.</li>
+<li>You ensure the community operates transparently and welcomes newcomers.</li>
+</ul>
+<p>Many projects describe this as moving from <em>doing the work</em> to
+<em>stewarding the work</em>.</p>
+<h2 id="what-pmcs-look-for">What PMCs look for <a class="headerlink" title="Permalink" href="#what-pmcs-look-for">&para;</a></h2>
+<p>While every project is different, the following qualities appear
+consistently across ASF projects when evaluating candidates for PMC
+membership:</p>
+<h3 id="sustained-broad-contribution">Sustained, broad contribution <a class="headerlink" title="Permalink" href="#sustained-broad-contribution">&para;</a></h3>
+<p>PMC candidates have typically been active committers for a meaningful
+period of time. The form of contribution is not limited to code — it
+can include code review, user support, documentation, testing, release
+management, or community building.</p>
+<p>What matters is <em>breadth</em> and <em>consistency</em>. A PMC member should
+understand the project holistically, not just the corner they work in.</p>
+<h3 id="project-wide-perspective">Project-wide perspective <a class="headerlink" title="Permalink" href="#project-wide-perspective">&para;</a></h3>
+<p>PMC members need to think beyond their own features or their employer&rsquo;s
+priorities. They should demonstrate:</p>
+<ul>
+<li>Concern for the overall health and direction of the project</li>
+<li>Interest in areas of the project outside their immediate work</li>
+<li>Willingness to review and discuss changes they didn&rsquo;t author</li>
+<li>Attention to the user community&rsquo;s needs, not just developer needs</li>
+</ul>
+<h3 id="release-process-familiarity">Release process familiarity <a class="headerlink" title="Permalink" href="#release-process-familiarity">&para;</a></h3>
+<p>PMC members cast binding votes on releases. Before being nominated, you
+should have:</p>
+<ul>
+<li>Verified release candidates and voted (non-binding is fine initially)</li>
+<li>Understood the <a href="https://www.apache.org/legal/release-policy.html">ASF release policy</a></li>
+<li>Familiarized yourself with your project&rsquo;s release process and tooling</li>
+</ul>
+<p>Several projects (for example, <a href="https://teaclave.apache.org/becoming-a-member">Teaclave</a> and <a href="https://celeborn.apache.org/community/pmc/">Celeborn</a>) explicitly list
+familiarity with the ASF release process as a PMC competency requirement.</p>
+<h3 id="community-building-and-mentorship">Community building and mentorship <a class="headerlink" title="Permalink" href="#community-building-and-mentorship">&para;</a></h3>
+<p>PMC members are expected to grow the community. This means:</p>
+<ul>
+<li>Helping newer contributors find their way</li>
+<li>Being active, courteous, and respectful on mailing lists and in reviews</li>
+<li>Celebrating others&rsquo; contributions</li>
+<li>Actively looking for people who might become committers</li>
+<li>Guiding discussions diplomatically, even in disagreement</li>
+</ul>
+<p>As the <a href="https://apisix.apache.org/docs/general/committer-guide/">APISIX community</a> puts it: &ldquo;We value the community more than the
+code. A strong and healthy community will be respectful and a fun and
+rewarding place.&rdquo;</p>
+<h3 id="governance-awareness">Governance awareness <a class="headerlink" title="Permalink" href="#governance-awareness">&para;</a></h3>
+<p>PMC members should be familiar with how the ASF operates:</p>
+<ul>
+<li>The <a href="https://www.apache.org/theapacheway/">Apache Way</a></li>
+<li>How PMC decisions are made (consensus voting, lazy consensus, vetoes)</li>
+<li>The role of the private@ mailing list (personnel matters and security disclosures only — substantive discussion belongs on dev@)</li>
+<li>The relationship between the PMC and the ASF Board</li>
+<li>Branding, legal, and infrastructure requirements</li>
+</ul>
+<h3 id="independence-of-judgment">Independence of judgment <a class="headerlink" title="Permalink" href="#independence-of-judgment">&para;</a></h3>
+<p>PMC members are expected to act as individuals, making decisions in the
+best interest of the project — not on behalf of their employer. The ASF
+Board has <a href="https://www.apache.org/foundation/governance/pmcs.html">stated clearly</a> that PMCs must &ldquo;operate independently of outside
+commercial influence.&rdquo;</p>
+<h2 id="the-process">The process <a class="headerlink" title="Permalink" href="#the-process">&para;</a></h2>
+<p>The process for adding a PMC member is handled privately by the existing
+PMC, and varies slightly by project, but generally follows these steps:</p>
+<ol>
+<li><strong>Discussion</strong> — A PMC member proposes the candidate on the private@
+mailing list, citing specific contributions and behaviors.</li>
+<li><strong>Vote</strong> — If discussion is positive, a formal [VOTE] thread is
+opened. It runs for at least 72 hours (some projects use one week),
+requiring at least <a href="https://www.apache.org/foundation/voting.html">3 binding +1 votes and no vetoes</a>.</li>
+<li><strong>Board notification</strong> — Unlike adding a committer, <a href="https://community.apache.org/pmc/adding-pmc-members.html">new PMC members
+require notification to the ASF Board (board@apache.org). The Board
+has 72 hours to raise objections</a> (rare in practice).</li>
+<li><strong>Invitation</strong> — The candidate is invited privately and may accept or
+decline.</li>
+<li><strong>Announcement</strong> — Once accepted, the new PMC member is announced on
+the project&rsquo;s dev@ list.</li>
+</ol>
+<p>You cannot nominate yourself. The existing PMC decides when a committer
+is ready for this responsibility.</p>
+<h2 id="what-you-can-do-now">What you can do now <a class="headerlink" title="Permalink" href="#what-you-can-do-now">&para;</a></h2>
+<p>If you&rsquo;re a committer who aspires to PMC membership, here are concrete
+actions:</p>
+<ul>
+<li><strong>Verify release candidates</strong> — Download RCs, check signatures, run
+tests, and vote on the dev@ list (mark your vote as non-binding). This
+is the single best way to demonstrate release readiness.</li>
+<li><strong>Review PRs beyond your area</strong> — Show that you care about the whole
+project, not just your slice of it.</li>
+<li><strong>Participate in design discussions</strong> — Contribute thoughtful opinions
+on the project&rsquo;s direction, roadmap, and architecture.</li>
+<li><strong>Mentor newcomers</strong> — Help first-time contributors get their PRs
+merged. Answer their questions patiently. Point them to documentation.</li>
+<li><strong>Tend to project health</strong> — Address old tickets, stale PRs, broken
+CI, outdated docs. This is thankless work that signals ownership.</li>
+<li><strong>Understand governance</strong> — Read your project&rsquo;s bylaws. Read the
+<a href="https://www.apache.org/foundation/governance/">ASF governance documentation</a>.
+Understand how decisions are made.</li>
+<li><strong>Think long-term</strong> — Ask yourself: &ldquo;If I moved on tomorrow, would
+this project be healthier because of my time here?&rdquo; That&rsquo;s the
+mindset of a PMC member.</li>
+<li>Don&rsquo;t wait for an invitation. <strong>Start showing ownership</strong> today.</li>
+</ul>
+<h2 id="a-note-on-timelines">A note on timelines <a class="headerlink" title="Permalink" href="#a-note-on-timelines">&para;</a></h2>
+<p>There is no fixed timeline. Some projects add committers to the PMC
+simultaneously (contributor → committer + PMC member). Others maintain a
+clear separation where committers prove themselves over months or years
+before being considered.</p>
+<p>Don&rsquo;t focus on the clock. Focus on demonstrating the qualities above.
+When it becomes obvious to the PMC that you belong, the invitation will
+come.</p>
+<h2 id="further-reading">Further reading <a class="headerlink" title="Permalink" href="#further-reading">&para;</a></h2>
+<ul>
+<li><a href="/contributor-ladder.html">Contributor Ladder</a></li>
+<li><a href="becomingacommitter.html">Becoming a Committer</a></li>
+<li><a href="https://www.apache.org/foundation/governance/pmcs.html">ASF Governance: PMCs</a></li>
+<li><a href="https://www.apache.org/dev/pmc.html">PMC Guide</a></li>
+<li><a href="https://community.apache.org/pmc/adding-pmc-members.html">Adding PMC Members (process for existing PMCs)</a></li>
+</ul>
+
+
+    </div>
+  </main>
+
+  <footer class="page-footer bg-secondary mt-4 pt-3">
+    <div class="container text-center text-md-left mb-3">
+      <div class="row">
+        <div class="col-md-6 mt-md-0 mt-3">
+          <h5 class="text-uppercase">Trademarks</h5>
+          <p>
+            Apache&reg;, the names of Apache projects, and the Apache logo are
+            <a href="https://www.apache.org/foundation/marks/list/">registered trademarks or trademarks</a> of the Apache
+            Software Foundation in the United States and/or other countries.
+          </p>
+        </div>
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <div class="col-md-6 mb-md-0 mb-3">
+          <h5 class="text-uppercase">Website sources</h5>
+          <p>
+  This website is generated from the <a href="https://github.com/apache/comdev-site">comdev-site repository</a>
+  
+    <br>
+    Source of this page:
+      <a href="https://github.com/apache/comdev-site/blob/main/source/committers/becomingapmcmember.md" title="Source of this page">
+        committers/becomingapmcmember.md
+      </a>
+  
+</p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright text-center py-3">
+      <em>Copyright &copy; 2026, <a href="https://www.apache.org/">the Apache Software Foundation</a>. Licensed under the
+      <a rel="license" href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></em>
+      <br/>
+      <span class="small">
+        <a href="https://www.apache.org/">Foundation</a> |
+        <a href="https://www.apache.org/events/current-event.html">Events</a> |
+        <a href="https://www.apache.org/licenses/">License</a> |
+        <a href="https://www.apache.org/security/">Security</a> |
+        <a href="https://www.apache.org/foundation/sponsorship.html">Sponsorship</a> |
+        <a href="https://www.apache.org/foundation/thanks.html">Thanks</a> |
+        <a href="https://privacy.apache.org/policies/privacy-policy-public.html">Privacy</a>
+      </span>
+    </div>
+  </footer>
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>

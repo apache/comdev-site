@@ -449,6 +449,13 @@
       <description>&lt;nav id=&#34;TableOfContents&#34;&gt;&#xA;  &lt;ul&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#read-the-mailing-list&#34;&gt;Read the mailing list&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#contribute-code-and-other-things&#34;&gt;Contribute code (and other things)&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#end-user-support&#34;&gt;End user support&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#documentation&#34;&gt;Documentation&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#review-prs-and-tickets&#34;&gt;Review PRs and tickets&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#be-visible&#34;&gt;Be visible&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#test-and-vote-on-releases-non-binding&#34;&gt;Test, and vote on releases (non-binding)&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#give-talks&#34;&gt;Give talks&lt;/a&gt;&lt;/li&gt;&#xA;  &lt;/ul&gt;&#xA;&lt;/nav&gt;&#xA;&lt;h1 id=&#34;disclaimer&#34;&gt;Disclaimer &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#disclaimer&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;Nothing in this post should be construed as a guarantee. You can do everything listed here, for years, and still not become a committer. This is because the decision is made by individuals on the project PMC, who do things for their own reasons.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Becoming a PMC Member</title>
+      <link>https://community.apache.org/committers/becomingapmcmember.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/committers/becomingapmcmember.html</guid>
+      <description>&lt;p&gt;So you&amp;rsquo;ve become a committer on an ASF project. Congratulations! Now&#xA;what?&lt;/p&gt;&#xA;&lt;p&gt;Becoming a PMC member is the next step on the &lt;a href=&#34;https://community.apache.org/contributor-ladder.html&#34;&gt;contributor&#xA;ladder&lt;/a&gt;. This document describes what PMCs&#xA;generally look for when considering a committer for PMC membership, and&#xA;how you can position yourself for that invitation.&lt;/p&gt;&#xA;&lt;p&gt;As with &lt;a href=&#34;becomingacommitter.html&#34;&gt;becoming a committer&lt;/a&gt;, there are no&#xA;guarantees. Each project sets its own bar, and the decision is made by&#xA;the existing PMC members. But the behaviors described here are&#xA;consistently valued across ASF projects.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Benefits of Open Source Participation</title>
       <link>https://community.apache.org/companies/benefits.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
