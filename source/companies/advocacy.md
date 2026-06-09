@@ -6,20 +6,37 @@ tags: ["companies", "advocacy", "branding"]
 
 # Open Source Advocacy
 
+How your company talks about ASF projects directly affects how willing
+those communities are to work with you. Companies that speak
+respectfully about open source projects — giving credit to the
+community, and respecting project brands — [build the reputation and
+trust](/companies/benefits.html#reputation-and-trust) that opens doors
+to deeper collaboration.
+
 Since the earliest days of the Apache Software Foundation, companies
 have built their business and reputation around ASF projects, and we
-have always encouraged that. We, in turn, depends on the good will of
+have always encouraged that. We, in turn, depend on the goodwill of
 companies. How companies speak about ASF projects is a critical part of
-our public image.
+our public image — and of yours.
+
+{{% toc %}}
 
 ## Respect Our Brands
 
-Like any organization, the ASF has [Trademark
-Policy](https://www.apache.org/foundation/marks/) which describes
-appropriate and inappropriate ways to use the brand of the ASF, and of
+Like any organization, the ASF has a [Trademark
+Policy](https://www.apache.org/foundation/marks/) that describes
+appropriate and inappropriate ways to use the brand of the ASF and of
 ASF projects. We expect companies to familiarize themselves with these
 policies, just as they would when working with another company or
 partner.
+
+Respecting project brands isn't just a legal obligation — it signals
+that your company understands how open source governance works, which
+builds [credibility with the project
+community](/companies/benefits.html#reputation-and-trust) and
+strengthens your [strategic
+partnerships](/companies/benefits.html#business-and-strategic-advantages)
+with other participants.
 
 ## Be Proactive About Education
 
@@ -39,15 +56,30 @@ about how best to represent your work in and around these communities.
 
 When you mention ASF projects, we ask that you put the community first.
 It's great to celebrate what your company and employees are doing in and
-around ASF projects - we welcome and encourage that! - but be sure to
+around ASF projects — we welcome and encourage that! — but be sure to
 give credit where it's due. The community as a whole makes our projects
 work, and contributes to your success.
 
 Some companies make claims about their involvement in ASF projects that
-imply that they own the project, or are primarily responsible for it.
+imply they own the project, or are primarily responsible for it.
 Phrases like "creators of ..." or "primary contributors to ..." devalue
 the work that the rest of the community does, and unfairly take credit
-for the work that others have done to contribute to your success. We ask
-that you not do that.
+for the work that others have contributed.
 
+Getting this wrong has practical consequences: projects that feel their
+work has been appropriated are less likely to prioritize your feature
+requests, less willing to coordinate releases with your schedule, and
+more skeptical of your contributors' motives. Getting it right — giving
+genuine credit — earns goodwill that [accelerates everything
+else](/companies/benefits.html#influence-the-roadmap) you're trying to
+achieve in the project.
+
+## See Also
+
+- [Benefits of open source participation](/companies/benefits.html) —
+  why your company's reputation in project communities matters
+- [Employing contributors](/companies/employ.html) — practical ways to
+  participate
+- [Project Independence](/projectIndependence.html) — why the ASF
+  values vendor-neutral governance
 
