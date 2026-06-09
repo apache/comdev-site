@@ -78,6 +78,11 @@ The PMC members identify project participants whom they want to be
 members of the PMC. [Read more about the process of adding new PMC
 members](/pmc/adding-pmc-members.html).
 
+## Becoming a PMC member
+
+If you're a committer wondering what it takes to be invited to the PMC,
+see [becoming a PMC member](/committers/becomingapmcmember.html).
+
 ## What to do as a new PMC member
 
 If you've just joined the PMC as a new member, there's a number of

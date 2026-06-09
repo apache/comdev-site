@@ -85,6 +85,9 @@ as the addition of new committers and PMC members, and any other
 sensitive topics.
 [See more information about being a PMC member](/pmc/).
 
+If you're a committer looking to grow into this role, see
+[becoming a PMC member](/committers/becomingapmcmember.html).
+
 ### Terminology: PMC and PMC Member
 
 Note that the term _PMC_ refers to the _group_ that steers a project.

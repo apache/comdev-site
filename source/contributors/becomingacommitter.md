@@ -105,7 +105,8 @@ Community Over Code (formerly called ApacheCon) is the obvious place to give the
 # Once you’re a committer …
 If and when you achieve your goal of becoming a committer, don’t consider your journey done.
 
-Becoming a PMC member is a continuation of the same path. Continue to do all of the above things, focusing more on the health of the project as a whole, rather than just your personal interests, or those of your employer or manager.
+[Becoming a PMC member](/committers/becomingapmcmember.html) is a
+continuation of the same path. Continue to do all of the above things, focusing more on the health of the project as a whole, rather than just your personal interests, or those of your employer or manager.
 
 Also, take an active interest in other contributors – both those on your team, and those with other employers. Mentor them in following the same path that you followed. Encourage them. Celebrate them, and mention them to other contributors. This is an investment in the future of the project, so that, some day, when you move on to something else, the project will live on.
 
