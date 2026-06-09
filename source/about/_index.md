@@ -1,7 +1,7 @@
 ---
 title: "Community Development: What we do"
 url: /about/
-tags: ["faq","navigation"]
+tags: ["faq"]
 ---
 
 ## Community Development: What We Do

@@ -1,7 +1,7 @@
 ---
 title: Committer resources
 url: /committers/
-tags: ["committers","navigation","contributing"]
+tags: ["committers","contributing"]
 ---
 
 There are a number of useful Apache tools and services available for Apache projects

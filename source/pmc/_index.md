@@ -1,7 +1,7 @@
 ---
 title: Project Management Committees
 url: /pmc/
-tags: ["pmc","navigation"]
+tags: ["pmc"]
 ---
 
 The Project Management Committee, or PMC, is the technical steering

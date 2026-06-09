@@ -2,7 +2,7 @@
 title: ASF Community Development Blog
 url: /blog/
 list_pages: true
-tags: ["blog","navigation"]
+tags: ["blog"]
 ---
 
 ## ASF Community Development Blog

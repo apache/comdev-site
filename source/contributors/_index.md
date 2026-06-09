@@ -1,7 +1,7 @@
 ---
 title: Contributing to the Apache Software Foundation
 url: /contributors/
-tags: ["faq","navigation","contributing"]
+tags: ["faq","contributing"]
 ---
 
 <img src="/images/contributors-fp.webp" alt="Code sample" class="pull-right">

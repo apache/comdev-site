@@ -1,7 +1,7 @@
 ---
 title: Welcome, Apache newcomers!
 url: /newcomers/
-tags: ["newcomers","navigation"]
+tags: ["newcomers"]
 ---
 
 <!--

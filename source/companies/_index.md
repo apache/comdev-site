@@ -1,7 +1,7 @@
 ---
 title: Companies and Open Source
 url: /companies/
-tags: ["companies", "business", "navigation"]
+tags: ["companies", "business"]
 ---
 
 # Why Your Company Should Participate in ASF Projects
