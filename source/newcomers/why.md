@@ -1,5 +1,5 @@
 ---
-title: Why Contribute to Apache? 
+title: Why Contribute to Apache?
 tags: ["newcomers", "contributors"]
 ---
 
