@@ -5,6 +5,10 @@ tags: ["newcomers"]
 
 # Where do I start?
 
+Contributing to Apache projects builds real skills, grows your professional
+network, and gives you influence over software used by thousands of
+organizations. [Read more about why it's worth your time](/newcomers/why.html).
+
 If you have no idea where to start your engagement with an Apache project, 
 this is the page for you.
 
