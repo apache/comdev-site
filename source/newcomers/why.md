@@ -1,6 +1,7 @@
 ---
-
-## title: Why Contribute to Apache? tags: ["newcomers", "contributors"]
+title: Why Contribute to Apache? 
+tags: ["newcomers", "contributors"]
+---
 
 You don't need a reason to contribute to Apache, but it helps to know what you'll get out of it.
 
