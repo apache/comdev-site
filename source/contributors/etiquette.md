@@ -4,7 +4,11 @@ tags: ["etiquette","conduct"]
 ---
 
 The ASF and our many projects welcome all 
-participants.  Before you begin, it is important to review and respect our community guidelines. We have a few 
+participants. Contributing to Apache is worth your time - you gain
+real skills, professional connections, and influence over widely-used
+software. [More on why to contribute](/newcomers/why.html).
+
+Before you begin, it is important to review and respect our community guidelines. We have a few 
 ASF-specific tips below.
 
 # Code of Conduct # {#coc}

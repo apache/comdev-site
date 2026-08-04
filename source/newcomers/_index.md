@@ -18,6 +18,7 @@ developer in one of our many Apache project communities. As an all-volunteer
 run organization, Apache and the many Apache projects rely on people like 
 you stepping up to help out.  
 
+  * [Why contribute?](/newcomers/why.html) - what you get out of participating in Apache projects
   * [Where do I start?](/newcomers/gettingStarted.html) - a guide to your first engagement with an Apache project
   * [How should I behave?](/contributors/etiquette.html) - etiquette and codes of conduct at Apache
   * [How can I climb the Contributor Ladder?](https://community.apache.org/contributor-ladder.html) - roles in Apache projects

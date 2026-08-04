@@ -3,6 +3,10 @@ title: ASF Contributor Ladder
 tags: ["pmc","roles","committers","members","officers","board"]
 ---
 
+Each step up brings concrete benefits - deeper influence over the
+software's direction, a stronger professional network, and skills that
+transfer to any engineering role. [Why contribute?](/newcomers/why.html)
+
 Projects at the ASF offer a way to grow in your responsibilities in the
 project, from being a user, all the way up to being a maintainer of the
 project. While the specific details may look different from one project
