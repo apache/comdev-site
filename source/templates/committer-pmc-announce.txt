@@ -6,7 +6,7 @@ has invited [Committer Name] to become a committer and a PMC member
 and we are pleased to announce that they have accepted.
 
 Please join us in welcoming [Committer Name] to their new role and
-responsiblity in our project community.
+responsibility in our project community.
 
 [Your Name]
 On behalf of the [Project] PMC
