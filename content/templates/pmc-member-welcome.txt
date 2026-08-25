@@ -10,7 +10,7 @@ future of, our project.
 Please subscribe to the [PROJECT] Project Management
 Committee mailing list private@[PROJECT].apache.org. Do this by
 sending an empty email to private-subscribe@[PROJECT].apache.org and
-follwing the instructions in the automated response you'll receive.
+following the instructions in the automated response you'll receive.
 
 Please see the welcome email on the dev list, and introduce yourself.
 
