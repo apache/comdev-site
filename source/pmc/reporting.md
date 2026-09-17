@@ -84,6 +84,10 @@ We encourage you to review [past board
 reports](https://apache.org/foundation/board/calendar.html) for inspiration from
 other projects.
 
+Can't remember everything that happened this quarter? The
+[project_activity.py](https://github.com/apache/comdev/tree/main/project-activity)
+script might help.
+
 <!-- TODO
 * Add links to recommended/good reports to emulate.
 -->
