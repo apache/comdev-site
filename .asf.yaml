@@ -7,19 +7,32 @@ github:
     - comdev
     - hugo
 
+  rulesets:
+    - name: "Default Branch Protection"
+      type: branch
+      branches:
+        includes:
+          - "~DEFAULT_BRANCH"
+          - "release/*"
+          - "rel/*"
+        excludes: []
+      bypass_teams:
+        - root
+      restrict_deletion: true
+      restrict_force_push: true
 notifications:
-  commits:      commits@community.apache.org
-  issues:       notifications@community.apache.org
+  commits: commits@community.apache.org
+  issues: notifications@community.apache.org
   pullrequests: notifications@community.apache.org
   jira_options: link label
 
 # Maybe publish also needed:
 publish:
-    whoami: asf-site
+  whoami: asf-site
 
 # Test site in preview/test2; output to preview/test2-staging
 # autostage will publish the site at community-test2.staged.apache.org
 staging:
-  profile: ~
-  whoami:  asf-staging
+  profile:
+  whoami: asf-staging
   autostage: preview/*
