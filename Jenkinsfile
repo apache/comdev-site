@@ -178,7 +178,7 @@ pipeline {
             script {
                 if (env.BRANCH_NAME == 'main') {
                     emailext(
-                        to: "dev@community.apache.org",
+                        to: "notifications@community.apache.org",
                         recipientProviders: [[$class: 'DevelopersRecipientProvider']],
                         from: "Jenkins <jenkins@ci-builds.apache.org>",
                         subject: "[website] Jenkins job ${env.JOB_NAME}#${env.BUILD_NUMBER} failed",
@@ -197,7 +197,7 @@ Build: ${env.BUILD_URL}
             script {
                 if (env.BRANCH_NAME == 'main') {
                     emailext(
-                        to: "dev@community.apache.org",
+                        to: "notifications@community.apache.org",
                         recipientProviders: [[$class: 'DevelopersRecipientProvider']],
                         from: 'Jenkins <jenkins@ci-builds.apache.org>',
                         subject: "[website] Jenkins job ${env.JOB_NAME}#${env.BUILD_NUMBER} back to normal",
