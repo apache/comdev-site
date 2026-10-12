@@ -29,12 +29,33 @@ Supporting layout files (in `layouts/shortcodes/`):
 - `alc_map.html` — renders the Leaflet map. Iterates the front matter of
   every page in section `alc` that has a `lat` param, emits a JS array of
   chapters, and plots colored markers (green=active, orange=proposed,
-  grey=dissolved). Leaflet CSS/JS are loaded from the unpkg CDN *inside
-  this shortcode*, so only the ALC page pulls them in — `baseof.html` is
-  untouched.
+  grey=dissolved). Leaflet CSS/JS are loaded from a *local vendored copy*
+  under `/vendor/leaflet/<version>/` (see "Vendored Leaflet" below), so the
+  only thing fetched remotely at view time is the OpenStreetMap base-map
+  tiles — which can't be bundled (they're a live tile service). The
+  `<link>`/`<script>` live *inside this shortcode*, so only the ALC page
+  loads Leaflet — `baseof.html` is untouched.
 - `alc_chapter_list.html` — renders a text list of chapters grouped by
   status, from the same front matter.
 
+## Vendored Leaflet
+
+Leaflet 1.9.4 is checked into the repo at
+`static/vendor/leaflet/1.9.4/` (`leaflet.js`, `leaflet.css`, and the
+marker/layer images under `images/`). Serving it from our own origin
+removes the runtime dependency on the unpkg CDN; only the OpenStreetMap
+tiles remain external, which is unavoidable for a slippy map.
+
+To update to a newer Leaflet, run the helper and bump the version path in
+`layouts/shortcodes/alc_map.html`:
+
+```
+static/vendor/leaflet/update-leaflet.sh 1.9.4   # or a newer version
+```
+
+It downloads the JS, CSS, and images into
+`static/vendor/leaflet/<version>/`. The CSS references its images by
+relative path, so keep the `images/` subfolder alongside `leaflet.css`.
 ## Chapter front matter
 
 ```yaml

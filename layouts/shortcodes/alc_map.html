@@ -1,9 +1,9 @@
 {{/* Interactive map of ALC chapters, built from the front matter of
-     pages under /alc/chapters/. Loads Leaflet from CDN, map page only. */}}
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+     pages under /alc/chapters/. Leaflet is vendored locally under
+     /vendor/leaflet/ (see source/alc/README.md for how to refresh it);
+     only the map tiles are fetched remotely at view time. */}}
+<link rel="stylesheet" href="/vendor/leaflet/1.9.4/leaflet.css" />
+<script src="/vendor/leaflet/1.9.4/leaflet.js"></script>
 
 <div id="alc-map" style="height: 460px; margin: 1em 0; border: 1px solid #ddd; border-radius: 4px;"></div>
 
