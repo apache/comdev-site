@@ -34,6 +34,33 @@ to the mailing list so that the whole community can participate.
 This is why we say, at the ASF, **If it didn't happen on the mailing
 list, it didn't happen.**
 
+## Subscribing to a list
+
+You can read the archives and participate in current discussions either
+by subscribing to a list, or by using the [lists.apache.org][1] web
+interface directly.
+
+Most projects have `users@project.apache.org` and
+`dev@project.apache.org` lists, focused respectively on end-user
+questions and development activity.
+
+To subscribe (that is, to receive every message sent to the list via
+email) send a blank email message to `users-subscribe@PROJECT.apache.org`.
+Substitute the name of the list (e.g. `dev` instead of `users`) and the
+specific project you're interested in (e.g. `karaf` instead of `PROJECT`).
+
+To unsubscribe, the process is similar: send a blank email message to
+`users-unsubscribe@PROJECT.apache.org` from the address with which you
+subscribed.
+
+In each case, you'll receive a confirmation email with further
+instructions.
+
+### Other communication channels
+
+Some projects use other communication channels, such as Slack, Discord,
+or WeChat. These will (hopefully) be listed on the project's page.
+
 ## Mailing list etiquette
 
 What you send to ASF mailing lists is [archived, publicly, forever][1]. But

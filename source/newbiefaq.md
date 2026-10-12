@@ -126,35 +126,27 @@ the support you need in the future.
 <span id="NewbieFAQ-HowdoIchooseanApacheprojecttoworkon?"></span>
 ## How do I choose an Apache project to work on?
 
-The key to working on projects at Apache (and any open source project, for that
-matter) is to have a personal reason for being involved. You might be
-trying to solve a day job issue, you might be looking to learn a new
-technology or you might simply want to do something fun in your free time.
-The key is that you must *want* to get involved. It is also important that
-you have appropriate skills to be able to help the project.
+The key to working on projects at Apache (and any open source project) is
+to have a personal reason for being involved — solving a day-job problem,
+learning a new technology, or just doing something fun. It also helps to
+have skills suited to the project.
 
-Our [projects page](https://projects.apache.org/) provides a list of projects that you can sort alphabetically, by category or by language. When you view a project's details
-page you can find out about its mailing lists, issue tracker and other resources.
-
-In the project's issue tracker you will find details of bugs and feature
-requests the project would like help with. This should give you some
-inspiration about how you might be able to help the project community. If
-you see an issue you would like to tackle, it's time to join the project's
-mailing list and get started.
+Our [getting started guide][3] walks through finding the right project
+(browsing the [projects directory](https://projects.apache.org/), lurking
+on the lists, and finding a first issue to work on).
 
 <span id="NewbieFAQ-HowdoIgetinvolvedwithanApacheproject?"></span>
 ## How do I get involved with an Apache project?
 
-You can improve your programming skills by watching the `commit`
-lists, receiving code reviews and participating in discussions. However,
-this learning opportunity is a healthy side effect of open source
-activities rather than a goal in itself. Nobody in an Apache project is
-going to spend time teaching you Programming 101, technical writing or
-testing (to mention just a few of the skills we need). You need to know the basics
-and be willing to research the rest.
+Improving your skills by watching the `commit` lists, receiving code
+reviews, and joining discussions is a healthy side effect of open source
+activity rather than a goal in itself. Nobody will spend time teaching you
+Programming 101 — you need to know the basics and be willing to research
+the rest.
 
-To learn more about getting involved with an Apache Project, see our [getting
-started guide][3]. You will also find our [get involved](https://apache.org/foundation/getinvolved.html) page a useful starting point.
+Our [getting started guide][3] covers how to make your first contribution;
+the ASF [get involved](https://apache.org/foundation/getinvolved.html) page
+is another useful starting point.
 
 <span id="NewbieFAQ-IsthereaCodeofConductforApacheprojects?"></span>
 ## Is there a Code of Conduct for Apache projects?

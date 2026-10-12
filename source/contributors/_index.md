@@ -65,47 +65,10 @@ about non-code contribution opportunities](non-code.html).
 
 ### Communication
 
-Most (not all) Apache project have their main discussions on [mailing
-lists][11]. Most projects have
-`users@project.apache.org` and `dev@project.apache.org` mailing lists,
-focused, respectively, on end-user questions, and development activity.
-You can read the archives (i.e., messages from the past), as well as
-participate in current discussions, either by subscribing to the lists,
-or by using the [lists.apache.org][11] site
-directly.
-
-<!--
-
-TODO:
-
-All of this stuff about mailing lists should be in mailing-lists.md
-rather than here.
-
--->
-
-#### Subscribe
-
-To subscribe (that is, to receive every message sent to the list via
-email) to a project mailing list (e.g., if you want to subscribe
-to the `users` list for `PROJECT`)
-send a blank email message to `users-subscribe@PROJECT.apache.org`.
-Substitute the name of the list (i.e., `dev` instead of `users`), and of 
-the specific project you're interested in (i.e., `karaf` instead of
-`PROJECT`).
-
-#### Unsubscribe
-
-To unsubscribe, the process is similar. Send a blank email message to
-`users-unsubscribe@PROJECT.apache.org` from the email address with which
-you subscribed.
-
-In each case, you'll receive a confirmation email, with further
-instructions.
-
-#### Other communication channels
-
-Some projects use other communication channels, such as Slack, Discord,
-or WeChat. This will (hopefully) be listed on the project page.
+Most (not all) Apache projects do their main work on [mailing
+lists][11]. See [Mailing lists](/contributors/mailing-lists.html) for how
+to find, subscribe to, and participate in a project's lists, plus the
+other channels (Slack, Discord, etc.) some projects use.
 
 ## Your First Contribution
 
