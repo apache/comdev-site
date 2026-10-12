@@ -666,20 +666,6 @@
       <description>&lt;p&gt;Having identified a Top Level Project (TLP) and an issue you would like to work on, it is a&#xA;good idea to introduce yourself to the project community and outline your&#xA;plans for tackling the issue. This lets the community know you are working&#xA;on the issue and gives the community an early opportunity to help course&#xA;correct your proposal, if necessary (which can save you lots of time).&lt;/p&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s an example of what your first email might look like:&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Inviting a New Committer</title>
-      <link>https://community.apache.org/newcommitter.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://community.apache.org/newcommitter.html</guid>
-      <description>&lt;p&gt;Identifying potential new committers, calling a vote for their recognition&#xA;as a committer and processing the relevant documents are tasks to which&#xA;the whole community can contribute.&lt;/p&gt;&#xA;&lt;p&gt;Each project has a different approach to managing new committers. This page&#xA;describes a common process found in many Apache projects. It also provides&#xA;draft templates for the various communications that are necessary.&lt;/p&gt;&#xA;&lt;p&gt;Some of the PMCs automatically make committers PMC members. The templates below&#xA;have conditional &lt;code&gt;[if]&lt;/code&gt; clauses for that.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Inviting a New PMC member</title>
-      <link>https://community.apache.org/newpmcmember.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://community.apache.org/newpmcmember.html</guid>
-      <description>&lt;p&gt;This document describes a typical Apache project&amp;rsquo;s process for handling the&#xA;vote to add a new PMC (Project Management Committee) member - when it is&#xA;separate from becoming committer.&lt;/p&gt;&#xA;&lt;p&gt;Templates mentioned in the process appear [#NewPMCMember-EmailTemplates](later in&#xA;this document). If your PMC adds automatically committers as PMC members, the process&#xA;for doing both at the same time is described in the &lt;a href=&#34;https://community.apache.org/newcommitter.html&#34;&gt;New&#xA;committer&lt;/a&gt; advice.&lt;/p&gt;&#xA;&lt;p&gt;The &lt;a href=&#34;https://community.apache.org/contributor-ladder.html&#34;&gt;Contributor Ladder&lt;/a&gt; helps&#xA;explain different roles.&lt;/p&gt;&#xA;&lt;nav id=&#34;TableOfContents&#34;&gt;&#xA;  &lt;ul&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#tldr---inviting-a-new-pmc-member&#34;&gt;TL;DR - Inviting a new PMC member&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#guidelines-for-inviting-a-new-pmc-member&#34;&gt;Guidelines for inviting a new PMC member&lt;/a&gt;&#xA;      &lt;ul&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#discussion&#34;&gt;Discussion&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#vote&#34;&gt;Vote&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#invitation-and-welcome&#34;&gt;Invitation and welcome&lt;/a&gt;&lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#email-templates&#34;&gt;Email Templates&lt;/a&gt;&lt;/li&gt;&#xA;  &lt;/ul&gt;&#xA;&lt;/nav&gt;&#xA;&lt;p&gt;&lt;span id=&#34;NewPMCMember-Summary&#34;&gt;&lt;/span&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Links</title>
       <link>https://community.apache.org/links.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
