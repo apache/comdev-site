@@ -6,7 +6,6 @@ lat: 39.9042
 lon: 116.4074
 status: active
 started: 2019
-organizers: "ALC Beijing organizers"
 links:
   wiki: https://cwiki.apache.org/confluence/display/COMDEV/ALC+Beijing
 tags: ["alc"]

@@ -11,10 +11,3 @@ chapter is one Markdown file in this directory; the
 {{< alc_chapter_list >}}
 
 Don't see your town or city? [Start a chapter](/alc/start-a-chapter.html).
-
-> **Note:** This initial set of chapter pages was seeded from the
-> [ALC wiki](https://cwiki.apache.org/confluence/display/COMDEV/Apache+Local+Community+-+ALC)
-> and public ASF announcements. Please reconcile against the wiki's
-> authoritative chapter list before relying on it — some chapters may be
-> missing, and status/organizer details should be confirmed with each
-> chapter.

@@ -6,7 +6,6 @@ lat: 31.2304
 lon: 121.4737
 status: active
 started: 2020
-organizers: "ALC Shanghai organizers"
 links:
   wiki: https://cwiki.apache.org/confluence/display/COMDEV/ALC+Shanghai
 tags: ["alc"]

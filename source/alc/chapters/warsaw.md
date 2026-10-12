@@ -6,7 +6,6 @@ lat: 52.2297
 lon: 21.0122
 status: active
 started: 2020
-organizers: "ALC Warsaw organizers"
 links:
   wiki: https://cwiki.apache.org/confluence/display/COMDEV/ALC+Warsaw
 tags: ["alc"]
