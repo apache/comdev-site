@@ -5,15 +5,14 @@ country: India
 lat: 22.7196
 lon: 75.8577
 status: active
-started: 2019
 links:
   wiki: https://cwiki.apache.org/confluence/display/COMDEV/ALC+Indore
 tags: ["alc"]
 ---
 
-ALC Indore was the first Apache Local Community chapter, and has run events on open source and ASF awareness, including sessions for school and college students.
+Indore is a city in west-central India, repeatedly ranked as India's cleanest city in the Swachh Survekshan surveys.
 
-See the [chapter's wiki page](https://cwiki.apache.org/confluence/display/COMDEV/ALC+Indore) for current organizers, upcoming
-events, and how to get involved locally. To reach the chapter, email
-[dev@community.apache.org](mailto:dev@community.apache.org) with `[ALC]`
-and the city name in the subject line.
+See the [chapter's wiki page](https://cwiki.apache.org/confluence/display/COMDEV/ALC+Indore) for current organizers, events, and
+reports. To reach the chapter, email
+[dev@community.apache.org](mailto:dev@community.apache.org) with
+`[Indore]` in the subject line.

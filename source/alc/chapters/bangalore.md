@@ -10,9 +10,9 @@ links:
 tags: ["alc"]
 ---
 
-ALC Bangalore brings together Apache and open source enthusiasts in Bangalore, India — one of the country's largest technology hubs.
+Bangalore (officially Bengaluru) is the capital of the southern Indian state of Karnataka, known as the "Silicon Valley of India" as the nation's leading software exporter and a major semiconductor hub.
 
 See the [chapter's wiki page](https://cwiki.apache.org/confluence/display/COMDEV/ALC+Bangalore) for current organizers, events, and
 reports. To reach the chapter, email
-[dev@community.apache.org](mailto:dev@community.apache.org) with `[ALC]`
-and the city name in the subject line.
+[dev@community.apache.org](mailto:dev@community.apache.org) with
+`[Bangalore]` in the subject line.

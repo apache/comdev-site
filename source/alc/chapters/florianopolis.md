@@ -6,13 +6,13 @@ lat: -27.5954
 lon: -48.548
 status: active
 links:
-  wiki: https://cwiki.apache.org/confluence/display/COMDEV/ALC+Florianopolis
+  wiki: https://cwiki.apache.org/confluence/spaces/COMDEV/pages/399278973/ALC+Florian%C3%B3polis
 tags: ["alc"]
 ---
 
-ALC Florianópolis serves the open source community in Florianópolis, Brazil, hosting local events around the ASF and the Apache Way.
+Florianópolis is the capital of the state of Santa Catarina in southern Brazil, and a growing hub for the regional open source community.
 
-See the [chapter's wiki page](https://cwiki.apache.org/confluence/display/COMDEV/ALC+Florianopolis) for current organizers, events, and
+See the [chapter's wiki page](https://cwiki.apache.org/confluence/spaces/COMDEV/pages/399278973/ALC+Florian%C3%B3polis) for current organizers, events, and
 reports. To reach the chapter, email
-[dev@community.apache.org](mailto:dev@community.apache.org) with `[ALC]`
-and the city name in the subject line.
+[dev@community.apache.org](mailto:dev@community.apache.org) with
+`[Florianópolis]` in the subject line.

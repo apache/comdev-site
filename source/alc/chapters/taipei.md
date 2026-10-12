@@ -10,9 +10,9 @@ links:
 tags: ["alc"]
 ---
 
-ALC Taipei connects Apache and open source enthusiasts in Taipei, Taiwan.
+Taipei is the capital of Taiwan and the home of a vibrant, active open source community.
 
 See the [chapter's wiki page](https://cwiki.apache.org/confluence/display/COMDEV/ALC+Taipei) for current organizers, events, and
 reports. To reach the chapter, email
-[dev@community.apache.org](mailto:dev@community.apache.org) with `[ALC]`
-and the city name in the subject line.
+[dev@community.apache.org](mailto:dev@community.apache.org) with
+`[Taipei]` in the subject line.

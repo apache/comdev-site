@@ -6,13 +6,13 @@ lat: 34.3416
 lon: 108.9398
 status: active
 links:
-  wiki: https://cwiki.apache.org/confluence/display/COMDEV/ALC+Xian
+  wiki: https://cwiki.apache.org/confluence/spaces/COMDEV/pages/263429100/ALC+Xi+an
 tags: ["alc"]
 ---
 
-ALC Xi'an is a chapter in Xi'an, China, bringing together local developers and users of Apache projects.
+Xi'an is the capital of Shaanxi Province, a subprovincial city on the Guanzhong Plain and the most populous city in Northwest China.
 
-See the [chapter's wiki page](https://cwiki.apache.org/confluence/display/COMDEV/ALC+Xian) for current organizers, events, and
+See the [chapter's wiki page](https://cwiki.apache.org/confluence/spaces/COMDEV/pages/263429100/ALC+Xi+an) for current organizers, events, and
 reports. To reach the chapter, email
-[dev@community.apache.org](mailto:dev@community.apache.org) with `[ALC]`
-and the city name in the subject line.
+[dev@community.apache.org](mailto:dev@community.apache.org) with
+`[Xi’an]` in the subject line.

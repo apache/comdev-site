@@ -10,9 +10,9 @@ links:
 tags: ["alc"]
 ---
 
-ALC Hangzhou is a chapter in Hangzhou, China, connecting local developers and users of Apache projects.
+Hangzhou is the capital and most populous city of Zhejiang, China, sitting at the head of Hangzhou Bay between Shanghai and Ningbo.
 
 See the [chapter's wiki page](https://cwiki.apache.org/confluence/display/COMDEV/ALC+Hangzhou) for current organizers, events, and
 reports. To reach the chapter, email
-[dev@community.apache.org](mailto:dev@community.apache.org) with `[ALC]`
-and the city name in the subject line.
+[dev@community.apache.org](mailto:dev@community.apache.org) with
+`[Hangzhou]` in the subject line.
