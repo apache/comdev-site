@@ -19,10 +19,10 @@ to another, the rungs of the ladder look mostly the same.
 Everything that we do in an ASF project is for the user. As a user of an
 Apache project, your responsibilities are just to enjoy the software.
 
-We encourage you to join the user mailing list to ask questions, and
-make suggestions. Members of the project are there to help out when you
-run into problems. You can find this list (or lists) by looking under the
-project name on [lists.apache.org](https://lists.apache.org).
+We encourage you to join the project's [user mailing
+list](/contributors/mailing-lists.html) to ask questions and make
+suggestions. Members of the project are there to help out when you run
+into problems.
 
 As a user, you're expected to abide by the project's [code of
 conduct](https://www.apache.org/foundation/policies/conduct), so that
@@ -41,10 +41,9 @@ issue tracker, or to answer a less experienced user's questions. These
 actions help shape the future direction of the project, and are
 important contributions.
 
-We encourage you to join the project's developer mailing list at this
-time, to engage with the discussions about the direction that the project
-is taking. You can find this list (or lists) by looking under the
-project name on [lists.apache.org](https://lists.apache.org).
+We encourage you to join the project's [developer mailing
+list](/contributors/mailing-lists.html) at this time, to engage with the
+discussions about the direction that the project is taking.
 
 Other contributions may include design, promotion, documentation
 improvements, events, and many other things.
