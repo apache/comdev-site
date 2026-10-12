@@ -19,6 +19,11 @@ need your skills, even if you're not a programmer.
 But, it can sometimes be hard to know where to get started. We're here
 to help. Here's some of the basics.
 
+As a newcomer you might assume you have little to offer yet, but you'll
+be surprised how much you can help right now. Your fresh perspective is
+valuable: any feedback you can give, or questions you find unanswered,
+help us improve what we offer to those who come after you.
+
 {{% toc %}}
 
 ## What projects can I contribute to?
@@ -149,7 +154,7 @@ in our document [Project Independence][7].
 -->
 
 <!-- Links -->
-  [1]: /newcomers/index.html
+  [1]: /newcomers/
   [2]: https://www.apache.org/legal/release-policy.html
   [3]: https://www.apache.org/legal/
   [4]: https://www.apache.org/foundation/marks/

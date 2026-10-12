@@ -32,7 +32,7 @@ community health.
 
 #### Newcomers
 
-[![Newcomers](/images/newcomers-fp.webp)](/newcomers/index.html)
+[![Newcomers](/images/newcomers-fp.webp)](/newcomers/)
   </div> <!-- End Newcomers -->
 
   <!-- Events -->
