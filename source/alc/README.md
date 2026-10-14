@@ -32,11 +32,41 @@ Supporting layout files (in `layouts/shortcodes/`):
   grey=dissolved). Leaflet CSS/JS are loaded from a *local vendored copy*
   under `/vendor/leaflet/<version>/` (see "Vendored Leaflet" below), so the
   only thing fetched remotely at view time is the OpenStreetMap base-map
-  tiles — which can't be bundled (they're a live tile service). The
-  `<link>`/`<script>` live *inside this shortcode*, so only the ALC page
-  loads Leaflet — `baseof.html` is untouched.
+  tiles — which can't be bundled (they're a live tile service). Those
+  tiles load **only after the visitor opts in** (see "Map consent" below).
+  Nothing map-related — not even the vendored Leaflet CSS/JS — is loaded
+  on page view; it is all injected inside this shortcode on consent, so
+  `baseof.html` is untouched and the ALC page itself makes no third-party
+  request until the visitor clicks "Load the map".
 - `alc_chapter_list.html` — renders a text list of chapters grouped by
   status, from the same front matter.
+
+## Map consent (OpenStreetMap)
+
+Loading the base map fetches tiles from `*.tile.openstreetmap.org`, a
+third-party service that receives the visitor's IP and request data.
+Per ASF website policy and the OSMF privacy FAQ — the ASF cannot sign a
+Data Processing Agreement with OpenStreetMap — the tile layer must not
+load until the visitor explicitly, revocably opts in.
+
+`alc_map.html` implements this:
+
+- On page view the map area shows a **consent placeholder** explaining the
+  third-party request; no Leaflet and no tiles are loaded.
+- Clicking **"Load the map"** injects the vendored Leaflet CSS/JS, builds
+  the map, and (if "Remember my choice" is checked) sets the
+  `alc_map_consent=yes` cookie (path `/`, `SameSite=Lax`, 1-year expiry).
+- A returning visitor with that cookie gets the map auto-loaded.
+- **"Hide the map & stop loading OpenStreetMap"** revokes consent: it
+  clears the cookie and restores the placeholder.
+- The chapter list (`alc_chapter_list`) is local data and always renders,
+  independent of consent.
+
+The matching server-side change is a CSP allowance for
+`*.tile.openstreetmap.org` in the site's `.htaccess`
+(`SetEnv CSP_PROJECT_DOMAINS ...`). Both the consent mechanism and the CSP
+change were approved by ASF VP Infrastructure (Niall Pemberton) on
+2026-10-14, on the explicit basis that tiles load only behind consent.
 
 ## Vendored Leaflet
 

@@ -1,3 +1,11 @@
+# Content-Security-Policy: allow the ALC chapter map (/alc/) to load
+# OpenStreetMap base-map tiles. The ASF baseline CSP is applied centrally;
+# projects extend the allowed origins via CSP_PROJECT_DOMAINS. The tiles
+# load only after an explicit, revocable visitor opt-in (see the alc_map
+# shortcode) — approved on that basis by Niall Pemberton (ASF VP
+# Infrastructure) on 2026-10-14.
+SetEnv CSP_PROJECT_DOMAINS *.tile.openstreetmap.org
+
 <IfModule mod_expires.c>
   ExpiresActive On
   ExpiresDefault "access plus 1 hour"
