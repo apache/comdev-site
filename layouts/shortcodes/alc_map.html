@@ -1,0 +1,217 @@
+{{/* Interactive map of ALC chapters, built from the front matter of
+     pages under /alc/chapters/. Leaflet is vendored locally under
+     /vendor/leaflet/ (see source/alc/README.md for how to refresh it).
+
+     PRIVACY / CONSENT:
+     Loading the map fetches base-map tiles from *.tile.openstreetmap.org,
+     a third-party service. Per ASF website policy and the OSMF privacy
+     FAQ (we cannot sign a DPA with OpenStreetMap), the tile layer must
+     not load until the visitor explicitly opts in. So nothing map-related
+     — not even the vendored Leaflet CSS/JS — is loaded on page view. The
+     visitor clicks "Load the map", which (a) records consent in a cookie
+     so it persists to their next visit, and (b) dynamically injects
+     Leaflet and initializes the map. A "Hide the map" control revokes
+     consent (clears the cookie) and restores the placeholder. The chapter
+     list is local data and renders independently of this; only the tiles
+     wait for consent. Approach approved by ASF VP Infrastructure (Niall
+     Pemberton), 2026-10-14, on the basis of this consent mechanism. */}}
+
+<div id="alc-map-wrap" style="margin: 1em 0;">
+
+  {{/* --- Consent placeholder (shown until the visitor opts in) --- */}}
+  <div id="alc-map-consent"
+       style="height: 460px; border: 1px solid #ddd; border-radius: 4px;
+              display: flex; flex-direction: column; align-items: center;
+              justify-content: center; text-align: center; padding: 1.5em;
+              background: #f7f7f7;">
+    <p style="max-width: 34em; margin: 0 0 1em;">
+      The interactive map loads base-map tiles from
+      <a href="https://www.openstreetmap.org/" rel="noopener">OpenStreetMap</a>,
+      a third-party service. Loading it will share your IP address and
+      request information with OpenStreetMap, subject to their
+      <a href="https://wiki.osmfoundation.org/wiki/Privacy_Policy" rel="noopener">privacy policy</a>.
+      The chapter list below works without the map.
+    </p>
+    <button type="button" id="alc-map-load"
+            style="cursor: pointer; padding: 0.5em 1.1em; font-size: 1em;
+                   border: 1px solid #888; border-radius: 4px;
+                   background: #4caf50; color: #fff;">
+      Load the map
+    </button>
+    <label style="margin-top: 0.9em; font-size: 0.85em; color: #555;">
+      <input type="checkbox" id="alc-map-remember" checked />
+      Remember my choice on this site
+    </label>
+  </div>
+
+  {{/* --- Map container (populated after consent) --- */}}
+  <div id="alc-map" style="height: 460px; display: none;
+       border: 1px solid #ddd; border-radius: 4px;"></div>
+
+  {{/* --- Revoke control (shown while the map is loaded) --- */}}
+  <div id="alc-map-revoke-wrap" style="display: none; margin-top: 0.4em;
+       font-size: 0.85em; text-align: right;">
+    <a href="#" id="alc-map-revoke">Hide the map &amp; stop loading OpenStreetMap</a>
+  </div>
+</div>
+
+<script>
+(function () {
+  var LEAFLET_BASE = "/vendor/leaflet/1.9.4/";
+  var COOKIE = "alc_map_consent";
+
+  {{- $chapters := slice }}
+  {{- range (where (where .Site.RegularPages "Section" "alc") "Params.lat" "!=" nil) }}
+    {{- $chapters = $chapters | append (dict
+          "name"    .Title
+          "city"    (.Params.city | default .Title)
+          "country" (.Params.country | default "")
+          "lat"     .Params.lat
+          "lon"     .Params.lon
+          "status"  (.Params.status | default "active")
+          "url"     .RelPermalink
+    ) }}
+  {{- end }}
+  var chapters = {{ $chapters | jsonify | safeJS }};
+
+  var consentEl = document.getElementById("alc-map-consent");
+  var mapEl     = document.getElementById("alc-map");
+  var revokeWrap= document.getElementById("alc-map-revoke-wrap");
+  var loadBtn   = document.getElementById("alc-map-load");
+  var rememberEl= document.getElementById("alc-map-remember");
+  var revokeEl  = document.getElementById("alc-map-revoke");
+
+  var mapInitialized = false;
+
+  // --- cookie helpers ---
+  function setCookie(name, value, days) {
+    var expires = "";
+    if (days) {
+      var d = new Date();
+      d.setTime(d.getTime() + days * 864e5);
+      expires = "; expires=" + d.toUTCString();
+    }
+    document.cookie = name + "=" + value + expires +
+                      "; path=/; SameSite=Lax";
+  }
+  function getCookie(name) {
+    return document.cookie.split("; ").reduce(function (acc, c) {
+      var parts = c.split("=");
+      return parts[0] === name ? decodeURIComponent(parts[1]) : acc;
+    }, "");
+  }
+  function clearCookie(name) {
+    document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; SameSite=Lax";
+  }
+
+  // --- dynamic Leaflet loader (vendored, local) ---
+  function loadLeaflet(cb) {
+    if (window.L) { cb(); return; }
+    var css = document.createElement("link");
+    css.rel = "stylesheet";
+    css.href = LEAFLET_BASE + "leaflet.css";
+    document.head.appendChild(css);
+    var js = document.createElement("script");
+    js.src = LEAFLET_BASE + "leaflet.js";
+    js.onload = cb;
+    document.head.appendChild(js);
+  }
+
+  function buildMap() {
+    var colors = { active: "#4caf50", proposed: "#ff9800", dissolved: "#9e9e9e" };
+    var map = L.map('alc-map').setView([20, 10], 2);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 18,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    var bounds = [];
+    chapters.forEach(function (c) {
+      var color = colors[c.status] || "#4caf50";
+      var marker = L.circleMarker([c.lat, c.lon], {
+        radius: 8, color: "#fff", weight: 2, fillColor: color, fillOpacity: 0.9
+      }).addTo(map);
+      var label = c.country ? (c.city + ", " + c.country) : c.city;
+
+      // Build the popup as real DOM nodes so the link navigates normally.
+      // (A string-concatenated <a> inside bindPopup can have its click
+      // swallowed by Leaflet, which just re-centers the map instead of
+      // following the href.)
+      var container = document.createElement("div");
+      var heading = document.createElement("strong");
+      var link = document.createElement("a");
+      link.href = c.url;
+      link.textContent = c.name;
+      heading.appendChild(link);
+      container.appendChild(heading);
+      container.appendChild(document.createElement("br"));
+      container.appendChild(document.createTextNode(label));
+      container.appendChild(document.createElement("br"));
+      var em = document.createElement("em");
+      em.textContent = c.status;
+      container.appendChild(em);
+
+      marker.bindPopup(container);
+      bounds.push([c.lat, c.lon]);
+    });
+    if (bounds.length) { map.fitBounds(bounds, { padding: [40, 40], maxZoom: 5 }); }
+
+    // Status legend (bottom-right), using the same colors as the markers.
+    var legend = L.control({ position: "bottomright" });
+    legend.onAdd = function () {
+      var div = L.DomUtil.create("div", "alc-legend");
+      div.style.background = "rgba(255,255,255,0.9)";
+      div.style.padding = "6px 8px";
+      div.style.borderRadius = "4px";
+      div.style.font = "12px/1.4 sans-serif";
+      div.style.boxShadow = "0 1px 4px rgba(0,0,0,0.3)";
+      var items = [
+        ["active",    "Active"],
+        ["proposed",  "Proposed"],
+        ["dissolved", "Dissolved"]
+      ];
+      var html = "";
+      items.forEach(function (it) {
+        html += '<div style="display:flex;align-items:center;margin:2px 0;">' +
+                '<span style="display:inline-block;width:12px;height:12px;border-radius:50%;' +
+                'background:' + colors[it[0]] + ';border:2px solid #fff;' +
+                'box-shadow:0 0 1px #999;margin-right:6px;"></span>' + it[1] + '</div>';
+      });
+      div.innerHTML = html;
+      return div;
+    };
+    legend.addTo(map);
+  }
+
+  // --- show the map (loads Leaflet + tiles); called on consent ---
+  function showMap() {
+    consentEl.style.display = "none";
+    mapEl.style.display = "block";
+    revokeWrap.style.display = "block";
+    loadLeaflet(function () {
+      if (!mapInitialized) { buildMap(); mapInitialized = true; }
+    });
+  }
+
+  // --- restore the placeholder (revoke) ---
+  function hideMap() {
+    revokeWrap.style.display = "none";
+    mapEl.style.display = "none";
+    consentEl.style.display = "flex";
+  }
+
+  loadBtn.addEventListener("click", function () {
+    if (rememberEl.checked) { setCookie(COOKIE, "yes", 365); }
+    showMap();
+  });
+
+  revokeEl.addEventListener("click", function (e) {
+    e.preventDefault();
+    clearCookie(COOKIE);
+    hideMap();
+  });
+
+  // Returning visitor who previously consented: auto-load.
+  if (getCookie(COOKIE) === "yes") { showMap(); }
+})();
+</script>

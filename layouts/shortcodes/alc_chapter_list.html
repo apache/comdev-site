@@ -1,0 +1,20 @@
+{{/* Text list of ALC chapters, grouped by status, from /alc/chapters/ */}}
+{{- $chapters := where (where .Site.RegularPages "Section" "alc") "Params.lat" "!=" nil }}
+{{- $byStatus := $chapters.GroupByParam "status" }}
+{{- $order := slice "active" "proposed" "dissolved" }}
+<ul class="alc-chapters">
+{{- range $order }}
+  {{- $status := . }}
+  {{- range $byStatus }}
+    {{- if eq .Key $status }}
+      {{- range .Pages.ByTitle }}
+  <li>
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    {{- with .Params.country }} &mdash; {{ . }}{{ end }}
+    {{- if ne $status "active" }} <span class="badge badge-secondary">{{ $status }}</span>{{ end }}
+  </li>
+      {{- end }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+</ul>

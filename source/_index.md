@@ -78,7 +78,7 @@ community health.
 
 #### Apache Local Community
 
-[![ALC](/images/alc-fp.webp)](https://s.apache.org/alc)
+[![ALC](/images/alc-fp.webp)](/alc/)
 
 </div>
   <!-- End ALC -->
