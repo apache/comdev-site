@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+  <meta name="description" content="Apache Community Development">
+  <meta name="keywords" content="apache, apache community, community development, opensource">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" >
+  <meta property="og:url" content="https://community.apache.org/alc/">
+  <meta property="og:site_name" content="ASF Community Development">
+  <meta property="og:title" content="Apache Local Community (ALC)">
+  <meta property="og:description" content="The Apache Local Community (ALC) program brings together local groups of Apache and open source enthusiasts — called ALC Chapters — in towns and cities around the world. Chapters host local events, spread awareness of the ASF and the Apache Way, and connect project users and developers in their region.
+ALC is to the ASF what Google Developer Groups, Facebook Developer Circles, and Mozilla Reps are to those organizations: a grassroots, local, in-person complement to our global online communities.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="website">
+    <meta property="og:image" content="https://community.apache.org/images/project-logos.webp">
+
+
+  <title>Apache Community Development - Apache Local Community (ALC)</title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link href="/css/main.css" rel="stylesheet" media="screen">
+  <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <style>
+      .footer {
+          text-align:center;
+          color:grey;
+          font-size:80%;
+          border-top: solid #ddd 1px;
+          margin-top:1em;
+      }
+      .navbar-brand img {
+          height: 50px;
+      }
+  </style>
+
+  
+<script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(['disableCookies']);
+   
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.apache.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '36']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+
+  <link rel="alternate" type="application/rss+xml" href="https://community.apache.org/alc/index.xml" title="ASF Community Development">
+
+
+</head>
+
+<body>
+  <header class="navbar navbar-expand-lg navbar-dark bg-bright fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+    <img src="https://apache.org/img/asf_logo.png" alt="Apache Software Foundation">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="mainNavbar">
+    <div class="container"> 
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="homeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Home
+            </a>
+            <div class="dropdown-menu" aria-labelledby="homeDropdown">
+              <a class="dropdown-item" href="/">Homepage</a>
+              <a class="dropdown-item" href="/tags/">Tags</a>
+              <a class="dropdown-item" href="/blog/">Blog</a>
+              <a class="dropdown-item" href="/tags/navigation.html">Navigation pages</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About
+          </a>
+          <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+            <a class="dropdown-item" href="/about/">What We Do</a>
+            <a class="dropdown-item" href="/newbiefaq.html">Frequently Asked Questions</a>
+            <a class="dropdown-item" href="/projectIndependence.html">Apache Project Independence</a>
+            <a class="dropdown-item" href="/apache-way/apache-project-maturity-model.html">Apache Project Maturity Model</a>
+            <a class="dropdown-item" href="/contactpoints.html">Contact Points Within the ASF</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html#2009-11-01">ComDev Original Board Resolution</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html">ComDev Board Reports</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/COMDEV">Community Development Jira</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">About Apache</a>
+            <a class="dropdown-item" href="https://www.apache.org/">The Apache Software Foundation</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/sponsorship">Sponsor Apache</a>
+            <a class="dropdown-item" href="http://diversity.apache.org/">Diversity & Inclusion</a>
+             <a class="dropdown-item" href="/contributors/asf-volunteers.html">Mentors &amp; Speakers</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/thanks">Thanks to our Sponsors</a>
+            <a class="dropdown-item" href="https://www.apache.org/licenses">License</a>
+            <a class="dropdown-item" href="https://www.apache.org/security">Security</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="contribDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Contributing
+          </a>
+          <div class="dropdown-menu" aria-labelledby="contribDropdown">
+            <a class="dropdown-item" href="/newcomers/why.html">Why Contribute?</a>
+            <a class="dropdown-item" href="/contributor-ladder.html">Contributor Ladder</a>
+            <a class="dropdown-item" href="/newcomers/">Getting Started at Apache</a>
+            <a class="dropdown-item" href="/contributors/">Contributing to projects</a>
+            <a class="dropdown-item" href="/committers/">Committers</a>
+            <a class="dropdown-item" href="/pmc/">PMC Members</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">Committer and PMC Information</a>
+            <a class="dropdown-item" href="https://www.apache.org/dev/">Technical Developer FAQs</a>
+            <a class="dropdown-item" href="/committers/decisionMaking.html">Decision Making</a>
+            <a class="dropdown-item" href="/committers/good-first-issues.html">Good First Issues</a>
+            <a class="dropdown-item" href="/pmc/community-growth.html">Recruiting New Contributors</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="gsocDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">GSoC</a>
+          <div class="dropdown-menu" aria-labelledby="gsocDropdown">
+            <a class="dropdown-item" href="/gsoc/">Google Summer Of Code Information</a>
+            <a class="dropdown-item" href="/gsoc/mentee-ranking-process.html">Mentee Ranking Process</a>
+            <a class="dropdown-item" href="/gsoc/experiences/">Past GSoC Experiences</a>
+            <a class="dropdown-item" href="/gsoc/guide-to-being-a-mentor.html">Guide to being a Mentor</a>
+            <a class="dropdown-item" href="/gsoc/use-the-comdev-gsoc-issue-tracker-for-gsoc-tasks.html">Using ComDev's Jira for GSoC Ideas</a>
+            <a class="dropdown-item" href="/gsoc/gsoc-admin-tasks.html">Tasks of a GSoC Admin at the ASF</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/GSOC">GSoC Jira</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="eventDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Events
+          </a>
+          <div class="dropdown-menu" aria-labelledby="eventDropdown">
+            <a class="dropdown-item" href="https://apachecon.com/">Community Over Code - (formerly ApacheCon)</a>
+            <a class="dropdown-item" href="https://events.apache.org/">Other Apache-related Events</a>
+            <a class="dropdown-item" href="/alc/">Local Communities (ALC)</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/marks/events">Apache event branding policies</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">Conference Speakers</a>
+            <a class="dropdown-item" href="/speakers/">Speaker resources</a>
+            <a class="dropdown-item" href="/speakers/slides.html">Sample presentations</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="wgDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Working Groups
+          </a>
+          <div class="dropdown-menu" aria-labelledby="wgDropdown">
+            <a class="dropdown-item" href="/workinggroups/">Working Groups</a>
+            <a class="dropdown-item" href="https://github.com/apache/comdev-working-groups">Git repositories</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="conversDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Join the Conversation
+          </a>
+          <div class="dropdown-menu" aria-labelledby="conversDropdown">
+            <a class="dropdown-item" href="/blog/">Blog</a>
+            <a class="dropdown-item" href="https://www.facebook.com/ApacheSoftwareFoundation">Facebook</a>
+            <a class="dropdown-item" href="https://x.com/TheASF">X (Formerly Twitter)</a>
+            <a class="dropdown-item" href="/lists.html">Mailing List</a>
+            <a class="dropdown-item" href="/alc/">ALC: Apache Local Communities</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+    </div>
+  </header>
+
+  <main class="cd-main" id="content" role="main">
+    <div class="container">
+      
+      <hr>
+       
+<ul class="tags-list">
+  
+  <li>
+    <a href="https://community.apache.org/tags/alc.html">alc</a>
+  </li>
+  <li>
+    <a href="https://community.apache.org/tags/community.html">community</a>
+  </li>
+  <li>
+    <a href="https://community.apache.org/tags/events.html">events</a>
+  </li></ul>
+
+      
+    <p>The <strong>Apache Local Community (ALC)</strong> program brings together local groups
+of Apache and open source enthusiasts — called <em>ALC Chapters</em> — in towns
+and cities around the world. Chapters host local events, spread awareness
+of the ASF and the Apache Way, and connect project users and developers
+in their region.</p>
+<p>ALC is to the ASF what Google Developer Groups, Facebook Developer
+Circles, and Mozilla Reps are to those organizations: a grassroots,
+local, in-person complement to our global online communities.</p>
+<h2 id="find-a-chapter-near-you">Find a chapter near you <a class="headerlink" title="Permalink" href="#find-a-chapter-near-you">&para;</a></h2>
+
+
+<div id="alc-map-wrap" style="margin: 1em 0;">
+
+  
+  <div id="alc-map-consent"
+       style="height: 460px; border: 1px solid #ddd; border-radius: 4px;
+              display: flex; flex-direction: column; align-items: center;
+              justify-content: center; text-align: center; padding: 1.5em;
+              background: #f7f7f7;">
+    <p style="max-width: 34em; margin: 0 0 1em;">
+      The interactive map loads base-map tiles from
+      <a href="https://www.openstreetmap.org/" rel="noopener">OpenStreetMap</a>,
+      a third-party service. Loading it will share your IP address and
+      request information with OpenStreetMap, subject to their
+      <a href="https://wiki.osmfoundation.org/wiki/Privacy_Policy" rel="noopener">privacy policy</a>.
+      The chapter list below works without the map.
+    </p>
+    <button type="button" id="alc-map-load"
+            style="cursor: pointer; padding: 0.5em 1.1em; font-size: 1em;
+                   border: 1px solid #888; border-radius: 4px;
+                   background: #4caf50; color: #fff;">
+      Load the map
+    </button>
+    <label style="margin-top: 0.9em; font-size: 0.85em; color: #555;">
+      <input type="checkbox" id="alc-map-remember" checked />
+      Remember my choice on this site
+    </label>
+  </div>
+
+  
+  <div id="alc-map" style="height: 460px; display: none;
+       border: 1px solid #ddd; border-radius: 4px;"></div>
+
+  
+  <div id="alc-map-revoke-wrap" style="display: none; margin-top: 0.4em;
+       font-size: 0.85em; text-align: right;">
+    <a href="#" id="alc-map-revoke">Hide the map &amp; stop loading OpenStreetMap</a>
+  </div>
+</div>
+
+<script>
+(function () {
+  var LEAFLET_BASE = "/vendor/leaflet/1.9.4/";
+  var COOKIE = "alc_map_consent";
+  var chapters = [{"city":"Bangalore","country":"India","lat":12.9716,"lon":77.5946,"name":"ALC Bangalore","status":"active","url":"/alc/chapters/bangalore.html"},{"city":"Beijing","country":"China","lat":39.9042,"lon":116.4074,"name":"ALC Beijing","status":"active","url":"/alc/chapters/beijing.html"},{"city":"Budapest","country":"Hungary","lat":47.4979,"lon":19.0402,"name":"ALC Budapest","status":"active","url":"/alc/chapters/budapest.html"},{"city":"Florianópolis","country":"Brazil","lat":-27.5954,"lon":-48.548,"name":"ALC Florianópolis","status":"active","url":"/alc/chapters/florianopolis.html"},{"city":"Wa","country":"Ghana","lat":10.0607,"lon":-2.5099,"name":"ALC Ghana","status":"proposed","url":"/alc/chapters/ghana.html"},{"city":"Hangzhou","country":"China","lat":30.2741,"lon":120.1551,"name":"ALC Hangzhou","status":"active","url":"/alc/chapters/hangzhou.html"},{"city":"Indore","country":"India","lat":22.7196,"lon":75.8577,"name":"ALC Indore","status":"active","url":"/alc/chapters/indore.html"},{"city":"Islamabad","country":"Pakistan","lat":33.6844,"lon":73.0479,"name":"ALC Islamabad","status":"active","url":"/alc/chapters/islamabad.html"},{"city":"Lagos","country":"Nigeria","lat":6.5244,"lon":3.3792,"name":"ALC Lagos","status":"active","url":"/alc/chapters/lagos.html"},{"city":"Shanghai","country":"China","lat":31.2304,"lon":121.4737,"name":"ALC Shanghai","status":"active","url":"/alc/chapters/shanghai.html"},{"city":"Shenzhen","country":"China","lat":22.5431,"lon":114.0579,"name":"ALC Shenzhen","status":"active","url":"/alc/chapters/shenzhen.html"},{"city":"Taipei","country":"Taiwan","lat":25.033,"lon":121.5654,"name":"ALC Taipei","status":"active","url":"/alc/chapters/taipei.html"},{"city":"Warsaw","country":"Poland","lat":52.2297,"lon":21.0122,"name":"ALC Warsaw","status":"active","url":"/alc/chapters/warsaw.html"},{"city":"Xi’an","country":"China","lat":34.3416,"lon":108.9398,"name":"ALC Xi’an","status":"active","url":"/alc/chapters/xian.html"}];
+
+  var consentEl = document.getElementById("alc-map-consent");
+  var mapEl     = document.getElementById("alc-map");
+  var revokeWrap= document.getElementById("alc-map-revoke-wrap");
+  var loadBtn   = document.getElementById("alc-map-load");
+  var rememberEl= document.getElementById("alc-map-remember");
+  var revokeEl  = document.getElementById("alc-map-revoke");
+
+  var mapInitialized = false;
+
+  
+  function setCookie(name, value, days) {
+    var expires = "";
+    if (days) {
+      var d = new Date();
+      d.setTime(d.getTime() + days * 864e5);
+      expires = "; expires=" + d.toUTCString();
+    }
+    document.cookie = name + "=" + value + expires +
+                      "; path=/; SameSite=Lax";
+  }
+  function getCookie(name) {
+    return document.cookie.split("; ").reduce(function (acc, c) {
+      var parts = c.split("=");
+      return parts[0] === name ? decodeURIComponent(parts[1]) : acc;
+    }, "");
+  }
+  function clearCookie(name) {
+    document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; SameSite=Lax";
+  }
+
+  
+  function loadLeaflet(cb) {
+    if (window.L) { cb(); return; }
+    var css = document.createElement("link");
+    css.rel = "stylesheet";
+    css.href = LEAFLET_BASE + "leaflet.css";
+    document.head.appendChild(css);
+    var js = document.createElement("script");
+    js.src = LEAFLET_BASE + "leaflet.js";
+    js.onload = cb;
+    document.head.appendChild(js);
+  }
+
+  function buildMap() {
+    var colors = { active: "#4caf50", proposed: "#ff9800", dissolved: "#9e9e9e" };
+    var map = L.map('alc-map').setView([20, 10], 2);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 18,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    var bounds = [];
+    chapters.forEach(function (c) {
+      var color = colors[c.status] || "#4caf50";
+      var marker = L.circleMarker([c.lat, c.lon], {
+        radius: 8, color: "#fff", weight: 2, fillColor: color, fillOpacity: 0.9
+      }).addTo(map);
+      var label = c.country ? (c.city + ", " + c.country) : c.city;
+
+      
+      
+      
+      
+      var container = document.createElement("div");
+      var heading = document.createElement("strong");
+      var link = document.createElement("a");
+      link.href = c.url;
+      link.textContent = c.name;
+      heading.appendChild(link);
+      container.appendChild(heading);
+      container.appendChild(document.createElement("br"));
+      container.appendChild(document.createTextNode(label));
+      container.appendChild(document.createElement("br"));
+      var em = document.createElement("em");
+      em.textContent = c.status;
+      container.appendChild(em);
+
+      marker.bindPopup(container);
+      bounds.push([c.lat, c.lon]);
+    });
+    if (bounds.length) { map.fitBounds(bounds, { padding: [40, 40], maxZoom: 5 }); }
+
+    
+    var legend = L.control({ position: "bottomright" });
+    legend.onAdd = function () {
+      var div = L.DomUtil.create("div", "alc-legend");
+      div.style.background = "rgba(255,255,255,0.9)";
+      div.style.padding = "6px 8px";
+      div.style.borderRadius = "4px";
+      div.style.font = "12px/1.4 sans-serif";
+      div.style.boxShadow = "0 1px 4px rgba(0,0,0,0.3)";
+      var items = [
+        ["active",    "Active"],
+        ["proposed",  "Proposed"],
+        ["dissolved", "Dissolved"]
+      ];
+      var html = "";
+      items.forEach(function (it) {
+        html += '<div style="display:flex;align-items:center;margin:2px 0;">' +
+                '<span style="display:inline-block;width:12px;height:12px;border-radius:50%;' +
+                'background:' + colors[it[0]] + ';border:2px solid #fff;' +
+                'box-shadow:0 0 1px #999;margin-right:6px;"></span>' + it[1] + '</div>';
+      });
+      div.innerHTML = html;
+      return div;
+    };
+    legend.addTo(map);
+  }
+
+  
+  function showMap() {
+    consentEl.style.display = "none";
+    mapEl.style.display = "block";
+    revokeWrap.style.display = "block";
+    loadLeaflet(function () {
+      if (!mapInitialized) { buildMap(); mapInitialized = true; }
+    });
+  }
+
+  
+  function hideMap() {
+    revokeWrap.style.display = "none";
+    mapEl.style.display = "none";
+    consentEl.style.display = "flex";
+  }
+
+  loadBtn.addEventListener("click", function () {
+    if (rememberEl.checked) { setCookie(COOKIE, "yes", 365); }
+    showMap();
+  });
+
+  revokeEl.addEventListener("click", function (e) {
+    e.preventDefault();
+    clearCookie(COOKIE);
+    hideMap();
+  });
+
+  
+  if (getCookie(COOKIE) === "yes") { showMap(); }
+})();
+</script>
+
+<div class="alc-chapter-list">
+
+<ul class="alc-chapters">
+  <li>
+    <a href="/alc/chapters/bangalore.html">ALC Bangalore</a> &mdash; India
+  </li>
+  <li>
+    <a href="/alc/chapters/beijing.html">ALC Beijing</a> &mdash; China
+  </li>
+  <li>
+    <a href="/alc/chapters/budapest.html">ALC Budapest</a> &mdash; Hungary
+  </li>
+  <li>
+    <a href="/alc/chapters/florianopolis.html">ALC Florianópolis</a> &mdash; Brazil
+  </li>
+  <li>
+    <a href="/alc/chapters/hangzhou.html">ALC Hangzhou</a> &mdash; China
+  </li>
+  <li>
+    <a href="/alc/chapters/indore.html">ALC Indore</a> &mdash; India
+  </li>
+  <li>
+    <a href="/alc/chapters/islamabad.html">ALC Islamabad</a> &mdash; Pakistan
+  </li>
+  <li>
+    <a href="/alc/chapters/lagos.html">ALC Lagos</a> &mdash; Nigeria
+  </li>
+  <li>
+    <a href="/alc/chapters/shanghai.html">ALC Shanghai</a> &mdash; China
+  </li>
+  <li>
+    <a href="/alc/chapters/shenzhen.html">ALC Shenzhen</a> &mdash; China
+  </li>
+  <li>
+    <a href="/alc/chapters/taipei.html">ALC Taipei</a> &mdash; Taiwan
+  </li>
+  <li>
+    <a href="/alc/chapters/warsaw.html">ALC Warsaw</a> &mdash; Poland
+  </li>
+  <li>
+    <a href="/alc/chapters/xian.html">ALC Xi’an</a> &mdash; China
+  </li>
+  <li>
+    <a href="/alc/chapters/ghana.html">ALC Ghana</a> &mdash; Ghana <span class="badge badge-secondary">proposed</span>
+  </li>
+</ul>
+
+</div>
+<p>Don&rsquo;t see a chapter in your town or city? You can
+<a href="/alc/start-a-chapter.html">start one</a>. There is a single ALC chapter per
+town or city, so check the map first.</p>
+<h2 id="what-a-chapter-does">What a chapter does <a class="headerlink" title="Permalink" href="#what-a-chapter-does">&para;</a></h2>
+<ul>
+<li>Spreads awareness of Apache and open source in the local community.</li>
+<li>Hosts events for students, developers, and the local business community.</li>
+<li>Shares knowledge about the ASF, the Apache Way, and Apache projects.</li>
+<li>Brings project users and developers together, face to face.</li>
+</ul>
+<h2 id="get-involved">Get involved <a class="headerlink" title="Permalink" href="#get-involved">&para;</a></h2>
+<ul>
+<li><strong>Attend</strong> an event hosted by your nearest chapter.</li>
+<li><strong>Organize</strong> — <a href="/alc/start-a-chapter.html">start a chapter</a> in your town,
+or help run an existing one (see our <a href="/alc/organizers.html">organizer guide</a>).</li>
+<li><strong>Speak</strong> — chapters are always looking for speakers. Our
+<a href="/speakers/">speaker resources</a> and <a href="/speakers/slides.html">sample presentations</a>
+can help.</li>
+</ul>
+<h2 id="contact">Contact <a class="headerlink" title="Permalink" href="#contact">&para;</a></h2>
+<ul>
+<li><strong>Email</strong> — write to <a href="mailto:dev@community.apache.org">dev@community.apache.org</a>
+with <code>[ALC]</code> at the start of the subject line.</li>
+<li><strong>Slack</strong> — join the <code>#alc</code> channel on
+<a href="https://infra.apache.org/slack.html">the ASF Slack</a>.</li>
+</ul>
+<p>The authoritative program documentation — including the formal
+application and dissolution processes and the ALC resources library —
+lives on the
+<a href="https://cwiki.apache.org/confluence/display/COMDEV/Apache+Local+Community+-+ALC">ALC wiki</a>.</p>
+
+    
+
+    </div>
+  </main>
+
+  <footer class="page-footer bg-secondary mt-4 pt-3">
+    <div class="container text-center text-md-left mb-3">
+      <div class="row">
+        <div class="col-md-6 mt-md-0 mt-3">
+          <h5 class="text-uppercase">Trademarks</h5>
+          <p>
+            Apache&reg;, the names of Apache projects, and the Apache logo are
+            <a href="https://www.apache.org/foundation/marks/list/">registered trademarks or trademarks</a> of the Apache
+            Software Foundation in the United States and/or other countries.
+          </p>
+        </div>
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <div class="col-md-6 mb-md-0 mb-3">
+          <h5 class="text-uppercase">Website sources</h5>
+          <p>
+  This website is generated from the <a href="https://github.com/apache/comdev-site">comdev-site repository</a>
+  
+    <br>
+    Source of this page:
+      <a href="https://github.com/apache/comdev-site/blob/main/source/alc/_index.md" title="Source of this page">
+        alc/_index.md
+      </a>
+  
+</p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright text-center py-3">
+      <em>Copyright &copy; 2026, <a href="https://www.apache.org/">the Apache Software Foundation</a>. Licensed under the
+      <a rel="license" href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></em>
+      <br/>
+      <span class="small">
+        <a href="https://www.apache.org/">Foundation</a> |
+        <a href="https://www.apache.org/events/current-event.html">Events</a> |
+        <a href="https://www.apache.org/licenses/">License</a> |
+        <a href="https://www.apache.org/security/">Security</a> |
+        <a href="https://www.apache.org/foundation/sponsorship.html">Sponsorship</a> |
+        <a href="https://www.apache.org/foundation/thanks.html">Thanks</a> |
+        <a href="https://privacy.apache.org/policies/privacy-policy-public.html">Privacy</a>
+      </span>
+    </div>
+  </footer>
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>

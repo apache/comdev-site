@@ -422,6 +422,13 @@
     </item>
     <item>
       <title></title>
+      <link>https://community.apache.org/alc/README.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/README.html</guid>
+      <description>&lt;h1 id=&#34;alc-section-alc&#34;&gt;ALC section (&lt;code&gt;/alc/&lt;/code&gt;) &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#alc-section-alc&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;This directory implements the &lt;strong&gt;Apache Local Community (ALC)&lt;/strong&gt; section of&#xA;the ComDev website: a landing page with an interactive map of chapters, a&#xA;per-chapter page model, a &amp;ldquo;start a chapter&amp;rdquo; guide, and an organizer guide.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-each-file-is&#34;&gt;What each file is &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#what-each-file-is&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;source/alc/&#xA;├── _index.md             Landing page. Intro, embedded map + chapter&#xA;│                         list (via shortcodes), how to get involved,&#xA;│                         contact. URL: /alc/&#xA;├── start-a-chapter.md     How to establish a chapter + the program rules&#xA;│                         (one-per-city, metro exceptions, CoC, quarterly&#xA;│                         reports, 3-month inactivity dissolution, no&#xA;│                         press releases). Includes the front-matter&#xA;│                         template for adding a chapter.&#xA;├── organizers.md          Practical guide for chapter organizers (running&#xA;│                         events, finding speakers, reporting, resources).&#xA;└── chapters/&#xA;    ├── _index.md          Chapter list page. URL: /alc/chapters/&#xA;    └── &amp;lt;city&amp;gt;.md          One file per chapter. Front matter drives the&#xA;                           map + list; body is the chapter blurb.&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Supporting layout files (in &lt;code&gt;layouts/shortcodes/&lt;/code&gt;):&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
       <link>https://community.apache.org/communitybuilding/README.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://community.apache.org/communitybuilding/README.html</guid>
@@ -447,6 +454,111 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://community.apache.org/pmc/adding-pmc-members.html</guid>
       <description>&lt;p&gt;This document describes a typical Apache project&amp;rsquo;s process for handling the&#xA;vote to add a new PMC (Project Management Committee) member - when it is&#xA;separate from becoming committer.&lt;/p&gt;&#xA;&lt;p&gt;Templates mentioned in the process appear [#NewPMCMember-EmailTemplates](later in&#xA;this document). If your PMC adds automatically committers as PMC members, the process&#xA;for doing both at the same time is described in the &lt;a href=&#34;https://community.apache.org/pmc/adding-committers.html&#34;&gt;New&#xA;committer&lt;/a&gt; advice.&lt;/p&gt;&#xA;&lt;p&gt;The &lt;a href=&#34;https://community.apache.org/contributor-ladder.html&#34;&gt;Contributor Ladder&lt;/a&gt; helps&#xA;explain different roles.&lt;/p&gt;&#xA;&lt;nav id=&#34;TableOfContents&#34;&gt;&#xA;  &lt;ul&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#tldr---inviting-a-new-pmc-member&#34;&gt;TL;DR - Inviting a new PMC member&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#guidelines-for-inviting-a-new-pmc-member&#34;&gt;Guidelines for inviting a new PMC member&lt;/a&gt;&#xA;      &lt;ul&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#discussion&#34;&gt;Discussion&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#vote&#34;&gt;Vote&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#invitation-and-welcome&#34;&gt;Invitation and welcome&lt;/a&gt;&lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#email-templates&#34;&gt;Email Templates&lt;/a&gt;&lt;/li&gt;&#xA;  &lt;/ul&gt;&#xA;&lt;/nav&gt;&#xA;&lt;p&gt;&lt;span id=&#34;NewPMCMember-Summary&#34;&gt;&lt;/span&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ALC Bangalore</title>
+      <link>https://community.apache.org/alc/chapters/bangalore.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/chapters/bangalore.html</guid>
+      <description>&lt;p&gt;Bangalore (officially Bengaluru) is the capital of the southern Indian state of Karnataka, known as the &amp;ldquo;Silicon Valley of India&amp;rdquo; as the nation&amp;rsquo;s leading software exporter and a major semiconductor hub.&lt;/p&gt;&#xA;&lt;p&gt;See the &lt;a href=&#34;https://cwiki.apache.org/confluence/display/COMDEV/ALC+Bangalore&#34;&gt;chapter&amp;rsquo;s wiki page&lt;/a&gt; for current organizers, events, and&#xA;reports. To reach the chapter, email&#xA;&lt;a href=&#34;mailto:dev@community.apache.org&#34;&gt;dev@community.apache.org&lt;/a&gt; with&#xA;&lt;code&gt;[Bangalore]&lt;/code&gt; in the subject line.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ALC Beijing</title>
+      <link>https://community.apache.org/alc/chapters/beijing.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/chapters/beijing.html</guid>
+      <description>&lt;p&gt;Beijing is the capital of the People&amp;rsquo;s Republic of China, and one of the world&amp;rsquo;s leading centers for culture, diplomacy, business, education, and science and technology.&lt;/p&gt;&#xA;&lt;p&gt;See the &lt;a href=&#34;https://cwiki.apache.org/confluence/display/COMDEV/ALC+Beijing&#34;&gt;chapter&amp;rsquo;s wiki page&lt;/a&gt; for current organizers, events, and&#xA;reports. To reach the chapter, email&#xA;&lt;a href=&#34;mailto:dev@community.apache.org&#34;&gt;dev@community.apache.org&lt;/a&gt; with&#xA;&lt;code&gt;[Beijing]&lt;/code&gt; in the subject line.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ALC Budapest</title>
+      <link>https://community.apache.org/alc/chapters/budapest.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/chapters/budapest.html</guid>
+      <description>&lt;p&gt;Budapest, Hungary&amp;rsquo;s financial center, is an Alpha global city with strengths in commerce, finance, media, art, research, technology, and education.&lt;/p&gt;&#xA;&lt;p&gt;See the &lt;a href=&#34;https://cwiki.apache.org/confluence/display/COMDEV/ALC+Budapest&#34;&gt;chapter&amp;rsquo;s wiki page&lt;/a&gt; for current organizers, events, and&#xA;reports. To reach the chapter, email&#xA;&lt;a href=&#34;mailto:dev@community.apache.org&#34;&gt;dev@community.apache.org&lt;/a&gt; with&#xA;&lt;code&gt;[Budapest]&lt;/code&gt; in the subject line.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ALC Florianópolis</title>
+      <link>https://community.apache.org/alc/chapters/florianopolis.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/chapters/florianopolis.html</guid>
+      <description>&lt;p&gt;Florianópolis is the capital of the state of Santa Catarina in southern Brazil, and a growing hub for the regional open source community.&lt;/p&gt;&#xA;&lt;p&gt;See the &lt;a href=&#34;https://cwiki.apache.org/confluence/spaces/COMDEV/pages/399278973/ALC+Florian%C3%B3polis&#34;&gt;chapter&amp;rsquo;s wiki page&lt;/a&gt; for current organizers, events, and&#xA;reports. To reach the chapter, email&#xA;&lt;a href=&#34;mailto:dev@community.apache.org&#34;&gt;dev@community.apache.org&lt;/a&gt; with&#xA;&lt;code&gt;[Florianópolis]&lt;/code&gt; in the subject line.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ALC Ghana</title>
+      <link>https://community.apache.org/alc/chapters/ghana.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/chapters/ghana.html</guid>
+      <description>&lt;p&gt;ALC Ghana is a proposed chapter put forward in August 2026, with Rich&#xA;Bowen mentoring. The proposal aims to bring open source mentorship,&#xA;technical workshops, and collaboration with local universities and tech&#xA;communities to the region. As of early October 2026 it was moving toward&#xA;approval on the ComDev list but had not been formally finalized.&lt;/p&gt;&#xA;&lt;p&gt;See the &lt;a href=&#34;https://lists.apache.org/thread/1m3yjxmtqrqcy6ntnhop95hjf9odoy85&#34;&gt;proposal thread&lt;/a&gt;&#xA;on dev@community for details. To reach the organizers, email&#xA;&lt;a href=&#34;mailto:dev@community.apache.org&#34;&gt;dev@community.apache.org&lt;/a&gt; with &lt;code&gt;[ALC]&lt;/code&gt;&#xA;in the subject line.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ALC Hangzhou</title>
+      <link>https://community.apache.org/alc/chapters/hangzhou.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/chapters/hangzhou.html</guid>
+      <description>&lt;p&gt;Hangzhou is the capital and most populous city of Zhejiang, China, sitting at the head of Hangzhou Bay between Shanghai and Ningbo.&lt;/p&gt;&#xA;&lt;p&gt;See the &lt;a href=&#34;https://cwiki.apache.org/confluence/display/COMDEV/ALC+Hangzhou&#34;&gt;chapter&amp;rsquo;s wiki page&lt;/a&gt; for current organizers, events, and&#xA;reports. To reach the chapter, email&#xA;&lt;a href=&#34;mailto:dev@community.apache.org&#34;&gt;dev@community.apache.org&lt;/a&gt; with&#xA;&lt;code&gt;[Hangzhou]&lt;/code&gt; in the subject line.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ALC Indore</title>
+      <link>https://community.apache.org/alc/chapters/indore.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/chapters/indore.html</guid>
+      <description>&lt;p&gt;Indore is a city in west-central India, repeatedly ranked as India&amp;rsquo;s cleanest city in the Swachh Survekshan surveys.&lt;/p&gt;&#xA;&lt;p&gt;See the &lt;a href=&#34;https://cwiki.apache.org/confluence/display/COMDEV/ALC+Indore&#34;&gt;chapter&amp;rsquo;s wiki page&lt;/a&gt; for current organizers, events, and&#xA;reports. To reach the chapter, email&#xA;&lt;a href=&#34;mailto:dev@community.apache.org&#34;&gt;dev@community.apache.org&lt;/a&gt; with&#xA;&lt;code&gt;[Indore]&lt;/code&gt; in the subject line.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ALC Islamabad</title>
+      <link>https://community.apache.org/alc/chapters/islamabad.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/chapters/islamabad.html</guid>
+      <description>&lt;p&gt;ALC Islamabad was approved in September 2026 and is getting started with&#xA;organizing its first meetups in the Islamabad open source community.&lt;/p&gt;&#xA;&lt;p&gt;See the &lt;a href=&#34;https://cwiki.apache.org/confluence/display/COMDEV/ALC+Islamabad&#34;&gt;chapter&amp;rsquo;s wiki page&lt;/a&gt;&#xA;for current organizers, events, and reports. To reach the chapter, email&#xA;&lt;a href=&#34;mailto:dev@community.apache.org&#34;&gt;dev@community.apache.org&lt;/a&gt; with &lt;code&gt;[ALC]&lt;/code&gt;&#xA;in the subject line.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ALC Lagos</title>
+      <link>https://community.apache.org/alc/chapters/lagos.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/chapters/lagos.html</guid>
+      <description>&lt;p&gt;Lagos is a major African financial centre, the economic hub of Nigeria, and among the world&amp;rsquo;s ten fastest-growing cities and urban areas.&lt;/p&gt;&#xA;&lt;p&gt;See the &lt;a href=&#34;https://cwiki.apache.org/confluence/display/COMDEV/ALC+Lagos&#34;&gt;chapter&amp;rsquo;s wiki page&lt;/a&gt; for current organizers, events, and&#xA;reports. To reach the chapter, email&#xA;&lt;a href=&#34;mailto:dev@community.apache.org&#34;&gt;dev@community.apache.org&lt;/a&gt; with&#xA;&lt;code&gt;[Lagos]&lt;/code&gt; in the subject line.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ALC Organizer Guide</title>
+      <link>https://community.apache.org/alc/organizers.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/organizers.html</guid>
+      <description>&lt;p&gt;Running an &lt;a href=&#34;https://community.apache.org/alc/&#34;&gt;ALC chapter&lt;/a&gt; is mostly about showing up, consistently,&#xA;for your local open source community. This page collects practical help&#xA;for chapter organizers.&lt;/p&gt;&#xA;&lt;nav id=&#34;TableOfContents&#34;&gt;&#xA;  &lt;ul&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#running-events&#34;&gt;Running events&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#finding-speakers&#34;&gt;Finding speakers&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#topic-ideas&#34;&gt;Topic ideas&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#reporting&#34;&gt;Reporting&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#resources&#34;&gt;Resources&lt;/a&gt;&lt;/li&gt;&#xA;  &lt;/ul&gt;&#xA;&lt;/nav&gt;&#xA;&lt;h2 id=&#34;running-events&#34;&gt;Running events &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#running-events&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;The heart of a chapter is its events. These don&amp;rsquo;t need to be large or&#xA;elaborate — a regular, reliable, welcoming meetup does far more for a&#xA;community than an occasional big conference.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Start small and regular. A predictable monthly or quarterly cadence&#xA;builds an audience.&lt;/li&gt;&#xA;&lt;li&gt;Mix formats: talks, workshops, hack sessions, and informal socials all&#xA;have their place.&lt;/li&gt;&#xA;&lt;li&gt;Welcome newcomers explicitly. Many attendees will be students or people&#xA;entirely new to open source.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;finding-speakers&#34;&gt;Finding speakers &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#finding-speakers&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;You don&amp;rsquo;t have to find every speaker yourself.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ALC Shanghai</title>
+      <link>https://community.apache.org/alc/chapters/shanghai.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/chapters/shanghai.html</guid>
+      <description>&lt;p&gt;Shanghai is one of the world&amp;rsquo;s major centers for finance, business, research, science and technology, manufacturing, transportation, tourism, and culture.&lt;/p&gt;&#xA;&lt;p&gt;See the &lt;a href=&#34;https://cwiki.apache.org/confluence/display/COMDEV/ALC+Shanghai&#34;&gt;chapter&amp;rsquo;s wiki page&lt;/a&gt; for current organizers, events, and&#xA;reports. To reach the chapter, email&#xA;&lt;a href=&#34;mailto:dev@community.apache.org&#34;&gt;dev@community.apache.org&lt;/a&gt; with&#xA;&lt;code&gt;[Shanghai]&lt;/code&gt; in the subject line.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ALC Shenzhen</title>
+      <link>https://community.apache.org/alc/chapters/shenzhen.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/chapters/shenzhen.html</guid>
+      <description>&lt;p&gt;Shenzhen is a major sub-provincial city and one of China&amp;rsquo;s special economic zones — a global center for technology, research, manufacturing, finance, and transportation, home to the world&amp;rsquo;s fourth-busiest container port.&lt;/p&gt;&#xA;&lt;p&gt;See the &lt;a href=&#34;https://cwiki.apache.org/confluence/display/COMDEV/ALC+Shenzhen&#34;&gt;chapter&amp;rsquo;s wiki page&lt;/a&gt; for current organizers, events, and&#xA;reports. To reach the chapter, email&#xA;&lt;a href=&#34;mailto:dev@community.apache.org&#34;&gt;dev@community.apache.org&lt;/a&gt; with&#xA;&lt;code&gt;[Shenzhen]&lt;/code&gt; in the subject line.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ALC Taipei</title>
+      <link>https://community.apache.org/alc/chapters/taipei.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/chapters/taipei.html</guid>
+      <description>&lt;p&gt;Taipei is the capital of Taiwan and the home of a vibrant, active open source community.&lt;/p&gt;&#xA;&lt;p&gt;See the &lt;a href=&#34;https://cwiki.apache.org/confluence/display/COMDEV/ALC+Taipei&#34;&gt;chapter&amp;rsquo;s wiki page&lt;/a&gt; for current organizers, events, and&#xA;reports. To reach the chapter, email&#xA;&lt;a href=&#34;mailto:dev@community.apache.org&#34;&gt;dev@community.apache.org&lt;/a&gt; with&#xA;&lt;code&gt;[Taipei]&lt;/code&gt; in the subject line.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ALC Warsaw</title>
+      <link>https://community.apache.org/alc/chapters/warsaw.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/chapters/warsaw.html</guid>
+      <description>&lt;p&gt;Warsaw is the capital of Poland, an alpha global city and a significant cultural, political, and economic hub; its historic old town is a UNESCO World Heritage Site.&lt;/p&gt;&#xA;&lt;p&gt;See the &lt;a href=&#34;https://cwiki.apache.org/confluence/display/COMDEV/ALC+Warsaw&#34;&gt;chapter&amp;rsquo;s wiki page&lt;/a&gt; for current organizers, events, and&#xA;reports. To reach the chapter, email&#xA;&lt;a href=&#34;mailto:dev@community.apache.org&#34;&gt;dev@community.apache.org&lt;/a&gt; with&#xA;&lt;code&gt;[Warsaw]&lt;/code&gt; in the subject line.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ALC Xi’an</title>
+      <link>https://community.apache.org/alc/chapters/xian.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/chapters/xian.html</guid>
+      <description>&lt;p&gt;Xi&amp;rsquo;an is the capital of Shaanxi Province, a subprovincial city on the Guanzhong Plain and the most populous city in Northwest China.&lt;/p&gt;&#xA;&lt;p&gt;See the &lt;a href=&#34;https://cwiki.apache.org/confluence/spaces/COMDEV/pages/263429100/ALC+Xi+an&#34;&gt;chapter&amp;rsquo;s wiki page&lt;/a&gt; for current organizers, events, and&#xA;reports. To reach the chapter, email&#xA;&lt;a href=&#34;mailto:dev@community.apache.org&#34;&gt;dev@community.apache.org&lt;/a&gt; with&#xA;&lt;code&gt;[Xi’an]&lt;/code&gt; in the subject line.&lt;/p&gt;</description>
     </item>
     <item>
       <title>An overview of board responsibilities</title>
@@ -776,6 +888,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://community.apache.org/projectIndependence.html</guid>
       <description>&lt;p&gt;While not all ASF projects practice all aspects of the Apache Way in the same way, there are a number of rules and policies that Apache&#xA;projects must follow – things like complying with PMC&#xA;&lt;a href=&#34;https://www.apache.org/legal/release-policy.html&#34;&gt;release voting&lt;/a&gt;, &lt;a href=&#34;https://www.apache.org/legal/&#34;&gt;legal policy&lt;/a&gt;, &lt;a href=&#34;https://www.apache.org/foundation/marks/&#34;&gt;brand policy&lt;/a&gt;,&#xA;using &lt;a href=&#34;https://www.apache.org/dev/#mail&#34;&gt;mailing lists&lt;/a&gt;, etc., which are &lt;a href=&#34;https://blogs.apache.org/comdev/entry/what_makes_apache_projects_different&#34;&gt;documented in various places&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;A community is not merely a set of rules; it is also a set of behaviors&#xA;that the participants express when interacting within that&#xA;community.  While the ASF is happy to host&#xA;many different styles of project communities, there are some core behaviors that&#xA;we expect and require of any Apache project.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Start an ALC Chapter</title>
+      <link>https://community.apache.org/alc/start-a-chapter.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/start-a-chapter.html</guid>
+      <description>&lt;p&gt;So there&amp;rsquo;s no &lt;a href=&#34;https://community.apache.org/alc/&#34;&gt;ALC chapter&lt;/a&gt; in your town or city yet, and you&amp;rsquo;d&#xA;like to start one. Wonderful! Here&amp;rsquo;s what&amp;rsquo;s involved.&lt;/p&gt;&#xA;&lt;nav id=&#34;TableOfContents&#34;&gt;&#xA;  &lt;ul&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#before-you-apply&#34;&gt;Before you apply&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#metropolitan-areas&#34;&gt;Metropolitan areas&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#how-to-apply&#34;&gt;How to apply&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#whats-expected-of-a-chapter&#34;&gt;What&amp;rsquo;s expected of a chapter&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#adding-your-chapter-to-this-site&#34;&gt;Adding your chapter to this site&lt;/a&gt;&lt;/li&gt;&#xA;  &lt;/ul&gt;&#xA;&lt;/nav&gt;&#xA;&lt;h2 id=&#34;before-you-apply&#34;&gt;Before you apply &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#before-you-apply&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Check the map first.&lt;/strong&gt; There is a single ALC chapter per town or&#xA;city. Look at the &lt;a href=&#34;https://community.apache.org/alc/&#34;&gt;list of chapters&lt;/a&gt; to make sure one doesn&amp;rsquo;t&#xA;already exist in your location.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;You don&amp;rsquo;t have to be a committer.&lt;/strong&gt; It is not mandatory to be, or to&#xA;have, Apache committers to form a chapter. If committers are available&#xA;locally to participate and share their experience, that&amp;rsquo;s a bonus, but&#xA;it isn&amp;rsquo;t a requirement.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;This isn&amp;rsquo;t a committer meetup.&lt;/strong&gt; The goal is to build a local group&#xA;of Apache and open source enthusiasts — students, developers, and the&#xA;local business community — not simply to hold a monthly meeting of&#xA;existing committers.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;metropolitan-areas&#34;&gt;Metropolitan areas &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#metropolitan-areas&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;For large metropolitan areas (for example the San Francisco Bay Area, or&#xA;Los Angeles), more than one chapter can make sense. The ComDev PMC&#xA;reviews these requests and decides on a case-by-case basis.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Use the Comdev Issue Tracker For GSoC Tasks</title>

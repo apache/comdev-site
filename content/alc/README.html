@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+  <meta name="description" content="Apache Community Development">
+  <meta name="keywords" content="apache, apache community, community development, opensource">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" >
+  <meta property="og:url" content="https://community.apache.org/alc/README.html">
+  <meta property="og:site_name" content="ASF Community Development">
+  <meta property="og:title" content="ASF Community Development">
+  <meta property="og:description" content="ALC section (/alc/) ¶ This directory implements the Apache Local Community (ALC) section of the ComDev website: a landing page with an interactive map of chapters, a per-chapter page model, a “start a chapter” guide, and an organizer guide.
+What each file is ¶ source/alc/ ├── _index.md Landing page. Intro, embedded map &#43; chapter │ list (via shortcodes), how to get involved, │ contact. URL: /alc/ ├── start-a-chapter.md How to establish a chapter &#43; the program rules │ (one-per-city, metro exceptions, CoC, quarterly │ reports, 3-month inactivity dissolution, no │ press releases). Includes the front-matter │ template for adding a chapter. ├── organizers.md Practical guide for chapter organizers (running │ events, finding speakers, reporting, resources). └── chapters/ ├── _index.md Chapter list page. URL: /alc/chapters/ └── &lt;city&gt;.md One file per chapter. Front matter drives the map &#43; list; body is the chapter blurb. Supporting layout files (in layouts/shortcodes/):">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="alc">
+    <meta property="article:modified_time" content="2026-10-14T03:48:20-04:00">
+    <meta property="og:image" content="https://community.apache.org/images/project-logos.webp">
+
+
+  <title>Apache Community Development - </title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link href="/css/main.css" rel="stylesheet" media="screen">
+  <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <style>
+      .footer {
+          text-align:center;
+          color:grey;
+          font-size:80%;
+          border-top: solid #ddd 1px;
+          margin-top:1em;
+      }
+      .navbar-brand img {
+          height: 50px;
+      }
+  </style>
+
+  
+<script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(['disableCookies']);
+   
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.apache.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '36']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+
+  
+
+</head>
+
+<body>
+  <header class="navbar navbar-expand-lg navbar-dark bg-bright fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+    <img src="https://apache.org/img/asf_logo.png" alt="Apache Software Foundation">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="mainNavbar">
+    <div class="container"> 
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="homeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Home
+            </a>
+            <div class="dropdown-menu" aria-labelledby="homeDropdown">
+              <a class="dropdown-item" href="/">Homepage</a>
+              <a class="dropdown-item" href="/tags/">Tags</a>
+              <a class="dropdown-item" href="/blog/">Blog</a>
+              <a class="dropdown-item" href="/tags/navigation.html">Navigation pages</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About
+          </a>
+          <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+            <a class="dropdown-item" href="/about/">What We Do</a>
+            <a class="dropdown-item" href="/newbiefaq.html">Frequently Asked Questions</a>
+            <a class="dropdown-item" href="/projectIndependence.html">Apache Project Independence</a>
+            <a class="dropdown-item" href="/apache-way/apache-project-maturity-model.html">Apache Project Maturity Model</a>
+            <a class="dropdown-item" href="/contactpoints.html">Contact Points Within the ASF</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html#2009-11-01">ComDev Original Board Resolution</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html">ComDev Board Reports</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/COMDEV">Community Development Jira</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">About Apache</a>
+            <a class="dropdown-item" href="https://www.apache.org/">The Apache Software Foundation</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/sponsorship">Sponsor Apache</a>
+            <a class="dropdown-item" href="http://diversity.apache.org/">Diversity & Inclusion</a>
+             <a class="dropdown-item" href="/contributors/asf-volunteers.html">Mentors &amp; Speakers</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/thanks">Thanks to our Sponsors</a>
+            <a class="dropdown-item" href="https://www.apache.org/licenses">License</a>
+            <a class="dropdown-item" href="https://www.apache.org/security">Security</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="contribDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Contributing
+          </a>
+          <div class="dropdown-menu" aria-labelledby="contribDropdown">
+            <a class="dropdown-item" href="/newcomers/why.html">Why Contribute?</a>
+            <a class="dropdown-item" href="/contributor-ladder.html">Contributor Ladder</a>
+            <a class="dropdown-item" href="/newcomers/">Getting Started at Apache</a>
+            <a class="dropdown-item" href="/contributors/">Contributing to projects</a>
+            <a class="dropdown-item" href="/committers/">Committers</a>
+            <a class="dropdown-item" href="/pmc/">PMC Members</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">Committer and PMC Information</a>
+            <a class="dropdown-item" href="https://www.apache.org/dev/">Technical Developer FAQs</a>
+            <a class="dropdown-item" href="/committers/decisionMaking.html">Decision Making</a>
+            <a class="dropdown-item" href="/committers/good-first-issues.html">Good First Issues</a>
+            <a class="dropdown-item" href="/pmc/community-growth.html">Recruiting New Contributors</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="gsocDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">GSoC</a>
+          <div class="dropdown-menu" aria-labelledby="gsocDropdown">
+            <a class="dropdown-item" href="/gsoc/">Google Summer Of Code Information</a>
+            <a class="dropdown-item" href="/gsoc/mentee-ranking-process.html">Mentee Ranking Process</a>
+            <a class="dropdown-item" href="/gsoc/experiences/">Past GSoC Experiences</a>
+            <a class="dropdown-item" href="/gsoc/guide-to-being-a-mentor.html">Guide to being a Mentor</a>
+            <a class="dropdown-item" href="/gsoc/use-the-comdev-gsoc-issue-tracker-for-gsoc-tasks.html">Using ComDev's Jira for GSoC Ideas</a>
+            <a class="dropdown-item" href="/gsoc/gsoc-admin-tasks.html">Tasks of a GSoC Admin at the ASF</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/GSOC">GSoC Jira</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="eventDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Events
+          </a>
+          <div class="dropdown-menu" aria-labelledby="eventDropdown">
+            <a class="dropdown-item" href="https://apachecon.com/">Community Over Code - (formerly ApacheCon)</a>
+            <a class="dropdown-item" href="https://events.apache.org/">Other Apache-related Events</a>
+            <a class="dropdown-item" href="/alc/">Local Communities (ALC)</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/marks/events">Apache event branding policies</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">Conference Speakers</a>
+            <a class="dropdown-item" href="/speakers/">Speaker resources</a>
+            <a class="dropdown-item" href="/speakers/slides.html">Sample presentations</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="wgDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Working Groups
+          </a>
+          <div class="dropdown-menu" aria-labelledby="wgDropdown">
+            <a class="dropdown-item" href="/workinggroups/">Working Groups</a>
+            <a class="dropdown-item" href="https://github.com/apache/comdev-working-groups">Git repositories</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="conversDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Join the Conversation
+          </a>
+          <div class="dropdown-menu" aria-labelledby="conversDropdown">
+            <a class="dropdown-item" href="/blog/">Blog</a>
+            <a class="dropdown-item" href="https://www.facebook.com/ApacheSoftwareFoundation">Facebook</a>
+            <a class="dropdown-item" href="https://x.com/TheASF">X (Formerly Twitter)</a>
+            <a class="dropdown-item" href="/lists.html">Mailing List</a>
+            <a class="dropdown-item" href="/alc/">ALC: Apache Local Communities</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+    </div>
+  </header>
+
+  <main class="cd-main" id="content" role="main">
+    <div class="container">
+      
+      <hr>
+       
+      
+	
+	<br><br>
+	<h1 id="alc-section-alc">ALC section (<code>/alc/</code>) <a class="headerlink" title="Permalink" href="#alc-section-alc">&para;</a></h1>
+<p>This directory implements the <strong>Apache Local Community (ALC)</strong> section of
+the ComDev website: a landing page with an interactive map of chapters, a
+per-chapter page model, a &ldquo;start a chapter&rdquo; guide, and an organizer guide.</p>
+<h2 id="what-each-file-is">What each file is <a class="headerlink" title="Permalink" href="#what-each-file-is">&para;</a></h2>
+<pre tabindex="0"><code>source/alc/
+├── _index.md             Landing page. Intro, embedded map + chapter
+│                         list (via shortcodes), how to get involved,
+│                         contact. URL: /alc/
+├── start-a-chapter.md     How to establish a chapter + the program rules
+│                         (one-per-city, metro exceptions, CoC, quarterly
+│                         reports, 3-month inactivity dissolution, no
+│                         press releases). Includes the front-matter
+│                         template for adding a chapter.
+├── organizers.md          Practical guide for chapter organizers (running
+│                         events, finding speakers, reporting, resources).
+└── chapters/
+    ├── _index.md          Chapter list page. URL: /alc/chapters/
+    └── &lt;city&gt;.md          One file per chapter. Front matter drives the
+                           map + list; body is the chapter blurb.
+</code></pre><p>Supporting layout files (in <code>layouts/shortcodes/</code>):</p>
+<ul>
+<li><code>alc_map.html</code> — renders the Leaflet map. Iterates the front matter of
+every page in section <code>alc</code> that has a <code>lat</code> param, emits a JS array of
+chapters, and plots colored markers (green=active, orange=proposed,
+grey=dissolved). Leaflet CSS/JS are loaded from a <em>local vendored copy</em>
+under <code>/vendor/leaflet/&lt;version&gt;/</code> (see &ldquo;Vendored Leaflet&rdquo; below), so the
+only thing fetched remotely at view time is the OpenStreetMap base-map
+tiles — which can&rsquo;t be bundled (they&rsquo;re a live tile service). Those
+tiles load <strong>only after the visitor opts in</strong> (see &ldquo;Map consent&rdquo; below).
+Nothing map-related — not even the vendored Leaflet CSS/JS — is loaded
+on page view; it is all injected inside this shortcode on consent, so
+<code>baseof.html</code> is untouched and the ALC page itself makes no third-party
+request until the visitor clicks &ldquo;Load the map&rdquo;.</li>
+<li><code>alc_chapter_list.html</code> — renders a text list of chapters grouped by
+status, from the same front matter.</li>
+</ul>
+<h2 id="map-consent-openstreetmap">Map consent (OpenStreetMap) <a class="headerlink" title="Permalink" href="#map-consent-openstreetmap">&para;</a></h2>
+<p>Loading the base map fetches tiles from <code>*.tile.openstreetmap.org</code>, a
+third-party service that receives the visitor&rsquo;s IP and request data.
+Per ASF website policy and the OSMF privacy FAQ — the ASF cannot sign a
+Data Processing Agreement with OpenStreetMap — the tile layer must not
+load until the visitor explicitly, revocably opts in.</p>
+<p><code>alc_map.html</code> implements this:</p>
+<ul>
+<li>On page view the map area shows a <strong>consent placeholder</strong> explaining the
+third-party request; no Leaflet and no tiles are loaded.</li>
+<li>Clicking <strong>&ldquo;Load the map&rdquo;</strong> injects the vendored Leaflet CSS/JS, builds
+the map, and (if &ldquo;Remember my choice&rdquo; is checked) sets the
+<code>alc_map_consent=yes</code> cookie (path <code>/</code>, <code>SameSite=Lax</code>, 1-year expiry).</li>
+<li>A returning visitor with that cookie gets the map auto-loaded.</li>
+<li><strong>&ldquo;Hide the map &amp; stop loading OpenStreetMap&rdquo;</strong> revokes consent: it
+clears the cookie and restores the placeholder.</li>
+<li>The chapter list (<code>alc_chapter_list</code>) is local data and always renders,
+independent of consent.</li>
+</ul>
+<p>The matching server-side change is a CSP allowance for
+<code>*.tile.openstreetmap.org</code> in the site&rsquo;s <code>.htaccess</code>
+(<code>SetEnv CSP_PROJECT_DOMAINS ...</code>). Both the consent mechanism and the CSP
+change were approved by ASF VP Infrastructure (Niall Pemberton) on
+2026-10-14, on the explicit basis that tiles load only behind consent.</p>
+<h2 id="vendored-leaflet">Vendored Leaflet <a class="headerlink" title="Permalink" href="#vendored-leaflet">&para;</a></h2>
+<p>Leaflet 1.9.4 is checked into the repo at
+<code>static/vendor/leaflet/1.9.4/</code> (<code>leaflet.js</code>, <code>leaflet.css</code>, and the
+marker/layer images under <code>images/</code>). Serving it from our own origin
+removes the runtime dependency on the unpkg CDN; only the OpenStreetMap
+tiles remain external, which is unavoidable for a slippy map.</p>
+<p>To update to a newer Leaflet, run the helper and bump the version path in
+<code>layouts/shortcodes/alc_map.html</code>:</p>
+<pre tabindex="0"><code>static/vendor/leaflet/update-leaflet.sh 1.9.4   # or a newer version
+</code></pre><p>It downloads the JS, CSS, and images into
+<code>static/vendor/leaflet/&lt;version&gt;/</code>. The CSS references its images by
+relative path, so keep the <code>images/</code> subfolder alongside <code>leaflet.css</code>.</p>
+<h2 id="chapter-front-matter">Chapter front matter <a class="headerlink" title="Permalink" href="#chapter-front-matter">&para;</a></h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#00f;font-weight:bold">---</span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#008000;font-weight:bold">title</span>:<span style="color:#bbb"> </span>ALC CityName<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#008000;font-weight:bold">city</span>:<span style="color:#bbb"> </span>CityName<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#008000;font-weight:bold">country</span>:<span style="color:#bbb"> </span>Country<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#008000;font-weight:bold">lat</span>:<span style="color:#bbb"> </span><span style="color:#666">00.0000</span><span style="color:#bbb">          </span><span style="color:#080;font-style:italic"># decimal degrees; drives the map</span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#008000;font-weight:bold">lon</span>:<span style="color:#bbb"> </span><span style="color:#666">00.0000</span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#008000;font-weight:bold">status</span>:<span style="color:#bbb"> </span>active       <span style="color:#bbb"> </span><span style="color:#080;font-style:italic"># active | proposed | dissolved</span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#008000;font-weight:bold">started</span>:<span style="color:#bbb"> </span><span style="color:#666">2026</span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#008000;font-weight:bold">organizers</span>:<span style="color:#bbb"> </span><span style="color:#b44">&#34;Name(s) or team&#34;</span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#008000;font-weight:bold">links</span>:<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">  </span><span style="color:#008000;font-weight:bold">website</span>:<span style="color:#bbb"> </span>https://example.org/<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">  </span><span style="color:#008000;font-weight:bold">slack</span>:<span style="color:#bbb"> </span><span style="color:#b44">&#34;#alc-cityname&#34;</span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">  </span><span style="color:#008000;font-weight:bold">wiki</span>:<span style="color:#bbb"> </span>https://cwiki.apache.org/confluence/display/COMDEV/...<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#008000;font-weight:bold">tags</span>:<span style="color:#bbb"> </span>[<span style="color:#b44">&#34;alc&#34;</span>]<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#00f;font-weight:bold">---</span><span style="color:#bbb">
+</span></span></span></code></pre></div><p>Adding a chapter = adding one Markdown file here. The map and both list
+pages regenerate from it automatically; there is no separate data source.</p>
+<h2 id="how-the-map-works">How the map works <a class="headerlink" title="Permalink" href="#how-the-map-works">&para;</a></h2>
+<p><code>alc_map.html</code> uses Hugo&rsquo;s <code>where .Site.RegularPages &quot;Section&quot; &quot;alc&quot;</code>
+filtered to pages with a non-nil <code>lat</code>, so only chapter files appear on
+the map (the landing/guide pages are excluded). Marker color is keyed off
+<code>status</code>. The map auto-fits to the markers&rsquo; bounds. Built against Hugo
+v0.111.3 (the version in the Jenkinsfile).</p>
+<h2 id="navigation-wiring">Navigation wiring <a class="headerlink" title="Permalink" href="#navigation-wiring">&para;</a></h2>
+<ul>
+<li><strong>Events</strong> dropdown gains a &ldquo;Local Communities (ALC)&rdquo; → <code>/alc/</code> entry.</li>
+<li>The old &ldquo;ALC: Apache Local Communities&rdquo; link under &ldquo;Join the
+Conversation&rdquo; now points at <code>/alc/</code> instead of the cwiki.</li>
+<li>The homepage &ldquo;Apache Local Community&rdquo; card now links to <code>/alc/</code>
+(was the <code>s.apache.org/alc</code> shortlink).</li>
+</ul>
+<h2 id="relationship-to-the-cwiki">Relationship to the cwiki <a class="headerlink" title="Permalink" href="#relationship-to-the-cwiki">&para;</a></h2>
+<p>The authoritative ALC program documentation (formal apply/dissolve
+processes, the ALC Resources library, Slack invite) stays on the
+<a href="https://cwiki.apache.org/confluence/display/COMDEV/Apache+Local+Community+-+ALC">ALC wiki</a>.
+This section is the public, newcomer-facing front door plus the map, and
+links back to the wiki for the authoritative process docs.</p>
+<h2 id="provenance--status-of-the-seed-data">Provenance / status of the seed data <a class="headerlink" title="Permalink" href="#provenance--status-of-the-seed-data">&para;</a></h2>
+<p>The initial chapter pages (Indore, Beijing, Warsaw, Budapest, Shanghai)
+were <strong>seeded from the ALC wiki and public ASF announcements</strong> — not from
+a complete export. Before merging:</p>
+<ul>
+<li>Reconcile the chapter list against the cwiki&rsquo;s authoritative
+<code>ALC Chapters</code> child pages — some chapters are likely missing.</li>
+<li>Confirm each chapter&rsquo;s <code>status</code>, <code>organizers</code>, <code>started</code> year, and
+coordinates with the chapter itself.</li>
+<li>Budapest is marked <code>proposed</code> and should be verified (it may be active
+or may never have launched).</li>
+</ul>
+<h2 id="how-this-was-made">How this was made <a class="headerlink" title="Permalink" href="#how-this-was-made">&para;</a></h2>
+<p>Amazon Quick generated the initial drafts of these files (section pages,
+chapter template, shortcodes, navbar/homepage wiring) as part of a
+website-architecture cleanup; Rich reviews and edits before merge. This
+work lives on the <code>rbowen-alc</code> branch.</p>
+
+
+    </div>
+  </main>
+
+  <footer class="page-footer bg-secondary mt-4 pt-3">
+    <div class="container text-center text-md-left mb-3">
+      <div class="row">
+        <div class="col-md-6 mt-md-0 mt-3">
+          <h5 class="text-uppercase">Trademarks</h5>
+          <p>
+            Apache&reg;, the names of Apache projects, and the Apache logo are
+            <a href="https://www.apache.org/foundation/marks/list/">registered trademarks or trademarks</a> of the Apache
+            Software Foundation in the United States and/or other countries.
+          </p>
+        </div>
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <div class="col-md-6 mb-md-0 mb-3">
+          <h5 class="text-uppercase">Website sources</h5>
+          <p>
+  This website is generated from the <a href="https://github.com/apache/comdev-site">comdev-site repository</a>
+  
+    <br>
+    Source of this page:
+      <a href="https://github.com/apache/comdev-site/blob/main/source/alc/README.md" title="Source of this page">
+        alc/README.md
+      </a>
+  
+</p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright text-center py-3">
+      <em>Copyright &copy; 2026, <a href="https://www.apache.org/">the Apache Software Foundation</a>. Licensed under the
+      <a rel="license" href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></em>
+      <br/>
+      <span class="small">
+        <a href="https://www.apache.org/">Foundation</a> |
+        <a href="https://www.apache.org/events/current-event.html">Events</a> |
+        <a href="https://www.apache.org/licenses/">License</a> |
+        <a href="https://www.apache.org/security/">Security</a> |
+        <a href="https://www.apache.org/foundation/sponsorship.html">Sponsorship</a> |
+        <a href="https://www.apache.org/foundation/thanks.html">Thanks</a> |
+        <a href="https://privacy.apache.org/policies/privacy-policy-public.html">Privacy</a>
+      </span>
+    </div>
+  </footer>
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>
