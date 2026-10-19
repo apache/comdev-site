@@ -61,7 +61,26 @@
   var COOKIE = "alc_map_consent";
 
   {{- $chapters := slice }}
-  {{- range (where (where .Site.RegularPages "Section" "alc") "Params.lat" "!=" nil) }}
+  {{/* Chapters are headless pages (render: never) with one data file each,
+       so enumerate the chapters section's LOCAL .Pages — .Site.RegularPages
+       excludes headless pages. Link each marker to the chapter's own page
+       only when one is actually rendered; otherwise to its wiki/proposal
+       link, so no popup links to a 404 headless URL. */}}
+  {{/* Staleness: a chapter with no activity for over a year is marked
+       DORMANT — kept on the map but shown in a distinct color (so someone
+       might revive it) rather than hidden. "activity" is the
+       `last_activity` date in front matter; a chapter without one is
+       treated as current so it is not flagged by accident. */}}
+  {{- $dormantBefore := now.AddDate -1 0 0 }}
+  {{- $section := .Site.GetPage "/alc/chapters" }}
+  {{- range (where $section.Pages "Params.lat" "!=" nil) }}
+    {{- $rendered := false }}
+    {{- with .Params.build }}{{ if eq (.render | default "never") "always" }}{{ $rendered = true }}{{ end }}{{- end }}
+    {{- $dormant := false }}
+    {{- with .Params.last_activity }}{{ if (time .).Before $dormantBefore }}{{ $dormant = true }}{{ end }}{{- end }}
+    {{- $wiki := "" }}
+    {{- with .Params.links }}{{ $wiki = or (index . "wiki") (index . "proposal") (index . "website") }}{{- end }}
+    {{- $url := cond $rendered .RelPermalink ($wiki | default "") }}
     {{- $chapters = $chapters | append (dict
           "name"    .Title
           "city"    (.Params.city | default .Title)
@@ -69,7 +88,8 @@
           "lat"     .Params.lat
           "lon"     .Params.lon
           "status"  (.Params.status | default "active")
-          "url"     .RelPermalink
+          "dormant" $dormant
+          "url"     $url
     ) }}
   {{- end }}
   var chapters = {{ $chapters | jsonify | safeJS }};
@@ -118,7 +138,7 @@
   }
 
   function buildMap() {
-    var colors = { active: "#4caf50", proposed: "#ff9800", dissolved: "#9e9e9e" };
+    var colors = { active: "#4caf50", proposed: "#ff9800", dissolved: "#9e9e9e", dormant: "#2196f3" };
     var map = L.map('alc-map').setView([20, 10], 2);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 18,
@@ -127,7 +147,9 @@
 
     var bounds = [];
     chapters.forEach(function (c) {
-      var color = colors[c.status] || "#4caf50";
+      // Dormant takes visual precedence so stale chapters stand out and
+      // invite someone to revive them.
+      var color = c.dormant ? colors.dormant : (colors[c.status] || "#4caf50");
       var marker = L.circleMarker([c.lat, c.lon], {
         radius: 8, color: "#fff", weight: 2, fillColor: color, fillOpacity: 0.9
       }).addTo(map);
@@ -139,16 +161,25 @@
       // following the href.)
       var container = document.createElement("div");
       var heading = document.createElement("strong");
-      var link = document.createElement("a");
-      link.href = c.url;
-      link.textContent = c.name;
-      heading.appendChild(link);
+      if (c.url) {
+        var link = document.createElement("a");
+        link.href = c.url;
+        link.textContent = c.name;
+        // Wiki/proposal links are off-site; open them in a new tab.
+        if (/^https?:\/\//.test(c.url)) {
+          link.target = "_blank";
+          link.rel = "noopener";
+        }
+        heading.appendChild(link);
+      } else {
+        heading.textContent = c.name;
+      }
       container.appendChild(heading);
       container.appendChild(document.createElement("br"));
       container.appendChild(document.createTextNode(label));
       container.appendChild(document.createElement("br"));
       var em = document.createElement("em");
-      em.textContent = c.status;
+      em.textContent = c.dormant ? (c.status + " \u00b7 dormant") : c.status;
       container.appendChild(em);
 
       marker.bindPopup(container);
@@ -168,7 +199,8 @@
       var items = [
         ["active",    "Active"],
         ["proposed",  "Proposed"],
-        ["dissolved", "Dissolved"]
+        ["dissolved", "Dissolved"],
+        ["dormant",   "Dormant (inactive 1+ yr)"]
       ];
       var html = "";
       items.forEach(function (it) {

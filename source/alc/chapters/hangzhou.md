@@ -5,6 +5,7 @@ country: China
 lat: 30.2741
 lon: 120.1551
 status: active
+last_activity: 2026-10-19   # YYYY-MM-DD; placeholder set 2026-10-19, verify against the chapter's wiki page
 links:
   wiki: https://cwiki.apache.org/confluence/display/COMDEV/ALC+Hangzhou
 tags: ["alc"]

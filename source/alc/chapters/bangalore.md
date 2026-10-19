@@ -5,6 +5,7 @@ country: India
 lat: 12.9716
 lon: 77.5946
 status: active
+last_activity: 2026-10-19   # YYYY-MM-DD; placeholder set 2026-10-19, verify against the chapter's wiki page
 links:
   wiki: https://cwiki.apache.org/confluence/display/COMDEV/ALC+Bangalore
 tags: ["alc"]

@@ -2,7 +2,10 @@
 
 This directory implements the **Apache Local Community (ALC)** section of
 the ComDev website: a landing page with an interactive map of chapters, a
-per-chapter page model, a "start a chapter" guide, and an organizer guide.
+single chapters page that lists every chapter inline, a "start a chapter"
+guide, and an organizer guide. Each chapter is one Markdown data file, but
+by default no standalone page is generated for it (see "Chapter page
+model" below).
 
 ## What each file is
 
@@ -20,8 +23,10 @@ source/alc/
 │                         events, finding speakers, reporting, resources).
 └── chapters/
     ├── _index.md          Chapter list page. URL: /alc/chapters/
-    └── <city>.md          One file per chapter. Front matter drives the
-                           map + list; body is the chapter blurb.
+    └── <city>.md          One file per chapter (the data model). Front
+                           matter drives the map + list; body is the blurb
+                           shown inline on the chapters page. Headless by
+                           default — no standalone page (see below).
 ```
 
 Supporting layout files (in `layouts/shortcodes/`):
@@ -39,7 +44,52 @@ Supporting layout files (in `layouts/shortcodes/`):
   `baseof.html` is untouched and the ALC page itself makes no third-party
   request until the visitor clicks "Load the map".
 - `alc_chapter_list.html` — renders a text list of chapters grouped by
-  status, from the same front matter.
+  status, from the same front matter. Each chapter is rendered inline
+  (title, location, status, body) and links to its own page only if one is
+  rendered, otherwise to its wiki page.
+
+## Chapter page model (single page, per-chapter data files)
+
+Each chapter is one Markdown file under `chapters/` — a good, reviewable
+data model — but we do **not** generate a standalone page per chapter.
+Instead every chapter is rendered inline on the single `/alc/chapters/`
+page, and links out to its wiki page for organizers, events, and reports.
+
+This uses Hugo's build options (the "glossary" pattern). `chapters/_index.md`
+carries a cascade:
+
+```yaml
+cascade:
+  - build:
+      list: local      # keep chapters in LOCAL page collections (.Pages)
+      render: never    # but don't render a standalone page for each
+```
+
+Because `render: never` also removes pages from `.Site.RegularPages`, both
+shortcodes enumerate the chapters section via
+`.Site.GetPage "/alc/chapters"` then `.Pages` (the local collection, which
+still includes headless pages) rather than `.Site.RegularPages`.
+
+**Graduating a chapter to its own page:** when a chapter has enough content
+to warrant a dedicated page, add `build: {render: always}` to *that
+chapter's* front matter. It overrides the cascade, Hugo renders the page,
+and the list and map automatically link to the page instead of the wiki.
+
+## Dormancy / staleness
+
+Each chapter carries a `last_activity: YYYY-MM-DD` field. A chapter whose
+`last_activity` is more than **one year** before build time is flagged
+**dormant**:
+
+- On the **map** it is kept (not hidden) but drawn in a distinct color
+  (blue) with a "Dormant" legend entry, so someone might revive it.
+- In the **list** it keeps its place with a `dormant` badge.
+
+A chapter with no `last_activity` is treated as current (never
+auto-flagged). The one-year threshold is `now.AddDate -1 0 0` in both
+shortcodes. The current `last_activity` dates were set to 2026-10-19 as
+placeholders and should be reconciled against each chapter's wiki page over
+time.
 
 ## Map consent (OpenStreetMap)
 
@@ -97,7 +147,7 @@ lat: 00.0000          # decimal degrees; drives the map
 lon: 00.0000
 status: active        # active | proposed | dissolved
 started: 2026
-organizers: "Name(s) or team"
+last_activity: 2026-01-01   # YYYY-MM-DD; >1 yr old ⇒ flagged "dormant"
 links:
   website: https://example.org/
   slack: "#alc-cityname"
@@ -106,16 +156,19 @@ tags: ["alc"]
 ---
 ```
 
-Adding a chapter = adding one Markdown file here. The map and both list
-pages regenerate from it automatically; there is no separate data source.
+Adding a chapter = adding one Markdown file here. The map and the chapters
+page regenerate from it automatically; there is no separate data source.
+Organizer names are intentionally NOT stored here — they live on the
+chapter's wiki page, which each entry links to.
 
 ## How the map works
 
-`alc_map.html` uses Hugo's `where .Site.RegularPages "Section" "alc"`
-filtered to pages with a non-nil `lat`, so only chapter files appear on
-the map (the landing/guide pages are excluded). Marker color is keyed off
-`status`. The map auto-fits to the markers' bounds. Built against Hugo
-v0.111.3 (the version in the Jenkinsfile).
+`alc_map.html` enumerates the chapters section (`.Site.GetPage
+"/alc/chapters"` → `.Pages`) filtered to pages with a non-nil `lat`, so
+only chapter data files appear on the map. Marker color is keyed off
+`status`, with dormant chapters overridden to blue. The map auto-fits to
+the markers' bounds. Built against the Hugo version in the Jenkinsfile
+(0.152.2).
 
 ## Navigation wiring
 
