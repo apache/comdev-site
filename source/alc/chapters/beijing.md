@@ -5,6 +5,7 @@ country: China
 lat: 39.9042
 lon: 116.4074
 status: active
+last_activity: 2026-10-19   # YYYY-MM-DD; placeholder set 2026-10-19, verify against the chapter's wiki page
 links:
   wiki: https://cwiki.apache.org/confluence/display/COMDEV/ALC+Beijing
 tags: ["alc"]

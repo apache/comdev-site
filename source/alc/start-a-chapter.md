@@ -70,7 +70,12 @@ lat: 00.0000
 lon: 00.0000
 status: active        # active | proposed | dissolved
 started: 2026
-organizers: "Name(s) or team"
+last_activity: 2026-01-01   # YYYY-MM-DD of the chapter's most recent
+                            # activity. A chapter with no activity for over
+                            # a year is marked "dormant" — a distinct color
+                            # on the map and a badge in the list (not hidden,
+                            # so it can be revived). Organizer names are NOT
+                            # listed here — they live on the wiki page.
 links:
   website: https://example.org/
   slack: "#alc-cityname"
@@ -81,4 +86,9 @@ A short paragraph about the chapter, its focus, and how to get involved.
 ```
 
 The map and the chapter list are generated automatically from these
-files, so a pull request adding one Markdown file is all it takes.
+files, so a pull request adding one Markdown file is all it takes. By
+default a chapter does **not** get its own page — all chapters are listed
+together on the [chapters page](/alc/chapters/), each linking to its wiki
+page. When a chapter has enough content to warrant a dedicated page, add
+`build: {render: always}` to its front matter and the list and map will
+link to that page instead of the wiki.

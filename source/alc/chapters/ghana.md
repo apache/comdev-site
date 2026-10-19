@@ -5,6 +5,7 @@ country: Ghana
 lat: 10.0607
 lon: -2.5099
 status: proposed
+last_activity: 2026-10-19   # YYYY-MM-DD; placeholder set 2026-10-19, verify against the chapter's wiki page
 started: 2026
 links:
   proposal: https://lists.apache.org/thread/1m3yjxmtqrqcy6ntnhop95hjf9odoy85

@@ -1,20 +1,59 @@
-{{/* Text list of ALC chapters, grouped by status, from /alc/chapters/ */}}
-{{- $chapters := where (where .Site.RegularPages "Section" "alc") "Params.lat" "!=" nil }}
+{{/* Entries for every ALC chapter, grouped by status, rendered inline on
+     the single /alc/chapters/ page.
+
+     Chapters are headless pages (see source/alc/chapters/_index.md): one
+     Markdown data file each, but no standalone page is generated unless a
+     chapter opts in with `build: { render: always }` in its own front
+     matter. So we enumerate the chapters section's LOCAL `.Pages`
+     collection (which includes headless pages) rather than
+     `.Site.RegularPages` (which excludes them).
+
+     Each entry links to the chapter's own page when one is rendered,
+     otherwise to its wiki page (or proposal thread) — so there are no
+     links to 404 headless URLs. */}}
+
+{{- $section := .Site.GetPage "/alc/chapters" }}
+{{- $chapters := where $section.Pages "Params.lat" "!=" nil }}
 {{- $byStatus := $chapters.GroupByParam "status" }}
 {{- $order := slice "active" "proposed" "dissolved" }}
-<ul class="alc-chapters">
+{{/* A chapter with no activity for over a year is flagged "dormant". The
+     map hides dormant chapters; the list keeps them but marks them so the
+     staleness is visible. Threshold: one year before now. */}}
+{{- $dormantBefore := now.AddDate -1 0 0 }}
+
+<dl class="alc-chapters">
 {{- range $order }}
   {{- $status := . }}
   {{- range $byStatus }}
     {{- if eq .Key $status }}
       {{- range .Pages.ByTitle }}
-  <li>
-    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{/* Does this chapter render its own page? Only then is its
+             RelPermalink a real, non-404 URL. */}}
+        {{- $rendered := false }}
+        {{- with .Params.build }}{{ if eq (.render | default "never") "always" }}{{ $rendered = true }}{{ end }}{{- end }}
+        {{- $dormant := false }}
+        {{- with .Params.last_activity }}{{ if (time .).Before $dormantBefore }}{{ $dormant = true }}{{ end }}{{- end }}
+        {{- $wiki := "" }}
+        {{- with .Params.links }}
+          {{- $wiki = or (index . "wiki") (index . "proposal") (index . "website") }}
+        {{- end }}
+        {{- $href := cond $rendered .RelPermalink ($wiki | default "") }}
+  <dt>
+    {{- if $href }}
+    <a href="{{ $href }}"{{ if not $rendered }} rel="noopener"{{ end }}>{{ .Title }}</a>
+    {{- else }}
+    {{ .Title }}
+    {{- end }}
     {{- with .Params.country }} &mdash; {{ . }}{{ end }}
     {{- if ne $status "active" }} <span class="badge badge-secondary">{{ $status }}</span>{{ end }}
-  </li>
+    {{- if $dormant }} <span class="badge badge-warning alc-dormant" title="No recorded activity in over a year">dormant</span>{{ end }}
+    {{- if and $href (not $rendered) }} <span class="alc-ext">(wiki)</span>{{ end }}
+  </dt>
+  <dd>
+    {{- with .Content }}{{ . }}{{ else }}{{ with $.Params.summary }}<p>{{ . }}</p>{{ end }}{{ end }}
+  </dd>
       {{- end }}
     {{- end }}
   {{- end }}
 {{- end }}
-</ul>
+</dl>
