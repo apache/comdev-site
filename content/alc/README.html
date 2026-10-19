@@ -9,12 +9,12 @@
   <meta property="og:url" content="https://community.apache.org/alc/README.html">
   <meta property="og:site_name" content="ASF Community Development">
   <meta property="og:title" content="ASF Community Development">
-  <meta property="og:description" content="ALC section (/alc/) ¶ This directory implements the Apache Local Community (ALC) section of the ComDev website: a landing page with an interactive map of chapters, a per-chapter page model, a “start a chapter” guide, and an organizer guide.
-What each file is ¶ source/alc/ ├── _index.md Landing page. Intro, embedded map &#43; chapter │ list (via shortcodes), how to get involved, │ contact. URL: /alc/ ├── start-a-chapter.md How to establish a chapter &#43; the program rules │ (one-per-city, metro exceptions, CoC, quarterly │ reports, 3-month inactivity dissolution, no │ press releases). Includes the front-matter │ template for adding a chapter. ├── organizers.md Practical guide for chapter organizers (running │ events, finding speakers, reporting, resources). └── chapters/ ├── _index.md Chapter list page. URL: /alc/chapters/ └── &lt;city&gt;.md One file per chapter. Front matter drives the map &#43; list; body is the chapter blurb. Supporting layout files (in layouts/shortcodes/):">
+  <meta property="og:description" content="ALC section (/alc/) ¶ This directory implements the Apache Local Community (ALC) section of the ComDev website: a landing page with an interactive map of chapters, a single chapters page that lists every chapter inline, a “start a chapter” guide, and an organizer guide. Each chapter is one Markdown data file, but by default no standalone page is generated for it (see “Chapter page model” below).
+What each file is ¶ source/alc/ ├── _index.md Landing page. Intro, embedded map &#43; chapter │ list (via shortcodes), how to get involved, │ contact. URL: /alc/ ├── start-a-chapter.md How to establish a chapter &#43; the program rules │ (one-per-city, metro exceptions, CoC, quarterly │ reports, 3-month inactivity dissolution, no │ press releases). Includes the front-matter │ template for adding a chapter. ├── organizers.md Practical guide for chapter organizers (running │ events, finding speakers, reporting, resources). └── chapters/ ├── _index.md Chapter list page. URL: /alc/chapters/ └── &lt;city&gt;.md One file per chapter (the data model). Front matter drives the map &#43; list; body is the blurb shown inline on the chapters page. Headless by default — no standalone page (see below). Supporting layout files (in layouts/shortcodes/):">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="alc">
-    <meta property="article:modified_time" content="2026-10-14T03:48:20-04:00">
+    <meta property="article:modified_time" content="2026-10-19T11:55:41-04:00">
     <meta property="og:image" content="https://community.apache.org/images/project-logos.webp">
 
 
@@ -191,7 +191,10 @@ What each file is ¶ source/alc/ ├── _index.md Landing page. Intro, embedd
 	<h1 id="alc-section-alc">ALC section (<code>/alc/</code>) <a class="headerlink" title="Permalink" href="#alc-section-alc">&para;</a></h1>
 <p>This directory implements the <strong>Apache Local Community (ALC)</strong> section of
 the ComDev website: a landing page with an interactive map of chapters, a
-per-chapter page model, a &ldquo;start a chapter&rdquo; guide, and an organizer guide.</p>
+single chapters page that lists every chapter inline, a &ldquo;start a chapter&rdquo;
+guide, and an organizer guide. Each chapter is one Markdown data file, but
+by default no standalone page is generated for it (see &ldquo;Chapter page
+model&rdquo; below).</p>
 <h2 id="what-each-file-is">What each file is <a class="headerlink" title="Permalink" href="#what-each-file-is">&para;</a></h2>
 <pre tabindex="0"><code>source/alc/
 ├── _index.md             Landing page. Intro, embedded map + chapter
@@ -206,8 +209,10 @@ per-chapter page model, a &ldquo;start a chapter&rdquo; guide, and an organizer 
 │                         events, finding speakers, reporting, resources).
 └── chapters/
     ├── _index.md          Chapter list page. URL: /alc/chapters/
-    └── &lt;city&gt;.md          One file per chapter. Front matter drives the
-                           map + list; body is the chapter blurb.
+    └── &lt;city&gt;.md          One file per chapter (the data model). Front
+                           matter drives the map + list; body is the blurb
+                           shown inline on the chapters page. Headless by
+                           default — no standalone page (see below).
 </code></pre><p>Supporting layout files (in <code>layouts/shortcodes/</code>):</p>
 <ul>
 <li><code>alc_map.html</code> — renders the Leaflet map. Iterates the front matter of
@@ -223,8 +228,43 @@ on page view; it is all injected inside this shortcode on consent, so
 <code>baseof.html</code> is untouched and the ALC page itself makes no third-party
 request until the visitor clicks &ldquo;Load the map&rdquo;.</li>
 <li><code>alc_chapter_list.html</code> — renders a text list of chapters grouped by
-status, from the same front matter.</li>
+status, from the same front matter. Each chapter is rendered inline
+(title, location, status, body) and links to its own page only if one is
+rendered, otherwise to its wiki page.</li>
 </ul>
+<h2 id="chapter-page-model-single-page-per-chapter-data-files">Chapter page model (single page, per-chapter data files) <a class="headerlink" title="Permalink" href="#chapter-page-model-single-page-per-chapter-data-files">&para;</a></h2>
+<p>Each chapter is one Markdown file under <code>chapters/</code> — a good, reviewable
+data model — but we do <strong>not</strong> generate a standalone page per chapter.
+Instead every chapter is rendered inline on the single <code>/alc/chapters/</code>
+page, and links out to its wiki page for organizers, events, and reports.</p>
+<p>This uses Hugo&rsquo;s build options (the &ldquo;glossary&rdquo; pattern). <code>chapters/_index.md</code>
+carries a cascade:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#008000;font-weight:bold">cascade</span>:<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">  </span>- <span style="color:#008000;font-weight:bold">build</span>:<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">      </span><span style="color:#008000;font-weight:bold">list</span>:<span style="color:#bbb"> </span>local     <span style="color:#bbb"> </span><span style="color:#080;font-style:italic"># keep chapters in LOCAL page collections (.Pages)</span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">      </span><span style="color:#008000;font-weight:bold">render</span>:<span style="color:#bbb"> </span>never   <span style="color:#bbb"> </span><span style="color:#080;font-style:italic"># but don&#39;t render a standalone page for each</span><span style="color:#bbb">
+</span></span></span></code></pre></div><p>Because <code>render: never</code> also removes pages from <code>.Site.RegularPages</code>, both
+shortcodes enumerate the chapters section via
+<code>.Site.GetPage &quot;/alc/chapters&quot;</code> then <code>.Pages</code> (the local collection, which
+still includes headless pages) rather than <code>.Site.RegularPages</code>.</p>
+<p><strong>Graduating a chapter to its own page:</strong> when a chapter has enough content
+to warrant a dedicated page, add <code>build: {render: always}</code> to <em>that
+chapter&rsquo;s</em> front matter. It overrides the cascade, Hugo renders the page,
+and the list and map automatically link to the page instead of the wiki.</p>
+<h2 id="dormancy--staleness">Dormancy / staleness <a class="headerlink" title="Permalink" href="#dormancy--staleness">&para;</a></h2>
+<p>Each chapter carries a <code>last_activity: YYYY-MM-DD</code> field. A chapter whose
+<code>last_activity</code> is more than <strong>one year</strong> before build time is flagged
+<strong>dormant</strong>:</p>
+<ul>
+<li>On the <strong>map</strong> it is kept (not hidden) but drawn in a distinct color
+(blue) with a &ldquo;Dormant&rdquo; legend entry, so someone might revive it.</li>
+<li>In the <strong>list</strong> it keeps its place with a <code>dormant</code> badge.</li>
+</ul>
+<p>A chapter with no <code>last_activity</code> is treated as current (never
+auto-flagged). The one-year threshold is <code>now.AddDate -1 0 0</code> in both
+shortcodes. The current <code>last_activity</code> dates were set to 2026-10-19 as
+placeholders and should be reconciled against each chapter&rsquo;s wiki page over
+time.</p>
 <h2 id="map-consent-openstreetmap">Map consent (OpenStreetMap) <a class="headerlink" title="Permalink" href="#map-consent-openstreetmap">&para;</a></h2>
 <p>Loading the base map fetches tiles from <code>*.tile.openstreetmap.org</code>, a
 third-party service that receives the visitor&rsquo;s IP and request data.
@@ -270,21 +310,23 @@ relative path, so keep the <code>images/</code> subfolder alongside <code>leafle
 </span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#008000;font-weight:bold">lon</span>:<span style="color:#bbb"> </span><span style="color:#666">00.0000</span><span style="color:#bbb">
 </span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#008000;font-weight:bold">status</span>:<span style="color:#bbb"> </span>active       <span style="color:#bbb"> </span><span style="color:#080;font-style:italic"># active | proposed | dissolved</span><span style="color:#bbb">
 </span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#008000;font-weight:bold">started</span>:<span style="color:#bbb"> </span><span style="color:#666">2026</span><span style="color:#bbb">
-</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#008000;font-weight:bold">organizers</span>:<span style="color:#bbb"> </span><span style="color:#b44">&#34;Name(s) or team&#34;</span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#008000;font-weight:bold">last_activity</span>:<span style="color:#bbb"> </span>2026-01-01<span style="color:#bbb">   </span><span style="color:#080;font-style:italic"># YYYY-MM-DD; &gt;1 yr old ⇒ flagged &#34;dormant&#34;</span><span style="color:#bbb">
 </span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#008000;font-weight:bold">links</span>:<span style="color:#bbb">
 </span></span></span><span style="display:flex;"><span><span style="color:#bbb">  </span><span style="color:#008000;font-weight:bold">website</span>:<span style="color:#bbb"> </span>https://example.org/<span style="color:#bbb">
 </span></span></span><span style="display:flex;"><span><span style="color:#bbb">  </span><span style="color:#008000;font-weight:bold">slack</span>:<span style="color:#bbb"> </span><span style="color:#b44">&#34;#alc-cityname&#34;</span><span style="color:#bbb">
 </span></span></span><span style="display:flex;"><span><span style="color:#bbb">  </span><span style="color:#008000;font-weight:bold">wiki</span>:<span style="color:#bbb"> </span>https://cwiki.apache.org/confluence/display/COMDEV/...<span style="color:#bbb">
 </span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#008000;font-weight:bold">tags</span>:<span style="color:#bbb"> </span>[<span style="color:#b44">&#34;alc&#34;</span>]<span style="color:#bbb">
 </span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#00f;font-weight:bold">---</span><span style="color:#bbb">
-</span></span></span></code></pre></div><p>Adding a chapter = adding one Markdown file here. The map and both list
-pages regenerate from it automatically; there is no separate data source.</p>
+</span></span></span></code></pre></div><p>Adding a chapter = adding one Markdown file here. The map and the chapters
+page regenerate from it automatically; there is no separate data source.
+Organizer names are intentionally NOT stored here — they live on the
+chapter&rsquo;s wiki page, which each entry links to.</p>
 <h2 id="how-the-map-works">How the map works <a class="headerlink" title="Permalink" href="#how-the-map-works">&para;</a></h2>
-<p><code>alc_map.html</code> uses Hugo&rsquo;s <code>where .Site.RegularPages &quot;Section&quot; &quot;alc&quot;</code>
-filtered to pages with a non-nil <code>lat</code>, so only chapter files appear on
-the map (the landing/guide pages are excluded). Marker color is keyed off
-<code>status</code>. The map auto-fits to the markers&rsquo; bounds. Built against Hugo
-v0.111.3 (the version in the Jenkinsfile).</p>
+<p><code>alc_map.html</code> enumerates the chapters section (<code>.Site.GetPage &quot;/alc/chapters&quot;</code> → <code>.Pages</code>) filtered to pages with a non-nil <code>lat</code>, so
+only chapter data files appear on the map. Marker color is keyed off
+<code>status</code>, with dormant chapters overridden to blue. The map auto-fits to
+the markers&rsquo; bounds. Built against the Hugo version in the Jenkinsfile
+(0.152.2).</p>
 <h2 id="navigation-wiring">Navigation wiring <a class="headerlink" title="Permalink" href="#navigation-wiring">&para;</a></h2>
 <ul>
 <li><strong>Events</strong> dropdown gains a &ldquo;Local Communities (ALC)&rdquo; → <code>/alc/</code> entry.</li>

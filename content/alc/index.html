@@ -251,7 +251,9 @@ local, in-person complement to our global online communities.</p>
 (function () {
   var LEAFLET_BASE = "/vendor/leaflet/1.9.4/";
   var COOKIE = "alc_map_consent";
-  var chapters = [{"city":"Bangalore","country":"India","lat":12.9716,"lon":77.5946,"name":"ALC Bangalore","status":"active","url":"/alc/chapters/bangalore.html"},{"city":"Beijing","country":"China","lat":39.9042,"lon":116.4074,"name":"ALC Beijing","status":"active","url":"/alc/chapters/beijing.html"},{"city":"Budapest","country":"Hungary","lat":47.4979,"lon":19.0402,"name":"ALC Budapest","status":"active","url":"/alc/chapters/budapest.html"},{"city":"Florianópolis","country":"Brazil","lat":-27.5954,"lon":-48.548,"name":"ALC Florianópolis","status":"active","url":"/alc/chapters/florianopolis.html"},{"city":"Wa","country":"Ghana","lat":10.0607,"lon":-2.5099,"name":"ALC Ghana","status":"proposed","url":"/alc/chapters/ghana.html"},{"city":"Hangzhou","country":"China","lat":30.2741,"lon":120.1551,"name":"ALC Hangzhou","status":"active","url":"/alc/chapters/hangzhou.html"},{"city":"Indore","country":"India","lat":22.7196,"lon":75.8577,"name":"ALC Indore","status":"active","url":"/alc/chapters/indore.html"},{"city":"Islamabad","country":"Pakistan","lat":33.6844,"lon":73.0479,"name":"ALC Islamabad","status":"active","url":"/alc/chapters/islamabad.html"},{"city":"Lagos","country":"Nigeria","lat":6.5244,"lon":3.3792,"name":"ALC Lagos","status":"active","url":"/alc/chapters/lagos.html"},{"city":"Shanghai","country":"China","lat":31.2304,"lon":121.4737,"name":"ALC Shanghai","status":"active","url":"/alc/chapters/shanghai.html"},{"city":"Shenzhen","country":"China","lat":22.5431,"lon":114.0579,"name":"ALC Shenzhen","status":"active","url":"/alc/chapters/shenzhen.html"},{"city":"Taipei","country":"Taiwan","lat":25.033,"lon":121.5654,"name":"ALC Taipei","status":"active","url":"/alc/chapters/taipei.html"},{"city":"Warsaw","country":"Poland","lat":52.2297,"lon":21.0122,"name":"ALC Warsaw","status":"active","url":"/alc/chapters/warsaw.html"},{"city":"Xi’an","country":"China","lat":34.3416,"lon":108.9398,"name":"ALC Xi’an","status":"active","url":"/alc/chapters/xian.html"}];
+  
+  
+  var chapters = [{"city":"Bangalore","country":"India","dormant":false,"lat":12.9716,"lon":77.5946,"name":"ALC Bangalore","status":"active","url":"https://cwiki.apache.org/confluence/display/COMDEV/ALC+Bangalore"},{"city":"Beijing","country":"China","dormant":false,"lat":39.9042,"lon":116.4074,"name":"ALC Beijing","status":"active","url":"https://cwiki.apache.org/confluence/display/COMDEV/ALC+Beijing"},{"city":"Budapest","country":"Hungary","dormant":false,"lat":47.4979,"lon":19.0402,"name":"ALC Budapest","status":"active","url":"https://cwiki.apache.org/confluence/display/COMDEV/ALC+Budapest"},{"city":"Florianópolis","country":"Brazil","dormant":false,"lat":-27.5954,"lon":-48.548,"name":"ALC Florianópolis","status":"active","url":"https://cwiki.apache.org/confluence/spaces/COMDEV/pages/399278973/ALC+Florian%C3%B3polis"},{"city":"Wa","country":"Ghana","dormant":false,"lat":10.0607,"lon":-2.5099,"name":"ALC Ghana","status":"proposed","url":"https://lists.apache.org/thread/1m3yjxmtqrqcy6ntnhop95hjf9odoy85"},{"city":"Hangzhou","country":"China","dormant":false,"lat":30.2741,"lon":120.1551,"name":"ALC Hangzhou","status":"active","url":"https://cwiki.apache.org/confluence/display/COMDEV/ALC+Hangzhou"},{"city":"Indore","country":"India","dormant":false,"lat":22.7196,"lon":75.8577,"name":"ALC Indore","status":"active","url":"https://cwiki.apache.org/confluence/display/COMDEV/ALC+Indore"},{"city":"Islamabad","country":"Pakistan","dormant":false,"lat":33.6844,"lon":73.0479,"name":"ALC Islamabad","status":"active","url":"https://cwiki.apache.org/confluence/display/COMDEV/ALC+Islamabad"},{"city":"Lagos","country":"Nigeria","dormant":false,"lat":6.5244,"lon":3.3792,"name":"ALC Lagos","status":"active","url":"https://cwiki.apache.org/confluence/display/COMDEV/ALC+Lagos"},{"city":"Shanghai","country":"China","dormant":false,"lat":31.2304,"lon":121.4737,"name":"ALC Shanghai","status":"active","url":"https://cwiki.apache.org/confluence/display/COMDEV/ALC+Shanghai"},{"city":"Shenzhen","country":"China","dormant":false,"lat":22.5431,"lon":114.0579,"name":"ALC Shenzhen","status":"active","url":"https://cwiki.apache.org/confluence/display/COMDEV/ALC+Shenzhen"},{"city":"Taipei","country":"Taiwan","dormant":false,"lat":25.033,"lon":121.5654,"name":"ALC Taipei","status":"active","url":"https://cwiki.apache.org/confluence/display/COMDEV/ALC+Taipei"},{"city":"Warsaw","country":"Poland","dormant":false,"lat":52.2297,"lon":21.0122,"name":"ALC Warsaw","status":"active","url":"https://cwiki.apache.org/confluence/display/COMDEV/ALC+Warsaw"},{"city":"Xi’an","country":"China","dormant":false,"lat":34.3416,"lon":108.9398,"name":"ALC Xi’an","status":"active","url":"https://cwiki.apache.org/confluence/spaces/COMDEV/pages/263429100/ALC+Xi+an"}];
 
   var consentEl = document.getElementById("alc-map-consent");
   var mapEl     = document.getElementById("alc-map");
@@ -297,7 +299,7 @@ local, in-person complement to our global online communities.</p>
   }
 
   function buildMap() {
-    var colors = { active: "#4caf50", proposed: "#ff9800", dissolved: "#9e9e9e" };
+    var colors = { active: "#4caf50", proposed: "#ff9800", dissolved: "#9e9e9e", dormant: "#2196f3" };
     var map = L.map('alc-map').setView([20, 10], 2);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 18,
@@ -306,7 +308,9 @@ local, in-person complement to our global online communities.</p>
 
     var bounds = [];
     chapters.forEach(function (c) {
-      var color = colors[c.status] || "#4caf50";
+      
+      
+      var color = c.dormant ? colors.dormant : (colors[c.status] || "#4caf50");
       var marker = L.circleMarker([c.lat, c.lon], {
         radius: 8, color: "#fff", weight: 2, fillColor: color, fillOpacity: 0.9
       }).addTo(map);
@@ -318,16 +322,25 @@ local, in-person complement to our global online communities.</p>
       
       var container = document.createElement("div");
       var heading = document.createElement("strong");
-      var link = document.createElement("a");
-      link.href = c.url;
-      link.textContent = c.name;
-      heading.appendChild(link);
+      if (c.url) {
+        var link = document.createElement("a");
+        link.href = c.url;
+        link.textContent = c.name;
+        
+        if (/^https?:\/\//.test(c.url)) {
+          link.target = "_blank";
+          link.rel = "noopener";
+        }
+        heading.appendChild(link);
+      } else {
+        heading.textContent = c.name;
+      }
       container.appendChild(heading);
       container.appendChild(document.createElement("br"));
       container.appendChild(document.createTextNode(label));
       container.appendChild(document.createElement("br"));
       var em = document.createElement("em");
-      em.textContent = c.status;
+      em.textContent = c.dormant ? (c.status + " \u00b7 dormant") : c.status;
       container.appendChild(em);
 
       marker.bindPopup(container);
@@ -347,7 +360,8 @@ local, in-person complement to our global online communities.</p>
       var items = [
         ["active",    "Active"],
         ["proposed",  "Proposed"],
-        ["dissolved", "Dissolved"]
+        ["dissolved", "Dissolved"],
+        ["dormant",   "Dormant (inactive 1+ yr)"]
       ];
       var html = "";
       items.forEach(function (it) {
@@ -397,50 +411,169 @@ local, in-person complement to our global online communities.</p>
 
 <div class="alc-chapter-list">
 
-<ul class="alc-chapters">
-  <li>
-    <a href="/alc/chapters/bangalore.html">ALC Bangalore</a> &mdash; India
-  </li>
-  <li>
-    <a href="/alc/chapters/beijing.html">ALC Beijing</a> &mdash; China
-  </li>
-  <li>
-    <a href="/alc/chapters/budapest.html">ALC Budapest</a> &mdash; Hungary
-  </li>
-  <li>
-    <a href="/alc/chapters/florianopolis.html">ALC Florianópolis</a> &mdash; Brazil
-  </li>
-  <li>
-    <a href="/alc/chapters/hangzhou.html">ALC Hangzhou</a> &mdash; China
-  </li>
-  <li>
-    <a href="/alc/chapters/indore.html">ALC Indore</a> &mdash; India
-  </li>
-  <li>
-    <a href="/alc/chapters/islamabad.html">ALC Islamabad</a> &mdash; Pakistan
-  </li>
-  <li>
-    <a href="/alc/chapters/lagos.html">ALC Lagos</a> &mdash; Nigeria
-  </li>
-  <li>
-    <a href="/alc/chapters/shanghai.html">ALC Shanghai</a> &mdash; China
-  </li>
-  <li>
-    <a href="/alc/chapters/shenzhen.html">ALC Shenzhen</a> &mdash; China
-  </li>
-  <li>
-    <a href="/alc/chapters/taipei.html">ALC Taipei</a> &mdash; Taiwan
-  </li>
-  <li>
-    <a href="/alc/chapters/warsaw.html">ALC Warsaw</a> &mdash; Poland
-  </li>
-  <li>
-    <a href="/alc/chapters/xian.html">ALC Xi’an</a> &mdash; China
-  </li>
-  <li>
-    <a href="/alc/chapters/ghana.html">ALC Ghana</a> &mdash; Ghana <span class="badge badge-secondary">proposed</span>
-  </li>
-</ul>
+
+
+<dl class="alc-chapters">
+        
+  <dt>
+    <a href="https://cwiki.apache.org/confluence/display/COMDEV/ALC&#43;Bangalore" rel="noopener">ALC Bangalore</a> &mdash; India <span class="alc-ext">(wiki)</span>
+  </dt>
+  <dd><p>Bangalore (officially Bengaluru) is the capital of the southern Indian state of Karnataka, known as the &ldquo;Silicon Valley of India&rdquo; as the nation&rsquo;s leading software exporter and a major semiconductor hub.</p>
+<p>See the <a href="https://cwiki.apache.org/confluence/display/COMDEV/ALC+Bangalore">chapter&rsquo;s wiki page</a> for current organizers, events, and
+reports. To reach the chapter, email
+<a href="mailto:dev@community.apache.org">dev@community.apache.org</a> with
+<code>[Bangalore]</code> in the subject line.</p>
+
+  </dd>
+        
+  <dt>
+    <a href="https://cwiki.apache.org/confluence/display/COMDEV/ALC&#43;Beijing" rel="noopener">ALC Beijing</a> &mdash; China <span class="alc-ext">(wiki)</span>
+  </dt>
+  <dd><p>Beijing is the capital of the People&rsquo;s Republic of China, and one of the world&rsquo;s leading centers for culture, diplomacy, business, education, and science and technology.</p>
+<p>See the <a href="https://cwiki.apache.org/confluence/display/COMDEV/ALC+Beijing">chapter&rsquo;s wiki page</a> for current organizers, events, and
+reports. To reach the chapter, email
+<a href="mailto:dev@community.apache.org">dev@community.apache.org</a> with
+<code>[Beijing]</code> in the subject line.</p>
+
+  </dd>
+        
+  <dt>
+    <a href="https://cwiki.apache.org/confluence/display/COMDEV/ALC&#43;Budapest" rel="noopener">ALC Budapest</a> &mdash; Hungary <span class="alc-ext">(wiki)</span>
+  </dt>
+  <dd><p>Budapest, Hungary&rsquo;s financial center, is an Alpha global city with strengths in commerce, finance, media, art, research, technology, and education.</p>
+<p>See the <a href="https://cwiki.apache.org/confluence/display/COMDEV/ALC+Budapest">chapter&rsquo;s wiki page</a> for current organizers, events, and
+reports. To reach the chapter, email
+<a href="mailto:dev@community.apache.org">dev@community.apache.org</a> with
+<code>[Budapest]</code> in the subject line.</p>
+
+  </dd>
+        
+  <dt>
+    <a href="https://cwiki.apache.org/confluence/spaces/COMDEV/pages/399278973/ALC&#43;Florian%C3%B3polis" rel="noopener">ALC Florianópolis</a> &mdash; Brazil <span class="alc-ext">(wiki)</span>
+  </dt>
+  <dd><p>Florianópolis is the capital of the state of Santa Catarina in southern Brazil, and a growing hub for the regional open source community.</p>
+<p>See the <a href="https://cwiki.apache.org/confluence/spaces/COMDEV/pages/399278973/ALC+Florian%C3%B3polis">chapter&rsquo;s wiki page</a> for current organizers, events, and
+reports. To reach the chapter, email
+<a href="mailto:dev@community.apache.org">dev@community.apache.org</a> with
+<code>[Florianópolis]</code> in the subject line.</p>
+
+  </dd>
+        
+  <dt>
+    <a href="https://cwiki.apache.org/confluence/display/COMDEV/ALC&#43;Hangzhou" rel="noopener">ALC Hangzhou</a> &mdash; China <span class="alc-ext">(wiki)</span>
+  </dt>
+  <dd><p>Hangzhou is the capital and most populous city of Zhejiang, China, sitting at the head of Hangzhou Bay between Shanghai and Ningbo.</p>
+<p>See the <a href="https://cwiki.apache.org/confluence/display/COMDEV/ALC+Hangzhou">chapter&rsquo;s wiki page</a> for current organizers, events, and
+reports. To reach the chapter, email
+<a href="mailto:dev@community.apache.org">dev@community.apache.org</a> with
+<code>[Hangzhou]</code> in the subject line.</p>
+
+  </dd>
+        
+  <dt>
+    <a href="https://cwiki.apache.org/confluence/display/COMDEV/ALC&#43;Indore" rel="noopener">ALC Indore</a> &mdash; India <span class="alc-ext">(wiki)</span>
+  </dt>
+  <dd><p>Indore is a city in west-central India, repeatedly ranked as India&rsquo;s cleanest city in the Swachh Survekshan surveys.</p>
+<p>See the <a href="https://cwiki.apache.org/confluence/display/COMDEV/ALC+Indore">chapter&rsquo;s wiki page</a> for current organizers, events, and
+reports. To reach the chapter, email
+<a href="mailto:dev@community.apache.org">dev@community.apache.org</a> with
+<code>[Indore]</code> in the subject line.</p>
+
+  </dd>
+        
+  <dt>
+    <a href="https://cwiki.apache.org/confluence/display/COMDEV/ALC&#43;Islamabad" rel="noopener">ALC Islamabad</a> &mdash; Pakistan <span class="alc-ext">(wiki)</span>
+  </dt>
+  <dd><p>ALC Islamabad was approved in September 2026 and is getting started with
+organizing its first meetups in the Islamabad open source community.</p>
+<p>See the <a href="https://cwiki.apache.org/confluence/display/COMDEV/ALC+Islamabad">chapter&rsquo;s wiki page</a>
+for current organizers, events, and reports. To reach the chapter, email
+<a href="mailto:dev@community.apache.org">dev@community.apache.org</a> with <code>[ALC]</code>
+in the subject line.</p>
+
+  </dd>
+        
+  <dt>
+    <a href="https://cwiki.apache.org/confluence/display/COMDEV/ALC&#43;Lagos" rel="noopener">ALC Lagos</a> &mdash; Nigeria <span class="alc-ext">(wiki)</span>
+  </dt>
+  <dd><p>Lagos is a major African financial centre, the economic hub of Nigeria, and among the world&rsquo;s ten fastest-growing cities and urban areas.</p>
+<p>See the <a href="https://cwiki.apache.org/confluence/display/COMDEV/ALC+Lagos">chapter&rsquo;s wiki page</a> for current organizers, events, and
+reports. To reach the chapter, email
+<a href="mailto:dev@community.apache.org">dev@community.apache.org</a> with
+<code>[Lagos]</code> in the subject line.</p>
+
+  </dd>
+        
+  <dt>
+    <a href="https://cwiki.apache.org/confluence/display/COMDEV/ALC&#43;Shanghai" rel="noopener">ALC Shanghai</a> &mdash; China <span class="alc-ext">(wiki)</span>
+  </dt>
+  <dd><p>Shanghai is one of the world&rsquo;s major centers for finance, business, research, science and technology, manufacturing, transportation, tourism, and culture.</p>
+<p>See the <a href="https://cwiki.apache.org/confluence/display/COMDEV/ALC+Shanghai">chapter&rsquo;s wiki page</a> for current organizers, events, and
+reports. To reach the chapter, email
+<a href="mailto:dev@community.apache.org">dev@community.apache.org</a> with
+<code>[Shanghai]</code> in the subject line.</p>
+
+  </dd>
+        
+  <dt>
+    <a href="https://cwiki.apache.org/confluence/display/COMDEV/ALC&#43;Shenzhen" rel="noopener">ALC Shenzhen</a> &mdash; China <span class="alc-ext">(wiki)</span>
+  </dt>
+  <dd><p>Shenzhen is a major sub-provincial city and one of China&rsquo;s special economic zones — a global center for technology, research, manufacturing, finance, and transportation, home to the world&rsquo;s fourth-busiest container port.</p>
+<p>See the <a href="https://cwiki.apache.org/confluence/display/COMDEV/ALC+Shenzhen">chapter&rsquo;s wiki page</a> for current organizers, events, and
+reports. To reach the chapter, email
+<a href="mailto:dev@community.apache.org">dev@community.apache.org</a> with
+<code>[Shenzhen]</code> in the subject line.</p>
+
+  </dd>
+        
+  <dt>
+    <a href="https://cwiki.apache.org/confluence/display/COMDEV/ALC&#43;Taipei" rel="noopener">ALC Taipei</a> &mdash; Taiwan <span class="alc-ext">(wiki)</span>
+  </dt>
+  <dd><p>Taipei is the capital of Taiwan and the home of a vibrant, active open source community.</p>
+<p>See the <a href="https://cwiki.apache.org/confluence/display/COMDEV/ALC+Taipei">chapter&rsquo;s wiki page</a> for current organizers, events, and
+reports. To reach the chapter, email
+<a href="mailto:dev@community.apache.org">dev@community.apache.org</a> with
+<code>[Taipei]</code> in the subject line.</p>
+
+  </dd>
+        
+  <dt>
+    <a href="https://cwiki.apache.org/confluence/display/COMDEV/ALC&#43;Warsaw" rel="noopener">ALC Warsaw</a> &mdash; Poland <span class="alc-ext">(wiki)</span>
+  </dt>
+  <dd><p>Warsaw is the capital of Poland, an alpha global city and a significant cultural, political, and economic hub; its historic old town is a UNESCO World Heritage Site.</p>
+<p>See the <a href="https://cwiki.apache.org/confluence/display/COMDEV/ALC+Warsaw">chapter&rsquo;s wiki page</a> for current organizers, events, and
+reports. To reach the chapter, email
+<a href="mailto:dev@community.apache.org">dev@community.apache.org</a> with
+<code>[Warsaw]</code> in the subject line.</p>
+
+  </dd>
+        
+  <dt>
+    <a href="https://cwiki.apache.org/confluence/spaces/COMDEV/pages/263429100/ALC&#43;Xi&#43;an" rel="noopener">ALC Xi’an</a> &mdash; China <span class="alc-ext">(wiki)</span>
+  </dt>
+  <dd><p>Xi&rsquo;an is the capital of Shaanxi Province, a subprovincial city on the Guanzhong Plain and the most populous city in Northwest China.</p>
+<p>See the <a href="https://cwiki.apache.org/confluence/spaces/COMDEV/pages/263429100/ALC+Xi+an">chapter&rsquo;s wiki page</a> for current organizers, events, and
+reports. To reach the chapter, email
+<a href="mailto:dev@community.apache.org">dev@community.apache.org</a> with
+<code>[Xi’an]</code> in the subject line.</p>
+
+  </dd>
+        
+  <dt>
+    <a href="https://lists.apache.org/thread/1m3yjxmtqrqcy6ntnhop95hjf9odoy85" rel="noopener">ALC Ghana</a> &mdash; Ghana <span class="badge badge-secondary">proposed</span> <span class="alc-ext">(wiki)</span>
+  </dt>
+  <dd><p>ALC Ghana is a proposed chapter put forward in August 2026, with Rich
+Bowen mentoring. The proposal aims to bring open source mentorship,
+technical workshops, and collaboration with local universities and tech
+communities to the region. As of early October 2026 it was moving toward
+approval on the ComDev list but had not been formally finalized.</p>
+<p>See the <a href="https://lists.apache.org/thread/1m3yjxmtqrqcy6ntnhop95hjf9odoy85">proposal thread</a>
+on dev@community for details. To reach the organizers, email
+<a href="mailto:dev@community.apache.org">dev@community.apache.org</a> with <code>[ALC]</code>
+in the subject line.</p>
+
+  </dd>
+</dl>
 
 </div>
 <p>Don&rsquo;t see a chapter in your town or city? You can
