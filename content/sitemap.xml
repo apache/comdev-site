@@ -2,13 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://community.apache.org/blog/2026_10_birthdays.html</loc>
+    <lastmod>2026-10-19T14:29:59-04:00</lastmod>
+  </url><url>
+    <loc>https://community.apache.org/blog/2026_09_releases.html</loc>
+    <lastmod>2026-10-19T14:29:59-04:00</lastmod>
+  </url><url>
+    <loc>https://community.apache.org/tags/blog.html</loc>
+    <lastmod>2026-10-19T14:29:59-04:00</lastmod>
+  </url><url>
+    <loc>https://community.apache.org/blog/2026_09_committers.html</loc>
+    <lastmod>2026-10-19T14:29:59-04:00</lastmod>
+  </url><url>
+    <loc>https://community.apache.org/blog/2026_09_pmc_members.html</loc>
+    <lastmod>2026-10-19T14:29:59-04:00</lastmod>
+  </url><url>
+    <loc>https://community.apache.org/tags/index.html</loc>
+    <lastmod>2026-10-19T14:29:59-04:00</lastmod>
+  </url><url>
     <loc>https://community.apache.org/blog/2026_09_birthdays.html</loc>
     <lastmod>2026-09-25T08:45:32-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/blog/2026_08_releases.html</loc>
-    <lastmod>2026-09-25T08:45:32-04:00</lastmod>
-  </url><url>
-    <loc>https://community.apache.org/tags/blog.html</loc>
     <lastmod>2026-09-25T08:45:32-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/blog/2026_08_committers.html</loc>
@@ -16,9 +31,6 @@
   </url><url>
     <loc>https://community.apache.org/blog/2026_08_pmc_members.html</loc>
     <lastmod>2026-09-25T08:45:32-04:00</lastmod>
-  </url><url>
-    <loc>https://community.apache.org/tags/index.html</loc>
-    <lastmod>2026-10-19T13:04:22-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/blog/2026_08_birthdays.html</loc>
     <lastmod>2026-08-03T09:51:57-04:00</lastmod>
