@@ -19,7 +19,7 @@ Most of the time we work with the consensus-building techniques documented below
 The word "consensus" is a bit ambiguous in English, and so can lead to
 some misunderstandings of intent when we use it in the context of
 project decisions. Consensus does not mean that everyone agrees on all
-details. Rather, it means that the project, as a whole, has arrived a
+details. Rather, it means that the project, as a whole, has arrived at a
 decision, or at least a compromise, that everyone can live with.
 
 ## Lazy Consensus
