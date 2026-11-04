@@ -160,7 +160,8 @@
   }
 
   function buildMap() {
-    var colors = { active: "#4caf50", proposed: "#ff9800", dissolved: "#9e9e9e", dormant: "#2196f3" };
+    // Colours taken from the pins in the ALC logo (/images/alc-logo.png)
+    var colors = { active: "#602888", proposed: "#f09820", dormant: "#982060", dissolved: "#d83040" };
     var map = L.map('alc-map').setView([20, 10], 2);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 18,
