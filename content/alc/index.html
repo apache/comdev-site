@@ -197,7 +197,8 @@ ALC is to the ASF what Google Developer Groups, Facebook Developer Circles, and 
   </li></ul>
 
       
-    <p>The <strong>Apache Local Community (ALC)</strong> program brings together local groups
+    <p class="alc-logo"><img src="/images/alc-logo.png" alt="Apache Local Community" style="max-width: 100%; width: 520px; height: auto;"></p>
+<p>The <strong>Apache Local Community (ALC)</strong> program brings together local groups
 of Apache and open source enthusiasts — called <em>ALC Chapters</em> — in towns
 and cities around the world. Chapters host local events, spread awareness
 of the ASF and the Apache Way, and connect project users and developers
@@ -208,6 +209,10 @@ local, in-person complement to our global online communities.</p>
 <h2 id="find-a-chapter-near-you">Find a chapter near you <a class="headerlink" title="Permalink" href="#find-a-chapter-near-you">&para;</a></h2>
 
 
+<style>
+  .alc-pin { background: none; border: none; }
+  .alc-pin svg { display: block; filter: drop-shadow(0 1px 2px rgba(0,0,0,.45)); }
+</style>
 <div id="alc-map-wrap" style="margin: 1em 0;">
 
   
@@ -298,8 +303,27 @@ local, in-person complement to our global online communities.</p>
     document.head.appendChild(js);
   }
 
+  
+  
+  var PIN_PATH = "M12 1C6 1 1 5.9 1 12c0 8.6 9.6 20.7 10.9 22.3a.5.5 0 0 0 .2 0C13.4 32.7 23 20.6 23 12 23 5.9 18 1 12 1z";
+  function pinSvg(color, w, h) {
+    return '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 36" width="' + w + '" height="' + h + '">' +
+           '<path d="' + PIN_PATH + '" fill="' + color + '" stroke="#fff" stroke-width="1.6"/>' +
+           '<circle cx="12" cy="12" r="3.6" fill="#fff" fill-opacity="0.85"/></svg>';
+  }
+  function pinIcon(color) {
+    return L.divIcon({
+      className: "alc-pin",
+      html: pinSvg(color, 22, 33),
+      iconSize: [22, 33],
+      iconAnchor: [11, 33],      
+      popupAnchor: [0, -30]
+    });
+  }
+
   function buildMap() {
-    var colors = { active: "#4caf50", proposed: "#ff9800", dissolved: "#9e9e9e", dormant: "#2196f3" };
+    
+    var colors = { active: "#602888", proposed: "#f09820", dormant: "#982060", dissolved: "#d83040" };
     var map = L.map('alc-map').setView([20, 10], 2);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 18,
@@ -311,8 +335,8 @@ local, in-person complement to our global online communities.</p>
       
       
       var color = c.dormant ? colors.dormant : (colors[c.status] || "#4caf50");
-      var marker = L.circleMarker([c.lat, c.lon], {
-        radius: 8, color: "#fff", weight: 2, fillColor: color, fillOpacity: 0.9
+      var marker = L.marker([c.lat, c.lon], {
+        icon: pinIcon(color), title: c.name, alt: c.name
       }).addTo(map);
       var label = c.country ? (c.city + ", " + c.country) : c.city;
 
@@ -366,9 +390,8 @@ local, in-person complement to our global online communities.</p>
       var html = "";
       items.forEach(function (it) {
         html += '<div style="display:flex;align-items:center;margin:2px 0;">' +
-                '<span style="display:inline-block;width:12px;height:12px;border-radius:50%;' +
-                'background:' + colors[it[0]] + ';border:2px solid #fff;' +
-                'box-shadow:0 0 1px #999;margin-right:6px;"></span>' + it[1] + '</div>';
+                '<span style="display:inline-block;margin-right:6px;line-height:0;' +
+                'filter:drop-shadow(0 0 1px #999);">' + pinSvg(colors[it[0]], 11, 16.5) + '</span>' + it[1] + '</div>';
       });
       div.innerHTML = html;
       return div;
