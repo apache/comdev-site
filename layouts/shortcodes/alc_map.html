@@ -16,6 +16,10 @@
      wait for consent. Approach approved by ASF VP Infrastructure (Niall
      Pemberton), 2026-10-14, on the basis of this consent mechanism. */}}
 
+<style>
+  .alc-pin { background: none; border: none; }
+  .alc-pin svg { display: block; filter: drop-shadow(0 1px 2px rgba(0,0,0,.45)); }
+</style>
 <div id="alc-map-wrap" style="margin: 1em 0;">
 
   {{/* --- Consent placeholder (shown until the visitor opts in) --- */}}
@@ -137,6 +141,24 @@
     document.head.appendChild(js);
   }
 
+  // Map pins: the teardrop shape from the ALC logo, filled with the
+  // chapter's status colour.
+  var PIN_PATH = "M12 1C6 1 1 5.9 1 12c0 8.6 9.6 20.7 10.9 22.3a.5.5 0 0 0 .2 0C13.4 32.7 23 20.6 23 12 23 5.9 18 1 12 1z";
+  function pinSvg(color, w, h) {
+    return '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 36" width="' + w + '" height="' + h + '">' +
+           '<path d="' + PIN_PATH + '" fill="' + color + '" stroke="#fff" stroke-width="1.6"/>' +
+           '<circle cx="12" cy="12" r="3.6" fill="#fff" fill-opacity="0.85"/></svg>';
+  }
+  function pinIcon(color) {
+    return L.divIcon({
+      className: "alc-pin",
+      html: pinSvg(color, 22, 33),
+      iconSize: [22, 33],
+      iconAnchor: [11, 33],      // the tip of the pin sits on the location
+      popupAnchor: [0, -30]
+    });
+  }
+
   function buildMap() {
     var colors = { active: "#4caf50", proposed: "#ff9800", dissolved: "#9e9e9e", dormant: "#2196f3" };
     var map = L.map('alc-map').setView([20, 10], 2);
@@ -150,8 +172,8 @@
       // Dormant takes visual precedence so stale chapters stand out and
       // invite someone to revive them.
       var color = c.dormant ? colors.dormant : (colors[c.status] || "#4caf50");
-      var marker = L.circleMarker([c.lat, c.lon], {
-        radius: 8, color: "#fff", weight: 2, fillColor: color, fillOpacity: 0.9
+      var marker = L.marker([c.lat, c.lon], {
+        icon: pinIcon(color), title: c.name, alt: c.name
       }).addTo(map);
       var label = c.country ? (c.city + ", " + c.country) : c.city;
 
@@ -205,9 +227,8 @@
       var html = "";
       items.forEach(function (it) {
         html += '<div style="display:flex;align-items:center;margin:2px 0;">' +
-                '<span style="display:inline-block;width:12px;height:12px;border-radius:50%;' +
-                'background:' + colors[it[0]] + ';border:2px solid #fff;' +
-                'box-shadow:0 0 1px #999;margin-right:6px;"></span>' + it[1] + '</div>';
+                '<span style="display:inline-block;margin-right:6px;line-height:0;' +
+                'filter:drop-shadow(0 0 1px #999);">' + pinSvg(colors[it[0]], 11, 16.5) + '</span>' + it[1] + '</div>';
       });
       div.innerHTML = html;
       return div;

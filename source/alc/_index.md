@@ -4,6 +4,8 @@ url: /alc/
 tags: ["alc","community","events"]
 ---
 
+<p class="alc-logo"><img src="/images/alc-logo.png" alt="Apache Local Community" style="max-width: 100%; width: 520px; height: auto;"></p>
+
 The **Apache Local Community (ALC)** program brings together local groups
 of Apache and open source enthusiasts — called *ALC Chapters* — in towns
 and cities around the world. Chapters host local events, spread awareness
