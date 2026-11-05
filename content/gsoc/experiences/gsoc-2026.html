@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+  <meta name="description" content="Apache Community Development">
+  <meta name="keywords" content="apache, apache community, community development, opensource">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" >
+  <meta property="og:url" content="https://community.apache.org/gsoc/experiences/gsoc-2026.html">
+  <meta property="og:site_name" content="ASF Community Development">
+  <meta property="og:title" content="Apache in GSoC">
+  <meta property="og:description" content="This is a place for collecting information about GSoC activities each year for historical tracking. Your help filling it out would be appreciated.
+GSoC 2026 Details ¶ Students accepted: 34 Students who passed final: - Contributor Project Mentors Status abhishekmishra12 Add Multi-User and POSIX File Permission Support to Apache NuttX Daniel Monteiro, Rodrigo Sim - / - Acfboy Add X11 graphic support on NuttX using NanoX Pavel Pisa - / - Aira Jena Fineract Business Intelligence Tofunmi Oguntibeju, Aman_Mittal, James Dailey - / - AlexAnokhin Dynamic Memory Management for Apache AsterixDB Shiva Jahangiri - / - Aviral Garg Apache NuttX- Create a NuttX Distribution Layer with Dynamic ELF Application and Library Support Alan, Halysson - / - Boyang Gong CPU/GPU Checkpoint and Restore for Airavata Linkspan SureshMarru - / - CAICAIIs Enhance Seata-Go Multi-Registry Support and seata-ctl Diagnostic Tool Capability FinnTew - / - contrueCT HugeGraph Query Engine Dependency Modernization Imba Jin, vaughn - / - CR1TIC4L Foundational Loan Origination POC: External LOS Service and Survey for Apache Fineract James Dailey - / - Dheeraj Bansal Improving CloudMonkey Autocompletion with Enum Value Suggestions Pearl Dsilva, Soreana - / - Edward Kang Create a new Backend for Frontend and Frontend POC for Apache Fineract Aman_Mittal, James Dailey - / - Elia Liu Native Streaming Transforms for the Apache Beam Python SDK Yi Hu - / - Felipe Moura Dropbear port (or other SSH Server/Client) to NuttX Alan, Rodrigo Sim - / - Hansel Tepal [GSOC-273] Test optimization and integration of a resource and security monitoring system Pablo E - / - Jayanth Vennamreddy Virtual Filesystem for Molecular Dynamics Dataset Metadata in Apache Airavata SureshMarru - / - Jhe Chen Li Apache Airflow Contribution &amp; Verification Agent Skills Zhe-You Liu - / - Jingyi Qu Apache SkyWalking Natural Language to BydbQL Hongtao Gao, Sheng Wu - / - Jun Wang Make Wayang More Datalake-Friendly zkaoudi, Mirko (Scalytics Inc.), Kaustubh Beedkar - / - Krishna Mewara Fineract-Client-Feign usage for Integration Tests Tofunmi Oguntibeju, Attila Budai - / - makarandhinge Implementing JDBC Driver for Apache Wayang Kaustubh Beedkar - / - Matteo Golin Fully Porting NuttX to the Raspberry Pi 4B CeDeROM, Roberto Bucher - / - Muhammad Junaid Shaukat Apache Beam Add Kafka Streams Runner Jan Lukavský - / - Nidhi Bhawari New Command Processing Infrastructure Tofunmi Oguntibeju, James Dailey - / - Nipuna Bandara [Airavata] - UX Design &amp; Development for SSH Signer &amp; Allocation Dashboard in Apache Airavata Custos SureshMarru, Eroma Abeysinghe - / - Peiyang He Apache Fory C&#43;&#43; &amp; Rust gRPC Integration Chaokun Yang - / - Prajwal Banakar Native RoaringBitmap Integration for Apache Fluss Jark Wu - / - Shanzita siddiqua CEP 59 Graceful Disconnect for Apache Cassandra Jane He - / - tibrahim An HTTP/3 Module for the Apache HTTP Server Using OpenSSL QUIC and nghttp3 jfclere - / - Varun Lakhyani Improving Iceberg Read Performance Russell Spitzer - / - Vic Wen Apache Mahout: Automated API Documentation Pipeline for Qumat &amp; QDP Jie-Kai Chang - / - Vivek Gangavarapu LLM Agent Protocols/Memory Suryaa charan - / - Yash_Agarwa_l Apache Fory Swift &amp; Dart gRPC integration Chaokun Yang - / - yc_lai Rust Code Quality and Website Improvements for Apache Mahout Kuan-Hao Huang - / - Zihan Dai Enhancing ThingsBoard Integration with IoTDB 2.X Table Mode critas - / -">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="gsoc">
+    <meta property="article:modified_time" content="2026-11-05T18:56:13+05:30">
+    <meta property="og:image" content="https://community.apache.org/images/project-logos.webp">
+
+
+  <title>Apache Community Development - Apache in GSoC</title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link href="/css/main.css" rel="stylesheet" media="screen">
+  <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <style>
+      .footer {
+          text-align:center;
+          color:grey;
+          font-size:80%;
+          border-top: solid #ddd 1px;
+          margin-top:1em;
+      }
+      .navbar-brand img {
+          height: 50px;
+      }
+  </style>
+
+  
+<script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(['disableCookies']);
+   
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.apache.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '36']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+
+  
+
+</head>
+
+<body>
+  <header class="navbar navbar-expand-lg navbar-dark bg-bright fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+    <img src="https://apache.org/img/asf_logo.png" alt="Apache Software Foundation">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="mainNavbar">
+    <div class="container"> 
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="homeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Home
+            </a>
+            <div class="dropdown-menu" aria-labelledby="homeDropdown">
+              <a class="dropdown-item" href="/">Homepage</a>
+              <a class="dropdown-item" href="/tags/">Tags</a>
+              <a class="dropdown-item" href="/blog/">Blog</a>
+              <a class="dropdown-item" href="/tags/navigation.html">Navigation pages</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About
+          </a>
+          <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+            <a class="dropdown-item" href="/about/">What We Do</a>
+            <a class="dropdown-item" href="/newbiefaq.html">Frequently Asked Questions</a>
+            <a class="dropdown-item" href="/projectIndependence.html">Apache Project Independence</a>
+            <a class="dropdown-item" href="/apache-way/apache-project-maturity-model.html">Apache Project Maturity Model</a>
+            <a class="dropdown-item" href="/contactpoints.html">Contact Points Within the ASF</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html#2009-11-01">ComDev Original Board Resolution</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html">ComDev Board Reports</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/COMDEV">Community Development Jira</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">About Apache</a>
+            <a class="dropdown-item" href="https://www.apache.org/">The Apache Software Foundation</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/sponsorship">Sponsor Apache</a>
+            <a class="dropdown-item" href="http://diversity.apache.org/">Diversity & Inclusion</a>
+             <a class="dropdown-item" href="/contributors/asf-volunteers.html">Mentors &amp; Speakers</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/thanks">Thanks to our Sponsors</a>
+            <a class="dropdown-item" href="https://www.apache.org/licenses">License</a>
+            <a class="dropdown-item" href="https://www.apache.org/security">Security</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="contribDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Contributing
+          </a>
+          <div class="dropdown-menu" aria-labelledby="contribDropdown">
+            <a class="dropdown-item" href="/newcomers/why.html">Why Contribute?</a>
+            <a class="dropdown-item" href="/contributor-ladder.html">Contributor Ladder</a>
+            <a class="dropdown-item" href="/newcomers/">Getting Started at Apache</a>
+            <a class="dropdown-item" href="/contributors/">Contributing to projects</a>
+            <a class="dropdown-item" href="/committers/">Committers</a>
+            <a class="dropdown-item" href="/pmc/">PMC Members</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">Committer and PMC Information</a>
+            <a class="dropdown-item" href="https://www.apache.org/dev/">Technical Developer FAQs</a>
+            <a class="dropdown-item" href="/committers/decisionMaking.html">Decision Making</a>
+            <a class="dropdown-item" href="/committers/good-first-issues.html">Good First Issues</a>
+            <a class="dropdown-item" href="/pmc/community-growth.html">Recruiting New Contributors</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="gsocDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">GSoC</a>
+          <div class="dropdown-menu" aria-labelledby="gsocDropdown">
+            <a class="dropdown-item" href="/gsoc/">Google Summer Of Code Information</a>
+            <a class="dropdown-item" href="/gsoc/mentee-ranking-process.html">Mentee Ranking Process</a>
+            <a class="dropdown-item" href="/gsoc/experiences/">Past GSoC Experiences</a>
+            <a class="dropdown-item" href="/gsoc/guide-to-being-a-mentor.html">Guide to being a Mentor</a>
+            <a class="dropdown-item" href="/gsoc/use-the-comdev-gsoc-issue-tracker-for-gsoc-tasks.html">Using ComDev's Jira for GSoC Ideas</a>
+            <a class="dropdown-item" href="/gsoc/gsoc-admin-tasks.html">Tasks of a GSoC Admin at the ASF</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/GSOC">GSoC Jira</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="eventDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Events
+          </a>
+          <div class="dropdown-menu" aria-labelledby="eventDropdown">
+            <a class="dropdown-item" href="https://apachecon.com/">Community Over Code - (formerly ApacheCon)</a>
+            <a class="dropdown-item" href="https://events.apache.org/">Other Apache-related Events</a>
+            <a class="dropdown-item" href="/alc/">Local Communities (ALC)</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/marks/events">Apache event branding policies</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">Conference Speakers</a>
+            <a class="dropdown-item" href="/speakers/">Speaker resources</a>
+            <a class="dropdown-item" href="/speakers/slides.html">Sample presentations</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="wgDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Working Groups
+          </a>
+          <div class="dropdown-menu" aria-labelledby="wgDropdown">
+            <a class="dropdown-item" href="/workinggroups/">Working Groups</a>
+            <a class="dropdown-item" href="https://github.com/apache/comdev-working-groups">Git repositories</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="conversDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Join the Conversation
+          </a>
+          <div class="dropdown-menu" aria-labelledby="conversDropdown">
+            <a class="dropdown-item" href="/blog/">Blog</a>
+            <a class="dropdown-item" href="https://www.facebook.com/ApacheSoftwareFoundation">Facebook</a>
+            <a class="dropdown-item" href="https://x.com/TheASF">X (Formerly Twitter)</a>
+            <a class="dropdown-item" href="/lists.html">Mailing List</a>
+            <a class="dropdown-item" href="/alc/">ALC: Apache Local Communities</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+    </div>
+  </header>
+
+  <main class="cd-main" id="content" role="main">
+    <div class="container">
+      
+      <hr>
+       
+      
+	
+	<br><br>
+	<p>This is a place for collecting information about GSoC activities each year for historical tracking.
+Your help filling it out would be appreciated.</p>
+<h1 id="gsoc-2026-details">GSoC 2026 Details <a class="headerlink" title="Permalink" href="#gsoc-2026-details">&para;</a></h1>
+<ul>
+<li>Students accepted: 34</li>
+<li>Students who passed final: -</li>
+</ul>
+<table>
+  <thead>
+      <tr>
+          <th></th>
+          <th>Contributor</th>
+          <th>Project</th>
+          <th>Mentors</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td></td>
+          <td>abhishekmishra12</td>
+          <td>Add Multi-User and POSIX File Permission Support to Apache NuttX</td>
+          <td>Daniel Monteiro, Rodrigo Sim</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Acfboy</td>
+          <td>Add X11 graphic support on NuttX using NanoX</td>
+          <td>Pavel Pisa</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Aira Jena</td>
+          <td>Fineract Business Intelligence</td>
+          <td>Tofunmi Oguntibeju, Aman_Mittal, James Dailey</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>AlexAnokhin</td>
+          <td>Dynamic Memory Management for Apache AsterixDB</td>
+          <td>Shiva Jahangiri</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Aviral Garg</td>
+          <td>Apache NuttX- Create a NuttX Distribution Layer with Dynamic ELF Application and Library Support</td>
+          <td>Alan, Halysson</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Boyang Gong</td>
+          <td>CPU/GPU Checkpoint and Restore for Airavata Linkspan</td>
+          <td>SureshMarru</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>CAICAIIs</td>
+          <td>Enhance Seata-Go Multi-Registry Support and seata-ctl Diagnostic Tool Capability</td>
+          <td>FinnTew</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>contrueCT</td>
+          <td>HugeGraph Query Engine Dependency Modernization</td>
+          <td>Imba Jin, vaughn</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>CR1TIC4L</td>
+          <td>Foundational Loan Origination POC: External LOS Service and Survey for Apache Fineract</td>
+          <td>James Dailey</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Dheeraj Bansal</td>
+          <td>Improving CloudMonkey Autocompletion with Enum Value Suggestions</td>
+          <td>Pearl Dsilva, Soreana</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Edward Kang</td>
+          <td>Create a new Backend for Frontend and Frontend POC for Apache Fineract</td>
+          <td>Aman_Mittal, James Dailey</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Elia Liu</td>
+          <td>Native Streaming Transforms for the Apache Beam Python SDK</td>
+          <td>Yi Hu</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Felipe Moura</td>
+          <td>Dropbear port (or other SSH Server/Client) to NuttX</td>
+          <td>Alan, Rodrigo Sim</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Hansel Tepal</td>
+          <td>[GSOC-273] Test optimization and integration of a resource and security monitoring system</td>
+          <td>Pablo E</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Jayanth Vennamreddy</td>
+          <td>Virtual Filesystem for Molecular Dynamics Dataset Metadata in Apache Airavata</td>
+          <td>SureshMarru</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Jhe Chen Li</td>
+          <td>Apache Airflow Contribution &amp; Verification Agent Skills</td>
+          <td>Zhe-You Liu</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Jingyi Qu</td>
+          <td>Apache SkyWalking Natural Language to BydbQL</td>
+          <td>Hongtao Gao, Sheng Wu</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Jun Wang</td>
+          <td>Make Wayang More Datalake-Friendly</td>
+          <td>zkaoudi, Mirko (Scalytics Inc.), Kaustubh Beedkar</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Krishna Mewara</td>
+          <td>Fineract-Client-Feign usage for Integration Tests</td>
+          <td>Tofunmi Oguntibeju, Attila Budai</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>makarandhinge</td>
+          <td>Implementing JDBC Driver for Apache Wayang</td>
+          <td>Kaustubh Beedkar</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Matteo Golin</td>
+          <td>Fully Porting NuttX to the Raspberry Pi 4B</td>
+          <td>CeDeROM, Roberto Bucher</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Muhammad Junaid Shaukat</td>
+          <td>Apache Beam Add Kafka Streams Runner</td>
+          <td>Jan Lukavský</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Nidhi Bhawari</td>
+          <td>New Command Processing Infrastructure</td>
+          <td>Tofunmi Oguntibeju, James Dailey</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Nipuna Bandara</td>
+          <td>[Airavata] - UX Design &amp; Development for SSH Signer &amp; Allocation Dashboard in Apache Airavata Custos</td>
+          <td>SureshMarru, Eroma Abeysinghe</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Peiyang He</td>
+          <td>Apache Fory C++ &amp; Rust gRPC Integration</td>
+          <td>Chaokun Yang</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Prajwal Banakar</td>
+          <td>Native RoaringBitmap Integration for Apache Fluss</td>
+          <td>Jark Wu</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Shanzita siddiqua</td>
+          <td>CEP 59 Graceful Disconnect for Apache Cassandra</td>
+          <td>Jane He</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>tibrahim</td>
+          <td>An HTTP/3 Module for the Apache HTTP Server Using OpenSSL QUIC and nghttp3</td>
+          <td>jfclere</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Varun Lakhyani</td>
+          <td>Improving Iceberg Read Performance</td>
+          <td>Russell Spitzer</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Vic Wen</td>
+          <td>Apache Mahout: Automated API Documentation Pipeline for Qumat &amp; QDP</td>
+          <td>Jie-Kai Chang</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Vivek Gangavarapu</td>
+          <td>LLM Agent Protocols/Memory</td>
+          <td>Suryaa charan</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Yash_Agarwa_l</td>
+          <td>Apache Fory Swift &amp; Dart gRPC integration</td>
+          <td>Chaokun Yang</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>yc_lai</td>
+          <td>Rust Code Quality and Website Improvements for Apache Mahout</td>
+          <td>Kuan-Hao Huang</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Zihan Dai</td>
+          <td>Enhancing ThingsBoard Integration with IoTDB 2.X Table Mode</td>
+          <td>critas</td>
+          <td>- / -</td>
+      </tr>
+  </tbody>
+</table>
+
+
+    </div>
+  </main>
+
+  <footer class="page-footer bg-secondary mt-4 pt-3">
+    <div class="container text-center text-md-left mb-3">
+      <div class="row">
+        <div class="col-md-6 mt-md-0 mt-3">
+          <h5 class="text-uppercase">Trademarks</h5>
+          <p>
+            Apache&reg;, the names of Apache projects, and the Apache logo are
+            <a href="https://www.apache.org/foundation/marks/list/">registered trademarks or trademarks</a> of the Apache
+            Software Foundation in the United States and/or other countries.
+          </p>
+        </div>
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <div class="col-md-6 mb-md-0 mb-3">
+          <h5 class="text-uppercase">Website sources</h5>
+          <p>
+  This website is generated from the <a href="https://github.com/apache/comdev-site">comdev-site repository</a>
+  
+    <br>
+    Source of this page:
+      <a href="https://github.com/apache/comdev-site/blob/main/source/gsoc/experiences/gsoc-2026.md" title="Source of this page">
+        gsoc/experiences/gsoc-2026.md
+      </a>
+  
+</p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright text-center py-3">
+      <em>Copyright &copy; 2026, <a href="https://www.apache.org/">the Apache Software Foundation</a>. Licensed under the
+      <a rel="license" href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></em>
+      <br/>
+      <span class="small">
+        <a href="https://www.apache.org/">Foundation</a> |
+        <a href="https://www.apache.org/events/current-event.html">Events</a> |
+        <a href="https://www.apache.org/licenses/">License</a> |
+        <a href="https://www.apache.org/security/">Security</a> |
+        <a href="https://www.apache.org/foundation/sponsorship.html">Sponsorship</a> |
+        <a href="https://www.apache.org/foundation/thanks.html">Thanks</a> |
+        <a href="https://privacy.apache.org/policies/privacy-policy-public.html">Privacy</a>
+      </span>
+    </div>
+  </footer>
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>
