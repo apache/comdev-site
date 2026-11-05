@@ -8,17 +8,22 @@ collecting information about GSoC activities each year for historical tracking. 
 was started in 2012 so is missing plenty of detail in the early years. Your help 
 filling it out would be appreciated.
 
+Figures for 2005-2008 and 2016 onward come from Google's GSoC archives; those for 2016-2021
+list only projects that completed, so the "accepted" number isn't known. Some older
+figures here came from ASF records and may differ from Google's (2017: 23 in Google's archive;
+2018: 23). No archive survives for 2009-2015.
+
 # [2026 Overview](/gsoc/experiences/gsoc-2026.html)
 
 * Students accepted: 34
 * Students who passed midterm: -
-* Students who passed final: -
+* Students who passed final: 33 (one project still in progress)
 
 # [2025 Overview](/gsoc/experiences/gsoc-2025.html)
 
 * Students accepted: 27
 * Students who passed midterm: -
-* Students who passed final: -
+* Students who passed final: 25
 
 # [2024 Overview](/gsoc/experiences/gsoc-2024.html)
 
@@ -38,17 +43,32 @@ filling it out would be appreciated.
 * Students who passed midterm: 36
 * Students who passed final: 33
 
-# 2018 Overview
+# [2021 Overview](/gsoc/experiences/gsoc-2021.html)
+
+* Students accepted: ?
+* Students who passed final: 28
+
+# [2020 Overview](/gsoc/experiences/gsoc-2020.html)
+
+* Students accepted: ?
+* Students who passed final: 17
+
+# [2019 Overview](/gsoc/experiences/gsoc-2019.html)
+
+* Students accepted: ?
+* Students who passed final: 17
+
+# [2018 Overview](/gsoc/experiences/gsoc-2018.html)
   
   * Students accepted: ?
   * Students who passed final: 29
 
-# 2017 Overview
+# [2017 Overview](/gsoc/experiences/gsoc-2017.html)
   
   * Students accepted: ?
   * Students who passed final: 27
 
-# 2016 Overview
+# [2016 Overview](/gsoc/experiences/gsoc-2016.html)
   
   * Students accepted: 49
   * Students who passed final: 35
@@ -98,9 +118,26 @@ Wookie, OpenMeetings, Nuvem, Hama, VXQuery
   * Students accepted: 44
   * Students who passed final: 39
 
-# 2005
+# [2008 Overview](/gsoc/experiences/gsoc-2008.html)
 
-First year Apache participated 
+* Students accepted: 23
+* Students who passed final: ?
+
+# [2007 Overview](/gsoc/experiences/gsoc-2007.html)
+
+* Students accepted: 21
+* Students who passed final: ?
+
+# [2006 Overview](/gsoc/experiences/gsoc-2006.html)
+
+* Students accepted: 22
+* Students who passed final: ?
+
+# [2005 Overview](/gsoc/experiences/gsoc-2005.html)
+
+First year Apache participated.
+
+* Students accepted: 16 
 
   [1]: https://scottbw.wordpress.com/2012/08/22/wookie-adds-support-for-signed-widgets-thanks-to-google-summer-of-code/
   [2]: https://pushpalankajaya.blogspot.com/search/label/GSoC
