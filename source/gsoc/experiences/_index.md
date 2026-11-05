@@ -2,9 +2,6 @@
 title: Apache in GSoC
 url: /gsoc/experiences
 ---
----
-
-*This should be in the GSoC directory*
 
 This is a place for
 collecting information about GSoC activities each year for historical tracking. It 
