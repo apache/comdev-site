@@ -4,39 +4,39 @@ url: /about/
 tags: ["faq"]
 ---
 
-## Community Development: What We Do
+# Community Development: What We Do
 
 The Community Development (ComDev) project 
 provides a wide array of information, [FAQs](/newbiefaq.html), and help to newcomers and existing committers, and maintains a number of [helpful tools](#getcode).
 
 {{% toc %}}
 
-### Mentoring for Individuals and Help Getting Around
+## Mentoring for Individuals and Help Getting Around
 - [GSoC](/gsoc/)
 - [Contributors Guide](/newcomers/)
 - [Committers Guide](/committers)
 - [Contributor Ladder](https://community.apache.org/contributor-ladder.html) of roles
 - [Project Management Committees](https://community.apache.org/pmc/)
 
-### Mentoring for Projects
+## Mentoring for Projects
 - [Incubator Mentors](https://incubator.apache.org/guides/mentor.html) - Many folks here are IPMC members or mentors, too
 - Get community advice on dev@community
 
-### Education + Outreach
+## Education + Outreach
 - [Community Over Code](https://communityovercode.org/) *(formerly ApacheCon)*
 - Partnered Industry Events (FOSDEM etc.)
 - MeetUps, Apache BarCamps, etc.
 - Event Representatives (booth coverage, etc.)
 - [Sample Presentations](/speakers/slides.html)
 
-### Diversity
+## Diversity
 - [Diversity Website](http://diversity.apache.org/)
 - [Code of Conduct](https://www.apache.org/foundation/policies/conduct.html)
 
-### Conference Travel Assistance
+## Conference Travel Assistance
 - [TAC - Travel Assistance Committee](https://www.apache.org/travel)
 
-### Tools and Code we Maintain ### {#getcode}
+## Tools and Code we Maintain
 
 ComDev manages a number of helpful tools for finding your way around.
 
@@ -47,7 +47,7 @@ ComDev manages a number of helpful tools for finding your way around.
 
 The ComDev PMC maintains these tools, so bring questions to our [dev@](https://lists.apache.org/list.html?dev@community.apache.org) list.
 
-### Physical artifacts
+## Physical artifacts
 
 * Stickers: Request project stickers for your event, depending on geography
 
