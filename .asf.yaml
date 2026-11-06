@@ -8,6 +8,7 @@ github:
     - community
     - comdev
     - hugo
+  issues: true
 
 notifications:
   commits:      commits@community.apache.org
