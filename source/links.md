@@ -8,17 +8,17 @@ This is a collection of links to information that's relevant to the Apache Way a
 Note that most of these links point to websites that are outside of the control of the Apache Software Foundation. Please contact their respective 
 authors for more information or questions. General discussion on the dev@community.a.o list is fine of course.
 
-# Books
+## Books
 * [Producing Open Source Software][1] - by Karl Fogel
 
-# Blog posts
+## Blog posts
 * [Apache - the Switzerland of Open Source?][2] - by Bertrand Delacretaz
 * [Thinking Together][3] - by Phil Steitz
 
-# Slides
+## Slides
 * [Behind the Scenes of the Apache Software Foundation][4] - by Lars Eilebrecht (PDF)
 
-# Apache community members websites and links
+## Apache community members' websites and links
 * [Shane's "the Apache Way"][5] - An Apache Way Primer by Shane Curcuru
 
   [1]: https://producingoss.com/
