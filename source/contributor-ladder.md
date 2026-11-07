@@ -1,7 +1,8 @@
 ---
-title: ASF Contributor Ladder
+Title: ASF Contributor Ladder
 tags: ["pmc","roles","committers","members","officers","board"]
 ---
+{{ .Title }}
 
 Each step up brings concrete benefits - deeper influence over the
 software's direction, a stronger professional network, and skills that
