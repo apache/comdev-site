@@ -565,7 +565,7 @@
       <link>https://community.apache.org/contributor-ladder.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://community.apache.org/contributor-ladder.html</guid>
-      <description>&lt;p&gt;Each step up brings concrete benefits - deeper influence over the&#xA;software&amp;rsquo;s direction, a stronger professional network, and skills that&#xA;transfer to any engineering role. &lt;a href=&#34;https://community.apache.org/newcomers/why.html&#34;&gt;Why contribute?&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Projects at the ASF offer a way to grow in your responsibilities in the&#xA;project, from being a user, all the way up to being a maintainer of the&#xA;project. While the specific details may look different from one project&#xA;to another, the rungs of the ladder look mostly the same.&lt;/p&gt;</description>
+      <description>&lt;p&gt;{{ .Title }}&lt;/p&gt;&#xA;&lt;p&gt;Each step up brings concrete benefits - deeper influence over the&#xA;software&amp;rsquo;s direction, a stronger professional network, and skills that&#xA;transfer to any engineering role. &lt;a href=&#34;https://community.apache.org/newcomers/why.html&#34;&gt;Why contribute?&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Projects at the ASF offer a way to grow in your responsibilities in the&#xA;project, from being a user, all the way up to being a maintainer of the&#xA;project. While the specific details may look different from one project&#xA;to another, the rungs of the ladder look mostly the same.&lt;/p&gt;</description>
     </item>
     <item>
       <title>ASF volunteers, mentors and speakers</title>
