@@ -4,16 +4,18 @@ url: /contactpoints.html
 tags: ["communication","contacts"]
 ---
 
+# Contact points
+
 If you have a question about anything Apache, the ComDev project is here to help guide you to the right place.  
 To help us help you, try to direct your question to the [right mailing list](https://apache.org/foundation/mailinglists) - our volunteers do all their work on mailing lists.
 
 {{% toc %}}
 
-# Community Questions
+## Community Questions
 
 Email questions about community or issues across multiple Apache projects to [dev@community.apache.org](mailto:dev@community.apache.org?subject=New-Contact-Question) - or see our detailed [Mailing List How To](//community.apache.org/lists.html) page.
 
-# Technical Questions
+## Technical Questions
 
 If you have a *technical* question about *this* website, or one of the 
 [tools that the ComDev project builds](https://community.apache.org/about/#getcode), 
@@ -23,14 +25,14 @@ If you *technical* question about *any other* Apache project, email
 the [appropriate user@*projectname*.apache.org](/lists.html) list, or the `dev@` list for 
 the project.
 
-# Non-Technical Questions
+## Non-Technical Questions
 
 Most of the below mailing lists are privately archived: you can mail to them, and 
 we'll answer, but you won't be able to read the archives.
 
 <span id="ContactPoints-Trademarks"></span>
 
-## Trademarks
+### Trademarks
 
 Issues regarding trademarks, specific project names, or branding of the
 ASF and any projects: see our [Trademark Site Map](//www.apache.org/foundation/marks/resources), 
@@ -39,7 +41,7 @@ or [Contact the Trademarks team](https://apache.org/foundation/marks/contact).
 
 <span id="ContactPoints-PublicityandMarketing"></span>
 
-## Publicity and Marketing
+### Publicity and Marketing
 
 Issues dealing with publicity, marketing, or any inquires from the
 press or analysts: see our [Press Team Page](https://www.apache.org/press/),
@@ -47,7 +49,7 @@ press or analysts: see our [Press Team Page](https://www.apache.org/press/),
 
 <span id="ContactPoints-FundraisingandSponsorship"></span>
 
-## Fundraising and Sponsorship
+### Fundraising and Sponsorship
 
 Questions about fundraising, sponsorships, donations, or related
 finances: see our [Donations Information](//www.apache.org/foundation/contributing.html),
