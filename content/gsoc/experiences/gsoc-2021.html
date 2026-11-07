@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+  <meta name="description" content="Apache Community Development">
+  <meta name="keywords" content="apache, apache community, community development, opensource">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" >
+  <meta property="og:url" content="https://community.apache.org/gsoc/experiences/gsoc-2021.html">
+  <meta property="og:site_name" content="ASF Community Development">
+  <meta property="og:title" content="Apache in GSoC">
+  <meta property="og:description" content="This is a place for collecting information about GSoC activities each year for historical tracking. Your help filling it out would be appreciated.
+GSoC 2021 Details ¶ Students accepted: - Students who passed final: 28 Source: the GSoC 2021 archive, which lists only projects that completed the program.
+Contributor Project Mentors Status Benura Abeywardena Improve Robustness by fixing Issues / Feature Requests from the backlog Manthan Raju Surkar, bharath gowda, sanyamgoel96 Passed / Passed Huaxi Jiang Enhance verification for APISIX ingress controller Wei Jin, Ming Wen Passed / Passed Yusuf Karadag Application Proposal for Apache Clerezza Hasan Hasan, Furkan KAMACI Passed / Passed Junxuan Wu Proposal for cloudstack: cloning a VM Suresh Kumar Anaparti, Nicolas Vazquez, Rohit Yadav Passed / Passed nrumeshp COMDEV-412 Apache DolphinScheduler Parameter coverage Calvin Kirs, Kevin Ratnasekera Passed / Passed Bikram Biswas-1 Multiple SSH key holding on CloudStack Nicolas Vazquez, Harikrishna Patnala, David Jumani, Rohit Yadav Passed / Passed Varun Jain Functional Enhancements To Fineract CN Mobile Application Chinmay Kulkarni, Ahmad Jawid Muhammadi Passed / Passed Nuwan Jayawardene Containerisation of Apache Synapse ESB Isuru Udana, Vanjikumaran Sivajothy Passed / Passed fibersel Add ttl for cassandra snapshots Stefan Miklosovic, Paulo Motta Passed / Passed Danish Jamal Fineract Client Chinmay Kulkarni, Shashank Priyadarshi Passed / Passed Hwarim Hyun Implementing Work Stealing on Nemo Taegeon Um, Won Wook SONG Passed / Passed Fang Hu APISIX ingress controller integration with Knative Serving Shuyang Wu, Ming Wen Passed / Passed Hae Dong Lee [Incubator-Nemo] Accurate Task Execution Simulator for Distributed Data Processing Gyewon Lee, Won Wook SONG Passed / Passed ShivamSingh Redesign, develop and refactor APISIX landing page Shuyang Wu, Zhiyuan Ju, Ming Wen Passed / Passed Nasser Yemdjih Kaze Machine Learning Credit Scorecard PHASE 4 Rahul Goel, aliter42, Abhijit Ramesh Passed / Passed Ji Ho Kang Nemo Optimization by WAN Hierarchical Aggregation and Fidelity Control Jeongyoon Eo, Won Wook SONG Passed / Passed Hồng Quân Trần Apache James - Implement Thread support for JMAP Rene Cordier, Benoit Tellier Passed / Passed infaz Support JOOQ API within gora-sql module Madhawa Gunasekara, Kevin Ratnasekera Passed / Passed Pavindu Lakshan Apache OODT - Improving OPSUI React.js UI with Advanced Functionalities Nadeeshan Gimhana, Imesha Sudasingha Passed / Passed Michal Lenc NuttX Support for Rapid Control Applications Development with pysimCoder Roberto Bucher, Pavel Pisa, Brennan Ashton Passed / Passed Apurv Gupta UX Enhancements Rohit Yadav, David Jumani, Boris Stoyanov Passed / Passed Zeping Bai Enhanced authentication for APISIX Dashboard JunXu Chen, Ming Wen Passed / Passed Kinar Sharma Functional Enhancements to Fineract CN Mobile Garvit Agarwal, Ahmad Jawid Muhammadi, Devansh Aggarwal Passed / Passed Thanoshan M.V. Proofread Oracle DML SQL Definitions for the ShardingSphere Parser Zhenxu Ke, Juan Pan Passed / Passed Caleb Herbel Dynamic Partitioning for Interval Joins in Asterix Database prestonc@apache, Tin Vu Passed / Passed Sang Woo Bae Apache CloudStack - Synchronization of network devices on newly added hosts for Persistent Networks Rohit Yadav, Harikrishna Patnala, Pearl Dsilva, Nicolas Vazquez Passed / Passed Liangda Wang Apache ShardingSphere - Proofread the Oracle DDL/TCL SQL Definitions Zhenxu Ke, Juan Pan Passed / Passed Ke Zhang Proposal for Apache SkyWalking: Python agent supports profiling Zhenxu Ke, Juan Pan Passed / Passed">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="gsoc">
+    <meta property="article:modified_time" content="2026-11-05T09:04:19-05:00">
+    <meta property="og:image" content="https://community.apache.org/images/project-logos.webp">
+
+
+  <title>Apache Community Development - Apache in GSoC</title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link href="/css/main.css" rel="stylesheet" media="screen">
+  <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <style>
+      .footer {
+          text-align:center;
+          color:grey;
+          font-size:80%;
+          border-top: solid #ddd 1px;
+          margin-top:1em;
+      }
+      .navbar-brand img {
+          height: 50px;
+      }
+  </style>
+
+  
+<script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(['disableCookies']);
+   
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.apache.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '36']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+
+  
+
+</head>
+
+<body>
+  <header class="navbar navbar-expand-lg navbar-dark bg-bright fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+    <img src="https://apache.org/img/asf_logo.png" alt="Apache Software Foundation">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="mainNavbar">
+    <div class="container"> 
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="homeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Home
+            </a>
+            <div class="dropdown-menu" aria-labelledby="homeDropdown">
+              <a class="dropdown-item" href="/">Homepage</a>
+              <a class="dropdown-item" href="/tags/">Tags</a>
+              <a class="dropdown-item" href="/blog/">Blog</a>
+              <a class="dropdown-item" href="/tags/navigation.html">Navigation pages</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About
+          </a>
+          <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+            <a class="dropdown-item" href="/about/">What We Do</a>
+            <a class="dropdown-item" href="/newbiefaq.html">Frequently Asked Questions</a>
+            <a class="dropdown-item" href="/projectIndependence.html">Apache Project Independence</a>
+            <a class="dropdown-item" href="/apache-way/apache-project-maturity-model.html">Apache Project Maturity Model</a>
+            <a class="dropdown-item" href="/contactpoints.html">Contact Points Within the ASF</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html#2009-11-01">ComDev Original Board Resolution</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html">ComDev Board Reports</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/COMDEV">Community Development Jira</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">About Apache</a>
+            <a class="dropdown-item" href="https://www.apache.org/">The Apache Software Foundation</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/sponsorship">Sponsor Apache</a>
+            <a class="dropdown-item" href="http://diversity.apache.org/">Diversity & Inclusion</a>
+             <a class="dropdown-item" href="/contributors/asf-volunteers.html">Mentors &amp; Speakers</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/thanks">Thanks to our Sponsors</a>
+            <a class="dropdown-item" href="https://www.apache.org/licenses">License</a>
+            <a class="dropdown-item" href="https://www.apache.org/security">Security</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="contribDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Contributing
+          </a>
+          <div class="dropdown-menu" aria-labelledby="contribDropdown">
+            <a class="dropdown-item" href="/newcomers/why.html">Why Contribute?</a>
+            <a class="dropdown-item" href="/contributor-ladder.html">Contributor Ladder</a>
+            <a class="dropdown-item" href="/newcomers/">Getting Started at Apache</a>
+            <a class="dropdown-item" href="/contributors/">Contributing to projects</a>
+            <a class="dropdown-item" href="/committers/">Committers</a>
+            <a class="dropdown-item" href="/pmc/">PMC Members</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">Committer and PMC Information</a>
+            <a class="dropdown-item" href="https://www.apache.org/dev/">Technical Developer FAQs</a>
+            <a class="dropdown-item" href="/committers/decisionMaking.html">Decision Making</a>
+            <a class="dropdown-item" href="/committers/good-first-issues.html">Good First Issues</a>
+            <a class="dropdown-item" href="/pmc/community-growth.html">Recruiting New Contributors</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="gsocDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">GSoC</a>
+          <div class="dropdown-menu" aria-labelledby="gsocDropdown">
+            <a class="dropdown-item" href="/gsoc/">Google Summer Of Code Information</a>
+            <a class="dropdown-item" href="/gsoc/mentee-ranking-process.html">Mentee Ranking Process</a>
+            <a class="dropdown-item" href="/gsoc/experiences/">Past GSoC Experiences</a>
+            <a class="dropdown-item" href="/gsoc/guide-to-being-a-mentor.html">Guide to being a Mentor</a>
+            <a class="dropdown-item" href="/gsoc/use-the-comdev-gsoc-issue-tracker-for-gsoc-tasks.html">Using ComDev's Jira for GSoC Ideas</a>
+            <a class="dropdown-item" href="/gsoc/gsoc-admin-tasks.html">Tasks of a GSoC Admin at the ASF</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/GSOC">GSoC Jira</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="eventDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Events
+          </a>
+          <div class="dropdown-menu" aria-labelledby="eventDropdown">
+            <a class="dropdown-item" href="https://apachecon.com/">Community Over Code - (formerly ApacheCon)</a>
+            <a class="dropdown-item" href="https://events.apache.org/">Other Apache-related Events</a>
+            <a class="dropdown-item" href="/alc/">Local Communities (ALC)</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/marks/events">Apache event branding policies</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">Conference Speakers</a>
+            <a class="dropdown-item" href="/speakers/">Speaker resources</a>
+            <a class="dropdown-item" href="/speakers/slides.html">Sample presentations</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="wgDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Working Groups
+          </a>
+          <div class="dropdown-menu" aria-labelledby="wgDropdown">
+            <a class="dropdown-item" href="/workinggroups/">Working Groups</a>
+            <a class="dropdown-item" href="https://github.com/apache/comdev-working-groups">Git repositories</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="conversDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Join the Conversation
+          </a>
+          <div class="dropdown-menu" aria-labelledby="conversDropdown">
+            <a class="dropdown-item" href="/blog/">Blog</a>
+            <a class="dropdown-item" href="https://www.facebook.com/ApacheSoftwareFoundation">Facebook</a>
+            <a class="dropdown-item" href="https://x.com/TheASF">X (Formerly Twitter)</a>
+            <a class="dropdown-item" href="/lists.html">Mailing List</a>
+            <a class="dropdown-item" href="/alc/">ALC: Apache Local Communities</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+    </div>
+  </header>
+
+  <main class="cd-main" id="content" role="main">
+    <div class="container">
+      
+      <hr>
+       
+      
+	
+	<br><br>
+	<p>This is a place for collecting information about GSoC activities each year for historical tracking.
+Your help filling it out would be appreciated.</p>
+<h1 id="gsoc-2021-details">GSoC 2021 Details <a class="headerlink" title="Permalink" href="#gsoc-2021-details">&para;</a></h1>
+<ul>
+<li>Students accepted: -</li>
+<li>Students who passed final: 28</li>
+</ul>
+<p>Source: the <a href="https://summerofcode.withgoogle.com/archive/2021/organizations">GSoC 2021 archive</a>, which lists only projects that completed the program.</p>
+<table>
+  <thead>
+      <tr>
+          <th></th>
+          <th>Contributor</th>
+          <th>Project</th>
+          <th>Mentors</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td></td>
+          <td>Benura Abeywardena</td>
+          <td>Improve Robustness by fixing Issues / Feature Requests from the backlog</td>
+          <td>Manthan Raju Surkar, bharath gowda, sanyamgoel96</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Huaxi Jiang</td>
+          <td>Enhance verification for APISIX ingress controller</td>
+          <td>Wei Jin, Ming Wen</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Yusuf Karadag</td>
+          <td>Application Proposal for Apache Clerezza</td>
+          <td>Hasan Hasan, Furkan KAMACI</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Junxuan Wu</td>
+          <td>Proposal for cloudstack: cloning a VM</td>
+          <td>Suresh Kumar Anaparti, Nicolas Vazquez, Rohit Yadav</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>nrumeshp</td>
+          <td>COMDEV-412 Apache DolphinScheduler Parameter coverage</td>
+          <td>Calvin Kirs, Kevin Ratnasekera</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Bikram Biswas-1</td>
+          <td>Multiple SSH key holding on CloudStack</td>
+          <td>Nicolas Vazquez, Harikrishna Patnala, David Jumani, Rohit Yadav</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Varun Jain</td>
+          <td>Functional Enhancements To Fineract CN Mobile Application</td>
+          <td>Chinmay Kulkarni, Ahmad Jawid Muhammadi</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Nuwan Jayawardene</td>
+          <td>Containerisation of Apache Synapse ESB</td>
+          <td>Isuru Udana, Vanjikumaran Sivajothy</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>fibersel</td>
+          <td>Add ttl for cassandra snapshots</td>
+          <td>Stefan Miklosovic, Paulo Motta</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Danish Jamal</td>
+          <td>Fineract Client</td>
+          <td>Chinmay Kulkarni, Shashank Priyadarshi</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Hwarim Hyun</td>
+          <td>Implementing Work Stealing on Nemo</td>
+          <td>Taegeon Um, Won Wook SONG</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Fang Hu</td>
+          <td>APISIX ingress controller integration with Knative Serving</td>
+          <td>Shuyang Wu, Ming Wen</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Hae Dong Lee</td>
+          <td>[Incubator-Nemo] Accurate Task Execution Simulator for Distributed Data Processing</td>
+          <td>Gyewon Lee, Won Wook SONG</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>ShivamSingh</td>
+          <td>Redesign, develop and refactor APISIX landing page</td>
+          <td>Shuyang Wu, Zhiyuan Ju, Ming Wen</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Nasser Yemdjih Kaze</td>
+          <td>Machine Learning Credit Scorecard PHASE 4</td>
+          <td>Rahul Goel, aliter42, Abhijit Ramesh</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Ji Ho Kang</td>
+          <td>Nemo Optimization by WAN Hierarchical Aggregation and Fidelity Control</td>
+          <td>Jeongyoon Eo, Won Wook SONG</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Hồng Quân Trần</td>
+          <td>Apache James - Implement Thread support for JMAP</td>
+          <td>Rene Cordier, Benoit Tellier</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>infaz</td>
+          <td>Support JOOQ API within gora-sql module</td>
+          <td>Madhawa Gunasekara, Kevin Ratnasekera</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Pavindu Lakshan</td>
+          <td>Apache OODT - Improving OPSUI React.js UI with Advanced Functionalities</td>
+          <td>Nadeeshan Gimhana, Imesha Sudasingha</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Michal Lenc</td>
+          <td>NuttX Support for Rapid Control Applications Development with pysimCoder</td>
+          <td>Roberto Bucher, Pavel Pisa, Brennan Ashton</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Apurv Gupta</td>
+          <td>UX Enhancements</td>
+          <td>Rohit Yadav, David Jumani, Boris Stoyanov</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Zeping Bai</td>
+          <td>Enhanced authentication for APISIX Dashboard</td>
+          <td>JunXu Chen, Ming Wen</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Kinar Sharma</td>
+          <td>Functional Enhancements to Fineract CN Mobile</td>
+          <td>Garvit Agarwal, Ahmad Jawid Muhammadi, Devansh Aggarwal</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Thanoshan M.V.</td>
+          <td>Proofread Oracle DML SQL Definitions for the ShardingSphere Parser</td>
+          <td>Zhenxu Ke, Juan Pan</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Caleb Herbel</td>
+          <td>Dynamic Partitioning for Interval Joins in Asterix Database</td>
+          <td>prestonc@apache, Tin Vu</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Sang Woo Bae</td>
+          <td>Apache CloudStack - Synchronization of network devices on newly added hosts for Persistent Networks</td>
+          <td>Rohit Yadav, Harikrishna Patnala, Pearl Dsilva, Nicolas Vazquez</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Liangda Wang</td>
+          <td>Apache ShardingSphere - Proofread the Oracle DDL/TCL SQL Definitions</td>
+          <td>Zhenxu Ke, Juan Pan</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Ke Zhang</td>
+          <td>Proposal for Apache SkyWalking: Python agent supports profiling</td>
+          <td>Zhenxu Ke, Juan Pan</td>
+          <td>Passed / Passed</td>
+      </tr>
+  </tbody>
+</table>
+
+
+    </div>
+  </main>
+
+  <footer class="page-footer bg-secondary mt-4 pt-3">
+    <div class="container text-center text-md-left mb-3">
+      <div class="row">
+        <div class="col-md-6 mt-md-0 mt-3">
+          <h5 class="text-uppercase">Trademarks</h5>
+          <p>
+            Apache&reg;, the names of Apache projects, and the Apache logo are
+            <a href="https://www.apache.org/foundation/marks/list/">registered trademarks or trademarks</a> of the Apache
+            Software Foundation in the United States and/or other countries.
+          </p>
+        </div>
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <div class="col-md-6 mb-md-0 mb-3">
+          <h5 class="text-uppercase">Website sources</h5>
+          <p>
+  This website is generated from the <a href="https://github.com/apache/comdev-site">comdev-site repository</a>
+  
+    <br>
+    Source of this page:
+      <a href="https://github.com/apache/comdev-site/blob/main/source/gsoc/experiences/gsoc-2021.md" title="Source of this page">
+        gsoc/experiences/gsoc-2021.md
+      </a>
+  
+</p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright text-center py-3">
+      <em>Copyright &copy; 2026, <a href="https://www.apache.org/">the Apache Software Foundation</a>. Licensed under the
+      <a rel="license" href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></em>
+      <br/>
+      <span class="small">
+        <a href="https://www.apache.org/">Foundation</a> |
+        <a href="https://www.apache.org/events/current-event.html">Events</a> |
+        <a href="https://www.apache.org/licenses/">License</a> |
+        <a href="https://www.apache.org/security/">Security</a> |
+        <a href="https://www.apache.org/foundation/sponsorship.html">Sponsorship</a> |
+        <a href="https://www.apache.org/foundation/thanks.html">Thanks</a> |
+        <a href="https://privacy.apache.org/policies/privacy-policy-public.html">Privacy</a>
+      </span>
+    </div>
+  </footer>
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+  <meta name="description" content="Apache Community Development">
+  <meta name="keywords" content="apache, apache community, community development, opensource">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" >
+  <meta property="og:url" content="https://community.apache.org/gsoc/experiences/gsoc-2008.html">
+  <meta property="og:site_name" content="ASF Community Development">
+  <meta property="og:title" content="Apache in GSoC">
+  <meta property="og:description" content="This is a place for collecting information about GSoC activities each year for historical tracking. Your help filling it out would be appreciated.
+GSoC 2008 Details ¶ Students accepted: 23 Students who passed final: - Source: the GSoC 2008 archive, which lists accepted projects but not results.
+Contributor Project Mentors Status Thilina Mahesh Buddhika Tuscany SCA Support in the Geronimo Admin Console Ant Elder - / - Oscar Castaneda Allow Google Android applications to easily consume business services (version 2.0 - 6Apr2008 @17.50) Adriano Crestani Campos - / - C. D. Tharindu Mathew harmony-demo-1 Alexei Y. Zakharov - / - Lahiru Mananada Gunathilake CLI for extract information from Apache Qpid Java broker Marnie McCormack - / - Milinda Lakmal Pathirage Ajax-based Monitoring Console for Apache ODE Tammo van Lessen - / - Douglas Siqueira Leite Integrate Google Services in SCA Compositions Luciano Resende - / - Erlend Birkenes derby-testandfix - Convert Derby tests to JUnit and fix Derby bugs Myrna van Lunteren - / - Hiranya Jayathilaka Implementing Conditional Type Assignment for Apache Xerces2-J Khaled Noaman - / - Umayanga Suran Jayathilaka Convert Apache Derby tests to JUnit and fix Derby bugs Katherine Marsden - / - Wojciech Janiszewski CORBA support for Apache Tuscany Zhaohui Feng - / - Abdel Hakim Deneche Codename Mahout.GA for mahout-machine-learning Grant Ingersoll - / - Haibo Zhao Integrate Google services in SCA compositions（Apache Tuscany） Luciano Resende - / - Heshan Suriyaarachchi Basic Security Profile (BSP) 1.0 Validation for Apache Rampart Nandana Sampath Mihindukulasooriya - / - András Belicza Policytool: command line tool for Harmony Sian January - / - Janandith Uditha Jayawardena Make the Scala Language usable in Sling. Bertrand Delacretaz - / - Lukas Fridolin Lang Cocoon block migration and development of new examples Reinhard Poetz - / - Nikola Tankovic Axis2/C CGI application Nandika Jayawardana - / - Junjie Peng derby-testandfix/Convert Derby tests to JUnit and fix Derby bugs Myrna van Lunteren - / - Varuna Parinda Jayasiri XPath implementation for Axis2/C Pallewela Mohottige Dumindu Perera - / - Robin Anil To implement Complementary Naïve Bayes algorithm using Map Reduce for Multicore Systems Ian Holsman - / - Tatyana Tokareva Open ID support for Roller blog server Dave Johnson - / - Matthias Epheser SOLR: Create a javascript client library for Apache Solr Ryan McKinley - / - Andrey Razumovsky Cayenne - Cayenne Modeler Improvements Kevin Joseph Menard, Jr. - / -">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="gsoc">
+    <meta property="article:modified_time" content="2026-11-05T09:04:19-05:00">
+    <meta property="og:image" content="https://community.apache.org/images/project-logos.webp">
+
+
+  <title>Apache Community Development - Apache in GSoC</title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link href="/css/main.css" rel="stylesheet" media="screen">
+  <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <style>
+      .footer {
+          text-align:center;
+          color:grey;
+          font-size:80%;
+          border-top: solid #ddd 1px;
+          margin-top:1em;
+      }
+      .navbar-brand img {
+          height: 50px;
+      }
+  </style>
+
+  
+<script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(['disableCookies']);
+   
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.apache.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '36']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+
+  
+
+</head>
+
+<body>
+  <header class="navbar navbar-expand-lg navbar-dark bg-bright fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+    <img src="https://apache.org/img/asf_logo.png" alt="Apache Software Foundation">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="mainNavbar">
+    <div class="container"> 
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="homeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Home
+            </a>
+            <div class="dropdown-menu" aria-labelledby="homeDropdown">
+              <a class="dropdown-item" href="/">Homepage</a>
+              <a class="dropdown-item" href="/tags/">Tags</a>
+              <a class="dropdown-item" href="/blog/">Blog</a>
+              <a class="dropdown-item" href="/tags/navigation.html">Navigation pages</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About
+          </a>
+          <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+            <a class="dropdown-item" href="/about/">What We Do</a>
+            <a class="dropdown-item" href="/newbiefaq.html">Frequently Asked Questions</a>
+            <a class="dropdown-item" href="/projectIndependence.html">Apache Project Independence</a>
+            <a class="dropdown-item" href="/apache-way/apache-project-maturity-model.html">Apache Project Maturity Model</a>
+            <a class="dropdown-item" href="/contactpoints.html">Contact Points Within the ASF</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html#2009-11-01">ComDev Original Board Resolution</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html">ComDev Board Reports</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/COMDEV">Community Development Jira</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">About Apache</a>
+            <a class="dropdown-item" href="https://www.apache.org/">The Apache Software Foundation</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/sponsorship">Sponsor Apache</a>
+            <a class="dropdown-item" href="http://diversity.apache.org/">Diversity & Inclusion</a>
+             <a class="dropdown-item" href="/contributors/asf-volunteers.html">Mentors &amp; Speakers</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/thanks">Thanks to our Sponsors</a>
+            <a class="dropdown-item" href="https://www.apache.org/licenses">License</a>
+            <a class="dropdown-item" href="https://www.apache.org/security">Security</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="contribDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Contributing
+          </a>
+          <div class="dropdown-menu" aria-labelledby="contribDropdown">
+            <a class="dropdown-item" href="/newcomers/why.html">Why Contribute?</a>
+            <a class="dropdown-item" href="/contributor-ladder.html">Contributor Ladder</a>
+            <a class="dropdown-item" href="/newcomers/">Getting Started at Apache</a>
+            <a class="dropdown-item" href="/contributors/">Contributing to projects</a>
+            <a class="dropdown-item" href="/committers/">Committers</a>
+            <a class="dropdown-item" href="/pmc/">PMC Members</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">Committer and PMC Information</a>
+            <a class="dropdown-item" href="https://www.apache.org/dev/">Technical Developer FAQs</a>
+            <a class="dropdown-item" href="/committers/decisionMaking.html">Decision Making</a>
+            <a class="dropdown-item" href="/committers/good-first-issues.html">Good First Issues</a>
+            <a class="dropdown-item" href="/pmc/community-growth.html">Recruiting New Contributors</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="gsocDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">GSoC</a>
+          <div class="dropdown-menu" aria-labelledby="gsocDropdown">
+            <a class="dropdown-item" href="/gsoc/">Google Summer Of Code Information</a>
+            <a class="dropdown-item" href="/gsoc/mentee-ranking-process.html">Mentee Ranking Process</a>
+            <a class="dropdown-item" href="/gsoc/experiences/">Past GSoC Experiences</a>
+            <a class="dropdown-item" href="/gsoc/guide-to-being-a-mentor.html">Guide to being a Mentor</a>
+            <a class="dropdown-item" href="/gsoc/use-the-comdev-gsoc-issue-tracker-for-gsoc-tasks.html">Using ComDev's Jira for GSoC Ideas</a>
+            <a class="dropdown-item" href="/gsoc/gsoc-admin-tasks.html">Tasks of a GSoC Admin at the ASF</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/GSOC">GSoC Jira</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="eventDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Events
+          </a>
+          <div class="dropdown-menu" aria-labelledby="eventDropdown">
+            <a class="dropdown-item" href="https://apachecon.com/">Community Over Code - (formerly ApacheCon)</a>
+            <a class="dropdown-item" href="https://events.apache.org/">Other Apache-related Events</a>
+            <a class="dropdown-item" href="/alc/">Local Communities (ALC)</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/marks/events">Apache event branding policies</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">Conference Speakers</a>
+            <a class="dropdown-item" href="/speakers/">Speaker resources</a>
+            <a class="dropdown-item" href="/speakers/slides.html">Sample presentations</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="wgDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Working Groups
+          </a>
+          <div class="dropdown-menu" aria-labelledby="wgDropdown">
+            <a class="dropdown-item" href="/workinggroups/">Working Groups</a>
+            <a class="dropdown-item" href="https://github.com/apache/comdev-working-groups">Git repositories</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="conversDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Join the Conversation
+          </a>
+          <div class="dropdown-menu" aria-labelledby="conversDropdown">
+            <a class="dropdown-item" href="/blog/">Blog</a>
+            <a class="dropdown-item" href="https://www.facebook.com/ApacheSoftwareFoundation">Facebook</a>
+            <a class="dropdown-item" href="https://x.com/TheASF">X (Formerly Twitter)</a>
+            <a class="dropdown-item" href="/lists.html">Mailing List</a>
+            <a class="dropdown-item" href="/alc/">ALC: Apache Local Communities</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+    </div>
+  </header>
+
+  <main class="cd-main" id="content" role="main">
+    <div class="container">
+      
+      <hr>
+       
+      
+	
+	<br><br>
+	<p>This is a place for collecting information about GSoC activities each year for historical tracking.
+Your help filling it out would be appreciated.</p>
+<h1 id="gsoc-2008-details">GSoC 2008 Details <a class="headerlink" title="Permalink" href="#gsoc-2008-details">&para;</a></h1>
+<ul>
+<li>Students accepted: 23</li>
+<li>Students who passed final: -</li>
+</ul>
+<p>Source: the <a href="https://code.google.com/soc/2008/">GSoC 2008 archive</a>, which lists accepted projects but not results.</p>
+<table>
+  <thead>
+      <tr>
+          <th></th>
+          <th>Contributor</th>
+          <th>Project</th>
+          <th>Mentors</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td></td>
+          <td>Thilina Mahesh Buddhika</td>
+          <td>Tuscany SCA Support in the Geronimo Admin Console</td>
+          <td>Ant Elder</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Oscar Castaneda</td>
+          <td>Allow Google Android applications to easily consume business services (version 2.0 - 6Apr2008 @17.50)</td>
+          <td>Adriano Crestani Campos</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>C. D. Tharindu Mathew</td>
+          <td>harmony-demo-1</td>
+          <td>Alexei Y. Zakharov</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Lahiru Mananada Gunathilake</td>
+          <td>CLI for extract information from Apache Qpid Java broker</td>
+          <td>Marnie McCormack</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Milinda Lakmal Pathirage</td>
+          <td>Ajax-based Monitoring Console for Apache ODE</td>
+          <td>Tammo van Lessen</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Douglas Siqueira Leite</td>
+          <td>Integrate Google Services in SCA Compositions</td>
+          <td>Luciano Resende</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Erlend Birkenes</td>
+          <td>derby-testandfix - Convert Derby tests to JUnit and fix Derby bugs</td>
+          <td>Myrna van Lunteren</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Hiranya Jayathilaka</td>
+          <td>Implementing Conditional Type Assignment for Apache Xerces2-J</td>
+          <td>Khaled Noaman</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Umayanga Suran Jayathilaka</td>
+          <td>Convert Apache Derby tests to JUnit and fix Derby bugs</td>
+          <td>Katherine Marsden</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Wojciech Janiszewski</td>
+          <td>CORBA support for Apache Tuscany</td>
+          <td>Zhaohui Feng</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Abdel Hakim Deneche</td>
+          <td>Codename Mahout.GA for mahout-machine-learning</td>
+          <td>Grant Ingersoll</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Haibo Zhao</td>
+          <td>Integrate Google services in SCA compositions（Apache Tuscany）</td>
+          <td>Luciano Resende</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Heshan Suriyaarachchi</td>
+          <td>Basic Security Profile (BSP) 1.0 Validation for Apache Rampart</td>
+          <td>Nandana Sampath Mihindukulasooriya</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>András Belicza</td>
+          <td>Policytool: command line tool for Harmony</td>
+          <td>Sian January</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Janandith Uditha Jayawardena</td>
+          <td>Make the Scala Language usable in Sling.</td>
+          <td>Bertrand Delacretaz</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Lukas Fridolin Lang</td>
+          <td>Cocoon block migration and development of new examples</td>
+          <td>Reinhard Poetz</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Nikola Tankovic</td>
+          <td>Axis2/C CGI application</td>
+          <td>Nandika Jayawardana</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Junjie Peng</td>
+          <td>derby-testandfix/Convert Derby tests to JUnit and fix Derby bugs</td>
+          <td>Myrna van Lunteren</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Varuna Parinda Jayasiri</td>
+          <td>XPath implementation for Axis2/C</td>
+          <td>Pallewela Mohottige Dumindu Perera</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Robin Anil</td>
+          <td>To implement Complementary Naïve Bayes algorithm using Map Reduce for Multicore Systems</td>
+          <td>Ian Holsman</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Tatyana Tokareva</td>
+          <td>Open ID support for Roller blog server</td>
+          <td>Dave Johnson</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Matthias Epheser</td>
+          <td>SOLR: Create a javascript client library for Apache Solr</td>
+          <td>Ryan McKinley</td>
+          <td>- / -</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Andrey Razumovsky</td>
+          <td>Cayenne - Cayenne Modeler Improvements</td>
+          <td>Kevin Joseph Menard, Jr.</td>
+          <td>- / -</td>
+      </tr>
+  </tbody>
+</table>
+
+
+    </div>
+  </main>
+
+  <footer class="page-footer bg-secondary mt-4 pt-3">
+    <div class="container text-center text-md-left mb-3">
+      <div class="row">
+        <div class="col-md-6 mt-md-0 mt-3">
+          <h5 class="text-uppercase">Trademarks</h5>
+          <p>
+            Apache&reg;, the names of Apache projects, and the Apache logo are
+            <a href="https://www.apache.org/foundation/marks/list/">registered trademarks or trademarks</a> of the Apache
+            Software Foundation in the United States and/or other countries.
+          </p>
+        </div>
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <div class="col-md-6 mb-md-0 mb-3">
+          <h5 class="text-uppercase">Website sources</h5>
+          <p>
+  This website is generated from the <a href="https://github.com/apache/comdev-site">comdev-site repository</a>
+  
+    <br>
+    Source of this page:
+      <a href="https://github.com/apache/comdev-site/blob/main/source/gsoc/experiences/gsoc-2008.md" title="Source of this page">
+        gsoc/experiences/gsoc-2008.md
+      </a>
+  
+</p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright text-center py-3">
+      <em>Copyright &copy; 2026, <a href="https://www.apache.org/">the Apache Software Foundation</a>. Licensed under the
+      <a rel="license" href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></em>
+      <br/>
+      <span class="small">
+        <a href="https://www.apache.org/">Foundation</a> |
+        <a href="https://www.apache.org/events/current-event.html">Events</a> |
+        <a href="https://www.apache.org/licenses/">License</a> |
+        <a href="https://www.apache.org/security/">Security</a> |
+        <a href="https://www.apache.org/foundation/sponsorship.html">Sponsorship</a> |
+        <a href="https://www.apache.org/foundation/thanks.html">Thanks</a> |
+        <a href="https://privacy.apache.org/policies/privacy-policy-public.html">Privacy</a>
+      </span>
+    </div>
+  </footer>
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+  <meta name="description" content="Apache Community Development">
+  <meta name="keywords" content="apache, apache community, community development, opensource">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" >
+  <meta property="og:url" content="https://community.apache.org/gsoc/experiences/gsoc-2016.html">
+  <meta property="og:site_name" content="ASF Community Development">
+  <meta property="og:title" content="Apache in GSoC">
+  <meta property="og:description" content="This is a place for collecting information about GSoC activities each year for historical tracking. Your help filling it out would be appreciated.
+GSoC 2016 Details ¶ Students accepted: - Students who passed final: 35 Source: the GSoC 2016 archive, which lists only projects that completed the program.
+Contributor Project Mentors Status haonguyen Mapping between the GeoTIFF metadata to ISO 19115 rmarechal, Martin Desruisseaux Passed / Passed bsikander Apache Hama benchmark against Spark and Flink Edward J. Yoon Passed / Passed nadeesh092 Running Docker from Apache Taverna Alan R Williams Passed / Passed rhnvrm Improving Discussion Threads and UI/UX of Apache Allura Heith, Dave Brondsema Passed / Passed Pradyut Notebooks for Weather Data Analytics Suresh Marru Passed / Passed Nges Brian White Box and Regression Testing of the Mynewt OS ccollins, mkiiskila Passed / Passed Pradeep Sanjeewa Port core OS and a subset of the utilities to a new 32-bit microcontroller Will, aditihilbert Passed / Passed Thilina Manamgoda TAVERNA-880 Browse&#43;use CWL tool descriptions Stian Soiland-Reyes Passed / Passed Kaide Mu Apache Cassandra: Make streaming operations resumable yukim, Paulo Motta Passed / Passed Tushar Apache SYNCOPE-809 Francesco Chicchiriccò Passed / Passed Janaka Add MongoDB to Tajo Storage Jaehwa Jung Passed / Passed kebertx Predicting Criminal Moments with Hidden Markov Models rvs, Suresh Marru Passed / Passed Davarresc Nuxeo repository and Authority connector for Apache ManifoldCF Antonio David Perez Morales Passed / Passed Jose Carrasco Mora Adding PaaS support to Brooklyn andreaturli@gmail.com Passed / Passed meta-coder Fineract: Implement integration for Unified Payments Interface Mage Passed / Passed Omkar Reddy Implementing a Python Utility Library for accessing PO.DAAC NASA JPL lewismc Passed / Passed anish18sun Zeppelin Notebooks moon Passed / Passed cihad guzel Apache CouchDB datastore implementation for Apache GORA lewismc Passed / Passed Menaka Apache VXQuery - Fully integrate Lucene Indexing into VXQuery Steven Jacobs Passed / Passed Dmitry.Bezheckov Proposal for Apache Open Meetings: OPENMEETINGS-1353 solomax, sebawagner@gmail.com Passed / Passed OnkarShedge Zeppelin Notebook Storage using P2P protocol Alexander Bezzubov Passed / Passed Danoja Derby bug Fixing Bryan Pendleton Passed / Passed Ibrahim Jarif Smoke Tests and Continuous Integration Infrastructure for Apache Open Climate Workbench lewismc Passed / Passed Furkan KAMACI Security Layer for NutchServer (NUTCH-1756) lewismc Passed / Passed djkevincr JCache DataStore Implementation for Apache Gora lewismc Passed / Passed jkinnison In-Situ Simulation Management and Analysis Using Apache Airavata Marlon Pierce, Suresh Marru Passed / Passed cricri JSONiq Support to Apache VXQUERY Till, prestonc@apache Passed / Passed Ankush Mishra Add the ability to sync events from CalDAV to Apache OpenMeetings Calendar solomax, sebawagner@gmail.com Passed / Passed Tao Lin Apache Spark: Build monitoring UI and related infrastructure for Spark SQL and structured streaming yhuai Passed / Passed Riyafa Abdul Hameed VXQUERY-178: Support JSONiq - add objects to the data model Till Passed / Passed Iván Lomba Add support for arbitrary CPU and RAM in the ComputeService (jclouds-482) nacx Passed / Passed Paul Bustios Apache Zeppelin Notebooks Alexander Bezzubov, moon Passed / Passed Gábor Horváth [FLINK-3599] Code Generation in Serializers and Comparators of Apache Flink mbalassi Passed / Passed anastasijam OPENNLP-840 - Sentiment Analysis Project Proposal chrismattmann Passed / Passed wonook Proposal for the Apache REEF project johnyangk, bgchun Passed / Passed">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="gsoc">
+    <meta property="article:modified_time" content="2026-11-05T09:04:19-05:00">
+    <meta property="og:image" content="https://community.apache.org/images/project-logos.webp">
+
+
+  <title>Apache Community Development - Apache in GSoC</title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link href="/css/main.css" rel="stylesheet" media="screen">
+  <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <style>
+      .footer {
+          text-align:center;
+          color:grey;
+          font-size:80%;
+          border-top: solid #ddd 1px;
+          margin-top:1em;
+      }
+      .navbar-brand img {
+          height: 50px;
+      }
+  </style>
+
+  
+<script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(['disableCookies']);
+   
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.apache.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '36']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+
+  
+
+</head>
+
+<body>
+  <header class="navbar navbar-expand-lg navbar-dark bg-bright fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+    <img src="https://apache.org/img/asf_logo.png" alt="Apache Software Foundation">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="mainNavbar">
+    <div class="container"> 
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="homeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Home
+            </a>
+            <div class="dropdown-menu" aria-labelledby="homeDropdown">
+              <a class="dropdown-item" href="/">Homepage</a>
+              <a class="dropdown-item" href="/tags/">Tags</a>
+              <a class="dropdown-item" href="/blog/">Blog</a>
+              <a class="dropdown-item" href="/tags/navigation.html">Navigation pages</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About
+          </a>
+          <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+            <a class="dropdown-item" href="/about/">What We Do</a>
+            <a class="dropdown-item" href="/newbiefaq.html">Frequently Asked Questions</a>
+            <a class="dropdown-item" href="/projectIndependence.html">Apache Project Independence</a>
+            <a class="dropdown-item" href="/apache-way/apache-project-maturity-model.html">Apache Project Maturity Model</a>
+            <a class="dropdown-item" href="/contactpoints.html">Contact Points Within the ASF</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html#2009-11-01">ComDev Original Board Resolution</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html">ComDev Board Reports</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/COMDEV">Community Development Jira</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">About Apache</a>
+            <a class="dropdown-item" href="https://www.apache.org/">The Apache Software Foundation</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/sponsorship">Sponsor Apache</a>
+            <a class="dropdown-item" href="http://diversity.apache.org/">Diversity & Inclusion</a>
+             <a class="dropdown-item" href="/contributors/asf-volunteers.html">Mentors &amp; Speakers</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/thanks">Thanks to our Sponsors</a>
+            <a class="dropdown-item" href="https://www.apache.org/licenses">License</a>
+            <a class="dropdown-item" href="https://www.apache.org/security">Security</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="contribDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Contributing
+          </a>
+          <div class="dropdown-menu" aria-labelledby="contribDropdown">
+            <a class="dropdown-item" href="/newcomers/why.html">Why Contribute?</a>
+            <a class="dropdown-item" href="/contributor-ladder.html">Contributor Ladder</a>
+            <a class="dropdown-item" href="/newcomers/">Getting Started at Apache</a>
+            <a class="dropdown-item" href="/contributors/">Contributing to projects</a>
+            <a class="dropdown-item" href="/committers/">Committers</a>
+            <a class="dropdown-item" href="/pmc/">PMC Members</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">Committer and PMC Information</a>
+            <a class="dropdown-item" href="https://www.apache.org/dev/">Technical Developer FAQs</a>
+            <a class="dropdown-item" href="/committers/decisionMaking.html">Decision Making</a>
+            <a class="dropdown-item" href="/committers/good-first-issues.html">Good First Issues</a>
+            <a class="dropdown-item" href="/pmc/community-growth.html">Recruiting New Contributors</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="gsocDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">GSoC</a>
+          <div class="dropdown-menu" aria-labelledby="gsocDropdown">
+            <a class="dropdown-item" href="/gsoc/">Google Summer Of Code Information</a>
+            <a class="dropdown-item" href="/gsoc/mentee-ranking-process.html">Mentee Ranking Process</a>
+            <a class="dropdown-item" href="/gsoc/experiences/">Past GSoC Experiences</a>
+            <a class="dropdown-item" href="/gsoc/guide-to-being-a-mentor.html">Guide to being a Mentor</a>
+            <a class="dropdown-item" href="/gsoc/use-the-comdev-gsoc-issue-tracker-for-gsoc-tasks.html">Using ComDev's Jira for GSoC Ideas</a>
+            <a class="dropdown-item" href="/gsoc/gsoc-admin-tasks.html">Tasks of a GSoC Admin at the ASF</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/GSOC">GSoC Jira</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="eventDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Events
+          </a>
+          <div class="dropdown-menu" aria-labelledby="eventDropdown">
+            <a class="dropdown-item" href="https://apachecon.com/">Community Over Code - (formerly ApacheCon)</a>
+            <a class="dropdown-item" href="https://events.apache.org/">Other Apache-related Events</a>
+            <a class="dropdown-item" href="/alc/">Local Communities (ALC)</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/marks/events">Apache event branding policies</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">Conference Speakers</a>
+            <a class="dropdown-item" href="/speakers/">Speaker resources</a>
+            <a class="dropdown-item" href="/speakers/slides.html">Sample presentations</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="wgDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Working Groups
+          </a>
+          <div class="dropdown-menu" aria-labelledby="wgDropdown">
+            <a class="dropdown-item" href="/workinggroups/">Working Groups</a>
+            <a class="dropdown-item" href="https://github.com/apache/comdev-working-groups">Git repositories</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="conversDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Join the Conversation
+          </a>
+          <div class="dropdown-menu" aria-labelledby="conversDropdown">
+            <a class="dropdown-item" href="/blog/">Blog</a>
+            <a class="dropdown-item" href="https://www.facebook.com/ApacheSoftwareFoundation">Facebook</a>
+            <a class="dropdown-item" href="https://x.com/TheASF">X (Formerly Twitter)</a>
+            <a class="dropdown-item" href="/lists.html">Mailing List</a>
+            <a class="dropdown-item" href="/alc/">ALC: Apache Local Communities</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+    </div>
+  </header>
+
+  <main class="cd-main" id="content" role="main">
+    <div class="container">
+      
+      <hr>
+       
+      
+	
+	<br><br>
+	<p>This is a place for collecting information about GSoC activities each year for historical tracking.
+Your help filling it out would be appreciated.</p>
+<h1 id="gsoc-2016-details">GSoC 2016 Details <a class="headerlink" title="Permalink" href="#gsoc-2016-details">&para;</a></h1>
+<ul>
+<li>Students accepted: -</li>
+<li>Students who passed final: 35</li>
+</ul>
+<p>Source: the <a href="https://summerofcode.withgoogle.com/archive/2016/organizations">GSoC 2016 archive</a>, which lists only projects that completed the program.</p>
+<table>
+  <thead>
+      <tr>
+          <th></th>
+          <th>Contributor</th>
+          <th>Project</th>
+          <th>Mentors</th>
+          <th>Status</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td></td>
+          <td>haonguyen</td>
+          <td>Mapping between the GeoTIFF metadata to ISO 19115</td>
+          <td>rmarechal, Martin Desruisseaux</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>bsikander</td>
+          <td>Apache Hama benchmark against Spark and Flink</td>
+          <td>Edward J. Yoon</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>nadeesh092</td>
+          <td>Running Docker from Apache Taverna</td>
+          <td>Alan R Williams</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>rhnvrm</td>
+          <td>Improving Discussion Threads and UI/UX of Apache Allura</td>
+          <td>Heith, Dave Brondsema</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Pradyut</td>
+          <td>Notebooks for Weather Data Analytics</td>
+          <td>Suresh Marru</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Nges Brian</td>
+          <td>White Box and Regression Testing of the Mynewt OS</td>
+          <td>ccollins, mkiiskila</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Pradeep Sanjeewa</td>
+          <td>Port core OS and a subset of the utilities to a new 32-bit microcontroller</td>
+          <td>Will, aditihilbert</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Thilina Manamgoda</td>
+          <td>TAVERNA-880 Browse+use CWL tool descriptions</td>
+          <td>Stian Soiland-Reyes</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Kaide Mu</td>
+          <td>Apache Cassandra: Make streaming operations resumable</td>
+          <td>yukim, Paulo Motta</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Tushar</td>
+          <td>Apache SYNCOPE-809</td>
+          <td>Francesco Chicchiriccò</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Janaka</td>
+          <td>Add MongoDB to Tajo Storage</td>
+          <td>Jaehwa Jung</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>kebertx</td>
+          <td>Predicting Criminal Moments with Hidden Markov Models</td>
+          <td>rvs, Suresh Marru</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Davarresc</td>
+          <td>Nuxeo repository and Authority connector for Apache ManifoldCF</td>
+          <td>Antonio David Perez Morales</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Jose Carrasco Mora</td>
+          <td>Adding PaaS support to Brooklyn</td>
+          <td><a href="mailto:andreaturli@gmail.com">andreaturli@gmail.com</a></td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>meta-coder</td>
+          <td>Fineract: Implement integration for Unified Payments Interface</td>
+          <td>Mage</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Omkar Reddy</td>
+          <td>Implementing a Python Utility Library for accessing PO.DAAC NASA JPL</td>
+          <td>lewismc</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>anish18sun</td>
+          <td>Zeppelin Notebooks</td>
+          <td>moon</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>cihad guzel</td>
+          <td>Apache CouchDB datastore implementation for Apache GORA</td>
+          <td>lewismc</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Menaka</td>
+          <td>Apache VXQuery - Fully integrate Lucene Indexing into VXQuery</td>
+          <td>Steven Jacobs</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Dmitry.Bezheckov</td>
+          <td>Proposal for Apache Open Meetings: OPENMEETINGS-1353</td>
+          <td>solomax, <a href="mailto:sebawagner@gmail.com">sebawagner@gmail.com</a></td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>OnkarShedge</td>
+          <td>Zeppelin Notebook Storage using P2P protocol</td>
+          <td>Alexander Bezzubov</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Danoja</td>
+          <td>Derby bug Fixing</td>
+          <td>Bryan Pendleton</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Ibrahim Jarif</td>
+          <td>Smoke Tests and Continuous Integration Infrastructure for Apache Open Climate Workbench</td>
+          <td>lewismc</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Furkan KAMACI</td>
+          <td>Security Layer for NutchServer (NUTCH-1756)</td>
+          <td>lewismc</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>djkevincr</td>
+          <td>JCache DataStore Implementation for Apache Gora</td>
+          <td>lewismc</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>jkinnison</td>
+          <td>In-Situ Simulation Management and Analysis Using Apache Airavata</td>
+          <td>Marlon Pierce, Suresh Marru</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>cricri</td>
+          <td>JSONiq Support to Apache VXQUERY</td>
+          <td>Till, prestonc@apache</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Ankush Mishra</td>
+          <td>Add the ability to sync events from CalDAV to Apache OpenMeetings Calendar</td>
+          <td>solomax, <a href="mailto:sebawagner@gmail.com">sebawagner@gmail.com</a></td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Tao Lin</td>
+          <td>Apache Spark: Build monitoring UI and related infrastructure for Spark SQL and structured streaming</td>
+          <td>yhuai</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Riyafa Abdul Hameed</td>
+          <td>VXQUERY-178: Support JSONiq - add objects to the data model</td>
+          <td>Till</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Iván Lomba</td>
+          <td>Add support for arbitrary CPU and RAM in the ComputeService (jclouds-482)</td>
+          <td>nacx</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Paul Bustios</td>
+          <td>Apache Zeppelin Notebooks</td>
+          <td>Alexander Bezzubov, moon</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Gábor Horváth</td>
+          <td>[FLINK-3599] Code Generation in Serializers and Comparators of Apache Flink</td>
+          <td>mbalassi</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>anastasijam</td>
+          <td>OPENNLP-840 - Sentiment Analysis Project Proposal</td>
+          <td>chrismattmann</td>
+          <td>Passed / Passed</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>wonook</td>
+          <td>Proposal for the Apache REEF project</td>
+          <td>johnyangk, bgchun</td>
+          <td>Passed / Passed</td>
+      </tr>
+  </tbody>
+</table>
+
+
+    </div>
+  </main>
+
+  <footer class="page-footer bg-secondary mt-4 pt-3">
+    <div class="container text-center text-md-left mb-3">
+      <div class="row">
+        <div class="col-md-6 mt-md-0 mt-3">
+          <h5 class="text-uppercase">Trademarks</h5>
+          <p>
+            Apache&reg;, the names of Apache projects, and the Apache logo are
+            <a href="https://www.apache.org/foundation/marks/list/">registered trademarks or trademarks</a> of the Apache
+            Software Foundation in the United States and/or other countries.
+          </p>
+        </div>
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <div class="col-md-6 mb-md-0 mb-3">
+          <h5 class="text-uppercase">Website sources</h5>
+          <p>
+  This website is generated from the <a href="https://github.com/apache/comdev-site">comdev-site repository</a>
+  
+    <br>
+    Source of this page:
+      <a href="https://github.com/apache/comdev-site/blob/main/source/gsoc/experiences/gsoc-2016.md" title="Source of this page">
+        gsoc/experiences/gsoc-2016.md
+      </a>
+  
+</p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright text-center py-3">
+      <em>Copyright &copy; 2026, <a href="https://www.apache.org/">the Apache Software Foundation</a>. Licensed under the
+      <a rel="license" href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></em>
+      <br/>
+      <span class="small">
+        <a href="https://www.apache.org/">Foundation</a> |
+        <a href="https://www.apache.org/events/current-event.html">Events</a> |
+        <a href="https://www.apache.org/licenses/">License</a> |
+        <a href="https://www.apache.org/security/">Security</a> |
+        <a href="https://www.apache.org/foundation/sponsorship.html">Sponsorship</a> |
+        <a href="https://www.apache.org/foundation/thanks.html">Thanks</a> |
+        <a href="https://privacy.apache.org/policies/privacy-policy-public.html">Privacy</a>
+      </span>
+    </div>
+  </footer>
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>
