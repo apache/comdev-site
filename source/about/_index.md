@@ -4,25 +4,25 @@ url: /about/
 tags: ["faq"]
 ---
 
-# Community Development: What We Do
+# Community Development: what we do
 
 The Community Development (ComDev) project 
 provides a wide array of information, [FAQs](/newbiefaq.html), and help to newcomers and existing committers, and maintains a number of [helpful tools](#getcode).
 
 {{% toc %}}
 
-## Mentoring for Individuals and Help Getting Around
+## Mentoring for individuals and help getting around
 - [GSoC](/gsoc/)
 - [Contributors Guide](/newcomers/)
 - [Committers Guide](/committers)
 - [Contributor Ladder](https://community.apache.org/contributor-ladder.html) of roles
 - [Project Management Committees](https://community.apache.org/pmc/)
 
-## Mentoring for Projects
+## Mentoring for projects
 - [Incubator Mentors](https://incubator.apache.org/guides/mentor.html) - Many folks here are IPMC members or mentors, too
 - Get community advice on dev@community
 
-## Education + Outreach
+## Education and outreach
 - [Community Over Code](https://communityovercode.org/) *(formerly ApacheCon)*
 - Partnered Industry Events (FOSDEM etc.)
 - MeetUps, Apache BarCamps, etc.
@@ -33,10 +33,10 @@ provides a wide array of information, [FAQs](/newbiefaq.html), and help to newco
 - [Diversity Website](http://diversity.apache.org/)
 - [Code of Conduct](https://www.apache.org/foundation/policies/conduct.html)
 
-## Conference Travel Assistance
+## Conference travel assistance
 - [TAC - Travel Assistance Committee](https://www.apache.org/travel)
 
-## Tools and Code we Maintain
+## Tools and code we maintain
 
 ComDev manages a number of helpful tools for finding your way around.
 
@@ -51,7 +51,7 @@ The ComDev PMC maintains these tools, so bring questions to our [dev@](https://l
 
 * Stickers: Request project stickers for your event, depending on geography
 
-## About This Website
+## About this website
 
 The [Apache Community Development PMC](/) maintains this `community.apache.org` website  and works through the 
 dev@community.apache.org [archived mailing list](/lists.html).
