@@ -1,7 +1,9 @@
 ---
-title: BoardReport
+title: Board Reports
 tags: ["reporting"]
 ---
+
+# Board reports
 
 For complete details about what should be in ASF project board reports, including instructions on using the handy Reporter tool, please see:
 
