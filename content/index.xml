@@ -771,11 +771,11 @@
       <description>&lt;!--&#xA;DO NOT DELETE THIS PAGE&#xA;It is used as a target for redirects for the&#xA;app that used to be at https://helpwanted.apache.org/&#xA;--&gt;&#xA;&lt;h2 id=&#34;the-helpwanted-app-has-been-retired&#34;&gt;The HelpWanted app has been retired &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#the-helpwanted-app-has-been-retired&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;The HelpWanted service, formerly at &lt;code&gt;helpwanted.apache.org&lt;/code&gt;, has been retired.&#xA;We encourage you to use a #GoodFirstIssue tag in your project&amp;rsquo;s issue tracker as an alternate to this tool.&lt;/p&gt;&#xA;&lt;p&gt;The code is still available at  &lt;a href=&#34;https://svn.apache.org/repos/asf/comdev/helpwanted.apache.org/site/&#34;&gt;https://svn.apache.org/repos/asf/comdev/helpwanted.apache.org/site/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>How To: Write A Mentor Request Email</title>
+      <title>How To: Write A Mentor-Request Email</title>
       <link>https://community.apache.org/mentor-request-mail.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://community.apache.org/mentor-request-mail.html</guid>
-      <description>&lt;p&gt;Having identified a Top Level Project (TLP) and an issue you would like to work on, it is a&#xA;good idea to introduce yourself to the project community and outline your&#xA;plans for tackling the issue. This lets the community know you are working&#xA;on the issue and gives the community an early opportunity to help course&#xA;correct your proposal, if necessary (which can save you lots of time).&lt;/p&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s an example of what your first email might look like:&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;how-to-write-a-mentor-request-email&#34;&gt;How to write a mentor-request email &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#how-to-write-a-mentor-request-email&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;Having identified a Top Level Project (TLP) and an issue you would like to work on, it is a&#xA;good idea to introduce yourself to the project community and outline your&#xA;plans for tackling the issue. This lets the community know you are working&#xA;on the issue and gives it an early opportunity to help course-correct your proposal, if necessary (which can save you lots of time).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Links</title>
