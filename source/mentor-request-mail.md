@@ -1,13 +1,14 @@
 ---
-title: "How To: Write A Mentor Request Email"
+title: "How To: Write A Mentor-Request Email"
 tags: ["mentoring","newcomers"]
 ---
+
+# How to write a mentor-request email
 
 Having identified a Top Level Project (TLP) and an issue you would like to work on, it is a
 good idea to introduce yourself to the project community and outline your
 plans for tackling the issue. This lets the community know you are working
-on the issue and gives the community an early opportunity to help course
-correct your proposal, if necessary (which can save you lots of time). 
+on the issue and gives it an early opportunity to help course-correct your proposal, if necessary (which can save you lots of time). 
 
 Here's an example of what your first email might look like:
 
@@ -39,7 +40,7 @@ We also need to provide a default CSS for rendering this as, for example:
 |FOOTER 		|
 +-----------------------+
 
-We need to document all this (how to use it and how to extend it) on the Wookie website, and change all widgets to conform to 
+We need to document how to use and extend the widget on the Wookie website, and change all widgets to conform to 
 this format.
 
 Once all this is in place I would like to start extending it to provide documented 
@@ -53,9 +54,10 @@ Am I on the right track? Are there any important points I'm missing?
 [1]  https://issues.apache.org/jira/browse/WOOKIE-131
 ```
 
-There are two main advantages to sending a mail like this. First, you
-force yourself to think carefully about what the project requires and whether you
-have the skills to do it (and thus where you will need help). Second, it lets
-people in the community provide input. For example, in the above case
+There are two main advantages to sending a message like this:
+
+  1. You force yourself to think carefully about what the project requires and whether you
+have the skills to do it (and thus where you will need help).
+  2. It lets people in the community provide input. For example, in response to this example,
 the community might point out that there is a widget template
 system that would need modification to use this format consistently.
