@@ -106,7 +106,7 @@ pipeline {
         // branch uses Ant-style patterns by default:
         // https://ant.apache.org/manual/dirtasks.html#patterns
         // Exclude branches ending in '-staging'
-        // Also try to prevent deploy of top-level branches apart from main
+        // Only deploy main and preview/* to staging
         stage('Deploy') {
             when {
                 not {
@@ -114,9 +114,7 @@ pipeline {
                 }
                 anyOf {
                     branch 'main'
-                    not {
-                      branch '*'
-                    }
+                    branch 'preview/*'
                 }
             }
 
