@@ -1,7 +1,9 @@
 ---
-title: GSoC
+title: Google Summer of Code
 url: /gsoc/
 ---
+
+{{title}}
 
 <div class="card mb-3">
   <div class="card-header">
