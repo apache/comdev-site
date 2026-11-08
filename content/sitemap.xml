@@ -18,7 +18,7 @@
     <lastmod>2026-10-19T14:29:59-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/tags/index.html</loc>
-    <lastmod>2026-11-07T16:21:19-04:00</lastmod>
+    <lastmod>2026-11-08T15:21:11-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/blog/2026_09_birthdays.html</loc>
     <lastmod>2026-09-25T08:45:32-04:00</lastmod>
@@ -327,10 +327,7 @@
     <lastmod>2026-06-09T14:13:03-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/tags/board.html</loc>
-    <lastmod>2026-11-07T15:07:58-04:00</lastmod>
-  </url><url>
-    <loc>https://community.apache.org/boardreport.html</loc>
-    <lastmod>2023-04-27T11:08:26+02:00</lastmod>
+    <lastmod>2026-11-08T15:21:11-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/board/index.html</loc>
     <lastmod>2024-02-15T18:53:00-05:00</lastmod>
@@ -348,7 +345,7 @@
     <lastmod>2025-07-29T10:25:42-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/comdevboardreports.html</loc>
-    <lastmod>2023-04-28T09:57:32+02:00</lastmod>
+    <lastmod>2026-11-08T15:21:11-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/history/boardresolution.html</loc>
     <lastmod>2023-04-27T11:08:26+02:00</lastmod>
@@ -567,7 +564,7 @@
     <lastmod>2025-12-02T15:09:51+00:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/tags/pmc.html</loc>
-    <lastmod>2026-11-07T15:07:58-04:00</lastmod>
+    <lastmod>2026-11-08T15:21:11-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/pmc/chair.html</loc>
     <lastmod>2025-07-29T10:25:42-04:00</lastmod>
@@ -585,7 +582,7 @@
     <lastmod>2026-06-09T14:18:52-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/tags/reporting.html</loc>
-    <lastmod>2026-04-02T13:09:25-04:00</lastmod>
+    <lastmod>2026-11-08T15:21:11-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/tags/roles.html</loc>
     <lastmod>2026-11-07T15:07:58-04:00</lastmod>
@@ -604,6 +601,9 @@
   </url><url>
     <loc>https://community.apache.org/alc/start-a-chapter.html</loc>
     <lastmod>2026-10-19T13:04:22-04:00</lastmod>
+  </url><url>
+    <loc>https://community.apache.org/boardreport.html</loc>
+    <lastmod>2026-11-08T15:19:31-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/gsoc/use-the-comdev-gsoc-issue-tracker-for-gsoc-tasks.html</loc>
     <lastmod>2024-01-28T08:18:39+05:30</lastmod>
