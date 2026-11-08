@@ -4,8 +4,10 @@ url: /newcomers/
 tags: ["newcomers"]
 ---
 
+# Welcome, ASF newcomers!
+
 In this section we'll help you take your first steps as an open source
-developer in one of our many Apache project communities. As an
+developer in one of our many project communities. As an
 all-volunteer run organization, Apache and the many Apache projects rely
 on people like you stepping up to help out.
 
