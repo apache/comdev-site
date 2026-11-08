@@ -6,28 +6,29 @@ tags: ["communication","contacts"]
 
 # Contact points
 
-If you have a question about anything Apache, the ComDev project is here to help guide you to the right place.  
-To help us help you, try to direct your question to the [right mailing list](https://apache.org/foundation/mailinglists) - our volunteers do all their work on mailing lists.
+If you have a question about anything related to the ASF, the ComDev project is here to help guide you to the where the answers are.
+
+To help us help you, try to direct your question to the [right mailing list](https://apache.org/foundation/mailinglists): our volunteers do all their work on mailing lists.
 
 {{% toc %}}
 
-## Community Questions
+## Community questions
 
 Email questions about community or issues across multiple Apache projects to [dev@community.apache.org](mailto:dev@community.apache.org?subject=New-Contact-Question) - or see our detailed [Mailing List How To](//community.apache.org/lists.html) page.
 
-## Technical Questions
+## Technical questions
 
 If you have a *technical* question about *this* website, or one of the 
-[tools that the ComDev project builds](https://community.apache.org/about/#getcode), 
-email us at [dev@community.apache.org](mailto:dev@community.apache.org?subject=Website-Tooling-Question)
+[tools that the ComDev project provides](https://community.apache.org/about/#getcode), 
+email us at `dev@community.apache.org`.
 
-If you *technical* question about *any other* Apache project, email 
+If you have a *technical* question about *any other* Apache project, email 
 the [appropriate user@*projectname*.apache.org](/lists.html) list, or the `dev@` list for 
 the project.
 
-## Non-Technical Questions
+## Non-technical questions
 
-Most of the below mailing lists are privately archived: you can mail to them, and 
+Most of the mailing lists below are privately archived: you can mail to them, and 
 we'll answer, but you won't be able to read the archives.
 
 <span id="ContactPoints-Trademarks"></span>
@@ -35,13 +36,13 @@ we'll answer, but you won't be able to read the archives.
 ### Trademarks
 
 Issues regarding trademarks, specific project names, or branding of the
-ASF and any projects: see our [Trademark Site Map](//www.apache.org/foundation/marks/resources), 
+ASF and its projects: see our [Trademark Site Map](//www.apache.org/foundation/marks/resources), 
 or [Contact the Trademarks team](https://apache.org/foundation/marks/contact).
 
 
 <span id="ContactPoints-PublicityandMarketing"></span>
 
-### Publicity and Marketing
+### Publicity and marketing
 
 Issues dealing with publicity, marketing, or any inquires from the
 press or analysts: see our [Press Team Page](https://www.apache.org/press/),
@@ -49,7 +50,7 @@ press or analysts: see our [Press Team Page](https://www.apache.org/press/),
 
 <span id="ContactPoints-FundraisingandSponsorship"></span>
 
-### Fundraising and Sponsorship
+### Fundraising and sponsorship
 
 Questions about fundraising, sponsorships, donations, or related
 finances: see our [Donations Information](//www.apache.org/foundation/contributing.html),
@@ -67,7 +68,7 @@ contributor or someone outside the ASF, and **require** a
 response from the ASF's legal counsel, then email this private list:
 [legal-internal@apache.org](mailto:legal-internal@apache.org).
 
-If you have **general** questions about licensing or Apache projects, then please
+If you have **general** questions about licensing or Apache projects, please
 use our [public legal-discuss@ mailing list](https://apache.org/foundation/mailinglists.html#foundation-legal).
 
 <span id="ContactPoints-Other"></span>
