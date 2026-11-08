@@ -8,7 +8,8 @@ github:
     - community
     - comdev
     - hugo
-  issues: true
+  features:
+    issues: true
 
   rulesets:
     - name: "Default Branch Protection"
