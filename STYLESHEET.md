@@ -20,6 +20,7 @@
 - When describing website or application behavior, use present tense, not future tense.
   - Instead of 'When you submit the form, the site will take you to...'
   - Write 'When you submit the form, the site takes you to...'
+- We are moving from using 'Apache' every time we talk about the foundation to using 'the ASF' more frequently.
 
 ## Charts and images
 
