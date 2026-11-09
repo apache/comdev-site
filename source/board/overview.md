@@ -1,10 +1,12 @@
 ---
-title: An overview of board responsibilities
+title: Overview of board member responsibilities
 url: /board/overview.html
 tags: ["board"]
 ---
 
-# What to Expect When You're Expecting to be a Director
+# Overview of board member responsibities
+
+## What to expect when you're expecting to be a director
 
 What's involved in being a director at the ASF? This document tries to give an
 overview of the time commitment involved, and what the work looks like.
@@ -16,14 +18,15 @@ should read that doc, and those to which it links, first.
 This document tries to give a little more flavor, for the benefit of
 someone who's considering running for their first term as a Director.
 
-# Work Load
+## Workload
 
-## Monthly meeting
+### Monthly meeting
 
-As with most things in open source, you can spend as much time on them
+With most things in open source, you can spend as much time on a task
 as you want, and pursue your individual passions. However, being a
 director does carry certain basic responsibilities.
-You are expected to attend the board meeting, once a month. This meeting
+
+You are expected to **attend the board meeting**, once a month. This meeting
 can run from a half hour or more, depending on the issues to be discussed
 in that particular month.
 
@@ -31,12 +34,9 @@ The shortest board meeting ran less than 15 minutes, while the longest
 ones have been upwards of two hours. Typical meetings run about one hour.
 
 Note that meeting times are chosen by the directors, and so tend to be
-placed at times that are convenient to the majority of the currently
-sitting directors. That is to say, the meetings tend to be at times that
-are inconvenient to people living in underrepresented parts of the
-world.  Meetings are held on the third Thursday of a month.
+placed at times that are convenient to the majority of the currently-sitting directors. That is to say, the meetings tend to be at times that are inconvenient to people living in underrepresented parts of the world.  Meetings are normally held on the third Thursday of a month.
 
-## Pre-meeting work
+### Pre-meeting work
 
 Most of the work of a board meeting happens before the meeting starts,
 as discussed in the [formal
@@ -61,7 +61,7 @@ Each director is assigned N/9 projects to shepherd, where N is the number
 of projects reporting that month. As of January 2024, this works out to 
 roughly 7 or 8 shepherd projects per director.
 
-## Post-meeting work
+### Post-meeting work
 
 Reports that result in action items will require followup. This may just
 be sending an email message, and then checking back on it a few days
@@ -76,7 +76,7 @@ relating to the reports they were assigned that month.  Shepherd
 assignments are random each month, which helps to ensure that over 
 a year's board term each director reads a variety of reports.
 
-## Face-to-face meetings
+### Face-to-face meetings
 
 Most years, the new board of directors will be asked to attend a
 face-to-face meeting. This is in part to meet and learn how best to work
@@ -90,7 +90,7 @@ for the largest number of participants.
 Travel costs can be covered by the ASF, if needed, for directors and
 officers who are expected to attend those face-to-face meetings.
 
-## Between meetings
+### Between meetings
 
 The board communicates on the board@apache.org mailing list, which is
 visible to all ASF members and PMC chairs. On very rare occasions,
@@ -101,7 +101,7 @@ Directors are expected to check the board mailing list regularly, keep
 up with discussions there, and weigh in on those discussions, as this is
 where the business of the Foundation is conducted.
 
-# Legal and Liability issues
+## Legal and Liability issues
 
 Apache is a 501c3 non-profit corporation in the state of Delaware. 
 The Directors have fiduciary and legal responsibilities relating to 
