@@ -3,7 +3,9 @@ title: ALC Organizer Guide
 tags: ["alc","community","events","speakers"]
 ---
 
-Running an [ALC chapter](/alc/) is mostly about showing up, consistently,
+# ALC organizer guide
+
+Running an [ALC chapter](/alc/) is mostly about showing up consistently
 for your local open source community. This page collects practical help
 for chapter organizers.
 
@@ -52,5 +54,4 @@ chapter's story.
 
 The ALC Resources wiki collects presentations, media, and other material
 shared between chapters. It is linked from the
-[ALC program page](https://cwiki.apache.org/confluence/display/COMDEV/Apache+Local+Community+-+ALC)
-on the cwiki.
+<a href="https://cwiki.apache.org/confluence/display/COMDEV/Apache+Local+Community+-+ALC" target="_blank">ALC program page</a> on the cwiki.
