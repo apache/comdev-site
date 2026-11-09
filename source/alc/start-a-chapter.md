@@ -3,6 +3,8 @@ title: Start an ALC Chapter
 tags: ["alc","community"]
 ---
 
+# Start an ALC chapter
+
 So there's no [ALC chapter](/alc/) in your town or city yet, and you'd
 like to start one. Wonderful! Here's what's involved.
 
@@ -13,8 +15,8 @@ like to start one. Wonderful! Here's what's involved.
 * **Check the map first.** There is a single ALC chapter per town or
   city. Look at the [list of chapters](/alc/) to make sure one doesn't
   already exist in your location.
-* For large metropolitan areas (for example the San Francisco Bay Area, or
-  Los Angeles), more than one chapter can make sense. The ComDev PMC
+* For large metropolitan areas (for example, the San Francisco Bay Area,
+  Los Angeles, or Mumbai), more than one chapter can make sense. The ComDev PMC
   reviews these requests and decides on a case-by-case basis.
 
 ## How to apply
