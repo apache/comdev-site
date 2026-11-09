@@ -3,10 +3,11 @@ title: Funding campaign disclaimer
 tags: ["crowdfunding","funding","pmc"]
 ---
 
-Some Apache committers have successfully run funding campaigns to support their work on their favorite Apache projects.
+# Funding campaign disclaimer
 
-This is ok in principle, but you have to make it clear that the campaign is your own thing, and avoid any confusion about the role of the 
-ASF and how its projects work.
+Some ASF committers have successfully run funding campaigns to support their work on their favorite Apache projects.
+
+This is okay in principle, but you have to make it clear that the campaign is your own thing, and avoid any confusion about the role of the ASF and how its projects work.
 
 This page gives a few examples of how to do that.
 
@@ -36,6 +37,5 @@ campaign.
 [Friends of Apache Groovy](https://opencollective.com/friends-of-groovy) has another good example which supports activities 
 in the Apache Groovy community.
 
-The [explanation in their 'about' section](https://opencollective.com/friends-of-groovy#section-about) makes it clear that the 
-initiative is _not_ affiliated with or driven by the ASF, and also that any contributions, funded or not, have to go 
+The [explanation in their 'about' section](https://opencollective.com/friends-of-groovy#section-about) makes it clear that the initiative is _not_ affiliated with or driven by the ASF, and also that any contributions, funded or not, have to go 
 through the usual Apache Groovy acceptance process.
