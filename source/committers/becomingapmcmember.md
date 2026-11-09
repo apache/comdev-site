@@ -3,25 +3,25 @@ title: Becoming a PMC Member
 tags: ["pmc","committers","governance","contributor-ladder"]
 ---
 
+# Becoming a PMC Member
+
 So you've become a committer on an ASF project. Congratulations! Now
 what?
 
-Becoming a PMC member is the next step on the [contributor
+Becoming a member of your project's Project Management Committee (PMC) is the next step on the [contributor
 ladder](/contributor-ladder.html). This document describes what PMCs
 generally look for when considering a committer for PMC membership, and
 how you can position yourself for that invitation.
 
 As with [becoming a committer](becomingacommitter.html), there are no
-guarantees. Each project sets its own bar, and the decision is made by
-the existing PMC members. But the behaviors described here are
-consistently valued across ASF projects.
+guarantees. Each project sets its own bar, and the existing PMC members make the decision to invite people. But ASF projects consistently value the behaviors described here.
 
 {{% toc %}}
 
 ## What is a PMC member?
 
-A Project Management Committee (PMC) member is someone entrusted with
-the governance and oversight of an Apache project. PMC members:
+A PMC member is someone entrusted with
+the governance and oversight of an ASF project. PMC members:
 
 - Have **binding votes** on project releases and technical decisions
 - **Nominate and vote on** new committers and PMC members according to the [ASF voting process](https://www.apache.org/foundation/voting.html)
@@ -31,23 +31,22 @@ the governance and oversight of an Apache project. PMC members:
 
 Being invited to the PMC is the project expressing trust that you will
 act as a responsible steward — someone who cares about the long-term
-health of the project and its community, not just their own contributions.
+health of the project and its community, not just your own contributions.
 
 ## How is it different from being a committer?
 
 As a committer, your primary focus is on *making contributions* — code,
 documentation, reviews, and user support. As a PMC member, your focus
-broadens to *project governance*:
+broadens to include *project governance*:
 
 - You shift from "What can I build?" to "What should we build, and is it
   ready to ship?"
-- You take responsibility for the project's releases, ensuring they meet
+- You take shared responsibility for the project's releases, ensuring they meet
   ASF standards.
 - You actively look for contributors to mentor and eventually nominate.
 - You ensure the community operates transparently and welcomes newcomers.
 
-Many projects describe this as moving from *doing the work* to
-*stewarding the work*.
+Many projects describe this as moving from *doing the work* to *stewarding the work*.
 
 ## What PMCs look for
 
@@ -60,7 +59,7 @@ membership:
 PMC candidates have typically been active committers for a meaningful
 period of time. The form of contribution is not limited to code — it
 can include code review, user support, documentation, testing, release
-management, or community building.
+management, and community building.
 
 What matters is *breadth* and *consistency*. A PMC member should
 understand the project holistically, not just the corner they work in.
@@ -97,8 +96,7 @@ PMC members are expected to grow the community. This means:
 - Actively looking for people who might become committers
 - Guiding discussions diplomatically, even in disagreement
 
-As the [APISIX community](https://apisix.apache.org/docs/general/committer-guide/) puts it: "We value the community more than the
-code. A strong and healthy community will be respectful and a fun and
+As the [APISIX community](https://apisix.apache.org/docs/general/committer-guide/) puts it: "We value the community more than the code. A strong and healthy community will be respectful and a fun and
 rewarding place."
 
 ### Governance awareness
@@ -115,13 +113,11 @@ PMC members should be familiar with how the ASF operates:
 
 PMC members are expected to act as individuals, making decisions in the
 best interest of the project — not on behalf of their employer. The ASF
-Board has [stated clearly](https://www.apache.org/foundation/governance/pmcs.html) that PMCs must "operate independently of outside
-commercial influence."
+Board has [stated clearly](https://www.apache.org/foundation/governance/pmcs.html) that PMCs must "operate independently of outside commercial influence."
 
 ## The process
 
-The process for adding a PMC member is handled privately by the existing
-PMC, and varies slightly by project, but generally follows these steps:
+Each PMC handles the process for adding members to itself. They all generally follows these steps:
 
 1. **Discussion** — A PMC member proposes the candidate on the private@
    mailing list, citing specific contributions and behaviors.
@@ -131,10 +127,9 @@ PMC, and varies slightly by project, but generally follows these steps:
 3. **Board notification** — Unlike adding a committer, [new PMC members
    require notification to the ASF Board (board@apache.org). The Board
    has 72 hours to raise objections](https://community.apache.org/pmc/adding-pmc-members.html) (rare in practice).
-4. **Invitation** — The candidate is invited privately and may accept or
+4. **Invitation** — The PMC invites the candidate privately and the candidate may accept or
    decline.
-5. **Announcement** — Once accepted, the new PMC member is announced on
-   the project's dev@ list.
+. **Announcement** — If the candidate accepts, the PMC announces the new PMC member on the project's dev@ list.
 
 You cannot nominate yourself. The existing PMC decides when a committer
 is ready for this responsibility.
