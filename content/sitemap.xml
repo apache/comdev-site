@@ -18,7 +18,7 @@
     <lastmod>2026-10-19T14:29:59-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/tags/index.html</loc>
-    <lastmod>2026-11-09T10:43:36-04:00</lastmod>
+    <lastmod>2026-11-09T10:52:42-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/blog/2026_09_birthdays.html</loc>
     <lastmod>2026-09-25T08:45:32-04:00</lastmod>
@@ -233,9 +233,6 @@
     <loc>https://community.apache.org/alc/organizers.html</loc>
     <lastmod>2026-11-09T09:58:12-04:00</lastmod>
   </url><url>
-    <loc>https://community.apache.org/board/overview.html</loc>
-    <lastmod>2024-02-15T18:53:00-05:00</lastmod>
-  </url><url>
     <loc>https://community.apache.org/gsoc/experiences/</loc>
     <lastmod>2026-11-05T09:04:19-05:00</lastmod>
   </url><url>
@@ -324,10 +321,10 @@
     <lastmod>2026-06-09T14:13:03-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/tags/board.html</loc>
-    <lastmod>2026-11-08T15:30:57-04:00</lastmod>
+    <lastmod>2026-11-09T10:52:42-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/board/index.html</loc>
-    <lastmod>2024-02-15T18:53:00-05:00</lastmod>
+    <lastmod>2026-11-09T10:52:42-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/tags/branding.html</loc>
     <lastmod>2026-06-09T14:13:03-04:00</lastmod>
@@ -544,6 +541,9 @@
   </url><url>
     <loc>https://community.apache.org/companies/advocacy.html</loc>
     <lastmod>2026-06-09T14:13:03-04:00</lastmod>
+  </url><url>
+    <loc>https://community.apache.org/board/overview.html</loc>
+    <lastmod>2026-11-09T10:52:42-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/tags/patch.html</loc>
     <lastmod>2023-04-27T11:08:26+02:00</lastmod>
