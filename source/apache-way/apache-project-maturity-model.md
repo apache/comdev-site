@@ -1,31 +1,33 @@
 ---
-title: A Maturity Model for Apache Projects
+title: A Maturity Model for ASF Projects
 tags: ["governance","maturity","incubator"]
 ---
 
+# A maturity model for ASF projects
+
 The **Apache Project Maturity Model** provides a suggested framework for evaluating the overall maturity of an Apache project community and the codebase that it maintains.  While this model is specific to projects of the Apache Software Foundation (ASF), many of these factors apply to any open source project.
 
-# Overview
+## Overview
 
 The goals of this maturity model are to describe how Apache projects operate in a concise and high-level way, and to provide a basic framework that projects may choose to use to evaluate themselves.
 
 It is usable outside of the ASF as well, for projects that might want to adopt some or all of these principles. Projects that envision moving to the ASF at some point might start working towards this to prepare for their move.
 
-It does not describe all the details of how our projects operate, but aims to capture the invariants of Apache projects and point to additional information where needed. To be as concise as possible we use footnotes for anything that's not part of the core model.
+It does not describe all the details of how our projects operate, but aims to capture the invariants of Apache projects and point to additional information where needed. To be as concise as possible, we use footnotes for anything that's not part of the core model.
 
-Contrary to other maturity models, we do not define staged partial compliance levels. A mature Apache project complies with all the elements of this model, and other projects are welcome to adopt the elements that suit their goals.
+Contrary to other maturity models, we do not define staged partial compliance levels. A mature ASF project complies with all the elements of this model, and other projects are welcome to adopt the elements that suit their goals.
 
-Note that we try to avoid using the word "must" below. The model describes the state of a mature project, as opposed to a set of rules.
+Note that we try to avoid using the word "must". The model describes the state of a mature project, as opposed to a set of rules.
 
 Projects which incubate at the ASF might not fit into all the parts of this model; however a major goal of incubation is to bring the project's community closer to it.
 
 We welcome questions and feedback about this model on the <a href="https://lists.apache.org/list.html?dev@community.apache.org" target="_blank">comdev mailing list</a>.
 
-# The Apache Project Maturity Model
+## The Apache Project Maturity Model
 
 Each item in the model has a unique ID to allow it to be easily referenced elsewhere.
 
-## Code
+### Code
 
 <dl>
 <dt id="CD10">CD10</dt>
@@ -58,7 +60,7 @@ committer. When third parties contribute code, commit messages provide reliable 
 </dd>
 </dl>
 
-## Licenses and Copyright
+### Licenses and copyright
 
 <dl>
 <dt id="LC10">LC10</dt>
@@ -90,7 +92,7 @@ The project clearly defines and documents the copyright ownership of everything 
 </dd>
 </dl>
 
-## Releases
+### Releases
 
 <dl>
 <dt id="RE10">RE10</dt>
@@ -120,12 +122,11 @@ set of artifacts required for a release.
 </dd>
 </dl>
 
-## Quality
+### Quality
 
 <dl>
 <dt id="QU10">QU10</dt>
-<dd>The
-project is open and honest about the quality of its code. Various levels
+<dd>The project is open and honest about the quality of its code. Various levels
 of quality and maturity for various modules are natural and acceptable
 as long as they are clearly communicated.
 </dd>
@@ -152,7 +153,7 @@ The project strives to respond to documented bug reports in a timely manner.
 </dd>
 </dl>
 
-## Community
+### Community
 
 <dl>
 <dt id="CO10">CO10</dt>
@@ -197,7 +198,7 @@ The project strives to answer user questions in a timely manner.
 </dd>
 </dl>
 
-## Consensus Building
+### Consensus-building
 
 <dl>
 <dt id="CS10">CS10</dt>
@@ -235,7 +236,7 @@ that affect the project are also documented on that channel.
 </dd>
 </dl>
 
-## Independence
+### Independence
 
 <dl>
 <dt id="IN10">IN10</dt>
@@ -249,7 +250,7 @@ The project is independent from any corporate or organizational influence.
 </dd>
 </dl>
 
-## Trademark and Branding
+### Trademarks and branding
 
 Notable items from the [Trademark Policy][trademark-policy],
 [FAQ][trademark-faq], [Guide][trademark-guide], and
@@ -293,12 +294,11 @@ any potential misuses to Brand Management.
 </dd>
 </dl>
 
-# How To Use The Apache Project Maturity Model
+## How to use The Apache Project Maturity Model
 
 **Remember:** This model is a guide; it is not a requirements document. The model shows what generally good behaviors in an Apache project look like.
 
-So far, inside the ASF, podlings preparing their graduation
-from the [Apache Incubator](https://incubator.apache.org) have used this model, mostly for self-assessment.
+So far, inside the ASF, podlings preparing their graduation from the [Apache Incubator](https://incubator.apache.org) have used this model, mostly for self-assessment.
 
 It might be useful for top-level ASF projects to regularly assess their maturity based on this model, but this is not a requirement at this time.
 
@@ -310,7 +310,7 @@ Here are a few self-assessment examples:
 * [Apache Taverna Graduation Maturity Assessment, 2016](https://cwiki.apache.org/confluence/display/TAVERNADEV/2016-03+Taverna+Graduation+Maturity+Assessment)
 * [Apache Groovy podling self-assessment, 2015](https://github.com/apache/groovy/blob/576b3c5d6a7022ac4a8df1ef118666456ce627fb/MATURITY.adoc)
 
-## Other Open Source Project Models
+## Other open source project models
 
 See [https://s.apache.org/apache_maturity_model](https://s.apache.org/apache_maturity_model) for the discussions that led to this document. Thanks to the many people who provided input! The links below are both inspirations for our model, and are some of the other ways that FOSS project participants have tried to quantify ways to measure open source projects.
 
@@ -322,7 +322,7 @@ See [https://s.apache.org/apache_maturity_model](https://s.apache.org/apache_mat
 * [https://en.wikipedia.org/wiki/Capability_Maturity_Model_Integration](https://en.wikipedia.org/wiki/Capability_Maturity_Model_Integration)
 * [https://www.apache.org/dev/project-requirements](https://www.apache.org/dev/project-requirements)
 
-## Status / Document Version
+## Status / document version
 
 v1.0, February 2015, defined by consensus by Apache Community Development project.
 
@@ -337,7 +337,7 @@ v1.4, December 2024, added the Trademark and Branding section (TB10-TB40).
 See the <a href="https://svn.apache.org/viewvc/comdev/site/trunk/content/apache-way/apache-project-maturity-model.mdtext?view=log" target="_blank">svn revision history</a> (for older
 versions) and <a href="https://github.com/apache/comdev-site/commits/main/source/apache-way/apache-project-maturity-model.md">GitHub history</a> (since March 2020) of this document for more details and other minor changes.
 
-### Footnotes
+## Footnotes
 
 <ol>
 <li>
