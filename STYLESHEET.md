@@ -1,8 +1,14 @@
 # Stylesheet
 
-## Titles and section headers
+## Page layout
+
+### Titles and section headers
 
 - Use _sentence case_ ('How this thing works') not _title case_ ('How This Thing Works'). In general, the more capital letters a text has, the harder it is to read quickly.
+
+### Tables of contents
+
+A table of contents can help readers navigate a long page easily, but it is not necessary in a short page, even if that page has multiple sections.
 
 ## Text
 
