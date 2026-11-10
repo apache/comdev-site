@@ -4,7 +4,7 @@ url: /companies/advocacy.html
 tags: ["companies", "advocacy", "branding"]
 ---
 
-# Open Source Advocacy
+# Open source advocacy
 
 How your company talks about ASF projects directly affects how willing
 those communities are to work with you. Companies that speak
@@ -19,9 +19,7 @@ have always encouraged that. We, in turn, depend on the goodwill of
 companies. How companies speak about ASF projects is a critical part of
 our public image — and of yours.
 
-{{% toc %}}
-
-## Respect Our Brands
+## Respect our brands
 
 Like any organization, the ASF has a [Trademark
 Policy](https://www.apache.org/foundation/marks/) that describes
@@ -38,21 +36,21 @@ strengthens your [strategic
 partnerships](/companies/benefits.html#business-and-strategic-advantages)
 with other participants.
 
-## Be Proactive About Education
+## Be proactive about education
 
 Be sure that anyone speaking on behalf of your company understands
 and respects the [ASF Trademark
 Policy](https://www.apache.org/foundation/marks/). Most violations of
 these policies have historically come from company spokespeople who do
 not understand the nature of the ASF, or of open source software, and
-speak of our projects like just another of your company's products.
+speak of our projects as if they were just another of your company's products.
 
 Be proactive about educating these individuals about appropriate ways to
 speak about these projects. Use this website as a reference, and
 encourage them to talk directly to projects if they have any questions
 about how best to represent your work in and around these communities.
 
-## Community First
+## Community first
 
 When you mention ASF projects, we ask that you put the community first.
 It's great to celebrate what your company and employees are doing in and
@@ -62,19 +60,19 @@ work, and contributes to your success.
 
 Some companies make claims about their involvement in ASF projects that
 imply they own the project, or are primarily responsible for it.
-Phrases like "creators of ..." or "primary contributors to ..." devalue
+Phrases like "creators of..." or "primary contributors to..." devalue
 the work that the rest of the community does, and unfairly take credit
 for the work that others have contributed.
 
 Getting this wrong has practical consequences: projects that feel their
 work has been appropriated are less likely to prioritize your feature
 requests, less willing to coordinate releases with your schedule, and
-more skeptical of your contributors' motives. Getting it right — giving
-genuine credit — earns goodwill that [accelerates everything
+more skeptical of your contributors' motives. Giving
+appropriate credit earns goodwill that can [accelerate everything
 else](/companies/benefits.html#influence-the-roadmap) you're trying to
-achieve in the project.
+achieve with the project and its product.
 
-## See Also
+## See also
 
 - [Benefits of open source participation](/companies/benefits.html) —
   why your company's reputation in project communities matters
