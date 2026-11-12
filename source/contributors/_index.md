@@ -6,14 +6,16 @@ tags: ["faq","contributing"]
 
 <img src="/images/contributors-fp.webp" alt="Code sample" class="pull-right">
 
+# Contributing to the Apache Software Foundation
+
 Contributing to an Apache project is the second step on your journey up
 the [contributor ladder](/contributor-ladder.html).
 
 User &rarr; **Contributor** &rarr; [Committer](/committers/) &rarr; [PMC member](/pmc/)
 
 While we often think of contributions to open source as *code*, a 
-contribution can be anything - good questions, documentation, design,
-event coordination, and so on also qualify as contributions. Projects
+contribution can be anything: good questions, documentation, design,
+event coordination, and other efforts to strengthen the project and its product count as contributions. Projects
 need your skills, even if you're not a programmer.
 
 But, it can sometimes be hard to know where to get started. We're here
@@ -33,26 +35,26 @@ to improve, fix, or otherwise help out with.
 
 There's [a lot of projects](https://projects.apache.org/). You can look
 through them 
-[by name](https://projects.apache.org/projects.html?name),
-[by topic](https://projects.apache.org/projects.html?category),
-or [by programming language](https://projects.apache.org/projects.html?language).
+
+- [by name](https://projects.apache.org/projects.html?name)
+- [by topic](https://projects.apache.org/projects.html?category)
+- [by programming language](https://projects.apache.org/projects.html?language).
 
 ## Where is everything?
 
-Every [Apache project](https://projects.apache.org/) website *should*
+Every [ASF project](https://projects.apache.org/) website *should*
 have an **/about** page (or similar) that lists the basic "where is 
 everything" about the project. If they don't, here's where to start looking:
 
 ### Download
 
-Most (not all) Apache projects will have a prominent download link on
+Most (not all) ASF projects have a prominent download link on
 the front page of their project website. This will (hopefully) be
 accompanied by instructions on how to download, build, install, and use
-the releases.
+the releases of the project's product or products.
 
 Getting to know how to use the software that a project releases is a
-reasonable first step towards contributing. Keep notes of that first
-user experience, as that is valuable information for the project, and
+reasonable first step towards contributing. Keep notes of that first-user experience, as that is valuable information for the project, and
 might be a good place to start your contributions.
 
 ### What can I contribute?
@@ -70,12 +72,12 @@ about non-code contribution opportunities](non-code.html).
 
 ### Communication
 
-Most (not all) Apache projects do their main work on [mailing
+Most (not all) ASF projects do their main work on [mailing
 lists][11]. See [Mailing lists](/contributors/mailing-lists.html) for how
 to find, subscribe to, and participate in a project's lists, plus the
 other channels (Slack, Discord, etc.) some projects use.
 
-## Your First Contribution
+## Your first contribution
 
 Most first contributions are simple, as you become familiar with the
 project and its specific contributor flow.
@@ -93,7 +95,7 @@ can be very valuable to projects attempting to improve their onboarding
 experience, so take notes of the things that were hard to find, or
 processes that you found confusing.
 
-## Becoming a Committer
+## Becoming a committer
 
 Any contributor can, eventually, become a committer. While the exact
 process, and the specific milestones you may need to achieve, will vary
@@ -101,7 +103,7 @@ from one project to another, the basics are fairly consistent across the
 ASF.
 
 Ideally, once someone has contributed consistently, and of a
-consistently high quality, to a project, they will get invited to become
+consistently high quality, to a project, the project will invite them to become
 a committer, which grants a higher level of ownership of the project.
 
 Being a committer does not necessarily mean you commit code, although
@@ -112,7 +114,7 @@ contributing to its success.
 We've written a [guide on how to become an Apache
 committer](/contributors/becomingacommitter.html) which covers the basics. As you
 become more familiar with a specific project, though, you'll see that
-each project has its own slightly different culture.
+each project has its own slightly-different culture.
 
 In general, we have some [etiquette and behavior expectations][8] when 
 you work with ASF communities.
@@ -120,7 +122,7 @@ you work with ASF communities.
 For more details see "[How it works][9]".  You can also make 
 [suggestions for how to update this website][10] you're reading right now!
 
-## Questions and Feedback
+## Questions and feedback
 
 If you have other questions, the ComDev team is here to help.
 
