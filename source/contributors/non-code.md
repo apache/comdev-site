@@ -27,7 +27,7 @@ an eye for information organization, your contributions will be welcome
 in almost any project community.
 
 There are often easy starter contributions, such as grammatical or
-spelling improvements.
+spelling improvements to existing web pages or help docs.
 
 Great value to the project can come from
 collaborating directly with the software developers to explain features
@@ -46,7 +46,7 @@ project, and helps adoption across a broader part of the world.
 
 Translation and localization of the user interface helps
 users have a better experience with the product, and that, in turn,
-speeds adoption and user feed back, and, thus, further innovation.
+speeds adoption and user feedback, and, thus, further innovation.
 
 Start by having a conversation with the project about whether they have
 a translation/localization process in place. Tell them what language(s)
@@ -59,8 +59,7 @@ about what translation/localization tools are available and recommended.
 
 Programmers usually design their project website, and the user interface
 of their projects. There are opportunities for anyone with an artistic
-eye to improve the user experience, both of the product itself, as well
-as the website, logos, and other imagery around the project
+eye to improve the user experience of the product itself, the website, logos, and other imagery around the project
 ecosystem.
 
 Designing banners for conferences, mascots, promotional materials, and
@@ -71,10 +70,10 @@ possible designs.
 Helping improve the user interface of a product can result in more users
 adopting it. Work with [testers](#testing) and
 users to understand which parts of the product are harder to use or
-understand.
+understand. See also the <a href="https://www.apache.org/foundation/press/kit/" target="_blank">ASF brand guidelines</a>.
 
-Read through the website, and suggest places where images might make the
-flow more attractive. Be sure that you use only images that you have an
+Read through the website, and suggest places where images or charts might make the
+flow more attractive. Be sure that you use only graphics that you have an
 appropriate license to use. For example, you can use images from
 [photos.apachecon.com](https://photos.apachecon.com/) under a Creative
 Commons license.
@@ -86,11 +85,10 @@ or across several related projects. These events often rely on external
 vendors or conference planners, but there is almost always an
 opportunity for volunteer support in planning, promoting, and executing
 these events. This may involve site planning, design and promotion,
-speaker relations, sponsor acquisition and relations, or University 
-outreach, among many other details.
+speaker relations, sponsor acquisition and relations, University 
+outreach, and staffing the event, among many other details.
 
-If you have experience running events of any scale, your expertise will
-be greatly appreciated by these projects.
+If you have experience running events of any scale, projects will greatly appreciate your expertise.
 
 You can see a list of approved upcoming events on the [Apache
 events](https://events.apache.org/) website, or by searching for
@@ -112,7 +110,7 @@ of the following:
 
 * Identify first-time contributors and welcome them. Report (on the
   mailing list) each month which contributors had their first PR accepted;
-  their first ticket opened; their first review to an open PR.
+  their first ticket opened; their first review of an open PR.
 * Contact a new contributor after their second PR and try to understand
   who they are, why they are contributing, and what their goals are.
   Offer to review their PRs or introduce them to individuals who can.
@@ -128,16 +126,16 @@ Friendly communities grow faster, and retain people longer.
 
 ### Vendor engagement
 
-Many Apache communities rely on participation from the various vendors
+Many ASF communities rely on participation from the vendors
 that rely on our projects. While we recognize individual contributors
 rather than their employers, it can be very valuable to do proactive
 outreach to vendors to encourage them to participate in
 community-friendly ways.
 
 You can help by identifying companies that have products or services
-that depend on a particular project, and reach out to them to understand
+that depend on a particular project's product, and reach out to them to understand
 their needs, their frustrations, and their goals. Encourage them to
-participate in the open to achieve those goals, and to talk about what
+participate with the projecct to achieve those goals, and to talk about what
 they are working on.
 
 Projects should not be expected to care about a company's timelines,
@@ -151,13 +149,13 @@ unpleasant situations later on, and thus helps avoid a company having a
 negative interaction with our Trademarks team.
 
 Identify a contact inside each participating vendor who is friendly to
-Apache community norms, and offer to help them make the case for
-upstream engagement -- sometimes an outsider voice can be more
+ASF community norms, and offer to help them make the case for
+upstream engagement. Sometimes an outsider voice can be more
 persuasive.
 
 Encourage your contacts to submit talks to the project's summit,
-meetups, or other conferences, about their work in the project. That, in
-turn, will help individual contributors to raise their profile within
+meetups, or other conferences about their work in the project. That, in
+turn, will help individual contributors raise their profile within
 their employer, and demonstrate the value of earning trust in open
 source communities.
 
@@ -176,7 +174,7 @@ Conduct interviews with users who have interesting use cases, or vendors
 who offer interesting services based on the project. Publish these
 interviews (with [pictures](#design)!) on your project website or blog.
 
-Work with Marketing & Publicity to find ways to promote your project.
+Work with the ASF's Marketing & Publicity to find ways to promote your project.
 Volunteer to do an interview with [PlusOne](https://plusone.apache.org)
 and coordinate with the dev list to find the right people to be the
 voice of your project.
@@ -197,8 +195,8 @@ Try out documented features, and see if they work how you expect them
 to. Report your findings.
 
 Offer to interview new users to find out their experience - the
-beginner's first experience with your project's product can be very
-eyeopening to people who have been using it for years and know how to
+beginner's first experience with your project's product can be
+eye-opening to people who have been using it for years and know how to
 get around limitations.
 
 ### Project management
@@ -232,9 +230,7 @@ introductions.
 
 It can be tempting to use AI to analyze some portion of a project,
 whether that's code or documentation, and then submit patches based on
-what the AI says. We request that you carefully read the [ASF Generative
-Tooling Guidance](https://www.apache.org/legal/generative-tooling.html)
-before doing so. We also request that you remember that whatever the
+what the AI tool says. We request that you carefully read <a href="https://www.apache.org/legal/generative-tooling.html" target="_blank">ASF Generative Tooling Guidance</a> before doing so. Remember that whatever the
 source of your contribution, you are personally responsible for the
 quality of that submission.
 
@@ -252,7 +248,7 @@ Because most people think of code first, it's important for projects to
 actively recruit and recognize non-code participants. There are a number
 of ways that you can do this.
 
-Identify specific non-code contributions that are needed or wanted. Open
+Identify specific non-code contributions that the project needs or wants. Open
 tickets as you would for any code issue. This signals that non-code
 contributions have the same importance as code contributions.
 
@@ -264,7 +260,7 @@ you value those roles.
 Recognize and celebrate non-code contributors in the same ways that you
 would coders. You can, and should, extend Committer status to non-code
 contributors. Mention in release notes everyone who contributed to a
-particular release, including these non-code roles.
+particular release, including those in non-code roles.
 
 ## In conclusion ...
 
@@ -273,4 +269,3 @@ participants with different skills. Foster a community where these
 different skills are treated as equal participants in the larger whole.
 Celebrate non-code contributions, and grant full project membership
 (Committer and PMC status) to non-code participants.
-
