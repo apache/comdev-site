@@ -13,26 +13,17 @@ and sustainability of our communities.
 ## Inclusion and transparency
 
 Mailing lists ensure that all members of the community can participate
-on a level field, regardless of time zone or availability, whereas
+in discussions and decision-making, regardless of their time zone or availability, whereas
 synchronous communication platforms (IRC, Slack, Discord, etc.) benefit
 only those who are online, and in the channel, at the time of the 
 conversation.
 
 Mailing lists are also [permanently and publicly archived][1],
-so that decisions can be understood
-by people who were not there at the time - what was decided, why, and by
-whom - even years after the fact.
+so that people can understand what was decided, why, and by whom, even years after the fact.
 
-Synchronous communication platforms are great for end-user support,
-where an answer is needed quickly, and asking for clarification can be
-done real-time. It's also good for social interactions, and for quick
-brainstorming.
+Synchronous communication platforms are great for end-user support when people need an answer quickly, and for helping a colleague with a task they are working on in real-time. It's also good for social interactions, and for quick brainstorming. But if project members make provisional decisions about project policy or technical matters in a chat session or even face to face, they should bring what they came up with back to the mailing list so that the whole community can participate.
 
-But decisions, and important technical discussions, should be taken back
-to the mailing list so that the whole community can participate.
-
-This is why we say, at the ASF, **If it didn't happen on the mailing
-list, it didn't happen.**
+This is why we say, at the ASF, **If it didn't happen on the mailing list, it didn't happen.**
 
 ## Subscribing to a list
 
@@ -44,22 +35,17 @@ Most projects have `users@project.apache.org` and
 `dev@project.apache.org` lists, focused respectively on end-user
 questions and development activity.
 
-To subscribe (that is, to receive every message sent to the list via
-email) send a blank email message to `users-subscribe@PROJECT.apache.org`.
-Substitute the name of the list (e.g. `dev` instead of `users`) and the
-specific project you're interested in (e.g. `karaf` instead of `PROJECT`).
-
-To unsubscribe, the process is similar: send a blank email message to
-`users-unsubscribe@PROJECT.apache.org` from the address with which you
+- **To subscribe** (that is, to receive every message sent to the list via email) send a blank email message to `users-subscribe@PROJECT.apache.org`. Substitute the name of the list (e.g. `dev` instead of `users`) and the specific project you're interested in (e.g. `karaf` instead of `PROJECT`).
+- **To unsubscribe**, the process is similar: send a blank email message to `users-unsubscribe@PROJECT.apache.org` from the address with which you
 subscribed.
 
 In each case, you'll receive a confirmation email with further
 instructions.
 
-### Other communication channels
+## Other communication channels
 
 Some projects use other communication channels, such as Slack, Discord,
-or WeChat. These will (hopefully) be listed on the project's page.
+or WeChat. The project lists these on its website (we hope).
 
 ## Mailing list etiquette
 
@@ -80,11 +66,11 @@ subject line to reflect the direction that the thread has taken.
 
 ### Inline vs top-posting
 
-Most modern email clients default to top-posting - that is, putting the
+Most modern email clients default to **top-posting** - that is, putting the
 entire reply to a message above the quoted body of the message to which
 you are replying.
 
-We encourage you, instead, to respond inline - that is, put each
+We encourage you, instead, to respond **inline** - that is, put each
 response after the quoted paragraph to which you are responding, so that
 the resulting message reads like a conversation. This makes it very
 clear which points you are responding to. You can then also delete the
@@ -102,7 +88,7 @@ and multiple screen sizes. It also makes computer-consumption of these
 message easier, for the purpose of translation, screen readers, and
 other automatic ingestion and processing.
 
-### Colloquialisms
+### Write so people will understand
 
 When you speak to your friends and colleagues, you can, and
 usually do, use idioms, slang, colloquialisms, metaphors, and other
@@ -110,7 +96,7 @@ locally-understood figures of speech.
 
 But when you're writing to an open source mailing list, your audience is
 much more diverse, including people all around the world, who are likely
-to not understand these phrases.
+to not understand some of the idioms and references that are familiar to your team.
 
 Write clearly, plainly, and without resorting to figures of speech,
 wherever possible. If you use slang or a metaphor, consider linking to a
