@@ -1,9 +1,12 @@
 ---
 title: Mentee Ranking Process
+tags: ["gsoc","mentoring"]
 ---
 
+# Mentee ranking process
+
 This page describes the ranking process The Apache Software
-Foundation uses to evaluate mentee proposals.
+Foundation uses to evaluate mentee proposals for the Google Summer of Code (GSoC).
 
 The ranking process makes sure the most promising
 applicants get a mentor with an ASF project. The goal is *not* to
@@ -16,32 +19,32 @@ is not about the mentors or their projects.
 Any ASF committer can help with the ranking: all you need to do is register
 as a potential mentor (you don't actually have to _become_ a mentor).
 
-The instructions below described ranking proposals using the Google Summer
-of Code application.
+The instructions below described ranking proposals using the GSoC application.
 
 <span id="MenteeRankingProcess-ScoringSystem"></span>
-# Scoring System
+## Scoring System
 
 We rank projects using this scoring system:
 
-## *Pre-Selection Phase* : a mentor does this when accepting to be mentor of a given proposal
+### Pre-selection phase
 
-* if the proposal is for a project you will be mentoring and you feel the
-proposal looks good enough for you to commit your time to it, click the
-"I am willing to Mentor" button in Melange (the software that administers the Google Summer of Code).
+_A mentor does this when accepting to be mentor of a given proposal_
+
+If the proposal is for a project you will be mentoring and you feel the proposal looks good enough for you to commit your time to it, click the "I am willing to Mentor" button in Melange (the software that administers the Google Summer of Code).
 
 Please only offer to mentor a single project unless you have discussed why you should mentor more than one on
-mentors@community.apache.org first. We encourage multiple mentors per project, though.
+`mentors@community.apache.org` first. We encourage multiple mentors per project, though.
 
-Other community members are free to comment on proposals as they see fit.
-In the re-evaluation phase (see below) admins use
-comments provided by mentors and community members.
+Other community members are free to comment on proposals as they see fit. In the re-evaluation phase (see below), admins use comments provided by mentors and community members.
 
-## *Selection Phase* : a mentor does this during ranking time
+### Selection phase 
+
+_A mentor does this during ranking time_
 
 In this phase mentors evaluate each proposal. We do all scoring in the Google Docs spreadsheet shared on
-mentors@community.apache.org. Add an explanation to every score, using the criteria below, to help admins in the later stages of evaluation.
-DO NOT ADD SCORES IN MELANGE! Use integer numbers only!
+`mentors@community.apache.org`. Add an explanation to every score, using the criteria below, to help admins in the later stages of evaluation.
+
+**Do not add scores in Melange!** Use integer numbers only!
 
 _Please do not add scores outside these criteria._
 
@@ -50,32 +53,24 @@ Address any questions to the admins on mentors@community.apache.org
 * Did the student demonstrate that they have the required skills to start
 the project and learn what's needed along the way? And how happy are we
 with the results? (0-4 points)
-
 * How do we rate the quality of the student's proposal, in terms of
 technical relevance, completeness, awareness of issues, and realistic planning
 (less copy and paste)? (0-4 points)
-
 * How does the mentor rate the student's chances of success, based on an
 in-person (face-to-face, video, audio, IRC,  email) interview? (0-3 points, or
 0-1 if email interview only)
-
 * How do we rate the originality of the student's contributions to the
 proposal? (0-2 points: 0 if mentor provides proposal, 1 if student builds
 proposal from suggested ideas, 2 if proposal is original idea from student)
-
 * Did the student work with the project community, on our public mailing lists,
 to create the proposal? (0-2 points)
-
 * Did the student explicitly indicate how much time they are going to dedicate
 to GSoC for the project's duration, and mention any other committments that
 could conflict with the project (holidays, course work, etc.)? Are we happy with
 this commitment (it should be their major occupation during the summer)? (0-2 points)
-
 * Did the student respond quickly to mentor inquiries? (0-2 points)
-
 * Are you or your student affiliated in any way (e.g. share(d) the same employer or will do so in the foreseeable future, are
 you their adviser at university, personal relationships, etc.)? (yes/no)
-
 
 Other community members are free to comment on proposals inside Melange as they see fit.
 However, DO NOT ADD A SCORE TO THE PROPOSAL. In the re-evaluation phase (see below) admins use
@@ -95,7 +90,9 @@ phase). Before progressing to the next phase, admins read all proposals
 above or near the minimum score and ensure that there are no errors
 in this phase of ranking.
 
-## *Re-Evaluation* : admins do this during or after selection phase
+### Re-Evaluation
+
+_Admins do this during or after selection phase._
 
 In this phase admins evaluate all proposals above the required score and
 those that are just below it. We check those just below the required score
@@ -117,9 +114,9 @@ At the end of this phase there is a short window for the community to
 verify the admins' work before the final selection is made.
 
 <span id="MenteeRankingProcess-Whatarewelookingforinagoodproposal?"></span>
-# What are we looking for in a good proposal?
+## What are we looking for in a good proposal?
 
-In general we much prefer new mentees to repeat mentees. The goal is to
+In general, we much prefer new mentees to repeat mentees. The goal is to
 enable new people to learn about open source software development.
 
 In past years we have seen some consistent patterns in high-quality proposals:
@@ -132,7 +129,7 @@ requests for more info)
 addressing those weaknesses
 
 <span id="MenteeRankingProcess-Warningsignsinabadproposal"></span>
-# Warning signs in a bad proposal
+## Warning signs in a bad proposal
 
 * No engagement with project community
 * Lack of understanding of what open source is and how it is developed
@@ -140,7 +137,7 @@ addressing those weaknesses
 * Previous failures within the mentor programme
 
 <span id="MenteeRankingProcess-Whathappensnext?"></span>
-# What happens next?
+## What happens next?
 
 Towards the end of the ranking period Google announces how many slots
 the ASF has. Shortly after that we ask ASF committers to
@@ -155,11 +152,16 @@ projects to ensure that Google can assign awards as appropriate.
 For example, imagine that 7 is the number of points that causes the
 clustering, and we have the following projects ranked at 7:
 
-# A
-# B
-# C
-# D
-# E
+**A**
+
+**B**
+
+
+**C**
+
+**D**
+
+**E**
 
 Now imagine the cut-off point for selection is currently at the third
 position (C).
@@ -169,13 +171,17 @@ webapp to make the most appropriate appear at the top of the list. This
 ensures that they are most likely to receive a slot. So we may end up
 with:
 
-# B
-# C
-# A
-# E
-# D
+**A**
 
-Unfortunately this process needs to happen very quickly and there is no
+**E**
+
+**D**
+
+**B**
+
+**C**
+
+Unfortunately, this process needs to happen very quickly and there is no
 time for community discussion around these points. Therefore it is
 important that mentors and mentees provide as much information in the
 previous ranking stages as possible.
@@ -204,7 +210,7 @@ It's not practical to ask the community to comment at this point as we are
 on a tight deadline. We ask that the community trust the assigned admins.
 
 <span id="MenteeRankingProcess-Resolveconflicts"></span>
-# Resolve conflicts
+## Resolve conflicts
 
 Inevitably there will be one or two students who have been accepted in
 multiple organizations. We resolve these conflicts during an IRC meeting with Google
