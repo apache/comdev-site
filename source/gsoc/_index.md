@@ -3,7 +3,7 @@ title: Google Summer of Code
 url: /gsoc/
 ---
 
-{{title}}
+# Google Summer of Code
 
 <div class="card mb-3">
   <div class="card-header">
@@ -15,17 +15,18 @@ url: /gsoc/
 </div>
 
 Google is sponsoring the [{{< current_year >}} Summer of Code](https://summerofcode.withgoogle.com/) and 
-[The Apache Software Foundation](https://www.apache.org/) (ASF) registered as a mentoring organization.
+[The Apache Software Foundation](https://www.apache.org/) (ASF) is registered as a mentoring organization.
 This page is your entry point to the ASF GSoC program.
+
 Please watch this page for updates concerning our participation in {{< current_year >}}.
 
 <span id="GSoC-Mentors:readthis"></span>
-# Mentors: read this
+## Mentors: read this
 
 Navigate to the [mentor documentation](./guide-to-being-a-mentor.html).
 
 <span id="GSoC-Students:readthis"></span>
-# Students: read this
+## Students: read this
 
 * Learn [about GSoC](https://summerofcode.withgoogle.com/about/)
 * Decide if you are [eligible](https://summerofcode.withgoogle.com/get-started/) for GSoC?
@@ -68,7 +69,7 @@ Once open applications are made through the [GSoC site](https://summerofcode.wit
 
 ### Application template
 
-_This is just a suggested template, feel free to add and remove sections as appropriate. Be brief, don't write a large essay!_
+_This is just a suggested template. Feel free to add and remove sections as appropriate. Be brief, don't write a large essay!_
 
 #### About me
 
@@ -134,14 +135,14 @@ engage with that project community.
 Please contact dev@community.apache.org if you have questions/difficulties.
 
 <span id="GSoC-ASFGSoCTimeline"></span>
-# ASF GSoC {{< current_year >}} Timeline
+## ASF GSoC {{< current_year >}} Timeline
 
 Below is a timeline of events for The Apache Software Foundation's
 involvement in GSoC. Unless otherwise stated deadlines are 24:00 UTC on the
 date indicated.
 
 <span id="GSoC-StudentApplicationandSelection"></span>
-## Student Application and Selection
+### Student Application and Selection
 
   - 2026-02-20: Potential GSoC contributors discuss application ideas with mentoring organizations
   - 2026-03-16: GSoC contributor application period begins
@@ -152,7 +153,7 @@ date indicated.
   - 2026-04-30: Accepted student proposals announced on the Google Summer of Code site.
 
 <span id="GSoC-GSoCisunderway"></span>
-## GSoC is underway
+### GSoC is underway
 
   - 2026-05-01: Community bonding start
   - 2026-05-24: Community bonding end
@@ -161,7 +162,7 @@ date indicated.
   - 2026-07-10: Phase 1 Evaluation deadline (standard coding period)
   
 <span id="GSoC-Winddown"></span>
-## Wind down
+### Wind down
 
   - 2026-08-24: GSoC contributors submit their final work product and their final mentor evaluation (standard coding 
     period)
@@ -169,18 +170,18 @@ date indicated.
   - 2026-08-31: ASF Mentors final evaluations deadline
 
 <span id="GSoC-Extended"></span>
-## Extended coding period
+### Extended coding period
   - 2026-08-24: GSoC contributors with extended timelines continue coding
   - 2026-11-02: Final date for all GSoC contributors to submit their final work product and final evaluation
   - 2026-11-09: Final date for mentors to submit evaluations for GSoC contributor projects with extended deadlines
 
 <span id="GSoC-Vouching"></span>
-# Organization Vouching
+## Organization Vouching
 
 The ASF currently has no policy establishing the criteria on what basis to vouch for another organization. Until one is established the ASF therefore doesn't vouch for any organization.
 
 <span id="GSoC-UsefulLinks"></span>
-# Useful Links
+## Useful Links
 
  * [Summer of Code home](https://summerofcode.withgoogle.com)
  * [Official Google Summer of Code {{< current_year >}} Timeline, FAQs](https://developers.google.com/open-source/gsoc/timeline)
