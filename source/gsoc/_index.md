@@ -7,7 +7,7 @@ url: /gsoc/
 
 <div class="card mb-3">
   <div class="card-header">
-    Currently happening
+    Preparing for 2027
   </div>
   <div class="card-body">
     <h5 class="card-title text-info">Proposal Review</h5>
