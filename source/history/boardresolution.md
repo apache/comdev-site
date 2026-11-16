@@ -2,8 +2,9 @@
 title: ComDevBoardResolution
 tags: ["history"]
 ---
-The Apache Community Development Project was created in November 2009.
+# Board resolution creating ComDev
 
+The Apache Community Development Project was created in November, 2009.
 
 <div class="code panel" style="border-style: solid;border-width: 1px;">
   <div class="codeHeader panelHeader" style="border-bottom-width: 1px;border-bottom-style: solid;">
