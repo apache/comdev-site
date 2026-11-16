@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+  <meta name="description" content="Apache Community Development">
+  <meta name="keywords" content="apache, apache community, community development, opensource">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" >
+  <meta property="og:url" content="https://community.apache.org/alc/chapters/beijing/team-meeting/team-meeting-2024.html">
+  <meta property="og:site_name" content="ASF Community Development">
+  <meta property="og:title" content="Team meeting 2024">
+  <meta property="og:description" content="Dec 19th, 2024, Thursday ¶ Time: 10:00 PM (UTC&#43;8 Beijing Time)
+Join Meeting:
+https://meeting.tencent.com/dm/vqsJLluCN2HF
+#腾讯会议：286-741-653
+Host: Yin Xu
+Attendees:
+Next Meeting Host: GuoWei, Dai Lidong，Nadia Jiang , Williem Jiang, Ted Liu, Yin Xu, Xiatian
+Agenda:
+1. CoC Asia 2025 conference
+Date: 7.25-7.27
+Location: Zhongguancun National Innovation Demonstration Zone (NIDZ) Conference Center, No. 2 Xinjingumen Road, Haidian District, Beijing, China.
+Maximum 11 Tracks per day.
+Track Chair to be confirmed later;
+TODO: Nadia Jiang Timetable for the preparation of the conference">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="alc">
+    <meta property="article:modified_time" content="2026-11-12T14:23:14+00:00">
+    <meta property="og:image" content="https://community.apache.org/images/project-logos.webp">
+
+
+  <title>Apache Community Development - Team meeting 2024</title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link href="/css/main.css" rel="stylesheet" media="screen">
+  <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <style>
+      .footer {
+          text-align:center;
+          color:grey;
+          font-size:80%;
+          border-top: solid #ddd 1px;
+          margin-top:1em;
+      }
+      .navbar-brand img {
+          height: 50px;
+      }
+  </style>
+
+  
+<script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(['disableCookies']);
+   
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.apache.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '36']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+
+  
+
+</head>
+
+<body>
+  <header class="navbar navbar-expand-lg navbar-dark bg-bright fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+    <img src="https://apache.org/img/asf_logo.png" alt="Apache Software Foundation">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="mainNavbar">
+    <div class="container"> 
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="homeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Home
+            </a>
+            <div class="dropdown-menu" aria-labelledby="homeDropdown">
+              <a class="dropdown-item" href="/">Homepage</a>
+              <a class="dropdown-item" href="/tags/">Tags</a>
+              <a class="dropdown-item" href="/blog/">Blog</a>
+              <a class="dropdown-item" href="/tags/navigation.html">Navigation pages</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About
+          </a>
+          <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+            <a class="dropdown-item" href="/about/">What We Do</a>
+            <a class="dropdown-item" href="/newbiefaq.html">Frequently Asked Questions</a>
+            <a class="dropdown-item" href="/projectIndependence.html">Apache Project Independence</a>
+            <a class="dropdown-item" href="/apache-way/apache-project-maturity-model.html">Apache Project Maturity Model</a>
+            <a class="dropdown-item" href="/contactpoints.html">Contact Points Within the ASF</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html#2009-11-01">ComDev Original Board Resolution</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html">ComDev Board Reports</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/COMDEV">Community Development Jira</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">About Apache</a>
+            <a class="dropdown-item" href="https://www.apache.org/">The Apache Software Foundation</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/sponsorship">Sponsor Apache</a>
+            <a class="dropdown-item" href="http://diversity.apache.org/">Diversity & Inclusion</a>
+             <a class="dropdown-item" href="/contributors/asf-volunteers.html">Mentors &amp; Speakers</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/thanks">Thanks to our Sponsors</a>
+            <a class="dropdown-item" href="https://www.apache.org/licenses">License</a>
+            <a class="dropdown-item" href="https://www.apache.org/security">Security</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="contribDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Contributing
+          </a>
+          <div class="dropdown-menu" aria-labelledby="contribDropdown">
+            <a class="dropdown-item" href="/newcomers/why.html">Why Contribute?</a>
+            <a class="dropdown-item" href="/contributor-ladder.html">Contributor Ladder</a>
+            <a class="dropdown-item" href="/newcomers/">Getting Started at Apache</a>
+            <a class="dropdown-item" href="/contributors/">Contributing to projects</a>
+            <a class="dropdown-item" href="/committers/">Committers</a>
+            <a class="dropdown-item" href="/pmc/">PMC Members</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">Committer and PMC Information</a>
+            <a class="dropdown-item" href="https://www.apache.org/dev/">Technical Developer FAQs</a>
+            <a class="dropdown-item" href="/committers/decisionMaking.html">Decision Making</a>
+            <a class="dropdown-item" href="/committers/good-first-issues.html">Good First Issues</a>
+            <a class="dropdown-item" href="/pmc/community-growth.html">Recruiting New Contributors</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="gsocDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">GSoC</a>
+          <div class="dropdown-menu" aria-labelledby="gsocDropdown">
+            <a class="dropdown-item" href="/gsoc/">Google Summer Of Code Information</a>
+            <a class="dropdown-item" href="/gsoc/mentee-ranking-process.html">Mentee Ranking Process</a>
+            <a class="dropdown-item" href="/gsoc/experiences/">Past GSoC Experiences</a>
+            <a class="dropdown-item" href="/gsoc/guide-to-being-a-mentor.html">Guide to being a Mentor</a>
+            <a class="dropdown-item" href="/gsoc/use-the-comdev-gsoc-issue-tracker-for-gsoc-tasks.html">Using ComDev's Jira for GSoC Ideas</a>
+            <a class="dropdown-item" href="/gsoc/gsoc-admin-tasks.html">Tasks of a GSoC Admin at the ASF</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/GSOC">GSoC Jira</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="eventDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Events
+          </a>
+          <div class="dropdown-menu" aria-labelledby="eventDropdown">
+            <a class="dropdown-item" href="https://apachecon.com/">Community Over Code - (formerly ApacheCon)</a>
+            <a class="dropdown-item" href="https://events.apache.org/">Other Apache-related Events</a>
+            <a class="dropdown-item" href="/alc/">Local Communities (ALC)</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/marks/events">Apache event branding policies</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">Conference Speakers</a>
+            <a class="dropdown-item" href="/speakers/">Speaker resources</a>
+            <a class="dropdown-item" href="/speakers/slides.html">Sample presentations</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="wgDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Working Groups
+          </a>
+          <div class="dropdown-menu" aria-labelledby="wgDropdown">
+            <a class="dropdown-item" href="/workinggroups/">Working Groups</a>
+            <a class="dropdown-item" href="https://github.com/apache/comdev-working-groups">Git repositories</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="conversDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Join the Conversation
+          </a>
+          <div class="dropdown-menu" aria-labelledby="conversDropdown">
+            <a class="dropdown-item" href="/blog/">Blog</a>
+            <a class="dropdown-item" href="https://www.facebook.com/ApacheSoftwareFoundation">Facebook</a>
+            <a class="dropdown-item" href="https://x.com/TheASF">X (Formerly Twitter)</a>
+            <a class="dropdown-item" href="/lists.html">Mailing List</a>
+            <a class="dropdown-item" href="/alc/">ALC: Apache Local Communities</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+    </div>
+  </header>
+
+  <main class="cd-main" id="content" role="main">
+    <div class="container">
+      
+      <hr>
+       
+      
+	
+	<br><br>
+	<h2 id="dec-19th-2024-thursday">Dec 19th, 2024, Thursday <a class="headerlink" title="Permalink" href="#dec-19th-2024-thursday">&para;</a></h2>
+<p>Time: 10:00 PM (UTC+8 Beijing Time)<br>
+Join Meeting:<br>
+<a href="https://meeting.tencent.com/dm/vqsJLluCN2HF">https://meeting.tencent.com/dm/vqsJLluCN2HF</a><br>
+#腾讯会议：286-741-653<br>
+Host: Yin Xu<br>
+Attendees:<br>
+Next Meeting Host: GuoWei, Dai Lidong，Nadia Jiang , Williem Jiang, Ted Liu, Yin Xu, Xiatian</p>
+<p>Agenda:<br>
+1. CoC Asia 2025 conference<br>
+Date: 7.25-7.27<br>
+Location: Zhongguancun National Innovation Demonstration Zone (NIDZ) Conference Center, No. 2 Xinjingumen Road, Haidian District, Beijing, China.<br>
+Maximum 11 Tracks per day.<br>
+Track Chair to be confirmed later;<br>
+TODO: Nadia Jiang Timetable for the preparation of the conference</p>
+<p>2. ALC Beijing annual party 12.22<br>
+[Tencent Document] ALC Beijing Members 2024 Annual Meeting <a href="https://docs.qq.com/doc/DV2tpaVdIaVJLZ3VZ">https://docs.qq.com/doc/DV2tpaVdIaVJLZ3VZ</a></p>
+<p>3. [Proposal] Establish Open Source Rising Star Project Community Incubator v0.2 Ted Liu @IanX<br>
+<a href="https://openbuild.sg.larksuite.com/docx/H7MXdeY9Po2CB5xRGc1lSvVBgrb">https://openbuild.sg.larksuite.com/docx/H7MXdeY9Po2CB5xRGc1lSvVBgrb</a></p>
+<h2 id="dec-5st-2024-thursday">Dec 5st, 2024, Thursday <a class="headerlink" title="Permalink" href="#dec-5st-2024-thursday">&para;</a></h2>
+<p>Time: 10:00 PM (UTC+8 Beijing Time)</p>
+<p>Join Meeting:</p>
+<p><a href="https://meeting.tencent.com/dm/vqsJLluCN2HF">https://meeting.tencent.com/dm/vqsJLluCN2HF</a></p>
+<p>#腾讯会议：286-741-653</p>
+<p>Host：Guo Wei</p>
+<p>Attendees: GuoWei, Jishiwen, Tanzongyi , Williem Jiang, Ted Liu, IanX（Yin Xu）, Wang Dianjin</p>
+<p>Next Meeting Host: Yin Xu</p>
+<p>Agenda:</p>
+<p>1. ALC Beijing annual party ， 12.22</p>
+<p>2. [Proposal] 成立开源项目加速器 @Ted Liu</p>
+<p><a href="https://kaiyuanshe.feishu.cn/wiki/CO2Fwx7N1ivEOlkbhr6cYhqznBc">https://kaiyuanshe.feishu.cn/wiki/CO2Fwx7N1ivEOlkbhr6cYhqznBc</a></p>
+<p>Discuss it in ALC Beijing annual party on Dec,22</p>
+<h2 id="nov-21st-2024-thursday">Nov 21st, 2024, Thursday <a class="headerlink" title="Permalink" href="#nov-21st-2024-thursday">&para;</a></h2>
+<p>Time: 10:00 PM (UTC+8 Beijing Time)</p>
+<p>Join Meeting:</p>
+<p><a href="https://meeting.tencent.com/dm/vqsJLluCN2HF">https://meeting.tencent.com/dm/vqsJLluCN2HF</a></p>
+<p>#腾讯会议：286-741-653</p>
+<p>Host：Xiaoyu</p>
+<p>Attendees: Guo wei, Willem Jiang, Ted Liu, Sheng Wu, Zhongyi Tan, Tison， Nadia Jiang, Xiatian, 姬世文, 聂励峰</p>
+<p>Next Meeting Host:</p>
+<p>Agenda:</p>
+<ul>
+<li>ALC Beijing annual party
+<ul>
+<li>Need to decide and agenda</li>
+<li>12.22</li>
+</ul>
+</li>
+<li>CoC Asia 2025 , 7.18-20</li>
+<li>News from ASF</li>
+</ul>
+<h2 id="nov-7th-2024-thursday">Nov 7th, 2024, Thursday <a class="headerlink" title="Permalink" href="#nov-7th-2024-thursday">&para;</a></h2>
+<p>Time: 10:00 PM (UTC+8 Beijing Time)</p>
+<p>Join Meeting:</p>
+<p><a href="https://meeting.tencent.com/dm/vqsJLluCN2HF">https://meeting.tencent.com/dm/vqsJLluCN2HF</a></p>
+<p>#腾讯会议：286-741-653</p>
+<p>Host： Willem Jiang</p>
+<p>Attendees: Dianjin Wang, Willem Jiang, Ted Liu, Sheng Wu, Zhongyi Tan, Junpin Du， Nadia Jiang, Xiatian</p>
+<p>Next Meeting Host: Xiaoyu</p>
+<p>Agenda:</p>
+<ul>
+<li>CoC Asia 2024 video process status：
+<ul>
+<li>First 50 videos are OK， need to generated the rest videos again</li>
+</ul>
+</li>
+<li>COSCon 2024 wrap up
+<ul>
+<li>
+<p>21 community tracks</p>
+</li>
+<li>
+<p>More Developer invited</p>
+</li>
+<li>
+<p>Venue sponorsed by Zhongguancun</p>
+</li>
+</ul>
+</li>
+<li>ALC Beijing annual party
+<ul>
+<li>Need to decide time and agenda</li>
+</ul>
+</li>
+<li>News of ASF</li>
+</ul>
+<h2 id="october-24th-2024-thursday">October 24th, 2024, Thursday <a class="headerlink" title="Permalink" href="#october-24th-2024-thursday">&para;</a></h2>
+<p>Time: 10:00 PM (UTC+8 Beijing Time)</p>
+<p>Join Meeting:</p>
+<p><a href="https://meeting.tencent.com/dm/vqsJLluCN2HF">https://meeting.tencent.com/dm/vqsJLluCN2HF</a></p>
+<p>#腾讯会议：286-741-653</p>
+<p>Host： Dianjin Wang</p>
+<p>Attendees: Dianjin Wang, Willem Jiang, Ted Liu, Sheng Wu, Yin xu, Jia Zhai, Xiatian</p>
+<p>Next Meeting Host: TBD</p>
+<p>Agenda:</p>
+<ul>
+<li>CoC Asia 2024 video uploading: still in progress for Youtube, Bilibili to be stated.</li>
+<li>COSCon 2024 will be held on Nov 2th-3rd in Beijing</li>
+<li>Sharing: Coze Demo for OSPO that can be used for QA and other cases.</li>
+<li>News on the future CoC Europe/NA plan.</li>
+</ul>
+<h2 id="october-10th-2024-thursday">October 10th, 2024, Thursday <a class="headerlink" title="Permalink" href="#october-10th-2024-thursday">&para;</a></h2>
+<p>Time: 10:00 PM (UTC+8 Beijing Time)</p>
+<p>Join Meeting:</p>
+<p><a href="https://meeting.tencent.com/dm/vqsJLluCN2HF">https://meeting.tencent.com/dm/vqsJLluCN2HF</a></p>
+<p>#腾讯会议：286-741-653</p>
+<p>Host： Dianjin Wang (Ted helped take the notes)</p>
+<p>Attendees: Ted Liu, Willem Jiang, Nadia Jiang, William Guo, Ian Xu, Tian Xia, Shiwen Ji (Hertzbeat), Sheng Wu</p>
+<p>Next Meeting Host: Dianjian Wang</p>
+<p>Agenda:</p>
+<ul>
+<li>COSCon'24 CfP closes at Oct. 13th <a href="https://kaiyuanshe.feishu.cn/share/base/form/shrcn1T7NDnuGoMxGRgUIMp5T4f">https://kaiyuanshe.feishu.cn/share/base/form/shrcn1T7NDnuGoMxGRgUIMp5T4f</a></li>
+<li>开源社十周年特别征集你的祝福与故事，我们一起回顾！<a href="https://mp.weixin.qq.com/s/v1GIOzHrSovAeHv4eOEcPw">https://mp.weixin.qq.com/s/v1GIOzHrSovAeHv4eOEcPw</a></li>
+<li>CoC Asia 2024 video recording status: by Ian Xu</li>
+<li>CoC North America 2024 update: by Nadia Jiang</li>
+<li>Call for Knowledge Sharing for the upcoming meeting</li>
+</ul>
+<h2 id="september-26th-2024-thursday">September 26th, 2024, Thursday <a class="headerlink" title="Permalink" href="#september-26th-2024-thursday">&para;</a></h2>
+<p>Time: 10:00 PM (UTC+8 Beijing Time)<br>
+Join Meeting: <a href="https://meeting.tencent.com/dm/vqsJLluCN2HF">https://meeting.tencent.com/dm/vqsJLluCN2HF</a></p>
+<p>Host: Gang Li</p>
+<p>Attendees: Willem Jiang, Sheng Wu, Ted Liu, Dianjin Wang,Sheng Mu,Sheng Mu</p>
+<p>Next Meeting Host: Dianjin Wang</p>
+<p>Agenda:</p>
+<ul>
+<li>Summary of the CoC Asia 2024
+<ol>
+<li>Volunteer works</li>
+<li>Video startup clip Willem Ning Jiang follow up with Ian Xu Yin for progress</li>
+<li>Upload recordings</li>
+</ol>
+</li>
+<li>COSCon 2024 information: COSCon'24 第九届中国开源年会议题征集正式启动 <a href="https://mp.weixin.qq.com/s/XlhiNX2yrnI9bSyHlcF_pA">https://mp.weixin.qq.com/s/XlhiNX2yrnI9bSyHlcF_pA</a></li>
+</ul>
+<h2 id="august-29th-2024-thursday">August 29th, 2024, Thursday <a class="headerlink" title="Permalink" href="#august-29th-2024-thursday">&para;</a></h2>
+<p>Time: 10:00 PM (UTC+8 Beijing Time)<br>
+Join Meeting: <a href="https://meeting.tencent.com/dm/vqsJLluCN2HF">https://meeting.tencent.com/dm/vqsJLluCN2HF</a></p>
+<p>Host: Tian Xia</p>
+<p>Attendees: Willem Jiang, Ted Liu, Gang Li, William Guo, Trista Pan, Zhongyi Tan, Yin Xu, Tian Xia, Jin Zhang, Youliang Huang, Xinrui Peng, Yu Xiao, Kent Yao</p>
+<p>Next Meeting Host: Gang Li</p>
+<p>Agenda:</p>
+<ol>
+<li>Summary of the CoC Asia 2024
+<ol>
+<li>Volunteer works</li>
+<li>Video startup clip</li>
+<li>Upload recordings</li>
+</ol>
+</li>
+<li>Flash speaking
+<ol>
+<li>5min limit without presentation</li>
+<li>1 time each meeting</li>
+<li>Questions welcomed</li>
+</ol>
+</li>
+<li>Unite ALCs
+<ol>
+<li>More local activities</li>
+<li>A great chance to provide exposure chances for project meetups</li>
+<li>An entrance of open source project activities</li>
+<li>Sync important infos to ALC Hangzhou/Shanghai/Shenzhen</li>
+</ol>
+</li>
+<li>Some suggestions for CoCA in <a href="https://www.pil0txia.com/post/2024-08-29_community-over-code-asia-2024/">my blog</a>
+<ol>
+<li>Speaker information in the schedule is not prominent</li>
+<li>By the time the speakers and participants come out after the session, there is almost no tea break left.</li>
+<li>Article promotion</li>
+</ol>
+</li>
+</ol>
+<h2 id="august-15th2024-thursday">August 15th，2024， Thursday <a class="headerlink" title="Permalink" href="#august-15th2024-thursday">&para;</a></h2>
+<p>Time:10:00 PM (Beijing Time)<br>
+Join Meeting: <a href="https://meeting.tencent.com/dm/wRQjIFU2BkDg">https://meeting.tencent.com/dm/wRQjIFU2BkDg</a></p>
+<p>Host: Nadia Jiang</p>
+<p>Attendees: Willem Jiang, Nadia Jiang, Ted Liu, Gang Li, William Guo, Trista Pan,Yin Xu, Tian Xia, Lidong Dai, Xia Tian, JinZhang, Youliang Huang, XiangDong Huang, Tison</p>
+<p>Next Meeting Host: Tian Xia</p>
+<p>Agenda</p>
+<ol>
+<li>Summary of the CoC Asia 2024</li>
+<li>New member introduction Tian Xia</li>
+</ol>
+<h2 id="july-11th2024-thursday">July 11th，2024， Thursday <a class="headerlink" title="Permalink" href="#july-11th2024-thursday">&para;</a></h2>
+<p>Time:10:00 PM (Beijing Time)<br>
+Join Meeting: <a href="https://meeting.tencent.com/dm/wRQjIFU2BkDg">https://meeting.tencent.com/dm/wRQjIFU2BkDg</a></p>
+<p>Host： Gang Li</p>
+<p>Attendees: Willem Jiang, Junping Du, Lidong Dai, Ted Liu, Gang Li, William Guo, Trista Pan, Bo Jiang, Huxing zhang,Yin Xu,Fury,Zhongyi Tan,Qing Shan,Xia Tian,Heqing Jiang,Vivian</p>
+<p>Next Meeting Host：</p>
+<p>Agenda</p>
+<ol>
+<li>
+<p>Status of CoC Asia 2024 CFP</p>
+<ol>
+<li>Keynote arragement</li>
+<li>Session arrangement</li>
+</ol>
+</li>
+<li>
+<p>Conference promotion Plan</p>
+</li>
+<li>
+<p>Conference Souvernir</p>
+<ol>
+<li>T shirt<img src="/alc/attachments/chapters/beijing/team-meeting/team-meeting-2024/image-2024-7-11_21-57-36.png" alt="image-2024-7-11_21-57-36.png" height="250"></li>
+<li>Bag <img src="/alc/attachments/chapters/beijing/team-meeting/team-meeting-2024/image-2024-7-11_21-58-17.png" alt="image-2024-7-11_21-58-17.png" height="250"></li>
+</ol>
+</li>
+<li>
+<p>Keynotes schedule: The round table still needs a lecturer to submit his information</p>
+</li>
+<li>
+<p>TAC support status</p>
+<p>50% visa completed</p>
+</li>
+<li>
+<p>Track Chair work: create we chat group for speaker per track</p>
+</li>
+</ol>
+<p>TODO:</p>
+<p>1.7月12日导出讲师联系方式表<br>
+Export instructor contact information on July 12 @Vivian<br>
+2.大会倒计时海报宣传<br>
+Conference countdown poster promotion @Vivian<br>
+3.7月25日线下对志愿者培训<br>
+Offline training for volunteers was held on July 25<br>
+4.海外讲师国际信用卡使用小提示<br>
+Tips for international credit card use by overseas lecturers<br>
+5.Keynotes 议程文章宣传<br>
+Keynotes agenda article promotion<br>
+6.Track chair建各自track的群催收讲师ppt<br>
+Track Chair need to create we chat group for speaker per track @Track Chairs</p>
+<p>7.track chair 打call视频，需要@波波出一个打call模版</p>
+<p>Track chairs call video for the CoC Asia 2024,Need Bo Jiang to make a template.@Bo Jiang</p>
+<h2 id="june-27th2024-thursday">June 27th，2024， Thursday <a class="headerlink" title="Permalink" href="#june-27th2024-thursday">&para;</a></h2>
+<p>Time:10:00 PM (Beijing Time)<br>
+Join Meeting: <a href="https://meeting.tencent.com/dm/wRQjIFU2BkDg">https://meeting.tencent.com/dm/wRQjIFU2BkDg</a></p>
+<p>Host： Dianjin Wang</p>
+<p>Attendees: Dianjin Wang, Willem Jiang, Lidong Dai, Junping Du, Gang Li, Xiangdong Huang, Bo Jiang, Jun Liu, Jialin Qiao, Xin Wang, Duo Zhang, Yin Xu, Vivian, Sheng Wu, Wei Guo, Heqing Jiang.</p>
+<p>Next Meeting Host： Gang Li</p>
+<p>Agenda</p>
+<ol>
+<li>Status of CoC Asia 2024 CFP
+<ol>
+<li>Keynote arragement</li>
+<li>Session arrangement</li>
+</ol>
+</li>
+<li>Conference promotion Plan</li>
+<li>Conference Souvenir
+<ol>
+<li>T shirt Desigin</li>
+<li>TODO canvas bag<img src="/alc/attachments/chapters/beijing/team-meeting/team-meeting-2024/image-2024-6-27_20-57-41.png" alt="image-2024-6-27_20-57-41.png" height="250"><img src="/alc/attachments/chapters/beijing/team-meeting/team-meeting-2024/image-2024-6-27_20-58-28.png" alt="image-2024-6-27_20-58-28.png" height="250"></li>
+</ol>
+</li>
+<li>Sponsorship Update: 49W CNY, with 6 sponsors</li>
+<li>Keynote speaker - Get support from ASF with 6K USD for two person</li>
+<li>TAC support status ：Send out 8 Visa Letters for People who are accepted by TAC</li>
+</ol>
+<p>TODO：</p>
+<p>- T-shirt: redesign with the ideas input, like ASF 25th.<br>
+- Sponsorship: need to explore more opportunities from possible teams and companies.<br>
+- Speaker communications to help promote the conference<br>
+- Registration: 100~ for now, need to spread more.</p>
+<h2 id="june-13th2024-thursday">June 13th，2024， Thursday <a class="headerlink" title="Permalink" href="#june-13th2024-thursday">&para;</a></h2>
+<p>Time:10:00 PM (Beijing Time)<br>
+Join Meeting: <a href="https://meeting.tencent.com/dm/wRQjIFU2BkDg">https://meeting.tencent.com/dm/wRQjIFU2BkDg</a></p>
+<p>Host： Zhongming Hua</p>
+<p>Attendees: Willem Jiang, Nadia Jian, Huxing Zhang, Zhongming Hua, David Dai, Dianjin Wang, Ted Liu, Chong Wu, Zhongyi Tan, viavian， Xia Tian ，Gang Li</p>
+<p>Next Meeting Host： Dianjin Wang</p>
+<p>Agenda</p>
+<ol>
+<li>CoC EU + board f2f meeting</li>
+<li>Status of CoC Asia 2024 CFP</li>
+<li>Session arrangement -</li>
+<li>Conference promotion</li>
+<li>Conference free ticket doesn&rsquo;t include lunch</li>
+<li>PPT template ， speaker guide</li>
+<li>Sponsorship Update: 49W CNY, with 6 sponsors</li>
+<li>Keynote speaker - Get support from ASF 6K USD</li>
+<li>TAC support</li>
+</ol>
+<p>TODO：</p>
+<p>Track Chair:</p>
+<p>* Session schedule confirmation by 16th June.</p>
+<p>* Session translation confirmation next week.</p>
+<p>Bobo：</p>
+<p>* Setup the code for Committer register</p>
+<h2 id="may-23th2024-thursday">May 23th，2024， Thursday <a class="headerlink" title="Permalink" href="#may-23th2024-thursday">&para;</a></h2>
+<p>Time:10:00 PM (Beijing Time)<br>
+Join Meeting: <a href="https://meeting.tencent.com/dm/wRQjIFU2BkDg">https://meeting.tencent.com/dm/wRQjIFU2BkDg</a></p>
+<p>Host： Willem Jiang</p>
+<p>Attendees: Willem Jiang, Nadia Jiang,David Dai, Junping Du, William Guo, Trista Pan, Jun Liu, Heqing Jiang , Yu Xiao, robin, Huxing Zhang, Ian Xu, Henry Hu, Shuailin Li, Dianjin Wang, Zhongming Hua</p>
+<p>Next Meeting Host：Zhongming Hua</p>
+<p>Agenda：</p>
+<ol>
+<li>CFP of CoC Asia 2024</li>
+<li>Community support of CoC Asia 2024</li>
+<li>Session arrangement - next week for confirmation</li>
+<li>Session discription translation - Xuyin July - 议程信息翻译成中文 -</li>
+<li>Conference promotion == 会议的排期， TODO 周边发布的内容， 周边 常规 ==</li>
+<li>PPT template ， speaker guide ， this week finished， Suggest english 建议讲师优先使用英文</li>
+<li>Sponsorship Update:</li>
+<li>Ant group 5.28 : ALC Hangzhou , Rust meetup, Ant Design</li>
+<li>Fundraising team , Jun 21st 12:00 AM sponor zoom meeting .</li>
+<li>Keynote speaker - find the supports for traveling</li>
+</ol>
+<h2 id="may-9th2024-thursday">May 9th，2024， Thursday <a class="headerlink" title="Permalink" href="#may-9th2024-thursday">&para;</a></h2>
+<p>Time:10:00 PM (Beijing Time)<br>
+Join Meeting: <a href="https://meeting.tencent.com/dm/wRQjIFU2BkDg">https://meeting.tencent.com/dm/wRQjIFU2BkDg</a></p>
+<p>Host： Ted Liu</p>
+<p>Attendees: Willem Jiang, Jerry Tan, Nadia Jiang, Bright Li, David Dai, Junping Du, William Guo, Gang Li, Trista Pan, Sheng Wu, Calvin, Xin Wang, Huxing Zhang, tison Chen, Ian Xu, Henry Hu, Calvin, Chao Guo, Jia Zhai, Qingshan Lin, Zhongming Hua</p>
+<p>Next Meeting Host：Xin Wang</p>
+<p>Agenda：(Please fill in your proposed agenda here.)</p>
+<ol>
+<li>CFP of CoC Asia 2024： 216 submissions， 145-146 accepted</li>
+</ol>
+<p>Track</p>
+<p>Track Chair</p>
+<p>All Sessions</p>
+<p>Accepted Sessions</p>
+<p>AI</p>
+<p>Tan Zhongyi <a href="mailto:jerrytan@apache.org">jerrytan@apache.org</a><br>Du junping <a href="mailto:junping_du@apache.org">junping_du@apache.org</a><br>Chenhan Wang <a href="mailto:gabriel@openbayes.com">gabriel@openbayes.com</a></p>
+<p>17</p>
+<p>6-7</p>
+<p>Cloud Native</p>
+<p>Sheng Wu<a href="mailto:wusheng@apache.org">wusheng@apache.org</a>，<br>Jia Feng <a href="mailto:vongosling@apache.org">vongosling@apache.org</a></p>
+<p>17</p>
+<p>7</p>
+<p>Community</p>
+<p>tison <a href="mailto:tison@apache.org">tison@apache.org</a>，<br>Nadia Jiang<a href="mailto:nadia@apache.org">nadia@apache.org</a>,<br>Ted Liu <a href="mailto:tedliu@apache.org">tedliu@apache.org</a></p>
+<p>23</p>
+<p>14</p>
+<p>Data Lake &amp; Data Warehouse</p>
+<p>Lidong Dai <a href="mailto:lidongdai@apache.org">lidongdai@apache.org</a>,<br>Shaofeng Shi <a href="mailto:shaofengshi@apache.org">shaofengshi@apache.org</a></p>
+<p>15</p>
+<p>12</p>
+<p>Data Storage &amp; Computing</p>
+<p>Gang Li <a href="mailto:lgcareer@apache.org">lgcareer@apache.org</a>，<br>Maxwell Guo<a href="mailto:cclive1601@gmail.com">cclive1601@gmail.com</a>，<br>Uma Maheswara Rao Gangumalla <a href="mailto:umagangumalla@gmail.com">umagangumalla@gmail.com</a></p>
+<p>26</p>
+<p>14</p>
+<p>DataOps</p>
+<p>William Guo <a href="mailto:guowei@apache.org">guowei@apache.org</a>,<br>Lifeng Nie <a href="mailto:nielifeng@apache.org">nielifeng@apache.org</a></p>
+<p>10</p>
+<p>10</p>
+<p>Incubator</p>
+<p>Calvin Kirs <a href="mailto:kirs@apache.org">kirs@apache.org</a>,<br>Trista Pan <a href="mailto:panjuan@apache.org">panjuan@apache.org</a>，<br>Justin Mclean <a href="mailto:jmclean@apache.org">jmclean@apache.org</a></p>
+<p>8</p>
+<p>6</p>
+<p>IoT</p>
+<p>Jialin Qiao<a href="mailto:qiaojialin@apache.org">qiaojialin@apache.org</a>,<br>Christofer Dutz <a href="mailto:cdutz@apache.org">cdutz@apache.org</a></p>
+<p>11</p>
+<p>7</p>
+<p>Messaging</p>
+<p>Jia Zhai<a href="mailto:zhaijia@apache.org">zhaijia@apache.org</a>，<br>Qingshan Lin <a href="mailto:linhill@apache.org">linhill@apache.org</a>，<br>Zongtang Hu <a href="mailto:huzongtang@cmss.chinamobile.com">huzongtang@cmss.chinamobile.com</a></p>
+<p>18</p>
+<p>14</p>
+<p>Monolith vs Microservice</p>
+<p>Jun Liu <a href="mailto:liujun@apache.org">liujun@apache.org</a></p>
+<p>10</p>
+<p>7</p>
+<p>OLAP &amp; Data Analysis</p>
+<p>Mingyu Chen <a href="mailto:morningman@apache.rog">morningman@apache.rog</a>,<br>Zhijing Lu<a href="mailto:luzhijing@apache.org">luzhijing@apache.org</a>，<br>Dianjin Wang <a href="mailto:wangdianjin@gmail.com">wangdianjin@gmail.com</a></p>
+<p>22</p>
+<p>21</p>
+<p>Others</p>
+<p>Willem Jiang <a href="mailto:willem.jiang@gmail.com">willem.jiang@gmail.com</a></p>
+<p>10</p>
+<p>4</p>
+<p>Performance</p>
+<p>Yu Xiao <a href="mailto:xiaoyu@apache.org">xiaoyu@apache.org</a>，<br>Paul Brebner<a href="mailto:Paul.Brebner@netapp.com">Paul.Brebner@netapp.com</a></p>
+<p>6</p>
+<p>3</p>
+<p>Streaming</p>
+<p>Yu Li <a href="mailto:liyu@apache.org">liyu@apache.org</a>,<br>Xin Wang <a href="mailto:xinwang@apache.org">xinwang@apache.org</a></p>
+<p>15</p>
+<p>13</p>
+<p>Web Server/Tomcat</p>
+<p>Huxing Zhang<a href="mailto:huxing@apache.org">huxing@apache.org</a></p>
+<p>7</p>
+<p>7</p>
+<p>Total</p>
+<p>216</p>
+<p>145-146</p>
+<table>
+<tbody>
+<tr>
+<td>0</td>
+<td></td>
+<td>Please promptly follow up with Nadia to confirm the final session selections.</td>
+</tr>
+<tr>
+<td>1</td>
+<td><strong>Inform the speakers via Sessionize</strong><br>Well done! Your session XXX has been accepted for CommunityOverCode Asia 2024!<br>Please click on the link below before May17 to acknowledge that you have received this message and you'll be joining us in-person!<br>Button - Confirm Participation<br>If you cannot attend, or have any questions, please reply to this message.<br>And please review your visa status ASAP. If you need a visa to visit China, please make sure you request it with enough time. If you need an invitation letter, please refer to the instructions on this page. <a href="https://asia.communityovercode.org/guide/visa_letter_request.html">https://asia.communityovercode.org/guide/visa_letter_request.html</a> Also, make sure that you have a visa for countries where your flight is stopping.<br>We will soon send you a speaker's guide for registering to attend the event and prepare your talk.</td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td><ul>
+<li><p>Create PPT templates and clarify the method for collecting PPTs</p></li>
+<li><p>Write a speaker guide</p></li>
+</ul></td>
+<td>Set the schedule based on getting confirmation from speakers</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Send the speaker's guide to speakers via email, including the schedule, check lsit, PPT template, QRcode for speakers' WeChat group, etc. (cc track chair)</td>
+<td>Create the WeChat group for the track (which can directly add the small track group previously created by Nadia)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Collect PPTs through email and track the collection progress</td>
+<td>Assist with collecting PPTs</td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>Sponsorship Update:</li>
+<li>Confirmed - 450,000 CNY, with 6 sponsors<br>
+We are still waiting for confirmation from other 5 sponsors.</li>
+</ol>
+<h2 id="april-25th2024-thursday">April 25th，2024， Thursday <a class="headerlink" title="Permalink" href="#april-25th2024-thursday">&para;</a></h2>
+<p>Time:10:00 PM (Beijing Time)<br>
+Join Meeting: <a href="https://meeting.tencent.com/dm/uJGEEFJn15wT">https://meeting.tencent.com/dm/uJGEEFJn15wT</a></p>
+<p>Host： Junping Du</p>
+<p>Attendees: Nadia Jiang, Jerry Tan，Lifeng Nie, Zhongming Hua, Henry, Trista Pan, Zhengyu Chen, Lidong Dai, Lu Dashing， Sheng Wu, Ken, Zhijing Lu, Calvin, Shaofeng Shi, Tison, Ted Liu, Gang Li, Yu Xiao, Junping Du, Willem Jiang</p>
+<p>Next Meeting Host ：Ted Liu</p>
+<p>Agenda：<br>
+1. CFP of CoC Asia 2024： 216 submissions<br>
+2. Sponsorship Update<br>
+3. Track Chair <a href="https://docs.qq.com/doc/DV3hxeUJOdEtqTVJY">https://docs.qq.com/doc/DV3hxeUJOdEtqTVJY</a></p>
+<h2 id="april-18st2024-thursday">April 18st，2024， Thursday <a class="headerlink" title="Permalink" href="#april-18st2024-thursday">&para;</a></h2>
+<p>Time:10:00 PM (Beijing Time)<br>
+Join Meeting: <a href="https://meeting.tencent.com/dm/3WK3qE7rxijt">https://meeting.tencent.com/dm/3WK3qE7rxijt</a></p>
+<p>Host： Nadia Jiang</p>
+<p>Next Meeting Host ：Junping Du (Apr.25)</p>
+<p>Attendees: Nadia Jiang, Lifeng Nie, Xiatian, Zhongming Hua, Henry, Jia, Huxing Zhang, Trista Pan, Zhengyu Chen, Lidong Dai, yy, Sheng Wu, Ken, Zhijing Lu, Calvin, Shaofeng Shi, IanX, Johnnwang, Ted Liu, Wei Guo, Gang Li, Yu Xiao, Junping Du, Willem Jiang</p>
+<p>Agenda：<br>
+1. CFP of CoC Asia 2024<br>
+Web Server/Tomcat 2<br>
+Incubator 4<br>
+IOT 4<br>
+Monolith vs Microservice 4<br>
+Performance 5<br>
+Others 5<br>
+DataOps 6<br>
+Streaming 7<br>
+AI 9<br>
+Cloud Native 14<br>
+Data Lake &amp; Data Warehouse 13<br>
+OLAP &amp; Data Analysis 17<br>
+Data Storage &amp; Computing 21<br>
+Community 11<br>
+Messaging 17</p>
+<p>- 137 sessions submitted, CFP will be closed on 21 April, this weekend. Please be aware of the current number of valid submissions (related to Apache projects and communities), and promptly do targeted outreach/invitations<br>
+- Keynote and lightning talk are being planned, to be completed within next week. @nadiajiang @willemjiang<br>
+- nadiajiang will change the due date in Sessionize, extending it by a few hours to avoid last-minute submitters encountering failing in submission</p>
+<p>2. Sponsorship Update<br>
+- No new sponsorship was added.<br>
+- Ted is communicating with the fundraising committee, Board Directors should come to China to meet and communicate with sponsor enterprises</p>
+<p>3. TAC updates<br>
+- Provided Visa Letter for Chirs</p>
+<p>4. Guide for Evaluator<br>
+- doc: <a href="https://sifou.feishu.cn/wiki/Hy4dwVnuJinsowkP9Opcc84vnXe">https://sifou.feishu.cn/wiki/Hy4dwVnuJinsowkP9Opcc84vnXe</a><br>
+- Explain video <a href="https://meeting.tencent.com/v2/cloud-record/share?id=69f4545b-0498-4dec-ac59-0076187a1e03">https://meeting.tencent.com/v2/cloud-record/share?id=69f4545b-0498-4dec-ac59-0076187a1e03</a><br>
+- If anyone has any issues, please contact nadiajiang</p>
+<h2 id="march-21st2024-thursday">March 21st，2024， Thursday <a class="headerlink" title="Permalink" href="#march-21st2024-thursday">&para;</a></h2>
+<p>Time:10:00 PM (Beijing Time)<br>
+Join Meeting: <a href="https://meeting.tencent.com/dm/3WK3qE7rxijt">https://meeting.tencent.com/dm/3WK3qE7rxijt</a></p>
+<p>Host： Jerry Tan</p>
+<p>Next Meeting Host ：</p>
+<p>Attendees: Jerry Tan, Willem Jiang, Nadia Jiang, Guo Wei, Wu Sheng, Ted Liu, Kent Yao, Tison, Wang Xin, zhang huxing, Wang Xin,zhuge_nuedong, hu zhongtang, li chengzi, IanX, Hua Zhongming, liu jun</p>
+<p>Agenda：</p>
+<p>**** 1. CFP of CoC Asia 2024, 47 sessions submitted</p>
+<p>CFP will be closed on 21 April.</p>
+<p>2. Sponsorship Update</p>
+<p>No new sponsorship was added.</p>
+<p>The sponsorship book needs to be updated and delivered to potential Companies, Ted will lead this.</p>
+<p>3. TAC updates</p>
+<p>- Provided Visa Letter for Chirs</p>
+<p>4. Guide for Evaluator <a href="https://sifou.feishu.cn/wiki/Hy4dwVnuJinsowkP9Opcc84vnXe">https://sifou.feishu.cn/wiki/Hy4dwVnuJinsowkP9Opcc84vnXe</a></p>
+<p>Explain video <a href="https://meeting.tencent.com/v2/cloud-record/share?id=69f4545b-0498-4dec-ac59-0076187a1e03">https://meeting.tencent.com/v2/cloud-record/share?id=69f4545b-0498-4dec-ac59-0076187a1e03</a></p>
+<h2 id="march-7th2024-thursday">March 7th，2024， Thursday <a class="headerlink" title="Permalink" href="#march-7th2024-thursday">&para;</a></h2>
+<p>Time:10:00 PM (Beijing Time)<br>
+Join Meeting: <a href="https://meeting.tencent.com/dm/3WK3qE7rxijt">https://meeting.tencent.com/dm/3WK3qE7rxijt</a></p>
+<p>Host ： Nadia Jiang</p>
+<p>Next Meeting Host ： Jerry Tan</p>
+<p>Attendees: Willem Jiang, Chen Xia，Yu Xiao, tison, ChengZi Li, ZhiJin Lu, ZongTang Hu, Shen Wu, Ted Liu, Trista Pan, XiangDong Huang, Nadia Jiang, MoreMind， ChenSN</p>
+<p>Agenda：</p>
+<p>**** 1. CFP of CoC Asia 2024, 15 presentations</p>
+<p><a href="https://sessionize.com/communityovercode-asia-2024">https://sessionize.com/communityovercode-asia-2024</a></p>
+<p>Ted suggests:</p>
+<ol>
+<li>Track Chair training should be earlier.</li>
+<li>Research whether there are new, more intelligent conference AI translation tools available this year.</li>
+<li>When writing the English CFP, it is recommended to use translation tools (the paid version of DeepL yields better results than Google Translate. After translating, Grammarly can be used to correct the grammar). Willem+Nadia: We can write an article to recommend useful translation tools, and it can be forwarded to speakers when Track Chairs invite them.</li>
+</ol>
+<p>2. Sponsorship Update</p>
+<ul>
+<li>Ant Group</li>
+<li>XiaoMi</li>
+<li>Alibaba、SelectDB、StarRocks - in process</li>
+</ul>
+<p>3. TAC updates: nine appliers</p>
+<ul>
+<li>9 appliers, DDL: May10th</li>
+</ul>
+<p>4. OSPO Summit 3.28-29 + Dev.Together 3.30</p>
+<ul>
+<li>OSPO: <a href="https://ospo.events/">https://ospo.events/</a></li>
+<li>Dev.Together: <a href="https://www.bagevent.com/event/dev-together-2024">https://www.bagevent.com/event/dev-together-2024</a></li>
+</ul>
+<p>Later, Nadia will post related information in the Wechat group. If anyone is interested, please contact her, and she will provide free tickets.</p>
+<h2 id="feb-22th2024-thursday">Feb 22th，2024， Thursday <a class="headerlink" title="Permalink" href="#feb-22th2024-thursday">&para;</a></h2>
+<p>Time:10:00 PM (Beijing Time)<br>
+Join Meeting: <a href="https://meeting.tencent.com/dm/3WK3qE7rxijt">https://meeting.tencent.com/dm/3WK3qE7rxijt</a></p>
+<p>Host ：Chen Xia</p>
+<p>Next Meeting Host ：Nadia Jiang</p>
+<p>Attendees: Willem Jiang, Jun Liu, Robin, Yu Li, Yu Xiao, XinYu Zhou, Peance Wong. ChengZi Li, ZhiJin Lu，LiDong Dai, Fengen He, ZongTang Hu,Chen Xia, Xing Wang, Wei Guo, Shen Wu, Ted Liu, Trista Pan, Weiming Xue, Qiang Yin, Nadia, ZhongMing Hua,ChuQin Qin, CalvinKirs,</p>
+<p>Agenda：</p>
+<p><strong>1. CFP of CoC Asia 2024</strong></p>
+<p><a href="https://sessionize.com/communityovercode-asia-2024">https://sessionize.com/communityovercode-asia-2024</a></p>
+<ul>
+<li>时间 4月20号截止,尽早提前 能充分的review筛选 5月1日确定 Deadline: April 20th. Please review and screen as early as possible. Final selection will be made on May 1st.</li>
+<li>track chair 宣传，主动寻找speaker，可以面向社区邀请 Track chairs are responsible for promotion and actively seeking speakers. They can invite individuals from the community.</li>
+<li>后续会同步筛选标准 Further details regarding the selection criteria will be communicated in the team meeting.</li>
+</ul>
+<p><strong>2. Speaker Language of the CoC Asia 2024</strong></p>
+<ul>
+<li>也有不少海外同学比较关注语言 There are also many international speaker who are interested about the language, we support English and Chinese.</li>
+<li>推荐使用英语作为书面文本语言 It is recommended to use English as the written language for communication (Slides, Website).</li>
+</ul>
+<p><strong>3. Track promotion and speaker invitation</strong></p>
+<p>4月21日之前 Before April 21st.</p>
+<ul>
+<li>CFP 和早鸟票的宣传 可以尽早购票 确认文化衫的尺寸 Please promote the Call for Papers (CFP) and Early Bird tickets. Encourage attendees to purchase tickets early and provide their t-shirt size.</li>
+<li>讲师填写相关信息 以及会议团队的介绍 Speakers should fill out the necessary information, and the conference team should provide an introduction.</li>
+<li>keynote的策划会比之前提前 确认主论坛 参与演讲的嘉宾 The planning for the keynote session should be done earlier than before. Confirm the main forum and the guest speakers participating in the presentations.</li>
+</ul>
+<p>5.1 号后</p>
+<ul>
+<li>进行议程的内容上线 Go ahead and publish the agenda content</li>
+<li>特色活动的设计 官网上是否会展示提及到 Design special activities and consider showcasing them on the official website.</li>
+<li>第三方的赞助 可以提供一些定制化的设计 Explore the possibility of featuring third-party sponsors and providing customized designs.</li>
+</ul>
+<p><strong>4. TAC of CoC Asia 2024 is open</strong></p>
+<ul>
+<li>已上线 TAC的截止时间是5月8号 The deadline for TAC is May 8th.</li>
+<li>签证的问题 Regarding visa issues，we have a website page for it.</li>
+<li>大约能支助 10-20位 we can provide support for approximately 10-20 individuals</li>
+<li>志愿者工作，感兴趣的可以联系姜老师 For volunteer work, please contact Willem Jiang if you are interested.</li>
+<li>差旅补助的说明 公司无法支持前提下 Please provide an explanation for travel subsidies, considering the situation where the company is unable to provide support.</li>
+<li>TAC roles website： <a href="https://cwiki.apache.org/confluence/display/TAC/Roles">https://cwiki.apache.org/confluence/display/TAC/Roles</a></li>
+</ul>
+<p><strong>5. 同场活动的可能. Collocated Event</strong></p>
+<ul>
+<li>暂不确定是否会有空余的会议室 currently unsure if there will be any available meeting rooms.</li>
+<li>官方是否接受不在同一个场地举办会议 Also, I don&rsquo;t know if the ASF accept holding meetings at different venues</li>
+</ul>
+<h2 id="jan-25th2024-thursday">Jan 25th，2024， Thursday <a class="headerlink" title="Permalink" href="#jan-25th2024-thursday">&para;</a></h2>
+<p>Time:10:00 PM (Beijing Time)<br>
+Join Meeting: <a href="https://meeting.tencent.com/dm/3WK3qE7rxijt">https://meeting.tencent.com/dm/3WK3qE7rxijt</a></p>
+<p>Host ：Qiang Yin</p>
+<p>Next Meeting Host ： 夏晨</p>
+<p>Attendees: Willem Jiang, Cheng Xia, Xing Wang, Wei Guo, Shen Wu, Ted Liu, Yu Xiao, Trista Pan, Weiming Xue, Qiang Yin, Peance Wong.</p>
+<p>Agenda：</p>
+<ol>
+<li>Apache Success in China 2023， Call for content from the community<br>
+<a href="https://docs.qq.com/doc/DV0VralZ3WW5sRVV6">https://docs.qq.com/doc/DV0VralZ3WW5sRVV6</a></li>
+</ol>
+<p>深圳和西安ALC一起汇总相关的活动和照片 Willem Ning Jiang</p>
+<ol>
+<li>Track chairs of CoC Asia 2024 <a href="https://docs.qq.com/doc/DV3hxeUJOdEtqTVJY">https://docs.qq.com/doc/DV3hxeUJOdEtqTVJY</a></li>
+</ol>
+<p>有意向成为Track Chair的社区伙伴可与姜宁老师联系；肖宇老师报名成为Track chair；成为Track chair才能订阅</p>
+<p><a href="mailto:planners@apachecon.com">planners@apachecon.com</a></p>
+<ol>
+<li>CoC Asia 2024 preparation time line <a href="https://sifou.feishu.cn/wiki/Rvnuwd1ybi69VWkKc43cLT1mnHg">https://sifou.feishu.cn/wiki/Rvnuwd1ybi69VWkKc43cLT1mnHg</a>
+<ol>
+<li>CFP will start at the end of this month</li>
+<li>Sponsorship of CoC Asia 2024</li>
+</ol>
+</li>
+</ol>
+<p>4. 请问今年 TAC 有补助吗？基金会对 CoC Asia 会有费用支持吗？暂时还没有敲定，待咨询。</p>
+<p>5. 下次双周例会的时间：2024-2-22。</p>
+<p>6. 杭州ALC已经开始投票，大家可参与投票。</p>
+<h2 id="jan-11th2024-thursday">Jan 11th，2024， Thursday <a class="headerlink" title="Permalink" href="#jan-11th2024-thursday">&para;</a></h2>
+<p>Time:10:00 PM (Beijing Time)<br>
+Join Meeting: <a href="https://meeting.tencent.com/dm/3WK3qE7rxijt">https://meeting.tencent.com/dm/3WK3qE7rxijt</a></p>
+<p>Host ：Peace Wong</p>
+<p>Next Meeting Host ：Qiang Yin</p>
+<p>Attendees: Willem Jiang, Zhongyi Tan, LanX, Bo Jiang, Lidong Dai, Wei Guo, Ted Liu, Fengli Nie, Trista Pan, Weiming Xue, Peance Wong.</p>
+<p>Agenda：</p>
+<ol>
+<li>CoC Asia 2024 preparation time line <a href="https://sifou.feishu.cn/wiki/Rvnuwd1ybi69VWkKc43cLT1mnHg">https://sifou.feishu.cn/wiki/Rvnuwd1ybi69VWkKc43cLT1mnHg</a>
+<ol>
+<li>Website of CoC Asia 2024：The first draft has been completed and is expected to be published online this week.</li>
+<li>Sponorship of CoC Asia 2024: CoC Asia periphery can be added.</li>
+<li>CFP system</li>
+<li>Other preparations of the CoC Asia 2024</li>
+</ol>
+</li>
+<li>Call for track chair <a href="https://docs.qq.com/doc/DV3hxeUJOdEtqTVJY">https://docs.qq.com/doc/DV3hxeUJOdEtqTVJY</a></li>
+</ol>
+<p>The track chair needs to complete the list confirmation this month.</p>
+<ol>
+<li>CoC EU 2024 CFP dead line 12th Jan<br>
+Please confirm if there is any change for those been nominated.</li>
+</ol>
+
+
+    </div>
+  </main>
+
+  <footer class="page-footer bg-secondary mt-4 pt-3">
+    <div class="container text-center text-md-left mb-3">
+      <div class="row">
+        <div class="col-md-6 mt-md-0 mt-3">
+          <h5 class="text-uppercase">Trademarks</h5>
+          <p>
+            Apache&reg;, the names of Apache projects, and the Apache logo are
+            <a href="https://www.apache.org/foundation/marks/list/">registered trademarks or trademarks</a> of the Apache
+            Software Foundation in the United States and/or other countries.
+          </p>
+        </div>
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <div class="col-md-6 mb-md-0 mb-3">
+          <h5 class="text-uppercase">Website sources</h5>
+          <p>
+  This website is generated from the <a href="https://github.com/apache/comdev-site">comdev-site repository</a>
+  
+    <br>
+    Source of this page:
+      <a href="https://github.com/apache/comdev-site/blob/main/source/alc/chapters/beijing/team-meeting/team-meeting-2024.md" title="Source of this page">
+        alc/chapters/beijing/team-meeting/team-meeting-2024.md
+      </a>
+  
+</p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright text-center py-3">
+      <em>Copyright &copy; 2026, <a href="https://www.apache.org/">the Apache Software Foundation</a>. Licensed under the
+      <a rel="license" href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></em>
+      <br/>
+      <span class="small">
+        <a href="https://www.apache.org/">Foundation</a> |
+        <a href="https://www.apache.org/events/current-event.html">Events</a> |
+        <a href="https://www.apache.org/licenses/">License</a> |
+        <a href="https://www.apache.org/security/">Security</a> |
+        <a href="https://www.apache.org/foundation/sponsorship.html">Sponsorship</a> |
+        <a href="https://www.apache.org/foundation/thanks.html">Thanks</a> |
+        <a href="https://privacy.apache.org/policies/privacy-policy-public.html">Privacy</a>
+      </span>
+    </div>
+  </footer>
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>

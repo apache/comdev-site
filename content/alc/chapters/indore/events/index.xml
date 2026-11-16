@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ALC Indore Events on ASF Community Development</title>
+    <link>https://community.apache.org/alc/chapters/indore/events/index.html</link>
+    <description>Recent content in ALC Indore Events on ASF Community Development</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://community.apache.org/alc/chapters/indore/events/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apache Hackathon - 24 August 2019</title>
+      <link>https://community.apache.org/alc/chapters/indore/events/apache-hackathon-24-august-2019.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/chapters/indore/events/apache-hackathon-24-august-2019.html</guid>
+      <description>&lt;h2 id=&#34;agenda&#34;&gt;Agenda &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#agenda&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;ALC Indore invited local Apache enthusiast and open-source lover to participate in the Apache Hackathon.&lt;/p&gt;&#xA;&lt;p&gt;The participant will contribute to the Apache projects.&lt;/p&gt;&#xA;&lt;p&gt;The contribution will include, the code development, project documentation, testing and review patches, etc.&lt;/p&gt;&#xA;&lt;p&gt;The participants who are new to Apache (or open-source) and it&amp;rsquo;s projects, the ALC Indore will guide them on the ASF, The Apache Way, various Apache Projects, and help them to start their contribution.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ApacheCon 2021 Community Track</title>
+      <link>https://community.apache.org/alc/chapters/indore/events/apachecon-2021-community-track.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/chapters/indore/events/apachecon-2021-community-track.html</guid>
+      <description>&lt;table&gt;&#xA;&lt;thead&gt;&#xA;&lt;tr&gt;&#xA;&lt;th&gt;S.no&lt;/th&gt;&#xA;&lt;th&gt;Presenter&lt;/th&gt;&#xA;&lt;th&gt;Topic&lt;/th&gt;&#xA;&lt;th&gt;Language&lt;/th&gt;&#xA;&lt;th&gt;Links&lt;/th&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/thead&gt;&#xA;&lt;tbody&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;1.&lt;/td&gt;&#xA;&lt;td&gt;Aditya Sharma&lt;/td&gt;&#xA;&lt;td&gt;&lt;p&gt;&lt;strong&gt;Apache Incubator, &amp;amp; How incubator communities are built?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;What is Apache Incubator? Apache Incubator is the gateway for open-source projects intended to become fully-fledged Apache Software Foundation projects.&#xA;&lt;ol&gt;&#xA;&lt;li&gt;History&lt;/li&gt;&#xA;&lt;li&gt;Incubation process&lt;/li&gt;&#xA;&lt;li&gt;Current incubating projects&lt;/li&gt;&#xA;&lt;li&gt;How to contribute to the incubating project?&lt;/li&gt;&#xA;&lt;/ol&gt;&lt;/li&gt;&#xA;&lt;li&gt;How to build a community for your incubating project? The community is core for the success of any open source project, in this topic I will share some tips which can help you Incubating a project to grow its community. After all, it is Community over Code.&lt;/li&gt;&#xA;&lt;/ol&gt;&lt;/td&gt;&#xA;&lt;td&gt;Hindi&lt;/td&gt;&#xA;&lt;td&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Y131zsjsU_Y&#34;&gt;Video: https://www.youtube.com/watch?v=Y131zsjsU_Y&lt;/a&gt;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;2.&lt;/td&gt;&#xA;&lt;td&gt;Swapnil Mane&lt;/td&gt;&#xA;&lt;td&gt;&lt;p&gt;&lt;strong&gt;Apache Software Foundation and The Apache Way&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Getting started with Apache APISIX</title>
+      <link>https://community.apache.org/alc/chapters/indore/events/getting-started-with-apache-apisix.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/chapters/indore/events/getting-started-with-apache-apisix.html</guid>
+      <description>&lt;h3 id=&#34;post-event-report&#34;&gt;Post Event Report &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#post-event-report&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;We hosted the event on zoom and gathered registrations from Eventbrite &lt;a href=&#34;https://www.eventbrite.com/myevent?eid=461630026837&#34;&gt;https://www.eventbrite.com/myevent?eid=461630026837&lt;/a&gt;.&lt;br&gt;&#xA;The event was also announced on the official mailing list of the respective project.&lt;/p&gt;&#xA;&lt;p&gt;We were overwhelmed by the number of attendees i.e. 48 even on such short notice of the announcement.&lt;/p&gt;&#xA;&lt;p&gt;Navendu was on point with his presentation and kept the audience engaged till the end of the session. He talked about various topics starting from basic to advance.&lt;br&gt;&#xA;The audience seemed to grasp it well and Navendu answered their questions towards the end of the session.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GitHub Workshop</title>
+      <link>https://community.apache.org/alc/chapters/indore/events/github-workshop.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/chapters/indore/events/github-workshop.html</guid>
+      <description>&lt;h3 id=&#34;agenda&#34;&gt;Agenda &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#agenda&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Acropolis Institute of Technology and Research, Indore has invited ALC Indore team to deliver a GitHub workshop for their students. This workshop will help empower the students to be one step forward into their open source journey as Git and GitHub are important pillars of any open source project. And getting a hands-on exposure early in their careers will be helpful for their future. We aspire to bring in more contributions to the Apache projects by developing interest and awareness in the college students.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GSoC with the ASF</title>
+      <link>https://community.apache.org/alc/chapters/indore/events/gsoc-with-the-asf.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/chapters/indore/events/gsoc-with-the-asf.html</guid>
+      <description>&lt;h4 id=&#34;agenda&#34;&gt;Agenda &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#agenda&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h4&gt;&#xA;&lt;p&gt;GSoC 2023 season has just started and it is a good opportunity to contribute and learn about open source.&lt;br&gt;&#xA;ASF has been participating in the event for several years now and will also be participating this year.&lt;/p&gt;&#xA;&lt;p&gt;This session is targeted towards college students in Indore, to spread awareness about GSoC and guide them through the Apache Way and how the ASF works at large to facilitate participation in the ASF projects for this season.&lt;br&gt;&#xA;We aspire to bring in more contributions to the Apache projects by developing interest and awareness in the college students.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Open Source and ASF Awareness - 15 April 2022</title>
+      <link>https://community.apache.org/alc/chapters/indore/events/open-source-and-asf-awareness-15-april-2022.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/chapters/indore/events/open-source-and-asf-awareness-15-april-2022.html</guid>
+      <description>&lt;h3 id=&#34;post-event-report&#34;&gt;Post Event Report &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#post-event-report&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;It was yet another amazing event added to our list.&lt;br&gt;&#xA;We had 50 registrations out of which &lt;strong&gt;30 participants&lt;/strong&gt; joined us.&lt;/p&gt;&#xA;&lt;p&gt;The session was attended by around 30 students who are interning with various companies along with their graduation.&lt;br&gt;&#xA;Thus it was the best time to sow the seeds of open source awareness in their minds, wherein they can clearly understand the industry requirements and how open source can help bridge the gap.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Open Source and ASF Awareness - 23 November 2019</title>
+      <link>https://community.apache.org/alc/chapters/indore/events/open-source-and-asf-awareness-23-november-2019.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/chapters/indore/events/open-source-and-asf-awareness-23-november-2019.html</guid>
+      <description>&lt;h2 id=&#34;post-event-report&#34;&gt;Post Event Report &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#post-event-report&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;The ALC Indore successfully organized the &amp;ldquo;Open Source and ASF Awareness&amp;rdquo; Session at Indore on 23 November 2019 at &lt;a href=&#34;https://www.daisydalesschool.info&#34;&gt;Daisy Dales School&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The clicks from the event are available at &lt;a href=&#34;https://www.flickr.com/photos/alcindore/sets/72157711932233583/&#34;&gt;https://www.flickr.com/photos/alcindore/sets/72157711932233583/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;We had a very fruitful and interactive session with bright and young minds, here are highlights from the event.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;50+&lt;/strong&gt; Students participated in the event and attended the session.&lt;/li&gt;&#xA;&lt;li&gt;The duration for the session was &lt;strong&gt;1 hour 30 minutes&lt;/strong&gt; including the interaction with the audience.&lt;/li&gt;&#xA;&lt;li&gt;The response from students was overwhelming for us, they asked some surprisingly amazing questions to us, like&#xA;&lt;ul&gt;&#xA;&lt;li&gt;How can we earn money by making my code open source?&lt;/li&gt;&#xA;&lt;li&gt;Who is the CEO of Apache?&lt;/li&gt;&#xA;&lt;li&gt;If I take an open source project, customize it, and sell it to my friend, can he also sell my customized project.&lt;/li&gt;&#xA;&lt;li&gt;How I can contribute to Apache?&lt;/li&gt;&#xA;&lt;li&gt;How much do you earn by taking these sessions? 😉&lt;/li&gt;&#xA;&lt;li&gt;If a big organization, took my open source project and earn money from it, then will it be my loss?&lt;/li&gt;&#xA;&lt;li&gt;any many more&amp;hellip;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;After the session, we had a query resolution session in which the students came up with very thoughtful and interesting queries, which we didn&amp;rsquo;t quite expect considering their age. But they surprised us, most of them seemed to be aware and well-informed even at this young age.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Open Source and ASF Awareness - May 2020</title>
+      <link>https://community.apache.org/alc/chapters/indore/events/open-source-and-asf-awareness-may-2020.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/chapters/indore/events/open-source-and-asf-awareness-may-2020.html</guid>
+      <description>&lt;p&gt;Agenda&lt;/p&gt;&#xA;&lt;p&gt;ALC Indore is planning to organize the &amp;lsquo;Open Source and ASF Awareness&amp;rsquo; event at CDAC Authorized Training Centre (&lt;a href=&#34;http://www.orlando.co.in/&#34;&gt;ORLANDO ACADEMY&lt;/a&gt;) at Indore, India.&lt;/p&gt;&#xA;&lt;p&gt;We are working on finalizing the date.&lt;/p&gt;&#xA;&lt;p&gt;Our audience will be the engineering graduates undergoing training in advanced computing and are about to start their career in the Software Industry.&lt;br&gt;&#xA;In the event, we will have a session on Open-Source and The Apache Software Foundation (Duration ~1 hour).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Open Source and the Apache Way: through a contributor&#39;s lens</title>
+      <link>https://community.apache.org/alc/chapters/indore/events/open-source-and-the-apache-way-through-a-contributors-lens.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/chapters/indore/events/open-source-and-the-apache-way-through-a-contributors-lens.html</guid>
+      <description>&lt;h2 id=&#34;post-event-report&#34;&gt;Post-event Report &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#post-event-report&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;The event was a huge success. We had &lt;strong&gt;70+ attendees&lt;/strong&gt; from novice to pro-level developers, students, and others interested in Open Source technologies.&lt;/p&gt;&#xA;&lt;p&gt;After a wonderful and insightful &lt;strong&gt;1 hour&lt;/strong&gt; session by Aditya, we had a great &lt;strong&gt;Q&amp;amp;A&lt;/strong&gt; round which went on for another hour.&lt;br&gt;&#xA;The audience seemed to enjoy every bit of the knowledge transfer which resulted in the best 2-way communication in a session we have had so far.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Session on Open Source and Internships opportunities</title>
+      <link>https://community.apache.org/alc/chapters/indore/events/session-on-open-source-and-internships-opportunities.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/chapters/indore/events/session-on-open-source-and-internships-opportunities.html</guid>
+      <description>&lt;h3 id=&#34;agenda&#34;&gt;Agenda &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#agenda&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;It will be an online session where we will have a general discussion about Open source and internship opportunities for the students.&lt;br&gt;&#xA;We will cover the following topics in the session, which will be around 1-2 hour long.&lt;/p&gt;&#xA;&lt;p&gt;1. Introduction to Open Source&lt;br&gt;&#xA;2. The Importance of Open Source&lt;br&gt;&#xA;3. Benefits of Contributing to Open Source as an Intern&lt;br&gt;&#xA;4. Finding Open Source Projects&lt;br&gt;&#xA;5. Getting Started with Open Source Contributions&lt;br&gt;&#xA;6. Common Challenges &amp;amp; Overcoming Them&lt;br&gt;&#xA;7. Internship Programs and Open Source Organisations&lt;br&gt;&#xA;8. Success Stories&lt;br&gt;&#xA;9. Legal and Ethical Considerations&lt;br&gt;&#xA;10. Future Career Prospects&lt;br&gt;&#xA;11. Conclusion&lt;br&gt;&#xA;12. Q&amp;amp;A Session&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tech Talk on BigData Infrastructure - 2</title>
+      <link>https://community.apache.org/alc/chapters/indore/events/tech-talk-on-bigdata-infrastructure-2.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/chapters/indore/events/tech-talk-on-bigdata-infrastructure-2.html</guid>
+      <description>&lt;h3 id=&#34;post-event-report&#34;&gt;Post Event Report &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#post-event-report&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Last Friday we organized a tech talk with Joshua Poddoku (Lead Evangelist Apache DevLake) and Jia Fan ( Apache SeaTunnel PPMC) to discuss the popular use cases and where these open-source projects fit into the big data ecosystem.&lt;/p&gt;&#xA;&lt;p&gt;We hope everyone enjoyed and found value in the delivered content.&lt;/p&gt;&#xA;&lt;p&gt;This was the second and final session of our &amp;ldquo;Tech Talk on BigData Infrastructure&amp;rdquo; series.&lt;br&gt;&#xA;The series was aimed to share technical insights on various Apache projects in the big data area, and get contributors and users connected.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tech Talk on BigData Infrastructure with Apache DolphinScheduler</title>
+      <link>https://community.apache.org/alc/chapters/indore/events/tech-talk-on-bigdata-infrastructure-with-apache-dolphinscheduler.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/chapters/indore/events/tech-talk-on-bigdata-infrastructure-with-apache-dolphinscheduler.html</guid>
+      <description>&lt;h3 id=&#34;post-event-report&#34;&gt;Post Event Report &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#post-event-report&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;We hosted the event via zoom and the registrations were done via Eventbrite &lt;a href=&#34;https://www.eventbrite.com/myevent?eid=456942807237&#34;&gt;https://www.eventbrite.com/myevent?eid=456942807237&lt;/a&gt; and Meetup.com &lt;a href=&#34;https://www.meetup.com/india-big-data-group/events/289521615/&#34;&gt;https://www.meetup.com/india-big-data-group/events/289521615/&lt;/a&gt;&lt;br&gt;&#xA;We got around 15 attendees in the session.&lt;/p&gt;&#xA;&lt;p&gt;The first half of the session delivered By William was about the different tools used in the BigData infrastructure and what purpose they serve. He later threw light on several case studies where Apache Dolphine Schedular is used.&lt;/p&gt;&#xA;&lt;p&gt;The second half of the session was delivered by Jay wherein he explained in detail the utility and technicalities related to Apache DolphinSchedular with a great set of examples and an engaging presentation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Apache Day - 28 September 2019</title>
+      <link>https://community.apache.org/alc/chapters/indore/events/the-apache-day-28-september-2019.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/chapters/indore/events/the-apache-day-28-september-2019.html</guid>
+      <description>&lt;h2 id=&#34;agenda&#34;&gt;Agenda &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#agenda&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;ALC Indore is organizing &amp;lsquo;The Apache Day&amp;rsquo; event for student community at &lt;a href=&#34;https://www.piemr.edu.in/&#34;&gt;Prestige Institute of Engineering Management &amp;amp; Research&lt;/a&gt; institute on 28 September 2019 in Indore, India.&lt;/p&gt;&#xA;&lt;p&gt;The event is planned into two parts.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Session on Open-Source and The Apache Way (Duration 1 - 1.5 hours)&lt;/li&gt;&#xA;&lt;li&gt;Workshop (work with 8 students for the whole day and help them to make their first contribution to Apache project)&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;1-session-on-the-open-source-and-the-apache-way&#34;&gt;1. Session on the Open-Source and The Apache Way &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#1-session-on-the-open-source-and-the-apache-way&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;A session is delivered in the morning to all the students of Computer Science and IT stream. It will include following topics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Webinar on Open-Source and ASF Awareness, 9th May 2020</title>
+      <link>https://community.apache.org/alc/chapters/indore/events/webinar-on-open-source-and-asf-awareness-9th-may-2020.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/chapters/indore/events/webinar-on-open-source-and-asf-awareness-9th-may-2020.html</guid>
+      <description>&lt;h2 id=&#34;post-event-report&#34;&gt;Post Event Report &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#post-event-report&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;ALC Indore successfully organized the &lt;strong&gt;webinar&lt;/strong&gt; on &amp;ldquo;Open-Source and ASF Awareness&amp;rdquo; on the 9th of May 2020.&lt;/p&gt;&#xA;&lt;p&gt;We are pleased to share that an overwhelming number of &lt;strong&gt;80+ people&lt;/strong&gt; including students and professionals registered for the event&lt;br&gt;&#xA;and &lt;strong&gt;50+ people&lt;/strong&gt; attended the event.&lt;/p&gt;&#xA;&lt;p&gt;We conducted the webinar via Google Meet and got registrations for the event beforehand.&lt;/p&gt;&#xA;&lt;p&gt;The session duration was about 1 hour including Q&amp;amp;A.&lt;/p&gt;&#xA;&lt;p&gt;Overall it was an amazing experience for all of us and the event was a huge success.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Webinar on Open-Source and The Apache Way, 11th July 2020</title>
+      <link>https://community.apache.org/alc/chapters/indore/events/webinar-on-open-source-and-the-apache-way-11th-july-2020.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/chapters/indore/events/webinar-on-open-source-and-the-apache-way-11th-july-2020.html</guid>
+      <description>&lt;h2 id=&#34;post-event-report&#34;&gt;Post Event Report &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#post-event-report&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;The ALC Indore successfully organized a webinar on &amp;ldquo;Open Source and ASF Awareness&amp;rdquo; Session at Indore on 11th July 2020 for &lt;a href=&#34;http://www.medicaps.ac.in/&#34;&gt;Medicaps University&lt;/a&gt;, Indore.&lt;/p&gt;&#xA;&lt;p&gt;The session was attended by approximately 10 students wherein Aditya guided them about Open Source and The Apache Way.&lt;br&gt;&#xA;They were also given details about how they can leverage it as an opportunity to enhance their skills and how great it feels to be working in an Open Source community.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Webinar on Open-Source and The Apache Way, 12 September 2020</title>
+      <link>https://community.apache.org/alc/chapters/indore/events/webinar-on-open-source-and-the-apache-way-12-september-2020.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/chapters/indore/events/webinar-on-open-source-and-the-apache-way-12-september-2020.html</guid>
+      <description>&lt;h2 id=&#34;post-event-report&#34;&gt;Post Event Report &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#post-event-report&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;The event was attended by approximately 20 people. It was conducted online on Google Meet.&lt;br&gt;&#xA;Interested parties were asked to register for the event beforehand and event links were sent via email.&lt;/p&gt;&#xA;&lt;p&gt;It was a 1-hour session and we also shared videos clips from the &amp;ldquo;Why Apache?&amp;rdquo; trailer and &amp;ldquo;Apache Innovation&amp;rdquo; official videos.&lt;/p&gt;&#xA;&lt;p&gt;We also talked about the opportunities and initiatives that can help students gain experience and knowledge by contributing to Open source projects.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Webinar on Open-Source and The Apache Way, 21 November 2020</title>
+      <link>https://community.apache.org/alc/chapters/indore/events/webinar-on-open-source-and-the-apache-way-21-november-2020.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/chapters/indore/events/webinar-on-open-source-and-the-apache-way-21-november-2020.html</guid>
+      <description>&lt;h2 id=&#34;post-event-report&#34;&gt;Post Event Report &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#post-event-report&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;The event was attended by approximately 70 students. It was conducted online on Google Meet.&lt;br&gt;&#xA;Interested students were asked to register for the event beforehand via Google forms and event links were sent via email.&lt;/p&gt;&#xA;&lt;p&gt;It was a 1-hour session followed by a 30 minutes Q &amp;amp; A.&lt;/p&gt;&#xA;&lt;p&gt;We also talked about the opportunities and initiatives that can help students gain experience and knowledge by contributing to Open source projects.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Webinar on Open-Source and The Apache Way, 22nd August 2020</title>
+      <link>https://community.apache.org/alc/chapters/indore/events/webinar-on-open-source-and-the-apache-way-22nd-august-2020.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/chapters/indore/events/webinar-on-open-source-and-the-apache-way-22nd-august-2020.html</guid>
+      <description>&lt;h2 id=&#34;post-event-report&#34;&gt;Post Event Report &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#post-event-report&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;The ALC Indore successfully organized a webinar on &amp;ldquo;Open Source and The Apache Way&amp;rdquo; Session at Indore on 22nd August 2020 for Acropolis, Indore.&lt;/p&gt;&#xA;&lt;p&gt;The session was attended by approximately 15 people including students and faculty members.&lt;br&gt;&#xA;We also motivated them to participate in the open-source hackathons and leverage the open-source internship programs like Outreachy for better learning opportunities.&lt;/p&gt;&#xA;&lt;p&gt;We conducted the webinar via Google Meet and it was a 1-hour session.&lt;br&gt;&#xA;Here is the presentation used in the webinar.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Webinar on Open-Source and The Apache Way, 23rd May 2020</title>
+      <link>https://community.apache.org/alc/chapters/indore/events/webinar-on-open-source-and-the-apache-way-23rd-may-2020.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/chapters/indore/events/webinar-on-open-source-and-the-apache-way-23rd-may-2020.html</guid>
+      <description>&lt;h2 id=&#34;post-event-report&#34;&gt;Post Event Report &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#post-event-report&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;ALC Indore successfully organized the &lt;strong&gt;webinar&lt;/strong&gt; on &amp;ldquo;&lt;strong&gt;Open Source&lt;/strong&gt; &lt;strong&gt;&amp;amp;&lt;/strong&gt; &lt;strong&gt;The Apache Way&lt;/strong&gt;&amp;rdquo; on the 23th of May 2020.&lt;/p&gt;&#xA;&lt;p&gt;We are pleased to share that an overwhelming number of &lt;strong&gt;90+ students&lt;/strong&gt; registered for the event&lt;br&gt;&#xA;and &lt;strong&gt;50+ people&lt;/strong&gt; attended the event.&lt;/p&gt;&#xA;&lt;p&gt;We conducted the webinar via Google Meet and got registrations for the event beforehand.&lt;/p&gt;&#xA;&lt;p&gt;The session duration was about 1 hour including Q&amp;amp;A.&lt;/p&gt;&#xA;&lt;p&gt;Overall it was an amazing experience for all of us and the event was a huge success.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Webinar on Open-Source and The Apache Way, 30th May 2020</title>
+      <link>https://community.apache.org/alc/chapters/indore/events/webinar-on-open-source-and-the-apache-way-30th-may-2020.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/chapters/indore/events/webinar-on-open-source-and-the-apache-way-30th-may-2020.html</guid>
+      <description>&lt;h2 id=&#34;post-event-report&#34;&gt;Post Event Report &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#post-event-report&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;The ALC Indore successfully organized a webinar on &amp;ldquo;Open Source and ASF Awareness&amp;rdquo; Session at Indore on 30th May 2020 for &lt;a href=&#34;https://cdgi.edu.in/cdgi.php&#34;&gt;CDGI&lt;/a&gt; Indore.&lt;/p&gt;&#xA;&lt;p&gt;The session was attended by approximately 25 students wherein Aditya guided them about Open Source and The Apache Way.&lt;br&gt;&#xA;They were also given details about how they can leverage it as an opportunity to enhance their skills and how great it feels to be working in an Open Source community.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Webinar on Open-Source and The Apache Way, 8th August 2020</title>
+      <link>https://community.apache.org/alc/chapters/indore/events/webinar-on-open-source-and-the-apache-way-8th-august-2020.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/chapters/indore/events/webinar-on-open-source-and-the-apache-way-8th-august-2020.html</guid>
+      <description>&lt;h2 id=&#34;post-event-report&#34;&gt;Post Event Report &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#post-event-report&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;The ALC Indore successfully organized a webinar on &amp;ldquo;Open Source and The Apache Way&amp;rdquo; Session at Indore on 8th August 2020 for Sage University, Indore.&lt;/p&gt;&#xA;&lt;p&gt;The session was attended by approximately 40 people including students and faculty members.&lt;br&gt;&#xA;We also motivated them to participate the in the open source hackathons and leverage the Apache mentorship program for better learning opportunities.&lt;/p&gt;&#xA;&lt;p&gt;We conducted the webinar via Google Meet and it was a 1-hour session.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Workshop - Apache Kafka</title>
+      <link>https://community.apache.org/alc/chapters/indore/events/workshop-apache-kafka.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/chapters/indore/events/workshop-apache-kafka.html</guid>
+      <description>&lt;h3 id=&#34;agenda&#34;&gt;Agenda &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#agenda&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;This session is targeted towards college students in Indore, to spread awareness about &lt;strong&gt;Apache Kafka&lt;/strong&gt; and guide them through the terms and technicalities of the project to facilitate participation in the ASF projects.&lt;br&gt;&#xA;We aspire to bring in more contributions to the Apache projects by developing interest and awareness in the college students.&lt;/p&gt;&#xA;&lt;p&gt;This will be an in-person live interactive session scheduled on 12th May 2023, Friday.&lt;/p&gt;&#xA;&lt;p&gt;We will be covering the following topics:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Workshop : The Apache Way 101, April 26, 2021</title>
+      <link>https://community.apache.org/alc/chapters/indore/events/workshop-the-apache-way-101-april-26-2021.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/chapters/indore/events/workshop-the-apache-way-101-april-26-2021.html</guid>
+      <description>&lt;h2 id=&#34;post-event-report&#34;&gt;Post Event Report &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#post-event-report&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;This was altogether a different experience for us, we tried a new variation of events.&lt;br&gt;&#xA;Herein we selected a group of dedicated enthusiasts and worked with them for two weeks.&lt;/p&gt;&#xA;&lt;p&gt;During the first, we talked about different aspects of The Apache Way in detail.&lt;/p&gt;&#xA;&lt;p&gt;In the second week, we explored the Apache OFBiz project, helped them understand the framework along with developing some basic skills that would eventually help them in their open-source journey&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Workshop on Apache Solr</title>
+      <link>https://community.apache.org/alc/chapters/indore/events/workshop-on-apache-solr.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/chapters/indore/events/workshop-on-apache-solr.html</guid>
+      <description>&lt;h3 id=&#34;post-event-report&#34;&gt;Post Event Report &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#post-event-report&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;We were thrilled to receive such an overwhelming response. All our tickets got booked super quickly.&lt;br&gt;&#xA;Registrations for the event were done through Eventbrite &lt;a href=&#34;https://s.apache.org/alc-workshop-solr-event&#34;&gt;https://s.apache.org/alc-workshop-solr-event&lt;/a&gt;. We used our &lt;a href=&#34;https://www.linkedin.com/company/alcindorechapter/&#34;&gt;LinkedIn page&lt;/a&gt; and personal LinkedIn accounts for publicity.&lt;/p&gt;&#xA;&lt;p&gt;The majority of our attendees were college students.&lt;/p&gt;&#xA;&lt;p&gt;Aditya started with the basic intro about open source and Apache Solr and then we began our show-stopper activity of getting our hands dirty with code with a bit of playing around with how Solr works.&lt;br&gt;&#xA;Aditya and our team of volunteers helped the attendees build their first demo application with Apache Solr. We referred to the official &lt;a href=&#34;https://solr.apache.org/guide/solr/latest/getting-started/solr-tutorial.html&#34;&gt;tutorial&lt;/a&gt; provided on the Apache Solr community for easy access later.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

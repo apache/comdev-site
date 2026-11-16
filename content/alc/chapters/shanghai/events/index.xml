@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ALC Shanghai  Events on ASF Community Development</title>
+    <link>https://community.apache.org/alc/chapters/shanghai/events/index.html</link>
+    <description>Recent content in ALC Shanghai  Events on ASF Community Development</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://community.apache.org/alc/chapters/shanghai/events/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ALC Shanghai Meetup - Aug 2024</title>
+      <link>https://community.apache.org/alc/chapters/shanghai/events/meetup-aug-2024.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/chapters/shanghai/events/meetup-aug-2024.html</guid>
+      <description>&lt;h2 id=&#34;活动简介--brief&#34;&gt;活动简介 / Brief &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#%e6%b4%bb%e5%8a%a8%e7%ae%80%e4%bb%8b--brief&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Apache Local Community Shanghai （简称 ALC Shanghai ）是立足于上海的 Apache 本地化社区，由五十多位 Apache 会员、committer 和贡献者志愿组成，致力于为当地开源社区举办小型活动，促进开源技术的交流、开源文化和经验的分享等。&lt;/p&gt;&#xA;&lt;p&gt;Apache Local Community Shanghai (ALC Shanghai for short) is an Apache localization community based in Shanghai. It is composed of more than 50 Apache members, committers and contributors. It is committed to organizing small events for the local open source community to promote the exchange of open source technology, open source culture and experience sharing, etc.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

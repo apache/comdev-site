@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ALC &lt;New-ALC-Chapter-Name&gt; on ASF Community Development</title>
+    <link>https://community.apache.org/alc/template-pages/chapter/index.html</link>
+    <description>Recent content in ALC &lt;New-ALC-Chapter-Name&gt; on ASF Community Development</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://community.apache.org/alc/template-pages/chapter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ALC &lt;New-ALC-Chapter-Name&gt; Events</title>
+      <link>https://community.apache.org/alc/template-pages/chapter/events.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/template-pages/chapter/events.html</guid>
+      <description>&lt;p&gt;To add a new event, create a child page for the event with an appropriate subject line. And make it&amp;rsquo;s entry in the table shown below.&lt;/p&gt;&#xA;&lt;h2 id=&#34;upcoming&#34;&gt;Upcoming &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#upcoming&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;| | Event | Date | Summary | Detail Link |&#xA;|  | &amp;mdash; | &amp;mdash; | &amp;mdash; | &amp;mdash; |&#xA;| | | | | - |&#xA;|  |       |      |         |             |&lt;/p&gt;&#xA;&lt;h2 id=&#34;past&#34;&gt;Past &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#past&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;| | Event | Date | Summary | Detail Link |&#xA;|  | &amp;mdash; | &amp;mdash; | &amp;mdash; | &amp;mdash; |&#xA;|  |       |      |         |             |&#xA;|  |       |      |         |             |&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ALC &lt;New-ALC-Chapter-Name&gt; Reports</title>
+      <link>https://community.apache.org/alc/template-pages/chapter/reports.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/template-pages/chapter/reports.html</guid>
+      <description>&lt;p&gt;This is wiki for reports from ALC Indore submitted to &lt;a href=&#34;http://community.apache.org/&#34;&gt;ComDev&lt;/a&gt;. The report includes details on the activities performed by ALC Chapter and it&amp;rsquo;s impact.&lt;br&gt;&#xA;Please create a child page to add a new report.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ALC &lt;New-ALC-Chapter-Name&gt; Team meeting</title>
+      <link>https://community.apache.org/alc/template-pages/chapter/team-meeting.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/template-pages/chapter/team-meeting.html</guid>
+      <description>&lt;p&gt;Add meeting frequency and timing e.g. Meeting Thursday (biweekly) at 7:00 PM IST.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

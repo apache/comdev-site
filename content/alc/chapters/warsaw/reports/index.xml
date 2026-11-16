@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ALC Warsaw Reports on ASF Community Development</title>
+    <link>https://community.apache.org/alc/chapters/warsaw/reports/index.html</link>
+    <description>Recent content in ALC Warsaw Reports on ASF Community Development</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://community.apache.org/alc/chapters/warsaw/reports/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ALC Warsaw Report, March - June 2020</title>
+      <link>https://community.apache.org/alc/chapters/warsaw/reports/report-march-june-2020.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/chapters/warsaw/reports/report-march-june-2020.html</guid>
+      <description>&lt;p&gt;This was the first 3 months of ALC Warsaw chapter. During this time we mainly focused on getting to know each other and discussing the plans for the future. In this period ALC Warsaw organized two online events. We also have a meetup.com group which currently has 70 members.&lt;/p&gt;&#xA;&lt;p&gt;Total event organized - &lt;strong&gt;2&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Approximate audience reach - &lt;strong&gt;~70&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;events-organized-in-march---june-period&#34;&gt;Events organized in March - June period &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#events-organized-in-march---june-period&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;table&gt;&#xA;&lt;thead&gt;&#xA;&lt;tr&gt;&#xA;&lt;th&gt;&lt;/th&gt;&#xA;&lt;th&gt;Event&lt;/th&gt;&#xA;&lt;th&gt;Date&lt;/th&gt;&#xA;&lt;th&gt;Summary&lt;/th&gt;&#xA;&lt;th&gt;Detail Link&lt;/th&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/thead&gt;&#xA;&lt;tbody&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;1.&lt;/td&gt;&#xA;&lt;td&gt;ALC Warsaw Meetup&lt;/td&gt;&#xA;&lt;td&gt;7.04.2020&lt;/td&gt;&#xA;&lt;td&gt;This was the first online meetup of ALC Warsaw. During this event, attendees were able to learn about:&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Apache Local Community (ALC) (Tomek Urbaszek)&lt;/li&gt;&#xA;&lt;li&gt;&lt;p&gt;The Apache Way - a reliable strategy for Open Source projects and communities (Andrzej Białecki)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

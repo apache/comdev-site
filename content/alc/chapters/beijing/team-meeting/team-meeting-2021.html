@@ -1,0 +1,1128 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+  <meta name="description" content="Apache Community Development">
+  <meta name="keywords" content="apache, apache community, community development, opensource">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" >
+  <meta property="og:url" content="https://community.apache.org/alc/chapters/beijing/team-meeting/team-meeting-2021.html">
+  <meta property="og:site_name" content="ASF Community Development">
+  <meta property="og:title" content="Team meeting 2021">
+  <meta property="og:description" content="December 23, 2021, Thursday ¶ Time:10:00 PM Beijing Time
+Join Meeting:
+https://meeting.tencent.com/dm/JpazKi7aXfgK
+Host：Zhang Yonglun
+Next Meeting Host ：Wang Dianjin
+Attendants: Ted Liu, Jiang Ning, Wu Sheng, Pan Juan, Dai Lidong, Li Gang, Wang Dianjin, Ke Zhenxu, Tan Zhongyi, Xiao Yu, Zhang Yonglun
+Agenda：
+1. Progress of annual report details (https://docs.qq.com/doc/DZWVueWRwZU9vdXlz). (Finish before 12.26)
+2. Mentors guide the development of ALC Shenzhen Chapter.
+3. There will be no further actions on Log4j.
+4. Information about JD’s open source technology events.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="alc">
+    <meta property="article:modified_time" content="2026-11-12T14:23:14+00:00">
+    <meta property="og:image" content="https://community.apache.org/images/project-logos.webp">
+
+
+  <title>Apache Community Development - Team meeting 2021</title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link href="/css/main.css" rel="stylesheet" media="screen">
+  <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <style>
+      .footer {
+          text-align:center;
+          color:grey;
+          font-size:80%;
+          border-top: solid #ddd 1px;
+          margin-top:1em;
+      }
+      .navbar-brand img {
+          height: 50px;
+      }
+  </style>
+
+  
+<script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(['disableCookies']);
+   
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.apache.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '36']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+
+  
+
+</head>
+
+<body>
+  <header class="navbar navbar-expand-lg navbar-dark bg-bright fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+    <img src="https://apache.org/img/asf_logo.png" alt="Apache Software Foundation">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="mainNavbar">
+    <div class="container"> 
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="homeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Home
+            </a>
+            <div class="dropdown-menu" aria-labelledby="homeDropdown">
+              <a class="dropdown-item" href="/">Homepage</a>
+              <a class="dropdown-item" href="/tags/">Tags</a>
+              <a class="dropdown-item" href="/blog/">Blog</a>
+              <a class="dropdown-item" href="/tags/navigation.html">Navigation pages</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About
+          </a>
+          <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+            <a class="dropdown-item" href="/about/">What We Do</a>
+            <a class="dropdown-item" href="/newbiefaq.html">Frequently Asked Questions</a>
+            <a class="dropdown-item" href="/projectIndependence.html">Apache Project Independence</a>
+            <a class="dropdown-item" href="/apache-way/apache-project-maturity-model.html">Apache Project Maturity Model</a>
+            <a class="dropdown-item" href="/contactpoints.html">Contact Points Within the ASF</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html#2009-11-01">ComDev Original Board Resolution</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html">ComDev Board Reports</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/COMDEV">Community Development Jira</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">About Apache</a>
+            <a class="dropdown-item" href="https://www.apache.org/">The Apache Software Foundation</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/sponsorship">Sponsor Apache</a>
+            <a class="dropdown-item" href="http://diversity.apache.org/">Diversity & Inclusion</a>
+             <a class="dropdown-item" href="/contributors/asf-volunteers.html">Mentors &amp; Speakers</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/thanks">Thanks to our Sponsors</a>
+            <a class="dropdown-item" href="https://www.apache.org/licenses">License</a>
+            <a class="dropdown-item" href="https://www.apache.org/security">Security</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="contribDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Contributing
+          </a>
+          <div class="dropdown-menu" aria-labelledby="contribDropdown">
+            <a class="dropdown-item" href="/newcomers/why.html">Why Contribute?</a>
+            <a class="dropdown-item" href="/contributor-ladder.html">Contributor Ladder</a>
+            <a class="dropdown-item" href="/newcomers/">Getting Started at Apache</a>
+            <a class="dropdown-item" href="/contributors/">Contributing to projects</a>
+            <a class="dropdown-item" href="/committers/">Committers</a>
+            <a class="dropdown-item" href="/pmc/">PMC Members</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">Committer and PMC Information</a>
+            <a class="dropdown-item" href="https://www.apache.org/dev/">Technical Developer FAQs</a>
+            <a class="dropdown-item" href="/committers/decisionMaking.html">Decision Making</a>
+            <a class="dropdown-item" href="/committers/good-first-issues.html">Good First Issues</a>
+            <a class="dropdown-item" href="/pmc/community-growth.html">Recruiting New Contributors</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="gsocDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">GSoC</a>
+          <div class="dropdown-menu" aria-labelledby="gsocDropdown">
+            <a class="dropdown-item" href="/gsoc/">Google Summer Of Code Information</a>
+            <a class="dropdown-item" href="/gsoc/mentee-ranking-process.html">Mentee Ranking Process</a>
+            <a class="dropdown-item" href="/gsoc/experiences/">Past GSoC Experiences</a>
+            <a class="dropdown-item" href="/gsoc/guide-to-being-a-mentor.html">Guide to being a Mentor</a>
+            <a class="dropdown-item" href="/gsoc/use-the-comdev-gsoc-issue-tracker-for-gsoc-tasks.html">Using ComDev's Jira for GSoC Ideas</a>
+            <a class="dropdown-item" href="/gsoc/gsoc-admin-tasks.html">Tasks of a GSoC Admin at the ASF</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/GSOC">GSoC Jira</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="eventDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Events
+          </a>
+          <div class="dropdown-menu" aria-labelledby="eventDropdown">
+            <a class="dropdown-item" href="https://apachecon.com/">Community Over Code - (formerly ApacheCon)</a>
+            <a class="dropdown-item" href="https://events.apache.org/">Other Apache-related Events</a>
+            <a class="dropdown-item" href="/alc/">Local Communities (ALC)</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/marks/events">Apache event branding policies</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">Conference Speakers</a>
+            <a class="dropdown-item" href="/speakers/">Speaker resources</a>
+            <a class="dropdown-item" href="/speakers/slides.html">Sample presentations</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="wgDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Working Groups
+          </a>
+          <div class="dropdown-menu" aria-labelledby="wgDropdown">
+            <a class="dropdown-item" href="/workinggroups/">Working Groups</a>
+            <a class="dropdown-item" href="https://github.com/apache/comdev-working-groups">Git repositories</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="conversDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Join the Conversation
+          </a>
+          <div class="dropdown-menu" aria-labelledby="conversDropdown">
+            <a class="dropdown-item" href="/blog/">Blog</a>
+            <a class="dropdown-item" href="https://www.facebook.com/ApacheSoftwareFoundation">Facebook</a>
+            <a class="dropdown-item" href="https://x.com/TheASF">X (Formerly Twitter)</a>
+            <a class="dropdown-item" href="/lists.html">Mailing List</a>
+            <a class="dropdown-item" href="/alc/">ALC: Apache Local Communities</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+    </div>
+  </header>
+
+  <main class="cd-main" id="content" role="main">
+    <div class="container">
+      
+      <hr>
+       
+      
+	
+	<br><br>
+	<h2 id="december-23-2021-thursday">December 23, 2021, Thursday <a class="headerlink" title="Permalink" href="#december-23-2021-thursday">&para;</a></h2>
+<p>Time:10:00 PM Beijing Time</p>
+<p>Join Meeting:</p>
+<p><a href="https://meeting.tencent.com/dm/JpazKi7aXfgK">https://meeting.tencent.com/dm/JpazKi7aXfgK</a></p>
+<p>Host：Zhang Yonglun</p>
+<p>Next Meeting Host ：Wang Dianjin</p>
+<p>Attendants: Ted Liu, Jiang Ning, Wu Sheng, Pan Juan, Dai Lidong, Li Gang, Wang Dianjin, Ke Zhenxu, Tan Zhongyi, Xiao Yu, Zhang Yonglun</p>
+<p>Agenda：</p>
+<p>1. Progress of annual report details (<a href="https://docs.qq.com/doc/DZWVueWRwZU9vdXlz">https://docs.qq.com/doc/DZWVueWRwZU9vdXlz</a>). (Finish before 12.26)<br>
+2. Mentors guide the development of ALC Shenzhen Chapter.<br>
+3. There will be no further actions on Log4j.<br>
+4. Information about JD&rsquo;s open source technology events.</p>
+<h2 id="december-9th-2021-thursday">December 9th, 2021, Thursday <a class="headerlink" title="Permalink" href="#december-9th-2021-thursday">&para;</a></h2>
+<p>Time:10:00 PM Beijing Time</p>
+<p>Join Meeting:</p>
+<p><a href="https://meeting.tencent.com/dm/JpazKi7aXfgK">https://meeting.tencent.com/dm/JpazKi7aXfgK</a></p>
+<p>Host：Xiao Yu</p>
+<p>Next Meeting Host ：Zhang Yonglun</p>
+<p>Attendants: Jiangning,Ted, Wu Sheng , Wei Guo, Kezhenxu, TanZhongYi, Yu Li, Huang Xiangdong, Pan Juan, Wang dianjing, Li gang, Xiao yu, Zhang yonglun</p>
+<p>Agenda：</p>
+<p>1. Discussion of annual report details（<a href="https://docs.qq.com/doc/DZWVueWRwZU9vdXlz">https://docs.qq.com/doc/DZWVueWRwZU9vdXlz</a>）<br>
+1.1 Statistics meet up, ApacheCon, Summer 2021, Blog, Public, Podcast<br>
+1.2 incubated projects (5), commercialized projects (5), apache member, ipmc member, apache committer<br>
+1.3 Graphic version/article, annual report<br>
+1.4 Report title changed to Apache Success in China 2021<br>
+2. ALC beijing Gatherings （<a href="https://docs.qq.com/doc/DV0VjZUxadGJiSXlr">https://docs.qq.com/doc/DV0VjZUxadGJiSXlr</a>）<br>
+2.1 Gatherings content<br>
+a.New summer 2021 student internship<br>
+b.New IoTDB Meetup<br>
+2.2 Venue (2F, Building 4, Shuangqing Building)<br>
+2.3 Event Recording</p>
+<h2 id="november-25th-2021-thursday">November 25th, 2021, Thursday <a class="headerlink" title="Permalink" href="#november-25th-2021-thursday">&para;</a></h2>
+<p>Time:10:00 PM Beijing Time</p>
+<p>Join Meeting:</p>
+<p><a href="https://meeting.tencent.com/dm/JpazKi7aXfgK">https://meeting.tencent.com/dm/JpazKi7aXfgK</a></p>
+<p>Host：Wei Guo</p>
+<p>Next Meeting Host ：Xiao Yu</p>
+<p>Attendants: Wei Guo， Wu Sheng, Jiangning, jiang bo, Kezhenxu, xiao yu, TanZhongYi, Yu Li, DaiLidong, Huang Xiangdong, Xu Yin</p>
+<p>Agenda：</p>
+<ol>
+<li>ALC Beijing Plan 2022
+<ol>
+<li>Choose the right time for ApacheConAsia except for Weekend and holidays</li>
+<li>Define the framework of the asset, such as project governance, community governance, compliance. Build Success at Apache in China.</li>
+<li>Apache project contributes one article and one podcast. ALC Beijing will give a plan.</li>
+<li>Edit the annual e-report and one picture chart of ALC （Ted Liu， Yu Li）<a href="https://docs.qq.com/doc/DZWVueWRwZU9vdXlz">https://docs.qq.com/doc/DZWVueWRwZU9vdXlz</a></li>
+</ol>
+</li>
+<li>Member meeting for ASF</li>
+<li>Gathering in Dec ，12 14:00 in TsingHua</li>
+</ol>
+<h2 id="november-11th-2021-thursday">November 11th, 2021, Thursday <a class="headerlink" title="Permalink" href="#november-11th-2021-thursday">&para;</a></h2>
+<p>Time:10:00 PM Beijing Time</p>
+<p>Join Meeting:</p>
+<p><a href="https://meeting.tencent.com/dm/JpazKi7aXfgK">https://meeting.tencent.com/dm/JpazKi7aXfgK</a></p>
+<p>Host：Sheng Wu</p>
+<p>Next Meeting Host ：Wei Guo</p>
+<p>Attendants: Willem Jiang，XiangDong Huang， Zhengxu Ke， Wei Guo, Bo Jiang, Ted liu, Dianjin Wang，Juan Pan， Liang Cheng， Zhongyi Tan， Yonglun Zhang</p>
+<p>Agenda：</p>
+<ol>
+<li>Meetup of 11-13. 100 in person meetup at Beijing, hosted by ShardingSphere community.</li>
+<li>Media content support of ALC Beijing WeChat Public Account</li>
+</ol>
+<h2 id="october-28th-2021-thursday">October 28th, 2021, Thursday <a class="headerlink" title="Permalink" href="#october-28th-2021-thursday">&para;</a></h2>
+<p>Time:10:00 PM Beijing Time</p>
+<p>Join Meeting:</p>
+<p><a href="https://meeting.tencent.com/dm/JpazKi7aXfgK">https://meeting.tencent.com/dm/JpazKi7aXfgK</a></p>
+<p>Host：Willem Jiang</p>
+<p>Next Meeting Host ： Shen Wu</p>
+<p>Attendants: Ted Liu, Shen Wu, Yu Xiao, Xiangdong Huang, Wei Guo, Juan Pan,Jerry Tan, Lidong Dai，Youqin Han</p>
+<p>Agenda：</p>
+<ol>
+<li>Plan to postpone 10-31 meetup of ALC Beijing</li>
+</ol>
+<h2 id="october-14th-2021-thursday">October 14th, 2021, Thursday <a class="headerlink" title="Permalink" href="#october-14th-2021-thursday">&para;</a></h2>
+<p>Time:10:00 PM Beijing Time</p>
+<p>Join Meeting:</p>
+<p><a href="https://meeting.tencent.com/dm/JpazKi7aXfgK">https://meeting.tencent.com/dm/JpazKi7aXfgK</a></p>
+<p>Host：Willem Jiang</p>
+<p>Attendants: Ted Liu, Shen Wu, Yu Xiao, YongLun Zhang, Wei Guo, Juan Pan, Yuanshen Wang, Zhenxu Ke, Yu Li, Jerry Tan, Lidong Dai, Dianjin Wang</p>
+<p>Agenda：</p>
+<ol>
+<li>10-31 meetup in Beijing
+<ol>
+<li>Apache project introduction track</li>
+</ol>
+</li>
+</ol>
+<h2 id="september-23rd-2021-thursday">September 23rd, 2021, Thursday <a class="headerlink" title="Permalink" href="#september-23rd-2021-thursday">&para;</a></h2>
+<p>Time:10:00 PM Beijing Time</p>
+<p>Join Meeting:</p>
+<p><a href="https://meeting.tencent.com/dm/JpazKi7aXfgK">https://meeting.tencent.com/dm/JpazKi7aXfgK</a></p>
+<p>Host：Ted Liu</p>
+<p>Attendants:</p>
+<p>Ted Liu, Willem Jiang, Shen Wu, Yu Xiao, Xiangdong Huang, YongLun Zhang, Wei Guo. Juan Pan, Liang Chen, Yuanshen Wang, Mark Shen，Zhenxu Ke, Yu Li, Jerry Tan, Lidong Dai, Dianjin Wang, Yin Xu</p>
+<p>Agenda:</p>
+<ol>
+<li>10-31 meetup in Beijing
+<ul>
+<li>decided to move forward to hold the meeting on Oct. 31st leveraging COSCon'21&rsquo;s Bejing venue
+<ul>
+<li>ALC Beijing core team planning meeting (20 pax)</li>
+<li>ALC Beijing meetup track 1 (100 pax)</li>
+<li>ALC Beijing meetup track 2 (100 pax)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Status of ALC Shenzhen application
+<ul>
+<li>pending ComDev general mail list discussion and then ComDev PMC discussion</li>
+<li>ALC Shenzhen or GBA (Great Bay Area) plans to hold a meeting in Shenzhen on Oct. 30 leveraging COSCon'21&rsquo;s Shenzhen venue</li>
+<li>Apache RocketMQ plans to hold a meetup in Shenzhen on Oct. 30 leveraging COSCon'21&rsquo;s Shenzhen venue</li>
+<li>Apache EventMesh plans to hold a meetup in Shenzhen on Oct. 30 leveraging COSCon'21&rsquo;s Shenzhen venue</li>
+<li>Apache InLong (incubating) plans to hold a community development planning meeting in Shenzhen on Oct. 30 leveraging COSCon'21&rsquo;s Shenzhen venue</li>
+<li>more details here: <a href="https://docs.qq.com/sheet/DVURSQnVrdklJSWVz?tab=BB08J2">https://docs.qq.com/sheet/DVURSQnVrdklJSWVz?tab=BB08J2</a></li>
+</ul>
+</li>
+<li>Call-to-action:
+<ul>
+<li>Apache project community who wishes to present at the Meetup, need to fill out the form here: <a href="https://docs.qq.com/sheet/DZXRNaXJrdWJoY1lH">https://docs.qq.com/sheet/DZXRNaXJrdWJoY1lH</a></li>
+<li>To reserve and secure Beijing venue COSCon'21 Beijing venue producer, Bobo Jiang.</li>
+</ul>
+</li>
+</ol>
+<h2 id="september-9th-2021-thursday">September 9th, 2021, Thursday <a class="headerlink" title="Permalink" href="#september-9th-2021-thursday">&para;</a></h2>
+<p>Time:10:00 PM Beijing Time</p>
+<p>Join Meeting:</p>
+<p><a href="https://meeting.tencent.com/dm/JpazKi7aXfgK">https://meeting.tencent.com/dm/JpazKi7aXfgK</a></p>
+<p>Host：LiJiansheng</p>
+<p>Attendants:</p>
+<p>Jerry Tan (谭中意）、Ted Liu, Willem Jiang, Wei Guo, Dianjin Wang, Juan Pan, Yu Li, Henry，冯征， xiangdong huang，肖宇，张永伦，kezhenxu，Ming Wen，陈亮，gosonzhang，shengwu吴晟，陈广胜，王欣、YouQing，杜恒，刘勋</p>
+<p>Agenda:</p>
+<ol>
+<li>ASF annual report （all attendants discuss.）</li>
+</ol>
+<p>* input and out</p>
+<p>* who is sponsor</p>
+<ol>
+<li>Apache doris graduation close door discussion.</li>
+</ol>
+<p>* call of alc beijing member go to baidu, to know more details about project.</p>
+<ol>
+<li>ALC_大湾区 proposal (ASF ALC policy, ALC_beijing operation experience)。<a href="https://shimo.im/docs/ggjRCT9wj6VC6wdP">https://shimo.im/docs/ggjRCT9wj6VC6wdP</a></li>
+</ol>
+<p>* need a leader</p>
+<p>* prepare proposal for ALC ShenZhen.</p>
+<p>* more detail discuss in the mail-list.</p>
+<ol>
+<li>the meetup of Sept 17th discussion</li>
+</ol>
+<p>* meet on venue. 11:00~ 12:30 and lunchtime.</p>
+<h2 id="august-26th-2021-thursday">August 26th, 2021, Thursday <a class="headerlink" title="Permalink" href="#august-26th-2021-thursday">&para;</a></h2>
+<p>Time:10:00 PM Beijing Time</p>
+<p>Join Meeting:</p>
+<p><a href="https://meeting.tencent.com/dm/JpazKi7aXfgK">https://meeting.tencent.com/dm/JpazKi7aXfgK</a></p>
+<p><strong>Host: Jesse Zhou</strong></p>
+<p><strong>Attendants:</strong></p>
+<p><strong>1、ApacheCon Asia 2021 Summary</strong></p>
+<p><a href="https://shimo.im/docs/JhCrVTXpJjCK9KPy/">https://shimo.im/docs/JhCrVTXpJjCK9KPy/</a></p>
+<p><strong>2、ALC Beijing Community Survey</strong></p>
+<p>Domestic surveys in China on the <strong>relationship between open source communities and open source developers</strong> and <strong>the motivation of participation are very scarce</strong>, and our research study hopes to fill this gap.</p>
+<p>Based on the survey results, we also hope to better promote the development of open source communities, which can better <strong>meet the needs of contributors</strong> on the one hand, and <strong>provide a guide for community development</strong> on the other hand, which can better regulate the relationship between communities and developers and <strong>attract more contributors to participate.</strong></p>
+<p><a href="https://www.wjx.cn/vj/QaEpBZX.aspx">https://www.wjx.cn/vj/QaEpBZX.aspx</a></p>
+<h2 id="august-5th-2021-thursday">August 5th, 2021, Thursday <a class="headerlink" title="Permalink" href="#august-5th-2021-thursday">&para;</a></h2>
+<p>Time:10:00 PM Beijing Time</p>
+<p>Join Meeting:</p>
+<p><a href="https://meeting.tencent.com/s/b6kPbLFnMG4O">https://meeting.tencent.com/s/b6kPbLFnMG4O</a></p>
+<p>Host: Jesse Zhou</p>
+<p>Attendants:Ted Liu, Willem Jiang, Wei Guo, Zhongyi Tan, Yu Li, Bo Jiang, Dianjin Wang, Xun, Gang Li, JianSheng, Xian Zhe, Chen Liang, Xiangdong Huang, Li Dong Dai, Jesse Zhou, Juan Pan, Cynthia Xin</p>
+<p><strong>1、Track Chairs send e-mails to invite speakers to go online live interacting with the audience</strong></p>
+<p><strong>2、Collect the address information of speakers for receiving gift</strong></p>
+<p><strong>3、Ask hosts to test the network environment for ApacheCon live(Better find two hosts in case of accidents)</strong></p>
+<h2 id="july-29th-2021-thursday">July 29th, 2021, Thursday <a class="headerlink" title="Permalink" href="#july-29th-2021-thursday">&para;</a></h2>
+<p>Time:10:00PM Beijing Time</p>
+<p>Join Meeting:</p>
+<p><a href="https://meeting.tencent.com/s/PY7wNQZe5N6T">https://meeting.tencent.com/s/PY7wNQZe5N6T</a></p>
+<p>Host：JianSheng</p>
+<p>Next Host： Jesse Zhou</p>
+<p>Attendants:Ted Liu, Willem Jiang, Wei Guo, Zhongyi Tan, Yu Li, Bo Jiang, Dianjin Wang, Junpin Du, JianSheng, Xian Zhe, Yin Yu， Xiangdong Huang, Li Dong Dai, Jesse Zhou, Juan Pan, Cynthia Xin，Shen Wu, Ruofei</p>
+<p>Agenda:</p>
+<p>1.confirm the list of the title of track chairs for warm-up video</p>
+<p>1 姜波 SegmentFault 思否开发者社区 COO</p>
+<p>2 吴晟 男 Apache 首位中国董事, Apache SkyWalking 创始人件兼 VP，<a href="http://tetrate.io/">Tetrate.io</a> 创始工程师</p>
+<p>3 谭中意 男 开源技术深度爱好者, Keynote track chair</p>
+<p>4 代立冬 男 Apache DolphinScheduler PMC 成员 &amp; 前易观大数据平台总监</p>
+<p>5 王殿进 男 StreamNative 社区负责人</p>
+<p>6 郭炜 男 Apache DolphinScheduler 项目负责人 &amp; 前易观 CTO</p>
+<p>7 李钰 男 Apache Flink 社区 PMC 成员</p>
+<p>8 潘娟 女 Apache ShardingSphere PMC 成员</p>
+<p>9 堵俊平 男 华为计算产品线副总裁、云与计算开源业务（OSDT）总经理</p>
+<p>10 张乎兴 男 阿里云技术专家</p>
+<p>11 姜宁 男 Apache软件基金会员， ALC Beijing发起人，华为技术专家</p>
+<p>2.ApacheCon Asia 2021 Infra status:</p>
+<p>a.Track Chair provide welcome video</p>
+<p>b.Rehearsals of ApacheCon Asia in Hopin (this weekend)</p>
+<p>3.Keynote speaker status</p>
+<p>a.all keynotes are collected</p>
+<p>b.all keynotes are translated by volunteers, and they should be done by the end of the months</p>
+<p>4. Interaction in the hopin</p>
+<p>a.Introduce the procedure of ApacheCon Asia 2021 session</p>
+<p>b.Track chairs need to oversee the whole session</p>
+<p>c.ask speakers to interact with the audience during session with Chat</p>
+<p>5. The Gift of Chinese Speaker and Volunteer</p>
+<h2 id="july-22nd-2021-thursday">July 22nd, 2021, Thursday <a class="headerlink" title="Permalink" href="#july-22nd-2021-thursday">&para;</a></h2>
+<p>Time: 10:00 PM Beijing Time</p>
+<p>Join Meeting</p>
+<p><a href="https://meeting.tencent.com/s/3nPwUmSmbNy4">https://meeting.tencent.com/s/3nPwUmSmbNy4</a></p>
+<p>Host: Wei Guo</p>
+<p>Attendees: Ted Liu, Willem Jiang, Wei Guo, Zhongyi Tan, Yu Li, Bo Jiang, Dianjin Wang, Xun, Gang Li, JianSheng, Xian Zhe, Chen Liang, Xiangdong Huang, Li Dong Dai, Yuren Zhou, Liang Zhang, Cynthia Xin,</p>
+<p>Agenda：</p>
+<ol>
+<li>ApacheCon Asia 2021 Infra status:
+<ol>
+<li>Hopin speaker inivitation，most speakers registered</li>
+<li>Register 872</li>
+<li>Track Chair provide welcome video</li>
+<li>Rehearsals of ApacheCon Asia in Hopin</li>
+</ol>
+</li>
+<li>Keynote speaker status<br>
+a. jiangning, xiangdong and xiangdong&rsquo;s and professor.<br>
+b. Need plan B for Hong&rsquo;s session e.g. Round table session. &ndash;Zhong Yi Tan</li>
+<li>Collect the presentation video<br>
+a. Need to handle the video of beginning and ending part&mdash;<strong>ALL Track Chair （deadline 8.2）</strong><br>
+b. Collect the presentation video &mdash;<strong>ALL Track Chair (deadline 7.30)</strong><br>
+c. Introduction video of Track Chair &mdash;<strong>ALL Track Chair (deadline 7.25)</strong></li>
+<li>PR of ApacheCon Asia need to be follow up</li>
+<li>The Gift of Chinese Speaker and Volunteer</li>
+</ol>
+<h2 id="july-15th-2021-thursday">July 15th, 2021, Thursday <a class="headerlink" title="Permalink" href="#july-15th-2021-thursday">&para;</a></h2>
+<p>Time: 10:00 PM Beijing Time</p>
+<p>Join Meeting</p>
+<p><a href="https://meeting.tencent.com/s/GB8vu08lqzIu">https://meeting.tencent.com/s/GB8vu08lqzIu</a></p>
+<p>Host：Yu Li</p>
+<p>Attendees: Bo Jiang, Che Xian, Cynthia Xin, Dianjin Wang, Duo Zhang, Jiansheng Li, Juan Pan, Junping Du, Lidong Dai, Rui, Sheng Wu, Ted Liu, Wei Guo, Willem Jiang, Xiangdong Huang, Zhongyi Tan</p>
+<p>Next week host: Wei Guo</p>
+<p>Agenda:</p>
+<ol>
+<li>Asia 2021 Infra status:
+<ul>
+<li>Hopin speaker invitation/registration status
+<ul>
+<li>Still 20+ not registered, need to get the list and track chair need to follow up.</li>
+</ul>
+</li>
+<li>Overall registration status
+<ul>
+<li>616 now, targeting at 1000 (or more).</li>
+</ul>
+</li>
+<li>Session video recording status:
+<ul>
+<li>Track chairs need to track the status and help verify the quality of the video, and update the this form: <a href="https://shimo.im/sheets/kstsiCZDkU8e06RE/E9tBX">https://shimo.im/sheets/kstsiCZDkU8e06RE/E9tBX</a></li>
+<li>Some tracks have already sent email to speakers for reminding video submission, others need to follow up with the template.</li>
+</ul>
+</li>
+<li>Volunteer gathering and training status: volunteers already gathered, the training will start this Friday (7.16) evening.</li>
+</ul>
+</li>
+<li>Keynote speaker invitation status
+<ul>
+<li>Need each track chair to cooperate on making the opening video, by end of this Sunday (7.18).</li>
+<li>Video should be uploaded to network disk and send link to 殿进.</li>
+</ul>
+</li>
+<li>Keynote session recording status
+<ul>
+<li>Already got 2 recordings, need to catch up.</li>
+</ul>
+</li>
+<li>ApacheCon Asia PR status
+<ul>
+<li>Many PR articles have been published, and more coming (better publish by ALC Beijing).</li>
+<li>Better to complete track PRs before end of next Sunday (7.25).</li>
+</ul>
+</li>
+<li>Status of gift for Chinese speakers and volunteers
+<ul>
+<li>T-shirt style already confirmed (by voting), need to collect size and other information from speakers / volunteers.</li>
+<li>More gifts are under discussion (e.g. online interactions / QA).</li>
+</ul>
+</li>
+<li>Need to update the Asia schedule on Hopin (discussion / reply required in ApacheCon mailing list)</li>
+</ol>
+<h2 id="july-8th-2021-thursday">July 8th, 2021, Thursday <a class="headerlink" title="Permalink" href="#july-8th-2021-thursday">&para;</a></h2>
+<p>Time: 10:00 PM Beijing Time</p>
+<p>Join Meeting</p>
+<p><a href="https://meeting.tencent.com/s/hzB5YQQP3hxt">https://meeting.tencent.com/s/hzB5YQQP3hxt</a></p>
+<p>Host：Dianjing Wang</p>
+<p>Attendees: Willem Jiang, Lidong Dai, Ted Liu, Trista Pan, Che Xian, Dianjin Wang, Yuren Zhou, Cynthia Xin, Rui, Yu Li.</p>
+<p>ApacheCon Asia 2021 Infra status:<br>
+- Hopin；<br>
+1. speaker inivitation, 60+ speakers don&rsquo;t registerd<br>
+* Send confirmation email to every speaker by track chair.<br>
+2. Register 418, 200 invitation , we need to introduce hopin link more<br>
+* Promote this event in WeChat Official accounts, WeChat Groups<br>
+* Speaker Poster: will provide an online tool to generate speaker poster automatically<br>
+* Speaker info data preparation @volunteer students, July 12th<br>
+* DDL: Next Friday, July 16th<br>
+* English / Chinese version<br>
+3. Track the recorded session<br>
+* Template provide by Yin Xu<br>
+* DDL: July 25th<br>
+4. Keynote speaker invitation status, 2 keynotes need to be updated<br>
+* Keynote session update<br>
+* Openning by Sheng Wu<br>
+* 11 confirmed.<br>
+5. PR of ApacheCon Asia = video of Track Chairs<br>
+* Video template of ApacheCon Asia @Dianjin Wang<br>
+* own tracks&rsquo; introductions videos.<br>
+6. Booth of Sponsors in Hopin<br>
+7. The Gift of Chinese Speaker and Volunteer<br>
+* Sponsor: API7<br>
+* New Sponsor: about 5K$ by Huawei</p>
+<h2 id="july-1st-2021-thursday">July 1st, 2021, Thursday <a class="headerlink" title="Permalink" href="#july-1st-2021-thursday">&para;</a></h2>
+<p>Time: 10:00 PM Beijing Time</p>
+<p>Join Meeting</p>
+<p><a href="https://meeting.tencent.com/s/hzB5YQQP3hxt">https://meeting.tencent.com/s/hzB5YQQP3hxt</a></p>
+<p>Host：LiDong Dai</p>
+<p>Attendees: Ted Liu，Wei Guo, Youqing, Dianjin Wang, Bo Jiang, Juan Pan, Willem Jiang, Wen Ming, Xiangdong Huang,Cynthia Xin, Ovilia Zhang,Tan Zhong Yi</p>
+<p>Next week host：Dianjing Wang</p>
+<p>Agenda：</p>
+<ol>
+<li>ApacheCon Asia 2021 Infra status:
+<ol>
+<li>Hopin speaker inivitation， 80+ speakers don&rsquo;t registerd</li>
+<li>Register 200 + 200 , we need to introduce hopin link more</li>
+<li>Track the recorded session</li>
+</ol>
+</li>
+<li>Keynote speaker invitation status</li>
+<li>Keynote session information collection online ， Abraction， Profile</li>
+<li>Keynote time （ApacheCon at Home 15 mins）？ Pannel disussion</li>
+<li>PR of ApacheCon Asia = video of Track Chair</li>
+<li>The Gift of Chinese Speaker and Volunteer</li>
+</ol>
+<h2 id="june-24th-2021-thursday">June 24th, 2021, Thursday <a class="headerlink" title="Permalink" href="#june-24th-2021-thursday">&para;</a></h2>
+<p>Time: 10:00 PM Beijing Time</p>
+<p>Join Meeting</p>
+<p><a href="https://meeting.tencent.com/s/hzB5YQQP3hxt">https://meeting.tencent.com/s/hzB5YQQP3hxt</a></p>
+<p>Host：Willem Jiang,</p>
+<p>Attendees: Ted Liu，Wei Guo, Youqing, Dianjin Wang, LiDong Dai, Yu Li, Yuan Liu, Juan Pan, Wen Ming, Xiangdong Huang,Cynthia Xin, Ovilia Zhang,Tan Zhong Yi，Yin Xu</p>
+<p>Next week host： LiDong Dai</p>
+<p>Agenda：</p>
+<ol>
+<li>ApacheCon Asia 2021 Infra status:
+<ol>
+<li>Hopin speaker inivitation， 100 speakers don&rsquo;t registerd</li>
+<li>Track chair need to send out the meeting information, July 25th regular session deadline</li>
+</ol>
+</li>
+<li>TODO Keynote session online ， Abraction， Profile</li>
+<li>PR of ApacheCon Asia = video of Track Chairs</li>
+<li>Keynote speaker invitation status (Backup panel discussion)</li>
+<li>The Gift of Chinese Speaker and Volunteer</li>
+</ol>
+<h2 id="june-17th-2021-thursday">June 17th, 2021, Thursday <a class="headerlink" title="Permalink" href="#june-17th-2021-thursday">&para;</a></h2>
+<p>Time: 10:00 PM Beijing Time</p>
+<p>Join Meeting</p>
+<p><a href="https://meeting.tencent.com/s/hzB5YQQP3hxt">https://meeting.tencent.com/s/hzB5YQQP3hxt</a></p>
+<p>Host：Ovilia Zhang,</p>
+<p>Attendees: Ted Liu， Willem Jiang, Wei Guo, jiangbo, Youqing, LIDong Dai, Yu Li, Yuan Liu, Juan Pan, Tan Zhong Yi</p>
+<p>Agenda：</p>
+<ol>
+<li>ApacheCon Asia 2021 Infra status:
+<ol>
+<li>Speaker introductions are online, please double check it
+<ol>
+<li>Track chair: ask speakers to double-check; add speech of yourself</li>
+</ol>
+</li>
+<li>Hopin speaker invitation
+<ol>
+<li>Track chair: ask speakers and community to register</li>
+<li>Ovilia: Invitation generator</li>
+</ol>
+</li>
+<li>Speaker information collection <a href="https://shimo.im/forms/8w6QX8JtkH6HWpt6/fill">https://shimo.im/forms/8w6QX8JtkH6HWpt6/fill</a> : 30 more to register</li>
+<li>Keynote Speaker information collection TODO</li>
+</ol>
+</li>
+<li>The work that track chair need to do. <a href="https://shimo.im/docs/TRC6qPryjpJDv3hT">https://shimo.im/docs/TRC6qPryjpJDv3hT</a>
+<ol>
+<li>Write track introduction article</li>
+<li>Connect with the speakers, (we need to create a template with important information)</li>
+<li>Collect the session video</li>
+<li>Host sessions</li>
+</ol>
+</li>
+<li>PR of ApacheCon Asia <a href="https://shimo.im/docs/RvpkDhxJwYdG8V8v">https://shimo.im/docs/RvpkDhxJwYdG8V8v</a>
+<ol>
+<li>General article</li>
+<li>Post for ApacheCon and speaker
+<ol>
+<li>Track chair who is interested in this can contact Jiangbo</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Keynote speaker invitation status</li>
+<li>The Gift of Chinese Speaker and Volunteer</li>
+</ol>
+<p><a href="https://shimo.im/docs/39khjjPqywKhtY6w/">https://shimo.im/docs/39khjjPqywKhtY6w/</a> 《ApacheCon Asia 志愿者需求》</p>
+<h2 id="june-10th-2021-thursday">June 10th, 2021, Thursday <a class="headerlink" title="Permalink" href="#june-10th-2021-thursday">&para;</a></h2>
+<p>Time: 10:00 PM Beijing Time</p>
+<p>Join Meeting</p>
+<p><a href="https://meeting.tencent.com/s/hzB5YQQP3hxt">https://meeting.tencent.com/s/hzB5YQQP3hxt</a></p>
+<p>Host：Wei Guo</p>
+<p>Attendees：Willem Jiang, Wei Guo, jiangbo, Zhongyi Tan, Youqing, Dianjin Wang, Ted Liu, Juan Pan, XIanche, Zhang Duo, Sheng Wu, Wen Ming, Xiangdong Huang,Cynthia Xin, Li Gang， Ovilia Zhang,.</p>
+<p>Agenda：</p>
+<ol>
+<li>Created the form for collect information about the Chinese speaker, and invite into WeChat group(end-date before 6.15). link: <a href="https://shimo.im/forms/8w6QX8JtkH6HWpt6/fill">https://shimo.im/forms/8w6QX8JtkH6HWpt6/fill</a></li>
+<li>Slack channel for ApacheCon Asia speaker （Send out notification）, the link will be sent the e-mail list. The Chair must join slack channel: #acasia2021.</li>
+<li>KV design， template of slides finished as the attachment.</li>
+<li>PR of ApacheCon Asia <a href="https://shimo.im/docs/RvpkDhxJwYdG8V8v">https://shimo.im/docs/RvpkDhxJwYdG8V8v</a> （setup deadline. The article is <a href="https://blogs.apache.org/conferences/entry/the-apache-software-foundation-welcomes1">https://blogs.apache.org/conferences/entry/the-apache-software-foundation-welcomes1</a>） and Chinese version(bobo. And the first choice is Huodongxing to Hoping?</li>
+<li>Track chair : Speaker information collection， Session video collection (7.15 dead-line)</li>
+<li>Session Recording Guide should be online. (JiangNing)</li>
+<li>Slogan of ApacheCon Asia 2021 1. Apache at Asia ，2. Apache ❤️ Asia ， 3. Let&rsquo;s Grow the Community Together. 10 people voted 3, 5 people voted 2. &lsquo;Let&rsquo;s Grow the Community Together&rsquo; will be the Slogan of ApacheCon Asia 2021.</li>
+<li>Keynote speaker invitation status .<br>
+a. invite OSI Board Director or Officer<br>
+b.<br>
+<img src="/alc/attachments/chapters/beijing/team-meeting/team-meeting-2021/image2021-6-10_22-53-55.png" alt="image2021-6-10_22-53-55.png" height="250"><img src="/alc/attachments/chapters/beijing/team-meeting/team-meeting-2021/image2021-6-10_22-54-10.png" alt="image2021-6-10_22-54-10.png" height="250"><img src="/alc/attachments/chapters/beijing/team-meeting/team-meeting-2021/image2021-6-10_22-54-19.png" alt="image2021-6-10_22-54-19.png" height="250"> <img src="/alc/attachments/chapters/beijing/team-meeting/team-meeting-2021/image2021-6-10_22-54-32.png" alt="image2021-6-10_22-54-32.png" height="250"> Eclipse Foundation(optional)</li>
+<li>The Gift of Chinese Speaker and Volunteer:<br>
+Needs a sponsor(ask for 微众银行, Huawei, Tencent). T-shirt KV+Slogan design (BoBo), Cynthia will help for the delivery.</li>
+</ol>
+<p>Next meeting Host: XianCe</p>
+<p>PPT template:</p>
+<p><a href="/alc/attachments/chapters/beijing/team-meeting/Template_ApacheCon_Asia.pptx">Template_ApacheCon_Asia.pptx</a> 演示</p>
+<p>Marketing Plan. Notice the job on 6.15.</p>
+<img src="/alc/attachments/chapters/beijing/team-meeting/team-meeting-2021/image2021-6-10_22-24-16.png" alt="image2021-6-10_22-24-16.png" height="250">
+<p>Slogan voting record:</p>
+<p>22:28<br>
+William-GUo<br>
+2<br>
+JiangNing<br>
+3<br>
+William-GUo<br>
+2<br>
+王殿进<br>
+2<br>
+刘天栋Ted.开源社<br>
+3<br>
+张铎<br>
+3<br>
+潘娟(trista)<br>
+3<br>
+温铭@APISIX<br>
+2<br>
+刘天栋Ted.开源社<br>
+李建盛在郵件里投了 3<br>
+Youqing<br>
+3<br>
+黄向东Xiangdong<br>
+2<br>
+江波<br>
+3<br>
+羡辙<br>
+3<br>
+CynthiaXin<br>
+3<br>
+zhongyitan<br>
+2<br>
+代立冬<br>
+3</p>
+<h2 id="june-3rd-2021-thursday">June 3rd, 2021, Thursday <a class="headerlink" title="Permalink" href="#june-3rd-2021-thursday">&para;</a></h2>
+<p>Time: 10:00 PM Beijing Time</p>
+<p>Join Meeting</p>
+<p><a href="https://meeting.tencent.com/s/hzB5YQQP3hxt">https://meeting.tencent.com/s/hzB5YQQP3hxt</a></p>
+<p>Host: Willem Jiang</p>
+<p>Attendees：Ted Liu, Cynthia Xin, Junping Du, Duo Zhang, Bo jiang，Ovilia Zhang, Dianjin Wang, Weiguo, Sheng Wu, XiangDong Huang, Lidong Dai, Zhongyi Tan，<br>
+Next Host: Wei Guo</p>
+<p>Agenda：</p>
+<ol>
+<li>Session schedule published</li>
+<li>Registration link Chinese <a href="http://hdxu.cn/Q7LkI">http://hdxu.cn/Q7LkI</a>, Hopin <a href="https://hopin.com/events/apachecon-asia-2021">https://hopin.com/events/apachecon-asia-2021</a></li>
+<li>PR of ApacheCon Asia <a href="https://shimo.im/docs/RvpkDhxJwYdG8V8v">https://shimo.im/docs/RvpkDhxJwYdG8V8v</a> , Preparing the post and article for the ApacheCon Asia, we need the speaker provide their information.</li>
+<li>Session Recording Guide <a href="https://shimo.im/docs/3vDj9ChkRw9jQG6g">https://shimo.im/docs/3vDj9ChkRw9jQG6g</a> （Create online form for it) 设置表单，收集照片，录像指南， 信息存储在一个地方。@bobo 提供主视觉设计稿</li>
+<li>Slogan of ApacheCon Asia 2021 Apache at Asia or Apache ❤️ Asia</li>
+<li>Keynote speaker invitation status : – Planners mailing list start the discussion talk about the keynote speaker</li>
+<li>The Gift of Chinese Speaker and Volunteer: @Cynthia with gift design and T shirt, Ted Liu follow up the gift money</li>
+</ol>
+<h2 id="may-27th-2021-thursday">May 27th, 2021, Thursday <a class="headerlink" title="Permalink" href="#may-27th-2021-thursday">&para;</a></h2>
+<p>Time: 10:00 PM Beijing Time</p>
+<p>Join Meeting</p>
+<p><a href="https://meeting.tencent.com/s/hzB5YQQP3hxt">https://meeting.tencent.com/s/hzB5YQQP3hxt</a></p>
+<p>Host: Zhongyi Tan</p>
+<p>Attendees：Ted Liu, Junping Du, Duo Zhang, Ovilia Zhang, Juan Pan, Willem Jiang, Dianjin Wang, Weiguo, Sheng Wu, XiangDong Huang, Lidong Dai, Zhongyi Tan<br>
+Next Host: Willem Jiang</p>
+<p>Agenda：</p>
+<ol>
+<li>Track Chair Session schedule</li>
+<li>General session confirmation</li>
+<li>Session Abstract translation 50%</li>
+<li>PR of ApacheCon Asia <a href="https://shimo.im/docs/RvpkDhxJwYdG8V8v">https://shimo.im/docs/RvpkDhxJwYdG8V8v</a></li>
+<li>Slogan of ApacheCon Asia 2021</li>
+<li>Keynote speaker invitation</li>
+<li>The Gift of Chinese Speaker and Volunteer</li>
+</ol>
+<p>会议结论和todo：<br>
+1. Track Chair Session schedule/ done<br>
+2. 5个general issue： 1 fail ；2和3 转到integration track； 4 转到中间件track ；5 转到incubator track<br>
+3. session 翻译进度：大数据track 翻译， 3人各负责1/3， deadline是本周；@温铭 ， 还有4篇，deadline是本周<br>
+4. PR进度： 请各个track chair完成讲师的信息搜集，deadline是6月10日，模版是<a href="https://shimo.im/sheets/YKwKKj3JqwCxTgGJ/uD0zV/">https://shimo.im/sheets/YKwKKj3JqwCxTgGJ/uD0zV/</a> ； slogon和视觉风格，请@波波给出几个选项，用来做选择<br>
+5. Keynote speaker invitation： 还差4个席位，请在邮件组中继续讨论<br>
+6. The Gift of Chinese Speaker and Volunteer： tracker chair搞定各自的志愿者，由专人统一培训和管理，该人同时负责gift方案。 Ted Liu @姜宁 请跟apachecon官方沟通相关费用</p>
+<p>ApacheCon Asia 宣传规划：</p>
+<p><a href="https://shimo.im/docs/RvpkDhxJwYdG8V8v">https://shimo.im/docs/RvpkDhxJwYdG8V8v</a></p>
+<p>ApacheCon Asia 关键时间点：</p>
+<p><a href="https://shimo.im/sheets/9xk36QtvGW6GrKHd/MODOC">https://shimo.im/sheets/9xk36QtvGW6GrKHd/MODOC</a></p>
+<p>ApacheCon 议题追踪：</p>
+<p><a href="https://shimo.im/docs/QgTxVW9vwPtdyRKG">https://shimo.im/docs/QgTxVW9vwPtdyRKG</a></p>
+<h2 id="may-20th-2021-thursday">May 20th, 2021, Thursday <a class="headerlink" title="Permalink" href="#may-20th-2021-thursday">&para;</a></h2>
+<p>Time: 10:00 PM Beijing Time</p>
+<p>Join Meeting</p>
+<p><a href="https://meeting.tencent.com/s/hzB5YQQP3hxt">https://meeting.tencent.com/s/hzB5YQQP3hxt</a></p>
+<p>Host: Junping Du</p>
+<p>Attendees: Ted Liu, Junping Du, Duo Zhang, Ovilia Zhang, Juan Pan, Willem Jiang, Dianjin Wang, Weiguo, Sheng Wu, Yuren Zhou, Cynthia Xin, Ming, Lidong Dai, Zhongyi Tan<br>
+Next Host: Zhongyi Tan</p>
+<p>Agenda:</p>
+<p>1. 当前Track Chair已经评审出接受的session,需要跟进一下确认<br>
+2. 各Track Chair需要加到相关的邮件列表里，明天姜宁Track群中发消息，各位自查一下，并在群里confirm。<br>
+3. 标题及Abstract的翻译工作需要各Track Chair快速推进，大数据等大的track需要分工合作，有访问google doc困难的，可向姜宁求助<br>
+4. 相关的赞助协议跟进，华为已于4月底完成付款，其他由Ted继续跟踪<br>
+5. Culture 和 Community Track合并之后，Session内容比较多，请建盛与Ted 求助，一同完成翻译工作。<br>
+6. 赞助商Logo及视频的需要明确厂商内容，请波波重视，Virtual Booth因技术原因仅对英语受众开放<br>
+7. 会议的在线志愿者招募进度相对缓慢，需要新思路来应对。<br>
+8. 下次会议一周后举行，由谭中意主持。<br>
+9. 为保证与会人员的出勤率与参与度，Track Chair（以及其他会议工作人员）在会议举办前无故缺席（因故需事前请假），将被要求发红包来鼓励其他人的参与。</p>
+<h2 id="may-13rd-2021-thursday">May 13rd, 2021, Thursday <a class="headerlink" title="Permalink" href="#may-13rd-2021-thursday">&para;</a></h2>
+<p>Time: 10:00 PM Beijing Time</p>
+<p>Join Meeting</p>
+<p><a href="https://meeting.tencent.com/s/hzB5YQQP3hxt">https://meeting.tencent.com/s/hzB5YQQP3hxt</a></p>
+<p>Host: Dianjin Wang</p>
+<p>Attendees: Ted Liu, Junping Du, Duo Zhang, Lidong Dai, Jiansheng Li, Ovilia Zhang, Juan Pan, Willem Jiang, Dianjin Wang, Weiguo, Yu Li, Sheng Wu, Yuren Zhou, Zhenxu Ke, Cynthia Xin, Ming, Yu Xiao, Yonglun Zhang<br>
+Ask for leave: Liang Zhang, Bo Jiang, Huxing Zhang<br>
+Next Host: Junping Du</p>
+<p>Agenda:</p>
+<ul>
+<li>
+<p>ApacheCon Asia status update （待解决问题）</p>
+<p>- <a href="https://shimo.im/docs/QgTxVW9vwPtdyRKG">https://shimo.im/docs/QgTxVW9vwPtdyRKG</a><br>
+- <a href="https://shimo.im/sheets/9xk36QtvGW6GrKHd/MODOC">https://shimo.im/sheets/9xk36QtvGW6GrKHd/MODOC</a></p>
+<p>本次讨论主要议题如下：<br>
+1. Keynote<br>
+- 演讲议题全部确认<br>
+- 议题详情跟进确认（标题、简介等资料），方便后续推广<br>
+- 英文演讲：中文字幕翻译，后续需跟进演讲视频提交</p>
+<p>2. 演讲议题<br>
+- 各 Track Chair 于 5月14日尽快完成打分、确定 Track 议题<br>
+- 打分建议：&gt;=10 代表通过，&lt;10 分代表不通过<br>
+- 如果本 Track 议题数量较满，更合适其他 Track，可群里同步姜宁/吴晟进行 Track 分类修改，05/14 日完成<br>
+- 普通 Track 数量：可控制在 6~12 个左右<br>
+- 最终演讲议题时间安排，Track Chari 需前往 Google Docs（吴晟后续提供）自行占位，先到先到<br>
+- 如果 Track 存在中英文混排情况，Track Chair 负责对标题与简介进行统一、提供最终内容<br>
+- Track Chari 选择所在 Track 2~3 篇优质议题资料，同步 江波 协助推广宣传</p>
+<p>3. 圆桌论坛：<br>
+- 计划在大会第2、3天各安排中文、英文一场，待敲定主题、嘉宾</p>
+<p>4. 网站<br>
+- Hopin 提前开始测试 - 05/16 晚测试 - Dianjin, Willem Jiang(cc Bo Jiang)<br>
+- 网站议题更新 - Willem Jiang, Xiangdong Huang, Dianjin, Juping’s team member(?)<br>
+- 中文活动注册 - 活动行，创建 ALC 北京帐号，Dianjin 支持</p>
+<p>5. 赞助商<br>
+- 寻找礼品赞助商，敲定方案 - Cynthia Xin<br>
+- 与基金会沟通礼品经费，海外讲师暂不邮寄周边礼品，以感谢函代替</p>
+</li>
+</ul>
+<h2 id="april-29th-2021-thursday">April 29th, 2021, Thursday <a class="headerlink" title="Permalink" href="#april-29th-2021-thursday">&para;</a></h2>
+<p>Time: 10:00 PM Beijing Time</p>
+<p>Join Meeting</p>
+<p><a href="https://meeting.tencent.com/s/hzB5YQQP3hxt">https://meeting.tencent.com/s/hzB5YQQP3hxt</a></p>
+<p>Host: Lidong Dai</p>
+<p>Attendees: Ted Liu，Willem Jiang，ShengWu，Wei Guo，Lidong Dai，Bo Jiang，Dianjin Wang，Kezhen Xu，Ming wen，Cynthia Xin，Youqing，Gang Li，Yuren Zhou，Yu Xiao</p>
+<p>Ask For Leave: Juan Pan</p>
+<p>Next Host: Dianjin Wang</p>
+<p>Agenda:</p>
+<p>ApacheCon Asia status update</p>
+<p><a href="https://shimo.im/docs/QgTxVW9vwPtdyRKG">https://shimo.im/docs/QgTxVW9vwPtdyRKG</a></p>
+<p><a href="https://shimo.im/sheets/9xk36QtvGW6GrKHd/MODOC">https://shimo.im/sheets/9xk36QtvGW6GrKHd/MODOC</a></p>
+<p>本次主要讨论以下议题：</p>
+<p>1、Track Co-Chair 更新</p>
+<ul>
+<li>合并 Culture 到 Community Track</li>
+</ul>
+<p>2、Keynote 邀请情况讨论</p>
+<p>3、目前各 Track 的投稿状态</p>
+<p>4、赞助商虚拟展位情况</p>
+<p>5、志愿者征集</p>
+<p>会议具体内容请参考：<a href="https://shimo.im/docs/QgTxVW9vwPtdyRKG">石墨文档</a></p>
+<p>待解决问题：</p>
+<p>1、市场营销费用 TODO 波波</p>
+<p>2、虚拟展位在hopin中如何设置； TODO 波波、吴晟</p>
+<p>3、赞助商应提供什么材料；TODO 波波</p>
+<p>4、志愿者礼品：提供礼品预算 TODO 辛庆</p>
+<p>5、需要确认hopin是否能播放一个数小时的大视频，并在聊天室内进行提问环节 TODO 姜宁</p>
+<h2 id="april-22th-2021-thursday">April 22th, 2021, Thursday <a class="headerlink" title="Permalink" href="#april-22th-2021-thursday">&para;</a></h2>
+<p>Time: 10:00 PM Beijing Time</p>
+<p>Join Meeting <a href="https://meeting.tencent.com/s/NNa97LyDl7xj">https://meeting.tencent.com/s/NNa97LyDl7xj</a></p>
+<p>Host: Xiangdong Huang</p>
+<p>Attendees: Ted Liu，Willem Jiang，ShengWu, Wei Guo，Lidong Dai, Kezhen Xu, Yuren Zhou, Xiangdong, Juan Pan, Youqing, Gang Li, Yu Li</p>
+<p>Agenda:</p>
+<p>- ApacheCon Asia status update</p>
+<p><a href="https://shimo.im/docs/QgTxVW9vwPtdyRKG">https://shimo.im/docs/QgTxVW9vwPtdyRKG</a></p>
+<p><a href="https://shimo.im/sheets/9xk36QtvGW6GrKHd/MODOC">https://shimo.im/sheets/9xk36QtvGW6GrKHd/MODOC</a></p>
+<p>赞助商问题（执行人：Ted/江波）</p>
+<ul>
+<li>虚拟展位在hopin中如何设置；</li>
+<li>国内是否应完全follow国外的展示方式或自由发挥；</li>
+<li>Logo如何展示（目前设计见石墨文档的图）；</li>
+<li>赞助商应提供什么材料；</li>
+<li><del>去问ASF 或者调研Hopin，并反馈给赞助商</del> （<strong>控制下国内厂商的预期</strong>，例如目前仅考虑了 Logo的露出+导流二维码）。</li>
+<li>对于虚拟展台的在线页面（Office hour？），思否安排出开发计划</li>
+<li>备注：厂商比较关心曝光量等（尽量按照赞助邀请方案来落实）</li>
+<li>方案二：</li>
+<li>对于国际版本，完全follow国外的，他们要求什么就是什么</li>
+<li>对于国内版本，思否将现有的原型展示给赞助商看（ddl：）；赞助商反馈意见（ddl：）；大家定稿；思否开发。</li>
+</ul>
+<p>宣传计划（执行人：江波）</p>
+<ul>
+<li>给江波Track列表；（明天中午之前）</li>
+<li>江波生成各track、keynote、演讲人专访等的会前和会后宣传日期表（下周四）</li>
+<li>各track chair在指定日期前提供素材；</li>
+<li>思否如期编排宣传</li>
+</ul>
+<p>在线平台问题（执行人：姜宁）</p>
+<ul>
+<li>需要确认hopin是否能播放一个数小时的大视频，并在聊天室内进行提问环节。</li>
+</ul>
+<p>视频收集处理问题（处理视频执行人：江波？）</p>
+<ul>
+<li>国内/外讲师，track chair（<strong>或志愿者</strong>）催并拿到视频，然后track chair<strong>上传到统一的地方</strong>；</li>
+<li>思否从统一的地方下载并进行视频处理</li>
+</ul>
+<p>志愿者征集（执行人：辛庆；如果招不够志愿者，则track chair 最好能自行解决自己track的志愿者；DDL：下周四）</p>
+<ul>
+<li>（暂定：每4个报告1个志愿者）</li>
+<li>征收视频、上传视频</li>
+<li>翻译视频+配字幕</li>
+<li>其他。。。</li>
+<li>可得权益：证书/Apache周边 (Ted问Sally)</li>
+</ul>
+<h2 id="april-15th-2021-thursday">April 15th, 2021, Thursday <a class="headerlink" title="Permalink" href="#april-15th-2021-thursday">&para;</a></h2>
+<p>Time: 10:00 PM Beijing Time</p>
+<p>Join Meeting <a href="https://meeting.tencent.com/s/NNa97LyDl7xj">https://meeting.tencent.com/s/NNa97LyDl7xj</a></p>
+<p>Host: Wei Guo</p>
+<p>Attendees: Ted Liu，Willem Jiang，ShengWu, Wei Guo，Lidong Dai, Kezhen Xu, Yuren Zhou, Xiangdong, Juan Pan, Youqing, Gang Li</p>
+<p>Agenda:</p>
+<p>- ApacheCon Asia status update</p>
+<ul>
+<li>Web and Online site:
+<ul>
+<li>SegmentFault has UI for the sponsors, and they will give the timeline for test.</li>
+<li>Hoping for English register and Segmentfault for Chinese</li>
+</ul>
+</li>
+<li>finSponsorship update: Ted
+<ul>
+<li>Confirmed sponsors: Tencent, Didi, Alibaba, Baidu</li>
+<li>Contract signed: Huawei, Kyligence, API7,</li>
+</ul>
+</li>
+<li>ApacheCon Asia CFP promotio (deadline: May 3rd)
+<ul>
+<li>Current submissions by track
+<ul>
+<li>Community: 7</li>
+<li>Big Data: 9</li>
+<li>Observability: 5</li>
+<li>Workflow / Data Governance: 7</li>
+<li>API / Micro Service: 2</li>
+<li>Culture:1</li>
+<li>Messaing：2</li>
+<li>Streaming: 3</li>
+<li>IoT / IIoT: 2</li>
+<li>Integration: 2</li>
+<li>Middleware:1</li>
+<li>Data Visulization:1</li>
+</ul>
+</li>
+<li>Action:
+<ul>
+<li>Change to a weekly meeting before CFP close.</li>
+<li>Ask Track Chairs to join the next meeting.</li>
+<li>Recommend the Keynoter and vote for it.</li>
+<li>Ask each track chair to write some articles for the track, segment fault will publish it.</li>
+<li>Write keynoter&rsquo;s article first for meeting branding.</li>
+<li>Ask SegmentFault for the timeline for testing.</li>
+<li>The host will make a notification at 19:00 pm before the next meeting and suggest everyone write the agenda before the meeting.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>- Next meeting host: Xiangdong Huang</p>
+<h2 id="april-1st-2021-thursday">April 1st, 2021, Thursday <a class="headerlink" title="Permalink" href="#april-1st-2021-thursday">&para;</a></h2>
+<p>Time: 10:00 PM Beijing Time</p>
+<p>Join Meeting <a href="https://meeting.tencent.com/s/hzB5YQQP3hxt">https://meeting.tencent.com/s/hzB5YQQP3hxt</a></p>
+<p>Host: Yu Li</p>
+<p>Attendees: Ted Liu，Willem Jiang，ShengWu, Zhenxu Ke，Wei Guo，Yu Li，Liang Zhang，Dianjing Wang，Gang Li, Zheng Feng, Xiangdong Huang, Juan Pan，Lidong Dai, Yu Xiao</p>
+<p>Agenda:</p>
+<p>- ApacheCon Asia status update</p>
+<ul>
+<li>Sponsorship update: Ted
+<ul>
+<li>Confirmed sponsors: Huawei, Kyligence, API7, Tencent, Didi, Alibaba, Baidu</li>
+</ul>
+</li>
+<li>Keynote &amp; Community Track discussion
+<ul>
+<li>Community track: 3 submissions, several on road</li>
+<li>Keynote: 6 from sponsor, 2 inviting (Sharan Foga and Sheng Wu), totally 15 at most</li>
+</ul>
+</li>
+<li>ApacheCon Asia CFP promotion (deadline: May 3rd)
+<ul>
+<li>Current submissions by track
+<ul>
+<li>Observability: 4</li>
+<li>Workflow / Data Governance: 2</li>
+<li>API / Micro Service: 1</li>
+<li>Big Data: 4</li>
+<li>Streaming: 2</li>
+<li>Integration: 1</li>
+<li>Community: 3</li>
+<li>IoT / IIoT: 1</li>
+</ul>
+</li>
+<li>Action:
+<ul>
+<li>Ask SegmentFault to start propagation</li>
+<li>Track chairs need to start inviting speakers</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>- Next meeting host: Wei Guo</p>
+<h2 id="mar-18th-2021-thursday">Mar 18th, 2021, Thursday <a class="headerlink" title="Permalink" href="#mar-18th-2021-thursday">&para;</a></h2>
+<p>Time: 10:00 PM Beijing Time</p>
+<p>Join Meeting <a href="https://meeting.tencent.com/s/hzB5YQQP3hxt">https://meeting.tencent.com/s/hzB5YQQP3hxt</a></p>
+<p>Host: Willem Jiang</p>
+<p>Attendees: Ted Liu，Zhenxu Ke，Jianshen Li，Wei Guo，Youqing han，Xin Wang，Yu Li， Juan Pan</p>
+<p>Agenda:</p>
+<p>- ApacheCon Asia repo: <a href="https://github.com/alc-beijing/acasia2021">https://github.com/alc-beijing/acasia2021</a></p>
+<p>- Track info update by Mar 21， Session per track （4-12）</p>
+<p>- ApacheCon Asia 会议宣传文章（3月24日 JianShen）， Apache project website</p>
+<p>- ApacheCon prospectus</p>
+<p>- ApacheCon Asia media support after the meeting</p>
+<h2 id="mar-4th-2021-thursday">Mar 4th, 2021, Thursday <a class="headerlink" title="Permalink" href="#mar-4th-2021-thursday">&para;</a></h2>
+<p>Time: 10:00 PM Beijing Time</p>
+<p>Join Meeting <a href="https://meeting.tencent.com/s/hzB5YQQP3hxt">https://meeting.tencent.com/s/hzB5YQQP3hxt</a></p>
+<p>Host: Willem Jiang</p>
+<p>Attendees: Ted Liu，Juan Pan，Willem Jiang，Zhenxu Ke，Xiangdong Huang，Ming Wen，Wei Guo，Juan Pan，Xin Wang，Yu Li</p>
+<p>Agenda:</p>
+<p>- ApacheCon Asia update</p>
+<p>- 直播平台选型， 下周四之前明确 赞助方式，价格</p>
+<p>- 翻译以志愿者方式进行，主要保证Keynotes</p>
+<p>- Sponsor plan explanation</p>
+<p>- Apache Con Website</p>
+<p>Hbase conf：<a href="https://hbase.apache.org/hbaseconasia-2018/">https://hbase.apache.org/hbaseconasia-2018/</a></p>
+<p>code ： <a href="https://github.com/carp84/hbaseconasia-2018">https://github.com/carp84/hbaseconasia-2018</a></p>
+<p>CosCon：<a href="http://coscon.kaiyuanshe.cn/">http://coscon.kaiyuanshe.cn/</a></p>
+<p>front-end：<a href="https://github.com/kaiyuanshe/PWA">https://github.com/kaiyuanshe/PWA</a></p>
+<p>back-end：<a href="https://github.com/kaiyuanshe/OrgServer">https://github.com/kaiyuanshe/OrgServer</a></p>
+<h2 id="feb-18th-2021-thursday">Feb 18th, 2021, Thursday <a class="headerlink" title="Permalink" href="#feb-18th-2021-thursday">&para;</a></h2>
+<p>Time: 10:00 PM Beijing Time</p>
+<p>Join Meeting <a href="https://meeting.tencent.com/s/hzB5YQQP3hxt">https://meeting.tencent.com/s/hzB5YQQP3hxt</a></p>
+<p>Host: Juan Pan</p>
+<p>Attendees: Ted Liu, Yu Li, Juan Pan，Ning Jiang，Zhenxu Ke，Xiangdong Huang</p>
+<p>Agenda:</p>
+<p>- ApacheCon Asia update</p>
+<ol>
+<li>Subscribe <a href="mailto:planners-subscribe@apachecon.com">planners-subscribe@apachecon.com</a></li>
+<li>The start time of CFP is undecided (Later)</li>
+<li>How to handle translation issue (Later) It is suggested to let speakers take charge of their respective talkings</li>
+<li>But 1. Slides are in English 2. Keynotes have translation</li>
+<li>Cost estimate</li>
+<li>Online conference Platform live broadcast (Social Account get some fans)</li>
+</ol>
+<p>- Discussion about the ApacheCon tracks and CFP</p>
+<p>Observability (Sheng Wu)</p>
+<p>Message Queue (Jia Zhai)</p>
+<p>API / Microservice(Ming Wen)</p>
+<p>IoT/IIoT (Xiangdong Huang)</p>
+<p>Big Data (Junping Du, Duo zhang)</p>
+<p>Web Server/Tomcat (Huxing Zhang)</p>
+<p>Middleware (Liang Zhang)</p>
+<p>Stream/Flink (Yu Li)</p>
+<p>Integration/Camel (Willem Jiang)</p>
+<p>Incubator (Ming Wen, Juan Pan)</p>
+<p>Community (Ted Liu)</p>
+<p>Culture (Jiansheng Li)</p>
+<h2 id="feb-4-2021-thur">Feb 4, 2021, Thur. <a class="headerlink" title="Permalink" href="#feb-4-2021-thur">&para;</a></h2>
+<p>Time: 10:00 PM Beijing Time</p>
+<p>Join Zoom Meeting</p>
+<p><a href="https://zoom.com.cn/j/62718808758?pwd=YytpamRKU0pyUFcyZU5lSnN2VWxDUT09">https://zoom.com.cn/j/62718808758?pwd=YytpamRKU0pyUFcyZU5lSnN2VWxDUT09</a></p>
+<p>Meeting ID: 627 1880 8758</p>
+<p>Passcode: 857845</p>
+<p>Host：Sheng Wu</p>
+<p>Attendees: Ted Liu, Yu Li, Juan Pan，Ning Jiang，Zhenxu Ke，Xiangdong Huang</p>
+<p>Agenda：</p>
+<p>- ApacheCon Asia update</p>
+<p>Follow the ASF board requirements, keep following ApacheCon Asia online only(not in person). Prepare tracks, need to adopt more English sessions.</p>
+<p>Consider only requiring slides in English, but could provide more Chinese tracks(Chinese speakers). Only translate some talks.</p>
+<p>ApacheCon Asia, Aug. 6th-8th.</p>
+<p>Tracks.</p>
+<p>Observability (Sheng Wu), Message Queue (Jia Zhai), API GateWay (Min Wen), IoT/IIoT (Xiangdong Huang), Big Data (Junping Du),</p>
+<p>Web Server/Tomcat ( ), Middleware (Liang Zhang), Stream/Flink (Yu Li), Integration/Camel (Ning Jiang), incubator (Ming Wen),</p>
+<p>Community (Ted Liu), Culture (Jiansheng Li)</p>
+<p>Sponsor, Ted Liu, Ning Jiang(Huawei), Yu Li(Alibaba), Juan Pan(JD)?</p>
+<p>INFRA, TODO</p>
+<h2 id="jan-21-2021-thur">Jan 21, 2021, Thur. <a class="headerlink" title="Permalink" href="#jan-21-2021-thur">&para;</a></h2>
+<p>Time: 10:00 PM Beijing Time</p>
+<p>Join Zoom Meeting</p>
+<p><a href="https://zoom.com.cn/j/62718808758?pwd=YytpamRKU0pyUFcyZU5lSnN2VWxDUT09">https://zoom.com.cn/j/62718808758?pwd=YytpamRKU0pyUFcyZU5lSnN2VWxDUT09</a></p>
+<p>Meeting ID: 627 1880 8758</p>
+<p>Passcode: 857845</p>
+<p>Host：Zhenxu Ke</p>
+<p>Note: Next bi-week host, Sheng Wu</p>
+<p>Attendees： Zhenxu Ke, Juan Pan, Gang Li, Sheng Wu, Xiangdong Huang, Liang Zhang</p>
+<p>Attendees：</p>
+<p>Agenda：</p>
+<ul>
+<li>Update status ApacheCon Asia preparation，the track status</li>
+</ul>
+<p>- Date: April-August (Shenzhen), <del>May/June/July (Beijing)</del></p>
+<p>- Track list and Chairs: SkyWalking (Sheng Wu), Message Queue (Jia Zhai), API GateWay (Min Wen), IoT/IIoT (Xiangdong Huang), Big Data (Junping Du), Web Server/Tomcat ( ), Middleware (Liang Zhang), Stream/Flink (Yu Li), Integration/Camel (Ning Jiang), incubator ( ), Community ( ), Culture ( Jiansheng Li) etc..</p>
+<p>- Promotion / Operation: (Ning Jiang)</p>
+<ul>
+<li>WeChat，Bilibili social account information</li>
+</ul>
+<p>- Bilibili 100 followers milestone.</p>
+<p>- Operational Plan:</p>
+<p>- Liang Zhang contacts Jinwei Qin to post some ALC Beijing articles on Zhihu (知乎)</p>
+<p>- Tighten up inter-community / inter-project cooperation</p>
+<h2 id="jan-7-2021-thur">Jan 7, 2021, Thur. <a class="headerlink" title="Permalink" href="#jan-7-2021-thur">&para;</a></h2>
+<p>Time: 10:00 PM Beijing Time</p>
+<p>Join Zoom Meeting</p>
+<p><a href="https://zoom.com.cn/j/62718808758?pwd=YytpamRKU0pyUFcyZU5lSnN2VWxDUT09">https://zoom.com.cn/j/62718808758?pwd=YytpamRKU0pyUFcyZU5lSnN2VWxDUT09</a></p>
+<p>Meeting ID: 627 1880 8758</p>
+<p>Passcode: 857845</p>
+<p>Host：Xiangdong Huang</p>
+<p>Attendees： Willem Jiang, Sheng Wu, Juan Pan, Gang Li, Zhenxu Ke, Xiangdong Huang.</p>
+<p>Note: Next bi-week host, Zhenxu Ke</p>
+<p>Attendees：</p>
+<p>Agenda：</p>
+<ol>
+<li>Update status of CHOASS Meetup Shanghai, ApacheCon Asia preparation，the track status</li>
+<li>Summer 2020 student interview advocacy</li>
+<li>Translation project status update</li>
+<li>WeChat public account articles</li>
+</ol>
+<p>Minutes:</p>
+<p>1. ApacheCon Asia 2021 Plan: (shimo).</p>
+<p>- Learn how to set tracks on previous ApacheCon.<br>
+(Willem: Normally the conference date is confirmed in March.<br>
+Sheng Wu: Any day after the previous conference is over.).</p>
+<p>TODO List:</p>
+<p>- Date: April (Shenzhen), May/June/July (<del>Beijing</del>)</p>
+<p>- Place: record to the government if in Beijing. Option: Shenzhen.</p>
+<p>- Sponsor: e.g., &hellip;</p>
+<p>- Track list and Chairs: Skywalking (Sheng Wu), Message Queue ( ), API GateWay ( ), IoT/IIoT (Xiangdong Huang), Big Data ( ), Web Server/Tomcat ( ), MicroService ( ), Stream/Flink (Yu Li), Integration/Camel ( ), incubator ( ), Community ( ), Culture ( ) etc..</p>
+<p>- Hosting rights</p>
+<p>- Money cost estimation: Meeting room, gifts, etc.. (Willem Jiang)</p>
+<p>- Tickets price: depends on the sponsor and money cost.</p>
+<p>- subtitles of videos recorded by foreign speakers.</p>
+<p>2. Summer 2020 student interview advocacy/ 4.WeChat public account articles</p>
+<p>- Write more articles about mentor guide and other topics.</p>
+<p>3. Translation project status update.</p>
+<p>- Almost done.</p>
+<p>- Need to consider how to attract more people.</p>
+<p>- Apache Official Chinese website. (Willem discuss with Craig). Or, publish the contents to the Webchat Public Account.</p>
+<p>- Considering <a href="http://translation.io">translation.io</a>, (free for open source projects)</p>
+
+
+    </div>
+  </main>
+
+  <footer class="page-footer bg-secondary mt-4 pt-3">
+    <div class="container text-center text-md-left mb-3">
+      <div class="row">
+        <div class="col-md-6 mt-md-0 mt-3">
+          <h5 class="text-uppercase">Trademarks</h5>
+          <p>
+            Apache&reg;, the names of Apache projects, and the Apache logo are
+            <a href="https://www.apache.org/foundation/marks/list/">registered trademarks or trademarks</a> of the Apache
+            Software Foundation in the United States and/or other countries.
+          </p>
+        </div>
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <div class="col-md-6 mb-md-0 mb-3">
+          <h5 class="text-uppercase">Website sources</h5>
+          <p>
+  This website is generated from the <a href="https://github.com/apache/comdev-site">comdev-site repository</a>
+  
+    <br>
+    Source of this page:
+      <a href="https://github.com/apache/comdev-site/blob/main/source/alc/chapters/beijing/team-meeting/team-meeting-2021.md" title="Source of this page">
+        alc/chapters/beijing/team-meeting/team-meeting-2021.md
+      </a>
+  
+</p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright text-center py-3">
+      <em>Copyright &copy; 2026, <a href="https://www.apache.org/">the Apache Software Foundation</a>. Licensed under the
+      <a rel="license" href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></em>
+      <br/>
+      <span class="small">
+        <a href="https://www.apache.org/">Foundation</a> |
+        <a href="https://www.apache.org/events/current-event.html">Events</a> |
+        <a href="https://www.apache.org/licenses/">License</a> |
+        <a href="https://www.apache.org/security/">Security</a> |
+        <a href="https://www.apache.org/foundation/sponsorship.html">Sponsorship</a> |
+        <a href="https://www.apache.org/foundation/thanks.html">Thanks</a> |
+        <a href="https://privacy.apache.org/policies/privacy-policy-public.html">Privacy</a>
+      </span>
+    </div>
+  </footer>
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>

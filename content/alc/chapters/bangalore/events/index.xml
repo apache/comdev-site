@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ALC Bangalore Events on ASF Community Development</title>
+    <link>https://community.apache.org/alc/chapters/bangalore/events/index.html</link>
+    <description>Recent content in ALC Bangalore Events on ASF Community Development</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://community.apache.org/alc/chapters/bangalore/events/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Contributions</title>
+      <link>https://community.apache.org/alc/chapters/bangalore/events/first-contributions.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/chapters/bangalore/events/first-contributions.html</guid>
+      <description>&lt;p&gt;Status: &lt;strong&gt;[PROPOSAL]&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Event date: 27th March 2024 (Wednesday), 7:00 to 8:00 pm&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;First Contributions&amp;rdquo; will be an online panel discussion marking ALC Bangalore&amp;rsquo;s first community event. The idea is to have ALC Bangalore members share their experiences contributing to ASF projects. The session will appeal more broadly outside the ASF/ASF project-specific communities.&lt;/p&gt;&#xA;&lt;p&gt;We can use the following prompts for the session:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;What was your first pull request? What&amp;rsquo;s the story behind it?&lt;/li&gt;&#xA;&lt;li&gt;Was that your first open source contribution?&lt;/li&gt;&#xA;&lt;li&gt;What advice would you give to first-time contributors?&lt;/li&gt;&#xA;&lt;li&gt;&amp;hellip;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Panelists:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

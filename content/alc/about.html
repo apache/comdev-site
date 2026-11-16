@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+  <meta name="description" content="Apache Community Development">
+  <meta name="keywords" content="apache, apache community, community development, opensource">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" >
+  <meta property="og:url" content="https://community.apache.org/alc/about.html">
+  <meta property="og:site_name" content="ASF Community Development">
+  <meta property="og:title" content="Apache Local Community - ALC">
+  <meta property="og:description" content="This wiki is used for Apache Local Community (ALC).
+About ALC ¶ ALC comprises local groups of Apache (Open Source) enthusiasts, called an ‘ALC Chapter’.
+There will be a single ALC chapter per town/city.
+ALC is similar to Google Developer Group, Facebook Developer Circles, Mozilla Reps.
+Info: For metropolitan geographic areas (like San Francisco Bay Area and Los Angeles etc.), multiple ALC Chapters can be setup.
+ComDev PMC will look into the requests from these areas and took the decision on case-by-case basis.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="alc">
+    <meta property="article:modified_time" content="2026-11-12T14:23:14+00:00">
+    <meta property="og:image" content="https://community.apache.org/images/project-logos.webp">
+
+
+  <title>Apache Community Development - Apache Local Community - ALC</title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link href="/css/main.css" rel="stylesheet" media="screen">
+  <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <style>
+      .footer {
+          text-align:center;
+          color:grey;
+          font-size:80%;
+          border-top: solid #ddd 1px;
+          margin-top:1em;
+      }
+      .navbar-brand img {
+          height: 50px;
+      }
+  </style>
+
+  
+<script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(['disableCookies']);
+   
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.apache.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '36']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+
+  
+
+</head>
+
+<body>
+  <header class="navbar navbar-expand-lg navbar-dark bg-bright fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+    <img src="https://apache.org/img/asf_logo.png" alt="Apache Software Foundation">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="mainNavbar">
+    <div class="container"> 
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="homeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Home
+            </a>
+            <div class="dropdown-menu" aria-labelledby="homeDropdown">
+              <a class="dropdown-item" href="/">Homepage</a>
+              <a class="dropdown-item" href="/tags/">Tags</a>
+              <a class="dropdown-item" href="/blog/">Blog</a>
+              <a class="dropdown-item" href="/tags/navigation.html">Navigation pages</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About
+          </a>
+          <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+            <a class="dropdown-item" href="/about/">What We Do</a>
+            <a class="dropdown-item" href="/newbiefaq.html">Frequently Asked Questions</a>
+            <a class="dropdown-item" href="/projectIndependence.html">Apache Project Independence</a>
+            <a class="dropdown-item" href="/apache-way/apache-project-maturity-model.html">Apache Project Maturity Model</a>
+            <a class="dropdown-item" href="/contactpoints.html">Contact Points Within the ASF</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html#2009-11-01">ComDev Original Board Resolution</a>
+            <a class="dropdown-item" href="https://whimsy.apache.org/board/minutes/Community_Development.html">ComDev Board Reports</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/COMDEV">Community Development Jira</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">About Apache</a>
+            <a class="dropdown-item" href="https://www.apache.org/">The Apache Software Foundation</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/sponsorship">Sponsor Apache</a>
+            <a class="dropdown-item" href="http://diversity.apache.org/">Diversity & Inclusion</a>
+             <a class="dropdown-item" href="/contributors/asf-volunteers.html">Mentors &amp; Speakers</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/thanks">Thanks to our Sponsors</a>
+            <a class="dropdown-item" href="https://www.apache.org/licenses">License</a>
+            <a class="dropdown-item" href="https://www.apache.org/security">Security</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="contribDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Contributing
+          </a>
+          <div class="dropdown-menu" aria-labelledby="contribDropdown">
+            <a class="dropdown-item" href="/newcomers/why.html">Why Contribute?</a>
+            <a class="dropdown-item" href="/contributor-ladder.html">Contributor Ladder</a>
+            <a class="dropdown-item" href="/newcomers/">Getting Started at Apache</a>
+            <a class="dropdown-item" href="/contributors/">Contributing to projects</a>
+            <a class="dropdown-item" href="/committers/">Committers</a>
+            <a class="dropdown-item" href="/pmc/">PMC Members</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">Committer and PMC Information</a>
+            <a class="dropdown-item" href="https://www.apache.org/dev/">Technical Developer FAQs</a>
+            <a class="dropdown-item" href="/committers/decisionMaking.html">Decision Making</a>
+            <a class="dropdown-item" href="/committers/good-first-issues.html">Good First Issues</a>
+            <a class="dropdown-item" href="/pmc/community-growth.html">Recruiting New Contributors</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="gsocDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">GSoC</a>
+          <div class="dropdown-menu" aria-labelledby="gsocDropdown">
+            <a class="dropdown-item" href="/gsoc/">Google Summer Of Code Information</a>
+            <a class="dropdown-item" href="/gsoc/mentee-ranking-process.html">Mentee Ranking Process</a>
+            <a class="dropdown-item" href="/gsoc/experiences/">Past GSoC Experiences</a>
+            <a class="dropdown-item" href="/gsoc/guide-to-being-a-mentor.html">Guide to being a Mentor</a>
+            <a class="dropdown-item" href="/gsoc/use-the-comdev-gsoc-issue-tracker-for-gsoc-tasks.html">Using ComDev's Jira for GSoC Ideas</a>
+            <a class="dropdown-item" href="/gsoc/gsoc-admin-tasks.html">Tasks of a GSoC Admin at the ASF</a>
+            <a class="dropdown-item" href="https://issues.apache.org/jira/projects/GSOC">GSoC Jira</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="eventDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Events
+          </a>
+          <div class="dropdown-menu" aria-labelledby="eventDropdown">
+            <a class="dropdown-item" href="https://apachecon.com/">Community Over Code - (formerly ApacheCon)</a>
+            <a class="dropdown-item" href="https://events.apache.org/">Other Apache-related Events</a>
+            <a class="dropdown-item" href="/alc/">Local Communities (ALC)</a>
+            <a class="dropdown-item" href="https://www.apache.org/foundation/marks/events">Apache event branding policies</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-uppercase disabled" href="#">Conference Speakers</a>
+            <a class="dropdown-item" href="/speakers/">Speaker resources</a>
+            <a class="dropdown-item" href="/speakers/slides.html">Sample presentations</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="wgDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Working Groups
+          </a>
+          <div class="dropdown-menu" aria-labelledby="wgDropdown">
+            <a class="dropdown-item" href="/workinggroups/">Working Groups</a>
+            <a class="dropdown-item" href="https://github.com/apache/comdev-working-groups">Git repositories</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="conversDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Join the Conversation
+          </a>
+          <div class="dropdown-menu" aria-labelledby="conversDropdown">
+            <a class="dropdown-item" href="/blog/">Blog</a>
+            <a class="dropdown-item" href="https://www.facebook.com/ApacheSoftwareFoundation">Facebook</a>
+            <a class="dropdown-item" href="https://x.com/TheASF">X (Formerly Twitter)</a>
+            <a class="dropdown-item" href="/lists.html">Mailing List</a>
+            <a class="dropdown-item" href="/alc/">ALC: Apache Local Communities</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+    </div>
+  </header>
+
+  <main class="cd-main" id="content" role="main">
+    <div class="container">
+      
+      <hr>
+       
+      
+	
+	<br><br>
+	<p>This wiki is used for Apache Local Community (ALC).</p>
+<h2 id="about-alc">About ALC <a class="headerlink" title="Permalink" href="#about-alc">&para;</a></h2>
+<img src="/alc/attachments/about/ALC.png" alt="ALC.png" width="600">
+<p>ALC comprises local groups of Apache (Open Source) enthusiasts, called an &lsquo;ALC Chapter&rsquo;.<br>
+There will be a single ALC chapter per town/city.</p>
+<p>ALC is similar to <a href="https://developers.google.com/programs/community/gdg/">Google Developer Group</a>, <a href="https://developers.facebook.com/developercircles/">Facebook Developer Circles</a>, <a href="https://reps.mozilla.org/about/">Mozilla Reps</a>.</p>
+<blockquote>
+<p><strong>Info:</strong> For metropolitan geographic areas (like San Francisco Bay Area and Los Angeles etc.), multiple ALC Chapters can be setup.<br>
+ComDev PMC will look into the requests from these areas and took the decision on case-by-case basis.</p>
+</blockquote>
+<h2 id="alc-roles-and-responsibilities">ALC Roles and Responsibilities <a class="headerlink" title="Permalink" href="#alc-roles-and-responsibilities">&para;</a></h2>
+<ul>
+<li>Spread awareness on Apache in local communities.</li>
+<li>Host various events for local open source enthusiasts that include students, developers, and the business community.</li>
+<li>Share information about ASF, The Apache Way, and various Apache projects.</li>
+<li>Bring together project users and developers.</li>
+</ul>
+<h2 id="benefits-of-alc">Benefits of ALC <a class="headerlink" title="Permalink" href="#benefits-of-alc">&para;</a></h2>
+<ul>
+<li>will open the doors for having frequent and small events for the local Open Source community.</li>
+<li>will provide a platform for different project committers from the same town/city to meet and exchange knowledge, thoughts, and ideas.</li>
+<li>will help build and expand communities, as the Apache maxim &ldquo;Community Over Code&rdquo;</li>
+</ul>
+<h2 id="how-to-apply-to-setup-alc-chapter">How to apply to setup ALC Chapter <a class="headerlink" title="Permalink" href="#how-to-apply-to-setup-alc-chapter">&para;</a></h2>
+<p>If ALC chapter doesn&rsquo;t exist in your location and you are interested in setting up the ALC Chapter in your area (town/city), please follow the steps mentioned in <a href="/alc/process-to-establish-an-alc-chapter.html">Process to establish an ALC Chapter</a> document.</p>
+<p>There will be a single ALC chapter per town/city, so please check the <a href="/alc/chapters/about.html">ALC Chapters</a> to see if there’s an existing chapter in your location.</p>
+<h2 id="code-of-conduct">Code of conduct <a class="headerlink" title="Permalink" href="#code-of-conduct">&para;</a></h2>
+<p>The ALC members should follow the Apache code of conduct, for details please refer <a href="https://www.apache.org/foundation/policies/conduct.html">https://www.apache.org/foundation/policies/conduct.html</a></p>
+<p>If any ALC Chapter is inactive for 3 months, it will be dissolved after communication with members of that ALC chapter and <strong>PMC votes</strong> because we are having strictly one ALC chapter in a town/city. Here more details on <a href="/alc/process-to-dissolve-an-alc-chapter.html">Process to dissolve an ALC Chapter</a>.</p>
+<p>The ALC Chapter shares the status report to ComDev in every three months.<br>
+The report includes details on the activities performed by ALC Chapter and it&rsquo;s impact.</p>
+<p>The ALC Chapter is not allowed to execute any press releases.</p>
+<h2 id="alc-resources">ALC Resources <a class="headerlink" title="Permalink" href="#alc-resources">&para;</a></h2>
+<p><a href="/alc/alc-resources/">ALC Resources</a> wiki is used for managing the information and resources (presentations, media, etc.) that will be helpful for ALC chapters.</p>
+<h2 id="additional-information">Additional information <a class="headerlink" title="Permalink" href="#additional-information">&para;</a></h2>
+<p>Just to avoid any confusion, ALC is not about holding a monthly committer meetup, but rather creating a local group of Apache enthusiasts. It is not mandatory to be or have Apache committers to form an ALC chapter, however if there are Apache committers available to participate and share their experience then it will be helpful for that ALC chapter.</p>
+<h2 id="contact-alc">Contact ALC <a class="headerlink" title="Permalink" href="#contact-alc">&para;</a></h2>
+<p>Email - Send a message to <a href="mailto:dev@community.apache.org">dev@community.apache.org</a> with [ALC] prefix in subject line.</p>
+<p>Slack - Please create a Slack account using <a href="https://s.apache.org/slack-invite">this invite link</a> and <a href="https://s.apache.org/alc-slack-channel">join the <strong>#alc channel</strong>.</a></p>
+<h2 id="child-pages">Child Pages <a class="headerlink" title="Permalink" href="#child-pages">&para;</a></h2>
+<ul>
+<li><a href="/alc/base-logos.html">ALC Base Logos</a></li>
+<li><a href="/alc/chapters/about.html">ALC Chapters</a>
+<ul>
+<li><a href="/alc/chapters/bangalore/about.html">ALC Bangalore</a>
+<ul>
+<li><a href="/alc/chapters/bangalore/events/">ALC Bangalore Events</a>
+<ul>
+<li><a href="/alc/chapters/bangalore/events/first-contributions.html">First Contributions</a></li>
+</ul>
+</li>
+<li><a href="/alc/chapters/bangalore/reports.html">ALC Bangalore Reports</a></li>
+<li><a href="/alc/chapters/bangalore/team-meetings.html">ALC Bangalore Team Meetings</a></li>
+</ul>
+</li>
+<li><a href="/alc/chapters/beijing/about.html">ALC Beijing</a>
+<ul>
+<li><a href="/alc/chapters/beijing/meetup-2020-08-06.html">2020-08-06 第一次meetup 会议纪要</a></li>
+<li><a href="/alc/chapters/beijing/events/">ALC Beijing Events</a>
+<ul>
+<li><a href="/alc/chapters/beijing/events/alc-beijing-podcast-episode-1.html">[ALC Beijing Podcast] Episode #1</a></li>
+<li><a href="/alc/chapters/beijing/events/alc-beijing-meetup-co-meetup-of-apache-dolphinscheduler-and-apache-doris.html">[ALC Beijing][Meetup] Co-meetup of Apache DolphinScheduler and Apache Doris</a></li>
+<li><a href="/alc/chapters/beijing/events/first-meetup-the-roadblocks-on-open-source-journey.html">ALC Beijing First Meetup: The Roadblocks on open source Journey?</a></li>
+<li><a href="/alc/chapters/beijing/events/first-meetup-review.html">ALC BeiJing First meetup review</a></li>
+</ul>
+</li>
+<li><a href="/alc/chapters/beijing/reports.html">ALC Beijing Reports</a></li>
+<li><a href="/alc/chapters/beijing/team-meeting/">ALC Beijing Team meeting</a>
+<ul>
+<li><a href="/alc/chapters/beijing/team-meeting/team-meeting-2020.html">Team Meeting 2020</a></li>
+<li><a href="/alc/chapters/beijing/team-meeting/team-meeting-2021.html">Team meeting 2021</a></li>
+<li><a href="/alc/chapters/beijing/team-meeting/team-meeting-2022.html">Team meeting 2022</a></li>
+<li><a href="/alc/chapters/beijing/team-meeting/team-meeting-2023.html">Team meeting 2023</a></li>
+<li><a href="/alc/chapters/beijing/team-meeting/team-meeting-2024.html">Team meeting 2024</a></li>
+<li><a href="/alc/chapters/beijing/team-meeting/team-meeting-2025.html">Team meeting 2025</a></li>
+</ul>
+</li>
+<li><a href="/alc/chapters/beijing/unscheduled-meeting.html">ALC Beijing unscheduled meeting</a></li>
+</ul>
+</li>
+<li><a href="/alc/chapters/budapest/about.html">ALC Budapest</a>
+<ul>
+<li><a href="/alc/chapters/budapest/events.html">ALC Budapest Events</a></li>
+<li><a href="/alc/chapters/budapest/reports.html">ALC Budapest Reports</a></li>
+<li><a href="/alc/chapters/budapest/team-meeting.html">ALC Budapest Team meeting</a></li>
+</ul>
+</li>
+<li><a href="/alc/chapters/florianopolis/about.html">ALC Florianópolis</a>
+<ul>
+<li><a href="/alc/chapters/florianopolis/events.html">ALC Florianópolis Events</a></li>
+<li><a href="/alc/chapters/florianopolis/reports.html">ALC Florianópolis Reports</a></li>
+<li><a href="/alc/chapters/florianopolis/team-meeting.html">ALC Florianópolis Team meeting</a></li>
+</ul>
+</li>
+<li><a href="/alc/chapters/ghana/about.html">ALC Ghana</a>
+<ul>
+<li><a href="/alc/chapters/ghana/events.html">ALC Ghana Events</a></li>
+<li><a href="/alc/chapters/ghana/reports.html">ALC Ghana Reports</a></li>
+<li><a href="/alc/chapters/ghana/team-meetings.html">ALC Ghana Team Meetings</a></li>
+</ul>
+</li>
+<li><a href="/alc/chapters/hangzhou/about.html">ALC Hangzhou</a>
+<ul>
+<li><a href="/alc/chapters/hangzhou/events.html">ALC Hangzhou Events</a></li>
+<li><a href="/alc/chapters/hangzhou/reports.html">ALC Hangzhou Reports</a></li>
+<li><a href="/alc/chapters/hangzhou/team-meetings.html">ALC Hangzhou Team Meetings</a></li>
+</ul>
+</li>
+<li><a href="/alc/chapters/indore/about.html">ALC Indore</a>
+<ul>
+<li><a href="/alc/chapters/indore/events/">ALC Indore Events</a>
+<ul>
+<li><a href="/alc/chapters/indore/events/apache-hackathon-24-august-2019.html">Apache Hackathon - 24 August 2019</a></li>
+<li><a href="/alc/chapters/indore/events/apachecon-2021-community-track.html">ApacheCon 2021 Community Track</a></li>
+<li><a href="/alc/chapters/indore/events/getting-started-with-apache-apisix.html">Getting started with Apache APISIX</a></li>
+<li><a href="/alc/chapters/indore/events/github-workshop.html">GitHub Workshop</a></li>
+<li><a href="/alc/chapters/indore/events/gsoc-with-the-asf.html">GSoC with the ASF</a></li>
+<li><a href="/alc/chapters/indore/events/open-source-and-asf-awareness-15-april-2022.html">Open Source and ASF Awareness - 15 April 2022</a></li>
+<li><a href="/alc/chapters/indore/events/open-source-and-asf-awareness-23-november-2019.html">Open Source and ASF Awareness - 23 November 2019</a></li>
+<li><a href="/alc/chapters/indore/events/open-source-and-asf-awareness-may-2020.html">Open Source and ASF Awareness - May 2020</a></li>
+<li><a href="/alc/chapters/indore/events/open-source-and-the-apache-way-through-a-contributors-lens.html">Open Source and the Apache Way: through a contributor&rsquo;s lens</a></li>
+<li><a href="/alc/chapters/indore/events/session-on-open-source-and-internships-opportunities.html">Session on Open Source and Internships opportunities</a></li>
+<li><a href="/alc/chapters/indore/events/tech-talk-on-bigdata-infrastructure-2.html">Tech Talk on BigData Infrastructure - 2</a></li>
+<li><a href="/alc/chapters/indore/events/tech-talk-on-bigdata-infrastructure-with-apache-dolphinscheduler.html">Tech Talk on BigData Infrastructure with Apache DolphinScheduler</a></li>
+<li><a href="/alc/chapters/indore/events/the-apache-day-28-september-2019.html">The Apache Day - 28 September 2019</a></li>
+<li><a href="/alc/chapters/indore/events/webinar-on-open-source-and-asf-awareness-9th-may-2020.html">Webinar on Open-Source and ASF Awareness, 9th May 2020</a></li>
+<li><a href="/alc/chapters/indore/events/webinar-on-open-source-and-the-apache-way-11th-july-2020.html">Webinar on Open-Source and The Apache Way, 11th July 2020</a></li>
+<li><a href="/alc/chapters/indore/events/webinar-on-open-source-and-the-apache-way-12-september-2020.html">Webinar on Open-Source and The Apache Way, 12 September 2020</a></li>
+<li><a href="/alc/chapters/indore/events/webinar-on-open-source-and-the-apache-way-21-november-2020.html">Webinar on Open-Source and The Apache Way, 21 November 2020</a></li>
+<li><a href="/alc/chapters/indore/events/webinar-on-open-source-and-the-apache-way-22nd-august-2020.html">Webinar on Open-Source and The Apache Way, 22nd August 2020</a></li>
+<li><a href="/alc/chapters/indore/events/webinar-on-open-source-and-the-apache-way-23rd-may-2020.html">Webinar on Open-Source and The Apache Way, 23rd May 2020</a></li>
+<li><a href="/alc/chapters/indore/events/webinar-on-open-source-and-the-apache-way-30th-may-2020.html">Webinar on Open-Source and The Apache Way, 30th May 2020</a></li>
+<li><a href="/alc/chapters/indore/events/webinar-on-open-source-and-the-apache-way-8th-august-2020.html">Webinar on Open-Source and The Apache Way, 8th August 2020</a></li>
+<li><a href="/alc/chapters/indore/events/workshop-apache-kafka.html">Workshop - Apache Kafka</a></li>
+<li><a href="/alc/chapters/indore/events/workshop-the-apache-way-101-april-26-2021.html">Workshop : The Apache Way 101, April 26, 2021</a></li>
+<li><a href="/alc/chapters/indore/events/workshop-on-apache-solr.html">Workshop on Apache Solr</a></li>
+</ul>
+</li>
+<li><a href="/alc/chapters/indore/reports/">ALC Indore Reports</a>
+<ul>
+<li><a href="/alc/chapters/indore/reports/report-august-october-2019.html">ALC Indore Report, August - October 2019</a></li>
+<li><a href="/alc/chapters/indore/reports/report-november-2019-january-2020.html">ALC Indore Report, November 2019 - January 2020</a></li>
+</ul>
+</li>
+<li><a href="/alc/chapters/indore/team-meeting.html">ALC Indore Team meeting</a></li>
+</ul>
+</li>
+<li><a href="/alc/chapters/islamabad/about.html">ALC Islamabad</a>
+<ul>
+<li><a href="/alc/chapters/islamabad/events.html">ALC Islamabad Events</a></li>
+<li><a href="/alc/chapters/islamabad/reports.html">ALC Islamabad Reports</a></li>
+<li><a href="/alc/chapters/islamabad/team-meetings.html">ALC Islamabad Team Meetings</a></li>
+</ul>
+</li>
+<li><a href="/alc/chapters/lagos/about.html">ALC Lagos</a>
+<ul>
+<li><a href="/alc/chapters/lagos/events.html">ALC Lagos Events</a></li>
+<li><a href="/alc/chapters/lagos/reports.html">ALC Lagos Reports</a></li>
+<li><a href="/alc/chapters/lagos/team-meeting.html">ALC Lagos Team meeting</a></li>
+</ul>
+</li>
+<li><a href="/alc/chapters/shanghai/about.html">ALC Shanghai</a>
+<ul>
+<li><a href="/alc/chapters/shanghai/events/">ALC Shanghai Events</a>
+<ul>
+<li><a href="/alc/chapters/shanghai/events/meetup-aug-2024.html">ALC Shanghai Meetup - Aug 2024</a></li>
+</ul>
+</li>
+<li><a href="/alc/chapters/shanghai/team-meeting.html">ALC Shanghai Team meeting</a></li>
+</ul>
+</li>
+<li><a href="/alc/chapters/shenzhen/about.html">ALC Shenzhen</a>
+<ul>
+<li><a href="/alc/chapters/shenzhen/events/">ALC Shenzhen Events</a>
+<ul>
+<li><a href="/alc/chapters/shenzhen/events/luncheon-party-with-jiang-ning.html">Luncheon party with Jiang Ning</a></li>
+<li><a href="/alc/chapters/shenzhen/events/luncheon-party-with-ted-liu.html">Luncheon party with Ted Liu</a></li>
+<li><a href="/alc/chapters/shenzhen/events/luncheon-party-with-wu-sheng.html">Luncheon party with Wu Sheng</a></li>
+<li><a href="/alc/chapters/shenzhen/events/opentalk-with-tison.html">OpenTalk with tison</a></li>
+</ul>
+</li>
+<li><a href="/alc/chapters/shenzhen/reports.html">ALC Shenzhen Reports</a></li>
+<li><a href="/alc/chapters/shenzhen/team-meeting.html">ALC Shenzhen Team meeting</a></li>
+</ul>
+</li>
+<li><a href="/alc/chapters/taipei/about.html">ALC Taipei</a>
+<ul>
+<li><a href="/alc/chapters/taipei/events.html">ALC Taipei Events</a></li>
+<li><a href="/alc/chapters/taipei/reports.html">ALC Taipei Reports</a></li>
+<li><a href="/alc/chapters/taipei/team-meeting.html">ALC Taipei Team meeting</a></li>
+</ul>
+</li>
+<li><a href="/alc/chapters/warsaw/about.html">ALC Warsaw</a>
+<ul>
+<li><a href="/alc/chapters/warsaw/events/">ALC Warsaw Events</a>
+<ul>
+<li><a href="/alc/chapters/warsaw/events/meetup-1.html">ALC Warsaw Meetup #1</a></li>
+<li><a href="/alc/chapters/warsaw/events/meetup-2.html">ALC Warsaw Meetup #2</a></li>
+</ul>
+</li>
+<li><a href="/alc/chapters/warsaw/reports/">ALC Warsaw Reports</a>
+<ul>
+<li><a href="/alc/chapters/warsaw/reports/report-march-june-2020.html">ALC Warsaw Report, March - June 2020</a></li>
+</ul>
+</li>
+<li><a href="/alc/chapters/warsaw/team-meeting.html">ALC Warsaw Team meeting</a></li>
+</ul>
+</li>
+<li><a href="/alc/chapters/xian/about.html">ALC Xi&rsquo;an</a>
+<ul>
+<li><a href="/alc/chapters/xian/events.html">ALC Xi&rsquo;an Events</a></li>
+<li><a href="/alc/chapters/xian/reports.html">ALC Xi&rsquo;an Reports</a></li>
+<li><a href="/alc/chapters/xian/team-meetings.html">ALC Xi&rsquo;an Team Meetings</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="/alc/outreach-roadmap-for-educational-institutes.html">ALC Outreach Roadmap for Educational Institutes</a></li>
+<li><a href="/alc/alc-resources/">ALC Resources</a>
+<ul>
+<li><a href="/alc/alc-resources/branding-materials.html">Branding materials</a></li>
+<li><a href="/alc/alc-resources/guidelines-to-organise-alc-event.html">Guidelines to organise ALC Event</a></li>
+</ul>
+</li>
+<li><a href="/alc/guidelines-to-manage-an-alc-chapter.html">Guidelines to manage an ALC Chapter</a></li>
+<li><a href="/alc/process-to-dissolve-an-alc-chapter.html">Process to dissolve an ALC Chapter</a></li>
+<li><a href="/alc/process-to-establish-an-alc-chapter.html">Process to establish an ALC Chapter</a></li>
+<li><a href="/alc/reports.html">Reports</a></li>
+<li><a href="/alc/roles-and-responsibilities-in-managing-alc-initiative.html">Roles and Responsibilities in managing ALC initiative</a></li>
+<li><a href="/alc/template-pages/">Template Pages</a>
+<ul>
+<li><a href="/alc/template-pages/chapter/">ALC &lt;New-ALC-Chapter-Name&gt;</a>
+<ul>
+<li><a href="/alc/template-pages/chapter/events.html">ALC &lt;New-ALC-Chapter-Name&gt; Events</a></li>
+<li><a href="/alc/template-pages/chapter/reports.html">ALC &lt;New-ALC-Chapter-Name&gt; Reports</a></li>
+<li><a href="/alc/template-pages/chapter/team-meeting.html">ALC &lt;New-ALC-Chapter-Name&gt; Team meeting</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+
+    </div>
+  </main>
+
+  <footer class="page-footer bg-secondary mt-4 pt-3">
+    <div class="container text-center text-md-left mb-3">
+      <div class="row">
+        <div class="col-md-6 mt-md-0 mt-3">
+          <h5 class="text-uppercase">Trademarks</h5>
+          <p>
+            Apache&reg;, the names of Apache projects, and the Apache logo are
+            <a href="https://www.apache.org/foundation/marks/list/">registered trademarks or trademarks</a> of the Apache
+            Software Foundation in the United States and/or other countries.
+          </p>
+        </div>
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <div class="col-md-6 mb-md-0 mb-3">
+          <h5 class="text-uppercase">Website sources</h5>
+          <p>
+  This website is generated from the <a href="https://github.com/apache/comdev-site">comdev-site repository</a>
+  
+    <br>
+    Source of this page:
+      <a href="https://github.com/apache/comdev-site/blob/main/source/alc/about.md" title="Source of this page">
+        alc/about.md
+      </a>
+  
+</p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright text-center py-3">
+      <em>Copyright &copy; 2026, <a href="https://www.apache.org/">the Apache Software Foundation</a>. Licensed under the
+      <a rel="license" href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></em>
+      <br/>
+      <span class="small">
+        <a href="https://www.apache.org/">Foundation</a> |
+        <a href="https://www.apache.org/events/current-event.html">Events</a> |
+        <a href="https://www.apache.org/licenses/">License</a> |
+        <a href="https://www.apache.org/security/">Security</a> |
+        <a href="https://www.apache.org/foundation/sponsorship.html">Sponsorship</a> |
+        <a href="https://www.apache.org/foundation/thanks.html">Thanks</a> |
+        <a href="https://privacy.apache.org/policies/privacy-policy-public.html">Privacy</a>
+      </span>
+    </div>
+  </footer>
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ALC Warsaw Events on ASF Community Development</title>
+    <link>https://community.apache.org/alc/chapters/warsaw/events/index.html</link>
+    <description>Recent content in ALC Warsaw Events on ASF Community Development</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://community.apache.org/alc/chapters/warsaw/events/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ALC Warsaw Meetup #1</title>
+      <link>https://community.apache.org/alc/chapters/warsaw/events/meetup-1.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/chapters/warsaw/events/meetup-1.html</guid>
+      <description>&lt;p&gt;The first meetup of Apache Local Community Warsaw. Due to the present situation, the meetup will be hosted in the online form on 7th of April 2020.&lt;br&gt;&#xA;The communication will be in Polish language.&lt;/p&gt;&#xA;&lt;h3 id=&#34;agenda&#34;&gt;Agenda &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#agenda&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Apache Local Community (ALC) (Tomek Urbaszek)&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;What is the ALC?&lt;/li&gt;&#xA;&lt;li&gt;What is our goal?&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The Apache Way - a reliable strategy for Open Source projects and communities (Andrzej Białecki)&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;A quarter century look at Open Source landscape&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Personal perspective: FreeBSD, a non-Apache community&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Early 00&amp;rsquo;s&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Apache HTTPD and XML processing tools at Apache&lt;/li&gt;&#xA;&lt;li&gt;Reluctant and limited acceptance by business users&lt;/li&gt;&#xA;&lt;li&gt;Personal perspective: Apache Lucene/Solr (2004-), Nutch and Hadoop&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Early 10&amp;rsquo;s&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Wide acceptance of Open Source tools by business users&lt;/li&gt;&#xA;&lt;li&gt;Incubation and mentorship at Apache (personal perspective: Apache Gora, Apache Tika)&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Now&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Benefits of The Apache Way for the projects&amp;rsquo; stability and longevity&lt;/li&gt;&#xA;&lt;li&gt;Active involvement of business users (personal examples)&lt;/li&gt;&#xA;&lt;li&gt;Navigating between community and commercial interests&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Summary &amp;amp; QA&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Welcoming Community: half-talk/half-discussion 30 mins. (Jarek Potiuk)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ALC Warsaw Meetup #2</title>
+      <link>https://community.apache.org/alc/chapters/warsaw/events/meetup-2.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/alc/chapters/warsaw/events/meetup-2.html</guid>
+      <description>&lt;p&gt;The second meetup of Apache Local Community Warsaw will happen on 2nd of June, 5 pm Warsaw time. The event will be hosted online: link (tbd).&lt;/p&gt;&#xA;&lt;p&gt;Meetup.com event: &lt;a href=&#34;https://www.meetup.com/pl-PL/alc-warsaw/events/270747914/&#34;&gt;https://www.meetup.com/pl-PL/alc-warsaw/events/270747914/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Recording:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=aBTPe5wuZto&#34;&gt;Video: https://www.youtube.com/watch?v=aBTPe5wuZto&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;agenda&#34;&gt;Agenda &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#agenda&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Apache Software Foundation values&lt;/strong&gt; (Jarek Potiuk, Apache Airflow PMC, Principal Software Engineer at Polidea) 15 min&lt;br&gt;&#xA;A short introduction to one of Apache Software Foundation values. Apache Software Foundation is defined by &lt;a href=&#34;https://www.apache.org/theapacheway/&#34;&gt;Apache Way&lt;/a&gt;. At every meeting, we discuss one of the values/aspects of Apache Way. The one chosen for the meeting is marked in bold.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
