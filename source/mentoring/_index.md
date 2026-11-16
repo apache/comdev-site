@@ -6,8 +6,8 @@ tags: ["mentoring"]
 
 # Mentoring
 
-A major job of Community Development is mentoring. Mentoring is the
-process of actively bringing someone along in a discipline - investing
+A major job of Community Development is mentoring, the
+process of actively bringing someone along in a discipline and investing
 your time into influencing the future. Time spent mentoring today will
 pay off for years to come.
 
