@@ -3,8 +3,9 @@ title: Pilot Mentoring Programme with India ICFOSS
 tags: ["history","mentoring","india"]
 ---
 
-> Note that this information is about a pilot program that
-> happened back in 2013.
+# Pilot mentoring program with India ICFOSS
+
+_This information is about a pilot program that happened in 2013._
 
 The ASF has been participating in many mentoring initiatives, and it's now
 partnering in a pilot project with India ICFOSS to provide mentoring for
@@ -12,16 +13,16 @@ undergraduate and graduate students that have interest in learning how
 to participate in open source communities at ASF.
 
 The mentoring programme is not here to teach you to write documentation or
-code. It is here to help you understand how to make a valuable contribution
+code. It will help you understand how to make a valuable contribution
 to an Apache project. You can expect to be guided through our contribution
 processes. You can also expect to get technical support with respect to
-your chosen project. You cannot expect your mentor to be a "teacher", they
+your chosen project. You cannot expect your mentor to be a "teacher", but they
 will provide enough information for you to progress within the project. You
-need to bring the confidence to take their guidance and discover the detail
+need to bring the confidence to take their guidance and discover the details
 for yourself.
 
 <span id="Schedule"></span>
-## Proposed Schedule
+## Proposed schedule
 
 | Date | Description |
 | :--- | :--- |
@@ -39,15 +40,15 @@ for yourself.
 | November 1 | Final evaluation deadline |
 
 <span id="MentoringProgramme-WorkshopMaterials"></span>
-## Workshop Materials
+## Workshop materials
 
 The slides used for the local workshop at ICFOSS headquarters in Kerala are available for [download](https://people.apache.org/~lresende/presentations/asf-icfoss-mentoring.pdf).
 
 
 <span id="MentoringProgramme-ProjectIdeas"></span>
-## Project Ideas
+## Project ideas
 
-Project ideas are jira created by possible mentors and can be viewed at:
+Project ideas are created by possible mentors and can be viewed at:
 
 
 + [2013 ICFOSS Programme Project Ideas](https://s.apache.org/icfoss2013ideas)
@@ -57,13 +58,13 @@ Project ideas are jira created by possible mentors and can be viewed at:
 <span id="MentoringProgramme-ApplyingfortheMentorProgramme"></span>
 ## Applying for the Mentor Programme
 
-Students can propose their own project ideas, or select one from the ASF provided list. After selecting the project ideas. students should create a project proposal following guidance from the **mentor** and the **project community**.
+Students can propose their own project ideas, or select one from the ASF-provided list. After selecting a project idea, students should create a project proposal following guidance from the **mentor** and the **project community**.
 
 The project proposal should have, at minimum :
 
-+ **WHAT** Detailed description of the what is being implemented as part of the project.
-+ **HOW** How the project is going to be implemented. Here you would describe your approach towards solving the problem, as well as technical details (which shows to the mentor that you have a clear idea of what needs to be implemented). High level system design diagrams is a plus.
-+ **WHEN** A detailed schedule of what tasks you are going to implement by when.
++ **WHAT** Detailed description of what is being implemented as part of the project.
++ **HOW** How the project is going to be implemented. Here you would describe your approach towards solving the problem, as well as technical details (which shows to the mentor that you have a clear idea of what needs to be implemented). High level system design diagrams are a plus.
++ **WHEN** A detailed schedule of what tasks you are going to implement, and by when.
 
 See the proposals examples below as guidance:
 
@@ -71,4 +72,4 @@ See the proposals examples below as guidance:
 + [GIMPLE to GRAPHITE transformation](http://students.fim.uni-passau.de/~grosser/gcc_soc/)
 + [Nmap Scripting Engine – Infrastructure Manager](http://opendz.org/users/tixxdz/gsoc/gsoc_2010_proposal_nmap_scripting_engine_short_version.pdf)
 
-Note that the proposals below are just examples from previous GSoC programs, and each one have different strengths. But you should always follow your mentors advice, as he is the one that is going to be judging your proposals.
+Note that these proposals are just examples from previous GSoC programs, and each has different strengths. But you should always follow your mentor's advice, as he is the one who is going to be judging your proposals.
