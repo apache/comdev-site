@@ -3,24 +3,25 @@ title: Getting started
 tags: ["newcomers"]
 ---
 
-# Where do I start?
+# Getting started
 
-Contributing to Apache projects builds real skills, grows your professional
+## Where do I start?
+
+Contributing to ASF projects builds real skills, grows your professional
 network, and gives you influence over software used by thousands of
 organizations. [Read more about why it's worth your time](/newcomers/why.html).
 
 If you have no idea where to start your engagement with an Apache project, 
 this is the page for you.
 
-### Finding the right project
+## Finding the right project
 
-The key to working on projects at Apache (and on any open source project, for that matter)
+The key to working on projects at the ASF (and on any open source project, for that matter)
 is to have a personal reason for being involved. You might be trying to solve 
-a day job issue or learn a new technology, or 
-simply want to do something fun in your free time. We don't care what your 
-motivation is; we just care about you wanting to get involved.
+a day-job issue or learn a new technology, or 
+simply want to do something fun in your free time. Whatever your motivation is, we support you wanting to get involved.
 
-If you don't have a specific technical issue to solve you might be willing to 
+If you don't have a specific technical issue to solve, you might be willing to 
 work on any project. Our [projects page][1] provides a useful index which 
 allows you to view projects alphabetically, by category or by coding language. When you view a project's detail page in this list you will find information about their 
 mailing lists, issue tracker and other resources.
@@ -34,7 +35,7 @@ start "lurking". Read the mails that come through the list. Initially you will n
 understand what people are talking about, but over time you will start to
 pick up the language, objectives, strategies, concerns and working patterns of the community.
 
-#### Finding an issue to work on
+## Finding an issue to work on
 
 If you are trying to satisfy a specific technical problem, you already know
 what you want to work on; but if you are looking for something useful to do in
@@ -53,8 +54,8 @@ these are issues the community feels are manageable for someone new to the ASF a
 
 ## Joining the community
 
-Once you have identified an issue you would like to tackle, it's time to join the 
-project's mailing list (if you haven't already) and get started.
+Once you have identified an issue you would like to tackle, it's time to introduce yourself on the 
+project's mailing list (join it first, if you haven't already) and get started. In an email to the list, explain your interest in the project and anything relevant in your background or skills, and identify the bug or feature request you would like to work on.
 
 Remember, community members are usually happy to help you, but they have to get something
 in return. The community needs to believe that you intend to contribute positively
@@ -62,13 +63,7 @@ to their work. There is a limit to how much "hand-holding" you will get, so be r
 to do some work if you expect to continue to be helped in your first foray into
 open source.
 
-Alternatively you can dive straight in and work with the community. Since you've 
-been lurking on the lists for a while, you
-should have a feel for how to get involved, so go for it.
-
-A very good first step would be to introduce yourself in an email to the list. Explain your interest in the project and anything relevant in your background or skills, and identify the bug or feature request you would like to work on.
-
-# Further Reading
+## Further reading
   * Read about our [Contributor Ladder](https://community.apache.org/contributor-ladder.html) which explains the steps towards contributing more at the ASF.
   * Answers to some common questions are in our [FAQ][5]
   * To learn more about "The Apache Way" of developing software, see the 
