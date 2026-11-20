@@ -9,13 +9,13 @@
   <meta property="og:url" content="https://community.apache.org/pmc/adding-committers.html">
   <meta property="og:site_name" content="ASF Community Development">
   <meta property="og:title" content="Adding Committers">
-  <meta property="og:description" content="Identifying potential new committers, calling a vote for their recognition as a committer and processing the relevant documents are tasks to which the whole community can contribute.
+  <meta property="og:description" content="Adding committers ¶ Identifying potential new committers, calling a vote for their recognition as a committer and processing the relevant documents are tasks to which the whole community can contribute.
 Each project has a different approach to managing new committers. This page describes a common process found in many Apache projects. It also provides draft templates for the various communications that are necessary.
-Some of the PMCs automatically make committers PMC members. The templates below have conditional [if] clauses for that.">
+Some PMCs automatically make committers PMC members at the same time. The templates below have conditional [if] clauses for that.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="pmc">
-    <meta property="article:modified_time" content="2026-04-10T23:24:08+01:00">
+    <meta property="article:modified_time" content="2026-11-20T14:17:35-04:00">
     <meta property="article:tag" content="Pmc">
     <meta property="article:tag" content="Committers">
     <meta property="og:image" content="https://community.apache.org/images/project-logos.webp">
@@ -200,20 +200,21 @@ Some of the PMCs automatically make committers PMC members. The templates below 
       
 	
 	<br><br>
-	<p>Identifying potential new committers, calling a vote for their recognition
+	<h1 id="adding-committers">Adding committers <a class="headerlink" title="Permalink" href="#adding-committers">&para;</a></h1>
+<p>Identifying potential new committers, calling a vote for their recognition
 as a committer and processing the relevant documents are tasks to which
 the whole community can contribute.</p>
 <p>Each project has a different approach to managing new committers. This page
 describes a common process found in many Apache projects. It also provides
 draft templates for the various communications that are necessary.</p>
-<p>Some of the PMCs automatically make committers PMC members. The templates below
+<p>Some PMCs automatically make committers PMC members at the same time. The templates below
 have conditional <code>[if]</code> clauses for that.</p>
 <p>If the PMC has separate process for approving PMC members, see
-<a href="/pmc/adding-pmc-members.html">new PMC member</a>.<br>
-The <a href="https://community.apache.org/contributor-ladder.html">Contributor Ladder</a> helps explain different roles.</p>
+<a href="/pmc/adding-pmc-members.html">new PMC member</a>.</p>
+<p>The <a href="https://community.apache.org/contributor-ladder.html">Contributor Ladder</a> helps explain different roles.</p>
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#tldr---inviting-a-new-committer">TL;DR - Inviting a new Committer</a></li>
+    <li><a href="#tldr---inviting-a-new-committer">TL;DR - Inviting a new committer</a></li>
     <li><a href="#guidelines-for-assessing-new-candidates-for-committership">Guidelines for assessing new candidates for committership</a>
       <ul>
         <li><a href="#ability-to-work-cooperatively-with-peers">Ability to work cooperatively with peers.</a></li>
@@ -228,20 +229,20 @@ The <a href="https://community.apache.org/contributor-ladder.html">Contributor L
         <li><a href="#discussion">Discussion</a></li>
         <li><a href="#vote">Vote</a></li>
         <li><a href="#announcing-results">Announcing results</a></li>
-        <li><a href="#committer-account-creation">Committer Account Creation</a></li>
+        <li><a href="#committer-account-creation">Committer account creation</a></li>
       </ul>
     </li>
-    <li><a href="#email-templates">Email Templates</a></li>
+    <li><a href="#email-templates">Email templates</a></li>
   </ul>
 </nav>
 <p><span id="NewCommitter-Summary"></span></p>
-<h2 id="tldr---inviting-a-new-committer">TL;DR - Inviting a new Committer <a class="headerlink" title="Permalink" href="#tldr---inviting-a-new-committer">&para;</a></h2>
+<h2 id="tldr---inviting-a-new-committer">TL;DR - Inviting a new committer <a class="headerlink" title="Permalink" href="#tldr---inviting-a-new-committer">&para;</a></h2>
 <ol>
 <li>Discuss the proposed committer (and optionally PMC member). (Use
 the <a href="/templates/committer-discuss.txt">committer discuss template</a>.)</li>
 <li>If the discussion seems to be going positively,
 call a vote. (Use the <a href="/templates/committer-vote.txt">committer vote template</a> for
-committer, the <a href="/templates/committer-pmc-vote.txt">committer + PMC member vote template</a> for
+committer; the <a href="/templates/committer-pmc-vote.txt">committer + PMC member vote template</a> for
 committer and PMC member.)</li>
 <li>Close the vote. (Use the <a href="/templates/committer-results.txt">committer vote results template</a>
 for a committer vote, or the <a href="/templates/committer-pmc-results.txt">committer + PMC member vote results
@@ -251,28 +252,23 @@ template</a> for a committer + PMC member vote.)</li>
 </ol>
 <p>If they accept, then:</p>
 <ol>
-<li>If they already have an Apache id, grant appropriate commit privileges.
+<li>If they already have an Apache ID, grant appropriate commit privileges.
 Use the Whimsy tool to update the roster via <a href="https://whimsy.apache.org/roster/committee/">Comitee Roster</a> or
 <a href="https://whimsy.apache.org/roster/ppmc/">PPMC Roster</a></li>
 <li>If they have already filed an ICLA, request creation of the committer account.
-If they need to change anything in a previously filed ICLA, wait until the new ICLA is filed,
+If they need to change anything in a previously-filed ICLA, wait until the new ICLA is filed,
 then request the account.
 <ol>
 <li>Wait until root says it is done (via an email to the private@ list, with a subject of the form: <code>[NOTICE] Account created: name (id)</code></li>
-<li>PMC Chair updates LDAP group membership which enables svn, gitbox and other access.
-If the committer uses GitHub, let them know that they are responsible for linking
-it to their ASF account.</li>
-<li>Add committer to the appropriate access groups for any services
-that your project uses, which are not tied to ASF LDAP.</li>
+<li>PMC Chair updates LDAP group membership, which enables svn, gitbox and other access. If the committer uses GitHub, let them know that they are responsible for linking it to their ASF account.</li>
+<li>Add committer to the appropriate access groups for any services that your project uses, which are not tied to ASF LDAP.</li>
 </ol>
 </li>
-<li>Notify the committer of completion. (Use the <a href="/templates/committer-welcome.txt">committer welcome
-template</a></li>
-<li>If committer is also to be a PMC member, the PMC Chair or other PMC
+<li>Notify the committer of completion. (Use the <a href="/templates/committer-welcome.txt">committer welcome_template</a></li>
+<li>If the committer is also to be a PMC member, the PMC Chair or other PMC
 members must <a href="https://whimsy.apache.org/roster/committee/">update the PMC roster</a>
-See <a href="https://www.apache.org/dev/pmc.html#newpmcmember">new PMC member</a> for more detail.</li>
-<li>Announce the new committer. (Use the <a href="/templates/committer-announce.txt">new committer announcement
-template</a>.</li>
+See <a href="https://www.apache.org/dev/pmc.html#newpmcmember">new PMC member</a> for more details.</li>
+<li>Announce the new committer. (Use the <a href="/templates/committer-announce.txt">new committer announcement template</a>.</li>
 </ol>
 <p><span id="NewCommitter-Guidelinesforassessingnewcandidatesforcommittership"></span></p>
 <h2 id="guidelines-for-assessing-new-candidates-for-committership">Guidelines for assessing new candidates for committership <a class="headerlink" title="Permalink" href="#guidelines-for-assessing-new-candidates-for-committership">&para;</a></h2>
@@ -292,29 +288,29 @@ Setting the bar too high has been the eventual death of many projects.</p>
 <p>Think of adding committers as an investment in the future of your
 project, rather than as a reward for good behavior. Committers whom you
 add today will be the backbone of your project tomorrow, or five years
-from now. New committers are the only way to ensure the long-term
-sustainability of your project. Look for contributors who seem to have
-new ways of thinking.</p>
+from now. Adding committers is the only way to ensure the long-term
+sustainability of your project.</p>
+<p>Look for contributors who seem to have new ways of thinking.</p>
 <p>Think of a committer as someone who is committed to the project, rather
-than just someone who writes code. Contributions in other areas, such as
-design, end-user support, event management, documentation, or project
+than just someone who writes code and &lsquo;commits&rsquo; it to a repository. People who make contributions in other areas, such as
+design, end-user support, event management, documentation, and project
 promotion, should also be welcomed into the project by inviting them as
 committers, and, eventually, as PMC members.</p>
 <p>Finally, if you have specific requirements for committers (such as a
-period of time, or number of contributions) we encourage you to document
+period of time contributing to the project, or number of contributions) we encourage you to document
 that on your website. People like to know what their &ldquo;career path&rdquo; is in
 a project, rather than feeling that it is merely at the whim of a
 secret committee. If you see someone who seems to be on the path, point
-them to this document, so that they know what to expect, and what they
-can do to become a better contributor. See also <a href="https://community.apache.org/contributors/becomingacommitter.html">Becoming A
-Committer</a>
+them to that document, so that they know what to expect, and what they
+can do to become a better contributor.</p>
+<p>See also <a href="https://community.apache.org/contributors/becomingacommitter.html">Becoming a committer</a>
 for general advice you might offer.</p>
 <p>The following are some points to consider when assessing a candidate&rsquo;s qualifications for committership.</p>
 <p><span id="NewCommitter-Abilitytoworkco-operativelywithpeers."></span></p>
 <h3 id="ability-to-work-cooperatively-with-peers">Ability to work cooperatively with peers. <a class="headerlink" title="Permalink" href="#ability-to-work-cooperatively-with-peers">&para;</a></h3>
 <p>How do we evaluate?</p>
 <ul>
-<li>By the interactions they have through email.</li>
+<li>By the interactions they have through email and other channels such as Slack.</li>
 <li>By how they respond to criticism.</li>
 <li>By how they participate in the group decision-making process.</li>
 </ul>
@@ -322,15 +318,15 @@ for general advice you might offer.</p>
 <h3 id="ability-to-be-a-mentor">Ability to be a mentor. <a class="headerlink" title="Permalink" href="#ability-to-be-a-mentor">&para;</a></h3>
 <p>How do we evaluate?</p>
 <ul>
-<li>By the interactions they have through email.</li>
-<li>By how clear they are and how willing they are to identify or even create appropriate background
+<li>By the interactions they have through email and other channels.</li>
+<li>By how clear they are in their guidance and how willing they are to identify or even create appropriate background
 materials.</li>
 </ul>
 <p><span id="NewCommitter-Community"></span></p>
 <h3 id="community">Community <a class="headerlink" title="Permalink" href="#community">&para;</a></h3>
 <p>How do we evaluate?</p>
 <ul>
-<li>By the interactions they have through email.</li>
+<li>By the interactions they have through email and other channels.</li>
 <li>Do they help to answer questions raised on the mailing list; do they show a helpful
 attitude and respect for other people&rsquo;s ideas?</li>
 </ul>
@@ -347,12 +343,12 @@ attitude and respect for other people&rsquo;s ideas?</li>
 <p>How do we evaluate?</p>
 <ul>
 <li>A solid general understanding of the project.</li>
-<li>Quality of discussion in email.</li>
+<li>Quality of discussion in email and on other channels.</li>
 <li>Whether their patches (where applicable) are easy to apply with only a cursory review.</li>
 </ul>
 <p><span id="NewCommitter-NewCommitterProcess"></span></p>
 <h2 id="new-committer-process">New Committer Process <a class="headerlink" title="Permalink" href="#new-committer-process">&para;</a></h2>
-<p>This section describes a typical Apache project&rsquo;s process for handling the
+<p>This section describes a typical ASF project&rsquo;s process for handling the
 vote to add a new committer. Templates mentioned in the process appear
 later in this document.</p>
 <p><span id="NewCommitter-Discussion"></span></p>
@@ -363,12 +359,12 @@ member. This is <strong>not</strong> the sole responsibility or right of the PMC
 chair.</p>
 <p>You can use <a href="/templates/committer-discuss.txt">the committer discussion template</a>
 to start the discussion</p>
-<p>We invite people to join as committers/PMC members, not GitHub ids. It is
-fine to refer to the candidate&rsquo;s GitHub id for context, but the person should
+<p>We invite <em>people</em> to join as committers/PMC members, not GitHub IDs. It is
+fine to refer to the candidate&rsquo;s GitHub ID for context, but the person should
 be referred to by their name. It is not necessary to have their full legal
-name (that will be kept private) but it is important to use their name, as
+name (that will be kept private), but it is important to use their name, as
 they refer to themselves in email. If a person is known only by their GitHub
-id, it is ok to ask them for their real name prior to holding a VOTE.</p>
+ID, it is okay to ask them for their real name prior to holding a VOTE.</p>
 <p>We need to be sure that they are committed people with whom we can work.
 They will be our peers. We will have already observed that they are
 committed to the project and graceful toward users and other developers.</p>
@@ -379,7 +375,7 @@ them enthusiastic. If we leave it too long, then we risk them becoming
 disillusioned.</p>
 <p>On the <code>private@</code> list we can each say exactly what we feel about each person,
 with no holds barred. Keep the discussion concise. The praise part can
-be done later in public. Keep in mind, however, that if the member becomes
+be done later in public. Keep in mind, however, that if the person becomes
 a PMC member later, they will have access to this discussion.</p>
 <h3 id="vote">Vote <a class="headerlink" title="Permalink" href="#vote">&para;</a></h3>
 <p>If the proposed candidate seems to be received positively by a majority
@@ -413,7 +409,7 @@ encouraged to create your own version of this template, customized to
 your particular project community.</p>
 <p>Other notes about the process are available on the main
 <a href="https://www.apache.org/dev/pmc.html#newcommitter">Apache site</a>.</p>
-<h3 id="committer-account-creation">Committer Account Creation <a class="headerlink" title="Permalink" href="#committer-account-creation">&para;</a></h3>
+<h3 id="committer-account-creation">Committer account creation <a class="headerlink" title="Permalink" href="#committer-account-creation">&para;</a></h3>
 <p>Please see the <a href="https://www.apache.org/dev/pmc.html#newcommitter">account creation instructions</a>.</p>
 <p>In summary:</p>
 <p>If the ICLA identifies the project and a valid Apache ID, and the
@@ -428,8 +424,8 @@ send a new account request. Members may use <a href="https://id.apache.org/acreq
 <p>Please supply the <a href="https://lists.apache.org/">mail archives</a> URL as
 proof of the vote results.</p>
 <p><span id="NewCommitter-EmailTemplates"></span></p>
-<h2 id="email-templates">Email Templates <a class="headerlink" title="Permalink" href="#email-templates">&para;</a></h2>
-<p>The following templates are recommended ways to phrase your email
+<h2 id="email-templates">Email templates <a class="headerlink" title="Permalink" href="#email-templates">&para;</a></h2>
+<p>We provide the following templates as examples for phrasing your email
 communications around inviting a new committer, to ensure that everyone
 understands your intent.</p>
 <ul>
