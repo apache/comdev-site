@@ -3,6 +3,8 @@ title: Adding Committers
 tags: ["pmc","committers"]
 ---
 
+# Adding committers
+
 Identifying potential new committers, calling a vote for their recognition
 as a committer and processing the relevant documents are tasks to which
 the whole community can contribute.
@@ -11,23 +13,24 @@ Each project has a different approach to managing new committers. This page
 describes a common process found in many Apache projects. It also provides
 draft templates for the various communications that are necessary.
 
-Some of the PMCs automatically make committers PMC members. The templates below
+Some PMCs automatically make committers PMC members at the same time. The templates below
 have conditional `[if]` clauses for that.
 
 If the PMC has separate process for approving PMC members, see
 [new PMC member](/pmc/adding-pmc-members.html).  
+
 The [Contributor Ladder](https://community.apache.org/contributor-ladder.html) helps explain different roles.
 
 {{% toc %}}
 
 <span id="NewCommitter-Summary"></span>
-## TL;DR - Inviting a new Committer
+## TL;DR - Inviting a new committer
 
 1. Discuss the proposed committer (and optionally PMC member). (Use
    the [committer discuss template](/templates/committer-discuss.txt).)
 1. If the discussion seems to be going positively,
    call a vote. (Use the [committer vote template](/templates/committer-vote.txt) for
-   committer, the [committer + PMC member vote template](/templates/committer-pmc-vote.txt) for
+   committer; the [committer + PMC member vote template](/templates/committer-pmc-vote.txt) for
    committer and PMC member.)
 1. Close the vote. (Use the [committer vote results template](/templates/committer-results.txt) 
    for a committer vote, or the [committer + PMC member vote results 
@@ -37,26 +40,20 @@ The [Contributor Ladder](https://community.apache.org/contributor-ladder.html) h
 
 If they accept, then:
 
-1. If they already have an Apache id, grant appropriate commit privileges.
+1. If they already have an Apache ID, grant appropriate commit privileges.
    Use the Whimsy tool to update the roster via [Comitee Roster](https://whimsy.apache.org/roster/committee/) or
    [PPMC Roster](https://whimsy.apache.org/roster/ppmc/)
 1. If they have already filed an ICLA, request creation of the committer account.
-   If they need to change anything in a previously filed ICLA, wait until the new ICLA is filed,
+   If they need to change anything in a previously-filed ICLA, wait until the new ICLA is filed,
    then request the account.
    1. Wait until root says it is done (via an email to the private@ list, with a subject of the form: `[NOTICE] Account created: name (id)`
-   1. PMC Chair updates LDAP group membership which enables svn, gitbox and other access.
-      If the committer uses GitHub, let them know that they are responsible for linking 
-      it to their ASF account.
-   1. Add committer to the appropriate access groups for any services
-      that your project uses, which are not tied to ASF LDAP.
-1. Notify the committer of completion. (Use the [committer welcome
-   template](/templates/committer-welcome.txt)
-1. If committer is also to be a PMC member, the PMC Chair or other PMC
+   1. PMC Chair updates LDAP group membership, which enables svn, gitbox and other access. If the committer uses GitHub, let them know that they are responsible for linking it to their ASF account.
+   1. Add committer to the appropriate access groups for any services that your project uses, which are not tied to ASF LDAP.
+1. Notify the committer of completion. (Use the [committer welcome_template](/templates/committer-welcome.txt)
+1. If the committer is also to be a PMC member, the PMC Chair or other PMC
    members must [update the PMC roster](https://whimsy.apache.org/roster/committee/)
-   See [new PMC member](https://www.apache.org/dev/pmc.html#newpmcmember) for more detail.
-1. Announce the new committer. (Use the [new committer announcement
-  template](/templates/committer-announce.txt).
-
+   See [new PMC member](https://www.apache.org/dev/pmc.html#newpmcmember) for more details.
+1. Announce the new committer. (Use the [new committer announcement template](/templates/committer-announce.txt).
 
 <span id="NewCommitter-Guidelinesforassessingnewcandidatesforcommittership"></span>
 ## Guidelines for assessing new candidates for committership
@@ -80,24 +77,26 @@ Setting the bar too high has been the eventual death of many projects.
 Think of adding committers as an investment in the future of your
 project, rather than as a reward for good behavior. Committers whom you
 add today will be the backbone of your project tomorrow, or five years
-from now. New committers are the only way to ensure the long-term
-sustainability of your project. Look for contributors who seem to have
-new ways of thinking.
+from now. Adding committers is the only way to ensure the long-term
+sustainability of your project. 
+
+Look for contributors who seem to have new ways of thinking.
 
 Think of a committer as someone who is committed to the project, rather
-than just someone who writes code. Contributions in other areas, such as
-design, end-user support, event management, documentation, or project
+than just someone who writes code and 'commits' it to a repository. People who make contributions in other areas, such as
+design, end-user support, event management, documentation, and project
 promotion, should also be welcomed into the project by inviting them as 
 committers, and, eventually, as PMC members.
 
 Finally, if you have specific requirements for committers (such as a
-period of time, or number of contributions) we encourage you to document
+period of time contributing to the project, or number of contributions) we encourage you to document
 that on your website. People like to know what their "career path" is in
 a project, rather than feeling that it is merely at the whim of a
 secret committee. If you see someone who seems to be on the path, point
-them to this document, so that they know what to expect, and what they
-can do to become a better contributor. See also [Becoming A
-Committer](https://community.apache.org/contributors/becomingacommitter.html)
+them to that document, so that they know what to expect, and what they
+can do to become a better contributor. 
+
+See also [Becoming a committer](https://community.apache.org/contributors/becomingacommitter.html)
 for general advice you might offer.
 
 The following are some points to consider when assessing a candidate's qualifications for committership.
@@ -106,7 +105,7 @@ The following are some points to consider when assessing a candidate's qualifica
 ### Ability to work cooperatively with peers.
 How do we evaluate?
 
-  - By the interactions they have through email.
+  - By the interactions they have through email and other channels such as Slack.
   - By how they respond to criticism.
   - By how they participate in the group decision-making process.
 
@@ -114,15 +113,15 @@ How do we evaluate?
 ### Ability to be a mentor.
 How do we evaluate?
 
-  - By the interactions they have through email.
-  - By how clear they are and how willing they are to identify or even create appropriate background
+  - By the interactions they have through email and other channels.
+  - By how clear they are in their guidance and how willing they are to identify or even create appropriate background
 materials.
 
 <span id="NewCommitter-Community"></span>
 ### Community
 How do we evaluate?
 
-  - By the interactions they have through email.
+  - By the interactions they have through email and other channels.
   - Do they help to answer questions raised on the mailing list; do they show a helpful
 attitude and respect for other people's ideas?
 
@@ -139,13 +138,13 @@ How do we evaluate?
 How do we evaluate?
 
   - A solid general understanding of the project.
-  - Quality of discussion in email.
+  - Quality of discussion in email and on other channels.
   - Whether their patches (where applicable) are easy to apply with only a cursory review.
 
 <span id="NewCommitter-NewCommitterProcess"></span>
 ## New Committer Process
 
-This section describes a typical Apache project's process for handling the
+This section describes a typical ASF project's process for handling the
 vote to add a new committer. Templates mentioned in the process appear
 later in this document.
 
@@ -160,12 +159,12 @@ chair.
 You can use [the committer discussion template](/templates/committer-discuss.txt)
 to start the discussion
 
-We invite people to join as committers/PMC members, not GitHub ids. It is
-fine to refer to the candidate's GitHub id for context, but the person should
+We invite _people_ to join as committers/PMC members, not GitHub IDs. It is
+fine to refer to the candidate's GitHub ID for context, but the person should
 be referred to by their name. It is not necessary to have their full legal
-name (that will be kept private) but it is important to use their name, as
+name (that will be kept private), but it is important to use their name, as
 they refer to themselves in email. If a person is known only by their GitHub
-id, it is ok to ask them for their real name prior to holding a VOTE.
+ID, it is okay to ask them for their real name prior to holding a VOTE.
 
 We need to be sure that they are committed people with whom we can work.
 They will be our peers. We will have already observed that they are
@@ -179,7 +178,7 @@ disillusioned.
 
 On the `private@` list we can each say exactly what we feel about each person,
 with no holds barred. Keep the discussion concise. The praise part can
-be done later in public. Keep in mind, however, that if the member becomes
+be done later in public. Keep in mind, however, that if the person becomes
 a PMC member later, they will have access to this discussion.
 
 ### Vote
@@ -229,7 +228,7 @@ your particular project community.
 Other notes about the process are available on the main 
 [Apache site](https://www.apache.org/dev/pmc.html#newcommitter).
 
-### Committer Account Creation
+### Committer account creation
 Please see the [account creation instructions](https://www.apache.org/dev/pmc.html#newcommitter).
 
 In summary:
@@ -250,9 +249,9 @@ Please supply the [mail archives](https://lists.apache.org/) URL as
 proof of the vote results.
 
 <span id="NewCommitter-EmailTemplates"></span>
-## Email Templates
+## Email templates
 
-The following templates are recommended ways to phrase your email
+We provide the following templates as examples for phrasing your email
 communications around inviting a new committer, to ensure that everyone
 understands your intent.
 
