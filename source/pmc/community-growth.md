@@ -3,6 +3,8 @@ title: Community Growth
 tags: ["pmc","committers","community"]
 ---
 
+# Community growth
+
 Building a thriving project community requires intentional effort.
 This guide provides practical strategies to attract contributors to your
 project, and engage them in it.
