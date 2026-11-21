@@ -3,6 +3,8 @@ title: New PMC Members
 tags: ["pmc","election"]
 ---
 
+# For new PMC members
+
 Congratulations on your invitation to join a project PMC! Here's what
 you should do next.
 
