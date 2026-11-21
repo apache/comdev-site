@@ -4,6 +4,8 @@ url: /speakers/
 tags: ["speakers","conferences"]
 ---
 
+# Speaking about the ASF, our projects, and our community
+
 If you are looking for speakers for an event, or are a speaker looking for 
 materials, this is the place for you.
 
@@ -13,7 +15,7 @@ If you are seeking to organise an ASF-branded event, you must ensure your activi
 conform to the
 [Third Party Event Branding Policy](https://www.apache.org/foundation/marks/events.html). 
 
-Once you have verified you are in conformance, contact dev@community.apache.org to get your event added to
+Once you have verified you are in conformance, contact `dev@community.apache.org` to get your event added to
 the [events calendar](https://events.apache.org/).
 
 ## Speakers on ASF topics
