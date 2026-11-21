@@ -11,6 +11,11 @@ provides a wide array of information, [FAQs](/newbiefaq.html), and help to newco
 
 {{% toc %}}
 
+## History
+ComDev began in 2009 with the same structure that top-level code projects (TLPs) have: a Project Management Committee with a chair (who was also an ASF VP) and a structure for welcoming and incorporating committers to the project. Read the <a href="https://community.apache.org/history/boardresolution.html" target="_blank">Board resolution</a> creating the project.
+
+In 2026, the Board decided to "continue and expand this work as a Foundation support service, with clear officer accountability and the ability to request and manage an operating budget". This involved dissolving the existing Community Development Project and creating a VP-Community Development who is under the Board's direction and who reports directly to the President. Those who served on the ComDev PMC are continuing their contributions to ComDev's programs and services. Read <a href="https://community.apache.org/history/boardresolutionending.html" target="_blank">the full resolution</a>.
+
 ## Mentoring for individuals and help getting around
 - [GSoC](/gsoc/)
 - [Contributors Guide](/newcomers/)
