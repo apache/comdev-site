@@ -3,6 +3,8 @@ title: PMC Chair
 tags: ["pmc","chair"]
 ---
 
+# PMC Chair
+
 The PMC Chair serves as the project's voice to the board and handles
 quarterly reporting. 
 
