@@ -4,10 +4,11 @@ url: /workinggroups/
 tags: ["wg","workinggroups"]
 ---
 
-Working groups are informal groups who are working on specific tasks or
+# Working groups
+
+Working groups are informal groups that focus on specific tasks or
 topics. Each group has a mission, and operates independently, reporting
-back to the PMC on any activities that it wishes to make visible to the
-Membership.
+back to the VP-ComDev on significant activities.
 
 Working group definitions and other documents are contained in the
 [comdev-working-groups GitHub
@@ -19,11 +20,11 @@ emailing
 and introducing yourself, or by the mechanism defined in the individual
 WG's README.
 
-Current proposed working groups include:
+## Current and proposed working groups
 
-* [wg-advisors](https://github.com/apache/comdev-working-groups/tree/main/wg-advisors) - Advising PMCs on best practice
+* [wg-advisors](https://github.com/apache/comdev-working-groups/tree/main/wg-advisors) - Advising PMCs on best practices
 * [wg-badging](https://github.com/apache/comdev-working-groups/tree/main/wg-badging) - Creation and maintenance of an accomplishment badging system
-* [wg-social-media](https://github.com/apache/comdev-working-groups/tree/main/wg-social-media) - Social media
+* [wg-social-media](https://github.com/apache/comdev-working-groups/tree/main/wg-social-media) - Messaging through social media
 * [wg-website](https://github.com/apache/comdev-working-groups/tree/main/wg-website) - Maintenance of the website
 * [wg-welcome](https://github.com/apache/comdev-working-groups/tree/main/wg-welcome) - Helping projects, and the ASF in general, be more welcoming
 
