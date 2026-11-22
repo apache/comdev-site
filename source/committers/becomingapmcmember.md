@@ -13,7 +13,7 @@ ladder](/contributor-ladder.html). This document describes what PMCs
 generally look for when considering a committer for PMC membership, and
 how you can position yourself for that invitation.
 
-As with [becoming a committer](becomingacommitter.html), there are no
+As with [becoming a committer](/contributors/becomingacommitter.html), there are no
 guarantees. Each project sets its own bar, and the existing PMC members make the decision to invite people. But ASF projects consistently value the behaviors described here.
 
 {{% toc %}}
@@ -172,7 +172,7 @@ come.
 ## Further reading
 
 - [Contributor Ladder](/contributor-ladder.html)
-- [Becoming a Committer](becomingacommitter.html)
+- [Becoming a Committer](/contributors/becomingacommitter.html)
 - [ASF Governance: PMCs](https://www.apache.org/foundation/governance/pmcs.html)
 - [PMC Guide](https://www.apache.org/dev/pmc.html)
 - [Adding PMC Members (process for existing PMCs)](https://community.apache.org/pmc/adding-pmc-members.html)
