@@ -51,7 +51,7 @@ Uli
 1. Update our GSoC pages at [https://community.apache.org/gsoc/](/gsoc/) with the
 current year's timeline and at [https://community.apache.org/gsoc/guide-to-being-a-mentor.html](guide-to-being-a-mentor.html).
 1. Apply for the ASF to be a mentoring organization for GSoC. I faintly remember that they wanted to know some stats like how often we have
-already participated and what the number of students was last year. I believe the ASF has participated since GSoC's inception in 2005. Consult [participation statistics](/gsoc/experiences.html), although the page may not be up to date.
+already participated and what the number of students was last year. I believe the ASF has participated since GSoC's inception in 2005. Consult [participation statistics](/gsoc/experiences/), although the page may not be up to date.
 1. Once our application is accepted, write a press release and
 request `press@` to send it out. We don't have a template yet, so work
 with the `dev@community.apache.org` and `press@apache.org` lists to get one
