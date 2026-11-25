@@ -20,7 +20,7 @@ started.
 ## Communication
 
 To communicate with this group, please subscribe to the 
-[ComDev mailing list]. Messages about this WG should use a [WG: welcome]
+[ComDev mailing list]. Messages about this WG should use a [WG: ambassadors]
 subject-line tag, so that they are easily filterable and distinguishable
 from other mailing list traffic.
 
