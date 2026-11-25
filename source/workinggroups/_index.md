@@ -6,26 +6,24 @@ tags: ["wg","workinggroups"]
 
 # Working groups
 
-Working groups are informal groups that focus on specific tasks or
-topics. Each group has a mission, and operates independently, reporting
-back to the VP-ComDev on significant activities.
+Working groups are informal teams that focus on specific tasks or topics to support community development within the ASF. Each group has a mission, and operates independently, reporting on a set schedule to the VP-ComDev.
 
+<!--
 Working group definitions and other documents are contained in the
 [comdev-working-groups GitHub
 repo](https://github.com/apache/comdev-working-groups).
+-->
 
-You are encouraged to participate in any WG that interests you, by
+You are welcome to participate in any WG that interests you, by
 emailing
 [dev@community.apache.org](https://lists.apache.org/list.html?dev@community.apache.org)
 and introducing yourself, or by the mechanism defined in the individual
 WG's README.
 
-## Current and proposed working groups
+## Active working groups
 
-* [wg-advisors](https://github.com/apache/comdev-working-groups/tree/main/wg-advisors) - Advising PMCs on best practices
-* [wg-badging](https://github.com/apache/comdev-working-groups/tree/main/wg-badging) - Creation and maintenance of an accomplishment badging system
-* [wg-social-media](https://github.com/apache/comdev-working-groups/tree/main/wg-social-media) - Messaging through social media
-* [wg-website](https://github.com/apache/comdev-working-groups/tree/main/wg-website) - Maintenance of the website
-* [wg-welcome](https://github.com/apache/comdev-working-groups/tree/main/wg-welcome) - Helping projects, and the ASF in general, be more welcoming
+* [wg-ambassadors](wg-ambassasors/README.html) - Supporting a network of project ambassadors to amplify the news about their products and and services.
+* [wg-website](wg-website.html): Maintenance and expansion of the ComDev website.
+
 
 
