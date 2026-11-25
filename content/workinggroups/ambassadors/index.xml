@@ -7,5 +7,12 @@
     <generator>Hugo</generator>
     <language>en</language>
     <atom:link href="https://community.apache.org/workinggroups/ambassadors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project Ambassadors proposal</title>
+      <link>https://community.apache.org/workinggroups/ambassadors/proposal.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/workinggroups/ambassadors/proposal.html</guid>
+      <description>&lt;h1 id=&#34;project-ambassadors-proposal&#34;&gt;Project Ambassadors proposal &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#project-ambassadors-proposal&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;&lt;em&gt;Identifying and supporting community champions within Apache projects&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-opportunity&#34;&gt;The opportunity &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#the-opportunity&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Most Apache projects have no designated &amp;ldquo;face&amp;rdquo; for community building. When someone outside a project wants to know how to engage — whether they&amp;rsquo;re a new contributor or an event organizer seeking speakers — there&amp;rsquo;s no clear point of contact beyond the generic &lt;code&gt;dev@&lt;/code&gt; mailing list. The people who actually do community work inside projects are invisible, unsupported, and unconnected to each other.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
