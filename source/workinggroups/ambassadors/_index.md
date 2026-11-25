@@ -8,9 +8,7 @@ tags: ["wg","workinggroups","ambassadors"]
 
 This working group provides tools, documentation, guidance, and support for people who want to effectively promote and represent their ASF project and its products to the world.
 
-_further details here_
-
-This includes, but is not limited to:
+Here is [the proposal](proposal.html) we are working from.
 
 ## Status
 
