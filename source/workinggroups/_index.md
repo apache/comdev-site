@@ -22,8 +22,8 @@ WG's README.
 
 ## Active working groups
 
-* [ambassadors](/ambassadors): Supporting a network of project ambassadors to amplify the news about their products and services.
-* [website](/website): Maintenance and expansion of the ComDev website.
+* [ambassadors](/ambassadors/): Supporting a network of project ambassadors to amplify the news about their products and services.
+* [website](/website/): Maintenance and expansion of the ComDev website.
 
 
 
