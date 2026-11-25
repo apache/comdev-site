@@ -1,6 +1,6 @@
 {{ $taxonomy := "tags" }} {{ with .Param $taxonomy }}
 <ul class="tags-list">
-  {{ range $index, $tag := . }}
+  {{ range $tag := sort (apply . "lower" ".") }}
   {{ with $.Site.GetPage (printf "/%s/%s" $taxonomy $tag) -}}
   <li>
     <a href="{{ .Permalink }}">{{ $tag | urlize }}</a>

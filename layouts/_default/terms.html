@@ -1,10 +1,47 @@
 {{ define "main" }}
+<style>
+  .tag-jump { display: flex; flex-wrap: wrap; gap: .25rem; margin: 1rem 0 1.5rem; }
+  .tag-jump a { display: inline-block; min-width: 2rem; padding: .25rem .4rem; text-align: center;
+                border: 1px solid #dee2e6; border-radius: .25rem; text-decoration: none; font-weight: 600; }
+  .tag-jump a:hover { background: #f8f9fa; }
+  .tag-index { column-width: 14rem; column-gap: 2rem; }
+  .tag-group { break-inside: avoid; margin-bottom: 1.25rem; }
+  .tag-group h3 { font-size: 1.25rem; border-bottom: 2px solid #d22128; padding-bottom: .15rem; margin: 0 0 .4rem; }
+  .tag-group ul { list-style: none; padding: 0; margin: 0; }
+  .tag-group li { padding: .1rem 0; }
+  .tag-group .count { color: #6c757d; font-size: .85em; }
+</style>
+
 <h2>All tags</h2>
-<ul>
-    {{ range sort .Pages }}
-        <li>
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
-        </li>
+
+{{ $terms := .Data.Terms.Alphabetical }}
+
+{{/* Letter jump bar */}}
+<nav class="tag-jump" aria-label="Jump to letter">
+  {{ $seen := slice }}
+  {{ range $terms }}
+    {{ $l := upper (substr .Page.Title 0 1) }}
+    {{ if not (in $seen $l) }}
+      {{ $seen = $seen | append $l }}
+      <a href="#tags-{{ $l }}">{{ $l }}</a>
     {{ end }}
-</ul>
+  {{ end }}
+</nav>
+
+{{/* Grouped, multi-column index */}}
+<div class="tag-index">
+  {{ $prev := "" }}
+  {{ range $terms }}
+    {{ $l := upper (substr .Page.Title 0 1) }}
+    {{ if ne $l $prev }}
+      {{ if ne $prev "" }}</ul></section>{{ end }}
+      <section class="tag-group" id="tags-{{ $l }}">
+        <h3>{{ $l }}</h3>
+        <ul>
+      {{ $prev = $l }}
+    {{ end }}
+          <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> <span class="count">({{ .Count }})</span></li>
+  {{ end }}
+  {{ if ne $prev "" }}</ul></section>{{ end }}
+</div>
 {{ end }}
