@@ -9,6 +9,8 @@ tags: ["faq"]
 The Community Development (ComDev) project 
 provides a wide array of information, [FAQs](/newbiefaq.html), and help to newcomers and existing committers, and maintains a number of [helpful tools](#getcode).
 
+ComDev participants meet informally in [office hours](officehours.html). Those with questions or suggestions related to community development are welcome to join the conversation.
+
 {{% toc %}}
 
 ## History
