@@ -18,7 +18,7 @@
     <lastmod>2026-11-13T12:53:04-05:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/tags/index.html</loc>
-    <lastmod>2026-11-25T08:54:13-04:00</lastmod>
+    <lastmod>2026-11-25T09:14:21-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/blog/2026_10_birthdays.html</loc>
     <lastmod>2026-10-19T14:29:59-04:00</lastmod>
@@ -603,7 +603,7 @@
     <lastmod>2026-11-09T11:02:01-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/tags/committers.html</loc>
-    <lastmod>2026-11-21T14:26:45-04:00</lastmod>
+    <lastmod>2026-11-25T09:12:01-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/tags/communication.html</loc>
     <lastmod>2026-11-14T10:58:14-04:00</lastmod>
@@ -615,7 +615,7 @@
     <lastmod>2026-11-08T15:38:47-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/about/</loc>
-    <lastmod>2026-11-21T10:13:45-04:00</lastmod>
+    <lastmod>2026-11-25T09:14:21-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/pmc/community-growth.html</loc>
     <lastmod>2026-11-21T14:26:45-04:00</lastmod>
@@ -684,7 +684,7 @@
     <lastmod>2026-11-09T09:58:12-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/tags/faq.html</loc>
-    <lastmod>2026-11-21T10:13:45-04:00</lastmod>
+    <lastmod>2026-11-25T09:14:21-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/companies/sponsor.html</loc>
     <lastmod>2026-11-11T15:53:53-04:00</lastmod>
@@ -807,7 +807,7 @@
     <lastmod>2026-11-21T14:27:36-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/tags/newcomers.html</loc>
-    <lastmod>2026-11-17T10:53:30-04:00</lastmod>
+    <lastmod>2026-11-25T09:12:01-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/tags/non-code.html</loc>
     <lastmod>2026-11-14T14:10:25-04:00</lastmod>
@@ -817,6 +817,12 @@
   </url><url>
     <loc>https://community.apache.org/tags/non-technical.html</loc>
     <lastmod>2026-11-14T14:10:25-04:00</lastmod>
+  </url><url>
+    <loc>https://community.apache.org/about/officehours.html</loc>
+    <lastmod>2026-11-25T09:12:01-04:00</lastmod>
+  </url><url>
+    <loc>https://community.apache.org/tags/officehours.html</loc>
+    <lastmod>2026-11-25T09:12:01-04:00</lastmod>
   </url><url>
     <loc>https://community.apache.org/tags/officers.html</loc>
     <lastmod>2026-11-08T15:30:57-04:00</lastmod>

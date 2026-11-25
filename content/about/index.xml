@@ -7,5 +7,12 @@
     <generator>Hugo</generator>
     <language>en</language>
     <atom:link href="https://community.apache.org/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Office hours</title>
+      <link>https://community.apache.org/about/officehours.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://community.apache.org/about/officehours.html</guid>
+      <description>&lt;h1 id=&#34;office-hours&#34;&gt;Office hours &lt;a class=&#34;headerlink&#34; title=&#34;Permalink&#34; href=&#34;#office-hours&#34;&gt;&amp;para;&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;ComDev participants meet informally for &amp;lsquo;office hours&amp;rsquo; to discuss progress and blockers, identify opportunities for improving our understanding of community-building, and keep up with each other&amp;rsquo;s successes and challenges. Anyone with questions or suggestions related to ASF community-building is welcome to join the conversation.&lt;/p&gt;&#xA;&lt;p&gt;In 2026, office hours are on &lt;strong&gt;Wednesdays at 1400 UTC&lt;/strong&gt;, on the &lt;code&gt;comdev&lt;/code&gt; channel in the &lt;a href=&#34;https://the-asf.slack.com/&#34; target=&#34;_blank&#34;&gt;the-asf&lt;/a&gt; space on &lt;strong&gt;Slack&lt;/strong&gt;. Log in to Slack using your ASF email address, if you have one.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
