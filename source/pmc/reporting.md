@@ -85,9 +85,7 @@ Can't remember everything that happened this quarter? The
 [project_activity.py](https://github.com/apache/comdev/tree/main/project-activity)
 script might help.
 
-<!-- TODO
-* Add links to recommended/good reports to emulate.
--->
+Two recent reports that make good models are the [Apache Calcite](https://whimsy.apache.org/board/minutes/Calcite.html#2026-10-21) and [Apache Parquet](https://whimsy.apache.org/board/minutes/Parquet.html#2026-10-21) reports from the October 2026 board meeting. Both state the project status and any issues for the board plainly, name new committers and PMC members, and list recent releases. Calcite also describes community health with concrete numbers.
 
 ## Submitting the report
 
