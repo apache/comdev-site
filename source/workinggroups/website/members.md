@@ -1,6 +1,6 @@
 # Membership
 
-The WG has not yet established any formal membership, or criteria for
+The WG has not yet established any criteria for
 membership.
 
 The following people have expressed interest in participating in this
