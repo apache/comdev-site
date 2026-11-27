@@ -26,12 +26,14 @@ from other mailing list traffic.
 ## Membership
 
 Anyone with ideas and a willingness to work collaboratively with us is
-welcome to participate in this effort. Join the 
-[ComDev mailing list], introduce yourself, and tell us what you'd like
-to work on.
+welcome to participate in this effort. Join the [ComDev mailing list], introduce yourself, and tell us what you'd like
+to work on. Then add yourself to the list of [members](members.html) of this working group.
 
 ## What we're working on
 
-A summary of what we are doing will appear here.
+- Review existing web pages for visible titles and updates to contents and layout
+- Review the other ComDev ropos, and `apache.org/dev`, for material that should move to this site
+- Review the website to see whether the [personas](personas.html) can find what they need when visiting the site
+- Review menu options and navigation
 
 [ComDev mailing list]: https://lists.apache.org/list.html?dev@community.apache.org
